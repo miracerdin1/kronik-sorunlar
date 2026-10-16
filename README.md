@@ -20,7 +20,7 @@ Her model `data/<marka>/<model>.json` dosyasında durur; tipler `src/lib/tipler.
 
 Yeni bir JSON dosyası eklemek sayfaları, seçim formunu ve `sitemap.xml`'i otomatik günceller.
 
-Canlı adres için `NEXT_PUBLIC_SITE_URL` ortam değişkenini ayarlayın.
+Vercel'de canlı adres otomatik algılanır; özel alan adı bağlarsanız `NEXT_PUBLIC_SITE_URL` ortam değişkenini ayarlayın.
 
 ## Doğrulama kuralı
 

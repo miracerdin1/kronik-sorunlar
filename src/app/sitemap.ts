@@ -1,7 +1,6 @@
 import type { MetadataRoute } from "next";
+import { SITE_URL as SITE } from "@/lib/site";
 import { tumModeller } from "@/lib/veri";
-
-const SITE = process.env.NEXT_PUBLIC_SITE_URL ?? "https://example.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const modeller = tumModeller();
