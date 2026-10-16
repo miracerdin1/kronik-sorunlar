@@ -3,6 +3,9 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { markaModelleri, tumModeller } from "@/lib/veri";
 
+// Yalnızca veride olan araçların sayfaları üretilir; diğer adresler 404 döner.
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return [...new Set(tumModeller().map((m) => m.markaSlug))].map((marka) => ({ marka }));
 }

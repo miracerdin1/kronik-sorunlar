@@ -20,7 +20,7 @@ Her model `data/<marka>/<model>.json` dosyasında durur; tipler `src/lib/tipler.
 
 Yeni bir JSON dosyası eklemek sayfaları, seçim formunu ve `sitemap.xml`'i otomatik günceller.
 
-Vercel'de canlı adres otomatik algılanır; özel alan adı bağlarsanız `NEXT_PUBLIC_SITE_URL` ortam değişkenini ayarlayın.
+Site statik olarak `out/` klasörüne derlenir ve Netlify'da yayınlanır (`netlify.toml`). Canlı adres Netlify'ın `URL` değişkeninden otomatik alınır; özel alan adı için `NEXT_PUBLIC_SITE_URL` ayarlanabilir.
 
 ## Doğrulama kuralı
 

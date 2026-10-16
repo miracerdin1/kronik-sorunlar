@@ -1,9 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  cacheComponents: true,
-  partialPrefetching: true,
+  // Site tamamen derleme anında üretilir; Netlify gibi statik barındırmada `out/` klasörü yayınlanır.
+  output: "export",
+  trailingSlash: true,
   turbopack: {
     rules: {
       "*.css": {

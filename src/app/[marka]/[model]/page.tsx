@@ -4,6 +4,9 @@ import { notFound } from "next/navigation";
 import { modelBul, tumModeller } from "@/lib/veri";
 import { yakitAdi } from "@/lib/tipler";
 
+// Yalnızca veride olan araçların sayfaları üretilir; diğer adresler 404 döner.
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return tumModeller().map((m) => ({ marka: m.markaSlug, model: m.modelSlug }));
 }

@@ -5,6 +5,9 @@ import { Suspense } from "react";
 import SorunListesi from "@/components/SorunListesi";
 import { modelBul, tumModeller } from "@/lib/veri";
 
+// Yalnızca veride olan araçların sayfaları üretilir; diğer adresler 404 döner.
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return tumModeller().flatMap((m) => m.nesiller.map((n) => ({ marka: m.markaSlug, model: m.modelSlug, nesil: n.slug })));
 }
