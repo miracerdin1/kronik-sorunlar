@@ -1,0 +1,180 @@
+{
+  "marka": "Ford",
+  "markaSlug": "ford",
+  "model": "Kuga",
+  "modelSlug": "kuga",
+  "nesiller": [
+    {
+      "slug": "kuga-2",
+      "ad": "Kuga (2. nesil)",
+      "yillar": [
+        2013,
+        2019
+      ],
+      "not": "2016'da makyaj aldı. Benzinli otomatikler 6 ileri tork konvertörlü, dizel otomatikler 6 ileri PowerShift (ıslak çift kavrama) şanzımanla sunuldu.",
+      "motorlar": [
+        {
+          "id": "1-6-ecoboost",
+          "ad": "1.6 EcoBoost",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-5-ecoboost",
+          "ad": "1.5 EcoBoost",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-5-tdci",
+          "ad": "1.5 TDCi",
+          "yakit": "dizel"
+        },
+        {
+          "id": "2-0-tdci",
+          "ad": "2.0 TDCi",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "1-6-ecoboost-silindir-kapagi-catlamasi",
+          "baslik": "1.6 EcoBoost'ta hararet ve silindir kapağı çatlaması",
+          "parca": "Silindir kapağı / soğutma sistemi",
+          "belirtiler": "Hararet uyarısı, özellikle uzun yolda ve yokuşta yükselen motor sıcaklığı, soğutma suyu eksilmesi; ileri aşamada kapaktan yağ sızıntısı ve motor bölmesinde yangın riski.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-ecoboost"
+          ],
+          "not": "Soğutma sıvısının yetersiz dolaşımı kapağın lokal aşırı ısınmasına yol açıyor. 2012-2014 üretimi araçlar için birçok pazarda geri çağırma yapıldı (soğutma suyu seviye algılamasının iyileştirilmesi); araçta işlemin yapılıp yapılmadığı kontrol edilmeli.",
+          "kaynaklar": [
+            "https://goauto.com.au/amp/24417/ford-issues-global-recall-for-1-6-litre-turbo-engine.html",
+            "https://www.parkers.co.uk/ford/kuga/estate/review/",
+            "https://carverif.fr/pages/modele-occasion/ford-kuga-ii-2013-2019",
+            "https://www.carmag.co.za/technical_post/technical-is-the-15-litre-ford-kuga-fire-safe/",
+            "https://www.sikayetvar.com/ford/ford-kuga-2013-modelinde-surekli-motor-harareti-cozulmedi",
+            "https://www.sikayetvar.com/ford/ford-kugada-surekli-hararet-sorunu-ve-parca-temini-eksikligi"
+          ]
+        },
+        {
+          "id": "1-5-ecoboost-su-eksiltme-conta",
+          "baslik": "1.5 EcoBoost'ta su eksiltme ve silindir kapak contası yanması",
+          "parca": "Silindir kapak contası / genleşme kabı",
+          "belirtiler": "Görünür kaçak olmadan soğutma suyunun azalması, hararet uyarısı, tekleme; ileri aşamada conta yanması ve motorun yenilenmesi ya da değişimi gerekebiliyor.",
+          "km": "112.500",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-ecoboost"
+          ],
+          "not": "Erken üretim 1.5 EcoBoost'larda arızalı genleşme kapları da değiştirildi. Soğutma suyunun düzenli kontrolü, yağ filtresinde beyaz tortu aranması önerilir. TL tutarı tek bir 2015 model kullanıcı şikayetindeki tahmine dayanıyor.",
+          "kaynaklar": [
+            "https://www.parkers.co.uk/ford/kuga/estate/review/",
+            "https://www.fiches-auto.fr/fiabilite-ford/fiabilite-455-pannes-ford-kuga-2.php",
+            "https://carverif.fr/pages/modele-occasion/ford-kuga-ii-2013-2019",
+            "https://www.sikayetvar.com/ford/ford-kuga-15-ecoboost-conta-yanigi-ve-yuksek-tamir-masrafi-icin-destek-talebi",
+            "https://www.araclo.com/forum/threads/ford-kuga-1.5-ecoboost-motorlarda-su-eksiltme-sorunu-yasayan-var-mi"
+          ]
+        },
+        {
+          "id": "powershift-sanziman-arizasi",
+          "baslik": "PowerShift çift kavramalı şanzıman arızası",
+          "parca": "PowerShift şanzıman (kavrama paketi / iç parçalar)",
+          "belirtiler": "Kalkışta ve vites geçişlerinde titreme, sert ya da gecikmeli geçişler, kayma ve vites seçme hataları; ağır durumlarda şanzıman ünitesinin komple değişimi gerekiyor.",
+          "km": "110.000-135.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-0-tdci",
+            "1-5-tdci"
+          ],
+          "sanziman": "6 ileri PowerShift (ıslak çift kavrama) otomatik",
+          "not": "Şanzıman yağı ve filtresinin düzenli değiştirilmemesi arızayı hızlandırıyor. Makyaj öncesi kutularda iç plastik tutucuların kırılması bildiriliyor. 1.5 TDCi'de PowerShift yalnızca bazı model yıllarında var.",
+          "kaynaklar": [
+            "https://www.parkers.co.uk/ford/kuga/estate/review/",
+            "https://www.cargurus.co.uk/Cars/2012-Ford-Kuga-Generation-Overview-mg16",
+            "https://www.fiches-auto.fr/fiabilite-ford/fiabilite-455-pannes-ford-kuga-2.php",
+            "https://carverif.fr/pages/modele-occasion/ford-kuga-ii-2013-2019",
+            "https://www.caradisiac.com/fiabilite-du-ford-kuga-2-la-maxi-fiche-occasion-de-caradisiac-112283.htm"
+          ]
+        },
+        {
+          "id": "dizel-dpf-egr-ariza-lambasi",
+          "baslik": "Dizellerde DPF, EGR ve sensör kaynaklı arıza lambası / güç kaybı",
+          "parca": "Partikül filtresi (DPF), EGR, fark basınç sensörü",
+          "belirtiler": "Motor arıza lambası ve 'motor arızası' uyarısı, emniyet moduna geçme ve güç kaybı; kısa şehir içi kullanımda DPF rejenerasyonunun tamamlanamaması ve yağ seviyesinin yükselmesi.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-0-tdci",
+            "1-5-tdci"
+          ],
+          "not": "Ekim 2014'te 2.0 TDCi için hava giriş değerlerinden kaynaklanan yanlış uyarıya karşı motor beyni yazılım güncellemesi yapıldı.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-ford/fiabilite-455-pannes-ford-kuga-2.php",
+            "https://www.caradisiac.com/fiabilite-du-ford-kuga-2-la-maxi-fiche-occasion-de-caradisiac-112283.htm",
+            "https://carverif.fr/pages/modele-occasion/ford-kuga-ii-2013-2019",
+            "https://www.parkers.co.uk/ford/kuga/estate/review/",
+            "https://www.carbuyer.co.uk/reviews/ford/kuga/suv/62527/review/owner-reviews"
+          ]
+        },
+        {
+          "id": "2-0-tdci-enjektor-arizasi",
+          "baslik": "2.0 TDCi'de enjektör arızası",
+          "parca": "Yakıt enjektörleri",
+          "belirtiler": "Hızlanırken tıkırtı, güç kaybı, soğuk çalıştırmada düzensiz rölanti ve ani yakıt tüketimi artışı; çoğu zaman birden fazla enjektör değişiyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-0-tdci"
+          ],
+          "not": "Bazı araçlarda bayi enjektör kodlaması ve motor beyni güncellemesiyle iyileşme sağlandı.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-ford/fiabilite-455-pannes-ford-kuga-2.php",
+            "https://carverif.fr/pages/modele-occasion/ford-kuga-ii-2013-2019",
+            "https://www.carbuyer.co.uk/reviews/ford/kuga/suv/62527/review/owner-reviews"
+          ]
+        },
+        {
+          "id": "debriyaj-volan-arizasi",
+          "baslik": "Manuel vitesli dizellerde debriyaj ve çift kütleli volan",
+          "parca": "Debriyaj seti / çift kütleli volan",
+          "belirtiler": "Düşük devirde gaz bırakınca vuruntu, debriyaj pedalının takılması, kavramada titreme; debriyaj ve volanın birlikte erken değişimi.",
+          "km": "70.000-115.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-0-tdci",
+            "1-5-tdci"
+          ],
+          "sanziman": "6 ileri manuel",
+          "not": "30.06.2016-30.05.2018 arası üretilen bazı araçlar için baskı plakasının kırılma riskine karşı geri çağırma (18S39) yapıldı.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-ford/fiabilite-455-pannes-ford-kuga-2.php",
+            "https://www.carbuyer.co.uk/reviews/ford/kuga/suv/62527/review/owner-reviews",
+            "https://carverif.fr/pages/modele-occasion/ford-kuga-ii-2013-2019",
+            "https://www.caradisiac.com/fiabilite-du-ford-kuga-2-la-maxi-fiche-occasion-de-caradisiac-112283.htm"
+          ]
+        },
+        {
+          "id": "4x4-arka-diferansiyel-transfer",
+          "baslik": "4x4 versiyonlarda transfer kutusu ve arka diferansiyel",
+          "parca": "Transfer kutusu (PTU) / arka diferansiyel / Haldex pompası",
+          "belirtiler": "Arkadan metalik uğultu veya öğütme sesi, transfer kutusundan yağ kaçağı; dört çeker sisteminin devreden çıkması.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Yalnızca 4x4 (AWD) donanımlı araçlar. Eşit olmayan lastik aşınması sisteme ek yük bindirir; AWD yağı ve filtresinin bakımda atlanmaması gerekir. Özellikle erken 2013 araçlarda transfer kutusu sorunları bildirildi.",
+          "kaynaklar": [
+            "https://carverif.fr/pages/modele-occasion/ford-kuga-ii-2013-2019",
+            "https://www.parkers.co.uk/ford/kuga/estate/review/",
+            "https://www.carbuyer.co.uk/reviews/ford/kuga/suv/62527/review/owner-reviews"
+          ]
+        }
+      ]
+    }
+  ]
+}

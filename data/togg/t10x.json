@@ -1,0 +1,126 @@
+{
+  "marka": "Togg",
+  "markaSlug": "togg",
+  "model": "T10X",
+  "modelSlug": "t10x",
+  "nesiller": [
+    {
+      "slug": "t10x-1",
+      "ad": "T10X",
+      "yillar": [
+        2023,
+        2026
+      ],
+      "not": "Model yeni olduğu için uzun vadeli arıza verisi sınırlı; sorunlar ağırlıkla kullanıcı şikayetlerine ve forum paylaşımlarına dayanıyor. 1 Nisan 2026 sonrası üretilen araçlarda BDCC gövde kontrol modülü eklendi ve yazılım 2.0'a geçildi.",
+      "motorlar": [
+        {
+          "id": "standart-menzil-rwd",
+          "ad": "Standart Menzil RWD",
+          "yakit": "elektrik"
+        },
+        {
+          "id": "uzun-menzil-rwd",
+          "ad": "Uzun Menzil RWD",
+          "yakit": "elektrik"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "multimedya-ekran-donmasi-kapanmasi",
+          "baslik": "Multimedya ve gösterge ekranlarının donması veya kapanması",
+          "parca": "Bilgi-eğlence sistemi / ekranlar (yazılım)",
+          "belirtiler": "Seyir halinde ekranlar aniden kararıyor ya da donuyor, navigasyon kendiliğinden kapanıyor, kameralar gecikmeli açılıyor veya hata veriyor. Çoğu zaman yeniden başlatma (reset) gerekiyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Özellikle ilk üretim araçlarda yaygın; uzaktan (OTA) yazılım güncellemeleriyle büyük ölçüde azaltıldığı belirtiliyor, ancak bazı V2 sahipleri sorunun sürdüğünü bildiriyor.",
+          "kaynaklar": [
+            "https://www.webtekno.com/togg-kullaniyorsaniz-bilmeniz-dikkat-etmeniz-gerekenler-h221443.html",
+            "https://www.webtekno.com/seyir-halinde-togg-t10x-aniden-kapandi-h136901.html",
+            "https://www.sikayetvar.com/uye/murat-9818038",
+            "https://www.sikayetvar.com/togg/parca",
+            "https://forum.donanimhaber.com/yerli-otomobil-togg-ana-konu--141391586-1324",
+            "https://forum.donanimhaber.com/yerli-otomobil-togg-ana-konu--141391586-1325"
+          ]
+        },
+        {
+          "id": "enerji-sistemi-arizasi",
+          "baslik": "\"Enerji sistemi arızası\" uyarısıyla güç kaybı ve aracın durması",
+          "parca": "Yüksek voltaj enerji / termal yönetim sistemi",
+          "belirtiler": "Gösterge panelinde \"Enerji sistem arızası\" (bazen termal sistem arızasıyla birlikte) uyarısı çıkıyor; araç sürüş sırasında gücü kesip durabiliyor ya da çalışmıyor. Reset sonrası geçici düzelip tekrarlayabiliyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/togg/sifirlama",
+            "https://www.sikayetvar.com/togg/togg-t10x-uzun-menzil-aracta-tekrarlayan-arizalar-ve-yetersiz-yardim-iade-istegi"
+          ]
+        },
+        {
+          "id": "sarj-unitesi-obc-arizasi",
+          "baslik": "Şarj olmama / araç içi şarj ünitesi (OBC) ve şarj soketi arızası",
+          "parca": "Araç içi şarj cihazı (OBC), şarj soketi (inlet)",
+          "belirtiler": "Araç istasyona takıldıktan kısa süre sonra hata verip şarjı kesiyor ya da hiç şarj almıyor; yüksek voltaj hatası nedeniyle tekrar tekrar reset gerekiyor. Onarımda OBC veya şarj soketi değişimi ve uzun parça beklemesi bildiriliyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Kirli veya nemli şarj soketi de bağlantı sorunlarına yol açabiliyor; soketin temiz ve kuru tutulması öneriliyor.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/togg/parca",
+            "https://www.sikayetvar.com/togg/arizalandi",
+            "https://www.sikayetvar.com/togg/togg-t10x-aracimda-yasadigim-sarj-problemi-ve-ikame-arac-magduriyeti",
+            "https://forum.donanimhaber.com/yerli-otomobil-togg-ana-konu--141391586-1324",
+            "https://www.webtekno.com/togg-kullaniyorsaniz-bilmeniz-dikkat-etmeniz-gerekenler-h221443.html"
+          ]
+        },
+        {
+          "id": "internet-baglanti-trumore-sorunu",
+          "baslik": "Araç internet bağlantısının kopması ve Trumore senkronizasyon sorunları",
+          "parca": "Telematik / bağlantı modülü (yazılım)",
+          "belirtiler": "Araç sürekli \"şebeke yok\" gösteriyor, Gez navigasyonu ve çevrimiçi uygulamalar çalışmıyor, şarj istasyonu aranamıyor; Trumore uygulamasına araç eklenemiyor ya da araç verileri güncellenmiyor, bazı güncellemeler başarısız oluyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Birden fazla servis ziyaretine rağmen kalıcı çözülemeyen vakalar bildiriliyor.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/togg/t10x/internet-yok",
+            "https://www.sikayetvar.com/togg/togg-t10x-v2de-kronik-internet-baglanti-sorunu-ve-arac-degisimi-talebi"
+          ]
+        },
+        {
+          "id": "trim-ve-on-takim-sesi",
+          "baslik": "İç trim tıkırtıları ve ön takımdan ses gelmesi",
+          "parca": "İç trim parçaları, ön süspansiyon",
+          "belirtiler": "Bozuk yolda kapı, direksiyon/gösterge bölgesi ve ön tavan lambası çevresinden tıkırtı; ön sol bölgeden gıcırtı ve ön takımdan ses geliyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/togg/trim-sesi",
+            "https://www.webtekno.com/togg-kullaniyorsaniz-bilmeniz-dikkat-etmeniz-gerekenler-h221443.html",
+            "https://forum.donanimhaber.com/yerli-otomobil-togg-ana-konu--141391586-1325"
+          ]
+        },
+        {
+          "id": "12v-aku-zayiflamasi",
+          "baslik": "12V yardımcı akünün zayıflaması",
+          "parca": "12V akü",
+          "belirtiler": "Araç uzun süre kullanılmadığında veya akü zayıfladığında elektronik uyarılar çıkıyor, araç çalışmayabiliyor; değiştirilen akünün tekrar arızalandığı vakalar var.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Bakımda yalnızca yüksek voltaj bataryasının değil 12V akünün de kontrol edilmesi öneriliyor.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/togg/arizalandi"
+          ]
+        }
+      ]
+    }
+  ]
+}

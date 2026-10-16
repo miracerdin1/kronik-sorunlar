@@ -1,0 +1,157 @@
+{
+  "marka": "Hyundai",
+  "markaSlug": "hyundai",
+  "model": "Accent Blue",
+  "modelSlug": "accent-blue",
+  "nesiller": [
+    {
+      "slug": "accent-blue",
+      "ad": "Accent Blue (RB)",
+      "yillar": [
+        2011,
+        2018
+      ],
+      "not": "Yurt dışında Accent (RB), Solaris veya i25 adıyla satılan kasa. Benzinli otomatikte önce 4 ileri tork konvertörlü, sonraki yıllarda CVT; dizel otomatikte önce 4 ileri, 2015 sonrası 7 ileri DCT kullanıldı.",
+      "motorlar": [
+        {
+          "id": "1-4-cvvt",
+          "ad": "1.4 CVVT / D-CVVT",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-crdi",
+          "ad": "1.6 CRDi",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "eps-direksiyon-sertlesmesi",
+          "baslik": "EPS arızası: direksiyon aniden ağırlaşıyor",
+          "parca": "Elektrikli direksiyon (EPS) sistemi",
+          "belirtiler": "Yol giderken EPS uyarı lambası yanıyor ve direksiyon birden çok ağırlaşıyor. Kimi araçlarda sorun motor ısındıktan sonra başlıyor ya da kontak kapatılıp açılınca geçici olarak düzeliyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Şikayetler 2012-2013 model araçlarda yoğunlaşıyor. Sahipler parçanın ücretsiz değiştirildiğini duyduklarını yazıyor ama bunu doğrulayan resmi bir açıklama bulunamadı.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-accent-blue-ile-eps-sorunu-ve-kaza-riski",
+            "https://www.sikayetvar.com/hyundai-motor/isindiktan-sonra-eps-isigi-yaniyor-direksiyon-sertlesiyor-ve-guvenligi-tehdit-ediyor",
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-assan-accent-blue-eps-uyarisi"
+          ]
+        },
+        {
+          "id": "dct-volan-kavrama-sesi",
+          "baslik": "7 ileri DCT'li dizelde volan ve kavrama sesi",
+          "parca": "Volan ve DCT kavrama seti",
+          "belirtiler": "Araçta volan bölgesinden gelen belirgin bir ses ve takırtı oluşuyor, kabin zamanla iyice gürültülü hale geliyor. Servisler volanın kavramayla birlikte değişmesini öneriyor.",
+          "km": "89.000-100.000",
+          "ciddiyet": "orta",
+          "maliyetTl": "100.000+",
+          "motorlar": [
+            "1-6-crdi"
+          ],
+          "sanziman": "7 ileri DCT (çift kavramalı otomatik)",
+          "not": "Yetkili servis Aralık 2025'te volan ve kavrama değişimi için 100.000 TL'nin üzerinde fiyat vermiş. Fiches-auto kaynağı aynı 1.6 CRDi + DCT7 aktarma organını kullanan i30 (2012-2017) içindir.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-accent-blue-kronik-ariza",
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-accent-volan-sorunu-icin-100-bin-tl-masraf-ve-sirketin-sorumlulugu",
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-assan-accent-blue-volan-ve-kavrama",
+            "https://www.araclo.com/blog/hyundai-accent-blue-1.6-crdi-alinir-mi-sorunlar-ve-yorumlar",
+            "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-399-pannes-hyundai-i30.php"
+          ]
+        },
+        {
+          "id": "dct-vites-atlama-arizasi",
+          "baslik": "DCT şanzımanda tek/çift vites grubunun devre dışı kalması",
+          "parca": "7 ileri DCT şanzıman (kavrama, şanzıman beyni)",
+          "belirtiler": "Şanzıman arıza uyarısı çıkıyor ve araç ya yalnızca 1-3-5-7'de gidiyor ya da R-2-4-6'ya geçmiyor. Vites değişirken boşa düşüp silkeleniyor, ısınınca 2.-4. viteslerde titreme görülüyor. Kontak kapatılıp açılınca bir süre düzelebiliyor.",
+          "km": "90.000-150.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-crdi"
+          ],
+          "sanziman": "7 ileri DCT (çift kavramalı otomatik)",
+          "not": "Servislerin kesin teşhis koymakta zorlandığı yazılıyor. Bir şikayette yalnızca arıza tespiti için 1.800-2.500 TL istendiği belirtiliyor.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-accent-blue-2015-otomatik-sanziman-arizasi",
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-assan-accent-blue-dct-sanziman-kronik-hatasi",
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-blu-accent-r-vitese-gecmiyor",
+            "https://www.araclo.com/blog/hyundai-accent-blue-1.6-crdi-alinir-mi-sorunlar-ve-yorumlar"
+          ]
+        },
+        {
+          "id": "benzinli-otomatik-kalkis-tikirtisi",
+          "baslik": "Benzinli otomatikte kalkışta ve yokuşta tıkırtı",
+          "parca": "Otomatik şanzıman",
+          "belirtiler": "Kalkış sırasında ve yokuşta vites geçişlerinde çıtırtı ya da tıkırtı sesleri geliyor, kimi araçlarda vites geçişleri sarsıntılı.",
+          "km": "83.000-95.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-4-cvvt"
+          ],
+          "sanziman": "Otomatik (4 ileri tork konvertörlü / CVT)",
+          "not": "Şikayetlerde şanzıman tipi net verilmiyor. Kesin bir teşhis paylaşılmamış.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-assan-accent-blue-sanziman-vuruntu-sorunu",
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-accent-blue-otomatik-vites-arizasi-ve-garip-sesler",
+            "https://bilgiyerim.com.tr/hyundai-accent-blue-ile-ilgili-sorunlar-nelerdir"
+          ]
+        },
+        {
+          "id": "kaput-boya-kalkmasi",
+          "baslik": "Kaputta orijinal boyanın kendiliğinden kalkması",
+          "parca": "Kaput boyası",
+          "belirtiler": "Darbe ya da boya geçmişi olmayan orijinal kaputta boya kendiliğinden kabarıp kalkıyor ve zamanla yayılıyor. Beyaz renkli araçlarda da bildirilmiş.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Bir yetkili servis sorunu fabrika hatası olarak kabul etmiş, ancak Hyundai Assan boya garantisinin 2 yıl olduğunu belirtmiş. Şikayetler 2012, 2015 ve 2016 model araçlardan geliyor.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-fabrika-hatali-arac-uretiyor",
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-accent-blue-kaputta-kronik-boya-kalkma-sorunu",
+            "https://parcabizden.com/rehber/hyundai-accent-kronik-sorunlari",
+            "https://bilgiyerim.com.tr/hyundai-accent-blue-ile-ilgili-sorunlar-nelerdir"
+          ]
+        },
+        {
+          "id": "arka-suspansiyon-yaylanma",
+          "baslik": "Arka süspansiyonda aşırı yaylanma ve savrulma",
+          "parca": "Arka amortisörler ve helezon yaylar",
+          "belirtiler": "Arka taraf yüklüyken çok çöküyor ve fazla yaylanıyor, hızlı virajlarda arka savruluyor. Servis revize edilmiş arka amortisör ve yaylar takınca sorun geçiyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Özellikle 2011-2012 üretimi araçlarda arka amortisörler garanti kapsamında revize edilenlerle değiştirildi. Parça bekleme süreleri uzun oldu.",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/hyundai-accent-blue-ana-konu--35029650-130",
+            "https://eksisozluk.com/hyundai-accent-blue--2705476?p=3"
+          ]
+        },
+        {
+          "id": "katalizor-dagilmasi-silindir-cizilmesi",
+          "baslik": "Katalizör seramiğinin dağılması ve silindir çizilmesi",
+          "parca": "Katalitik konvertör, silindir ve piston grubu",
+          "belirtiler": "Katalizörün seramik petekleri ufalanıyor ve parçacıklar silindirlere ulaşarak duvarları çizebiliyor. Bunun sonucunda soğuk motorda piston vuruntusu ve yağ eksiltme başlıyor.",
+          "km": "100.000-300.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-4-cvvt"
+          ],
+          "not": "Kaynaklar aynı Gamma 1.4/1.6 benzinli motoru kullanan Rusya pazarındaki Solaris için. Isınmadan yüklenme ve kötü yakıt riski artırıyor, 15.000-20.000 km'de erken dağılma vakaları da anlatılıyor. Türkiye'de bu sorunla ilgili şikayet bulunamadı.",
+          "kaynaklar": [
+            "https://www.kolesa.ru/article/hyundai-solaris-l-s-probegom-detskie-bolezni-avtomata-i-zadiry-v-tsilindrah",
+            "https://www.zr.ru/content/articles/927323-solaris-iz-parka-zr-3-kosyaka/",
+            "https://auto.yuga.ru/articles/609.html"
+          ]
+        }
+      ]
+    }
+  ]
+}

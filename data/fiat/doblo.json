@@ -1,0 +1,182 @@
+{
+  "marka": "Fiat",
+  "markaSlug": "fiat",
+  "model": "Doblo",
+  "modelSlug": "doblo",
+  "nesiller": [
+    {
+      "slug": "doblo-263",
+      "ad": "Doblo (263)",
+      "yillar": [
+        2010,
+        2022
+      ],
+      "not": "Bursa'da Tofaş tarafından üretilen ikinci nesil; Combi ve Cargo gövdeleri ile Maxi uzun şasi seçeneği vardır.",
+      "motorlar": [
+        {
+          "id": "1-3-multijet",
+          "ad": "1.3 MultiJet",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-6-multijet",
+          "ad": "1.6 MultiJet",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-4-fire",
+          "ad": "1.4 Fire",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "egr-valfi-tikanmasi",
+          "baslik": "EGR valfinin kurumla tıkanması",
+          "parca": "EGR valfi",
+          "belirtiler": "Motor arıza lambası yanar, rölantide dengesizlik, gaza basınca tekleme ve güç kaybı olur; bazen araç emniyet moduna geçer. Temizlik sonrası sorun bir süre sonra geri dönebilir.",
+          "km": "80.000-120.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-3-multijet",
+            "1-6-multijet"
+          ],
+          "not": "Ağırlıklı olarak kısa mesafe ve şehir içi kullanımda görülür.",
+          "kaynaklar": [
+            "https://carverif.fr/blogs/fiabilite-voitures/fiat-doblo-ii-diesel-1-6-multijet",
+            "https://carverif.fr/blogs/fiabilite-voitures/fiat-doblo-cargo-diesel-1-3-multijet-90ch",
+            "https://www.fiatforum.com/threads/doblo-263-egr-problem.485405/",
+            "https://www.araclo.com/vehicles/fiat-doblo-combi-1.6-multijet-easy/degerlendirmeler/kullanici-sorunlari"
+          ]
+        },
+        {
+          "id": "dpf-tikanmasi",
+          "baslik": "Partikül filtresinin (DPF) tıkanması",
+          "parca": "Dizel partikül filtresi ve fark basınç sensörü",
+          "belirtiler": "DPF uyarı lambası yanar, rejenerasyon sık tekrarlanır ya da tamamlanamaz, araç güç kaybederek emniyet moduna geçer. Yağ seviyesinin yükselmesi de görülebilir.",
+          "km": "60.000-140.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-3-multijet",
+            "1-6-multijet"
+          ],
+          "not": "Kısa mesafe, dur-kalk ve dağıtım tipi kullanımda belirginleşir; bazen arıza filtre yerine fark basınç sensöründen kaynaklanır.",
+          "kaynaklar": [
+            "https://carverif.fr/blogs/fiabilite-voitures/fiat-doblo-ii-diesel-1-6-multijet",
+            "https://carverif.fr/blogs/fiabilite-voitures/fiat-doblo-cargo-diesel-1-3-multijet-90ch",
+            "https://www.autodoc.co.uk/info/problems-with-the-fiat-doblo",
+            "https://www.whatvan.co.uk/accessories-conversions/buying-a-used-fiat-doblo-cargo-2010/",
+            "https://www.araclo.com/vehicles/fiat-doblo-combi-1.6-multijet-easy/degerlendirmeler/kullanici-sorunlari"
+          ]
+        },
+        {
+          "id": "sogutma-suyu-kaybi",
+          "baslik": "Soğutma suyu kaybı ve hararet (EGR soğutucu / termostat sızıntısı)",
+          "parca": "EGR soğutucusu, termostat yuvası, yağ soğutucusu",
+          "belirtiler": "Soğutma suyu sebepsiz yere eksilir, sık sık ekleme gerekir; kapakta tortu, sıcak antifriz kokusu veya ani hararet görülebilir. Yağ soğutucusu sızıntısında yağ, su deposuna karışabilir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-multijet"
+          ],
+          "kaynaklar": [
+            "https://carverif.fr/blogs/fiabilite-voitures/fiat-doblo-ii-diesel-1-6-multijet",
+            "https://www.fiatforum.com/threads/doblo-mk2-reliability-issues.514964/",
+            "https://www.rac.co.uk/drive/car-reviews/fiat/doblo/doblo-cargo-van-2010-2022/"
+          ]
+        },
+        {
+          "id": "enjektor-siyah-duman",
+          "baslik": "Enjektör arızası ve soğukta siyah duman",
+          "parca": "Dizel enjektörler",
+          "belirtiler": "Soğuk çalıştırmada uzun süre siyah ve kokulu duman, zor çalışma, tekleme ve yakıt tüketiminde artış görülür.",
+          "km": "60.000-110.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-3-multijet",
+            "1-6-multijet"
+          ],
+          "not": "Benzer belirtiler emme manifoldu ve supaplarda kurum birikmesinden de kaynaklanabilir; teşhis önemlidir.",
+          "kaynaklar": [
+            "https://www.teamdoblo.com/konu/doblo-1-6-motor-duman-sorunu-kronik-bir-sorunmu.12193/page-2",
+            "https://www.rac.co.uk/drive/car-reviews/fiat/doblo/doblo-cargo-van-2010-2022/",
+            "https://carverif.fr/blogs/fiabilite-voitures/fiat-doblo-cargo-diesel-1-3-multijet-90ch"
+          ]
+        },
+        {
+          "id": "vites-gecis-senkromec",
+          "baslik": "Zor vites geçişi ve senkromeç aşınması",
+          "parca": "Manuel şanzıman (senkromeçler, vites bağlantısı)",
+          "belirtiler": "Özellikle birinci vitese takmakta zorlanma, soğukta vitesin cızırdaması veya vites atması; bazı araçlarda senkromeç değişimi gerekir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": "5/6 ileri manuel",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/yeni-doblo-alacaklar-dikkat--46336196",
+            "https://www.carbuyer.co.uk/fiat/doblo/owner-reviews",
+            "https://www.rac.co.uk/drive/car-reviews/fiat/doblo/doblo-cargo-van-2010-2022/",
+            "https://carverif.fr/blogs/fiabilite-voitures/fiat-doblo-ii-diesel-1-6-multijet"
+          ]
+        },
+        {
+          "id": "arka-kapi-kilit-mekanizmasi",
+          "baslik": "Arka kapıların açılmaması / merkezi kilit mekanizması",
+          "parca": "Arka kapı kilit mekanizması (plastik parça)",
+          "belirtiler": "Merkezi kilit arka kapıları açmaz veya arka kapılar dışarıdan zor açılır ya da hiç açılmaz.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Kapılar tam kapanmadan kilitlemek ve yükü kapıya yaslamak plastik parçanın kırılmasını hızlandırır.",
+          "kaynaklar": [
+            "https://www.parkers.co.uk/vans-pickups/fiat/doblo-cargo/2010-review/",
+            "https://www.rac.co.uk/drive/car-reviews/fiat/doblo/doblo-cargo-van-2010-2022/",
+            "https://www.carbuyer.co.uk/fiat/doblo/owner-reviews",
+            "https://forum.donanimhaber.com/yeni-doblo-alacaklar-dikkat--46336196"
+          ]
+        },
+        {
+          "id": "arka-suspansiyon-ses",
+          "baslik": "Arka süspansiyonda vuruntu ve erken aşınma",
+          "parca": "Arka amortisörler, takozlar, burçlar",
+          "belirtiler": "Tümseklerde arkadan gelen vuruntu sesi, yüklüyken veya kötü yolda yol tutuşunda bozulma; amortisör ve burçlar erken yenilenir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Yük taşınan Cargo ve uzun şasili Maxi versiyonlarında daha sık görülür.",
+          "kaynaklar": [
+            "https://www.parkers.co.uk/vans-pickups/fiat/doblo-cargo/2010-review/",
+            "https://www.whatvan.co.uk/accessories-conversions/buying-a-used-fiat-doblo-cargo-2010/",
+            "https://www.carbuyer.co.uk/fiat/doblo/owner-reviews",
+            "https://forum.donanimhaber.com/yeni-doblo-alacaklar-dikkat--46336196",
+            "https://www.araclo.com/vehicles/fiat-doblo-combi-1.6-multijet-easy/degerlendirmeler/kullanici-sorunlari"
+          ]
+        },
+        {
+          "id": "adblue-deposu-arizasi",
+          "baslik": "AdBlue deposu / sistemi arızası",
+          "parca": "AdBlue (SCR) deposu",
+          "belirtiler": "AdBlue uyarı lambası yanar; servis depo değişimi önerir. Aynı arızanın kısa sürede tekrarladığı bildirilmiştir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": "62.000-85.000",
+          "motorlar": [
+            "1-6-multijet"
+          ],
+          "not": "Euro 6 AdBlue'lu son model yıllar (2021-2022) için bildirilmiştir; garanti dışı kaldığında maliyet yüksektir.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/fiat-doblo-adblue-arizasi-ve-servis-sorunu",
+            "https://www.sikayetvar.com/fiat/fiat-doblo-adblue-arizasinda-iyi-niyet-garantisi-red-edildi"
+          ]
+        }
+      ]
+    }
+  ]
+}

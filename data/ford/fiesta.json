@@ -1,0 +1,187 @@
+{
+  "marka": "Ford",
+  "markaSlug": "ford",
+  "model": "Fiesta",
+  "modelSlug": "fiesta",
+  "nesiller": [
+    {
+      "slug": "fiesta-mk7",
+      "ad": "Fiesta (Mk7)",
+      "yillar": [
+        2008,
+        2017
+      ],
+      "not": "2013'te makyaj geçirdi; 1.0 EcoBoost makyajlı kasayla geldi.",
+      "motorlar": [
+        {
+          "id": "1-25-duratec",
+          "ad": "1.25 Duratec",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-4-duratec",
+          "ad": "1.4 Duratec",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-ti-vct",
+          "ad": "1.6 Ti-VCT",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-0-ecoboost",
+          "ad": "1.0 EcoBoost",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-4-tdci",
+          "ad": "1.4 TDCi",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-5-tdci",
+          "ad": "1.5 TDCi",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-6-tdci",
+          "ad": "1.6 TDCi",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "powershift-kavrama-titreme",
+          "baslik": "PowerShift şanzımanda titreme ve kavrama kayması",
+          "parca": "Çift kavramalı şanzıman (DPS6) kavrama paketi ve aktüatörleri",
+          "belirtiler": "Özellikle 1-2. vites geçişlerinde ve kalkışta silkeleme, vuruntulu ya da gecikmeli vites geçişi, kavrama kayması hissi, gösterge panelinde arıza ışığı ve P090D gibi aktüatör hata kodları.",
+          "km": "30.000-50.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-ti-vct",
+            "1-0-ecoboost"
+          ],
+          "sanziman": "6 ileri PowerShift çift kavramalı otomatik",
+          "not": "Kuru kavramalı bu şanzıman yurt dışında uzatılmış garanti ve davalara konu oldu; Ford sonraki Fiesta'da tork konvertörlü otomatiğe geçti. Önce yazılım güncellemesi, ardından kavrama/aktüatör değişimi denenir.",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/ford-sorunlu-oldugunu-bile-bile-cift-kavrama-sanzimanlari-piyasaya-surmus--139114448",
+            "https://uk.haynes.com/blogs/tips-tutorials/ford-fiesta-mk7-common-problems-2008-2017",
+            "https://www.dev.honestjohn.co.uk/askhj/answer/105412/my-fiesta-is-having-issues-with-the-powershift-gearbox---what-can-i-do-",
+            "https://www.clickmechanic.com/blog/common-problems-with-ford-fiesta/",
+            "https://www.autodoc.co.uk/info/problems-with-the-ford-fiesta"
+          ]
+        },
+        {
+          "id": "ecoboost-sogutma-kacagi-hararet",
+          "baslik": "1.0 EcoBoost'ta soğutma suyu kaçağı ve hararet",
+          "parca": "Soğutma hortumları ve su pompası",
+          "belirtiler": "Görünür ya da görünmez soğutma suyu eksilmesi, hararet uyarısı, motorun koruma moduna geçmesi; ilerlemiş durumda silindir kapağı hasarı.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-0-ecoboost"
+          ],
+          "not": "Erken üretim 1.0 EcoBoost'lardaki naylon soğutma hortumları için üretici geri çağırma/ücretsiz onarım yaptı; şasi numarasıyla işlemin yapılıp yapılmadığı kontrol edilmeli. Su pompası sızıntısı ayrıca sık bildiriliyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-ford/fiabilite-276-pannes-ford-fiesta.php",
+            "https://www.clickmechanic.com/blog/common-problems-with-ford-fiesta/",
+            "https://www.whocanfixmycar.com/advice/ford-fiesta-common-problems",
+            "https://uk.haynes.com/blogs/tips-tutorials/ford-fiesta-mk7-common-problems-2008-2017",
+            "https://www.expressandstar.com/news/motors/2018/10/01/ford-to-pay-for-repairs-of-ecoboost-engine-fault"
+          ]
+        },
+        {
+          "id": "ecoboost-yagli-triger-kayisi",
+          "baslik": "1.0 EcoBoost yağ içi triger kayışının dağılması",
+          "parca": "Yağ banyolu (ıslak) triger kayışı ve yağ pompası süzgeci",
+          "belirtiler": "Kayıştan kopan parçalar yağ pompası süzgecini tıkar; yağ basıncı uyarısı, motordan tıkırtı ve en kötü durumda motor hasarı. Kayış kopması da bildirilmiş.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-0-ecoboost"
+          ],
+          "not": "Bakımların aksatılması ve yanlış yağ kullanımı riski artırır; kayış değişim aralığına uyulmalı.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-ford/fiabilite-276-pannes-ford-fiesta.php",
+            "https://www.whocanfixmycar.com/advice/ford-fiesta-common-problems",
+            "https://autoscore.pro/model/ford-fiesta-mk7"
+          ]
+        },
+        {
+          "id": "abs-esp-unitesi-arizasi",
+          "baslik": "ABS/ESP beyni ve pompa ünitesi arızası",
+          "parca": "ABS/ESP hidrolik ünitesi ve kontrol modülü (ATE MK100)",
+          "belirtiler": "ABS ve ESP ışıklarının yanması, tekerleklerden birinde fren basıncı olmaması ya da frenin bırakmaması/tekerleğin kilitlenmesi, arıza tespit cihazında modülle iletişim kurulamaması.",
+          "km": "70.000-146.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Yeni ünite pahalı olduğundan kartın onarımı yaygın bir çözüm.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-ford/fiabilite-276-pannes-ford-fiesta.php",
+            "https://ecutesting.com/common-faults/ford/ford-fiesta-abs-module-failure-repair",
+            "https://erepar.fr/reparation/ford/fiesta-6-2008-2017/abs-esp-fiesta-6-2008-2017/reparation_abs-ford-fiesta-ate-mk100-esp"
+          ]
+        },
+        {
+          "id": "tdci-turbo-yag-yetersizligi",
+          "baslik": "1.6 TDCi'de yağsız kalan turbonun arızalanması",
+          "parca": "Turbo, turbo yağ besleme borusu ve süzgeçleri, enjektör bakır pulları",
+          "belirtiler": "Kaçak yapan enjektör pullarından gelen kurum yağı çamurlaştırır, yağ besleme borusundaki süzgeç tıkanır; turbo ıslığı, güç kaybı, mavi duman ve turbo dağılması. Motor bölmesinden tıslama ve kabinde mazot kokusu öncü belirti olabilir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-tdci"
+          ],
+          "not": "Yalnızca turboyu değiştirmek yetmez; karter, süzgeçler ve yağ hattı temizlenip enjektör pulları yenilenmezse yeni turbo da kısa sürede gider. Kısa yağ değişim aralığı önerilir.",
+          "kaynaklar": [
+            "https://www.catmag.co.uk/news/inside-line-ford-fiesta-forte",
+            "https://www.carchecker.pro/reports/ford_fiesta_mk7_1.6_tdci.html",
+            "https://www.fiches-auto.fr/fiabilite-ford/fiabilite-276-pannes-ford-fiesta.php"
+          ]
+        },
+        {
+          "id": "tdci-dpf-egr-tikanmasi",
+          "baslik": "Dizellerde DPF ve EGR tıkanması",
+          "parca": "Partikül filtresi (DPF) ve EGR valfi",
+          "belirtiler": "Motor arıza ışığı, çekiş kaybı, sık rejenerasyon, yakıt tüketiminde artış, rölantide düzensizlik ve egzozdan siyah duman; kısa şehir içi kullanımda belirgin.",
+          "km": "60.000-80.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-4-tdci",
+            "1-5-tdci",
+            "1-6-tdci"
+          ],
+          "not": "DPF'li (Euro 5/6) versiyonları etkiler; düzenli uzun yol kullanımı rejenerasyona yardımcı olur.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-ford/fiabilite-276-pannes-ford-fiesta.php",
+            "https://www.autodoc.co.uk/info/problems-with-the-ford-fiesta",
+            "https://www.carchecker.pro/reports/ford_fiesta_mk7_1.6_tdci.html",
+            "https://www.araclo.com/blog/ford-fiesta-1.4-tdci-satin-alma-rehberi-sorunlar-bakim-ve-sahip-olma-maliyeti"
+          ]
+        },
+        {
+          "id": "kabine-su-girmesi",
+          "baslik": "Kabine su girmesi ve ıslak taban",
+          "parca": "Kapı/cam fitilleri ve ön cam altı (torpido) su tahliye kanalları",
+          "belirtiler": "Ön ayak boşluğunda ıslak halı, camlarda buğu, rutubet kokusu; ilerlerse kablo ve merkezi kilit arızaları.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Çoğunlukla tıkanan tahliye kanallarının açılması ve fitillerin yenilenmesiyle çözülür.",
+          "kaynaklar": [
+            "https://www.whocanfixmycar.com/advice/ford-fiesta-common-problems",
+            "https://www.carchecker.pro/reports/ford_fiesta_mk7_1.6_tdci.html",
+            "https://autoscore.pro/model/ford-fiesta-mk7"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "marka": "Peugeot",
+  "markaSlug": "peugeot",
+  "model": "301",
+  "modelSlug": "301",
+  "nesiller": [
+    {
+      "slug": "301-1",
+      "ad": "301 (2012-2023)",
+      "yillar": [
+        2012,
+        2023
+      ],
+      "not": "Citroën C-Elysée ile aynı altyapıyı ve motorları paylaşır; C-Elysée kaynakları aynı motor için geçerlidir.",
+      "motorlar": [
+        {
+          "id": "1-2-puretech",
+          "ad": "1.2 VTi / PureTech 72-82",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-vti",
+          "ad": "1.6 VTi 115",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-hdi",
+          "ad": "1.6 HDi 92",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-6-bluehdi",
+          "ad": "1.6 BlueHDi 100",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-5-bluehdi",
+          "ad": "1.5 BlueHDi 100/102",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "1-5-bluehdi-eksantrik-zinciri",
+          "baslik": "1.5 BlueHDi eksantrik (kam mili) zinciri erken aşınması",
+          "parca": "Eksantrik mili tahrik zinciri (7 mm)",
+          "belirtiler": "Motor bölgesinden, özellikle soğuk çalıştırmada zincir/tıkırtı sesi gelir. İleri aşamada zincir kopup motorun aniden stop etmesine ve ağır motor hasarına yol açabilir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": "yaklaşık 130.000 TL (2026, kampanya dışı kalan araç için yetkili servisin parça değişim teklifi)",
+          "motorlar": [
+            "1-5-bluehdi"
+          ],
+          "not": "Stellantis, Ekim 2017-Ocak 2023 arası üretilen 1.5 BlueHDi'li araçlar (301 ve C-Elysée dahil) için geri çağırma başlattı; 7 mm zincir güçlendirilmiş 8 mm zincirle değiştiriliyor. Şasi numarasıyla kapsam sorgulanmalı; servislerin akustik testle 'sorun yok' demesine dair şikayetler var.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/articles-auto/rappels-constructeurs/s-3950-rappel-du-15-bluehdi-lie-a-la-chaine-de-distribution.php",
+            "https://www.timeslive.co.za/motoring/news/2025-07-04-stellantis-recalls-diesel-cars-over-camshaft-chain-issue/",
+            "https://www.sikayetvar.com/peugeot/peugeot-301-zincir-sesinde-geri-cagirma-kapsami-ihlali-ve-yetkili-servis-sorunu",
+            "https://www.sikayetvar.com/peugeot/peugeot-301-kam-mili-hatasi-geri-cagirmasina-ragmen-cozulmedi"
+          ]
+        },
+        {
+          "id": "adblue-sistemi-arizasi",
+          "baslik": "AdBlue enjektörü / sistemi arızası",
+          "parca": "AdBlue (SCR) enjektörü ve deposu",
+          "belirtiler": "Motor arıza lambası ve AdBlue uyarısı yanar; arıza giderilmezse geri sayım başlar ve sayaç bitince araç çalıştırılamaz hale gelebilir.",
+          "km": "15.000-100.000",
+          "ciddiyet": "orta",
+          "maliyetTl": "yaklaşık 11.000 TL (2024, AdBlue enjektörü parça fiyatı)",
+          "motorlar": [
+            "1-6-bluehdi",
+            "1-5-bluehdi"
+          ],
+          "not": "Yalnızca AdBlue kullanan BlueHDi (Euro 6) dizellerde görülür; eski 1.6 HDi'de yoktur.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/peugeot/2019-model-peugeot-301-adblue-enjektor-arizasi",
+            "https://www.fiches-auto.fr/articles-auto/chiffres-fiabilite-diesel/s-2526-fiabilite-15-bluehdi.php",
+            "https://www.araclo.com/vehicles/peugeot-301-1.6-bluehdi/degerlendirmeler/kullanici-sorunlari",
+            "https://www.sifiraracal.com/peugeot-modelleri/301-yorumlari"
+          ]
+        },
+        {
+          "id": "dpf-tikanmasi",
+          "baslik": "Dizel partikül filtresi (DPF) tıkanması",
+          "parca": "Dizel partikül filtresi (DPF/FAP)",
+          "belirtiler": "Motor arıza lambası yanar, fan uzun süre yüksek devirde çalışır, araç güç kaybedip emniyet moduna geçebilir. Ağırlıklı olarak kısa şehir içi kullanımda ortaya çıkar.",
+          "km": "80.000-170.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-hdi",
+            "1-6-bluehdi"
+          ],
+          "not": "Kısa mesafe kullanım rejenerasyonu engeller; yağ seviyesinin yakıtla artması (yağ seyrelmesi) da eşlik edebilir.",
+          "kaynaklar": [
+            "https://www.otomoto.pl/news/peugeot-301-prosty-i-tani",
+            "https://www.araclo.com/vehicles/peugeot-301-1.6-bluehdi/degerlendirmeler/kullanici-sorunlari",
+            "https://www.sikayetvar.com/peugeot/peugeot-301-motor-ariza-lambasi"
+          ]
+        },
+        {
+          "id": "egr-valfi-kurum-arizasi",
+          "baslik": "EGR valfi kurumlanması / arızası",
+          "parca": "EGR valfi",
+          "belirtiler": "Rölantide düzensizlik, duman, çekiş kaybı ve arıza lambası görülür. Delinen EGR valfinden silindire su girmesi sonucu blok çatlaması yaşanan bir C-Elysée 1.6 HDi vakası da bildirilmiştir.",
+          "km": "80.000-160.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-hdi",
+            "1-6-bluehdi"
+          ],
+          "kaynaklar": [
+            "https://www.araclo.com/vehicles/peugeot-301-1.6-bluehdi/degerlendirmeler/kullanici-sorunlari",
+            "https://www.arabam.com/blog/?p=115128",
+            "https://autocopilot.fr/motorisations/1-6-hdi"
+          ]
+        },
+        {
+          "id": "1-2-puretech-yagli-triger-kayisi",
+          "baslik": "1.2 PureTech yağ içinde çalışan triger kayışının dağılması",
+          "parca": "Triger kayışı (yağ banyolu) ve yağ pompası süzgeci",
+          "belirtiler": "Kayıştan kopan parçacıklar yağ süzgecini ve kanallarını tıkar; düşük yağ basıncı uyarısı yanar, önlem alınmazsa ağır motor hasarı oluşur. Yağ tüketimi artışı da eşlik edebilir.",
+          "km": "60.000-120.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-puretech"
+          ],
+          "not": "Doğru spesifikasyonda yağ ve kısa yağ değişim aralığı önerilir; satın almadan önce kayış değişim faturası istenmeli. Üretici bazı pazarlarda (Türkiye dahil) uzatılmış garanti uyguladı.",
+          "kaynaklar": [
+            "https://www.otomoto.pl/news/peugeot-301-prosty-i-tani",
+            "https://www.fiches-auto.fr/articles-auto/essai-moteur/1l2-puretech-82-ch.php",
+            "https://www.araclo.com/vehicles/peugeot-301-1.2-puretech/degerlendirmeler/kullanici-sorunlari"
+          ]
+        },
+        {
+          "id": "boya-atmasi-paslanma",
+          "baslik": "Tavan ve bagaj kapağında boya atması, kapı altlarında paslanma",
+          "parca": "Kaporta boyası ve sac paneller",
+          "belirtiler": "Hasar görmemiş tavan, kaput ve bagaj kapağında boya kabarıp kalkar; kapı altları, bagaj kapağı ve kapı fitili temas yüzeylerinde pas ve çürüme başlar.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Özellikle 2013-2017 araçlarda bildiriliyor; servis kayıtları eksik olduğunda boya/korozyon garantisinden yararlanmak zorlaşıyor.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/peugeot/peugeot-301-paslanma-boya-atma-sorunu",
+            "https://www.sikayetvar.com/peugeot/peugeot-301aracta-kapi-altlari-ve-bagaj-kapagi-curume",
+            "https://www.sikayetvar.com/citroen/citroen-c-elysee-boya-kalitesi-sorunu"
+          ]
+        },
+        {
+          "id": "atesleme-bobini-lambda-sensoru",
+          "baslik": "Ateşleme bobini ve lambda sensörü arızaları",
+          "parca": "Ateşleme bobinleri, bujiler, lambda (oksijen) sensörü",
+          "belirtiler": "Tekleme, titreşim, rölantide düzensizlik ve güç kaybı ile birlikte motor arıza lambası yanar.",
+          "km": "60.000-130.000",
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-puretech",
+            "1-6-vti"
+          ],
+          "kaynaklar": [
+            "https://www.otomoto.pl/news/peugeot-301-prosty-i-tani",
+            "https://www.araclo.com/vehicles/peugeot-301-1.2-puretech/degerlendirmeler/kullanici-sorunlari",
+            "https://www.araclo.com/vehicles/peugeot-301-1.6-vti/degerlendirmeler/kullanici-sorunlari"
+          ]
+        }
+      ]
+    }
+  ]
+}
