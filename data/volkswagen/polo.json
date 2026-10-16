@@ -1,0 +1,98 @@
+{
+  "marka": "Volkswagen",
+  "markaSlug": "volkswagen",
+  "model": "Polo",
+  "modelSlug": "polo",
+  "nesiller": [
+    {
+      "slug": "polo-5",
+      "ad": "Polo 5 (6R/6C)",
+      "yillar": [
+        2009,
+        2017
+      ],
+      "motorlar": [
+        {
+          "id": "1-2-tsi",
+          "ad": "1.2 TSI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-4",
+          "ad": "1.4",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-tdi",
+          "ad": "1.6 TDI",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "triger-zinciri",
+          "baslik": "1.2 TSI triger zinciri ve gergisinin uzaması",
+          "parca": "Triger zinciri / gergi",
+          "belirtiler": "Soğuk çalıştırmada zincir sesi, performans düşüşü; gergi bozulursa zincir diş atlayıp motor hasarı",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-tsi"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-247-pannes-volkswagen-polo-v.php",
+            "https://www.autopartspro.co.uk/tips-advice/vw-polo-common-problems-issues-malfunctions-and-reliability-4211"
+          ]
+        },
+        {
+          "id": "devirdaim",
+          "baslik": "Devirdaim arızası",
+          "parca": "Su pompası",
+          "belirtiler": "Görünür kaçak olmadan antifriz eksilmesi, sıcaklığın yavaşça yükselmesi",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-tsi",
+            "1-4"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-247-pannes-volkswagen-polo-v.php",
+            "https://www.autopartspro.co.uk/tips-advice/vw-polo-common-problems-issues-malfunctions-and-reliability-4211"
+          ]
+        },
+        {
+          "id": "dsg",
+          "baslik": "DSG şanzımanda sarsıntı ve emniyet moduna geçme",
+          "parca": "7 ileri DSG (kavrama / mekatronik)",
+          "belirtiler": "Sert kalkış, sarsıntılı vites, emniyet moduna geçme, çekiş kaybı",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-247-pannes-volkswagen-polo-v.php",
+            "https://www.autopartspro.co.uk/tips-advice/vw-polo-common-problems-issues-malfunctions-and-reliability-4211"
+          ],
+          "sanziman": "DSG otomatik"
+        },
+        {
+          "id": "1-2-tsi-yag",
+          "baslik": "1.2 TSI yağ tüketimi",
+          "parca": "Motor",
+          "belirtiler": "Bakımlar arasında yağ eksilmesi",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-tsi"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-247-pannes-volkswagen-polo-v.php"
+          ]
+        }
+      ]
+    }
+  ]
+}

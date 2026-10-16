@@ -1,0 +1,117 @@
+{
+  "marka": "Renault",
+  "markaSlug": "renault",
+  "model": "Symbol",
+  "modelSlug": "symbol",
+  "nesiller": [
+    {
+      "slug": "symbol-3",
+      "ad": "Symbol 3. nesil",
+      "yillar": [
+        2013,
+        2020
+      ],
+      "motorlar": [
+        {
+          "id": "1-5-dci",
+          "ad": "1.5 dCi",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "enjektor",
+          "baslik": "Enjektör tıkanması ve bakır pul kaçağı",
+          "parca": "Enjektörler / bakır pullar",
+          "belirtiler": "Düzensiz rölanti, siyah duman, güç kaybı, artan tüketim",
+          "km": "80.000-150.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "kaynaklar": [
+            "https://www.arabalar.com.tr/test/renault-symbol-1-5-dci-almak-mantikli-mi",
+            "https://www.araclo.com/blog/renault-symbol-1.5-dci-kronik-sorunlar-yakit-tuketimi-ve-bakim-rehberi",
+            "https://www.arabam.com/blog/danisman/renault-dci-motor-nedir-kronik-sorunlari-nelerdir/"
+          ]
+        },
+        {
+          "id": "egr",
+          "baslik": "EGR valfi tıkanması",
+          "parca": "EGR",
+          "belirtiler": "Arıza lambası, rölanti dengesizliği; düşük devirli şehir içi kullanımda",
+          "km": "60.000-120.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "kaynaklar": [
+            "https://www.arabalar.com.tr/test/renault-symbol-1-5-dci-almak-mantikli-mi",
+            "https://www.araclo.com/blog/renault-symbol-1.5-dci-kronik-sorunlar-yakit-tuketimi-ve-bakim-rehberi"
+          ]
+        },
+        {
+          "id": "turbo",
+          "baslik": "Turbo aşınması ve turbo hortumu çatlağı",
+          "parca": "Turbo / turbo hortumu",
+          "belirtiler": "Islık sesi, güç kaybı; hortum çatlağında hava kaçağı",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "kaynaklar": [
+            "https://www.arabalar.com.tr/test/renault-symbol-1-5-dci-almak-mantikli-mi",
+            "https://www.araclo.com/blog/renault-symbol-1.5-dci-kronik-sorunlar-yakit-tuketimi-ve-bakim-rehberi"
+          ]
+        },
+        {
+          "id": "v-kayisi",
+          "baslik": "V kayışının kopup triger kayışına girmesi",
+          "parca": "V kayışı / triger",
+          "belirtiler": "Kopan V kayışı trigeri atlatabilir; supap eğilmesi ve ağır motor hasarı",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "kaynaklar": [
+            "https://www.araclo.com/blog/renault-symbol-1.5-dci-kronik-sorunlar-yakit-tuketimi-ve-bakim-rehberi",
+            "https://www.arabam.com/blog/danisman/renault-dci-motor-nedir-kronik-sorunlari-nelerdir/"
+          ],
+          "not": "Aşınmış V kayışını triger bakımını beklemeden değiştirin."
+        },
+        {
+          "id": "radyo-ekran",
+          "baslik": "Radyo ekranının ısınınca silikleşmesi",
+          "parca": "Radyo / teyp LCD ekranı",
+          "belirtiler": "Araç ısındıkça ekrandaki yazılar okunamaz hale geliyor",
+          "km": "2013–2016 modeller",
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/renault-symbol-1.5-dci-kronik-sorunlar-yakit-tuketimi-ve-bakim-rehberi"
+          ]
+        },
+        {
+          "id": "far-kolu",
+          "baslik": "Far kolunun arızası",
+          "parca": "Far / sinyal kolu",
+          "belirtiler": "Seyir halinde kısa farların sönmesi, kornanın çalışmaması",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/renault-symbol-1.5-dci-kronik-sorunlar-yakit-tuketimi-ve-bakim-rehberi"
+          ]
+        }
+      ]
+    }
+  ]
+}

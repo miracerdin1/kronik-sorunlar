@@ -97,6 +97,89 @@
           "maliyetTl": null
         }
       ]
+    },
+    {
+      "slug": "astra-k",
+      "ad": "Astra K",
+      "yillar": [
+        2015,
+        2021
+      ],
+      "motorlar": [
+        {
+          "id": "1-6-cdti",
+          "ad": "1.6 CDTI",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-4-turbo",
+          "ad": "1.4 Turbo",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dpf",
+          "baslik": "DPF tıkanması",
+          "parca": "Partikül filtresi",
+          "belirtiler": "DPF uyarısı; şehir içi kullanımda tıkanma",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-cdti"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-opel/fiabilite-536-pannes-opel-astra-5.php",
+            "https://www.wheelstreet.lt/en/straipsniai/123-opel-astra-gidas"
+          ]
+        },
+        {
+          "id": "egr",
+          "baslik": "EGR valfi sorunu",
+          "parca": "EGR",
+          "belirtiler": "Güç kaybı, arıza lambası; şehir içi kullanımda",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-cdti"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-opel/fiabilite-536-pannes-opel-astra-5.php"
+          ]
+        },
+        {
+          "id": "triger-zinciri",
+          "baslik": "Triger zinciri sesi ve gergi sorunu",
+          "parca": "Triger zinciri / gergi",
+          "belirtiler": "Zincirden tıkırtı veya çıngırdama",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-cdti"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-opel/fiabilite-536-pannes-opel-astra-5.php"
+          ]
+        },
+        {
+          "id": "debriyaj",
+          "baslik": "Tekrarlayan debriyaj arızası",
+          "parca": "Debriyaj seti",
+          "belirtiler": "Debriyajın kısa sürede tekrar değişmesi",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-cdti"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-opel/fiabilite-536-pannes-opel-astra-5.php"
+          ]
+        }
+      ]
     }
   ]
 }
