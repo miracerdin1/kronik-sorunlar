@@ -1,0 +1,105 @@
+{
+  "marka": "Honda",
+  "markaSlug": "honda",
+  "model": "Civic",
+  "modelSlug": "civic",
+  "nesiller": [
+    {
+      "slug": "fc5",
+      "ad": "Civic FC5 (10. nesil sedan)",
+      "yillar": [
+        2016,
+        2021
+      ],
+      "motorlar": [
+        {
+          "id": "1-6-i-vtec",
+          "ad": "1.6 i-VTEC",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-i-vtec-lpg",
+          "ad": "1.6 i-VTEC ECO (fabrika LPG)",
+          "yakit": "lpg"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "cvt-zincir-uzamasi",
+          "baslik": "CVT şanzıman zincirinde uzama",
+          "parca": "CVT şanzıman",
+          "belirtiler": "Bazı geçişlerde vuruntu, yarım debriyaj hissi",
+          "km": "80.000 sonrası (bazı araçlarda)",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/honda-civic-1.6-i-vtec-fc5-alinir-mi-sorunlar-yakit-tuketimi-ve-yorumlar-2026"
+          ],
+          "sanziman": "CVT otomatik",
+          "not": "Zincir değişimiyle çözüldüğü bildiriliyor."
+        },
+        {
+          "id": "boya-kalkmasi",
+          "baslik": "Tavan ve arka cam çevresinde boya kalkması",
+          "parca": "Boya",
+          "belirtiler": "Tavan kenarı, arka cam çevresi ve yağmur oluğunda boya kalkması, özellikle beyaz araçlarda",
+          "km": "2017–2019 üretimi",
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/honda-civic-1.6-i-vtec-fc5-alinir-mi-sorunlar-yakit-tuketimi-ve-yorumlar-2026"
+          ]
+        },
+        {
+          "id": "kaporta-gocuk",
+          "baslik": "Kaportada göçük oluşması",
+          "parca": "Kaporta",
+          "belirtiler": "Kaporta panellerinde kendiliğinden göçük",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.arabam.com/blog/?p=78586"
+          ],
+          "not": "Honda 2017 üretiminden itibaren çözüldüğünü, önceki araçları iyi niyet kapsamında onardığını açıkladı."
+        },
+        {
+          "id": "lpg-subap-ayari",
+          "baslik": "LPG'li araçlarda subap ayarı ihmali",
+          "parca": "Subaplar",
+          "belirtiler": "Ayar ihmal edilirse performans düşüşü ve tüketim artışı",
+          "km": "Her ~20.000 km kontrol",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-i-vtec-lpg"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/honda-civic-1.6-i-vtec-fc5-alinir-mi-sorunlar-yakit-tuketimi-ve-yorumlar-2026"
+          ]
+        },
+        {
+          "id": "vtec-kapak-contasi",
+          "baslik": "VTEC (külbütör) kapak contasından yağ sızıntısı",
+          "parca": "Kapak contası",
+          "belirtiler": "Motor üstünde hafif yağ sızıntısı",
+          "km": "~100.000",
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/honda-civic-1.6-i-vtec-fc5-alinir-mi-sorunlar-yakit-tuketimi-ve-yorumlar-2026"
+          ]
+        }
+      ]
+    }
+  ]
+}

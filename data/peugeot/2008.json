@@ -1,0 +1,43 @@
+{
+  "marka": "Peugeot",
+  "markaSlug": "peugeot",
+  "model": "2008",
+  "modelSlug": "2008",
+  "nesiller": [
+    {
+      "slug": "2008-1",
+      "ad": "2008 1. nesil",
+      "yillar": [
+        2013,
+        2019
+      ],
+      "motorlar": [
+        {
+          "id": "1-2-puretech",
+          "ad": "1.2 PureTech",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "yagli-triger-kayisi",
+          "baslik": "Yağ içinde çalışan triger kayışının erken aşınması",
+          "parca": "Triger kayışı",
+          "belirtiler": "Kayış yağ içinde dağılır, parçacıklar yağ pompası süzgecini tıkar; yağ basıncı uyarısı, güç kaybı, ağır motor hasarı",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-puretech"
+          ],
+          "guven": "yuksek",
+          "kaynaklar": [
+            "https://www.turkiyegazetesi.com.tr/t-otomobil/arac-almadan-once-gercegini-ogrenin-12-puretech-motor-triger-sorunu-nedir-yeni-model-1762948",
+            "https://eksisozluk.com/1-2-puretech--6399271"
+          ],
+          "not": "Stellantis Nisan 2024'te bu motorlar için 10 yıl / 180.000 km uzatılmış garanti açıkladı (yetkili serviste düzenli bakım şartıyla). Yalnızca üretici onaylı yağ kullanılmalı."
+        }
+      ]
+    }
+  ]
+}

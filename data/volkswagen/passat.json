@@ -1,0 +1,122 @@
+{
+  "marka": "Volkswagen",
+  "markaSlug": "volkswagen",
+  "model": "Passat",
+  "modelSlug": "passat",
+  "nesiller": [
+    {
+      "slug": "b8",
+      "ad": "Passat B8",
+      "yillar": [
+        2015,
+        2023
+      ],
+      "motorlar": [
+        {
+          "id": "1-6-tdi",
+          "ad": "1.6 TDI",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-4-tsi",
+          "ad": "1.4 TSI",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dsg-kavrama",
+          "baslik": "DSG kavrama seti ve mekatronik arızası",
+          "parca": "7 ileri DSG",
+          "belirtiler": "Kalkışta titreme, vites geçişinde sarsıntı ve gecikme, \"şanzıman hatası\" uyarısı",
+          "km": "55.000-120.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": "25.000-60.000 (kavrama); 12.000-25.000 (mekatronik)",
+          "motorlar": "hepsi",
+          "guven": "yuksek",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/volkswagen-passat-1.6-tdi-sorunlari-bakim-ve-satin-alma-rehberi-2026",
+            "https://www.autodoc.co.uk/info/problems-vw-passat-b8"
+          ],
+          "sanziman": "DSG otomatik"
+        },
+        {
+          "id": "cift-kutleli-volan",
+          "baslik": "Çift kütleli volan",
+          "parca": "Volan",
+          "belirtiler": "Rölantide takırtı, kalkışta titreme",
+          "km": "80.000-120.000",
+          "ciddiyet": "orta",
+          "maliyetTl": "20.000-45.000 (kavramayla)",
+          "motorlar": [
+            "1-6-tdi"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/volkswagen-passat-1.6-tdi-sorunlari-bakim-ve-satin-alma-rehberi-2026"
+          ]
+        },
+        {
+          "id": "egr",
+          "baslik": "EGR valfi arızası",
+          "parca": "EGR",
+          "belirtiler": "Arıza lambası, güç kaybı, düzensiz rölanti",
+          "km": "50.000-70.000",
+          "ciddiyet": "orta",
+          "maliyetTl": "1.500-3.000 temizlik; 5.000-12.000 değişim",
+          "motorlar": [
+            "1-6-tdi"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/volkswagen-passat-1.6-tdi-sorunlari-bakim-ve-satin-alma-rehberi-2026"
+          ]
+        },
+        {
+          "id": "dpf",
+          "baslik": "DPF tıkanması",
+          "parca": "Partikül filtresi",
+          "belirtiler": "DPF uyarısı, güç düşüşü",
+          "km": "80.000-100.000",
+          "ciddiyet": "orta",
+          "maliyetTl": "1.500-8.000 temizlik; 15.000-28.000 değişim",
+          "motorlar": [
+            "1-6-tdi"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/volkswagen-passat-1.6-tdi-sorunlari-bakim-ve-satin-alma-rehberi-2026"
+          ]
+        },
+        {
+          "id": "front-assist",
+          "baslik": "\"Front Assist kullanılamıyor\" uyarısı",
+          "parca": "Ön radar / sürüş destek",
+          "belirtiler": "Front Assist, şerit takip ve adaptif hız sabitleyici aralıklı devre dışı",
+          "km": "20.000-40.000",
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.autodoc.co.uk/info/problems-vw-passat-b8"
+          ]
+        },
+        {
+          "id": "multimedya",
+          "baslik": "Multimedya donması ve Bluetooth kopması",
+          "parca": "Multimedya",
+          "belirtiler": "Ekran donması, Bluetooth kopması, kablosuz şarj telefonu tanımıyor",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.autodoc.co.uk/info/problems-vw-passat-b8"
+          ]
+        }
+      ]
+    }
+  ]
+}

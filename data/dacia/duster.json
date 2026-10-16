@@ -1,0 +1,233 @@
+{
+  "marka": "Dacia",
+  "markaSlug": "dacia",
+  "model": "Duster",
+  "modelSlug": "duster",
+  "nesiller": [
+    {
+      "slug": "duster-1",
+      "ad": "Duster 1. nesil",
+      "yillar": [
+        2010,
+        2017
+      ],
+      "motorlar": [
+        {
+          "id": "1-5-dci",
+          "ad": "1.5 dCi",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "turbo-yaglama",
+          "baslik": "Turbo ve yağlama sorunları",
+          "parca": "Turbo",
+          "belirtiler": "Yoğun beyaz/mavi duman, turbodan tıkırtı",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi"
+          ]
+        },
+        {
+          "id": "enjektor",
+          "baslik": "Enjektör arızası",
+          "parca": "Enjektörler",
+          "belirtiler": "Rölantide stop etme, sarsıntılı çalışma, hızlanmada güç kaybı",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi"
+          ]
+        },
+        {
+          "id": "krank-yatak-sarmasi",
+          "baslik": "Krank yatağı sarması",
+          "parca": "Krank yatakları",
+          "belirtiler": "Yağ bakımı geciktirilirse yatak sarması ve motor hasarı",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi"
+          ],
+          "not": "K9K motorun bilinen zayıf noktası; yağ değişim aralığına uymak önemli."
+        },
+        {
+          "id": "dpf",
+          "baslik": "DPF tıkanması",
+          "parca": "Partikül filtresi",
+          "belirtiler": "Şehir içi kısa mesafe kullanımda tıkanma",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi"
+          ]
+        },
+        {
+          "id": "direksiyon-kutusu",
+          "baslik": "Direksiyon kutusundan ses",
+          "parca": "Direksiyon kutusu",
+          "belirtiler": "Direksiyon çevrilirken ses",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "duster-2",
+      "ad": "Duster 2. nesil",
+      "yillar": [
+        2018,
+        2024
+      ],
+      "motorlar": [
+        {
+          "id": "1-5-dci",
+          "ad": "1.5 dCi / Blue dCi",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "turbo-yaglama",
+          "baslik": "Turbo ve yağlama sorunları",
+          "parca": "Turbo",
+          "belirtiler": "Yoğun beyaz/mavi duman, turbodan tıkırtı",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi"
+          ]
+        },
+        {
+          "id": "enjektor",
+          "baslik": "Enjektör arızası",
+          "parca": "Enjektörler",
+          "belirtiler": "Rölantide stop etme, sarsıntılı çalışma, hızlanmada güç kaybı",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi"
+          ]
+        },
+        {
+          "id": "krank-yatak-sarmasi",
+          "baslik": "Krank yatağı sarması",
+          "parca": "Krank yatakları",
+          "belirtiler": "Yağ bakımı geciktirilirse yatak sarması ve motor hasarı",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi"
+          ],
+          "not": "K9K motorun bilinen zayıf noktası; yağ değişim aralığına uymak önemli."
+        },
+        {
+          "id": "dpf",
+          "baslik": "DPF tıkanması",
+          "parca": "Partikül filtresi",
+          "belirtiler": "Şehir içi kısa mesafe kullanımda tıkanma",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi"
+          ]
+        },
+        {
+          "id": "adblue-nox",
+          "baslik": "AdBlue / SCR sistemi ve NOx sensörü arızası",
+          "parca": "AdBlue sistemi",
+          "belirtiler": "AdBlue uyarıları, NOx sensörü ve AdBlue enjektörü arızası; onarımı pahalı",
+          "km": "Blue dCi (2019 sonrası)",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi"
+          ]
+        },
+        {
+          "id": "edc-titreme",
+          "baslik": "EDC şanzımanda kalkış titremesi",
+          "parca": "EDC çift kavramalı şanzıman",
+          "belirtiler": "Kalkışta titreme, vites geçişinde vuruntu, mekatronik arızası",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi"
+          ],
+          "sanziman": "EDC otomatik (2017–2019 dCi 110)"
+        },
+        {
+          "id": "tpms-uyari",
+          "baslik": "Lastik basınç sensörü sık uyarı veriyor",
+          "parca": "TPMS",
+          "belirtiler": "Sık tekrarlayan lastik basınç uyarısı",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi"
+          ]
+        }
+      ]
+    }
+  ]
+}
