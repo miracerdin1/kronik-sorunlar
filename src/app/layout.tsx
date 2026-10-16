@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="tr" className={`${geistSans.variable} h-full antialiased`}>
+    <html lang="tr" className={`${geistSans.variable} h-full antialiased`} suppressHydrationWarning>
       <body className="flex min-h-full flex-col">
         <header className="border-b border-zinc-200 dark:border-zinc-800">
           <div className="mx-auto flex max-w-4xl items-center justify-between px-4 py-4">
