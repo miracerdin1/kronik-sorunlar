@@ -1,7 +1,6 @@
 "use client";
 
-import Link from "next/link";
-import { usePathname, useSearchParams } from "next/navigation";
+import { useSyncExternalStore } from "react";
 import { alanAdi } from "@/lib/dogrulama";
 import { ciddiyetAdi, yakitAdi, type Ciddiyet, type Nesil, type Sorun } from "@/lib/tipler";
 
@@ -91,9 +90,51 @@ function SorunKarti({ sorun, motorAdlari }: { sorun: Sorun; motorAdlari: string 
   );
 }
 
+// Filtre durumu adres çubuğundaki ?yakit=&motor= parametrelerinde tutulur. Sunucuda (statik HTML)
+// filtre yoktur, böylece tüm sorunlar sayfanın HTML'inde yer alır ve arama motorları görebilir.
+const FILTRE_OLAYI = "sorun-filtresi";
+
+function abone(bildir: () => void) {
+  window.addEventListener("popstate", bildir);
+  window.addEventListener(FILTRE_OLAYI, bildir);
+  return () => {
+    window.removeEventListener("popstate", bildir);
+    window.removeEventListener(FILTRE_OLAYI, bildir);
+  };
+}
+
+function filtreSec(yakit: string | null, motor: string | null) {
+  const p = new URLSearchParams();
+  if (yakit) p.set("yakit", yakit);
+  if (motor) p.set("motor", motor);
+  const s = p.toString();
+  window.history.replaceState(window.history.state, "", s ? `${window.location.pathname}?${s}` : window.location.pathname);
+  window.dispatchEvent(new Event(FILTRE_OLAYI));
+}
+
+function Secenek({ secili, koyu, onClick, children }: { secili: boolean; koyu?: boolean; onClick: () => void; children: React.ReactNode }) {
+  const seciliSinif = koyu
+    ? "border-zinc-900 bg-zinc-900 text-white dark:border-zinc-100 dark:bg-zinc-100 dark:text-zinc-900"
+    : "border-red-600 bg-red-600 text-white";
+  return (
+    <button
+      type="button"
+      aria-pressed={secili}
+      onClick={onClick}
+      className={`cursor-pointer rounded-full border px-3 py-1 text-sm ${secili ? seciliSinif : "border-zinc-300 dark:border-zinc-700"}`}
+    >
+      {children}
+    </button>
+  );
+}
+
 export default function SorunListesi({ nesil }: { nesil: Nesil }) {
-  const pathname = usePathname();
-  const parametreler = useSearchParams();
+  const arama = useSyncExternalStore(
+    abone,
+    () => window.location.search,
+    () => "",
+  );
+  const parametreler = new URLSearchParams(arama);
   const yakit = parametreler.get("yakit");
   const motorId = parametreler.get("motor");
 
@@ -111,54 +152,32 @@ export default function SorunListesi({ nesil }: { nesil: Nesil }) {
       ? "Tüm motorlar"
       : s.motorlar.map((id) => nesil.motorlar.find((m) => m.id === id)?.ad ?? id).join(", ");
 
-  const baglanti = (motor?: string) => {
-    const p = new URLSearchParams();
-    if (yakit) p.set("yakit", yakit);
-    if (motor) p.set("motor", motor);
-    const s = p.toString();
-    return s ? `${pathname}?${s}` : pathname;
-  };
-
   const yakitlar = [...new Set(nesil.motorlar.map((m) => m.yakit))];
 
   return (
     <section>
       <div className="flex flex-wrap items-center gap-2">
         <span className="text-sm text-zinc-500 dark:text-zinc-400">Yakıt:</span>
-        <Link
-          href={pathname}
-          className={`rounded-full border px-3 py-1 text-sm ${!yakit ? "border-red-600 bg-red-600 text-white" : "border-zinc-300 dark:border-zinc-700"}`}
-        >
+        <Secenek secili={!yakit} onClick={() => filtreSec(null, null)}>
           Tümü
-        </Link>
+        </Secenek>
         {yakitlar.map((y) => (
-          <Link
-            key={y}
-            href={`${pathname}?yakit=${y}`}
-            className={`rounded-full border px-3 py-1 text-sm ${yakit === y ? "border-red-600 bg-red-600 text-white" : "border-zinc-300 dark:border-zinc-700"}`}
-          >
+          <Secenek key={y} secili={yakit === y} onClick={() => filtreSec(y, null)}>
             {yakitAdi[y]}
-          </Link>
+          </Secenek>
         ))}
       </div>
 
       {motorlar.length > 1 && (
         <div className="mt-3 flex flex-wrap items-center gap-2">
           <span className="text-sm text-zinc-500 dark:text-zinc-400">Motor:</span>
-          <Link
-            href={baglanti()}
-            className={`rounded-full border px-3 py-1 text-sm ${!motorId ? "border-zinc-900 bg-zinc-900 text-white dark:border-zinc-100 dark:bg-zinc-100 dark:text-zinc-900" : "border-zinc-300 dark:border-zinc-700"}`}
-          >
+          <Secenek koyu secili={!motorId} onClick={() => filtreSec(yakit, null)}>
             Tümü
-          </Link>
+          </Secenek>
           {motorlar.map((m) => (
-            <Link
-              key={m.id}
-              href={baglanti(m.id)}
-              className={`rounded-full border px-3 py-1 text-sm ${motorId === m.id ? "border-zinc-900 bg-zinc-900 text-white dark:border-zinc-100 dark:bg-zinc-100 dark:text-zinc-900" : "border-zinc-300 dark:border-zinc-700"}`}
-            >
+            <Secenek key={m.id} koyu secili={motorId === m.id} onClick={() => filtreSec(yakit, m.id)}>
               {m.ad}
-            </Link>
+            </Secenek>
           ))}
         </div>
       )}

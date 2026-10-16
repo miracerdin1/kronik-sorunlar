@@ -31,7 +31,7 @@ export default function AracSecici({ katalog }: { katalog: KatalogMarka[] }) {
     e.preventDefault();
     if (!marka || !model || !nesil) return;
     const sorgu = yakit ? `?yakit=${yakit}` : "";
-    router.push(`/${marka.slug}/${model.slug}/${nesil.slug}${sorgu}`);
+    router.push(`/${marka.slug}/${model.slug}/${nesil.slug}/${sorgu}`);
   }
 
   return (

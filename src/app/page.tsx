@@ -4,6 +4,7 @@ import { katalog, tumModeller } from "@/lib/veri";
 
 export default function Home() {
   const modeller = tumModeller();
+  const kasaSayisi = modeller.reduce((t, m) => t + m.nesiller.length, 0);
   const sorunSayisi = modeller.reduce((t, m) => t + m.nesiller.reduce((u, n) => u + n.sorunlar.length, 0), 0);
 
   return (
@@ -17,7 +18,7 @@ export default function Home() {
           <AracSecici katalog={katalog()} />
         </div>
         <p className="mt-3 text-sm text-zinc-500 dark:text-zinc-400">
-          Şu an {modeller.length} model ve {sorunSayisi} kronik sorun kayıtlı. Liste düzenli olarak genişliyor.
+          Şu an {modeller.length} model, {kasaSayisi} kasa ve {sorunSayisi} kronik sorun kayıtlı. Liste düzenli olarak genişliyor.
         </p>
       </section>
 

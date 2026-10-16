@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Suspense } from "react";
 import SorunListesi from "@/components/SorunListesi";
 import { modelBul, tumModeller } from "@/lib/veri";
 
@@ -61,9 +60,7 @@ export default async function NesilSayfasi({ params }: PageProps<"/[marka]/[mode
         </p>
       )}
       <div className="mt-6">
-        <Suspense fallback={<p className="text-zinc-500">Yükleniyor…</p>}>
-          <SorunListesi nesil={n} />
-        </Suspense>
+        <SorunListesi nesil={n} />
       </div>
     </div>
   );
