@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "veri:kontrol": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/veri-kontrol.mts --bekleyenler"
   },
   "dependencies": {
     "next": "16.4.2",

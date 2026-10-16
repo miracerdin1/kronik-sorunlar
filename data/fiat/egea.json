@@ -35,10 +35,10 @@
           "motorlar": [
             "1-3-multijet"
           ],
-          "guven": "yuksek",
           "kaynaklar": [
             "https://www.araclo.com/blog/fiat-egea-1.3-multijet-kronik-sorunlari",
-            "https://www.arabalar.com.tr/test/fiat-egeanin-kronik-sorunlari-abartiliyor-mu"
+            "https://www.arabalar.com.tr/test/fiat-egeanin-kronik-sorunlari-abartiliyor-mu",
+            "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-546-pannes-fiat-tipo.php"
           ]
         },
         {
@@ -52,7 +52,6 @@
           "motorlar": [
             "1-3-multijet"
           ],
-          "guven": "orta",
           "kaynaklar": [
             "https://www.araclo.com/blog/fiat-egea-1.3-multijet-kronik-sorunlari"
           ]
@@ -68,7 +67,6 @@
           "motorlar": [
             "1-3-multijet"
           ],
-          "guven": "orta",
           "kaynaklar": [
             "https://www.araclo.com/blog/fiat-egea-1.3-multijet-kronik-sorunlari"
           ]
@@ -84,9 +82,9 @@
           "motorlar": [
             "1-3-multijet"
           ],
-          "guven": "orta",
           "kaynaklar": [
-            "https://www.araclo.com/blog/fiat-egea-1.3-multijet-kronik-sorunlari"
+            "https://www.araclo.com/blog/fiat-egea-1.3-multijet-kronik-sorunlari",
+            "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-546-pannes-fiat-tipo.php"
           ]
         },
         {
@@ -100,7 +98,6 @@
           "motorlar": [
             "1-3-multijet"
           ],
-          "guven": "yuksek",
           "kaynaklar": [
             "https://www.araclo.com/blog/fiat-egea-1.3-multijet-kronik-sorunlari",
             "https://www.arabalar.com.tr/test/fiat-egeanin-kronik-sorunlari-abartiliyor-mu"
@@ -115,7 +112,6 @@
           "ciddiyet": "dusuk",
           "maliyetTl": null,
           "motorlar": "hepsi",
-          "guven": "orta",
           "kaynaklar": [
             "https://www.arabalar.com.tr/test/fiat-egeanin-kronik-sorunlari-abartiliyor-mu"
           ]
@@ -131,10 +127,10 @@
           "motorlar": [
             "1-4-fire"
           ],
-          "guven": "yuksek",
           "kaynaklar": [
             "https://www.araclo.com/blog/fiat-egea-1.4-fire-sorunlari-bakim-ve-satin-alma-rehberi-2026",
-            "https://forum.donanimhaber.com/fiat-egea-yag-yakma-sorunu-hk--136202450"
+            "https://forum.donanimhaber.com/fiat-egea-yag-yakma-sorunu-hk--136202450",
+            "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-546-pannes-fiat-tipo.php"
           ],
           "not": "Kullanıcılar ~1.000 km'de 100 ml tüketim bildiriyor; kaliteli yağ ve kısa değişim aralığı (7.000-8.000 km) öneriliyor."
         },
@@ -149,9 +145,9 @@
           "motorlar": [
             "1-4-fire"
           ],
-          "guven": "orta",
           "kaynaklar": [
-            "https://www.araclo.com/blog/fiat-egea-1.4-fire-sorunlari-bakim-ve-satin-alma-rehberi-2026"
+            "https://www.araclo.com/blog/fiat-egea-1.4-fire-sorunlari-bakim-ve-satin-alma-rehberi-2026",
+            "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-546-pannes-fiat-tipo.php"
           ]
         },
         {
@@ -165,9 +161,9 @@
           "motorlar": [
             "1-4-fire"
           ],
-          "guven": "orta",
           "kaynaklar": [
-            "https://www.araclo.com/blog/fiat-egea-1.4-fire-sorunlari-bakim-ve-satin-alma-rehberi-2026"
+            "https://www.araclo.com/blog/fiat-egea-1.4-fire-sorunlari-bakim-ve-satin-alma-rehberi-2026",
+            "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-546-pannes-fiat-tipo.php"
           ]
         },
         {
@@ -179,7 +175,6 @@
           "ciddiyet": "dusuk",
           "maliyetTl": null,
           "motorlar": "hepsi",
-          "guven": "orta",
           "kaynaklar": [
             "https://www.araclo.com/blog/fiat-egea-1.4-fire-sorunlari-bakim-ve-satin-alma-rehberi-2026"
           ]

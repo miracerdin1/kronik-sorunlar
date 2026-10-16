@@ -1,6 +1,7 @@
 import "server-only";
 import fs from "node:fs";
 import path from "node:path";
+import { guvenHesapla } from "./dogrulama";
 import type { KatalogMarka, Model, Nesil, Yakit } from "./tipler";
 
 const VERI_KLASORU = path.join(process.cwd(), "data");
@@ -16,7 +17,9 @@ export function tumModeller(): Model[] {
     if (!fs.statSync(klasor).isDirectory()) continue;
     for (const dosya of fs.readdirSync(klasor)) {
       if (!dosya.endsWith(".json")) continue;
-      modeller.push(JSON.parse(fs.readFileSync(path.join(klasor, dosya), "utf8")));
+      const model: Model = JSON.parse(fs.readFileSync(path.join(klasor, dosya), "utf8"));
+      for (const n of model.nesiller) for (const s of n.sorunlar) s.guven = guvenHesapla(s.kaynaklar);
+      modeller.push(model);
     }
   }
   modeller.sort((a, b) => a.marka.localeCompare(b.marka, "tr") || a.model.localeCompare(b.model, "tr"));

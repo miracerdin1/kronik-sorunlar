@@ -21,3 +21,11 @@ Her model `data/<marka>/<model>.json` dosyasında durur; tipler `src/lib/tipler.
 Yeni bir JSON dosyası eklemek sayfaları, seçim formunu ve `sitemap.xml`'i otomatik günceller.
 
 Canlı adres için `NEXT_PUBLIC_SITE_URL` ortam değişkenini ayarlayın.
+
+## Doğrulama kuralı
+
+Bir sorun ancak **en az iki farklı siteden** kaynak gösteriyorsa ve bunlardan **en az biri güçlü kaynak** ise "doğrulandı" sayılır (`src/lib/dogrulama.ts`). İçeriği büyük ölçüde otomatik üretilen siteler (`ZAYIF_KAYNAKLAR`) tek başına doğrulama sayılmaz. Site varsayılan olarak yalnızca doğrulanmış sorunları gösterir; tek kaynaklı olanlar "doğrulama bekliyor" olarak isteğe bağlı listelenir.
+
+```bash
+npm run veri:kontrol   # şema hatalarını ve doğrulama bekleyen sorunları listeler
+```

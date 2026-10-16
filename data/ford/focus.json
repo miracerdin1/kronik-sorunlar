@@ -30,7 +30,6 @@
           "motorlar": [
             "1-6-tdci"
           ],
-          "guven": "yuksek",
           "kaynaklar": [
             "https://www.carchecker.pro/reports/ford_focus_mk3_1.6_tdci.html",
             "https://www.araclo.com/blog/ford-focus-1.6-tdci-kronik-sorunlari-ve-ikinci-el-alim-rehberi-2026"
@@ -48,10 +47,10 @@
           "motorlar": [
             "1-6-tdci"
           ],
-          "guven": "yuksek",
           "kaynaklar": [
             "https://www.carchecker.pro/reports/ford_focus_mk3_1.6_tdci.html",
-            "https://www.araclo.com/blog/ford-focus-1.6-tdci-kronik-sorunlari-ve-ikinci-el-alim-rehberi-2026"
+            "https://www.araclo.com/blog/ford-focus-1.6-tdci-kronik-sorunlari-ve-ikinci-el-alim-rehberi-2026",
+            "https://www.fiches-auto.fr/fiabilite-ford/fiabilite-326-pannes-ford-focus-3.php"
           ]
         },
         {
@@ -65,10 +64,10 @@
           "motorlar": [
             "1-6-tdci"
           ],
-          "guven": "yuksek",
           "kaynaklar": [
             "https://www.carchecker.pro/reports/ford_focus_mk3_1.6_tdci.html",
-            "https://www.araclo.com/blog/ford-focus-1.6-tdci-kronik-sorunlari-ve-ikinci-el-alim-rehberi-2026"
+            "https://www.araclo.com/blog/ford-focus-1.6-tdci-kronik-sorunlari-ve-ikinci-el-alim-rehberi-2026",
+            "https://www.fiches-auto.fr/fiabilite-ford/fiabilite-326-pannes-ford-focus-3.php"
           ]
         },
         {
@@ -82,10 +81,10 @@
           "motorlar": [
             "1-6-tdci"
           ],
-          "guven": "yuksek",
           "kaynaklar": [
             "https://www.carchecker.pro/reports/ford_focus_mk3_1.6_tdci.html",
-            "https://www.araclo.com/blog/ford-focus-1.6-tdci-kronik-sorunlari-ve-ikinci-el-alim-rehberi-2026"
+            "https://www.araclo.com/blog/ford-focus-1.6-tdci-kronik-sorunlari-ve-ikinci-el-alim-rehberi-2026",
+            "https://www.fiches-auto.fr/fiabilite-ford/fiabilite-326-pannes-ford-focus-3.php"
           ]
         },
         {
@@ -99,11 +98,27 @@
           "motorlar": [
             "1-6-tdci"
           ],
-          "guven": "yuksek",
           "kaynaklar": [
             "https://www.carchecker.pro/reports/ford_focus_mk3_1.6_tdci.html",
-            "https://www.araclo.com/blog/ford-focus-1.6-tdci-kronik-sorunlari-ve-ikinci-el-alim-rehberi-2026"
+            "https://www.araclo.com/blog/ford-focus-1.6-tdci-kronik-sorunlari-ve-ikinci-el-alim-rehberi-2026",
+            "https://www.fiches-auto.fr/fiabilite-ford/fiabilite-326-pannes-ford-focus-3.php"
           ]
+        },
+        {
+          "id": "debriyaj-merkezi",
+          "baslik": "Debriyaj ve debriyaj merkezi (CSC) arızası",
+          "parca": "Debriyaj / hidrolik debriyaj merkezi",
+          "belirtiler": "Pedalın dipte kalması, debriyajın kaçırması, tam ayıramama",
+          "ciddiyet": "orta",
+          "motorlar": [
+            "1-6-tdci"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-ford/fiabilite-326-pannes-ford-focus-3.php",
+            "https://www.carchecker.pro/reports/ford_focus_mk3_1.6_tdci.html"
+          ],
+          "km": null,
+          "maliyetTl": null
         }
       ]
     }

@@ -33,7 +33,6 @@
           "ciddiyet": "orta",
           "maliyetTl": null,
           "motorlar": "hepsi",
-          "guven": "orta",
           "kaynaklar": [
             "https://www.araclo.com/blog/honda-civic-1.6-i-vtec-fc5-alinir-mi-sorunlar-yakit-tuketimi-ve-yorumlar-2026"
           ],
@@ -49,9 +48,10 @@
           "ciddiyet": "dusuk",
           "maliyetTl": null,
           "motorlar": "hepsi",
-          "guven": "orta",
           "kaynaklar": [
-            "https://www.araclo.com/blog/honda-civic-1.6-i-vtec-fc5-alinir-mi-sorunlar-yakit-tuketimi-ve-yorumlar-2026"
+            "https://www.araclo.com/blog/honda-civic-1.6-i-vtec-fc5-alinir-mi-sorunlar-yakit-tuketimi-ve-yorumlar-2026",
+            "https://www.sikayetvar.com/honda/honda-civic-tavan-ve-cam-kenarlarinda-boya-atmasi-kronik-sorun",
+            "https://www.sikayetvar.com/honda/honda-civicte-kronik-boya-kalkmasi-ve-servis-ilgisizligi"
           ]
         },
         {
@@ -63,9 +63,9 @@
           "ciddiyet": "dusuk",
           "maliyetTl": null,
           "motorlar": "hepsi",
-          "guven": "orta",
           "kaynaklar": [
-            "https://www.arabam.com/blog/?p=78586"
+            "https://www.arabam.com/blog/?p=78586",
+            "https://tr.motor1.com/news/183365/hondadan-gocuklu-civic-aciklamasi-geldi/"
           ],
           "not": "Honda 2017 üretiminden itibaren çözüldüğünü, önceki araçları iyi niyet kapsamında onardığını açıkladı."
         },
@@ -80,7 +80,6 @@
           "motorlar": [
             "1-6-i-vtec-lpg"
           ],
-          "guven": "orta",
           "kaynaklar": [
             "https://www.araclo.com/blog/honda-civic-1.6-i-vtec-fc5-alinir-mi-sorunlar-yakit-tuketimi-ve-yorumlar-2026"
           ]
@@ -94,7 +93,6 @@
           "ciddiyet": "dusuk",
           "maliyetTl": null,
           "motorlar": "hepsi",
-          "guven": "orta",
           "kaynaklar": [
             "https://www.araclo.com/blog/honda-civic-1.6-i-vtec-fc5-alinir-mi-sorunlar-yakit-tuketimi-ve-yorumlar-2026"
           ]

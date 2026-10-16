@@ -33,10 +33,10 @@
           "ciddiyet": "yuksek",
           "maliyetTl": "25.000-60.000 (kavrama); 12.000-25.000 (mekatronik)",
           "motorlar": "hepsi",
-          "guven": "yuksek",
           "kaynaklar": [
             "https://www.araclo.com/blog/volkswagen-passat-1.6-tdi-sorunlari-bakim-ve-satin-alma-rehberi-2026",
-            "https://www.autodoc.co.uk/info/problems-vw-passat-b8"
+            "https://www.autodoc.co.uk/info/problems-vw-passat-b8",
+            "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-507-pannes-volkswagen-passat.php"
           ],
           "sanziman": "DSG otomatik"
         },
@@ -51,9 +51,9 @@
           "motorlar": [
             "1-6-tdi"
           ],
-          "guven": "orta",
           "kaynaklar": [
-            "https://www.araclo.com/blog/volkswagen-passat-1.6-tdi-sorunlari-bakim-ve-satin-alma-rehberi-2026"
+            "https://www.araclo.com/blog/volkswagen-passat-1.6-tdi-sorunlari-bakim-ve-satin-alma-rehberi-2026",
+            "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-507-pannes-volkswagen-passat.php"
           ]
         },
         {
@@ -67,9 +67,9 @@
           "motorlar": [
             "1-6-tdi"
           ],
-          "guven": "orta",
           "kaynaklar": [
-            "https://www.araclo.com/blog/volkswagen-passat-1.6-tdi-sorunlari-bakim-ve-satin-alma-rehberi-2026"
+            "https://www.araclo.com/blog/volkswagen-passat-1.6-tdi-sorunlari-bakim-ve-satin-alma-rehberi-2026",
+            "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-507-pannes-volkswagen-passat.php"
           ]
         },
         {
@@ -83,9 +83,9 @@
           "motorlar": [
             "1-6-tdi"
           ],
-          "guven": "orta",
           "kaynaklar": [
-            "https://www.araclo.com/blog/volkswagen-passat-1.6-tdi-sorunlari-bakim-ve-satin-alma-rehberi-2026"
+            "https://www.araclo.com/blog/volkswagen-passat-1.6-tdi-sorunlari-bakim-ve-satin-alma-rehberi-2026",
+            "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-507-pannes-volkswagen-passat.php"
           ]
         },
         {
@@ -97,9 +97,9 @@
           "ciddiyet": "dusuk",
           "maliyetTl": null,
           "motorlar": "hepsi",
-          "guven": "orta",
           "kaynaklar": [
-            "https://www.autodoc.co.uk/info/problems-vw-passat-b8"
+            "https://www.autodoc.co.uk/info/problems-vw-passat-b8",
+            "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-507-pannes-volkswagen-passat.php"
           ]
         },
         {
@@ -111,9 +111,9 @@
           "ciddiyet": "dusuk",
           "maliyetTl": null,
           "motorlar": "hepsi",
-          "guven": "orta",
           "kaynaklar": [
-            "https://www.autodoc.co.uk/info/problems-vw-passat-b8"
+            "https://www.autodoc.co.uk/info/problems-vw-passat-b8",
+            "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-507-pannes-volkswagen-passat.php"
           ]
         }
       ]

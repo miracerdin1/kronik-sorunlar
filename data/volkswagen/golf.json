@@ -30,10 +30,10 @@
           "motorlar": [
             "1-6-tdi"
           ],
-          "guven": "yuksek",
           "kaynaklar": [
             "https://www.autodoc.co.uk/info/vw-golf-mk7-common-problems-faults-malfunctions-and-reliability",
-            "https://www.araclo.com/blog/volkswagen-golf-1.6-tdi-alinir-mi-kronik-sorunlar-ve-kullanici-yorumlari-2026"
+            "https://www.araclo.com/blog/volkswagen-golf-1.6-tdi-alinir-mi-kronik-sorunlar-ve-kullanici-yorumlari-2026",
+            "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-358-pannes-volkswagen-golf-vii.php"
           ],
           "sanziman": "DSG otomatik"
         },
@@ -48,9 +48,9 @@
           "motorlar": [
             "1-6-tdi"
           ],
-          "guven": "orta",
           "kaynaklar": [
-            "https://www.araclo.com/blog/volkswagen-golf-1.6-tdi-alinir-mi-kronik-sorunlar-ve-kullanici-yorumlari-2026"
+            "https://www.araclo.com/blog/volkswagen-golf-1.6-tdi-alinir-mi-kronik-sorunlar-ve-kullanici-yorumlari-2026",
+            "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-358-pannes-volkswagen-golf-vii.php"
           ]
         },
         {
@@ -64,7 +64,6 @@
           "motorlar": [
             "1-6-tdi"
           ],
-          "guven": "orta",
           "kaynaklar": [
             "https://www.autodoc.co.uk/info/vw-golf-mk7-common-problems-faults-malfunctions-and-reliability"
           ]
@@ -80,7 +79,6 @@
           "motorlar": [
             "1-6-tdi"
           ],
-          "guven": "orta",
           "kaynaklar": [
             "https://www.autodoc.co.uk/info/vw-golf-mk7-common-problems-faults-malfunctions-and-reliability"
           ]

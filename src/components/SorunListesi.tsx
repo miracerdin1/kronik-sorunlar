@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
+import { alanAdi } from "@/lib/dogrulama";
 import { ciddiyetAdi, yakitAdi, type Ciddiyet, type Nesil, type Sorun } from "@/lib/tipler";
 
 const ciddiyetSirasi: Record<Ciddiyet, number> = { yuksek: 0, orta: 1, dusuk: 2 };
@@ -12,13 +13,6 @@ const ciddiyetRozeti: Record<Ciddiyet, string> = {
   dusuk: "bg-zinc-100 text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300",
 };
 
-function alanAdi(url: string) {
-  try {
-    return new URL(url).hostname.replace(/^www\./, "");
-  } catch {
-    return url;
-  }
-}
 
 function SorunKarti({ sorun, motorAdlari }: { sorun: Sorun; motorAdlari: string }) {
   return (
@@ -49,7 +43,9 @@ function SorunKarti({ sorun, motorAdlari }: { sorun: Sorun; motorAdlari: string 
         </div>
         <div>
           <dt className="inline text-zinc-500 dark:text-zinc-400">Güven: </dt>
-          <dd className="inline">{sorun.guven === "yuksek" ? "Birden çok kaynakta doğrulandı" : "Tek kaynak"}</dd>
+          <dd className="inline">
+            {sorun.guven === "dogrulandi" ? "Birden çok bağımsız kaynakta doğrulandı" : "Tek kaynak, doğrulama bekliyor"}
+          </dd>
         </div>
       </dl>
       <p className="mt-3 text-sm">
@@ -72,24 +68,28 @@ export default function SorunListesi({ nesil }: { nesil: Nesil }) {
   const parametreler = useSearchParams();
   const yakit = parametreler.get("yakit");
   const motorId = parametreler.get("motor");
+  const tumunuGoster = parametreler.get("tumu") === "1";
 
   const motorlar = yakit ? nesil.motorlar.filter((m) => m.yakit === yakit) : nesil.motorlar;
   const seciliMotorlar = motorId ? motorlar.filter((m) => m.id === motorId) : motorlar;
   const seciliIdler = new Set(seciliMotorlar.map((m) => m.id));
 
-  const sorunlar = nesil.sorunlar
+  const eslesenler = nesil.sorunlar
     .filter((s) => s.motorlar === "hepsi" || s.motorlar.some((id) => seciliIdler.has(id)))
     .sort((a, b) => ciddiyetSirasi[a.ciddiyet] - ciddiyetSirasi[b.ciddiyet]);
+  const dogrulanmamisSayisi = eslesenler.filter((s) => s.guven !== "dogrulandi").length;
+  const sorunlar = tumunuGoster ? eslesenler : eslesenler.filter((s) => s.guven === "dogrulandi");
 
   const motorAdi = (s: Sorun) =>
     s.motorlar === "hepsi"
       ? "Tüm motorlar"
       : s.motorlar.map((id) => nesil.motorlar.find((m) => m.id === id)?.ad ?? id).join(", ");
 
-  const baglanti = (motor?: string) => {
+  const baglanti = (motor?: string | null, tumu = tumunuGoster) => {
     const p = new URLSearchParams();
     if (yakit) p.set("yakit", yakit);
     if (motor) p.set("motor", motor);
+    if (tumu) p.set("tumu", "1");
     const s = p.toString();
     return s ? `${pathname}?${s}` : pathname;
   };
@@ -145,12 +145,30 @@ export default function SorunListesi({ nesil }: { nesil: Nesil }) {
         </p>
       ) : (
         <>
-          <p className="mt-6 text-sm text-zinc-500 dark:text-zinc-400">{sorunlar.length} kronik sorun, ciddiyete göre sıralı</p>
+          <p className="mt-6 text-sm text-zinc-500 dark:text-zinc-400">
+            {sorunlar.length} kronik sorun, ciddiyete göre sıralı
+            {!tumunuGoster && " (yalnızca birden çok kaynakta doğrulananlar)"}
+          </p>
+          {sorunlar.length === 0 && (
+            <p className="mt-3 rounded-xl border border-dashed border-zinc-300 p-6 text-center text-zinc-600 dark:border-zinc-700 dark:text-zinc-400">
+              Bu seçim için henüz doğrulanmış bir kronik sorun yok.
+            </p>
+          )}
           <ul className="mt-3 grid gap-4">
             {sorunlar.map((s) => (
               <SorunKarti key={s.id} sorun={s} motorAdlari={motorAdi(s)} />
             ))}
           </ul>
+          {dogrulanmamisSayisi > 0 && (
+            <Link
+              href={baglanti(motorId, !tumunuGoster)}
+              className="mt-4 inline-block text-sm text-red-700 underline dark:text-red-400"
+            >
+              {tumunuGoster
+                ? "Yalnızca doğrulanmış sorunları göster"
+                : `Doğrulama bekleyen ${dogrulanmamisSayisi} sorunu da göster`}
+            </Link>
+          )}
         </>
       )}
     </section>

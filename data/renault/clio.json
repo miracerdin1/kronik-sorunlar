@@ -30,9 +30,9 @@
           "motorlar": [
             "1-5-dci"
           ],
-          "guven": "orta",
           "kaynaklar": [
-            "https://www.araclo.com/blog/renault-clio-1.5-dci-incelemesi-kronik-sorunlar-yakit-tuketimi-ve-yorumlar"
+            "https://www.araclo.com/blog/renault-clio-1.5-dci-incelemesi-kronik-sorunlar-yakit-tuketimi-ve-yorumlar",
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-357-pannes-renault-clio-4.php"
           ],
           "sanziman": "EDC otomatik"
         },
@@ -47,9 +47,9 @@
           "motorlar": [
             "1-5-dci"
           ],
-          "guven": "orta",
           "kaynaklar": [
-            "https://www.araclo.com/blog/renault-clio-1.5-dci-incelemesi-kronik-sorunlar-yakit-tuketimi-ve-yorumlar"
+            "https://www.araclo.com/blog/renault-clio-1.5-dci-incelemesi-kronik-sorunlar-yakit-tuketimi-ve-yorumlar",
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-357-pannes-renault-clio-4.php"
           ]
         },
         {
@@ -61,9 +61,9 @@
           "ciddiyet": "dusuk",
           "maliyetTl": null,
           "motorlar": "hepsi",
-          "guven": "yuksek",
           "kaynaklar": [
-            "https://forum.donanimhaber.com/clio-4-kullanan-var-mi-kronik-sorunlari--144475304"
+            "https://forum.donanimhaber.com/clio-4-kullanan-var-mi-kronik-sorunlari--144475304",
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-357-pannes-renault-clio-4.php"
           ]
         },
         {
@@ -75,7 +75,6 @@
           "ciddiyet": "dusuk",
           "maliyetTl": null,
           "motorlar": "hepsi",
-          "guven": "orta",
           "kaynaklar": [
             "https://forum.donanimhaber.com/clio-4-kullanan-var-mi-kronik-sorunlari--144475304"
           ]
@@ -89,9 +88,9 @@
           "ciddiyet": "dusuk",
           "maliyetTl": null,
           "motorlar": "hepsi",
-          "guven": "orta",
           "kaynaklar": [
-            "https://www.araclo.com/blog/renault-clio-1.5-dci-incelemesi-kronik-sorunlar-yakit-tuketimi-ve-yorumlar"
+            "https://www.araclo.com/blog/renault-clio-1.5-dci-incelemesi-kronik-sorunlar-yakit-tuketimi-ve-yorumlar",
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-357-pannes-renault-clio-4.php"
           ]
         }
       ]
@@ -122,7 +121,6 @@
           "motorlar": [
             "1-0-tce"
           ],
-          "guven": "orta",
           "kaynaklar": [
             "https://forum.donanimhaber.com/clio5-kronik-arizasi-bol-sorunlu-bir-arac-mi--146973632"
           ],
@@ -139,9 +137,9 @@
           "motorlar": [
             "1-0-tce"
           ],
-          "guven": "orta",
           "kaynaklar": [
-            "https://forum.donanimhaber.com/clio5-kronik-arizasi-bol-sorunlu-bir-arac-mi--146973632"
+            "https://forum.donanimhaber.com/clio5-kronik-arizasi-bol-sorunlu-bir-arac-mi--146973632",
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-637-pannes-renault-clio-5.php"
           ]
         },
         {
@@ -153,7 +151,6 @@
           "ciddiyet": "dusuk",
           "maliyetTl": null,
           "motorlar": "hepsi",
-          "guven": "orta",
           "kaynaklar": [
             "https://forum.donanimhaber.com/clio5-kronik-arizasi-bol-sorunlu-bir-arac-mi--146973632"
           ]

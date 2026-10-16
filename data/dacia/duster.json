@@ -30,9 +30,9 @@
           "motorlar": [
             "1-5-dci"
           ],
-          "guven": "orta",
           "kaynaklar": [
-            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi"
+            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi",
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-274-pannes-dacia-duster.php"
           ]
         },
         {
@@ -46,9 +46,9 @@
           "motorlar": [
             "1-5-dci"
           ],
-          "guven": "orta",
           "kaynaklar": [
-            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi"
+            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi",
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-274-pannes-dacia-duster.php"
           ]
         },
         {
@@ -62,7 +62,6 @@
           "motorlar": [
             "1-5-dci"
           ],
-          "guven": "orta",
           "kaynaklar": [
             "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi"
           ],
@@ -79,9 +78,9 @@
           "motorlar": [
             "1-5-dci"
           ],
-          "guven": "orta",
           "kaynaklar": [
-            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi"
+            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi",
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-274-pannes-dacia-duster.php"
           ]
         },
         {
@@ -93,10 +92,38 @@
           "ciddiyet": "dusuk",
           "maliyetTl": null,
           "motorlar": "hepsi",
-          "guven": "orta",
           "kaynaklar": [
-            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi"
+            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi",
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-274-pannes-dacia-duster.php"
           ]
+        },
+        {
+          "id": "debriyaj-erken-asinma",
+          "baslik": "Erken debriyaj aşınması ve soğukta silkeleme",
+          "parca": "Debriyaj seti",
+          "belirtiler": "Soğukken kalkışta silkeleme ve kaçırma, erken aşınma (17.000 km'de bile bildirilmiş)",
+          "ciddiyet": "orta",
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-274-pannes-dacia-duster.php"
+          ],
+          "km": null,
+          "maliyetTl": null
+        },
+        {
+          "id": "yakit-gostergesi",
+          "baslik": "Yakıt göstergesinin yanlış göstermesi",
+          "parca": "Yakıt seviye şamandırası",
+          "belirtiler": "Özellikle yokuşta veya yan eğimde yakıt seviyesini yanlış gösterir",
+          "ciddiyet": "dusuk",
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-274-pannes-dacia-duster.php"
+          ],
+          "km": null,
+          "maliyetTl": null
         }
       ]
     },
@@ -126,9 +153,9 @@
           "motorlar": [
             "1-5-dci"
           ],
-          "guven": "orta",
           "kaynaklar": [
-            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi"
+            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi",
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-614-pannes-dacia-duster-2.php"
           ]
         },
         {
@@ -142,9 +169,9 @@
           "motorlar": [
             "1-5-dci"
           ],
-          "guven": "orta",
           "kaynaklar": [
-            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi"
+            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi",
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-614-pannes-dacia-duster-2.php"
           ]
         },
         {
@@ -158,7 +185,6 @@
           "motorlar": [
             "1-5-dci"
           ],
-          "guven": "orta",
           "kaynaklar": [
             "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi"
           ],
@@ -175,9 +201,9 @@
           "motorlar": [
             "1-5-dci"
           ],
-          "guven": "orta",
           "kaynaklar": [
-            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi"
+            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi",
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-614-pannes-dacia-duster-2.php"
           ]
         },
         {
@@ -191,9 +217,9 @@
           "motorlar": [
             "1-5-dci"
           ],
-          "guven": "orta",
           "kaynaklar": [
-            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi"
+            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi",
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-614-pannes-dacia-duster-2.php"
           ]
         },
         {
@@ -207,7 +233,6 @@
           "motorlar": [
             "1-5-dci"
           ],
-          "guven": "orta",
           "kaynaklar": [
             "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi"
           ],
@@ -222,10 +247,25 @@
           "ciddiyet": "dusuk",
           "maliyetTl": null,
           "motorlar": "hepsi",
-          "guven": "orta",
           "kaynaklar": [
             "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi"
           ]
+        },
+        {
+          "id": "gen8-yag-tuketimi",
+          "baslik": "K9K Gen8 motorda yağ tüketimi",
+          "parca": "Motor",
+          "belirtiler": "Bakımlar arasında anormal yağ eksilmesi",
+          "km": "2018–2020 üretimi",
+          "ciddiyet": "yuksek",
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-614-pannes-dacia-duster-2.php"
+          ],
+          "not": "Yetkili servis yazılım güncellemesi, bazı durumlarda motor değişimi uyguladı.",
+          "maliyetTl": null
         }
       ]
     }

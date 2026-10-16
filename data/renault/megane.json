@@ -36,10 +36,10 @@
             "1-5-dci",
             "1-3-tce"
           ],
-          "guven": "yuksek",
           "kaynaklar": [
             "https://www.araclo.com/blog/renault-megane-1.5-dci-kronik-sorunlari-ve-bakim-rehberi",
-            "https://www.sikayetvar.com/renault/megane/megane-4-kavrama"
+            "https://www.sikayetvar.com/renault/megane/megane-4-kavrama",
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-537-pannes-renault-megane-4.php"
           ],
           "sanziman": "EDC otomatik",
           "not": "Çözüm olarak kavrama seti, şanzıman yağı ve yazılım güncellemesi uygulanıyor; garanti başvurularında itiraz yaşandığı bildiriliyor."
@@ -55,9 +55,9 @@
           "motorlar": [
             "1-5-dci"
           ],
-          "guven": "orta",
           "kaynaklar": [
-            "https://www.araclo.com/blog/renault-megane-1.5-dci-kronik-sorunlari-ve-bakim-rehberi"
+            "https://www.araclo.com/blog/renault-megane-1.5-dci-kronik-sorunlari-ve-bakim-rehberi",
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-537-pannes-renault-megane-4.php"
           ]
         },
         {
@@ -71,9 +71,9 @@
           "motorlar": [
             "1-5-dci"
           ],
-          "guven": "orta",
           "kaynaklar": [
-            "https://www.araclo.com/blog/renault-megane-1.5-dci-kronik-sorunlari-ve-bakim-rehberi"
+            "https://www.araclo.com/blog/renault-megane-1.5-dci-kronik-sorunlari-ve-bakim-rehberi",
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-537-pannes-renault-megane-4.php"
           ]
         },
         {
@@ -87,9 +87,9 @@
           "motorlar": [
             "1-5-dci"
           ],
-          "guven": "orta",
           "kaynaklar": [
-            "https://www.araclo.com/blog/renault-megane-1.5-dci-kronik-sorunlari-ve-bakim-rehberi"
+            "https://www.araclo.com/blog/renault-megane-1.5-dci-kronik-sorunlari-ve-bakim-rehberi",
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-537-pannes-renault-megane-4.php"
           ]
         }
       ]

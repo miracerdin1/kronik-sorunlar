@@ -1,6 +1,6 @@
 export type Yakit = "benzin" | "dizel" | "lpg" | "hibrit" | "elektrik";
 export type Ciddiyet = "yuksek" | "orta" | "dusuk";
-export type Guven = "yuksek" | "orta";
+export type Guven = "dogrulandi" | "tek-kaynak";
 
 export interface Motor {
   id: string;
@@ -21,6 +21,7 @@ export interface Sorun {
   /** Yalnızca belirli bir şanzıman tipinde görülüyorsa (ör. "DSG otomatik"). */
   sanziman?: string;
   not?: string;
+  /** Kaynaklardan otomatik hesaplanır, JSON'a yazılmaz. */
   guven: Guven;
   kaynaklar: string[];
 }
