@@ -1,0 +1,186 @@
+{
+  "marka": "Dacia",
+  "markaSlug": "dacia",
+  "model": "Sandero",
+  "modelSlug": "sandero",
+  "nesiller": [
+    {
+      "slug": "sandero-2",
+      "ad": "Sandero / Sandero Stepway (2. nesil)",
+      "yillar": [
+        2012,
+        2020
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "0-9-tce",
+          "ad": "0.9 TCe 90",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-5-dci",
+          "ad": "1.5 dCi 75/90",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-2-16v",
+          "ad": "1.2 16V 75",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "easy-r-kalkis-titremesi",
+          "baslik": "Easy-R şanzımanda kalkışta ve geri viteste titreme",
+          "parca": "Easy-R robotize şanzıman (debriyaj seti, aktüatör, şanzıman beyni)",
+          "belirtiler": "Birinci viteste ve geri viteste kalkarken araç silkeliyor ya da titriyor, zamanla şiddetleniyor. İleri vakalarda göstergede çizgiler çıkıp araç vites almayabiliyor.",
+          "km": "40.000-60.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "0-9-tce",
+            "1-5-dci"
+          ],
+          "sanziman": "5 ileri Easy-R robotize (otomatikleştirilmiş manuel)",
+          "not": "Debriyaj seti ve baskı balata erken aşınıyor; yazılım güncellemesi kalıcı çözüm olmayabiliyor. TL aralığı debriyaj seti içindir; şanzıman beyni arızası için şikayetlerde çok daha yüksek tutarlar geçiyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-366-pannes-dacia-sandero-2.php",
+            "https://www.sikayetvar.com/dacia/sandero-otomatik",
+            "https://www.sikayetvar.com/dacia/dusuk-kilometrede-sanziman-beyni-arizasi-ve-90-bin-tl-tamir-maliyeti",
+            "https://www.sikayetvar.com/dacia/sandero",
+            "https://carverif.fr/blogs/fiabilite-voitures/dacia-sandero-ii-0-9-tce-90-fiabilite-performance",
+            "https://www.araclo.com/blog/dacia-sandero-sandero-stepway-satin-alma-rehberi-bakim-kronik-sorunlar-ve-fiyatlar-2026"
+          ]
+        },
+        {
+          "id": "tce-su-kutusu-kacagi",
+          "baslik": "0.9 TCe'de plastik su kutusu / termostat yuvasından antifriz kaçağı",
+          "parca": "Termostat yuvası (plastik su çıkış kutusu) ve contası",
+          "belirtiler": "Yedek su deposundaki seviye yavaş yavaş düşüyor, motor bölmesinde termostat yuvası çevresinde ıslaklık görülüyor; ihmal edilirse hararet uyarısı yanabiliyor.",
+          "km": "30.000-60.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "0-9-tce"
+          ],
+          "not": "Plastik yuva sıcaklıkla deforme olup sızdırıyor; aynı motoru kullanan Clio 4 ve Captur'da da bildiriliyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-366-pannes-dacia-sandero-2.php",
+            "https://www.fiches-auto.fr/avis-dacia/avis-unique-366-81875-dacia-sandero-2-09-tce-90-ch-2014-.php",
+            "https://carverif.fr/blogs/fiabilite-voitures/dacia-sandero-ii-0-9-tce-90-fiabilite-performance",
+            "https://blog.piecesetpneus.com/?p=164729",
+            "https://www.carchecker.pro/reports/dacia_sandero_mk2_0.9_tce.html"
+          ]
+        },
+        {
+          "id": "tce-triger-zinciri-uzamasi",
+          "baslik": "0.9 TCe'de triger zinciri uzaması",
+          "parca": "Triger zinciri, gergi ve zincir kapağı",
+          "belirtiler": "Özellikle soğuk çalıştırmada motorun önünden metalik sürtünme/şıkırtı sesi geliyor; ilerlerse zincir atlayıp motora zarar verebilir.",
+          "km": "90.000-150.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "0-9-tce"
+          ],
+          "not": "Kaynaklara göre özellikle 2014-2018 arası üretimlerde dikkat edilmeli; aşınma doğrulanırsa zincir seti ve kapak değişiyor.",
+          "kaynaklar": [
+            "https://carverif.fr/blogs/fiabilite-voitures/dacia-sandero-ii-0-9-tce-90-fiabilite-performance",
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-366-pannes-dacia-sandero-2.php",
+            "https://www.fiches-auto.fr/essai-dacia/moteur-essai-366-3-dacia-sandero-2-_-0l9-tce-_-90.php",
+            "https://www.carchecker.pro/reports/dacia_sandero_mk2_0.9_tce.html"
+          ]
+        },
+        {
+          "id": "manuel-debriyaj-erken-asinma",
+          "baslik": "Manuel şanzımanda erken debriyaj aşınması ve kalkışta titreme",
+          "parca": "Debriyaj seti / volan",
+          "belirtiler": "Kalkışta, özellikle uzun süre bekledikten sonraki ilk sürüşte debriyaj titriyor ya da kaçırıyor; değişim beklenenden erken gerekebiliyor.",
+          "km": "80.000-120.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": "5 ileri manuel",
+          "not": "0.9 TCe'de en çok bildirilen arıza başlığı debriyaj; yoğun şehir içi kullanımda daha erken çıkabiliyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-366-pannes-dacia-sandero-2.php",
+            "https://www.fiches-auto.fr/essai-dacia/moteur-essai-366-3-dacia-sandero-2-_-0l9-tce-_-90.php",
+            "https://carverif.fr/blogs/fiabilite-voitures/dacia-sandero-ii-0-9-tce-90-fiabilite-performance",
+            "https://au7o.io/known-issues/dacia-sandero?year=2017"
+          ]
+        },
+        {
+          "id": "dci-dpf-tikanmasi",
+          "baslik": "1.5 dCi'de partikül filtresi (DPF) tıkanması ve yağa yakıt karışması",
+          "parca": "Dizel partikül filtresi (DPF) / EGR",
+          "belirtiler": "Kısa mesafe ağırlıklı kullanımda DPF uyarısı ve güç kaybı görülüyor; yarıda kalan rejenerasyonlar yağ seviyesinin yükselmesine (yağa yakıt karışması) yol açabiliyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "not": "Düzenli otoyol kullanımı rejenerasyon için gerekli; yağ seviyesi kontrol edilmeli.",
+          "kaynaklar": [
+            "https://www.whatcar.com/dacia/sandero/hatchback/used-review/n852/reliability",
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-366-pannes-dacia-sandero-2.php",
+            "https://carverif.fr/pages/modele-occasion/dacia-sandero-ii-2012-2020"
+          ]
+        },
+        {
+          "id": "dci-kontak-kilidi-geri-cagirma",
+          "baslik": "1.5 dCi'de kontak anahtarının marş konumunda takılı kalması (geri çağırma)",
+          "parca": "Kontak kilidi (barillet / neiman)",
+          "belirtiler": "Anahtar marş konumunda takılı kalabiliyor; marş motoru zorlanıp ısınıyor, araç çalışmayabiliyor ve yangın riski oluşuyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "not": "Eylül 2017 - Ekim 2018 arası üretilen 1.5 dCi araçlar için Avrupa'da geri çağırma (kod 0DCB) yapıldı; Türkiye'de uygulanıp uygulanmadığı şasi numarasıyla yetkili serviste sorgulanmalı.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/rappels-dacia/r-366-rappels-dacia-sandero-2.php",
+            "https://car-recalls.eu/recall/dacia-sandero-2017-key-ignition/",
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-366-pannes-dacia-sandero-2.php"
+          ]
+        },
+        {
+          "id": "rolanti-dalgalanmasi",
+          "baslik": "Rölantide devir dalgalanması ve yavaşlarken stop etme",
+          "parca": "Gaz kelebeği / emme sistemi (motor yönetimi)",
+          "belirtiler": "Rölantide devir kendi kendine inip çıkıyor, yavaşlarken ya da trafikte motor stop edebiliyor veya kesik kesik çekiyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": [
+            "0-9-tce"
+          ],
+          "not": "Çoğu durumda gaz kelebeği temizliği ve adaptasyon sorunu gideriyor.",
+          "kaynaklar": [
+            "https://www.rac.co.uk/drive/car-reviews/dacia/sandero/sandero-2017-2020/",
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-366-pannes-dacia-sandero-2.php",
+            "https://www.carchecker.pro/reports/dacia_sandero_mk2_0.9_tce.html",
+            "https://www.araclo.com/blog/dacia-sandero-sandero-stepway-satin-alma-rehberi-bakim-kronik-sorunlar-ve-fiyatlar-2026"
+          ]
+        },
+        {
+          "id": "ince-boya-ve-pas",
+          "baslik": "Hassas boya ve yer yer paslanma",
+          "parca": "Kaporta boyası / sac birleşim yerleri",
+          "belirtiler": "Boya taş darbelerine karşı kolay atıyor; özellikle erken kasalarda sac birleşimlerinde, panel kenarlarında ve cıvata deliklerinde pas görülebiliyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-366-pannes-dacia-sandero-2.php",
+            "https://www.carbuyer.co.uk/tips-and-advice/155156/used-dacia-sandero-buying-guide-2013-present-mk1",
+            "https://www.rac.co.uk/drive/car-reviews/dacia/sandero/sandero-2017-2020/"
+          ]
+        }
+      ]
+    }
+  ]
+}

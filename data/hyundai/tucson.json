@@ -1,0 +1,161 @@
+{
+  "marka": "Hyundai",
+  "markaSlug": "hyundai",
+  "model": "Tucson",
+  "modelSlug": "tucson",
+  "nesiller": [
+    {
+      "slug": "tucson-tl",
+      "ad": "Tucson (TL)",
+      "yillar": [
+        2015,
+        2020
+      ],
+      "not": "2018 makyajıyla 1.7 CRDi yerini 1.6 CRDi'ye bıraktı.",
+      "motorlar": [
+        {
+          "id": "1-6-gdi",
+          "ad": "1.6 GDI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-t-gdi",
+          "ad": "1.6 T-GDI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-7-crdi",
+          "ad": "1.7 CRDi",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-6-crdi",
+          "ad": "1.6 CRDi",
+          "yakit": "dizel"
+        },
+        {
+          "id": "2-0-crdi",
+          "ad": "2.0 CRDi",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dct-kavrama-titreme",
+          "baslik": "7 ileri DCT şanzımanda kalkış titremesi ve kavrama aşınması",
+          "parca": "Kuru çift kavrama / DCT şanzıman",
+          "belirtiler": "Kalkışta, dur-kalk trafikte ve yokuşta silkeleme, sarsıntılı ya da gecikmeli vites geçişleri, kayma hissi; ilerleyen durumda şanzıman arıza uyarısı ve aşırı ısınma.",
+          "km": "50.000-100.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-t-gdi",
+            "1-7-crdi",
+            "1-6-crdi"
+          ],
+          "sanziman": "7 ileri DCT otomatik",
+          "not": "Servisler önce yazılım güncellemesi/adaptasyon yapıyor; kalıcı çözüm çoğu zaman kavrama setinin değişimi. Fiches-auto'da 1.7 CRDi 141 hp için en çok bildirilen arıza şanzıman/kavrama.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-528-pannes-hyundai-tucson.php",
+            "https://www.autotrader.ca/editorial/expert-reviews/hyundai/tucson/2016-2019-hyundai-tucson-used-vehicle-review/",
+            "https://www.jalopnik.com/2282172/hyundai-tucson-common-issues/",
+            "https://www.sikayetvar.com/hyundai-motor/tucson/otomatik-sanziman",
+            "https://www.sikayetvar.com/hyundai-motor/tucson/tucson-kalkista-titreme",
+            "https://www.carchecker.pro/de/reports/hyundai_tucson_tl_1.7_crdi.html"
+          ]
+        },
+        {
+          "id": "manuel-debriyaj-volan-titreme",
+          "baslik": "1.7 CRDi manuelde debriyaj ve çift kütleli volan titremesi",
+          "parca": "Debriyaj seti / çift kütleli volan",
+          "belirtiler": "Özellikle soğukken kalkışta debriyaj titremesi, 1.500-2.000 devirde vibrasyon, rölantide tıkırtı, kaçırma ve sertleşen pedal.",
+          "km": "45.000-85.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-7-crdi"
+          ],
+          "sanziman": "6 ileri manuel",
+          "not": "Torkun çok düşük devirde gelmesi volan ve debriyajı zorluyor; garantide değiştirildikten sonra titremenin geri döndüğü vakalar var. 4. vites senkromeç arızası da bildirilmiş.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-528-pannes-hyundai-tucson.php",
+            "https://www.dev.honestjohn.co.uk/askhj/answer/87657/my-year-old-hyundai-tucson-is-suffering-from-clutch-issues---do-i-have-any-recourse-against-hyundai-",
+            "https://www.carbuyer.co.uk/hyundai/tucson/149354/hyundai-tucson-suv-review-2015-2020/owner-reviews",
+            "https://www.carchecker.pro/de/reports/hyundai_tucson_tl_1.7_crdi.html"
+          ]
+        },
+        {
+          "id": "abs-modulu-yangin-riski",
+          "baslik": "ABS/HECU modülünde kısa devre ve yangın riski (geri çağırma)",
+          "parca": "ABS hidrolik kontrol ünitesi (HECU)",
+          "belirtiler": "Nem nedeniyle devre kartı kısa devre yapabiliyor; araç kapalıyken bile motor bölmesinde yangın çıkabiliyor. ABS veya motor arıza lambası yanabilir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Üretici geri çağırması: sigorta/röle kiti ve gerekirse ABS yazılım güncellemesi ücretsiz. Kapsam şasi numarasına ve pazara bağlı; Türkiye'deki kapsamı doğrulanamadı.",
+          "kaynaklar": [
+            "https://www.whichcar.com.au/news/hyundai-tucson-abs-module-fire-recall",
+            "https://www.auto123.com/en/news/hyundai-canada-recall-tucson-abs/67747",
+            "https://www.carchecker.pro/de/reports/hyundai_tucson_tl_2.0_crdi.html"
+          ]
+        },
+        {
+          "id": "benzinli-yag-tuketimi",
+          "baslik": "Benzinli GDI motorlarda yağ tüketimi ve segman sorunları",
+          "parca": "Piston segmanları / supaplar",
+          "belirtiler": "Bakım aralarında yağ seviyesinin belirgin düşmesi, yağ uyarı lambası; ilerlemiş vakalarda segman, supap ya da biyel hasarı.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-gdi",
+            "1-6-t-gdi"
+          ],
+          "not": "Yaygın değil ama tekrarlayan bildirimler var; yağ seviyesini düzenli kontrol etmek önerilir.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-528-pannes-hyundai-tucson.php",
+            "https://www.sikayetvar.com/hyundai-motor/tucson/2017-tucson",
+            "https://www.jalopnik.com/2282172/hyundai-tucson-common-issues/"
+          ]
+        },
+        {
+          "id": "dizel-dpf-tikanma",
+          "baslik": "Dizel partikül filtresi (DPF) tıkanması",
+          "parca": "DPF",
+          "belirtiler": "Kısa şehir içi kullanımda DPF uyarısı, güç kaybı ve emniyet (limp) moduna geçiş; zorla rejenerasyon, temizlik veya filtre değişimi gerekebiliyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-7-crdi",
+            "1-6-crdi",
+            "2-0-crdi"
+          ],
+          "not": "Ağırlıklı kısa mesafe kullanılan araçlarda görülür; düzenli uzun yol rejenerasyona yardımcı olur. EGR kirlenmesi de eşlik edebiliyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-528-pannes-hyundai-tucson.php",
+            "https://www.carchecker.pro/de/reports/hyundai_tucson_tl_1.7_crdi.html",
+            "https://www.carchecker.pro/de/reports/hyundai_tucson_tl_2.0_crdi.html"
+          ]
+        },
+        {
+          "id": "1-6-crdi-enjektor-kizdirma",
+          "baslik": "1.6 CRDi'de enjektör ve kızdırma bujisi arızaları",
+          "parca": "Enjektörler / kızdırma bujileri",
+          "belirtiler": "Soğuk havada zor çalışma, düzensiz rölanti ve tıkırtılı motor sesi; motor arıza lambası.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-crdi"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-528-pannes-hyundai-tucson.php",
+            "https://www.carbuyer.co.uk/hyundai/tucson/149354/hyundai-tucson-suv-review-2015-2020/owner-reviews"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "marka": "Toyota",
+  "markaSlug": "toyota",
+  "model": "C-HR",
+  "modelSlug": "c-hr",
+  "nesiller": [
+    {
+      "slug": "c-hr-1",
+      "ad": "C-HR (1. nesil)",
+      "yillar": [
+        2016,
+        2023
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-8-hybrid",
+          "ad": "1.8 Hybrid (122 PS)",
+          "yakit": "hibrit"
+        },
+        {
+          "id": "1-2-turbo",
+          "ad": "1.2 Turbo (116 PS)",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "12v-aku-bosalmasi",
+          "baslik": "12V yardımcı akünün sık boşalması",
+          "parca": "12V yardımcı akü",
+          "belirtiler": "Araç birkaç gün kullanılmadığında ya da kısa mesafelerden sonra akü boşalıyor; araç READY moduna geçmiyor, çalışmıyor veya gösterge panelinde çok sayıda uyarı yanıyor. Bazı sahipler aküyü 1-2 yılda bir değiştirmek zorunda kalıyor.",
+          "km": "30.000-90.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Şikayetlerin büyük çoğunluğu hibrit versiyonda. Hibritte 12V akü yalnızca READY modunda şarj olduğu için uzun süre bekleyen araçlarda akü takviyesi/şarj cihazı önerilir.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-toyota/fiabilite-568-pannes-toyota-c-hr.php",
+            "https://www.whatcar.com/toyota/c-hr/hatchback/used-review/n892/reliability",
+            "https://www.toyotaownersclub.com/forums/topic/213823-2019-chr-battery-keeps-discharging/",
+            "https://carverif.fr/blogs/fiabilite-voitures/toyota-c-hr-i-1-8-hybrid-122-phase-2-2zr-fxe",
+            "https://www.sikayetvar.com/toyota/batarya-degisimi-sonrasi-pcslda-uyarilari-cozulmedi-servis-cam-degisimi-istiyor"
+          ]
+        },
+        {
+          "id": "on-cam-catlamasi",
+          "baslik": "Ön camda kendiliğinden çatlama",
+          "parca": "Ön cam",
+          "belirtiler": "Darbe olmadan, çoğunlukla camın üst kısmından (sıklıkla sağ üst köşe) başlayıp aşağı doğru ilerleyen çatlak oluşuyor. Değişimden sonra kamera/radar kalibrasyonu yapılmazsa PCS ve şerit uyarı sistemleri hata verebiliyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Cam değişimi sonrası ön kamera kalibrasyonu gerekir; yetkili servisler muadil camda sürüş destek sistemlerinin hata verebileceğini belirtiyor.",
+          "kaynaklar": [
+            "https://autoexpress.co.uk/toyota/c-hr/355972/used-toyota-c-hr-review",
+            "https://www.whatcar.com/toyota/c-hr/hatchback/used-review/n892/reliability",
+            "https://www.carbuyer.co.uk/toyota/c-hr/155443/toyota-c-hr-suv-review-2016-2023/owner-reviews",
+            "https://www.sikayetvar.com/toyota/batarya-degisimi-sonrasi-pcslda-uyarilari-cozulmedi-servis-cam-degisimi-istiyor"
+          ]
+        },
+        {
+          "id": "yuksek-basincli-yakit-pompasi-sizintisi",
+          "baslik": "Yüksek basınçlı yakıt pompasında çatlama ve yakıt sızıntısı",
+          "parca": "Yüksek basınçlı yakıt pompası (direkt enjeksiyon)",
+          "belirtiler": "Pompanın iç parçalarının aşınmasıyla kaynak bölgesinde çatlak oluşabiliyor; seyir sırasında yakıt kokusu, güç kaybı veya motorun stop etmesi görülebiliyor, motor bölmesinde yangın riski doğuyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-turbo"
+          ],
+          "not": "Üretici geri çağırma kampanyası konusu; pompa ücretsiz olarak iyileştirilmiş parçayla değiştiriliyor. İkinci elde kampanyanın yapılıp yapılmadığı şasi numarasıyla yetkili serviste sorgulanmalı.",
+          "kaynaklar": [
+            "https://www.whatcar.com/toyota/c-hr/hatchback/used-review/n892/reliability",
+            "https://www.drive.com.au/news/toyota-c-hr-suv-recalled-australia-fuel-pump/",
+            "https://www.whichcar.com.au/car-news/2019-2021-toyota-c-hr-recall",
+            "https://www.otomoto.pl/news/silnik-1-2t-toyoty-zaskakuje-ale-nie-do-konca-pozytywnie"
+          ]
+        },
+        {
+          "id": "led-far-arizasi",
+          "baslik": "LED far ve gündüz farı arızası",
+          "parca": "LED ön far ünitesi",
+          "belirtiler": "Gündüz farı/park lambası sönüyor, LED'ler kararıyor veya renk değiştiriyor (yeşilimsi ışık); bazı araçlarda far ünitesi tamamen arızalanıyor. Far içinde nem/buğulanma da bildiriliyor.",
+          "km": "120.000-160.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "LED far genellikle ünite olarak değişiyor ve parça fiyatı yüksek; garanti/uzatılmış garanti kapsamı kontrol edilmeli.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-toyota/fiabilite-568-pannes-toyota-c-hr.php",
+            "https://www.sikayetvar.com/toyota/toyota-chr-led-far-arizasinda-garanti-disi-red-ve-celiskili-karar"
+          ]
+        },
+        {
+          "id": "surus-destek-sensor-uyarilari",
+          "baslik": "Sürüş destek sistemleri ve sensör uyarıları",
+          "parca": "Ön radar/kamera (PCS, LDA, adaptif hız sabitleyici), park sensörleri",
+          "belirtiler": "PCS, şerit takip veya adaptif hız sabitleyici arıza uyarıları veriyor ya da sistem devre dışı kalıyor; geri vites ikazı, park sensörü ve kamerada aksaklıklar görülüyor.",
+          "km": "20.000-110.000",
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Akü değişimi veya ön cam değişimi sonrası kalibrasyon gerekebiliyor; bazı yıllarda radar başlatma ayarı için geri çağırma yapıldı.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-toyota/fiabilite-568-pannes-toyota-c-hr.php",
+            "https://carverif.fr/blogs/fiabilite-voitures/toyota-c-hr-i-1-8-hybrid-122-phase-2-2zr-fxe",
+            "https://www.sikayetvar.com/toyota/batarya-degisimi-sonrasi-pcslda-uyarilari-cozulmedi-servis-cam-degisimi-istiyor",
+            "https://www.whatcar.com/toyota/c-hr/hatchback/used-review/n892/reliability"
+          ]
+        },
+        {
+          "id": "ruzgar-sesi-kapi-fitili",
+          "baslik": "Kapı fitillerinden rüzgâr sesi",
+          "parca": "Kapı ve cam fitilleri",
+          "belirtiler": "Yüksek hızlarda kapı ve cam çevresinden belirgin rüzgâr uğultusu geliyor; fitillerin tam oturmadığı ya da kapı ile cam arasında boşluk kaldığı bildiriliyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://autoexpress.co.uk/toyota/c-hr/355972/used-toyota-c-hr-review",
+            "https://www.carbuyer.co.uk/toyota/c-hr/155443/toyota-c-hr-suv-review-2016-2023/owner-reviews",
+            "https://drive.co.uk/cars/toyota/c-hr/review/2016?from=hj"
+          ]
+        },
+        {
+          "id": "boya-soyulmasi",
+          "baslik": "Boya soyulması ve hassas boya",
+          "parca": "Kaporta boyası (marşpiyel, tampon, ayna kapakları)",
+          "belirtiler": "Marşpiyel, arka bölüm ve ayna kapaklarında boya kalkıyor veya kolay çiziliyor; tavanda çıkmayan lekeler oluşabiliyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Servisler çoğu zaman kullanıcı kaynaklı sayıp garanti dışı bırakabiliyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-toyota/fiabilite-568-pannes-toyota-c-hr.php",
+            "https://www.carbuyer.co.uk/toyota/c-hr/155443/toyota-c-hr-suv-review-2016-2023/owner-reviews"
+          ]
+        },
+        {
+          "id": "arka-fren-diski-korozyonu",
+          "baslik": "Arka fren disklerinde paslanma ve aşınma",
+          "parca": "Arka fren diski ve balatası",
+          "belirtiler": "Rejeneratif frenleme nedeniyle arka frenler az çalıştığı için diskler paslanıyor, yüzeyde çukurlaşma oluşuyor; muayenede disk/balata uyarısı ve frenlemede ses görülebiliyor.",
+          "km": "40.000-130.000",
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-8-hybrid"
+          ],
+          "not": "Özellikle az kullanılan hibrit araçlarda görülüyor; ikinci elde arka diskler ve el freni kontrol edilmeli.",
+          "kaynaklar": [
+            "https://carverif.fr/blogs/fiabilite-voitures/toyota-c-hr-i-1-8-hybrid-122-phase-2-2zr-fxe",
+            "https://www.vehiclestats.co.uk/make/toyota/c-hr"
+          ]
+        }
+      ]
+    }
+  ]
+}

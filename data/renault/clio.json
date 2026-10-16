@@ -5,6 +5,164 @@
   "modelSlug": "clio",
   "nesiller": [
     {
+      "slug": "clio-3",
+      "ad": "Clio III",
+      "yillar": [
+        2005,
+        2012
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-5-dci",
+          "ad": "1.5 dCi",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-2-16v",
+          "ad": "1.2 16V",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-4-16v",
+          "ad": "1.4 16V",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-16v",
+          "ad": "1.6 16V",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dci-kol-yatagi-sarmasi",
+          "baslik": "Kol yatağı (biyel yatağı) sarması",
+          "parca": "Krank kol yatakları",
+          "belirtiler": "Motorun alt kısmından yükle birlikte artan metalik vuruntu sesi gelir; zamanında müdahale edilmezse motor tamamen kullanılamaz hale gelebilir.",
+          "km": "130.000-140.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "not": "Özellikle güçlü (105-106 hp) versiyonlarda daha sık bildiriliyor; yağ değişiminin aksatılması riski artırıyor, 15.000 km'de bir ya da yılda bir yağ değişimi öneriliyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-106-pannes-renault-clio-3.php",
+            "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-diesel/s-2441-fiabilite-du-15-dci.php",
+            "https://www.auto.cz/articleonlyid/ojety-renault-clio-iii-kdyz-odmitate-fabii-90748?chapter=2",
+            "https://gebrauchtwagenberater.de/renault-clio-probleme/",
+            "https://dailydriven.ro/it/informazioni-sul-motore-15-dci-di-renault-1538432"
+          ]
+        },
+        {
+          "id": "dci-delphi-pompa-enjektor",
+          "baslik": "Delphi yüksek basınç pompası talaşı ve enjektör arızası",
+          "parca": "Yüksek basınç yakıt pompası ve enjektörler",
+          "belirtiler": "Motor arıza lambası ya da 'enjeksiyonu kontrol ettirin' uyarısı yanar; güç kaybı, zor çalışma ve seyir halinde aniden stop etme görülür. Pompadan dökülen metal talaş tüm yakıt hattını ve enjektörleri bozabilir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "not": "Talaş sorunu özellikle ilk üretim Clio III'lerde yaygın; pompa dağıldıysa pompa, rail ve tüm enjektörlerin birlikte değişip sistemin temizlenmesi gerekiyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-106-pannes-renault-clio-3.php",
+            "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-diesel/s-2441-fiabilite-du-15-dci.php",
+            "https://www.auto.cz/articleonlyid/ojety-renault-clio-iii-kdyz-odmitate-fabii-90748?chapter=2",
+            "https://gebrauchtwagenberater.de/renault-clio-probleme/",
+            "https://au7o.io/known-issues/renault-clio?year=2008"
+          ]
+        },
+        {
+          "id": "atesleme-bobini-arizasi",
+          "baslik": "Ateşleme bobini arızası",
+          "parca": "Ateşleme bobinleri (Sagem)",
+          "belirtiler": "Motor tekler, ilk çalıştırmada düzensiz çalışır, hızlanırken teklemeye girer ve motor arıza lambası yanar; bazen motor aniden stop eder.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-16v",
+            "1-4-16v",
+            "1-6-16v"
+          ],
+          "not": "Benzinli motorlarda en sık bildirilen arızalardan; özellikle erken üretim 1.4 ve 1.6'larda. Bobinlerle birlikte bujilerin de değişmesi öneriliyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-106-pannes-renault-clio-3.php",
+            "https://www.auto.cz/articleonlyid/ojety-renault-clio-iii-kdyz-odmitate-fabii-90748?chapter=2",
+            "https://gebrauchtwagenberater.de/renault-clio-probleme/",
+            "https://www.araclo.com/forum/threads/renault-clio-3-1.4-16v-k4j-bobin-arizasinin-nedenleri-ve-dikkat-edilmesi-gerekenler"
+          ]
+        },
+        {
+          "id": "eksantrik-faz-kasnagi",
+          "baslik": "Değişken supap zamanlama (faz değiştirici) kasnağı aşınması",
+          "parca": "Eksantrik faz değiştirici kasnağı",
+          "belirtiler": "Soğuk çalıştırmada birkaç saniye dişli boşalması gibi takırtı/tırlama sesi gelir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-4-16v",
+            "1-6-16v"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-106-pannes-renault-clio-3.php",
+            "https://www.auto.cz/articleonlyid/ojety-renault-clio-iii-kdyz-odmitate-fabii-90748?chapter=2"
+          ]
+        },
+        {
+          "id": "elektrikli-direksiyon-kolonu",
+          "baslik": "Elektrikli direksiyon kolonu / beyni arızası",
+          "parca": "Elektrikli hidrolik direksiyon kolonu ve kontrol ünitesi",
+          "belirtiler": "Seyir halinde direksiyon yardımı aniden kaybolur, gösterge panelinde direksiyon uyarı lambası yanar ve özellikle düşük hızda direksiyon çok ağırlaşır.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Temmuz 2008 - Ocak 2009 arası üretilen araçlarda TRW kolonundaki elektronik parçaların korozyonu nedeniyle Renault Fransa'da özel teknik kampanya başlattı.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-106-pannes-renault-clio-3.php",
+            "https://www.largus.fr/actualite-automobile/defaillance-de-la-direction-sur-les-clio-iii-et-modus-3008370.html",
+            "https://www.auto.cz/articleonlyid/ojety-renault-clio-iii-kdyz-odmitate-fabii-90748?chapter=2",
+            "https://forum.donanimhaber.com/clio-3-hb-direksiyon-ve-araba-calimiyo-lutfen-yardim--30902727"
+          ]
+        },
+        {
+          "id": "cam-krikosu",
+          "baslik": "Cam krikosu ve kapı elektriği sorunları",
+          "parca": "Elektrikli cam krikosu mekanizması",
+          "belirtiler": "Camlar inip kalkarken ses yapar, yavaşlar ya da çalışmaz; bagaj kilidi, yakıt kapağı ve açma düğmeleri de zamanla sorun çıkarabilir.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-106-pannes-renault-clio-3.php",
+            "https://www.whocanfixmycar.com/advice/common-problems-with-the-renault-clio"
+          ]
+        },
+        {
+          "id": "on-takim-amortisor-takozu",
+          "baslik": "Ön amortisör üst takozu ve ön takım aşınması",
+          "parca": "Amortisör üst takozları/rulmanları, rotiller, viraj demiri bağlantı çubukları",
+          "belirtiler": "Direksiyon çevrilirken ön taraftan tıkırtı veya gıcırtı gelir, direksiyon ağırlaşır; yolda vuruntu, titreşim ve aracın bir tarafa çekmesi görülebilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-106-pannes-renault-clio-3.php",
+            "https://www.whocanfixmycar.com/advice/common-problems-with-the-renault-clio",
+            "https://www.auto.cz/articleonlyid/ojety-renault-clio-iii-kdyz-odmitate-fabii-90748?chapter=2",
+            "https://gebrauchtwagenberater.de/renault-clio-probleme/"
+          ]
+        }
+      ]
+    },
+    {
       "slug": "clio-4",
       "ad": "Clio 4",
       "yillar": [

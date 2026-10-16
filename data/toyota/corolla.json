@@ -67,6 +67,134 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "e210",
+      "ad": "Corolla (E210)",
+      "yillar": [
+        2019,
+        2026
+      ],
+      "not": "Türkiye'de Sakarya'da üretilen sedan kasa. 1.6 Valvematic 2019-2021 arasında satıldı, 2021'den itibaren yerini 3 silindirli 1.5 Dynamic Force aldı.",
+      "motorlar": [
+        {
+          "id": "1-6-valvematic",
+          "ad": "1.6 Valvematic",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-5-dynamic-force",
+          "ad": "1.5 Dynamic Force",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-8-hybrid",
+          "ad": "1.8 Hybrid",
+          "yakit": "hibrit"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "12v-aku-bitmesi",
+          "baslik": "12V akünün sık bitmesi ve erken ölmesi",
+          "parca": "12V yardımcı akü",
+          "belirtiler": "Araç birkaç gün kullanılmadığında çalışmıyor, ekran ve gösterge ışıkları hiç yanmayabiliyor. Bazı sahipler aküyü garanti süresi içinde ve sonrasında birkaç kez değiştirmek zorunda kalıyor; yolda kalma vakaları bildiriliyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Şikayetler en çok hibritte yoğunlaşıyor (12V akü yalnızca READY modunda şarj oluyor). Benzinli bir 2020 sahibi 45 Ah akünün kısa yolculuklarda yetersiz kaldığını, 5 yılda 4 akü değiştirdiğini yazıyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-toyota/fiabilite-644-pannes-toyota-corolla.php",
+            "https://www.sikayetvar.com/toyota/corolla-hybrid/aku-sorunu",
+            "https://www.sikayetvar.com/toyota/toyota-corolla-aku-sorunu-11",
+            "https://forum.donanimhaber.com/2019-toyota-corolla-sedan--135859281-345",
+            "https://whocanfixmycar.com/advice/common-problems-with-the-toyota-corolla"
+          ]
+        },
+        {
+          "id": "multimedya-ekran-carplay",
+          "baslik": "Multimedya ekranı, CarPlay ve Android Auto arızaları",
+          "parca": "Multimedya ünitesi",
+          "belirtiler": "Ekran kendi kendine kapanıp açılıyor ya da tamamen arızalanıyor; CarPlay/Android Auto bağlanmıyor veya navigasyon düzgün çalışmıyor; açılışta 'Android durdu' benzeri hatalar görülüyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Bazı sorunlar yazılım güncellemesiyle çözülüyor; garanti sonrası ekran değişimi pahalı olabiliyor.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/toyota/corolla-ekran",
+            "https://www.sikayetvar.com/toyota/yazilim-guncelleme",
+            "https://www.fiches-auto.fr/fiabilite-toyota/fiabilite-644-pannes-toyota-corolla.php"
+          ]
+        },
+        {
+          "id": "on-kapi-cami-tikirti",
+          "baslik": "Ön kapı camlarında tıkırtı ve gıcırtı",
+          "parca": "Kapı camı ve cam kanalları",
+          "belirtiler": "Ön camlar yarı açıkken ya da belirli yükseklikteyken kasis, bozuk yol ve manevralarda tıkırdıyor veya gıcırdıyor; kapı paneline basınca da ses gelebiliyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Cam kanallarının silikon spreyle yağlanması çoğu zaman sesi azaltıyor.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/toyota/cam-tikirtisi-ve-yetersiz-servis-magduriyetim-giderilsin",
+            "https://www.sikayetvar.com/toyota/corolla-flame",
+            "https://www.toyotaownersclub.com/forums/topic/198897-squeaky-windows-corolla-2020/"
+          ]
+        },
+        {
+          "id": "ic-trim-gicirti",
+          "baslik": "Bozuk yolda iç trim ve tavan gıcırtısı",
+          "parca": "İç döşeme / tavan konsolu / kapı trimleri",
+          "belirtiler": "Mıcırlı ya da bozuk asfaltta tavan lambası çevresinden, kapı tarafından veya direk kaplamalarından çıtırtı ve gıcırtı geliyor; düz yolda ses kesiliyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Bir sikayetvar şikayetinde yetkili servisin sorunu 'kronik' diye nitelendirip kalıcı çözüm sunamadığı yazıyor; bazı durumlarda gevşek bir fitilin yerine oturtulması sesi gideriyor.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/toyota/toyota-corolla-15-vision-arac-ici-ses",
+            "https://forum.donanimhaber.com/2021-toyota-corolla-1-5-izlenimlerim--149519119",
+            "https://toyotaownersclub.com/forums/topic/189240-corolla-2019-18-hybrid-crickety-rattle",
+            "https://www.fiches-auto.fr/fiabilite-toyota/fiabilite-644-pannes-toyota-corolla.php"
+          ]
+        },
+        {
+          "id": "klima-kompresoru",
+          "baslik": "Klima kompresörü arızası ve soğutmama",
+          "parca": "Klima kompresörü / klima hattı",
+          "belirtiler": "Klima soğuk hava vermiyor ya da gaz dolumundan kısa süre sonra yeniden soğutmayı kesiyor; kompresör değişimi gerekiyor ve parça bekleme süresi haftaları bulabiliyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Şikayetler özellikle 2020-2021 model araçlarda yoğunlaşıyor. Yalnızca sikayetvar kaynağı bulundu.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/toyota/corolla/klima"
+          ]
+        },
+        {
+          "id": "1-5-multidrive-s-sanziman",
+          "baslik": "1.5 Multidrive S şanzıman arızası ve 'Sürüş Başlatma Kontrolü' uyarısı",
+          "parca": "CVT şanzıman (Multidrive S)",
+          "belirtiler": "Motor arıza lambası ile birlikte 'Sürüş Başlatma Kontrolü Arızası' uyarısı çıkıyor, araç yolda kalabiliyor ya da tek viteste kalıyor; düşük hızda yanlış vites seçimi bildiriliyor. Bazı araçlarda şanzıman değiştirildi.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dynamic-force"
+          ],
+          "sanziman": "Multidrive S (CVT) otomatik",
+          "not": "Şikayetlerin bir kısmı birkaç bin km'deki yeni araçlarda. LPG'li araçlarda şanzıman garantisinin reddedildiğine dair şikayetler de var. Yalnızca sikayetvar kaynağı bulundu.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/toyota/sanziman",
+            "https://www.sikayetvar.com/toyota/corolla-ekran",
+            "https://www.sikayetvar.com/toyota/yazilim-guncelleme"
+          ]
+        }
+      ]
     }
   ]
 }

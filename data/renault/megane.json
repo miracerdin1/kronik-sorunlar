@@ -5,6 +5,181 @@
   "modelSlug": "megane",
   "nesiller": [
     {
+      "slug": "megane-3",
+      "ad": "Megane III",
+      "yillar": [
+        2008,
+        2016
+      ],
+      "not": "Hatchback, coupé ve Sport Tourer gövdeler; Türkiye'de yaygın motorlar 1.5 dCi (manuel/EDC), 1.6 16V ve 2012 sonrası 1.2 TCe.",
+      "motorlar": [
+        {
+          "id": "1-5-dci",
+          "ad": "1.5 dCi",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-6-16v",
+          "ad": "1.6 16V",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-2-tce",
+          "ad": "1.2 TCe",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "edc-sanziman-beyin-arizasi",
+          "baslik": "EDC şanzıman beyni ve vites arızaları",
+          "parca": "EDC çift kavramalı şanzıman / kontrol ünitesi",
+          "belirtiler": "Göstergede \"vites kutusunu kontrol ettiriniz\" ve şanzıman hararet uyarısı çıkar; bazı vitesler (özellikle çift vitesler ya da geri) takılmaz, kalkışta sarsıntı ve vurma hissedilir. Beyin değişimi sonrası arızanın geri döndüğü de bildiriliyor.",
+          "km": "60.000-150.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": "30.000 (2024, şanzıman beyni değişimi)",
+          "motorlar": [
+            "1-5-dci",
+            "1-2-tce"
+          ],
+          "sanziman": "6 ileri EDC çift kavramalı otomatik",
+          "not": "Renault bazı belirtiler için yazılım güncellemesi yayımladı; kalıcı arızalarda genellikle kontrol ünitesi ya da kavrama seti değişiyor.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/megane/vites-kutusu",
+            "https://www.sikayetvar.com/renault/2012-megane",
+            "https://forum.donanimhaber.com/magane-3-vites-kutusunu-kontrol-ettiniz-vites-kutusu-hararet--129361581",
+            "https://www.largus.fr/guide-achat-occasion/renault/megane/avis-fiabilite-renault-megane-iii-b95-30038973.html",
+            "https://www.planeterenault.com/forum/megane-iii-panne-grave-sur-boite-edc-t46449.html",
+            "https://www.araclo.com/vehicles/renault-megane-1.5-dci/degerlendirmeler/kullanici-sorunlari"
+          ]
+        },
+        {
+          "id": "tce-yag-tuketimi-motor-arizasi",
+          "baslik": "1.2 TCe aşırı yağ tüketimi ve motor arızası",
+          "parca": "Piston segmanları / motor alt grubu",
+          "belirtiler": "Motor bakım aralığında litrelerce yağ eksiltir, yağ seviyesi uyarısı yanar; ilerleyen durumlarda kompresyon kaybı, güç düşüşü ve motorun tamamen arızalanması görülür.",
+          "km": "30.000-110.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-tce"
+          ],
+          "not": "Renault önce yazılım güncellemesi, ağır vakalarda alt motor revizyonu ya da motor değişimi uyguladı; birçok vakada üretici masrafın bir kısmını üstlendi.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-212-pannes-renault-megane-3.php",
+            "https://www.largus.fr/guide-achat-occasion/renault/megane/avis-fiabilite-renault-megane-iii-b95-30038973.html",
+            "https://mymotorlist.com/engines/renault/h5ft/"
+          ]
+        },
+        {
+          "id": "tce-triger-zinciri-uzamasi",
+          "baslik": "1.2 TCe triger zinciri uzaması ve faz değiştirici sorunları",
+          "parca": "Triger zinciri / eksantrik faz değiştirici",
+          "belirtiler": "Soğuk çalıştırmada ve yüksek devirde zincir şakırtısı, motor arıza lambası; faz değiştirici solenoidi ya da triger kapağından yağ kaçağı görülebilir.",
+          "km": "50.000-100.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-tce"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-212-pannes-renault-megane-3.php",
+            "https://mymotorlist.com/engines/renault/h5ft/",
+            "https://www.largus.fr/guide-achat-occasion/renault/megane/avis-fiabilite-renault-megane-iii-b95-30038973.html"
+          ]
+        },
+        {
+          "id": "dci-kol-yatagi-yag-pompasi",
+          "baslik": "1.5 dCi kol yatağı sarması ve düşük yağ basıncı",
+          "parca": "Kol yatakları / yağ pompası",
+          "belirtiler": "Soğuk çalıştırmada vuruntu, devirle artan metalik tıkırtı ve aralıklı yağ basıncı uyarısı; ihmal edilirse motor kullanılamaz hale gelir.",
+          "km": "150.000-250.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "not": "Uzun yağ değişim aralıkları en büyük risk etkeni; yağın kısa aralıklarla değiştirilmesi önerilir.",
+          "kaynaklar": [
+            "https://www.largus.fr/guide-achat-occasion/renault/megane/avis-fiabilite-renault-megane-iii-b95-30038973.html",
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-212-pannes-renault-megane-3.php",
+            "https://mymotorlist.com/engines/renault/k9k/",
+            "https://www.araclo.com/vehicles/renault-megane-1.5-dci/degerlendirmeler/kullanici-sorunlari"
+          ]
+        },
+        {
+          "id": "dci-enjektor-arizasi",
+          "baslik": "1.5 dCi enjektör arızaları",
+          "parca": "Enjektörler / yüksek basınç hatları",
+          "belirtiler": "Zor ilk çalışma, rölantide titreme, soğukken vuruntu, siyah duman ve \"enjeksiyonu kontrol ettirin\" uyarısı; yakıt tüketimi artar.",
+          "km": "90.000-200.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-212-pannes-renault-megane-3.php",
+            "https://www.largus.fr/guide-achat-occasion/renault/megane/avis-fiabilite-renault-megane-iii-b95-30038973.html",
+            "https://www.planeterenault.com/forum/megane-iii-a-coups-injection-sur-megane-3-1-5-dci-110-t56386.html?amp=1",
+            "https://www.araclo.com/blog/renault-megane-1.5-dci-kronik-sorunlari-ve-bakim-rehberi"
+          ]
+        },
+        {
+          "id": "dci-dpf-egr-tikanmasi",
+          "baslik": "Partikül filtresi (DPF) ve EGR tıkanması",
+          "parca": "DPF / EGR valfi",
+          "belirtiler": "Kısa şehir içi kullanımda arıza lambası yanar, güç kaybı ve emniyet moduna geçiş olur; EGR kirlendiğinde rölanti dengesizleşir ve araç tekler.",
+          "km": "80.000-160.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "not": "Düzenli uzun yol kullanımı DPF rejenerasyonunu kolaylaştırır.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-212-pannes-renault-megane-3.php",
+            "https://www.carbuyer.co.uk/tips-and-advice/155160/used-renault-megane-buying-guide-2008-2016-mk3",
+            "https://www.whocanfixmycar.com/advice/common-problems-with-the-renault-megane",
+            "https://www.planeterenault.com/forum/megane-iii-a-coups-injection-sur-megane-3-1-5-dci-110-t56386.html?amp=1"
+          ]
+        },
+        {
+          "id": "debriyaj-volan-asinmasi",
+          "baslik": "Erken debriyaj ve çift kütleli volan aşınması",
+          "parca": "Debriyaj seti / çift kütleli volan",
+          "belirtiler": "Debriyaj kaçırır, rölantide ve kalkışta titreşim hissedilir; bazı araçlarda düşük kilometrede debriyaj değişimi gerekir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "sanziman": "6 ileri manuel",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-212-pannes-renault-megane-3.php",
+            "https://www.carbuyer.co.uk/tips-and-advice/155160/used-renault-megane-buying-guide-2008-2016-mk3",
+            "https://www.largus.fr/guide-achat-occasion/renault/megane/avis-fiabilite-renault-megane-iii-b95-30038973.html"
+          ]
+        },
+        {
+          "id": "kabine-su-almasi",
+          "baslik": "Kabine su alması",
+          "parca": "Ön cam fitili / torpido ızgarası tahliyesi",
+          "belirtiler": "Yağmurdan sonra sürücü tarafı ayak altında ve zemin bölmesinde su birikir; ön cam ile kaput arasındaki plastik ızgaradan ya da cam fitilinden su sızdığı bildiriliyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/2012-megane",
+            "https://www.planeterenault.com/forum/megane-iii-probleme-infiltration-eau-coffre-de-rangement-sol-megane-iii-t50072.html?amp=1",
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-212-pannes-renault-megane-3.php"
+          ]
+        }
+      ]
+    },
+    {
       "slug": "megane-4",
       "ad": "Megane 4",
       "yillar": [
