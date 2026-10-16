@@ -52,6 +52,11 @@ export default async function NesilSayfasi({ params }: PageProps<"/[marka]/[mode
       <p className="mt-2 text-zinc-600 dark:text-zinc-400">
         {n.yillar[0]}–{n.yillar[1]} model yılları · {n.motorlar.map((x) => x.ad).join(", ")}
       </p>
+      {n.not && (
+        <p className="mt-4 rounded-lg border border-emerald-200 bg-emerald-50 px-4 py-3 text-emerald-900 dark:border-emerald-900 dark:bg-emerald-950 dark:text-emerald-200">
+          {n.not}
+        </p>
+      )}
       <div className="mt-6">
         <Suspense fallback={<p className="text-zinc-500">Yükleniyor…</p>}>
           <SorunListesi nesil={n} />

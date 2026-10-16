@@ -1,0 +1,43 @@
+{
+  "marka": "Hyundai",
+  "markaSlug": "hyundai",
+  "model": "i20",
+  "modelSlug": "i20",
+  "nesiller": [
+    {
+      "slug": "i20-2",
+      "ad": "i20 2. nesil",
+      "yillar": [
+        2014,
+        2020
+      ],
+      "motorlar": [
+        {
+          "id": "1-4-mpi",
+          "ad": "1.4 MPI",
+          "yakit": "benzin"
+        }
+      ],
+      "not": "Kullanıcılar 1.4 MPI motoru ve tork konvertörlü otomatik şanzımanı genel olarak sorunsuz buluyor; bilinen ciddi bir kronik arıza yok.",
+      "sorunlar": [
+        {
+          "id": "bogaz-kelebegi",
+          "baslik": "Boğaz kelebeği kirlenmesi",
+          "parca": "Boğaz kelebeği",
+          "belirtiler": "Motor titreyerek çalışır, rölantide sallanma",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-4-mpi"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.arabam.com/blog/?p=169097"
+          ],
+          "not": "Temizlik ve adaptasyon ayarıyla çözülüyor."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "marka": "Opel",
+  "markaSlug": "opel",
+  "model": "Astra",
+  "modelSlug": "astra",
+  "nesiller": [
+    {
+      "slug": "astra-j",
+      "ad": "Astra J",
+      "yillar": [
+        2010,
+        2015
+      ],
+      "motorlar": [
+        {
+          "id": "1-3-cdti",
+          "ad": "1.3 CDTI",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "triger-zinciri",
+          "baslik": "Triger zincirinin bollaşması",
+          "parca": "Triger zinciri",
+          "belirtiler": "Soğuk çalıştırmada metalik çıngırdama, 1. viteste gazdan çekince belirginleşen ses",
+          "km": "110.000-150.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-3-cdti"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/opel-astra-1.3-cdti-kronik-sorunlari-ve-ikinci-el-alim-rehberi"
+          ]
+        },
+        {
+          "id": "dpf",
+          "baslik": "DPF tıkanması",
+          "parca": "Partikül filtresi",
+          "belirtiler": "DPF uyarısı, zayıf gaz alma; şehir içi düşük devirde sık doluyor",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-3-cdti"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/opel-astra-1.3-cdti-kronik-sorunlari-ve-ikinci-el-alim-rehberi"
+          ],
+          "not": "2.500-3.000 devirde 8-9 dakika sürüşle uyarı geçebiliyor."
+        },
+        {
+          "id": "egr",
+          "baslik": "EGR valfi kurumlanması",
+          "parca": "EGR",
+          "belirtiler": "Rölanti dengesizliği, ani güç kaybı, arıza lambası",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-3-cdti"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/opel-astra-1.3-cdti-kronik-sorunlari-ve-ikinci-el-alim-rehberi"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -16,6 +16,11 @@
           "id": "1-3-multijet",
           "ad": "1.3 Multijet",
           "yakit": "dizel"
+        },
+        {
+          "id": "1-4-fire",
+          "ad": "1.4 Fire",
+          "yakit": "benzin"
         }
       ],
       "sorunlar": [
@@ -113,6 +118,70 @@
           "guven": "orta",
           "kaynaklar": [
             "https://www.arabalar.com.tr/test/fiat-egeanin-kronik-sorunlari-abartiliyor-mu"
+          ]
+        },
+        {
+          "id": "fire-yag-eksiltme",
+          "baslik": "Yağ eksiltme",
+          "parca": "Supap contaları / segmanlar",
+          "belirtiler": "Yağ seviyesi düşüyor, egzozdan mavi duman",
+          "km": "50.000 sonrası",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-4-fire"
+          ],
+          "guven": "yuksek",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/fiat-egea-1.4-fire-sorunlari-bakim-ve-satin-alma-rehberi-2026",
+            "https://forum.donanimhaber.com/fiat-egea-yag-yakma-sorunu-hk--136202450"
+          ],
+          "not": "Kullanıcılar ~1.000 km'de 100 ml tüketim bildiriyor; kaliteli yağ ve kısa değişim aralığı (7.000-8.000 km) öneriliyor."
+        },
+        {
+          "id": "fire-bobin",
+          "baslik": "Ateşleme bobini arızası",
+          "parca": "Ateşleme bobini",
+          "belirtiler": "Tekleme, en sık değişen parçalardan",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": "800-2.500 (adet)",
+          "motorlar": [
+            "1-4-fire"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/fiat-egea-1.4-fire-sorunlari-bakim-ve-satin-alma-rehberi-2026"
+          ]
+        },
+        {
+          "id": "fire-debriyaj",
+          "baslik": "Erken debriyaj aşınması",
+          "parca": "Debriyaj seti",
+          "belirtiler": "Pedal sertleşmesi, vites geçişinde ses",
+          "km": "60.000-100.000",
+          "ciddiyet": "orta",
+          "maliyetTl": "5.000-12.000",
+          "motorlar": [
+            "1-4-fire"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/fiat-egea-1.4-fire-sorunlari-bakim-ve-satin-alma-rehberi-2026"
+          ]
+        },
+        {
+          "id": "stepne-su",
+          "baslik": "Stepne yuvasında su birikmesi",
+          "parca": "Arka kapı / bagaj contası",
+          "belirtiler": "Stepne bölgesinde su birikmesi, arka kapıdan sızıntı",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/fiat-egea-1.4-fire-sorunlari-bakim-ve-satin-alma-rehberi-2026"
           ]
         }
       ]

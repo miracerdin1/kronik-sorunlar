@@ -95,6 +95,70 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "clio-5",
+      "ad": "Clio 5",
+      "yillar": [
+        2019,
+        2026
+      ],
+      "motorlar": [
+        {
+          "id": "1-0-tce",
+          "ad": "1.0 TCe",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "xtronic-sarsinti",
+          "baslik": "X-Tronic şanzımanda düşük hızda sarsıntı",
+          "parca": "X-Tronic CVT",
+          "belirtiler": "Yavaş trafikte gazdan ayak çekilince sarsıntı",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-0-tce"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/clio5-kronik-arizasi-bol-sorunlu-bir-arac-mi--146973632"
+          ],
+          "sanziman": "X-Tronic otomatik"
+        },
+        {
+          "id": "start-stop",
+          "baslik": "Start-stop sistemi arızası",
+          "parca": "Start-stop / EPC modülü",
+          "belirtiler": "Start-stop çalışmıyor veya hata veriyor",
+          "km": "~3.000",
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-0-tce"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/clio5-kronik-arizasi-bol-sorunlu-bir-arac-mi--146973632"
+          ]
+        },
+        {
+          "id": "arka-trim-sesi",
+          "baslik": "Arka bölümden trim sesi",
+          "parca": "Bagaj tabanı / kaplamalar",
+          "belirtiler": "Arka taraftan gıcırtı ve trim sesi",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "guven": "orta",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/clio5-kronik-arizasi-bol-sorunlu-bir-arac-mi--146973632"
+          ]
+        }
+      ]
     }
   ]
 }

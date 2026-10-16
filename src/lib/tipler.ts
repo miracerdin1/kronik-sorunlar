@@ -30,6 +30,8 @@ export interface Nesil {
   ad: string;
   /** [başlangıç, bitiş] model yılı, iki uç dahil. */
   yillar: [number, number];
+  /** Kasa geneli için kısa değerlendirme (ör. "bilinen ciddi kronik arıza yok"). */
+  not?: string;
   motorlar: Motor[];
   sorunlar: Sorun[];
 }

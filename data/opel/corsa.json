@@ -1,0 +1,102 @@
+{
+  "marka": "Opel",
+  "markaSlug": "opel",
+  "model": "Corsa",
+  "modelSlug": "corsa",
+  "nesiller": [
+    {
+      "slug": "corsa-f",
+      "ad": "Corsa F",
+      "yillar": [
+        2020,
+        2026
+      ],
+      "motorlar": [
+        {
+          "id": "1-2",
+          "ad": "1.2 / 1.2 Turbo (PureTech)",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "yagli-triger-kayisi",
+          "baslik": "Yağ içinde çalışan triger kayışının erken aşınması",
+          "parca": "Triger kayışı",
+          "belirtiler": "Kayış parçaları yağ pompasını tıkar; ağır motor hasarı riski",
+          "km": "40.000-50.000'de kontrol",
+          "ciddiyet": "yuksek",
+          "maliyetTl": "10.000-35.000 (kayış kontrol/değişim)",
+          "motorlar": [
+            "1-2"
+          ],
+          "guven": "yuksek",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/opel-corsa-1.2-t-sorunlari-bakim-ve-satin-alma-rehberi-2026",
+            "https://www.turkiyegazetesi.com.tr/t-otomobil/arac-almadan-once-gercegini-ogrenin-12-puretech-motor-triger-sorunu-nedir-yeni-model-1762948"
+          ],
+          "not": "Stellantis eski nesil 1.2 PureTech için 10 yıl / 180.000 km uzatılmış garanti verdi; 2023 sonrası yeni nesilde zincire geçildi."
+        },
+        {
+          "id": "yag-tuketimi",
+          "baslik": "Yağ eksiltme",
+          "parca": "Motor",
+          "belirtiler": "1.000 km'de 200-300 ml yağ eksilmesi",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/opel-corsa-1.2-t-sorunlari-bakim-ve-satin-alma-rehberi-2026"
+          ]
+        },
+        {
+          "id": "eat8-hata",
+          "baslik": "EAT8 otomatik şanzımanda \"şanzıman arızası\" uyarısı",
+          "parca": "EAT8 otomatik şanzıman",
+          "belirtiler": "Tekrarlayan şanzıman arıza uyarısı; yazılım güncellemesi her zaman çözmüyor",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/opel-corsa-1.2-t-sorunlari-bakim-ve-satin-alma-rehberi-2026"
+          ],
+          "sanziman": "EAT8 otomatik"
+        },
+        {
+          "id": "direksiyon-cekme",
+          "baslik": "Aracın bir tarafa çekmesi",
+          "parca": "Direksiyon kutusu",
+          "belirtiler": "Araç bir yana çekiyor; bazı araçlarda direksiyon kutusu değişti",
+          "km": "2020–2022 üretimi",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/opel-corsa-1.2-t-sorunlari-bakim-ve-satin-alma-rehberi-2026"
+          ]
+        },
+        {
+          "id": "toplu-uyari",
+          "baslik": "ESP, şerit takip ve fren uyarılarının birlikte yanması",
+          "parca": "Elektronik",
+          "belirtiler": "ESP, lastik basıncı, şerit takip ve aktif fren uyarıları aynı anda yanıyor",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/opel-corsa-1.2-t-sorunlari-bakim-ve-satin-alma-rehberi-2026"
+          ]
+        }
+      ]
+    }
+  ]
+}
