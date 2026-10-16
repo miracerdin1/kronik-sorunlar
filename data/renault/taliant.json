@@ -1,0 +1,101 @@
+{
+  "marka": "Renault",
+  "markaSlug": "renault",
+  "model": "Taliant",
+  "modelSlug": "taliant",
+  "nesiller": [
+    {
+      "slug": "taliant-1",
+      "ad": "Taliant",
+      "yillar": [
+        2021,
+        2026
+      ],
+      "not": "Bursa'da üretilen, Dacia Logan 3 / Sandero 3 ile aynı CMF-B LS platformunu ve motorları paylaşan sedan. Motor ve şanzıman kaynaklı arızalarda Sandero 3 / Logan 3 ve aynı 1.0 TCe (H4D) motorlu Clio V kaynakları da kullanıldı.",
+      "motorlar": [
+        {
+          "id": "1-0-sce-65",
+          "ad": "1.0 SCe 65",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-0-tce-90",
+          "ad": "1.0 TCe 90 (manuel / X-Tronic)",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "turbo-wastegate-sesi",
+          "baslik": "Turbo bölgesinden zırıltı / metalik titreşim sesi",
+          "parca": "Turbo wastegate çubuğu ve turboşarj",
+          "belirtiler": "Özellikle soğuk motorda ve 1.000-2.000 devir arasında gaz verip keserken turbo tarafından ıslık, zırıltı ya da metalik tıkırtı duyulur; ses zamanla belirginleşip sürüş konforunu bozar.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-0-tce-90"
+          ],
+          "not": "Sandero 3 sahipleri sorunun büyük kısmını titreşen wastegate çubuğuna bağlıyor. Türkiye'de servislerin önce yazılım güncellemesi denediği, ses geçmezse turbo değişimine gittiği bildiriliyor; garanti dışında masraf sahibine kalıyor.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/turbo-ziriltisi-icin-garanti-disi-masraflar-uzerinde-renaultdan-sorumluluk-talebi",
+            "https://www.sikayetvar.com/renault/renault-kronik-turbo-ses-problemi-icin-iyi-niyet-garantisi-kapsaminda-turbo-degisimi-talebi",
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-671-pannes-dacia-sandero-3.php",
+            "https://www.fiches-auto.fr/avis-dacia/avis-unique-671-101039-dacia-sandero-3-10-tce-90-ch-boite-6-4000km-confort.php",
+            "https://www.largus.fr/guide-achat-occasion/renault/clio/avis-fiabilite-renault-clio-v-bja-30038862.html",
+            "https://www.araclo.com/blog/renault-taliant-1.0-tce-alinir-mi-sorunlari-yakit-tuketimi-ve-kullanici-yorumlari"
+          ]
+        },
+        {
+          "id": "sos-acil-cagri-uyarisi",
+          "baslik": "SOS (acil çağrı / eCall) uyarı lambasının yanması",
+          "parca": "Acil çağrı (eCall) telematik ünitesi",
+          "belirtiler": "Gösterge panelinde SOS uyarısı yanar ya da yanıp söner; arıza kendiliğinden gidip gelebilir ve özellikle gece sürüşünde dikkat dağıtır.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Bazı araçlarda yazılım güncellemesiyle giderildiği, bazılarında ise kalıcı çözüm bulunamadığı bildiriliyor. 2026 tarihli bir şikayette garanti sonrası yalnızca arıza tespiti için 7.600 TL istendiği yazıyor.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/kronik-sos-isigi-arizasi-icin-haksiz-7600-tl-ucret-talebi",
+            "https://www.sikayetvar.com/renault/dusuk-kilometrede-kronik-sos-arizasi-guvenimi-zedeliyor",
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-671-pannes-dacia-sandero-3.php",
+            "https://www.araclo.com/blog/renault-taliant-1.0-tce-alinir-mi-sorunlari-yakit-tuketimi-ve-kullanici-yorumlari"
+          ]
+        },
+        {
+          "id": "aku-desarj-elektrik-uyarilari",
+          "baslik": "Akü boşalması ve akü/elektrik uyarıları",
+          "parca": "12V akü ve şarj / enerji yönetimi sistemi",
+          "belirtiler": "Her çalıştırmada 'Akü zayıf' ve 'Akü şarj ediliyor' uyarıları çıkar, start-stop devre dışı kalır; bazı araçlarda araç beklerken akü boşalır ya da çok sayıda uyarıyla birlikte güç kaybı ve koruma moduna geçiş görülür.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Akü değişimi her zaman çözüm olmuyor; bir şikayette servis CAN-BUS hattı arızasından söz etmiş. Sandero 3'te de akü boşalması tüm motorlarda en sık bildirilen arıza.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/garanti-bitiminden-sonra-yeni-aracim-surekli-aku-uyarisi-veriyor",
+            "https://www.sikayetvar.com/renault/start-stop-sistemi-arizasi-ve-yetkili-serviste-bilgilendirme-eksikligi",
+            "https://www.sikayetvar.com/renault/renault-taliant-joy-aracta-surekli-koruma-modu-ve-yetkili-servis-cozum-eksikligi",
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-671-pannes-dacia-sandero-3.php"
+          ]
+        },
+        {
+          "id": "arka-kapi-su-girisi",
+          "baslik": "Yağmurda arka kapılardan kabine su girmesi",
+          "parca": "Arka kapı fitilleri / gövde sızdırmazlığı",
+          "belirtiler": "Yağmurdan sonra arka paspaslar ve döşeme ıslanır, kabinde rutubet ve koku oluşur; servis müdahalesinden sonra bile sızıntı tekrarlayabilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Yalnızca Türk kullanıcı şikayetlerinde görülüyor; bağımsız ikinci kaynak bulunamadı.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/arka-kapilardan-su-girisi-sorunu-garanti-kapsaminda-acil-servis-talebi",
+            "https://www.sikayetvar.com/renault/renault-taliant-arac-yagmurda-su-aliyor-garanti-kapsaminda-cozum-talebi"
+          ]
+        }
+      ]
+    }
+  ]
+}

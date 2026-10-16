@@ -1,0 +1,177 @@
+{
+  "marka": "Fiat",
+  "markaSlug": "fiat",
+  "model": "Fiorino",
+  "modelSlug": "fiorino",
+  "nesiller": [
+    {
+      "slug": "fiorino-225",
+      "ad": "Fiorino / Fiorino Combi (225)",
+      "yillar": [
+        2008,
+        2024
+      ],
+      "not": "Bursa'da Tofaş tarafından üretildi. Citroën Nemo ve Peugeot Bipper ile aynı gövdeyi, Fiat Qubo ile aynı aracı paylaşır; bu ikizlerdeki aynı motor/şanzıman arızaları kaynak olarak kullanıldı.",
+      "motorlar": [
+        {
+          "id": "1-3-multijet",
+          "ad": "1.3 MultiJet",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-4-fire",
+          "ad": "1.4 Fire",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dualogic-robot-arizasi",
+          "baslik": "Dualogic robotize şanzıman arızası",
+          "parca": "Dualogic hidrolik aktüatör / şanzıman robotu ve debriyaj",
+          "belirtiler": "Göstergede 'vitesi kontrol ettirin' uyarısı çıkar, vites takılmaz ya da N konumunda kalır, araç arıza moduna geçer. Kalkışlarda gecikme, vites geçişlerinde silkeleme ve sarsıntı görülür; robot ünitesi çevresinden hidrolik yağ sızabilir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-3-multijet"
+          ],
+          "sanziman": "5 ileri Dualogic robotize",
+          "not": "Bazı durumlarda kalibrasyon/adaptasyon ya da conta değişimi yeterli olurken, bazılarında robot ünitesi tamamen değişir; her servis bu işi yapmayabilir.",
+          "kaynaklar": [
+            "https://www.otomoto.pl/news/uzywany-fiat-qubo-male-zaskoczenie-opinie-ceny-usterki",
+            "https://www.cargurus.co.uk/research/Fiat-Qubo-2009-mg498",
+            "https://www.fiatforum.com/threads/qubo-multijet-dualogic-gearbox.191662",
+            "https://carbuyer.co.uk/fiat/qubo/owner-reviews",
+            "https://forum.donanimhaber.com/fiat-fiorino-dualogic-tamiri--153251999-2",
+            "https://forum.donanimhaber.com/otomatik-fiorino-sarsinti-sorunu--145424206",
+            "https://www.sikayetvar.com/fiat/fiat-fiorinoda-tekrarlayan-vites-ve-mars-sorunu-nedeniyle-magduriyet"
+          ]
+        },
+        {
+          "id": "dpf-tikanmasi-yag-incelmesi",
+          "baslik": "Partikül filtresi (DPF) tıkanması ve yağa yakıt karışması",
+          "parca": "Dizel partikül filtresi (DPF)",
+          "belirtiler": "Kısa şehir içi kullanımda rejenerasyon tamamlanamaz; DPF ikaz lambası yanar, güç düşer, rejenerasyon sırasında yoğun duman görülür. Tekrarlanan rejenerasyon denemeleri motor yağını yakıtla inceltip yağ seviyesini yükseltebilir.",
+          "km": "60.000-100.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-3-multijet"
+          ],
+          "not": "Düzenli uzun yol kullanımı ve sık yağ değişimi önerilir.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-diesel/s-3995-fiabilite-du-moteur-13-jtd-multijet.php",
+            "https://www.otomoto.pl/news/uzywany-fiat-qubo-male-zaskoczenie-opinie-ceny-usterki",
+            "https://www.fiatforum.com/threads/qubo-1-3-multijet-95k-engine-trouble.516020/",
+            "https://www.araclo.com/vehicles/fiat-fiorino-combi-mix-1.3-multijet/degerlendirmeler/kullanici-sorunlari"
+          ]
+        },
+        {
+          "id": "egr-valfi-tikanmasi",
+          "baslik": "EGR valfinin kurumlanması",
+          "parca": "EGR valfi",
+          "belirtiler": "Motor arıza lambası yanar, çekiş düşer, rölantide düzensizlik ve siyah duman görülebilir. Kısa mesafe kullanımda daha sık yaşanır.",
+          "km": "80.000-120.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-3-multijet"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-diesel/s-3995-fiabilite-du-moteur-13-jtd-multijet.php",
+            "https://www.otomoto.pl/news/uzywany-fiat-qubo-male-zaskoczenie-opinie-ceny-usterki",
+            "https://www.araclo.com/vehicles/fiat-fiorino-combi-mix-1.3-multijet/degerlendirmeler/kullanici-sorunlari"
+          ]
+        },
+        {
+          "id": "turbo-arizasi",
+          "baslik": "Turbo arızası, ıslık ve yağ kaçağı",
+          "parca": "Turboşarj",
+          "belirtiler": "Devirle artan ıslık sesi, performans kaybı ve siyah duman; turbo keçesinden yağ kaçağı veya basınç hortumu sorunları görülür. Bazı araçlarda turbo görece düşük kilometrede değişir.",
+          "km": "100.000-150.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-3-multijet"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-diesel/s-3995-fiabilite-du-moteur-13-jtd-multijet.php",
+            "https://www.whatvan.co.uk/uncategorized/buying-a-used-citroen-nemo/",
+            "https://www.arabam.com/blog/?p=168996",
+            "https://carbuyer.co.uk/fiat/qubo/owner-reviews",
+            "https://www.araclo.com/vehicles/fiat-fiorino-combi-mix-1.3-multijet/degerlendirmeler/kullanici-sorunlari"
+          ]
+        },
+        {
+          "id": "eksantrik-zinciri-uzamasi",
+          "baslik": "Eksantrik zinciri uzaması ve gergi aşınması",
+          "parca": "Zamanlama zinciri, gergi ve kızaklar",
+          "belirtiler": "Soğuk çalıştırmada ve rölantide motor önünden tıkırtı/şakırtı sesi gelir. İhmal edilirse zincir atlayabilir ya da kopabilir ve ciddi motor hasarına yol açabilir.",
+          "km": "100.000-150.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-3-multijet"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-diesel/s-3995-fiabilite-du-moteur-13-jtd-multijet.php",
+            "https://www.otomoto.pl/news/uzywany-fiat-qubo-male-zaskoczenie-opinie-ceny-usterki",
+            "https://www.fiatforum.com/threads/multijet-timing-chain-failure.355160/page-2",
+            "https://www.araclo.com/vehicles/fiat-fiorino-combi-mix-1.3-multijet/degerlendirmeler/kullanici-sorunlari"
+          ]
+        },
+        {
+          "id": "enjektor-arizasi",
+          "baslik": "Enjektör kirlenmesi ve kaçağı",
+          "parca": "Dizel enjektörler ve geri dönüş hortumları",
+          "belirtiler": "Soğukken düzensiz çalışma, silindirler arası düzeltme değerlerinde dengesizlik, ilk çalıştırmada beyaz/mazot kokulu duman ve çekiş kaybı. Geri dönüş hortumlarında çatlama ve sızıntı görülebilir.",
+          "km": "90.000-140.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-3-multijet"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-diesel/s-3995-fiabilite-du-moteur-13-jtd-multijet.php",
+            "https://www.fiatforum.com/threads/qubo-1-3-multijet-95k-engine-trouble.516020/",
+            "https://www.araclo.com/vehicles/fiat-fiorino-combi-mix-1.3-multijet/degerlendirmeler/kullanici-sorunlari"
+          ]
+        },
+        {
+          "id": "erken-debriyaj-asinmasi",
+          "baslik": "Debriyajın erken aşınması",
+          "parca": "Debriyaj seti",
+          "belirtiler": "Debriyaj kaçırması, kalkışta titreme ve pedalın yukarıdan tutması; yoğun şehir içi ve yüklü kullanımda 100.000 km'den önce değişim gerekebilir.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-3-multijet"
+          ],
+          "not": "Parça fiyatı görece düşüktür.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-diesel/s-3995-fiabilite-du-moteur-13-jtd-multijet.php",
+            "https://www.otomoto.pl/news/uzywany-fiat-qubo-male-zaskoczenie-opinie-ceny-usterki",
+            "https://www.whatvan.co.uk/uncategorized/buying-a-used-citroen-nemo/"
+          ]
+        },
+        {
+          "id": "devirdaim-termostat-arizasi",
+          "baslik": "Devirdaim pompası ve termostat arızası",
+          "parca": "Soğutma sistemi (devirdaim pompası, termostat ve gövdesi)",
+          "belirtiler": "Hararet göstergesinde dalgalanma, soğutma suyu kaybı ve sızıntı; termostat gövdesinden kaçak görülebilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.otomoto.pl/news/uzywany-fiat-qubo-male-zaskoczenie-opinie-ceny-usterki",
+            "https://carbuyer.co.uk/fiat/qubo/owner-reviews",
+            "https://www.araclo.com/vehicles/fiat-fiorino-combi-mix-1.3-multijet/degerlendirmeler/kullanici-sorunlari"
+          ]
+        }
+      ]
+    }
+  ]
+}

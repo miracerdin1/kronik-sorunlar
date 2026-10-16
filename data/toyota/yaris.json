@@ -1,0 +1,118 @@
+{
+  "marka": "Toyota",
+  "markaSlug": "toyota",
+  "model": "Yaris",
+  "modelSlug": "yaris",
+  "nesiller": [
+    {
+      "slug": "yaris-4",
+      "ad": "Yaris (XP210)",
+      "yillar": [
+        2020,
+        2026
+      ],
+      "not": "Dördüncü nesil Yaris genel olarak güvenilir bulunuyor; öne çıkan sorunların çoğu elektronik/yazılım kaynaklı ve geri çağırmalarla giderildi.",
+      "motorlar": [
+        {
+          "id": "1-5-dynamic-force",
+          "ad": "1.5 Dynamic Force",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-5-hybrid",
+          "ad": "1.5 Hybrid",
+          "yakit": "hibrit"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "12v-aku-bosalmasi",
+          "baslik": "12V yardımcı akünün sık boşalması",
+          "parca": "12V akü",
+          "belirtiler": "Araç bir süre kullanılmadığında ya da kısa kullanımlarda 12V akü boşalıyor, araç READY konumuna geçmiyor ve takviye ya da çekici gerekiyor. Bazı araçlarda akü garanti içinde birden fazla kez değiştirildi.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-hybrid"
+          ],
+          "not": "What Car? anketinde hibrit Yaris'te en sık görülen arıza. Bazı vakalarda kontak kapandıktan sonra açık kalan acil çağrı modülünün akü tükettiği bildirildi.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-toyota/fiabilite-672-pannes-toyota-yaris-4.php",
+            "https://www.whatcar.com/toyota/yaris/hatchback/used-review/n24498/reliability",
+            "https://www.sikayetvar.com/toyota/aku-bitmesi"
+          ]
+        },
+        {
+          "id": "hibrit-sistem-guc-kaybi",
+          "baslik": "Hibrit sistem arızası ve ani güç kaybı",
+          "parca": "Hibrit şanzıman giriş damperi / hibrit kontrol yazılımı",
+          "belirtiler": "Ani hızlanmada \"Hibrit sistem arızası\" uyarısı çıkıyor ve araç emniyet (limp) moduna geçmeden çekişini tamamen kaybedebiliyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-hybrid"
+          ],
+          "sanziman": "e-CVT",
+          "not": "İlk üretim (2020) hibritlerde geri çağırma: yazılım güncellemesi, bazı araçlarda yanlış yağlanan giriş damperinin değişimi.",
+          "kaynaklar": [
+            "https://draft.carsguide.com.au/car-news/2021-toyota-yaris-and-yaris-cross-hybrid-recalled-new-hatchbacks-and-suvs-could-lose-power",
+            "https://www.drive.com.au/news/2020-toyota-yaris-hybrid-recalled/",
+            "https://toyotaownersclub.com/forums/topic/197760-yaris-hybrid-2020-tnga-hybrid-system-malfunction/page/14"
+          ]
+        },
+        {
+          "id": "elektronik-el-freni-yazilim",
+          "baslik": "Elektronik park freninin devre dışı kalması",
+          "parca": "Fren kontrol (skid control) ECU yazılımı",
+          "belirtiler": "Fren kontrol ünitesindeki yazılım hatası nedeniyle elektronik park freni çalışmayabiliyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-hybrid"
+          ],
+          "not": "Temmuz 2020 - Nisan 2021 arası üretilen hibritler için geri çağırma (21SMD-039); servis yazılım güncellemesi yapıyor.",
+          "kaynaklar": [
+            "https://car-recalls.eu/recall/toyota-yaris-2021-hand-brake/",
+            "https://toyotaownersclub.com/forums/topic/200233-2021-yaris-recall",
+            "https://www.fiches-auto.fr/fiabilite-toyota/fiabilite-672-pannes-toyota-yaris-4.php"
+          ]
+        },
+        {
+          "id": "ecall-dcm-arizasi",
+          "baslik": "eCall acil çağrı modülünün (DCM) çalışmaması",
+          "parca": "Veri iletişim modülü (DCM) / eCall",
+          "belirtiler": "Modül yazılım hatası sonrası yeniden başlamayabiliyor; acil çağrı sistemi kullanılamaz hale geliyor ve uyarı çıkabiliyor. Modülün kapanmaması akü boşalmasına da yol açabiliyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "2020-2023 üretimi araçlar için birden fazla geri çağırma (ör. 23SD-101); yazılım güncellemesiyle çözülüyor.",
+          "kaynaklar": [
+            "https://car-recalls.eu/recall/toyota-yaris-2021-2023-e-call/",
+            "https://www.whatcar.com/toyota/yaris/hatchback/used-review/n24498/reliability",
+            "https://www.carwow.co.uk/used-cars/guides/toyota-yaris-2020-used-buying-guide"
+          ]
+        },
+        {
+          "id": "on-radar-surus-destek",
+          "baslik": "Ön radar sensörü ve sürüş destek sistemlerinde hatalı çalışma",
+          "parca": "Ön radar sensörü (Toyota Safety Sense)",
+          "belirtiler": "Radar sensörü doğru başlatılmadığı için çarpışma önleme gibi sistemler devre dışı kalabiliyor; bazı sahipler yersiz çarpışma/engel uyarıları bildiriyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Temmuz 2020 - Haziran 2021 üretimi araçlar için radar geri çağırması.",
+          "kaynaklar": [
+            "https://www.whatcar.com/toyota/yaris/hatchback/used-review/n24498/reliability",
+            "https://www.carwow.co.uk/used-cars/guides/toyota-yaris-2020-used-buying-guide",
+            "https://www.fiches-auto.fr/fiabilite-toyota/fiabilite-672-pannes-toyota-yaris-4.php"
+          ]
+        }
+      ]
+    }
+  ]
+}

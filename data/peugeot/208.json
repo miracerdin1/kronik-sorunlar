@@ -1,0 +1,208 @@
+{
+  "marka": "Peugeot",
+  "markaSlug": "peugeot",
+  "model": "208",
+  "modelSlug": "208",
+  "nesiller": [
+    {
+      "slug": "208-1",
+      "ad": "208 (2012-2019)",
+      "yillar": [
+        2012,
+        2019
+      ],
+      "not": "1.2 PureTech motorlar Citroën C3, Peugeot 2008/301 gibi kardeş modellerle ortaktır; motor kaynaklı arızalar bu modellerde de görülür.",
+      "motorlar": [
+        {
+          "id": "1-2-puretech-82",
+          "ad": "1.2 VTi / PureTech 82",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-2-puretech-110",
+          "ad": "1.2 PureTech 110 (turbo)",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-4-vti",
+          "ad": "1.4 VTi 95",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-vti",
+          "ad": "1.6 VTi 120",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-4-hdi",
+          "ad": "1.4 HDi 68",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-6-hdi",
+          "ad": "1.6 HDi / e-HDi 92-115",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-6-bluehdi",
+          "ad": "1.6 BlueHDi 75-100",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "1-2-puretech-yagli-triger-kayisi",
+          "baslik": "1.2 PureTech yağ içinde çalışan triger kayışının dağılması",
+          "parca": "Yağ banyolu triger kayışı, yağ pompası süzgeci",
+          "belirtiler": "Kayıştan kopan lastik parçacıklar yağ süzgecini ve kanallarını tıkar; düşük yağ basıncı uyarısı, güç kaybı ve emniyet moduna geçme görülür. Zamanında müdahale edilmezse motor ağır hasar görebilir.",
+          "km": "80.000-120.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-puretech-82",
+            "1-2-puretech-110"
+          ],
+          "not": "Stellantis Nisan 2024'te eski nesil 1.2 PureTech motorlar için Türkiye dahil uzatılmış garanti açıkladı (koşullu olarak 10 yıl / 180.000 km, yetkili serviste düzenli bakım şartı). Kayış yağ kapağından kontrol edilebilir; kayış değişim faturası istenmeli ve kısa yağ değişim aralığı uygulanmalı.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-347-pannes-peugeot-208.php",
+            "https://www.autocar.co.uk/car-review/peugeot/208-2012-2019/reliability",
+            "https://www.whocanfixmycar.com/advice/common-problems-with-the-peugeot-208",
+            "https://www.turkiyegazetesi.com.tr/t-otomobil/arac-almadan-once-gercegini-ogrenin-12-puretech-motor-triger-sorunu-nedir-yeni-model-1762948",
+            "https://forum.quechoisir.org/post1111186.html",
+            "https://autocopilot.fr/modeles/peugeot-208"
+          ]
+        },
+        {
+          "id": "1-2-puretech-yag-tuketimi-segman",
+          "baslik": "1.2 PureTech aşırı yağ tüketimi (segman sorunu)",
+          "parca": "Piston segmanları",
+          "belirtiler": "İki bakım arası yağ seviyesi belirgin düşer, yağ uyarısı yanar; bazı araçlarda 1.000 km'de 0,5-0,7 litreye varan tüketim bildirilir. İleri aşamada yağsız kalma motor hasarına yol açabilir.",
+          "km": "80.000-120.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-puretech-82",
+            "1-2-puretech-110"
+          ],
+          "not": "Yağ seviyesi sık kontrol edilmeli; triger kayışı sorunu ile birlikte görülebilir.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-347-pannes-peugeot-208.php",
+            "https://www.autocar.co.uk/car-review/peugeot/208-2012-2019/reliability",
+            "https://www.whocanfixmycar.com/advice/common-problems-with-the-peugeot-208",
+            "https://forum.quechoisir.org/post1111186.html"
+          ]
+        },
+        {
+          "id": "etg5-robotize-sanziman",
+          "baslik": "ETG5 robotize şanzımanda vuruntu, gecikmeli vites ve aktüatör aşınması",
+          "parca": "ETG5 şanzıman aktüatörü ve debriyaj",
+          "belirtiler": "Kalkışta ve vites geçişlerinde sarsıntı, uzun tork kesintisi, yokuşta geri kayma görülür. Aktüatör veya debriyaj aşındıkça geçişler sertleşir ve gecikir.",
+          "km": "80.000-160.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-puretech-82"
+          ],
+          "sanziman": "5 ileri ETG5 robotize (tek kavramalı yarı otomatik)",
+          "not": "Sarsıntının bir kısmı tasarım gereğidir; yoğun dur-kalk trafiği aşınmayı hızlandırır. Bazı durumlarda servis yazılım güncellemesi davranışı iyileştirebiliyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-347-pannes-peugeot-208.php",
+            "https://www.caradisiac.com/Essai-Peugeot-208-1-2-e-VTI-82-ETG5-la-boite-qui-boite-94361.htm",
+            "https://www.forum-peugeot.com/Forum/threads/probl%C3%A8mes-accoups-208-1-2-82ch-boite-etg5-12-2018.140100/",
+            "https://www.araclo.com/vehicles/peugeot-208-1.2-vti/degerlendirmeler/kullanici-sorunlari"
+          ]
+        },
+        {
+          "id": "dokunmatik-ekran-donmasi",
+          "baslik": "Dokunmatik multimedya ekranının donması / kendini yeniden başlatması",
+          "parca": "Multimedya (SMEG) dokunmatik ünitesi",
+          "belirtiler": "Ekran donar, kendiliğinden yeniden başlar veya tamamen kararır; radyo, navigasyon, Bluetooth ve klima ayarları kullanılamaz hale gelebilir.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Yazılım sıfırlama/güncelleme çoğu zaman yeterli olur; olmazsa ünite değişimi pahalıdır.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-347-pannes-peugeot-208.php",
+            "https://whatcar.com/peugeot/208/hatchback/used-review/n884/advice",
+            "https://www.whocanfixmycar.com/advice/common-problems-with-the-peugeot-208",
+            "https://www.araclo.com/vehicles/peugeot-208-1.2-vti/degerlendirmeler/kullanici-sorunlari"
+          ]
+        },
+        {
+          "id": "1-6-hdi-enjektor-contasi-turbo",
+          "baslik": "1.6 HDi enjektör contası kaçağı, kurum birikmesi ve turbo arızası",
+          "parca": "Enjektör contaları, turbo",
+          "belirtiler": "Kaçak yapan enjektör contası nedeniyle motor üstünde kurum ve yanık kokusu oluşur; kurum yağa karışıp yağ süzgecini tıkayabilir, yağ basıncı düşer ve turbo yatakları zarar görebilir. Turbo arızasında güç kaybı ve duman görülür.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-hdi"
+          ],
+          "not": "Motorun genel sorunudur; 208'in 1.6 HDi 92 ve e-HDi 115 versiyonları da etkilenen modeller arasında. Düzenli yağ değişimi ve conta kontrolü önerilir.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-diesel/s-2522-fiabilite-16-hdi.php",
+            "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-347-pannes-peugeot-208.php",
+            "https://autocopilot.fr/modeles/peugeot-208",
+            "https://www.araclo.com/vehicles/peugeot-208-1.6-hdi/degerlendirmeler/kullanici-sorunlari"
+          ]
+        },
+        {
+          "id": "dizel-dpf-egr-tikanmasi",
+          "baslik": "Dizel partikül filtresi (DPF) ve EGR valfi tıkanması",
+          "parca": "DPF, EGR valfi",
+          "belirtiler": "Motor arıza lambası yanar, çekiş düşer, rölanti düzensizleşir ve araç emniyet moduna geçebilir. Ağırlıklı olarak kısa mesafeli şehir içi kullanımda ortaya çıkar.",
+          "km": "60.000-150.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-hdi",
+            "1-6-bluehdi"
+          ],
+          "not": "Düzenli uzun yol kullanımı DPF rejenerasyonunu kolaylaştırır. Fiches-auto, 1.4 HDi için de EGR sorunlarını anıyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-347-pannes-peugeot-208.php",
+            "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-diesel/s-2522-fiabilite-16-hdi.php",
+            "https://autocopilot.fr/modeles/peugeot-208",
+            "https://www.araclo.com/vehicles/peugeot-208-1.6-hdi/degerlendirmeler/kullanici-sorunlari"
+          ]
+        },
+        {
+          "id": "atesleme-bobini-katalizor",
+          "baslik": "Ateşleme bobini, buji ve katalizör arızaları",
+          "parca": "Ateşleme bobinleri, bujiler, katalitik konvertör",
+          "belirtiler": "Tekleme, titreme, rölantide düzensizlik ve güç kaybı ile birlikte motor arıza lambası yanar; bazı araçlarda arıza lambaları tekrar tekrar yanıp araç düşük güç moduna geçer ve katalizör arızası tespit edilir.",
+          "km": "60.000-130.000",
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-puretech-82",
+            "1-2-puretech-110"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-347-pannes-peugeot-208.php",
+            "https://www.autocar.co.uk/car-review/peugeot/208-2012-2019/reliability",
+            "https://www.sikayetvar.com/peugeot/peugeot-208-otomatik-cekisten-dusuyor",
+            "https://www.araclo.com/vehicles/peugeot-208-1.2-vti/degerlendirmeler/kullanici-sorunlari"
+          ]
+        },
+        {
+          "id": "arka-silecek-fiskiyesi-bagaja-su",
+          "baslik": "Arka cam fıskiyesinden bagaja su sızması",
+          "parca": "Arka silecek fıskiyesi ve hortum bağlantısı",
+          "belirtiler": "Arka cam yıkama suyu bagaj içine sızar; bagaj halısı ve stepne yuvası ıslak kalır.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Fıskiyenin değiştirilmesi genellikle sorunu çözer; ikinci el alımda bagaj tabanı nem açısından kontrol edilmeli.",
+          "kaynaklar": [
+            "https://www.autocar.co.uk/car-review/peugeot/208-2012-2019/reliability",
+            "https://www.whocanfixmycar.com/advice/common-problems-with-the-peugeot-208"
+          ]
+        }
+      ]
+    }
+  ]
+}

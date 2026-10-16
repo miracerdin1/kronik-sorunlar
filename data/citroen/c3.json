@@ -1,0 +1,150 @@
+{
+  "marka": "Citroen",
+  "markaSlug": "citroen",
+  "model": "C3",
+  "modelSlug": "c3",
+  "nesiller": [
+    {
+      "slug": "c3-3",
+      "ad": "C3 (3. nesil)",
+      "yillar": [
+        2016,
+        2024
+      ],
+      "not": "2020 başında makyajlandı; EAT6 otomatik şanzıman 1.2 PureTech 110 ile sunuldu.",
+      "motorlar": [
+        {
+          "id": "1-2-puretech-82",
+          "ad": "1.2 PureTech 82/83",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-2-puretech-110",
+          "ad": "1.2 PureTech 110",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-5-bluehdi",
+          "ad": "1.5 BlueHDi 100/102",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-6-bluehdi",
+          "ad": "1.6 BlueHDi 75/100",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "puretech-yagli-triger-kayisi",
+          "baslik": "1.2 PureTech yağ içinde çalışan triger kayışının dağılması",
+          "parca": "Triger kayışı, yağ pompası süzgeci, vakum pompası",
+          "belirtiler": "Kayıştan kopan parçalar yağ süzgecini tıkar; yağ basıncı uyarısı, soğuk çalıştırmada ses, fren pedalının sertleşmesi (vakum pompası) ve güç kaybı görülür. İhmal edilirse kayış diş atlayıp motor tamamen hasar görebilir.",
+          "km": "40.000-145.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": "yaklaşık 200.000 TL (2025 şikayeti, kayış dişlerinin kopması sonrası motor değişimi)",
+          "motorlar": [
+            "1-2-puretech-82",
+            "1-2-puretech-110"
+          ],
+          "not": "Citroen Kasım 2020 ve Ağustos 2021'de kayış/süzgeç için geri çağırma yaptı; kayış değişim aralığı 6 yıl / 100.000 km'ye indirildi. Doğru yağ ve zamanında bakım kritik.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-citroen/fiabilite-566-pannes-citroen-c3-iii.php",
+            "https://www.caradisiac.com/maxi-fiche-fiabilite-citroen-c3-une-discrete-a-ne-pas-ecarter-201000.htm",
+            "https://www.sikayetvar.com/citroen/citroen-c3-12-puretech-motor-arizasi-ve-yuksek-masraf-sikayeti",
+            "https://www.whocanfixmycar.com/advice/common-problems-with-the-citroen-c3",
+            "https://www.autopartspro.co.uk/tips-advice/citroen-c3-key-years-to-avoid-for-reliability-and-performance-issues-8275"
+          ]
+        },
+        {
+          "id": "puretech-yag-tuketimi",
+          "baslik": "1.2 PureTech aşırı yağ tüketimi",
+          "parca": "Segmanlar / motor",
+          "belirtiler": "Bakım araları arasında yağ seviyesi belirgin düşer (1.000 km'de yarım litreye varan), yağ ikaz lambası yanar; ileri aşamada motor değişimi gerekebilir.",
+          "km": "70.000-100.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-puretech-82",
+            "1-2-puretech-110"
+          ],
+          "not": "Yağa yakıt karışması da tüketimi artırabilir; yağ analizi önerilir. Kayış sorunuyla bağlantılı olabilir.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-citroen/fiabilite-566-pannes-citroen-c3-iii.php",
+            "https://www.caradisiac.com/maxi-fiche-fiabilite-citroen-c3-une-discrete-a-ne-pas-ecarter-201000.htm",
+            "https://www.autopartspro.co.uk/tips-advice/citroen-c3-key-years-to-avoid-for-reliability-and-performance-issues-8275"
+          ]
+        },
+        {
+          "id": "multimedya-ekran-donmasi",
+          "baslik": "Dokunmatik multimedya ekranının donması ve bağlantı sorunları",
+          "parca": "Multimedya ünitesi / dokunmatik ekran",
+          "belirtiler": "Ekran yavaşlar, donar ya da tamamen kararır; radyo, Bluetooth ve Android Auto bağlantısı kopar. Klima ayarları ekrandan yapıldığı için klima kontrolüne de erişilemeyebilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Bazı durumlarda yazılım güncellemesi çözer, bazılarında ünite değişimi gerekir.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-citroen/fiabilite-566-pannes-citroen-c3-iii.php",
+            "https://www.caradisiac.com/maxi-fiche-fiabilite-citroen-c3-une-discrete-a-ne-pas-ecarter-201000.htm",
+            "https://www.whocanfixmycar.com/advice/common-problems-with-the-citroen-c3",
+            "https://www.sikayetvar.com/citroen/ekran-donmasi-ve-cozumsuz-kalmasi-garanti-sonrasi-magduriyet"
+          ]
+        },
+        {
+          "id": "bluehdi-adblue-deposu",
+          "baslik": "BlueHDi AdBlue deposu / pompası arızası",
+          "parca": "AdBlue deposu, pompası ve enjektörü (SCR sistemi)",
+          "belirtiler": "AdBlue / emisyon arıza uyarısı yanar, belli km sonra motorun çalışmayacağı uyarısı gelir; üre kristalleşmesi pompa ve enjektörü bozar, AdBlue tüketimi anormal artabilir.",
+          "km": "10.000-95.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-bluehdi",
+            "1-6-bluehdi"
+          ],
+          "not": "Stellantis 2022 sonuna kadar üretilen BlueHDi'li araçlarda AdBlue deposu için yaş/km'ye bağlı genişletilmiş garanti katkısı uyguluyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-citroen/fiabilite-566-pannes-citroen-c3-iii.php",
+            "https://www.caradisiac.com/maxi-fiche-fiabilite-citroen-c3-une-discrete-a-ne-pas-ecarter-201000.htm",
+            "https://j2rauto.com/rechange/stellantis-ce-qui-cloche-avec-les-reservoirs-adblue-defaillants"
+          ]
+        },
+        {
+          "id": "1-5-bluehdi-eksantrik-zinciri",
+          "baslik": "1.5 BlueHDi eksantrik zincirinin erken aşınması",
+          "parca": "Eksantrik mili zinciri",
+          "belirtiler": "Motordan ağustos böceğine benzer cırlama/tıkırtı sesi, titreşim ve performans düşüşü; zincir koparsa supaplar hasar görür ve motor stop edebilir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-bluehdi"
+          ],
+          "not": "Ekim 2017-Ocak 2023 arası üretilen araçlar için Stellantis Türkiye geri çağırması (2025): ses testi, gerekirse zincir değişimi, yağ değişimi ve yazılım güncellemesi ücretsiz; 10 yıl / 240.000 km ek garanti.",
+          "kaynaklar": [
+            "https://www.ensonhaber.com/stellantis-turkiyeden-dev-geri-cagirma-50-binden-fazla-dizel-aracta-motor-arizasi-h1463789",
+            "https://www.citroen.co.uk/owners/citroen-1-5-diesel-engine-key-information.html",
+            "https://www.fiches-auto.fr/fiabilite-citroen/fiabilite-566-pannes-citroen-c3-iii.php"
+          ]
+        },
+        {
+          "id": "arka-stop-su-almasi",
+          "baslik": "Arka stop lambalarının buğulanması ve su alması",
+          "parca": "Arka stop lambaları",
+          "belirtiler": "Arka stop camlarının içi buğulanır ya da içinde su birikir; yağmurdan veya yıkamadan sonra belirginleşir.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Sızdırmazlık yetersiz; çözüm genellikle lamba değişimi. Bazı araçlarda Citroen kampanyasıyla değiştirildi.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-citroen/fiabilite-566-pannes-citroen-c3-iii.php",
+            "https://www.caradisiac.com/maxi-fiche-fiabilite-citroen-c3-une-discrete-a-ne-pas-ecarter-201000.htm"
+          ]
+        }
+      ]
+    }
+  ]
+}

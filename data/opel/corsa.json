@@ -5,6 +5,160 @@
   "modelSlug": "corsa",
   "nesiller": [
     {
+      "slug": "corsa-d",
+      "ad": "Corsa (D)",
+      "yillar": [
+        2006,
+        2014
+      ],
+      "not": "1.2 ve 1.4 Twinport benzinli motorlar 2009-2010 sonrası Twinport'suz yeni kuşak (A12XER/A14XER) ile değişti; bazı versiyonlarda Easytronic robotize şanzıman bulunur.",
+      "motorlar": [
+        {
+          "id": "1-2-twinport",
+          "ad": "1.2 Twinport",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-4-twinport",
+          "ad": "1.4 Twinport",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-3-cdti",
+          "ad": "1.3 CDTI",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "triger-zinciri-uzamasi",
+          "baslik": "Triger zinciri uzaması ve gergi arızası",
+          "parca": "Triger zinciri ve zincir gergisi",
+          "belirtiler": "Özellikle soğuk ilk çalıştırmada motorun önünden metalik takırtı/şakırtı gelir; ilerledikçe düzensiz çalışma ve güç kaybı görülür. İhmal edilirse zincir atlayıp supap ve pistonlara zarar verebilir.",
+          "km": "80.000-100.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-twinport",
+            "1-4-twinport"
+          ],
+          "not": "Tek sıra zincir; düşük yağ seviyesi ve uzun yağ değişim aralıkları uzamayı hızlandırır. 1.3 CDTI'de de zincir arızaları raporlanıyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-opel/fiabilite-126-pannes-opel-corsa-4.php",
+            "https://www.autodoc.co.uk/info/problems-with-the-opel-corsa-d",
+            "https://www.autopartspro.co.uk/tips-advice/problems-with-the-opel-corsa-d-4171",
+            "https://mymotorlist.com/engines/opel/z12xep/",
+            "https://mymotorlist.com/engines/opel/z14xep/"
+          ]
+        },
+        {
+          "id": "easytronic-aktuator-arizasi",
+          "baslik": "Easytronic şanzıman aktüatör/debriyaj arızası",
+          "parca": "Easytronic debriyaj-vites aktüatörü ve kontrol ünitesi",
+          "belirtiler": "Göstergede 'F' harfi yanar, vites seçilemez ya da araç çalışmaz. Kalkışta sarsıntı, sert vites geçişleri ve yokuşta geri kayma da sık görülür; debriyaj öğrenme ayarı zamanla bozulur.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": "Easytronic robotize manuel",
+          "not": "Önce akü kontrol edilmeli; zayıf akü de 'F' uyarısına yol açabiliyor. Aktüatör araca kodlu olduğundan çıkma parça doğrudan takılamıyor.",
+          "kaynaklar": [
+            "https://www.ecutesting.com/common-faults/vauxhall/corsa-12-easytronic-clutchgearbox-actuator/",
+            "https://forum.donanimhaber.com/opel-corsa-2006-1-3-silverline-otomatik--141510266",
+            "https://www.arabam.com/blog/?p=84643"
+          ]
+        },
+        {
+          "id": "elektrikli-direksiyon-kolonu",
+          "baslik": "Elektrikli direksiyon (EPS) kolonu arızası",
+          "parca": "Elektrikli direksiyon kolonu / tork sensörü",
+          "belirtiler": "Direksiyon aniden ya da zaman zaman ağırlaşır, EPS uyarı lambası yanar; direksiyon titreyebilir, bir tarafa çekebilir veya anlık takılmalar olur.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Tork sensörünün mekanik parçalarındaki aşınma yaygın sebep; kolon genellikle revizyonla onarılıyor.",
+          "kaynaklar": [
+            "https://ecutesting.com/common-faults/vauxhall/corsa-d-electric-power-steering-column",
+            "https://www.autopartspro.co.uk/tips-advice/problems-with-the-opel-corsa-d-4171",
+            "https://www.opelim.net/goto/post?id=2683915"
+          ]
+        },
+        {
+          "id": "cdti-egr-enjektor",
+          "baslik": "1.3 CDTI'de EGR valfi tıkanması ve enjektör arızaları",
+          "parca": "EGR valfi ve dizel enjektörler",
+          "belirtiler": "Rölanti dalgalanır, çekiş düşer, motor ilk çalıştırmanın hemen ardından stop edebilir; enjektör arızasında zor çalışma, tekleme ve arıza lambası görülür.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-3-cdti"
+          ],
+          "not": "fiches-auto'da 1.3 CDTI 75 hp için en çok bildirilen iki arıza enjeksiyon ve EGR. Enjektör kısmı tek kaynaklı.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-opel/fiabilite-126-pannes-opel-corsa-4.php",
+            "https://mymotorlist.com/engines/opel/z13dth/",
+            "https://mymotorlist.com/engines/opel/z13dtj/"
+          ]
+        },
+        {
+          "id": "termostat-sogutma-kacagi",
+          "baslik": "Termostat gövdesi ve soğutma sistemi kaçakları",
+          "parca": "Termostat gövdesi, su pompası",
+          "belirtiler": "Antifriz seviyesi azalır, araç altında soğutma sıvısı izi olur; hararet göstergesi yükselir, ileri durumda motor bölmesinden buhar çıkar.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Yüksek kilometreli araçlarda daha sık. Düşük soğutma sıvısı seviyesi silindir kapağı/conta hasarına yol açabilir.",
+          "kaynaklar": [
+            "https://www.autopartspro.co.uk/tips-advice/problems-with-the-opel-corsa-d-4171",
+            "https://www.fiches-auto.fr/fiabilite-opel/fiabilite-126-pannes-opel-corsa-4.php",
+            "https://mymotorlist.com/engines/opel/z13dth/",
+            "https://mymotorlist.com/engines/opel/z12xep/"
+          ]
+        },
+        {
+          "id": "atesleme-bobini",
+          "baslik": "Ateşleme bobini arızası",
+          "parca": "Ateşleme bobini ve bujiler",
+          "belirtiler": "Tekleme, sarsıntılı rölanti, güç kaybı, soğukta zor çalışma ve motor arıza lambası.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-twinport",
+            "1-4-twinport"
+          ],
+          "not": "Uzun süre ihmal edilen teklemeler katalitik konvertöre zarar verebilir.",
+          "kaynaklar": [
+            "https://www.autopartspro.co.uk/tips-advice/problems-with-the-opel-corsa-d-4171",
+            "https://www.fiches-auto.fr/fiabilite-opel/fiabilite-126-pannes-opel-corsa-4.php"
+          ]
+        },
+        {
+          "id": "benzinli-yag-kacagi",
+          "baslik": "Yağ kaçağı ve yağ eksiltme",
+          "parca": "Yağ basınç müşiri, külbütör kapağı contası",
+          "belirtiler": "Motor altında ve üstünde yağ izi, yağ seviyesinin bakımlar arasında düşmesi.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-twinport",
+            "1-4-twinport"
+          ],
+          "not": "Kaçak çoğunlukla yağ basınç müşirinden veya külbütör kapağından. Düşük yağ seviyesi triger zinciri ömrünü de kısaltır.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-opel/fiabilite-126-pannes-opel-corsa-4.php",
+            "https://mymotorlist.com/engines/opel/z12xep/",
+            "https://mymotorlist.com/engines/opel/z14xep/"
+          ]
+        }
+      ]
+    },
+    {
       "slug": "corsa-f",
       "ad": "Corsa F",
       "yillar": [

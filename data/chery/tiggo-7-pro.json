@@ -1,0 +1,151 @@
+{
+  "marka": "Chery",
+  "markaSlug": "chery",
+  "model": "Tiggo 7 Pro",
+  "modelSlug": "tiggo-7-pro",
+  "nesiller": [
+    {
+      "slug": "tiggo-7-pro",
+      "ad": "Tiggo 7 Pro",
+      "yillar": [
+        2023,
+        2026
+      ],
+      "not": "Türkiye'de 1.6 TGDI (183 PS) benzinli motor ve 7 ileri ıslak kavramalı DCT ile satıldı. Super Hybrid/e+ sürümleri için yeterli kaynak bulunamadığından dahil edilmedi.",
+      "motorlar": [
+        {
+          "id": "1-6-tgdi",
+          "ad": "1.6 TGDI",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "triger-zinciri-sesi",
+          "baslik": "Triger zinciri sesi ve zincir arızası",
+          "parca": "Triger zinciri / gergi ve kızak seti",
+          "belirtiler": "Özellikle periyodik bakımlardan sonra motordan tıkırtı veya itici sesine benzeyen metalik bir ses gelmeye başlıyor; servisler çoğu zaman sesi normal sayıyor. Bazı araçlarda zincir seti değiştiriliyor, birkaç vakada zincir kopup motor hasar görüyor.",
+          "km": "15.000-45.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-tgdi"
+          ],
+          "not": "Aynı 1.6 TGDI motoru kullanan Tiggo 8 Pro'da da çok sayıda benzer şikayet var. Garanti içinde genellikle zincir seti değiştiriliyor ancak parça beklemesi uzun sürebiliyor. LPG takılı araçlar garanti dışı tutulabiliyor.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/chery/chery-tiggo-7-pro-itici-zincir-sesi-video",
+            "https://www.sikayetvar.com/chery/sifir-km-aracim-surekli-sanziman-ve-motor-arizalariyla-yolda-birakildi",
+            "https://www.sikayetvar.com/chery/chery-tiggo-7-proda-zincir-sesi-sorunu-ve-lpg-nedeniyle-garanti-disi-tutulmasi",
+            "https://www.sikayetvar.com/chery/motor-zinciri-stok-sorunu-ve-ikame-arac-eksikligi-nedeniyle-siddetli-magduriyet",
+            "https://www.sikayetvar.com/chery/garanti-disi-triger-zinciri-onarim-ucreti-ve-ikame-arac-saglanmamasi"
+          ]
+        },
+        {
+          "id": "dct-vurma-ve-sanziman-arizasi",
+          "baslik": "DCT şanzımanda vuruntu, kararsız geçiş ve sensör arızası",
+          "parca": "7 ileri DCT şanzıman (basınç sensörü / şanzıman elektroniği)",
+          "belirtiler": "Kalkışta ve düşük hızda vuruntu, gecikmeli ya da tamamlanamayan vites geçişleri ve gaz tepkisinde duraksama hissediliyor. Bazı araçlarda gösterge panelinde şanzıman arızası uyarısı çıkıyor ve araç yolda kalabiliyor. Servislerde basınç sensörü gibi parçalar değiştiriliyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-tgdi"
+          ],
+          "sanziman": "7 ileri DCT otomatik",
+          "not": "Parçalar yurt dışından geldiği için onarım haftalarca sürebiliyor.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/chery/sifir-km-aracim-surekli-sanziman-ve-motor-arizalariyla-yolda-birakildi",
+            "https://www.sikayetvar.com/chery/chery-tiggo-7-pro-bitmeyen-sorunlar-ve-yuksek-yakit-tuketimi",
+            "https://www.citizen.co.za/motoring/chery-tiggo-7-pro-max-long-term-wrap"
+          ]
+        },
+        {
+          "id": "start-stop-tekrar-calismama",
+          "baslik": "Start-stop sonrası motorun yeniden çalışmaması",
+          "parca": "Start-stop sistemi / motor yönetim yazılımı",
+          "belirtiler": "Trafikte ya da ışıklarda start-stop motoru durdurduktan sonra motor yeniden çalışmıyor veya birkaç denemede çalışıyor. Gaza basıldığında araç geç tepki verip ileri fırlayabiliyor. Kullanıcıların çoğu sistemi sürekli kapalı kullanıyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-tgdi"
+          ],
+          "not": "Bayilerin önerdiği çözüm genellikle yazılım güncellemesi.",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/chery-tiggo-7-pro-kullanicilari--157662747-7",
+            "https://forum.donanimhaber.com/chery-tiggo-7-pro-kullanicilari--157662747-9",
+            "https://www.sikayetvar.com/chery/chery-tiggo-7-pro-bitmeyen-sorunlar-ve-yuksek-yakit-tuketimi"
+          ]
+        },
+        {
+          "id": "multimedya-ekran-donmasi",
+          "baslik": "Multimedya ekranı donması ve yeniden başlaması",
+          "parca": "Multimedya ünitesi / dijital gösterge modülü",
+          "belirtiler": "Orta ekran sık sık donuyor, kararıyor ya da kendi kendine yeniden başlıyor. İlk çalıştırmada ekranın açılması uzun sürüyor. Bluetooth ve CarPlay bağlantısı kopuyor veya hiç kurulamıyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Yazılım güncellemesi bazı araçlarda yetiyor; kalıcı vakalarda multimedya modülü garanti kapsamında değiştiriliyor.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/chery/chery-tiggo-7-pro-bitmeyen-sorunlar-ve-yuksek-yakit-tuketimi",
+            "https://www.sikayetvar.com/chery/chery-tiggo-7-pro-ile-bitmeyen-sorunlar-ve-magduriyet",
+            "https://forum.donanimhaber.com/chery-tiggo-7-pro-kullanicilari--157662747-16",
+            "https://forum.donanimhaber.com/chery-tiggo-7-pro-kullanicilari--157662747-17",
+            "https://forum.donanimhaber.com/chery-tiggo-7-pro-kullanicilari--157662747-18",
+            "https://www.zr.ru/content/articles/971154-chery-tiggo-7-pro-neispravnosti/"
+          ]
+        },
+        {
+          "id": "surus-destek-kamera-arizalari",
+          "baslik": "Sürüş destek sistemleri ve kameraların tutarsız çalışması",
+          "parca": "Kör nokta sensörü, çevre kameraları, ADAS yazılımı",
+          "belirtiler": "Kör nokta uyarısı ya da çarpışma önleme devreye girmeyebiliyor, park kameraları yeniden çalıştırmadan sonra açılmıyor. Ters yönde ise sürücü dikkat uyarısı gereksiz yere ötüyor, adaptif hız sabitleyici kararsız davranıyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Sensör değişiminden sonra yazılım yüklemesi gerektiği için parça ve yazılım beklemesi yaşanabiliyor.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/chery/tiggo-7-pro-yazilim-sorunlariyla-mucadele",
+            "https://www.sikayetvar.com/chery/chery-tiggo-7-pro-ile-bitmeyen-sorunlar-ve-magduriyet",
+            "https://www.sikayetvar.com/chery/cherry-tiggo-7-pro-aracta-garanti-kapsamindaki-sensor-arizasi-icin-parca-temini-ve-tamir-bekleniyor",
+            "https://forum.donanimhaber.com/chery-tiggo-7-pro-kullanicilari--157662747-16",
+            "https://www.citizen.co.za/motoring/chery-tiggo-7-pro-max-long-term-wrap"
+          ]
+        },
+        {
+          "id": "sunroof-trim-tikirtisi",
+          "baslik": "Panoramik cam tavan ve iç trim tıkırtısı",
+          "parca": "Panoramik cam tavan çerçevesi ve contaları, torpido trimleri",
+          "belirtiler": "Bozuk yollarda cam tavan bölgesinden tıkırtı ve gıcırtı geliyor; ön konsol ve torpido trimlerinden de ses gelebiliyor. Servisin temizlik ve silikonlu uygulaması birkaç ay sonra etkisini yitiriyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/chery-tiggo-7-pro-kullanicilari--157662747-13",
+            "https://forum.donanimhaber.com/chery-tiggo-7-pro-kullanicilari--157662747-16",
+            "https://forum.donanimhaber.com/chery-tiggo-7-pro-kullanicilari--157662747-17",
+            "https://forum.donanimhaber.com/chery-kullanicilar-klubu--154806437-35",
+            "https://www.citizen.co.za/motoring/chery-tiggo-7-pro-max-long-term-wrap"
+          ]
+        },
+        {
+          "id": "aks-titresim-direksiyon",
+          "baslik": "Aks kaynaklı titreşim ve direksiyon sorunları",
+          "parca": "Ön aks / direksiyon motoru",
+          "belirtiler": "Düşük kilometrede sürüş sırasında belirgin titreşim, direksiyonda boşluk ve aracın sağa çekmesi görülüyor. Servis aks ya da direksiyon kolonu ve motoru değiştirebiliyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/chery/chery-tiggo-7-pro-aracimda-sorunlar-bitmiyor",
+            "https://forum.donanimhaber.com/chery-tiggo-7-pro-kullanicilari--157662747-15"
+          ]
+        }
+      ]
+    }
+  ]
+}

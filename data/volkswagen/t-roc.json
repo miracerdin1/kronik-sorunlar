@@ -1,0 +1,133 @@
+{
+  "marka": "Volkswagen",
+  "markaSlug": "volkswagen",
+  "model": "T-Roc",
+  "modelSlug": "t-roc",
+  "nesiller": [
+    {
+      "slug": "t-roc-1",
+      "ad": "T-Roc (1. nesil)",
+      "yillar": [
+        2019,
+        2025
+      ],
+      "not": "Türkiye'de 2019'dan itibaren ağırlıklı olarak 1.5 TSI ACT 150 PS + 7 ileri DSG ile satıldı; 2022 makyajında da tek motor seçeneği buydu.",
+      "motorlar": [
+        {
+          "id": "1-5-tsi-act",
+          "ad": "1.5 TSI ACT (evo)",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "1-5-tsi-soguk-kalkis-titreme",
+          "baslik": "Soğukta kalkışta tekleme ve sarsıntı (kangurulama)",
+          "parca": "Motor yazılımı (1.5 TSI evo)",
+          "belirtiler": "Motor soğukken birinci ve ikinci viteste düşük devirde kalkışta araç tekler, ileri geri sarsılır; bazen stop etme eğilimi görülür. Motor ısınınca belirgin şekilde azalır.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-tsi-act"
+          ],
+          "not": "Volkswagen motor yazılımı güncellemesi yayınladı; güncellemeden sonra da memnun kalmayan kullanıcılar var.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-605-pannes-volkswagen-t-roc.php",
+            "https://carwiki.de/vw-t-roc-probleme",
+            "https://gebrauchtwagenberater.de/vw-t-roc-probleme-schwachstellen/",
+            "https://www.autocar.co.uk/car-review/volkswagen/t-roc-2017-2025",
+            "https://www.rac.co.uk/drive/car-reviews/volkswagen/t-roc/t-roc-2017-2021/"
+          ]
+        },
+        {
+          "id": "dsg-dq200-sarsinti-kavrama",
+          "baslik": "DSG şanzımanda vuruntu, kalkışta sarsıntı ve kavrama aşınması",
+          "parca": "7 ileri DSG (DQ200 kuru kavrama) / mekatronik",
+          "belirtiler": "Kalkışta, park manevrasında ve dur-kalk trafikte silkeleme, vites geçişlerinde gecikme ve kayma hissi. İlerleyen aşamada kavrama balatası yanması veya mekatronik arızası görülebilir.",
+          "km": "30.000-50.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": "7 ileri DSG (DQ200, kuru kavrama)",
+          "not": "Yoğun şehir içi kullanımda kuru kavrama daha hızlı aşınır; kavrama adaptasyonu ve yazılım güncellemesi bazı vakalarda yardımcı olur.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-605-pannes-volkswagen-t-roc.php",
+            "https://carwiki.de/vw-t-roc-probleme",
+            "https://gebrauchtwagenberater.de/vw-t-roc-probleme-schwachstellen/",
+            "https://www.autocar.co.uk/car-review/volkswagen/t-roc-2017-2025",
+            "https://www.whocanfixmycar.com/advice/how-reliable-is-the-volkswagen-t-roc-compare-common-faults"
+          ]
+        },
+        {
+          "id": "elektrikli-park-freni",
+          "baslik": "Elektrikli park freninin kendiliğinden bırakması veya takılması",
+          "parca": "Elektromekanik park freni / ESP yazılımı",
+          "belirtiler": "Park freni beklenmedik anda bırakabilir ve araç yokuşta kayabilir; bazı araçlarda da fren geç bırakır ya da takılı kalır. Auto Hold fonksiyonunda tutarsızlık görülür.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "2018 ortasına kadar üretilen araçlar için ESP yazılımı güncellemesiyle geri çağırma yapıldı.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-605-pannes-volkswagen-t-roc.php",
+            "https://www.autoexpress.co.uk/volkswagen/t-roc/356215/used-volkswagen-t-roc-mk1-2017-2025-review",
+            "https://www.rac.co.uk/drive/car-reviews/volkswagen/t-roc/t-roc-2017-2021/",
+            "https://www.autocar.co.uk/car-review/volkswagen/t-roc-2017-2025",
+            "https://gebrauchtwagenberater.de/vw-t-roc-probleme-schwachstellen/"
+          ]
+        },
+        {
+          "id": "kabine-su-sizmasi",
+          "baslik": "Kabine ve bagaja su sızması",
+          "parca": "Kapı/tavan contaları, panoramik tavan tahliye kanalları",
+          "belirtiler": "Bagaj, stepne yuvası veya ayak boşluğunda su birikmesi; tavan döşemesinden ya da iç dikiz aynası çevresinden su damlaması, kabinde rutubet kokusu.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.autocar.co.uk/car-review/volkswagen/t-roc-2017-2025",
+            "https://gebrauchtwagenberater.de/vw-t-roc-probleme-schwachstellen/",
+            "https://carwiki.de/vw-t-roc-probleme",
+            "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-605-pannes-volkswagen-t-roc.php"
+          ]
+        },
+        {
+          "id": "multimedya-surus-asistani-arizalari",
+          "baslik": "Multimedya ve sürüş asistanı yazılım arızaları",
+          "parca": "Multimedya ekranı, adaptif hız sabitleyici ve şerit takip radar/kamerası",
+          "belirtiler": "Ekranın donması veya kapanması, CarPlay ve navigasyon hataları; yağmurda adaptif hız sabitleyicinin devreden çıkması, şerit asistanının aracı bir yana çekmesi veya gereksiz acil fren uyarıları.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Çoğu durumda yazılım güncellemesi veya sıfırlama ile giderilir.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-605-pannes-volkswagen-t-roc.php",
+            "https://www.whocanfixmycar.com/advice/how-reliable-is-the-volkswagen-t-roc-compare-common-faults",
+            "https://carwiki.de/vw-t-roc-probleme",
+            "https://gebrauchtwagenberater.de/vw-t-roc-probleme-schwachstellen/",
+            "https://www.whatcar.com/news/volkswagen-t-roc-long-term-test-review/n17779"
+          ]
+        },
+        {
+          "id": "motor-kapagi-yangin-riski",
+          "baslik": "Motor kapağının gevşeyip sıcak parçalara temas etmesi (geri çağırma)",
+          "parca": "Motor bölmesi kapağı",
+          "belirtiler": "Kapak yerinden gevşeyerek sıcak motor parçalarına değebilir ve eriyebilir; en kötü durumda yangın riski oluşur.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Kasım 2020 - Mart 2022 arası üretilen araçlar için 2022'de geri çağırma yapıldı.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-605-pannes-volkswagen-t-roc.php",
+            "https://gebrauchtwagenberater.de/vw-t-roc-probleme-schwachstellen/",
+            "https://www.whocanfixmycar.com/advice/how-reliable-is-the-volkswagen-t-roc-compare-common-faults"
+          ]
+        }
+      ]
+    }
+  ]
+}
