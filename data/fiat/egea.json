@@ -1,0 +1,121 @@
+{
+  "marka": "Fiat",
+  "markaSlug": "fiat",
+  "model": "Egea",
+  "modelSlug": "egea",
+  "nesiller": [
+    {
+      "slug": "356",
+      "ad": "Egea (356)",
+      "yillar": [
+        2015,
+        2026
+      ],
+      "motorlar": [
+        {
+          "id": "1-3-multijet",
+          "ad": "1.3 Multijet",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "egr-kurumlanmasi",
+          "baslik": "EGR kurumlanması",
+          "parca": "EGR",
+          "belirtiler": "Çekiş düşüklüğü, düzensiz rölanti, arıza lambası",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-3-multijet"
+          ],
+          "guven": "yuksek",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/fiat-egea-1.3-multijet-kronik-sorunlari",
+            "https://www.arabalar.com.tr/test/fiat-egeanin-kronik-sorunlari-abartiliyor-mu"
+          ]
+        },
+        {
+          "id": "dpf-tikanmasi",
+          "baslik": "DPF tıkanması",
+          "parca": "Partikül filtresi",
+          "belirtiler": "Fanın sık çalışması, artan tüketim, arıza uyarısı",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-3-multijet"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/fiat-egea-1.3-multijet-kronik-sorunlari"
+          ]
+        },
+        {
+          "id": "turbo-hortumu-kacagi",
+          "baslik": "Turbo hortumu kaçağı",
+          "parca": "Turbo hortumları",
+          "belirtiler": "Ani güç kaybı, ıslık/hava kaçırma sesi",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-3-multijet"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/fiat-egea-1.3-multijet-kronik-sorunlari"
+          ]
+        },
+        {
+          "id": "erken-debriyaj-asinmasi",
+          "baslik": "Erken debriyaj aşınması",
+          "parca": "Debriyaj seti",
+          "belirtiler": "Kalkışta titreme, kavrama noktasının yükselmesi",
+          "km": "90.000-120.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-3-multijet"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/fiat-egea-1.3-multijet-kronik-sorunlari"
+          ]
+        },
+        {
+          "id": "1-ve-2-viteste-sertlik",
+          "baslik": "1. ve 2. viteste sertlik",
+          "parca": "Vites teli / şanzıman",
+          "belirtiler": "Özellikle soğukta vites sertliği, takılma",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-3-multijet"
+          ],
+          "guven": "yuksek",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/fiat-egea-1.3-multijet-kronik-sorunlari",
+            "https://www.arabalar.com.tr/test/fiat-egeanin-kronik-sorunlari-abartiliyor-mu"
+          ]
+        },
+        {
+          "id": "suspansiyon-takirtisi",
+          "baslik": "Süspansiyon takırtısı",
+          "parca": "Amortisör / salıncak burçları",
+          "belirtiler": "Bozuk yolda önden veya arkadan takırtı",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.arabalar.com.tr/test/fiat-egeanin-kronik-sorunlari-abartiliyor-mu"
+          ]
+        }
+      ]
+    }
+  ]
+}

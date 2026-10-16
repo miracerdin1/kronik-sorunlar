@@ -1,0 +1,75 @@
+{
+  "marka": "Toyota",
+  "markaSlug": "toyota",
+  "model": "Corolla",
+  "modelSlug": "corolla",
+  "nesiller": [
+    {
+      "slug": "e180",
+      "ad": "Corolla E180 (11. nesil)",
+      "yillar": [
+        2013,
+        2018
+      ],
+      "motorlar": [
+        {
+          "id": "1-4-d-4d",
+          "ad": "1.4 D-4D",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "multimode-mmt-sanziman-sarsintisi",
+          "baslik": "MultiMode (MMT) şanzıman sarsıntısı",
+          "parca": "Robotize şanzıman / debriyaj",
+          "belirtiler": "Rampada geri kayma, sarsıntılı geçiş, erken debriyaj aşınması",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": "7.000-18.000 (debriyaj seti)",
+          "motorlar": [
+            "1-4-d-4d"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/toyota-corolla-1.4-d-4d-ikinci-el-alim-rehberi-sorunlar-yakit-tuketimi-ve-bakim-maliyetleri-2026"
+          ],
+          "sanziman": "MultiMode otomatik"
+        },
+        {
+          "id": "enjektor-ve-dpf-sorunlari",
+          "baslik": "Enjektör ve DPF sorunları",
+          "parca": "Enjektörler / DPF",
+          "belirtiler": "Düzensiz rölanti, zor çalışma, kısa mesafe kullanımda DPF uyarısı",
+          "km": "yüksek km",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-4-d-4d"
+          ],
+          "guven": "yuksek",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/toyota-corolla-1.4-d-4d-ikinci-el-alim-rehberi-sorunlar-yakit-tuketimi-ve-bakim-maliyetleri-2026",
+            "https://www.webtekno.com/toyota-corolla-nin-en-sorunsuz-motoru-hangisi-h217608.html"
+          ]
+        },
+        {
+          "id": "turbo-arizasi",
+          "baslik": "Turbo arızası",
+          "parca": "Turbo",
+          "belirtiler": "Hızlanmada güç kaybı, anormal ses, siyah duman",
+          "km": "100.000-150.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-4-d-4d"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/toyota-corolla-1.4-d-4d-ikinci-el-alim-rehberi-sorunlar-yakit-tuketimi-ve-bakim-maliyetleri-2026"
+          ]
+        }
+      ]
+    }
+  ]
+}

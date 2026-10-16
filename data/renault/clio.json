@@ -1,0 +1,100 @@
+{
+  "marka": "Renault",
+  "markaSlug": "renault",
+  "model": "Clio",
+  "modelSlug": "clio",
+  "nesiller": [
+    {
+      "slug": "clio-4",
+      "ad": "Clio 4",
+      "yillar": [
+        2012,
+        2019
+      ],
+      "motorlar": [
+        {
+          "id": "1-5-dci",
+          "ad": "1.5 dCi (K9K)",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "edc-sanzimanda-sarsinti-ve-tutukluk",
+          "baslik": "EDC şanzımanda sarsıntı ve tutukluk",
+          "parca": "EDC çift kavramalı şanzıman",
+          "belirtiler": "Düşük hızda sarsıntı, vites geçişinde gecikme",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/renault-clio-1.5-dci-incelemesi-kronik-sorunlar-yakit-tuketimi-ve-yorumlar"
+          ],
+          "sanziman": "EDC otomatik"
+        },
+        {
+          "id": "enjektor-arizasi",
+          "baslik": "Enjektör arızası",
+          "parca": "Enjektörler",
+          "belirtiler": "Rölantide tekleme, güç kaybı, artan tüketim",
+          "km": "yüksek km",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/renault-clio-1.5-dci-incelemesi-kronik-sorunlar-yakit-tuketimi-ve-yorumlar"
+          ]
+        },
+        {
+          "id": "ic-trim-tikirtilari",
+          "baslik": "İç trim tıkırtıları",
+          "parca": "Kabin kaplamaları",
+          "belirtiler": "Bozuk yol ve parke taşında içeriden tıkırtı",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "guven": "yuksek",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/clio-4-kullanan-var-mi-kronik-sorunlari--144475304"
+          ]
+        },
+        {
+          "id": "erken-fren-balatasi-asinmasi-ve-otmesi",
+          "baslik": "Erken fren balatası aşınması ve ötmesi",
+          "parca": "Fren balataları",
+          "belirtiler": "Balata ötmesi, ~20.000 km'de aşınma",
+          "km": "~20.000",
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "guven": "orta",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/clio-4-kullanan-var-mi-kronik-sorunlari--144475304"
+          ]
+        },
+        {
+          "id": "r-link-multimedya-donmasi",
+          "baslik": "R-Link multimedya donması",
+          "parca": "Multimedya",
+          "belirtiler": "Ekran donması, kendiliğinden yeniden başlama; yazılım güncellemesiyle çözülebiliyor",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/renault-clio-1.5-dci-incelemesi-kronik-sorunlar-yakit-tuketimi-ve-yorumlar"
+          ]
+        }
+      ]
+    }
+  ]
+}

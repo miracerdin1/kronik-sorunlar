@@ -1,0 +1,111 @@
+{
+  "marka": "Ford",
+  "markaSlug": "ford",
+  "model": "Focus",
+  "modelSlug": "focus",
+  "nesiller": [
+    {
+      "slug": "mk3",
+      "ad": "Focus Mk3 (3. nesil)",
+      "yillar": [
+        2011,
+        2018
+      ],
+      "motorlar": [
+        {
+          "id": "1-6-tdci",
+          "ad": "1.6 TDCi",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "turbonun-yagsiz-kalmasi",
+          "baslik": "Turbonun yağsız kalması",
+          "parca": "Turbo",
+          "belirtiler": "Çekiş kaybı, turbodan ıslık, mavi/siyah duman, P0299 kodu",
+          "km": "~150.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-tdci"
+          ],
+          "guven": "yuksek",
+          "kaynaklar": [
+            "https://www.carchecker.pro/reports/ford_focus_mk3_1.6_tdci.html",
+            "https://www.araclo.com/blog/ford-focus-1.6-tdci-kronik-sorunlari-ve-ikinci-el-alim-rehberi-2026"
+          ],
+          "not": "Enjektör sızdırmazlık kurumu turbo yağ besleme süzgecini tıkıyor; turbo değişiminde yağ hattı ve süzgeç de değişmeli."
+        },
+        {
+          "id": "enjektor-kecesi-kacagi-ve-enjektor-arizasi",
+          "baslik": "Enjektör keçesi kaçağı ve enjektör arızası",
+          "parca": "Enjektörler",
+          "belirtiler": "Kabinde mazot kokusu, tekleme, yokuşta güç kaybı, duman",
+          "km": "~120.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-tdci"
+          ],
+          "guven": "yuksek",
+          "kaynaklar": [
+            "https://www.carchecker.pro/reports/ford_focus_mk3_1.6_tdci.html",
+            "https://www.araclo.com/blog/ford-focus-1.6-tdci-kronik-sorunlari-ve-ikinci-el-alim-rehberi-2026"
+          ]
+        },
+        {
+          "id": "dpf-tikanmasi",
+          "baslik": "DPF tıkanması",
+          "parca": "Partikül filtresi",
+          "belirtiler": "Arıza lambası, güç kaybı, artan tüketim; kısa şehir içi kullanımda",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-tdci"
+          ],
+          "guven": "yuksek",
+          "kaynaklar": [
+            "https://www.carchecker.pro/reports/ford_focus_mk3_1.6_tdci.html",
+            "https://www.araclo.com/blog/ford-focus-1.6-tdci-kronik-sorunlari-ve-ikinci-el-alim-rehberi-2026"
+          ]
+        },
+        {
+          "id": "cift-kutleli-volan-ve-debriyaj",
+          "baslik": "Çift kütleli volan ve debriyaj",
+          "parca": "Volan / debriyaj",
+          "belirtiler": "Rölantide tıkırtı, kalkışta titreşim, zor vites",
+          "km": "120.000-180.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-tdci"
+          ],
+          "guven": "yuksek",
+          "kaynaklar": [
+            "https://www.carchecker.pro/reports/ford_focus_mk3_1.6_tdci.html",
+            "https://www.araclo.com/blog/ford-focus-1.6-tdci-kronik-sorunlari-ve-ikinci-el-alim-rehberi-2026"
+          ]
+        },
+        {
+          "id": "egr-valfi-kurumlanmasi",
+          "baslik": "EGR valfi kurumlanması",
+          "parca": "EGR",
+          "belirtiler": "Düzensiz rölanti, hızlanmada tutukluk, duman",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-tdci"
+          ],
+          "guven": "yuksek",
+          "kaynaklar": [
+            "https://www.carchecker.pro/reports/ford_focus_mk3_1.6_tdci.html",
+            "https://www.araclo.com/blog/ford-focus-1.6-tdci-kronik-sorunlari-ve-ikinci-el-alim-rehberi-2026"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "marka": "Volkswagen",
+  "markaSlug": "volkswagen",
+  "model": "Golf",
+  "modelSlug": "golf",
+  "nesiller": [
+    {
+      "slug": "golf-7",
+      "ad": "Golf 7 (Mk7)",
+      "yillar": [
+        2013,
+        2020
+      ],
+      "motorlar": [
+        {
+          "id": "1-6-tdi",
+          "ad": "1.6 TDI",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dsg-dq200-sarsintisi-ve-mekatronik-arizasi",
+          "baslik": "DSG (DQ200) sarsıntısı ve mekatronik arızası",
+          "parca": "7 ileri kuru kavramalı DSG",
+          "belirtiler": "Dur-kalk trafikte sarsıntı, geç tepki, şanzıman uyarısı",
+          "km": "60.000-100.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-tdi"
+          ],
+          "guven": "yuksek",
+          "kaynaklar": [
+            "https://www.autodoc.co.uk/info/vw-golf-mk7-common-problems-faults-malfunctions-and-reliability",
+            "https://www.araclo.com/blog/volkswagen-golf-1.6-tdi-alinir-mi-kronik-sorunlar-ve-kullanici-yorumlari-2026"
+          ],
+          "sanziman": "DSG otomatik"
+        },
+        {
+          "id": "egr-ve-dpf-tikanmasi",
+          "baslik": "EGR ve DPF tıkanması",
+          "parca": "EGR / DPF",
+          "belirtiler": "Arıza lambası, çekiş kaybı, artan tüketim",
+          "km": "~70.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-tdi"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/volkswagen-golf-1.6-tdi-alinir-mi-kronik-sorunlar-ve-kullanici-yorumlari-2026"
+          ]
+        },
+        {
+          "id": "kalorifer-ve-fan-motoru-arizasi",
+          "baslik": "Kalorifer ve fan motoru arızası",
+          "parca": "Isıtma / fan motoru",
+          "belirtiler": "Kalorifer soğuk üflüyor, fan çalışmıyor",
+          "km": "40.000-80.000",
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-tdi"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.autodoc.co.uk/info/vw-golf-mk7-common-problems-faults-malfunctions-and-reliability"
+          ]
+        },
+        {
+          "id": "yag-basinc-musiri-arizasi",
+          "baslik": "Yağ basınç müşiri arızası",
+          "parca": "Yağ basınç müşiri",
+          "belirtiler": "Motor uyarı lambası; ihmal edilirse motor hasarı",
+          "km": "80.000-120.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-tdi"
+          ],
+          "guven": "orta",
+          "kaynaklar": [
+            "https://www.autodoc.co.uk/info/vw-golf-mk7-common-problems-faults-malfunctions-and-reliability"
+          ]
+        }
+      ]
+    }
+  ]
+}
