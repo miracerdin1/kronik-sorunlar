@@ -1,0 +1,87 @@
+{
+  "marka": "Fiat",
+  "markaSlug": "fiat",
+  "model": "Linea",
+  "modelSlug": "linea",
+  "nesiller": [
+    {
+      "slug": "linea",
+      "ad": "Linea",
+      "yillar": [
+        2007,
+        2016
+      ],
+      "motorlar": [
+        {
+          "id": "1-3-multijet",
+          "ad": "1.3 Multijet",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "turbo",
+          "baslik": "Turbo arızası ve turbo ıslığı",
+          "parca": "Turbo",
+          "belirtiler": "Devir arttıkça ıslık, basınç düşüşü, çekiş kaybı, arıza lambası",
+          "km": "100.000 sonrası",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-3-multijet"
+          ],
+          "kaynaklar": [
+            "https://www.arabam.com/blog/?p=168996",
+            "https://www.araclo.com/blog/fiat-linea-1.3-multijet-ikinci-el-alim-rehberi-sorunlar-kontroller-ve-bakim-onerileri-2026"
+          ]
+        },
+        {
+          "id": "yag-sogutucusu",
+          "baslik": "Yağ soğutucusunun delinmesi",
+          "parca": "Yağ soğutucusu",
+          "belirtiler": "Yağın antifrize karışması; soğutucu değişimi ve sistem temizliği gerekir",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-3-multijet"
+          ],
+          "kaynaklar": [
+            "https://www.arabam.com/blog/?p=168996"
+          ]
+        },
+        {
+          "id": "dualogic",
+          "baslik": "Dualogic şanzımanda sarsıntı",
+          "parca": "Dualogic robotize şanzıman",
+          "belirtiler": "Vites geçişinde sarsıntı, debriyaj aşınması, şanzıman beyni arızası",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-3-multijet"
+          ],
+          "kaynaklar": [
+            "https://www.araclo.com/blog/fiat-linea-1.3-multijet-ikinci-el-alim-rehberi-sorunlar-kontroller-ve-bakim-onerileri-2026"
+          ],
+          "sanziman": "Dualogic otomatik"
+        },
+        {
+          "id": "egr",
+          "baslik": "EGR valfi kirlenmesi",
+          "parca": "EGR",
+          "belirtiler": "Rölantide sarsıntı, düzensiz çalışma, tüketim artışı",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-3-multijet"
+          ],
+          "kaynaklar": [
+            "https://www.araclo.com/blog/fiat-linea-1.3-multijet-ikinci-el-alim-rehberi-sorunlar-kontroller-ve-bakim-onerileri-2026"
+          ]
+        }
+      ]
+    }
+  ]
+}

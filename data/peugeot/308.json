@@ -1,0 +1,101 @@
+{
+  "marka": "Peugeot",
+  "markaSlug": "peugeot",
+  "model": "308",
+  "modelSlug": "308",
+  "nesiller": [
+    {
+      "slug": "308-2",
+      "ad": "308 2. nesil",
+      "yillar": [
+        2013,
+        2021
+      ],
+      "motorlar": [
+        {
+          "id": "1-2-puretech",
+          "ad": "1.2 PureTech",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-bluehdi",
+          "ad": "1.6 BlueHDi",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-5-bluehdi",
+          "ad": "1.5 BlueHDi",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "yagli-triger-kayisi",
+          "baslik": "Yağ içinde çalışan triger kayışının erken aşınması",
+          "parca": "Triger kayışı",
+          "belirtiler": "Kayış parçaları yağ emme süzgecini tıkar; yağ basıncı uyarısı, motor hasarı",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-puretech"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-449-pannes-peugeot-308-2.php",
+            "https://www.turkiyegazetesi.com.tr/t-otomobil/arac-almadan-once-gercegini-ogrenin-12-puretech-motor-triger-sorunu-nedir-yeni-model-1762948"
+          ],
+          "not": "Stellantis eski nesil 1.2 PureTech için 10 yıl / 180.000 km uzatılmış garanti açıkladı (yetkili serviste düzenli bakım şartıyla)."
+        },
+        {
+          "id": "puretech-yag-tuketimi",
+          "baslik": "1.2 PureTech yağ tüketimi",
+          "parca": "Motor (segmanlar)",
+          "belirtiler": "Bakımlar arasında yağ eksilmesi",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-puretech"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-449-pannes-peugeot-308-2.php"
+          ]
+        },
+        {
+          "id": "eksantrik-zinciri",
+          "baslik": "1.5 BlueHDi eksantrik zincirinin aşınması",
+          "parca": "Eksantrik bağlantı zinciri",
+          "belirtiler": "Zincir esneyip atlayabilir; motordan ses, kopma riski",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-bluehdi"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-449-pannes-peugeot-308-2.php",
+            "https://www.blackcircles.com/news/peugeot-3008-common-faults"
+          ],
+          "not": "Aynı motor için üretici 3008'de geri çağırma başlattı (R/2025/246)."
+        },
+        {
+          "id": "adblue",
+          "baslik": "AdBlue sistemi arızası",
+          "parca": "AdBlue / SCR, NOx sensörü",
+          "belirtiler": "AdBlue uyarıları, üre enjektörü ve NOx sensörü arızası",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-bluehdi",
+            "1-5-bluehdi"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-449-pannes-peugeot-308-2.php",
+            "https://www.blackcircles.com/news/peugeot-3008-common-faults"
+          ]
+        }
+      ]
+    }
+  ]
+}

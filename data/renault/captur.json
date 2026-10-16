@@ -1,0 +1,83 @@
+{
+  "marka": "Renault",
+  "markaSlug": "renault",
+  "model": "Captur",
+  "modelSlug": "captur",
+  "nesiller": [
+    {
+      "slug": "captur-1",
+      "ad": "Captur 1. nesil",
+      "yillar": [
+        2013,
+        2019
+      ],
+      "motorlar": [
+        {
+          "id": "0-9-tce",
+          "ad": "0.9 TCe",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-2-tce",
+          "ad": "1.2 TCe 120",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-5-dci",
+          "ad": "1.5 dCi",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "h5ft-yag-tuketimi",
+          "baslik": "1.2 TCe motorda aşırı yağ tüketimi",
+          "parca": "Motor (H5Ft)",
+          "belirtiler": "1.000 km'de 1 litreyi aşan yağ tüketimi, egzozdan mavi duman, güç kaybı; ilerlerse egzoz supabı hasarı ve motor arızası",
+          "km": "2013–2016 üretimi",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-tce"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-446-pannes-renault-captur.php",
+            "https://www.quechoisir.org/actualite-moteur-1-2-renault-400-000-voitures-en-danger-n67215/"
+          ],
+          "not": "Etkilenen H5Ft motorlar 1 Ekim 2012 – 20 Temmuz 2016 arasında üretildi. Üretici çözüm olarak yazılım güncellemesi, segman/motor bloğu ya da motor değişimi uyguladı."
+        },
+        {
+          "id": "edc",
+          "baslik": "EDC şanzıman arızaları",
+          "parca": "EDC çift kavramalı şanzıman",
+          "belirtiler": "Vites geçişi sorunları, şanzıman arızası",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-tce"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-446-pannes-renault-captur.php"
+          ],
+          "sanziman": "EDC otomatik"
+        },
+        {
+          "id": "0-9-sogutma",
+          "baslik": "Soğutma sistemi arızası",
+          "parca": "Termostat yuvası / soğutma",
+          "belirtiler": "Antifriz kaybı, soğutma sistemi arızası",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "0-9-tce"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-446-pannes-renault-captur.php"
+          ]
+        }
+      ]
+    }
+  ]
+}
