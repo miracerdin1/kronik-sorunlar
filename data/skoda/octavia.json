@@ -1,0 +1,114 @@
+{
+  "marka": "Skoda",
+  "markaSlug": "skoda",
+  "model": "Octavia",
+  "modelSlug": "octavia",
+  "nesiller": [
+    {
+      "slug": "octavia-3",
+      "ad": "Octavia 3 (A7)",
+      "yillar": [
+        2013,
+        2020
+      ],
+      "motorlar": [
+        {
+          "id": "1-6-tdi",
+          "ad": "1.6 TDI",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-4-tsi",
+          "ad": "1.4 TSI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-0-1-2-tsi",
+          "ad": "1.0 / 1.2 TSI",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "tsi-devirdaim",
+          "baslik": "Plastik devirdaim ve termostat yuvasından antifriz kaçağı",
+          "parca": "Su pompası / termostat yuvası",
+          "belirtiler": "Yavaş antifriz eksilmesi, tatlı koku",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-4-tsi",
+            "1-0-1-2-tsi"
+          ],
+          "kaynaklar": [
+            "https://uk.haynes.com/blogs/tips-tutorials/skoda-octavia-mk3-2013-2020-the-common-faults-worth-knowing",
+            "https://www.fiches-auto.fr/fiabilite-skoda/fiabilite-470-pannes-skoda-octavia.php"
+          ]
+        },
+        {
+          "id": "dsg-sarsinti",
+          "baslik": "DSG şanzımanda düşük hızda sarsıntı",
+          "parca": "7 ileri DSG (mekatronik / kavrama)",
+          "belirtiler": "Düşük hızda titreme, kalkışta tereddüt, mekatronik arızası",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://uk.haynes.com/blogs/tips-tutorials/skoda-octavia-mk3-2013-2020-the-common-faults-worth-knowing",
+            "https://www.fiches-auto.fr/fiabilite-skoda/fiabilite-470-pannes-skoda-octavia.php"
+          ],
+          "sanziman": "DSG otomatik"
+        },
+        {
+          "id": "dpf",
+          "baslik": "DPF tıkanması",
+          "parca": "Partikül filtresi",
+          "belirtiler": "Tekrarlayan rejenerasyon uyarısı, sonunda tıkanma; kısa mesafe kullanımında",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-tdi"
+          ],
+          "kaynaklar": [
+            "https://uk.haynes.com/blogs/tips-tutorials/skoda-octavia-mk3-2013-2020-the-common-faults-worth-knowing",
+            "https://www.fiches-auto.fr/fiabilite-skoda/fiabilite-470-pannes-skoda-octavia.php"
+          ]
+        },
+        {
+          "id": "egr",
+          "baslik": "EGR valfi takılması",
+          "parca": "EGR",
+          "belirtiler": "Güç kaybı, arıza lambası",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-tdi"
+          ],
+          "kaynaklar": [
+            "https://uk.haynes.com/blogs/tips-tutorials/skoda-octavia-mk3-2013-2020-the-common-faults-worth-knowing",
+            "https://www.fiches-auto.fr/fiabilite-skoda/fiabilite-470-pannes-skoda-octavia.php"
+          ]
+        },
+        {
+          "id": "tdi-devirdaim",
+          "baslik": "1.6 TDI devirdaim arızası",
+          "parca": "Su pompası",
+          "belirtiler": "Antifriz kaybı",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-tdi"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-skoda/fiabilite-470-pannes-skoda-octavia.php"
+          ]
+        }
+      ]
+    }
+  ]
+}

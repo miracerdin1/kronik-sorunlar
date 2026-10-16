@@ -1,0 +1,91 @@
+{
+  "marka": "Renault",
+  "markaSlug": "renault",
+  "model": "Fluence",
+  "modelSlug": "fluence",
+  "nesiller": [
+    {
+      "slug": "fluence",
+      "ad": "Fluence",
+      "yillar": [
+        2010,
+        2016
+      ],
+      "motorlar": [
+        {
+          "id": "1-5-dci",
+          "ad": "1.5 dCi",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-6-16v",
+          "ad": "1.6 16V",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "enjektor",
+          "baslik": "Enjektör arızası",
+          "parca": "Enjektörler",
+          "belirtiler": "Tekrarlayan uyarı, tekleme, güç kaybı; kalitesiz yakıt ve mazot filtresinde su riski artırır",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-273-pannes-renault-fluence.php",
+            "https://www.arabam.com/blog/danisman/renault-dci-motor-nedir-kronik-sorunlari-nelerdir/"
+          ]
+        },
+        {
+          "id": "v-kayisi",
+          "baslik": "V kayışının kopup triger kayışına girmesi",
+          "parca": "V kayışı / triger",
+          "belirtiler": "Kopan V kayışı trigeri atlatabilir; supap eğilmesi ve silindir kapağı hasarı",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "kaynaklar": [
+            "https://www.arabam.com/blog/danisman/renault-dci-motor-nedir-kronik-sorunlari-nelerdir/",
+            "https://www.araclo.com/blog/renault-megane-1.5-dci-kronik-sorunlari-ve-bakim-rehberi"
+          ],
+          "not": "Aşınmış V kayışını triger bakımını beklemeden değiştirin."
+        },
+        {
+          "id": "enjektor-pulu",
+          "baslik": "Enjektör pulunun deforme olması",
+          "parca": "Enjektör bakır pulları",
+          "belirtiler": "Kompresyon kaçağı, motor bölmesinde koku",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "kaynaklar": [
+            "https://www.arabam.com/blog/danisman/renault-dci-motor-nedir-kronik-sorunlari-nelerdir/"
+          ]
+        },
+        {
+          "id": "kapi-tutucu",
+          "baslik": "Kapı tutucu ve kilit arızası",
+          "parca": "Kapı tutucu / kilit",
+          "belirtiler": "Kapı açık durmuyor, kilit arızası; birkaç kez değişebiliyor",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-273-pannes-renault-fluence.php"
+          ]
+        }
+      ]
+    }
+  ]
+}

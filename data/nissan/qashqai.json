@@ -1,0 +1,116 @@
+{
+  "marka": "Nissan",
+  "markaSlug": "nissan",
+  "model": "Qashqai",
+  "modelSlug": "qashqai",
+  "nesiller": [
+    {
+      "slug": "j11",
+      "ad": "Qashqai J11 (2. nesil)",
+      "yillar": [
+        2014,
+        2021
+      ],
+      "motorlar": [
+        {
+          "id": "1-5-dci",
+          "ad": "1.5 dCi",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-6-dci",
+          "ad": "1.6 dCi",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-2-dig-t",
+          "ad": "1.2 DIG-T",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-3-dig-t",
+          "ad": "1.3 DIG-T",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "xtronic-titreme",
+          "baslik": "X-Tronic şanzımanda titreme ve sarsıntı",
+          "parca": "X-Tronic CVT",
+          "belirtiler": "Kalkışta, düşük devirde ve yokuşta titreme; uzun kullanımda ısınma ve tork kaybı",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-nissan/fiabilite-457-pannes-nissan-qashqai-2.php",
+            "https://www.sikayetvar.com/nissan/nissan-qashqaide-kronik-titreme-sorununa-cozum-bekliyorum",
+            "https://www.sozcu.com.tr/en-cok-vites-sorunu-yasayan-araclar-belli-oldu-sahiplerini-cileden-cikariyor-p249349"
+          ],
+          "sanziman": "X-Tronic otomatik"
+        },
+        {
+          "id": "h5ft-yag-tuketimi",
+          "baslik": "1.2 DIG-T motorda aşırı yağ tüketimi",
+          "parca": "Motor (H5Ft)",
+          "belirtiler": "1.000 km'de 1 litreyi aşan yağ tüketimi, egzozdan mavi duman, güç kaybı; ilerlerse egzoz supabı hasarı ve motor arızası",
+          "km": "2014–2016 üretimi",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-dig-t"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-nissan/fiabilite-457-pannes-nissan-qashqai-2.php",
+            "https://www.quechoisir.org/actualite-moteur-1-2-renault-400-000-voitures-en-danger-n67215/"
+          ],
+          "not": "Etkilenen H5Ft motorlar 1 Ekim 2012 – 20 Temmuz 2016 arasında üretildi. Üretici çözüm olarak yazılım güncellemesi, segman/motor bloğu ya da motor değişimi uyguladı."
+        },
+        {
+          "id": "dpf",
+          "baslik": "DPF tıkanması",
+          "parca": "Partikül filtresi",
+          "belirtiler": "DPF uyarısı ve güç kaybı",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-nissan/fiabilite-457-pannes-nissan-qashqai-2.php"
+          ]
+        },
+        {
+          "id": "debriyaj",
+          "baslik": "Erken debriyaj aşınması",
+          "parca": "Debriyaj seti",
+          "belirtiler": "Kaçırma, sertleşme",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-nissan/fiabilite-457-pannes-nissan-qashqai-2.php"
+          ]
+        },
+        {
+          "id": "aku",
+          "baslik": "Akünün erken bitmesi",
+          "parca": "Akü",
+          "belirtiler": "Çalıştırma sorunu, elektronik uyarılar",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-nissan/fiabilite-457-pannes-nissan-qashqai-2.php"
+          ]
+        }
+      ]
+    }
+  ]
+}
