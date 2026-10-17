@@ -1,0 +1,211 @@
+{
+  "marka": "Opel",
+  "markaSlug": "opel",
+  "model": "Mokka",
+  "modelSlug": "mokka",
+  "nesiller": [
+    {
+      "slug": "mokka-x",
+      "ad": "Mokka / Mokka X (J13)",
+      "yillar": [
+        2012,
+        2019
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-4-turbo",
+          "ad": "1.4 Turbo",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6",
+          "ad": "1.6",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-cdti",
+          "ad": "1.6 CDTI",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "1-6-cdti-triger-zinciri",
+          "baslik": "1.6 CDTI zamanlama zinciri ve gergi aşınması",
+          "parca": "Zamanlama zinciri / gergi",
+          "belirtiler": "Soğuk çalıştırmada metalik zincir sesi, ısındıktan sonra da sürerse zincirin gerilmesi ve atlama riski. Zincir şanzıman tarafında olduğundan işçilik pahalıdır.",
+          "km": "60.000-150.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-cdti"
+          ],
+          "sanziman": null,
+          "not": "Fransız kullanıcı yorumlarında 1.6 CDTI 136 için zincir/gergi belirgin biçimde anılıyor (yorum sayısı az).",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-opel/fiabilite-378-pannes-opel-mokka.php",
+            "https://www.fiches-auto.fr/fiabilite-opel/fiabilite-563-pannes-opel-mokka-x.php",
+            "https://www.araclo.com/vehicles/opel-mokka-x-1.6-cdti/degerlendirmeler/kullanici-sorunlari"
+          ]
+        },
+        {
+          "id": "1-4-turbo-triger-zinciri",
+          "baslik": "1.4 Turbo zamanlama zinciri uzaması",
+          "parca": "Zamanlama zinciri",
+          "belirtiler": "Soğuk çalıştırmada takırtı, güç kaybı, düzensiz rölanti ve zaman zaman motor arıza lambası.",
+          "km": "80.000-100.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-4-turbo"
+          ],
+          "sanziman": null,
+          "not": "Yağ bakımı aksatılan araçlarda daha sık görülür.",
+          "kaynaklar": [
+            "https://www.autodoc.co.uk/info/problems-with-the-opel-mokka-x",
+            "https://www.fiches-auto.fr/fiabilite-opel/fiabilite-378-pannes-opel-mokka.php"
+          ]
+        },
+        {
+          "id": "turbo-arizasi",
+          "baslik": "Turbo şarj ünitesi arızası",
+          "parca": "Turbo",
+          "belirtiler": "Hızlanırken ıslık sesi, güç kaybı, yağ tüketiminde artış ve mavi-gri egzoz dumanı.",
+          "km": "100.000-140.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-4-turbo",
+            "1-6-cdti"
+          ],
+          "sanziman": null,
+          "not": "Kullanıcı yorumlarında 1.4 Turbo ve 1.6 CDTI 136 için turbo arızası anılıyor.",
+          "kaynaklar": [
+            "https://www.autodoc.co.uk/info/problems-with-the-opel-mokka-x",
+            "https://www.autopartspro.co.uk/tips-advice/common-problems-with-vauxhall-mokka-a-comprehensive-guide-for-owners-8309",
+            "https://www.fiches-auto.fr/fiabilite-opel/fiabilite-378-pannes-opel-mokka.php",
+            "https://www.fiches-auto.fr/fiabilite-opel/fiabilite-563-pannes-opel-mokka-x.php"
+          ]
+        },
+        {
+          "id": "1-4-turbo-sogutma-su-pompasi",
+          "baslik": "1.4 Turbo soğutma sistemi: su pompası ve termostat sızıntıları",
+          "parca": "Su pompası / termostat kapağı / eşanjör",
+          "belirtiler": "Soğutma suyu seviyesinde düşüş, yerde sıvı lekesi, tatlımsı buhar kokusu, sıcaklık göstergesinde dalgalanma ve aşırı ısınma riski.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-4-turbo"
+          ],
+          "sanziman": null,
+          "not": "Kullanıcı yorumlarında su pompası ve eşanjör/soğutma devresi 1.4 Turbo'nun en sık anılan kalemleri arasında.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-opel/fiabilite-378-pannes-opel-mokka.php",
+            "https://www.fiches-auto.fr/fiabilite-opel/fiabilite-563-pannes-opel-mokka-x.php",
+            "https://www.autopartspro.co.uk/tips-advice/common-problems-with-vauxhall-mokka-a-comprehensive-guide-for-owners-8309",
+            "https://www.autodoc.co.uk/info/vauxhall-mokka-automatic-gearbox-problems-turbo-faults-and-other-malfunctions"
+          ]
+        },
+        {
+          "id": "1-6-cdti-dpf-egr-enjektor",
+          "baslik": "1.6 CDTI DPF, EGR ve enjektör sorunları",
+          "parca": "DPF / EGR / enjektör",
+          "belirtiler": "DPF uyarısı, güç kaybı, siyah duman, yakıt tüketiminde artış, soğuk çalıştırmada zorlanma ve kaba rölanti. Kısa şehir içi kullanımda belirginleşir.",
+          "km": "80.000-120.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-cdti"
+          ],
+          "sanziman": null,
+          "not": "DPF için kaynaklarda 30.000-50.000 km gibi erken aralıklar da geçiyor; enjektör/pompa için 80.000-120.000 km.",
+          "kaynaklar": [
+            "https://www.autodoc.co.uk/info/problems-with-the-opel-mokka-x",
+            "https://www.autopartspro.co.uk/tips-advice/common-problems-with-vauxhall-mokka-a-comprehensive-guide-for-owners-8309",
+            "https://www.fiches-auto.fr/fiabilite-opel/fiabilite-378-pannes-opel-mokka.php"
+          ]
+        },
+        {
+          "id": "debriyaj-volan",
+          "baslik": "Debriyaj ve çift kütleli volan aşınması",
+          "parca": "Debriyaj seti / volan",
+          "belirtiler": "Kalkışta titreme, debriyajın kayması, rölantide volan takırtısı.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": "manuel",
+          "not": "Fransız yorumlarında debriyaj, 1.4 Turbo ve 1.6 CDTI'da en sık anılan arızalar arasında.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-opel/fiabilite-378-pannes-opel-mokka.php",
+            "https://www.whocanfixmycar.com/advice/common-problems-with-the-vauxhall-mokka"
+          ]
+        },
+        {
+          "id": "klima-sogutmuyor",
+          "baslik": "Klima yeterince soğutmuyor",
+          "parca": "Klima kompresörü / kondenser",
+          "belirtiler": "Menfezlerden zayıf veya ılık hava, kompresör sesi, kabinde nem.",
+          "km": "15.000-25.000",
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": null,
+          "not": "Kaynaklar kondenser sızıntısı ve kompresör arızasına işaret ediyor; km aralığı parça satıcısı blogundan, genel deneyim niteliğinde.",
+          "kaynaklar": [
+            "https://www.autodoc.co.uk/info/problems-with-the-opel-mokka-x",
+            "https://www.whocanfixmycar.com/advice/common-problems-with-the-vauxhall-mokka"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mokka-2020",
+      "ad": "Mokka (2. nesil)",
+      "yillar": [
+        2020,
+        2026
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-2-turbo",
+          "ad": "1.2 Turbo (PureTech)",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-5-dizel",
+          "ad": "1.5 BlueHDi",
+          "yakit": "dizel"
+        },
+        {
+          "id": "mokka-e",
+          "ad": "Mokka-e",
+          "yakit": "elektrik"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "1-2-puretech-yagli-kayis",
+          "baslik": "1.2 PureTech yağ banyolu triger kayışı bozulması",
+          "parca": "Yağ banyolu triger kayışı",
+          "belirtiler": "Kayıştan kopan parçacıklar yağ devresini tıkayabilir; güç kaybı, arıza uyarıları ve ağır durumda motor hasarı.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-turbo"
+          ],
+          "sanziman": null,
+          "not": "Kayışlı 1.2 PureTech 130 (EB2DTS) için geçerli; Stellantis kayış değişimi ve yazılım güncellemesi içeren servis kampanyaları yürüttü. Zincirli hibrit versiyonlar kapsam dışı. Etkilenen aracınız için VIN ile yetkili servisten kontrol ettirin.",
+          "kaynaklar": [
+            "https://www.italpassion.fr/en/guides/stellantis-1-2-puretech-engine-list-of-belt-driven-and-chain-driven-models/",
+            "https://www.fiches-auto.fr/fiabilite-opel/fiabilite-697-pannes-opel-mokka.php"
+          ]
+        }
+      ]
+    }
+  ]
+}

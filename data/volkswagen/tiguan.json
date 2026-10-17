@@ -1,0 +1,156 @@
+{
+  "marka": "Volkswagen",
+  "markaSlug": "volkswagen",
+  "model": "Tiguan",
+  "modelSlug": "tiguan",
+  "nesiller": [
+    {
+      "slug": "tiguan-5n",
+      "ad": "Tiguan (5N)",
+      "yillar": [
+        2007,
+        2016
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-4-tsi",
+          "ad": "1.4 TSI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "2-0-tdi",
+          "ad": "2.0 TDI",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "1-4-tsi-triger-zinciri",
+          "baslik": "1.4 TSI triger zinciri uzaması ve yağ tüketimi",
+          "parca": "Triger zinciri, gergi, değişken supap zamanlaması",
+          "belirtiler": "Soğuk çalıştırmada zincir sesi, motor arıza lambası ve düzensiz rölanti görülür; bakımsız kalırsa zincir atlayıp motor ağır hasar görebilir. Eski EA111 motorlarda yağ yakma da sık şikayettir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-4-tsi"
+          ],
+          "not": "Özellikle eski EA111 (2008-2015) 1.4 TSI motorlar etkilenir; sonraki revize motorlarda durum daha iyidir.",
+          "kaynaklar": [
+            "https://gebrauchtwagenberater.de/vw-tiguan-i-5n-schwachstellen-kaufberatung/",
+            "https://autoblog.spidersweb.pl/vw-tiguan-5n-silniki-skrzynie-biegow"
+          ]
+        },
+        {
+          "id": "dsg-sanziman-arizalari",
+          "baslik": "DSG şanzıman sarsıntısı ve debriyaj/mekatronik arızası",
+          "parca": "DSG çift kavrama, mekatronik, çift kütleli volan",
+          "belirtiler": "Kalkışta titreme, vites geçişlerinde sertlik ve alışılmadık sesler olur. İleri aşamada debriyaj aşınması veya mekatronik arızası şanzımanın revizyonunu gerektirebilir.",
+          "km": "150.000-250.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": "6 ileri DSG (DQ250) / 7 ileri DSG (DQ500) otomatik",
+          "not": "Düzenli şanzıman yağı bakımı ömrü uzatır.",
+          "kaynaklar": [
+            "https://autoblog.spidersweb.pl/vw-tiguan-5n-silniki-skrzynie-biegow",
+            "https://gebrauchtwagenberater.de/vw-tiguan-i-5n-schwachstellen-kaufberatung/"
+          ]
+        },
+        {
+          "id": "2-0-tdi-egr-dpf-enjektor",
+          "baslik": "2.0 TDI EGR, DPF, turbo ve enjektör arızaları",
+          "parca": "EGR valfi, DPF, turbo, enjektörler",
+          "belirtiler": "Siyah duman, çekiş kaybı, motor titremesi, yakıt tüketiminde artış ve arıza lambası görülür. Şehir içi kısa mesafe kullanımda DPF tıkanması daha sık yaşanır.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-0-tdi"
+          ],
+          "not": "Dizel motorlar benzinlilere göre genelde daha dayanıklı kabul edilir; sorunlar çoğunlukla yüksek km veya kısa mesafe kullanımda çıkar.",
+          "kaynaklar": [
+            "https://gebrauchtwagenberater.de/vw-tiguan-i-5n-schwachstellen-kaufberatung/",
+            "https://autoblog.spidersweb.pl/vw-tiguan-5n-silniki-skrzynie-biegow"
+          ]
+        },
+        {
+          "id": "haldex-4motion",
+          "baslik": "Haldex (4Motion) kavraması çalışmaması",
+          "parca": "Haldex kavraması, ön yük pompası, filtre",
+          "belirtiler": "Ön tekerlekler boşa döner, arka tekerlekler çekişe katılmaz. Yağ çamurlaşması ön yük pompasını bozabilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Haldex yağı ve filtresinin düzenli değişmesi önerilir (Gen 4 kavramada filtre var).",
+          "kaynaklar": [
+            "https://gebrauchtwagenberater.de/vw-tiguan-i-5n-schwachstellen-kaufberatung/"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tiguan-ad1",
+      "ad": "Tiguan (AD1)",
+      "yillar": [
+        2016,
+        2024
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-4-tsi",
+          "ad": "1.4 TSI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-5-tsi",
+          "ad": "1.5 TSI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "2-0-tdi",
+          "ad": "2.0 TDI",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dq381-mekatronik-dsg",
+          "baslik": "7 ileri DSG (DQ381) mekatronik arızası ve sarsıntı",
+          "parca": "DQ381 mekatronik, debriyaj konum sensörü",
+          "belirtiler": "Acil durum moduna geçme, tek veya çift vites grubunun ya da geri vitesin kaybı, şanzıman ve motor arıza lambası ile kalkışta sarsıntı görülür. Arıza şanzıman ısınınca ortaya çıkıp yeniden çalıştırınca geçebilir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-0-tdi"
+          ],
+          "sanziman": "7 ileri DSG (DQ381) otomatik",
+          "not": "P1735/P1736 hata kodları tipiktir; kaynaklarda 2016-2021 ve özellikle 2018-2020 araçlar öne çıkar.",
+          "kaynaklar": [
+            "https://ecutesting.com/common-faults/volkswagen/dq381-mechatronic-causing-tiguan-dsg-gearbox-problems",
+            "https://www.autodoc.co.uk/info/vw-tiguan-problems"
+          ]
+        },
+        {
+          "id": "cam-tavan-su-sizintisi",
+          "baslik": "Panoramik cam tavan contası ve su sızıntısı",
+          "parca": "Cam tavan contası, drenaj",
+          "belirtiler": "Tavandan kabine su sızar, conta bozulur; sızan su elektronik aksamı etkileyebilir.",
+          "km": "50.000-100.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Km aralığı tek kaynaktan (50.000 km'den itibaren); diğer kaynak yalnızca conta bozulmasını anıyor.",
+          "kaynaklar": [
+            "https://www.autodoc.co.uk/info/vw-tiguan-problems",
+            "https://www.carbuyer.co.uk/volkswagen/tiguan/152117/volkswagen-tiguan-review-2016-2024/owner-reviews"
+          ]
+        }
+      ]
+    }
+  ]
+}

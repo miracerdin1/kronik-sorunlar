@@ -1,0 +1,191 @@
+{
+  "marka": "Skoda",
+  "markaSlug": "skoda",
+  "model": "Fabia",
+  "modelSlug": "fabia",
+  "nesiller": [
+    {
+      "slug": "fabia-5j",
+      "ad": "Fabia (5J)",
+      "yillar": [
+        2007,
+        2014
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-2-tsi",
+          "ad": "1.2 TSI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-4-16v",
+          "ad": "1.4 16V",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-4-tdi",
+          "ad": "1.4 TDI",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-6-tdi",
+          "ad": "1.6 TDI",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "1-2-tsi-triger-zinciri",
+          "baslik": "1.2 TSI triger zinciri ve gergi aşınması",
+          "parca": "Triger zinciri / zincir gergisi",
+          "belirtiler": "Soğuk çalıştırmada zincir tıkırtısı, düzensiz rölanti ve arıza lambası görülür. Zincir atlarsa supaplar piston ile temas edip motor ciddi hasar görebilir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-tsi"
+          ],
+          "not": "Haziran 2011 öncesi üretilen EA111 motorlarda daha sık görülür; güncellenmiş zincir seti kullanılır.",
+          "kaynaklar": [
+            "https://australiancar.reviews/recalls-faults-skoda-5j-fabia-2011-14/",
+            "https://minbilkoll.se/vanliga-fel/skoda/fabia-kombi/",
+            "https://www.whocanfixmycar.com/advice/common-problems-with-the-skoda-fabia",
+            "https://www.briskoda.net/forums/topic/344005-12tsi-cam-chain-problem/page/6/",
+            "https://www.fiches-auto.fr/avis-skoda/avis-unique-199-59450-skoda-fabia-2-12-tsi-85-ch-2011.php",
+            "https://www.araclo.com/vehicles/skoda-fabia-1.2-tsi/degerlendirmeler/kullanici-sorunlari"
+          ]
+        },
+        {
+          "id": "dq200-dsg-mekatronik",
+          "baslik": "7 ileri DSG (DQ200) mekatronik ve debriyaj sorunları",
+          "parca": "DQ200 mekatronik ünite / kuru debriyaj",
+          "belirtiler": "Düşük hızda sarsıntı, vites geçişinde vuruntu veya boşa düşme, vites göstergesinin yanıp sönmesi görülür.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-tsi"
+          ],
+          "sanziman": "7 ileri DSG (DQ200) otomatik",
+          "not": "2013 model DQ200'de sigorta korozyonu ve basınç akümülatörü çatlağı nedeniyle geri çağırma olmuştur.",
+          "kaynaklar": [
+            "https://australiancar.reviews/recalls-faults-skoda-5j-fabia-2011-14/",
+            "https://minbilkoll.se/vanliga-fel/skoda/fabia-kombi/",
+            "https://vagpulse.com/guides/skoda-fabia-common-problems",
+            "https://www.araclo.com/vehicles/skoda-fabia-1.2-tsi/degerlendirmeler/kullanici-sorunlari"
+          ]
+        },
+        {
+          "id": "tdi-dpf-egr",
+          "baslik": "Dizel motorlarda DPF tıkanması ve EGR sorunu",
+          "parca": "DPF / EGR valfi",
+          "belirtiler": "Kısa mesafe kullanımda DPF rejenerasyonu tamamlanamaz; arıza lambası, güç kaybı ve acil durum (limp) moduna girme görülür. EGR valfi kurum tutunca tepki zayıflar.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-4-tdi",
+            "1-6-tdi"
+          ],
+          "kaynaklar": [
+            "https://minbilkoll.se/vanliga-fel/skoda/fabia-kombi/",
+            "https://vagpulse.com/guides/skoda-fabia-common-problems",
+            "https://www.carbuyer.co.uk/reviews/skoda/fabia/vrs-hatchback/14186/owner-reviews"
+          ]
+        },
+        {
+          "id": "sogutma-plastik-flans-su-pompasi",
+          "baslik": "Soğutma sistemi kaçakları (plastik flanş, termostat yuvası, su pompası)",
+          "parca": "Plastik soğutma suyu flanşı / su pompası",
+          "belirtiler": "Soğutma suyu seviyesi düşer, kuruyup kalan renkli artıklar ve koku oluşur, ısı artar veya soğutma suyu uyarısı yanar.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-tsi"
+          ],
+          "kaynaklar": [
+            "https://minbilkoll.se/vanliga-fel/skoda/fabia-kombi/",
+            "https://vagpulse.com/guides/skoda-fabia-common-problems",
+            "https://www.fiches-auto.fr/avis-skoda/avis-unique-199-59450-skoda-fabia-2-12-tsi-85-ch-2011.php"
+          ]
+        },
+        {
+          "id": "1-2-tsi-yag-tuketimi-pcv",
+          "baslik": "1.2 TSI yağ tüketimi (PCV valfi ve segman tasarımı)",
+          "parca": "PCV (karter havalandırma) valfi / yağ segmanı",
+          "belirtiler": "Yağ seviyesi beklenenden hızlı düşer, yağ uyarı lambası erken yanar, bazen rölanti düzensizleşir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-tsi"
+          ],
+          "kaynaklar": [
+            "https://minbilkoll.se/vanliga-fel/skoda/fabia-kombi/",
+            "https://www.carbuyer.co.uk/reviews/skoda/fabia/vrs-hatchback/14186/owner-reviews",
+            "https://www.whocanfixmycar.com/advice/common-problems-with-the-skoda-fabia"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fabia-nj",
+      "ad": "Fabia (NJ)",
+      "yillar": [
+        2014,
+        2021
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-2-tsi",
+          "ad": "1.2 TSI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-4-tdi",
+          "ad": "1.4 TDI",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dq200-dsg-sarsinti",
+          "baslik": "7 ileri DSG'de sarsıntılı vites geçişi",
+          "parca": "DQ200 DSG şanzıman",
+          "belirtiler": "Kalkışta ve düşük hızda sarsıntı, vites geçişlerinde sert veya sarsıntılı hissiyat görülür.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-tsi"
+          ],
+          "sanziman": "7 ileri DSG (DQ200) otomatik",
+          "not": "2016 yazılım güncellemesinden sonra durum bir miktar iyileşmiştir.",
+          "kaynaklar": [
+            "https://whatcar.com/skoda/fabia/hatchback/used-review/n808/reliability",
+            "https://minbilkoll.se/vanliga-fel/skoda/fabia-kombi/",
+            "https://vagpulse.com/guides/skoda-fabia-common-problems"
+          ]
+        },
+        {
+          "id": "1-4-tdi-dpf-egr",
+          "baslik": "1.4 TDI'da DPF ve EGR kurumlanması",
+          "parca": "DPF / EGR valfi ve soğutucusu",
+          "belirtiler": "Güç kaybı, gaz tepkisinde gecikme, acil durum moduna girme ve motor arıza lambası görülür.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-4-tdi"
+          ],
+          "kaynaklar": [
+            "https://vagpulse.com/guides/skoda-fabia-common-problems"
+          ]
+        }
+      ]
+    }
+  ]
+}

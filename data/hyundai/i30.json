@@ -1,0 +1,208 @@
+{
+  "marka": "Hyundai",
+  "markaSlug": "hyundai",
+  "model": "i30",
+  "modelSlug": "i30",
+  "nesiller": [
+    {
+      "slug": "i30-fd",
+      "ad": "i30 (FD)",
+      "yillar": [
+        2007,
+        2012
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-4-benzin",
+          "ad": "1.4 benzin",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-benzin",
+          "ad": "1.6 benzin",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-crdi",
+          "ad": "1.6 CRDi",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "zamanlama-zinciri-crdi",
+          "baslik": "1.6 CRDi zamanlama zinciri uzaması",
+          "parca": "Zamanlama zinciri",
+          "belirtiler": "Soğuk çalıştırmada metalik çıngırtı duyulur. İhmal edilirse zincir atlayıp motor ağır hasar görebilir.",
+          "km": "80.000-120.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-crdi"
+          ],
+          "not": "Kısa mesafe kullanım ve gecikmiş yağ değişimi ömrü kısaltıyor; 2009-2013 üretimde daha sık anılıyor.",
+          "kaynaklar": [
+            "https://www.autodoc.co.uk/info/problems-with-the-hyundai-i30",
+            "https://local.honestjohn.co.uk/hyundai/i30/2007/"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "i30-gd",
+      "ad": "i30 (GD)",
+      "yillar": [
+        2012,
+        2017
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-4-benzin",
+          "ad": "1.4 MPI benzin",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-gdi",
+          "ad": "1.6 GDI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-crdi",
+          "ad": "1.6 CRDi",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "7dct-titreme",
+          "baslik": "7DCT şanzımanda kalkış titremesi ve vuruntu",
+          "parca": "7 ileri çift kavramalı şanzıman (kavrama/aktüatör)",
+          "belirtiler": "Düşük hızda ve kalkışta sarsıntı, gecikmeli kavrama, bazı vites geçişlerinde sert vuruntu. Yazılım güncellemesi bir kısmını azaltıyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": "7 ileri DCT otomatik",
+          "not": "7DCT'nin hangi GD motorlarıyla Türkiye'de satıldığından tam emin değilim; kaynaklar şikayeti nesil bazında ayırmıyor.",
+          "kaynaklar": [
+            "https://www.wheelstreet.lt/straipsniai/hyundai-i30-daznos-problemos",
+            "https://www.autopartspro.co.uk/tips-advice/problems-with-the-hyundai-i30-4013",
+            "https://www.araclo.com/blog/hyundai-ve-kia-dct-kuru-kavrama-sanziman-sorunlari-kullanici-sikayetleri-belirtiler-ve-cozum-yollari"
+          ]
+        },
+        {
+          "id": "crdi-yag-tuketimi",
+          "baslik": "1.6 CRDi yüksek yağ tüketimi",
+          "parca": "Turbo contaları / motor",
+          "belirtiler": "Zorlanarak sürüşte belirgin yağ eksilmesi, yağ seviyesinin sık kontrol edilmesi gerekir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-crdi"
+          ],
+          "not": "Turbo salmastralarının yıpranması da neden olarak sayılıyor.",
+          "kaynaklar": [
+            "https://www.autobild.de/artikel/hyundai-i30-gd-kaufberatung-gebraucht-kaufen-16666745.html",
+            "https://totalrenting.es/problemas/hyundai-problemas/hyundai-i30-problemas/problemas-hyundai-i30-1-6-crdi/"
+          ]
+        },
+        {
+          "id": "egr-dpf-crdi",
+          "baslik": "1.6 CRDi EGR ve DPF tıkanması",
+          "parca": "EGR valfi, dizel partikül filtresi",
+          "belirtiler": "Güç kaybı, kara duman, DPF ikaz lambası. Özellikle şehir içi kısa mesafe kullanımda görülür.",
+          "km": "80.000-120.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-crdi"
+          ],
+          "not": "EGR temizliği yaklaşık 80.000 km aralıkla öneriliyor.",
+          "kaynaklar": [
+            "https://totalrenting.es/problemas/hyundai-problemas/hyundai-i30-problemas/problemas-hyundai-i30-1-6-crdi/",
+            "https://gebrauchtwagenberater.de/hyundai-i30-probleme-krankheiten"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "i30-pd",
+      "ad": "i30 (PD)",
+      "yillar": [
+        2017,
+        2024
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-4-t-gdi",
+          "ad": "1.4 T-GDI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-crdi",
+          "ad": "1.6 CRDi",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "7dct-sarsinti",
+          "baslik": "7DCT sarsıntı, gecikmeli vites ve kavrama aşınması",
+          "parca": "7 ileri çift kavramalı şanzıman",
+          "belirtiler": "Şehir içi dur-kalkta sarsıntı, düzensiz vites geçişi. Yoğun şehir trafiğinde kavrama beklenenden çabuk aşınabilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": "7 ileri DCT otomatik",
+          "not": "Aktüatör arızası i30 ve Ceed'de özellikle anılıyor. Genel olarak güvenilir sayılıyor, şikayetler daha çok eski üretimlerde.",
+          "kaynaklar": [
+            "https://gebrauchtwagenberater.de/hyundai-i30-probleme-krankheiten",
+            "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-615-pannes-hyundai-i30.php",
+            "https://www.araclo.com/blog/hyundai-ve-kia-dct-kuru-kavrama-sanziman-sorunlari-kullanici-sikayetleri-belirtiler-ve-cozum-yollari"
+          ]
+        },
+        {
+          "id": "1-4-t-gdi-karbon-ve-bobin",
+          "baslik": "1.4 T-GDI emme supabı karbonlanması ve ateşleme bobini",
+          "parca": "Emme supapları, ateşleme bobini",
+          "belirtiler": "Rölantide düzensizlik, gaz tepkisinde zayıflama; bobin arızasında ateşleme kaçırma.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-4-t-gdi"
+          ],
+          "not": "Doğrudan enjeksiyonlu motorların tipik sorunu; temizlik katkısı veya kaliteli yakıt gecikmeyi sağlıyor.",
+          "kaynaklar": [
+            "https://gebrauchtwagenberater.de/hyundai-i30-probleme-krankheiten",
+            "https://www.wheelstreet.lt/straipsniai/hyundai-i30-daznos-problemos",
+            "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-615-pannes-hyundai-i30.php"
+          ]
+        },
+        {
+          "id": "crdi-dpf-egr-volan",
+          "baslik": "1.6 CRDi DPF, EGR ve volan sorunları",
+          "parca": "DPF, EGR valfi, çift kütleli volan, enjektör",
+          "belirtiler": "DPF ikaz lambası, güç kaybı, kara duman; yüksek km'de enjektör aşınması ve soğuk çalıştırma zorluğu, volan titreşimi.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-crdi"
+          ],
+          "not": "Çoğunlukla kısa mesafe şehir kullanımı ve yüksek kilometreyle ilişkili; motor genelinde dayanıklı sayılıyor.",
+          "kaynaklar": [
+            "https://gebrauchtwagenberater.de/hyundai-i30-probleme-krankheiten",
+            "https://totalrenting.es/problemas/hyundai-problemas/hyundai-i30-problemas/problemas-hyundai-i30-1-6-crdi/",
+            "https://www.wheelstreet.lt/straipsniai/hyundai-i30-daznos-problemos"
+          ]
+        }
+      ]
+    }
+  ]
+}

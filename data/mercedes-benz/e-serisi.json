@@ -1,0 +1,209 @@
+{
+  "marka": "Mercedes-Benz",
+  "markaSlug": "mercedes-benz",
+  "model": "E Serisi",
+  "modelSlug": "e-serisi",
+  "nesiller": [
+    {
+      "slug": "e-serisi-w212",
+      "ad": "E Serisi (W212)",
+      "yillar": [
+        2009,
+        2016
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "e180",
+          "ad": "E180",
+          "yakit": "benzin"
+        },
+        {
+          "id": "e200-cgi",
+          "ad": "E200 CGI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "e200-cdi",
+          "ad": "E200 CDI",
+          "yakit": "dizel"
+        },
+        {
+          "id": "e220-cdi",
+          "ad": "E220 CDI",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "om651-zincir-gerginlik",
+          "baslik": "OM651 dizelde zincir uzaması ve gergi aşınması",
+          "parca": "Triger zinciri ve zincir gerdirici",
+          "belirtiler": "Soğuk çalıştırmada birkaç saniyelik zincir tıkırtısı gelir, motor arka kapağı çevresinde yağ sızıntısı görülebilir. İhmal edilirse zincir atlaması ve ağır motor hasarı riski doğar.",
+          "km": "60.000-120.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "e200-cdi",
+            "e220-cdi"
+          ],
+          "not": "Özellikle 2009-2011 arası ilk seri araçlarda daha sık anılıyor.",
+          "kaynaklar": [
+            "https://kfz-dietrich.com/blog/mercedes-e-klasse-w212-typische-probleme-xentry/",
+            "https://gebrauchtwagenberater.de/mercedes-w212-probleme/",
+            "https://minbilkoll.se/vanliga-fel/mercedes-benz/e-220/",
+            "https://www.araclo.com/vehicles/mercedes-benz-e-serisi-e-220/degerlendirmeler/kullanici-sorunlari"
+          ]
+        },
+        {
+          "id": "om651-enjektor",
+          "baslik": "OM651 dizelde enjektör arızaları",
+          "parca": "Enjektör (piezo/Delphi)",
+          "belirtiler": "Motor düzensiz çalışır, rölantide titreme, güç kaybı ve siyah duman görülür; enjektör hatlarından mazot sızıntısı olabilir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "e200-cdi",
+            "e220-cdi"
+          ],
+          "not": "Ön seride piezo enjektör sorunları nedeniyle 2011'de servis kampanyasıyla enjektör değişimi yapıldığı belirtiliyor.",
+          "kaynaklar": [
+            "https://gebrauchtwagenberater.de/mercedes-w212-probleme/",
+            "https://minbilkoll.se/vanliga-fel/mercedes-benz/e-220/",
+            "https://www.whocanfixmycar.com/advice/common-problems-with-the-mercedes-e-class"
+          ]
+        },
+        {
+          "id": "om651-egr",
+          "baslik": "OM651 dizelde EGR sisteminin tıkanması ve soğutucu arızası",
+          "parca": "EGR valfi / EGR soğutucu",
+          "belirtiler": "Rölanti bozulur, performans düşer; soğutucu arızasında beyaz duman ve sebepsiz soğutma suyu azalması görülebilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "e200-cdi",
+            "e220-cdi"
+          ],
+          "not": "Şehir içi kısa mesafe kullanımda daha sık görülüyor.",
+          "kaynaklar": [
+            "https://kfz-dietrich.com/blog/mercedes-e-klasse-w212-typische-probleme-xentry/",
+            "https://europremiumparts.com/blogs/mercedes-buying-guides/mercedes-benz-e-class-w212-reliability-guide-everything-you-need-to-know-before-buying",
+            "https://minbilkoll.se/vanliga-fel/mercedes-benz/e-220/"
+          ]
+        },
+        {
+          "id": "m271-zincir",
+          "baslik": "M271 benzinli motorda zincir ve eksantrik dişlisi aşınması",
+          "parca": "Triger zinciri, zincir kızağı, eksantrik dişlisi",
+          "belirtiler": "Soğuk çalıştırmada zincir sesi, güç kaybı ve eksantrik ayarı hata kodu görülür. Zincir değişmediyse ileri aşamada motor hasarı olabilir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "e200-cgi"
+          ],
+          "not": "2013 Mart'a kadarki M271 motorlar için geçerli; sonrasındaki M274'te nadir görülür.",
+          "kaynaklar": [
+            "https://gebrauchtwagenberater.de/mercedes-w212-probleme/",
+            "https://kfz-dietrich.com/blog/mercedes-e-klasse-w212-typische-probleme-xentry/",
+            "https://europremiumparts.com/blogs/mercedes-buying-guides/mercedes-benz-e-class-w212-reliability-guide-everything-you-need-to-know-before-buying"
+          ]
+        },
+        {
+          "id": "eksantrik-ayarlayici-yag-sizintisi",
+          "baslik": "Eksantrik ayarlayıcı conta sızıntısı",
+          "parca": "Eksantrik ayarlayıcı manyetik valf/conta",
+          "belirtiler": "Yağ sızıntısı kablo demetine ulaşır; bu durum elektrik arızalarına ve motor beynine zarar verme riskine yol açabilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "e180",
+            "e200-cgi"
+          ],
+          "not": "M271'de yaygın; M274'e geçen motorlarda daha seyrek.",
+          "kaynaklar": [
+            "https://gebrauchtwagenberater.de/mercedes-w212-probleme/",
+            "https://europremiumparts.com/blogs/mercedes-buying-guides/mercedes-benz-e-class-w212-reliability-guide-everything-you-need-to-know-before-buying"
+          ]
+        },
+        {
+          "id": "airmatic-hava-suspansiyon",
+          "baslik": "Airmatic havalı süspansiyon arızaları",
+          "parca": "Hava körüğü, kompresör, valf",
+          "belirtiler": "Araç beklerken bir tarafa çöker, kompresör sürekli çalışır ve 'araç çok alçak' uyarısı çıkar.",
+          "km": "150.000-220.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Yalnızca Airmatic donanımlı araçlarda.",
+          "kaynaklar": [
+            "https://kfz-dietrich.com/blog/mercedes-e-klasse-w212-typische-probleme-xentry/",
+            "https://gebrauchtwagenberater.de/mercedes-w212-probleme/",
+            "https://minbilkoll.se/vanliga-fel/mercedes-benz/e-220/"
+          ]
+        },
+        {
+          "id": "arka-sam-su-girisi",
+          "baslik": "Arka SAM modülüne su girmesi",
+          "parca": "Arka SAM kontrol modülü",
+          "belirtiler": "Bagaj kapısı açılmama, arka lamba ve geri görüş kamerası arızaları, akü boşalması görülebilir.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://kfz-dietrich.com/blog/mercedes-e-klasse-w212-typische-probleme-xentry/",
+            "https://europremiumparts.com/blogs/mercedes-buying-guides/mercedes-benz-e-class-w212-reliability-guide-everything-you-need-to-know-before-buying"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "e-serisi-w213",
+      "ad": "E Serisi (W213)",
+      "yillar": [
+        2016,
+        2023
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "e200",
+          "ad": "E200",
+          "yakit": "benzin"
+        },
+        {
+          "id": "e200-d",
+          "ad": "E200 d",
+          "yakit": "dizel"
+        },
+        {
+          "id": "e220-d",
+          "ad": "E220 d",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "airmatic-w213",
+          "baslik": "Airmatic havalı süspansiyon sızıntı ve kompresör arızası",
+          "parca": "Hava körüğü, kompresör, valf bloğu",
+          "belirtiler": "Hava körüğü sızdırır, araç çöker, kompresör arızalanır.",
+          "km": "150.000-220.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Yalnızca Airmatic donanımlı araçlarda.",
+          "kaynaklar": [
+            "https://www.whocanfixmycar.com/advice/common-problems-with-the-mercedes-e-class",
+            "https://minbilkoll.se/vanliga-fel/mercedes-benz/e-220/",
+            "https://www.carchecker.pro/reports/mercedes_e200_w213.html"
+          ]
+        }
+      ]
+    }
+  ]
+}
