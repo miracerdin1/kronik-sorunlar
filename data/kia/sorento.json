@@ -1,0 +1,62 @@
+{
+  "marka": "Kia",
+  "markaSlug": "kia",
+  "model": "Sorento",
+  "modelSlug": "sorento",
+  "nesiller": [
+    {
+      "slug": "sorento-um",
+      "ad": "Sorento (UM)",
+      "yillar": [
+        2015,
+        2020
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "2-2-crdi",
+          "ad": "2.2 CRDi",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "egr-valf-sogutucu-tikanmasi",
+          "baslik": "EGR valfi ve soğutucusunda kurum birikmesi",
+          "parca": "EGR valfi / EGR soğutucusu",
+          "belirtiler": "Motor arıza lambası yanar, yüksek devirde güç düşer, soğuk çalıştırmada duman görülür. Soğutucu kanalları çatlayabilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-2-crdi"
+          ],
+          "not": "2015-2016 araçlar için yazılım geri çağırması bulunduğu belirtiliyor; şehir içi kullanımda daha erken ortaya çıkıyor.",
+          "kaynaklar": [
+            "https://minbilkoll.se/vanliga-fel/kia/sorento-2-2/",
+            "https://www.wheelstreet.lt/straipsniai/kia-sorento-daznos-problemos",
+            "https://www.carchecker.pro/reports/kia_sorento_um_2.2_crdi.html"
+          ]
+        },
+        {
+          "id": "dpf-tikanmasi",
+          "baslik": "Dizel partikül filtresi (DPF) tıkanması",
+          "parca": "DPF",
+          "belirtiler": "DPF uyarı lambası, performans düşüşü ve yakıt tüketiminde artış. Çoğunlukla kısa mesafe ve şehir içi kullanımda görülür.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-2-crdi"
+          ],
+          "not": "Düzenli uzun yol kullanımında sorun nadir; filtre kendini temizleyemediğinde tıkanıyor.",
+          "kaynaklar": [
+            "https://minbilkoll.se/vanliga-fel/kia/sorento-2-2/",
+            "https://www.wheelstreet.lt/straipsniai/kia-sorento-daznos-problemos",
+            "https://www.carchecker.pro/reports/kia_sorento_um_2.2_crdi.html"
+          ]
+        }
+      ]
+    }
+  ]
+}

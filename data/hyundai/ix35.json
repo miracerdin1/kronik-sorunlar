@@ -1,0 +1,57 @@
+{
+  "marka": "Hyundai", "markaSlug": "hyundai", "model": "ix35", "modelSlug": "ix35",
+  "nesiller": [{
+    "slug": "ix35-lm", "ad": "ix35 (LM)", "yillar": [2010, 2015], "not": null,
+    "motorlar": [
+      {"id": "1-6-gdi", "ad": "1.6 GDI", "yakit": "benzin"},
+      {"id": "1-7-crdi", "ad": "1.7 CRDi", "yakit": "dizel"},
+      {"id": "2-0-crdi", "ad": "2.0 CRDi", "yakit": "dizel"}
+    ],
+    "sorunlar": [
+      {
+        "id": "debriyaj-ve-volan",
+        "baslik": "Erken debriyaj ve volan aşınması",
+        "parca": "Debriyaj seti / çift kütleli volan",
+        "belirtiler": "Kalkışta titreme ve sarsıntı, debriyaj pedalında sertlik veya kayma, düşük devirde gürültü. Bazı sahipler debriyajın beklenenden çok erken bittiğini bildiriyor.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-7-crdi", "2-0-crdi"],
+        "sanziman": "manuel",
+        "not": null,
+        "kaynaklar": [
+          "https://www.fiches-auto.fr/essai-hyundai/moteur-essai-299-3-hyundai-ix35-_-2l0-crdi-_-136.php",
+          "https://carbuyer.co.uk/hyundai/ix35/owner-reviews",
+          "https://gebrauchtwagenberater.de/hyundai-ix35-probleme/"
+        ]
+      },
+      {
+        "id": "dizel-egr-turbo-dpf",
+        "baslik": "Dizelde EGR, turbo ve DPF arızaları",
+        "parca": "EGR valfi / turbo / dizel partikül filtresi",
+        "belirtiler": "Motor arıza lambası, güç kaybı, turbo hortumu veya EGR soğutucusunda kaçak. Kısa mesafe kullanımda ve yüksek kilometrede DPF tıkanması öne çıkıyor.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-7-crdi", "2-0-crdi"],
+        "sanziman": null,
+        "not": null,
+        "kaynaklar": [
+          "https://www.fiches-auto.fr/essai-hyundai/moteur-essai-299-2-hyundai-ix35-_-1l7-crdi-_-115.php",
+          "https://www.fiches-auto.fr/essai-hyundai/moteur-essai-299-3-hyundai-ix35-_-2l0-crdi-_-136.php",
+          "https://gebrauchtwagenberater.de/hyundai-ix35-probleme/"
+        ]
+      },
+      {
+        "id": "bagaj-kapagi-paslanma",
+        "baslik": "Bagaj kapağı ve arka bölgede paslanma",
+        "parca": "Bagaj kapağı / karoseri",
+        "belirtiler": "Bagaj kapağında ve arka tekerlek yuvası çevresinde zamanla boya kabarması ve pas oluşumu görülebiliyor.",
+        "km": null, "ciddiyet": "dusuk", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "sanziman": null,
+        "not": "Tek tek sahip bildirimlerine dayanıyor; sistematik olduğu kesin değil.",
+        "kaynaklar": [
+          "https://gebrauchtwagenberater.de/hyundai-ix35-probleme/",
+          "https://carbuyer.co.uk/hyundai/ix35/owner-reviews"
+        ]
+      }
+    ]
+  }]
+}

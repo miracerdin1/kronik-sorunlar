@@ -1,0 +1,126 @@
+{
+  "marka": "Peugeot",
+  "markaSlug": "peugeot",
+  "model": "Partner",
+  "modelSlug": "partner",
+  "nesiller": [
+    {
+      "slug": "partner-b9",
+      "ad": "Partner Tepee (B9)",
+      "yillar": [
+        2008,
+        2018
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-6-hdi-92",
+          "ad": "1.6 HDi 92",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-6-hdi-110",
+          "ad": "1.6 HDi 110/115",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-6-bluehdi-100",
+          "ad": "1.6 BlueHDi 100",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "turbo-arizasi",
+          "baslik": "Turbo arızası",
+          "parca": "Turbo kompresör",
+          "belirtiler": "Güç kaybı, düdük/ıslık sesi, egzozdan duman ve yağ kaybı; sonunda araç acil moda girer.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-hdi-92",
+            "1-6-hdi-110"
+          ],
+          "not": "Özellikle 110/115 beygirlik dizellerde erken turbo arızası bildiriliyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-241-pannes-peugeot-partner-tepee.php",
+            "https://www.caradisiac.com/peugeot-partner-2-d-occasion-alerte-fiabilite-sur-ce-ludospace-francais-208958.htm"
+          ]
+        },
+        {
+          "id": "enjektor-arizasi",
+          "baslik": "Enjektör sızıntısı ve arızası",
+          "parca": "Dizel enjektörler",
+          "belirtiler": "Kabinde mazot kokusu, düzensiz rölanti, güç kaybı ve enjektör hata kodu ile acil mod.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-hdi-92",
+            "1-6-hdi-110"
+          ],
+          "not": "HDi enjektörlerinin değişimi pahalı.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-241-pannes-peugeot-partner-tepee.php",
+            "https://www.caradisiac.com/peugeot-partner-2-d-occasion-alerte-fiabilite-sur-ce-ludospace-francais-208958.htm",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?p=758723"
+          ]
+        },
+        {
+          "id": "debriyaj-volan-erken-asinma",
+          "baslik": "Debriyaj ve volanın erken aşınması",
+          "parca": "Debriyaj seti / volan",
+          "belirtiler": "Debriyaj titremesi, kavrama noktasında kayma, kalkışta sarsıntı; volan sesi.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-hdi-92",
+            "1-6-hdi-110"
+          ],
+          "not": "Güçlü versiyonlarda daha sık bildiriliyor; üretici çoğunlukla aşınma parçası sayıyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-241-pannes-peugeot-partner-tepee.php",
+            "https://www.caradisiac.com/peugeot-partner-2-d-occasion-alerte-fiabilite-sur-ce-ludospace-francais-208958.htm"
+          ]
+        },
+        {
+          "id": "adblue-dpf-sistemi",
+          "baslik": "AdBlue ve DPF sistemi arızaları",
+          "parca": "AdBlue enjektörü / tankı, DPF",
+          "belirtiler": "AdBlue uyarı lambası, enjektör arızası, deforme olan AdBlue deposu; DPF tıkanması ve uyarıları.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-bluehdi-100",
+            "1-6-hdi-92",
+            "1-6-hdi-110"
+          ],
+          "not": null,
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-241-pannes-peugeot-partner-tepee.php",
+            "https://www.caradisiac.com/peugeot-partner-2-d-occasion-alerte-fiabilite-sur-ce-ludospace-francais-208958.htm"
+          ]
+        },
+        {
+          "id": "suspansiyon-gurultu-lastik-asinmasi",
+          "baslik": "Süspansiyon gürültüsü, arka yay paslanması ve hızlı lastik aşınması",
+          "parca": "Amortisör yuvası, arka yaylar, lastikler",
+          "belirtiler": "Ön ve arkadan tıkırtı/vuruntu sesleri, arka helezon yaylarda korozyon, özellikle arka lastiklerde hızlı aşınma.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": null,
+          "kaynaklar": [
+            "https://www.caradisiac.com/peugeot-partner-2-d-occasion-alerte-fiabilite-sur-ce-ludospace-francais-208958.htm",
+            "https://www.vehiclestats.co.uk/make/peugeot/partner%20tepee",
+            "https://www.carbuyer.co.uk/peugeot/partner-tepee/owner-reviews"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "marka": "Citroen",
+  "markaSlug": "citroen",
+  "model": "Berlingo",
+  "modelSlug": "berlingo",
+  "nesiller": [
+    {
+      "slug": "berlingo-b9",
+      "ad": "Berlingo (B9)",
+      "yillar": [
+        2008,
+        2018
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-6-hdi-75",
+          "ad": "1.6 HDi 75",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-6-hdi-90",
+          "ad": "1.6 HDi 90",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-6-hdi-110",
+          "ad": "1.6 HDi 110",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "turbo-arizasi",
+          "baslik": "Turbo arızası",
+          "parca": "Turbo",
+          "belirtiler": "Güç kaybı, motorda belirgin ıslık veya gürültü, egzozdan duman ve kirlilik/motor arıza lambasının yanması. Yağ yetersizliği ve geç yapılan bakım turboyu kolayca bitiriyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": null,
+          "not": "Yağ değişimini aksatmamak ve yağ kaçağını erken gidermek önemli.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-citroen/fiabilite-240-pannes-citroen-berlingo-2.php",
+            "https://singletrackworld.com/forum/off-topic/citroen-berlingo-2010-turbo-failure-advice/"
+          ]
+        },
+        {
+          "id": "enjektor-sizdirma",
+          "baslik": "Enjektör gevşemesi ve sızdırması",
+          "parca": "Enjektör / enjektör contası",
+          "belirtiler": "Motor üstünde yağ ve yakıt sızıntısı, kötü rölanti, dumanlanma ve zor çalışma.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": null,
+          "not": "Çoğu durumda conta ve bakır rondela seti değişimiyle çözülür.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-citroen/fiabilite-240-pannes-citroen-berlingo-2.php",
+            "https://www.berlingoforum.com/thread-18279.html"
+          ]
+        },
+        {
+          "id": "egr-valfi",
+          "baslik": "EGR valfi arızası",
+          "parca": "EGR valfi",
+          "belirtiler": "Motor arıza lambası, koruma (limp) moduna geçme, yavaş hızlanırken siyah duman ve güç kaybı.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": null,
+          "not": "Kısa mesafe kullanımda karbon birikimi arızayı artırıyor; bazı araçlarda valf değişimi sorunu çözmüyor, tesisat ve sensör de kontrol edilmeli.",
+          "kaynaklar": [
+            "https://haynes.com/en-gb/tips-tutorials/citroen-berlingo-mk2-common-problems-2008-2018",
+            "https://www.fiches-auto.fr/fiabilite-citroen/fiabilite-240-pannes-citroen-berlingo-2.php",
+            "https://www.berlingoforum.com/thread-10036.html"
+          ]
+        },
+        {
+          "id": "silindir-kapagi-yag-kacagi",
+          "baslik": "Kam kapağı/silindir kapağı arasından yağ kaçağı",
+          "parca": "Kam mahfazası contası",
+          "belirtiler": "Motor üst kısmında yağ sızıntısı ve yağ seviyesinde düşüş.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": null,
+          "not": "Mahfaza sökülüp eski macun temizlenerek yeniden sızdırmazlık yapılır.",
+          "kaynaklar": [
+            "https://haynes.com/en-gb/tips-tutorials/citroen-berlingo-mk2-common-problems-2008-2018",
+            "https://www.fiches-auto.fr/fiabilite-citroen/fiabilite-240-pannes-citroen-berlingo-2.php"
+          ]
+        }
+      ]
+    }
+  ]
+}

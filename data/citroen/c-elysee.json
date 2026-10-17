@@ -1,0 +1,37 @@
+{
+  "marka": "Citroen", "markaSlug": "citroen", "model": "C-Elysee", "modelSlug": "c-elysee",
+  "nesiller": [{
+    "slug": "c-elysee-1", "ad": "C-Elysee (I)", "yillar": [2012, 2022], "not": null,
+    "motorlar": [
+      {"id": "1-6-hdi-92", "ad": "1.6 HDi 92", "yakit": "dizel"},
+      {"id": "1-5-bluehdi-100", "ad": "1.5 BlueHDi 100", "yakit": "dizel"},
+      {"id": "1-2-puretech-82", "ad": "1.2 PureTech 82", "yakit": "benzin"}
+    ],
+    "sorunlar": [
+      {
+        "id": "dizel-egr-enjeksiyon-turbo", "baslik": "1.6 HDi'de EGR, enjeksiyon ve turbo arızaları", "parca": "EGR valfi / enjektör / turbo",
+        "belirtiler": "Motor arıza lambası, rölantide dalgalanma, güç kaybı. Bir olguda EGR valfindeki delik silindire su kaçırmış ve blok çatlamıştır.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["1-6-hdi-92"],
+        "not": "Fransız güvenilirlik sitesindeki veri aynı 1.6 HDi 92 motorunu kullanan diğer modellere aittir; C-Elysee'ye özgü sayı değildir.",
+        "kaynaklar": ["https://www.fiches-auto.fr/articles-auto/chiffres-fiabilite-diesel/s-2522-fiabilite-16-hdi.php", "https://www.arabam.com/blog/?p=115128"]
+      },
+      {
+        "id": "puretech-yag-tuketimi", "baslik": "1.2 PureTech'te aşırı yağ tüketimi", "parca": "Motor (3 silindir)",
+        "belirtiler": "Yağ seviyesinin hızlı düşmesi, bakım aralarında yağ ekleme ihtiyacı.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-2-puretech-82"],
+        "not": "Bir forum sahibi 71.000 km'de artış bildirmiş; bir kullanıcının motoru üretici katkısıyla değişmiş.",
+        "kaynaklar": ["https://forum-auto.matmut.fr/forum/CITROEN/C-ELYSEE/FIABILITE-MOTEUR-1-2-PURETECH/5197258/272965", "https://www.largus.fr/actualite-automobile/moteurs-psa-10-et-12-puretech-quelques-soucis-de-fiabilite-9090390.html"]
+      },
+      {
+        "id": "boya-kabarma-pas", "baslik": "Boya kalkması ve paslanma", "parca": "Kaporta boyası",
+        "belirtiler": "Arka cam çevresi, sis lambası bölgesi gibi yerlerde boya kabarması ve pas oluşumu.",
+        "km": null, "ciddiyet": "dusuk", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "not": "Yalnızca şikayet kayıtlarına dayanıyor (2013 ve 2017 model); boya garantisi tartışması var.",
+        "kaynaklar": ["https://www.sikayetvar.com/citroen/citroen-c-elysee-pas-ve-boya-kalkmasi"]
+      }
+    ]
+  }]
+}

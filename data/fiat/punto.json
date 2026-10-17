@@ -1,0 +1,72 @@
+{
+  "marka": "Fiat", "markaSlug": "fiat", "model": "Punto", "modelSlug": "punto",
+  "nesiller": [{
+    "slug": "punto-199", "ad": "Punto (Grande/Evo, 199)", "yillar": [2005, 2018], "not": null,
+    "motorlar": [
+      {"id": "1-2-8v", "ad": "1.2 8V", "yakit": "benzin"},
+      {"id": "1-4-8v", "ad": "1.4 8V", "yakit": "benzin"},
+      {"id": "1-3-multijet", "ad": "1.3 Multijet", "yakit": "dizel"}
+    ],
+    "sorunlar": [
+      {
+        "id": "elektrikli-direksiyon-arizasi", "baslik": "Elektrikli direksiyon kolonu arızası", "parca": "Elektrikli yön kontrol (EPS) kolonu",
+        "belirtiler": "Direksiyon bir yöne ağırlaşır, yardım aralıklı kesilir ve 'direksiyonu kontrol ettirin' uyarısı yanar. Zamanla arıza kalıcı hale gelir, araç sola çekebilir.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "not": "Hata kodları C1001/C1002 görülebilir; sürüş güvenliğini etkiler.",
+        "kaynaklar": [
+          "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-174-pannes-fiat-punto.php",
+          "https://www.ecutesting.com/common-faults/fiat/fiat-grande-punto-electric-power-steering-column-eps/",
+          "https://www.sikayetvar.com/fiat/fiat-grande-puntoda-kronik-direksiyon-arizasi-surus-guvenligini-tehdit-ediyor",
+          "https://www.fiatforum.com/threads/most-common-issues-with-grande-punto.503321/"
+        ]
+      },
+      {
+        "id": "dualogic-robotik-sanziman", "baslik": "Dualogic robotik şanzıman sorunları", "parca": "Dualogic şanzıman / aktüatör ve seçici ünite",
+        "belirtiler": "Sert ve vuruntulu vites geçişleri, yokuşta tereddüt veya rölantiye düşme, geri vitese zor girme, bazen boşa alıp aracı çalıştırmama.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-4-8v", "1-3-multijet"],
+        "sanziman": "5 ileri Dualogic robotik otomatik",
+        "not": "Bazı arızalar elektriksel kaynaklı (akü/şase) olabilir; önce bunlar kontrol edilmeli.",
+        "kaynaklar": [
+          "https://forum.donanimhaber.com/punto-otomatik-alinir-mi--152732872",
+          "https://www.fiatforum.com/threads/dualogic-problem.320540/"
+        ]
+      },
+      {
+        "id": "multijet-egr-enjeksiyon", "baslik": "1.3 Multijet EGR ve enjeksiyon sorunları", "parca": "EGR valfi / enjektörler",
+        "belirtiler": "Özellikle şehir içi kullanımda EGR tıkanır; çekiş düşüklüğü, tereddüt, siyah duman ve yakıt tüketimi artışı görülür. Enjektörler kirlenir veya tekrar tekrar değişir.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-3-multijet"],
+        "not": "Kısa mesafe kullanım tıkanmayı artırır.",
+        "kaynaklar": [
+          "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-174-pannes-fiat-punto.php",
+          "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-diesel/s-3995-fiabilite-du-moteur-13-jtd-multijet.php",
+          "https://www.fiatforum.com/threads/clean-egr.446341/",
+          "https://www.fiatforum.com/threads/problem-with-multijet-1-3.518997/"
+        ]
+      },
+      {
+        "id": "debriyaj-erken-asinma", "baslik": "Debriyaj ve volan erken aşınması", "parca": "Debriyaj seti / volan",
+        "belirtiler": "Debriyaj kayması, vites geçişlerinde zorlanma, nötrde volan bölgesinden gelen tıkırtı.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-3-multijet"],
+        "not": "Güvenilirlik istatistiklerinde en sık görülen arızalar arasında; özellikle 1.3 Multijet 75 bg'de.",
+        "kaynaklar": [
+          "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-174-pannes-fiat-punto.php",
+          "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-diesel/s-3995-fiabilite-du-moteur-13-jtd-multijet.php"
+        ]
+      },
+      {
+        "id": "elektrikli-cam-arizasi", "baslik": "Elektrikli cam arızası", "parca": "Cam kaldırma mekanizması / kapı kablo demeti",
+        "belirtiler": "Camlar aralıklı olarak açılmaz, düğme tıklar ama cam hareket etmez. Sık sebep kapı menteşesinde kopan kablolar.",
+        "km": null, "ciddiyet": "dusuk", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "kaynaklar": [
+          "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-174-pannes-fiat-punto.php",
+          "https://www.fiatforum.com/threads/grande-punto-electric-window-fault.248108"
+        ]
+      }
+    ]
+  }]
+}
