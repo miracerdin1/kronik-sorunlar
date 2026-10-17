@@ -1,0 +1,177 @@
+{
+  "marka": "Honda",
+  "markaSlug": "honda",
+  "model": "CR-V",
+  "modelSlug": "cr-v",
+  "nesiller": [
+    {
+      "slug": "cr-v-re",
+      "ad": "CR-V (RE)",
+      "yillar": [
+        2007,
+        2012
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "2-0-i-vtec",
+          "ad": "2.0 i-VTEC",
+          "yakit": "benzin"
+        },
+        {
+          "id": "2-2-i-dtec",
+          "ad": "2.2 i-DTEC",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dizel-dpf-egr-tikanmasi",
+          "baslik": "DPF ve EGR tıkanması",
+          "parca": "Dizel partikül filtresi / EGR valfi ve hortumu",
+          "belirtiler": "Motor arıza lambası yanar, güç kaybı ve acil durum moduna geçiş görülür. Kısa mesafe kullanımda daha sık ortaya çıkar; EGR hortumunda çatlama da bildirilmiş.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-2-i-dtec"
+          ],
+          "not": "Sürücü yorumlarına dayanır, örneklem küçüktür.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-honda/fiabilite-420-pannes-honda-crv.php",
+            "https://minbilkoll.se/vanliga-fel/honda/cr-v/",
+            "https://www.carchecker.pro/reports/honda_crv_re_2.2_idtec.html"
+          ]
+        },
+        {
+          "id": "dizel-enjektor-arizasi",
+          "baslik": "Enjektör arızaları",
+          "parca": "Dizel enjektörler",
+          "belirtiler": "Düzensiz çalışma ve arıza lambası görülür. Bir kullanıcı takılı kalan enjektör nedeniyle motorun kontrolsüz devir yapıp bozulduğunu bildirmiş.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-2-i-dtec"
+          ],
+          "not": null,
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-honda/fiabilite-420-pannes-honda-crv.php",
+            "https://www.carchecker.pro/reports/honda_crv_re_2.2_idtec.html"
+          ]
+        },
+        {
+          "id": "dizel-volan-debriyaj",
+          "baslik": "Volan ve debriyaj aşınması",
+          "parca": "Çift kütleli volan / debriyaj",
+          "belirtiler": "Kalkışta titreme, debriyajda tutma sorunu ve volan kırılması bildirilmiştir.",
+          "km": "100.000-160.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-2-i-dtec"
+          ],
+          "not": null,
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-honda/fiabilite-420-pannes-honda-crv.php",
+            "https://www.carchecker.pro/reports/honda_crv_re_2.2_idtec.html"
+          ]
+        },
+        {
+          "id": "benzin-yag-tuketimi",
+          "baslik": "Aşırı yağ tüketimi",
+          "parca": "Yağ segmanları",
+          "belirtiler": "Yağ seviyesi hızla düşer, mavi egzoz dumanı görülebilir. Özellikle 2010-2011 üretimlerde segman sıkışması bildirilmiş.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-0-i-vtec"
+          ],
+          "not": "Kaynaklar sürücü bildirimlerine dayanır.",
+          "kaynaklar": [
+            "https://carwiki.de/honda-cr-v-oelverbrauch-oelverlust",
+            "https://www.carchecker.pro/reports/honda_crv_re_2.0_ivtec.html"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cr-v-rm",
+      "ad": "CR-V (RM)",
+      "yillar": [
+        2012,
+        2018
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "2-0-i-vtec",
+          "ad": "2.0 i-VTEC",
+          "yakit": "benzin"
+        },
+        {
+          "id": "2-2-i-dtec",
+          "ad": "2.2 i-DTEC",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dizel-dpf-egr",
+          "baslik": "DPF ve EGR sorunları",
+          "parca": "Dizel partikül filtresi / EGR",
+          "belirtiler": "Arıza lambası, güç kaybı ve acil durum modu görülür; kısa mesafe kullanımda artar. EGR boru bağlantısında çatlama bildirilmiş.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-2-i-dtec"
+          ],
+          "not": "Sürücü bildirimlerine dayanır, örneklem küçüktür.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-honda/fiabilite-480-pannes-honda-crv.php",
+            "https://minbilkoll.se/vanliga-fel/honda/cr-v/"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cr-v-rw",
+      "ad": "CR-V (RW)",
+      "yillar": [
+        2018,
+        2023
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-5-vtec-turbo",
+          "ad": "1.5 VTEC Turbo",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "yag-seyrelmesi",
+          "baslik": "Motor yağına yakıt karışması",
+          "parca": "Motor yağı / yakıt enjeksiyonu",
+          "belirtiler": "Yağ seviyesi çubukta artar, yağda veya kabinde benzin kokusu gelir. Bazı durumlarda güç kaybı ve arıza lambası görülür; soğuk havada ve kısa yolculuklarda daha belirgindir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-vtec-turbo"
+          ],
+          "not": "Honda yazılım güncellemesi ve uzatılmış garanti uyguladı; 2019 model yılında üretimde düzeltildiği belirtilir. Kaynaklar ağırlıklı olarak ABD pazarını anlatır.",
+          "kaynaklar": [
+            "https://m.carcomplaints.com/Honda/CR-V/2018/fuel_system/fuel_in_oil.shtml",
+            "https://AutoGuide.com/auto-news/2018/10/honda-cr-v-turbo-problems-youre-not-alone.html",
+            "https://www.consumerreports.org/car-recalls-defects/honda-extends-warranty-on-troubled-turbo-engines",
+            "https://minbilkoll.se/vanliga-fel/honda/cr-v/"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "marka": "Suzuki",
+  "markaSlug": "suzuki",
+  "model": "Vitara",
+  "modelSlug": "vitara",
+  "nesiller": [
+    {
+      "slug": "vitara-ly",
+      "ad": "Vitara (LY)",
+      "yillar": [
+        2015,
+        2026
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-6-vvt",
+          "ad": "1.6 VVT",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-4-boosterjet",
+          "ad": "1.4 BoosterJet",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-ddis",
+          "ad": "1.6 DDiS",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-4-hybrid",
+          "ad": "1.4 BoosterJet Hybrid",
+          "yakit": "hibrit"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "surucu-destek-radar-kruz",
+          "baslik": "Radar destekli fren ve cruise control hataları",
+          "parca": "Radar sensörü / sürüş destek sistemi",
+          "belirtiler": "Ekranda 'geçici olarak devre dışı' veya sistem kontrol uyarıları çıkar, adaptif cruise ve çarpışma önleme aralıklı olarak çalışmaz. Bazı araçlarda gereksiz frenleme bildirilmiştir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-4-boosterjet",
+            "1-6-ddis",
+            "1-4-hybrid"
+          ],
+          "sanziman": null,
+          "not": "2015 model dizellerde radar fren desteği yazılımı için geri çağırma bildirilmiştir.",
+          "kaynaklar": [
+            "https://classic.honestjohn.co.uk/suzuki/vitara/",
+            "https://www.fiches-auto.fr/fiabilite-suzuki/fiabilite-533-pannes-suzuki-vitara.php",
+            "https://www.sikayetvar.com/suzuki/vitara-arac"
+          ]
+        },
+        {
+          "id": "multimedya-geri-gorus-kamerasi",
+          "baslik": "Multimedya ekranı ve geri görüş kamerası arızaları",
+          "parca": "Multimedya ünitesi / geri görüş kamerası",
+          "belirtiler": "Ekran donar, sistem açılmaz veya ses kesilir; geri vitesteyken kamera görüntüsü gelmez, bulanık ya da benekli olur.",
+          "km": "20.000-90.000",
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Bir kısım şikayet kamera lensine su girmesiyle ilgilidir.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/suzuki/vitara-arac",
+            "https://classic.honestjohn.co.uk/suzuki/vitara/",
+            "https://www.whocanfixmycar.com/advice/suzuki-vitara-common-problems",
+            "https://www.araclo.com/vehicles/suzuki-vitara-1.4-boosterjet/degerlendirmeler/kullanici-sorunlari"
+          ]
+        },
+        {
+          "id": "vites-gecisi-sarsinti",
+          "baslik": "Vites geçişlerinde sertlik ve otomatikte sarsıntı",
+          "parca": "Şanzıman / debriyaj",
+          "belirtiler": "Manuelde 1. ve 2. vites soğukken zor girer; otomatikte 1-2 geçişinde sarsıntı, eğimde vitesin sürekli inip çıkması görülür.",
+          "km": "20.000-80.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-vvt",
+            "1-4-boosterjet"
+          ],
+          "sanziman": "6 ileri otomatik ve manuel",
+          "not": "Otomatik şanzımanda yazılım güncellemesi iyileştirebilir.",
+          "kaynaklar": [
+            "https://classic.honestjohn.co.uk/suzuki/vitara/",
+            "https://www.whocanfixmycar.com/advice/suzuki-vitara-common-problems",
+            "https://www.araclo.com/vehicles/suzuki-vitara-1.4-boosterjet/degerlendirmeler/kullanici-sorunlari",
+            "https://www.fiches-auto.fr/fiabilite-suzuki/fiabilite-533-pannes-suzuki-vitara.php"
+          ]
+        },
+        {
+          "id": "dizel-dpf-turbo-egr",
+          "baslik": "Dizelde DPF tıkanması ve turbo arızası",
+          "parca": "DPF / turbo / EGR",
+          "belirtiler": "DPF ve motor arıza uyarısı, güç kaybı ve acil durum modu; bazı araçlarda turbo arızası ve EGR temizliği gerekir.",
+          "km": "30.000-80.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-ddis"
+          ],
+          "sanziman": null,
+          "not": "Km aralığı DPF tıkanması içindir; turbo arızaları kaynaklarda daha yüksek km'de bildirilmiştir (yaklaşık 100.000 km).",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-suzuki/fiabilite-533-pannes-suzuki-vitara.php",
+            "https://www.araclo.com/vehicles/suzuki-vitara-1.6-ddis/degerlendirmeler/kullanici-sorunlari"
+          ]
+        },
+        {
+          "id": "klima-sogutmama",
+          "baslik": "Klimanın soğutmaması (kondenser/kompresör)",
+          "parca": "Klima kondenseri / kompresörü",
+          "belirtiler": "Soğutma zamanla zayıflar veya tamamen kesilir; gaz kaçağı, kondenser ya da kompresör arızası çıkabilir.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": null,
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-suzuki/fiabilite-533-pannes-suzuki-vitara.php",
+            "https://www.whocanfixmycar.com/advice/suzuki-vitara-common-problems"
+          ]
+        }
+      ]
+    }
+  ]
+}

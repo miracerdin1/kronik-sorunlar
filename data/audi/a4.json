@@ -1,0 +1,200 @@
+{
+  "marka": "Audi",
+  "markaSlug": "audi",
+  "model": "A4",
+  "modelSlug": "a4",
+  "nesiller": [
+    {
+      "slug": "a4-b8",
+      "ad": "A4 (B8)",
+      "yillar": [
+        2008,
+        2015
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-8-tfsi",
+          "ad": "1.8 TFSI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "2-0-tfsi",
+          "ad": "2.0 TFSI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "2-0-tdi",
+          "ad": "2.0 TDI",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "tfsi-yag-yakma",
+          "baslik": "TFSI motorlarda aşırı yağ tüketimi",
+          "parca": "Piston segmanları / motor havalandırma (PCV) sistemi",
+          "belirtiler": "Yağ seviyesi iki bakım arasında belirgin düşer, hızlanmada veya gaz kesince mavi egzoz dumanı görülür, bujiler yağlanabilir. Sorun özellikle 2012 öncesi (Gen 1-2) motorlarda öne çıkar.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-8-tfsi",
+            "2-0-tfsi"
+          ],
+          "not": "2009-2011 2.0 TFSI (CAEB) için ABD'de toplu dava ve uzatılmış garanti uygulandı; havalandırma elemanı ve yazılım güncellemesi uygulanıyor.",
+          "kaynaklar": [
+            "https://audiworld.com/how-tos/a/audi-a4-b8-information-on-the-oil-consumption-problem-421881",
+            "https://www.thedrive.com/tech/33784/audis-older-2-0-liter-tfsi-engine-most-likely-to-need-rebuild-consumer-reports",
+            "https://kfz-dietrich.com/blog/audi-a4-b8-typische-probleme-diagnose-odis/",
+            "https://wapcar.my/news/used-b8-audi-a4--money-pit-or-sublime-teutonic-sedan-now-at-vios-prices-how-much-to-maintain-and-repair-61640",
+            "https://www.autopartspro.co.uk/tips-advice/problems-with-the-audi-a4-b8-3585"
+          ]
+        },
+        {
+          "id": "zincir-gergisi",
+          "baslik": "Triger zinciri gergi arızası",
+          "parca": "Zincir gergisi / zincir kılavuzları",
+          "belirtiler": "Soğuk çalıştırmada ilk saniyelerde zincir tıkırtısı, güç kaybı, motor arıza lambası. Gergi basıncı kaybederse zincir diş atlayabilir ve motor ağır hasar görebilir.",
+          "km": "80.000-100.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-8-tfsi",
+            "2-0-tfsi"
+          ],
+          "not": "Revize gergi 2012 sonrası Gen 3 motorlarda uygulanıyor; eski motorlara da takılabiliyor.",
+          "kaynaklar": [
+            "https://kfz-dietrich.com/blog/audi-a4-b8-typische-probleme-diagnose-odis/",
+            "https://www.autopartspro.co.uk/tips-advice/problems-with-the-audi-a4-b8-3585",
+            "https://wapcar.my/news/used-b8-audi-a4--money-pit-or-sublime-teutonic-sedan-now-at-vios-prices-how-much-to-maintain-and-repair-61640",
+            "https://www.autodoc.co.uk/info/problems-audi-a4-b8"
+          ]
+        },
+        {
+          "id": "multitronic-sanziman",
+          "baslik": "Multitronic CVT şanzıman arızaları",
+          "parca": "Multitronic şanzıman (kayış/balata, kontrol ünitesi)",
+          "belirtiler": "Kalkışta sarsıntı, vites göstergesinin yanıp sönmesi, sert geçişler, acil durum moduna girme; ileri aşamada metal tozu ve tam arıza.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-8-tfsi",
+            "2-0-tdi"
+          ],
+          "sanziman": "Multitronic CVT otomatik (önden çekişli)",
+          "not": "Düzenli yağ değişimi ömrü uzatıyor; kontrol ünitesi arızalarında genellikle değişim gerekiyor.",
+          "kaynaklar": [
+            "https://www.audiworld.com/how-tos/a/audi-a4-b8-multitronic-cvt-problems-421233",
+            "https://kfz-dietrich.com/blog/audi-a4-b8-typische-probleme-diagnose-odis/",
+            "https://www.autodoc.co.uk/info/problems-audi-a4-b8"
+          ]
+        },
+        {
+          "id": "tdi-egr-dpf",
+          "baslik": "2.0 TDI'da EGR ve DPF tıkanması",
+          "parca": "EGR valfi/soğutucusu, dizel partikül filtresi",
+          "belirtiler": "Düşük devirde güç kaybı, acil durum moduna girme, motor arıza lambası, yakıt tüketiminde artış, sık rejenerasyon. Kısa mesafe kullanımda belirgindir.",
+          "km": "80.000-150.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-0-tdi"
+          ],
+          "not": null,
+          "kaynaklar": [
+            "https://kfz-dietrich.com/blog/audi-a4-b8-typische-probleme-diagnose-odis/",
+            "https://www.euroautopro.com.au/post/common-problems-of-audi-a4-b8-2-0-tdi-a-comprehensive-guide"
+          ]
+        },
+        {
+          "id": "tfsi-su-pompasi",
+          "baslik": "Su pompası ve termostat gövdesi sızıntısı",
+          "parca": "Plastik gövdeli su pompası / termostat",
+          "belirtiler": "Soğutma suyu sızıntısı, sıcaklık dalgalanması, aşırı ısınma uyarısı.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-8-tfsi",
+            "2-0-tfsi"
+          ],
+          "not": null,
+          "kaynaklar": [
+            "https://dailydriven.ro/tr/audi-a4-b8-2008-2016-yaygin-sorunlar-ve-sahip-gorusleri-1596049",
+            "https://wapcar.my/news/used-b8-audi-a4--money-pit-or-sublime-teutonic-sedan-now-at-vios-prices-how-much-to-maintain-and-repair-61640"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "a4-b9",
+      "ad": "A4 (B9)",
+      "yillar": [
+        2016,
+        2023
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-4-tfsi",
+          "ad": "1.4 TFSI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "2-0-tfsi",
+          "ad": "2.0 TFSI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-tdi",
+          "ad": "1.6 TDI",
+          "yakit": "dizel"
+        },
+        {
+          "id": "2-0-tdi",
+          "ad": "2.0 TDI",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "b9-su-pompasi-sogutma",
+          "baslik": "Su pompası / termostat gövdesinden soğutma suyu sızıntısı",
+          "parca": "Su pompası, termostat gövdesi",
+          "belirtiler": "Pompa veya termostat çevresinde soğutma suyu sızıntısı, sıcaklık dalgalanması, kaybolan antifriz.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-0-tfsi"
+          ],
+          "not": "Kaynaklar özellikle 2.0 TFSI ve erken üretimleri anıyor.",
+          "kaynaklar": [
+            "https://europremiumparts.com/en-ca/blogs/audi-buying-guides/achat-dune-audi-a4-s4-et-rs4-b9-doccasion-notre-guide-fiabilite",
+            "https://club.autodoc.co.uk/forum/topic/audi-a4-years-to-avoid",
+            "https://www.euroautopro.com.au/post/common-problems-of-audi-a4-b9-2-0-tfsi-a-comprehensive-guide"
+          ]
+        },
+        {
+          "id": "b9-emme-supabi-karbon",
+          "baslik": "Emme supaplarında karbon birikmesi",
+          "parca": "Emme supapları (direkt enjeksiyon)",
+          "belirtiler": "Rölantide titreme, ateşleme kaçırma, gaz tepkisinde zayıflama ve yakıt tüketiminde artış; kısa mesafe kullanımda belirginleşir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-0-tfsi"
+          ],
+          "not": "Düzenli temizlik (ceviz kabuğu püskürtme) öneriliyor.",
+          "kaynaklar": [
+            "https://europremiumparts.com/en-ca/blogs/audi-buying-guides/achat-dune-audi-a4-s4-et-rs4-b9-doccasion-notre-guide-fiabilite",
+            "https://www.euroautopro.com.au/post/common-problems-of-audi-a4-b9-2-0-tfsi-a-comprehensive-guide"
+          ]
+        }
+      ]
+    }
+  ]
+}

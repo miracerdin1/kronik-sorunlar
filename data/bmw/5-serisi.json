@@ -1,0 +1,197 @@
+{
+  "marka": "BMW",
+  "markaSlug": "bmw",
+  "model": "5 Serisi",
+  "modelSlug": "5-serisi",
+  "nesiller": [
+    {
+      "slug": "5-serisi-f10",
+      "ad": "5 Serisi (F10)",
+      "yillar": [
+        2010,
+        2017
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "520i",
+          "ad": "520i",
+          "yakit": "benzin"
+        },
+        {
+          "id": "520d",
+          "ad": "520d",
+          "yakit": "dizel"
+        },
+        {
+          "id": "525d",
+          "ad": "525d",
+          "yakit": "dizel"
+        },
+        {
+          "id": "530d",
+          "ad": "530d",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "zamanlama-zinciri-asinmasi",
+          "baslik": "Zamanlama zinciri ve gergi aşınması",
+          "parca": "Zamanlama zinciri, kılavuz ve gergi",
+          "belirtiler": "Soğuk çalıştırmada zincirden tıkırtı gelir, motor düzensiz çalışabilir; ihmal edilirse zincir atlar veya kopar ve motor ağır hasar görür.",
+          "km": "80.000-150.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "520d",
+            "525d"
+          ],
+          "not": "Zincir motorun şanzıman tarafında olduğu için değişimi pahalıdır; özellikle 2014 öncesi N47 motorlarda öne çıkar. Forumda geç değişim sorunu büyüten etken olarak anılıyor.",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/f10-525xd-kronik-sorunlar--130410788",
+            "https://forum.donanimhaber.com/bmw-525d-xdrive-alinir-mi--141484807",
+            "https://www.cargurus.co.uk/research/BMW-5-Series-2010-mg12",
+            "https://europremiumparts.com/en-au/blogs/bmw-buying-guides/bmw-5-series-f10-reliability-guide-which-models-to-avoid-and-years-to-buy",
+            "https://dailydriven.ro/tr/bmw-f10-5-serisi-2010-2017-surucu-gorusleri-ve-satin-alma-ipuclari-1595958",
+            "https://carverif.fr/blogs/fiabilite-voitures/bmw-s-rie-5-f10-520d-2-0-184-n47"
+          ]
+        },
+        {
+          "id": "turbo-arizasi",
+          "baslik": "Turbo arızası",
+          "parca": "Turbo",
+          "belirtiler": "Islık sesi, güç kaybı, egzozdan duman ve turbo basınç hatası görülür.",
+          "km": "100.000-190.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "520d",
+            "525d"
+          ],
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/f10-525xd-kronik-sorunlar--130410788",
+            "https://europremiumparts.com/en-au/blogs/bmw-buying-guides/bmw-5-series-f10-reliability-guide-which-models-to-avoid-and-years-to-buy",
+            "https://dailydriven.ro/tr/bmw-f10-5-serisi-2010-2017-surucu-gorusleri-ve-satin-alma-ipuclari-1595958",
+            "https://www.cargurus.co.uk/research/BMW-5-Series-2010-mg12",
+            "https://carverif.fr/blogs/fiabilite-voitures/bmw-s-rie-5-f10-520d-2-0-184-n47"
+          ]
+        },
+        {
+          "id": "egr-dpf-tikanmasi",
+          "baslik": "EGR ve DPF tıkanması",
+          "parca": "EGR valfi, dizel partikül filtresi, emme manifoldu",
+          "belirtiler": "Güç kaybı, motor arıza lambası ve filtre yenileme sorunları; kısa mesafe ve şehir içi kullanımda daha sık görülür.",
+          "km": "90.000-180.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "520d",
+            "525d",
+            "530d"
+          ],
+          "kaynaklar": [
+            "https://europremiumparts.com/en-au/blogs/bmw-buying-guides/bmw-5-series-f10-reliability-guide-which-models-to-avoid-and-years-to-buy",
+            "https://www.carchecker.pro/reports/bmw_530d_f10.html",
+            "https://carverif.fr/blogs/fiabilite-voitures/bmw-s-rie-5-f10-520d-2-0-184-n47"
+          ]
+        },
+        {
+          "id": "enjektor-asinmasi",
+          "baslik": "Dizel enjektör arızaları",
+          "parca": "Enjektörler",
+          "belirtiler": "Düzensiz rölanti, güç kaybı ve yakıt tüketiminde artış.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "520d",
+            "525d"
+          ],
+          "not": "Düzenli ve kaliteli yağ değişimi önerilir.",
+          "kaynaklar": [
+            "https://dailydriven.ro/tr/bmw-f10-5-serisi-2010-2017-surucu-gorusleri-ve-satin-alma-ipuclari-1595958",
+            "https://europremiumparts.com/en-au/blogs/bmw-buying-guides/bmw-5-series-f10-reliability-guide-which-models-to-avoid-and-years-to-buy",
+            "https://www.cargurus.co.uk/research/BMW-5-Series-2010-mg12"
+          ]
+        },
+        {
+          "id": "elektrikli-su-pompasi",
+          "baslik": "Elektrikli su pompası arızası",
+          "parca": "Elektrikli su pompası",
+          "belirtiler": "Aşırı ısınma uyarısı, harici sızıntı olmadan soğutma suyu eksilmesi, sürekli çalışan fanlar ve güç kısıtlama moduna girme.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Kaynaklar motoru belirtmiyor; 2010-2016 üretim F10'larda anılıyor.",
+          "kaynaklar": [
+            "https://www.autodoc.co.uk/info/bmw-f10-water-pump-failures",
+            "https://www.cargurus.co.uk/research/BMW-5-Series-2010-mg12"
+          ]
+        },
+        {
+          "id": "yag-sizintisi",
+          "baslik": "Yağ sızıntıları (külbütör kapağı contası)",
+          "parca": "Külbütör kapağı contası ve yağ contaları",
+          "belirtiler": "Motor çevresinde yağ sızması, yağ kokusu ve yağ seviyesinde düşüş.",
+          "km": "120.000-200.000",
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": [
+            "525d",
+            "530d"
+          ],
+          "not": "Km, 530d için kapak contası verisidir; diğer kaynak yağ sızıntılarının yüksek kilometrede sık olduğunu belirtiyor.",
+          "kaynaklar": [
+            "https://dailydriven.ro/tr/bmw-f10-5-serisi-2010-2017-surucu-gorusleri-ve-satin-alma-ipuclari-1595958",
+            "https://www.carchecker.pro/reports/bmw_530d_f10.html"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "5-serisi-g30",
+      "ad": "5 Serisi (G30)",
+      "yillar": [
+        2017,
+        2023
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "520i",
+          "ad": "520i",
+          "yakit": "benzin"
+        },
+        {
+          "id": "520d",
+          "ad": "520d",
+          "yakit": "dizel"
+        },
+        {
+          "id": "530d",
+          "ad": "530d",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "elektronik-idrive-gosterge",
+          "baslik": "iDrive ve dijital gösterge elektronik arızaları",
+          "parca": "iDrive, dijital gösterge paneli, sensörler",
+          "belirtiler": "iDrive donması, dijital göstergenin arızalanması, lastik basınç sensörü, park ve şerit asistanı hataları.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "iDrive sorunları ağırlıklı olarak 2017-2020 araçlarda anılıyor; yazılım güncellemesi ile giderilebilir.",
+          "kaynaklar": [
+            "https://gebrauchtwagenberater.de/bmw-5er-g30-g31-probleme/",
+            "https://europremiumparts.com/blogs/bmw-buying-guides/bmw-5-series-g30-reliability-guide-everything-you-need-to-know-before-buying"
+          ]
+        }
+      ]
+    }
+  ]
+}

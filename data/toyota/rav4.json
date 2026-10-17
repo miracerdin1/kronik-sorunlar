@@ -1,0 +1,216 @@
+{
+  "marka": "Toyota",
+  "markaSlug": "toyota",
+  "model": "RAV4",
+  "modelSlug": "rav4",
+  "nesiller": [
+    {
+      "slug": "rav4-xa30",
+      "ad": "RAV4 (XA30)",
+      "yillar": [
+        2006,
+        2012
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "2-0-benzin",
+          "ad": "2.0 VVT-i / Valvematic",
+          "yakit": "benzin"
+        },
+        {
+          "id": "2-2-d-4d",
+          "ad": "2.2 D-4D (136/150/177 BG)",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "egr-valfi-tikanmasi",
+          "baslik": "EGR valfi kirlenmesi ve tıkanması",
+          "parca": "EGR valfi",
+          "belirtiler": "Motor gücünde düşüş, kararsız rölanti ve arıza lambası; valf kurum yüzünden sıkışıyor.",
+          "km": "54.000-90.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-2-d-4d"
+          ],
+          "sanziman": null,
+          "not": "Fransız kullanıcı bildirimlerinde 136 ve 177 BG sürümlerinde en sık anılan arızalardan biri.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-toyota/fiabilite-259-pannes-toyota-rav4.php",
+            "https://carwiki.de/toyota-rav4-probleme"
+          ]
+        },
+        {
+          "id": "enjektor-ve-dpf-arizasi",
+          "baslik": "Enjektör arızası ve DPF tıkanması",
+          "parca": "Enjektörler / 5. enjektör (DPF)",
+          "belirtiler": "Düzensiz çalışma, güç kaybı, duman; D-CAT sürümde DPF'yi temizleyen 5. enjektör arızalanınca filtre tıkanıyor.",
+          "km": "40.000-150.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-2-d-4d"
+          ],
+          "sanziman": null,
+          "not": "Kilometre aralığı Fransız kullanıcı bildirimlerindeki geniş dağılımdan alındı.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-toyota/fiabilite-259-pannes-toyota-rav4.php",
+            "https://carwiki.de/toyota-rav4-probleme"
+          ]
+        },
+        {
+          "id": "silindir-kapagi-contasi",
+          "baslik": "Silindir kapağı contası ve kapak arızası",
+          "parca": "Silindir kapağı contası",
+          "belirtiler": "Soğutma suyu kaybı, aşırı ısınma ve yağ-su karışması belirtileri.",
+          "km": "40.000-170.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-2-d-4d"
+          ],
+          "sanziman": null,
+          "not": "Erken üretim motorlarda daha yaygın; Aralık 2008 sonrası üretimlerde düzeltildiği belirtiliyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-toyota/fiabilite-259-pannes-toyota-rav4.php",
+            "https://carwiki.de/toyota-rav4-probleme",
+            "https://www.toyotaownersclub.com/forums/topic/210946-22-d-4d-reliability-2013-model/"
+          ]
+        },
+        {
+          "id": "yag-tuketimi",
+          "baslik": "Aşırı yağ tüketimi",
+          "parca": "Motor (segman/sızdırmazlık)",
+          "belirtiler": "Bakım aralarında yağ seviyesinin belirgin düşmesi; özellikle 2009 sonrası benzinlilerde ve 150 BG dizelde bildirilmiş.",
+          "km": "25.000-50.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": null,
+          "not": "Düzenli yağ seviyesi kontrolü öneriliyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-toyota/fiabilite-259-pannes-toyota-rav4.php",
+            "https://carwiki.de/toyota-rav4-probleme",
+            "https://www.toyotaownersclub.com/forums/topic/210946-22-d-4d-reliability-2013-model/"
+          ]
+        },
+        {
+          "id": "devirdaim-sizintisi",
+          "baslik": "Devirdaim (su pompası) sızıntısı",
+          "parca": "Su pompası",
+          "belirtiler": "Soğutma suyu eksilmesi, pompa çevresinde sızıntı izi; ihmal edilirse aşırı ısınma.",
+          "km": "60.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": null,
+          "not": "136 BG dizelde yaklaşık 60.000 km civarında bildirilmiş; 2.0 benzin için motor genel kaynağı kullanıldı.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-toyota/fiabilite-259-pannes-toyota-rav4.php",
+            "https://carwiki.de/toyota-rav4-probleme",
+            "https://www.autocentrum.pl/publikacje/porady/encyklopedia-silnikow-toyota-2-0-valvematic-benzynowy/"
+          ]
+        },
+        {
+          "id": "volan-debriyaj",
+          "baslik": "Volan ve debriyaj aşınması",
+          "parca": "Çift kütleli volan / debriyaj",
+          "belirtiler": "Debriyaj bırakırken vuruntu, titreşim ve erken debriyaj ömrü.",
+          "km": "42.000-85.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-2-d-4d"
+          ],
+          "sanziman": "manuel",
+          "not": "Debriyaj aralığı 177 BG kullanıcı bildirimlerinden.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-toyota/fiabilite-259-pannes-toyota-rav4.php",
+            "https://carwiki.de/toyota-rav4-probleme"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "rav4-xa40",
+      "ad": "RAV4 (XA40)",
+      "yillar": [
+        2013,
+        2018
+      ],
+      "not": "Bu nesil için güvenilir ve çift kaynaklı veri az; yalnızca doğrulanan sorun yazıldı. Dizel sürümler bilinçli olarak eklenmedi.",
+      "motorlar": [
+        {
+          "id": "2-0-benzin",
+          "ad": "2.0 Valvematic (3ZR-FAE)",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "devirdaim-sizintisi",
+          "baslik": "Devirdaim (su pompası) sızıntısı",
+          "parca": "Su pompası",
+          "belirtiler": "Soğutma suyu seviyesi düşer, pompa bölgesinde sızıntı veya ses oluşur; ihmalde aşırı ısınma ve conta hasarı.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-0-benzin"
+          ],
+          "sanziman": null,
+          "not": "Motor genel kaynağı (aynı 3ZR-FAE motoru) ile desteklenir.",
+          "kaynaklar": [
+            "https://carwiki.de/toyota-rav4-probleme",
+            "https://www.autocentrum.pl/publikacje/porady/encyklopedia-silnikow-toyota-2-0-valvematic-benzynowy/"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "rav4-xa50",
+      "ad": "RAV4 (XA50)",
+      "yillar": [
+        2019,
+        2026
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "2-0-benzin",
+          "ad": "2.0 benzin",
+          "yakit": "benzin"
+        },
+        {
+          "id": "2-5-hibrit",
+          "ad": "2.5 Hybrid",
+          "yakit": "hibrit"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "sogutma-bypass-valfi",
+          "baslik": "Soğutma suyu bypass valfi sızıntısı",
+          "parca": "Soğutma suyu bypass valfi",
+          "belirtiler": "Gösterge panelinde bakım uyarısı, soğutma suyu kaybı, zayıf kalorifer ve aşırı ısınma.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-5-hibrit"
+          ],
+          "sanziman": null,
+          "not": "En çok 2019-2020 üretimlerde bildirilmiş. Kaynaklar ABD/Avrupa 2.5 motor verisine dayanır; Türkiye'deki hibritle birebir örtüştüğü kesin değil.",
+          "kaynaklar": [
+            "https://www.carcomplaints.com/Toyota/RAV4/2019/engine/engine-3.shtml",
+            "https://autoreliabilityindex.com/toyota/rav4/problems/engine",
+            "https://www.carchecker.pro/reports/toyota_rav4_xa50_hybrid.html"
+          ]
+        }
+      ]
+    }
+  ]
+}

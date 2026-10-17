@@ -1,0 +1,142 @@
+{
+  "marka": "Volvo",
+  "markaSlug": "volvo",
+  "model": "XC60",
+  "modelSlug": "xc60",
+  "nesiller": [
+    {
+      "slug": "xc60-1-nesil",
+      "ad": "XC60 (1. nesil)",
+      "yillar": [
+        2008,
+        2017
+      ],
+      "not": "Bu dosya yalnızca ilk nesli kapsar; 2017 sonrası ikinci nesil için güvenilir kaynak bulunamadı.",
+      "motorlar": [
+        {
+          "id": "2-0-d3",
+          "ad": "2.0 D3",
+          "yakit": "dizel"
+        },
+        {
+          "id": "2-0-d4",
+          "ad": "2.0 D4",
+          "yakit": "dizel"
+        },
+        {
+          "id": "2-4-d5",
+          "ad": "2.4 D5",
+          "yakit": "dizel"
+        },
+        {
+          "id": "2-0-t5",
+          "ad": "2.0 T5",
+          "yakit": "benzin"
+        },
+        {
+          "id": "3-0-t6",
+          "ad": "3.0 T6",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "egr-vanasi-emme-kurumlanmasi",
+          "baslik": "EGR valfi ve emme tarafında kurum birikmesi",
+          "parca": "EGR valfi / EGR soğutucusu / emme kelebekleri",
+          "belirtiler": "Rölantide titreme, çekişte tereddüt, yakıt tüketiminde artış; ağır vakalarda motor arıza lambası ve limp moduna geçiş. Kısa mesafe kullanımda daha sık görülür.",
+          "km": "56.000-180.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-0-d3",
+            "2-0-d4",
+            "2-4-d5"
+          ],
+          "sanziman": null,
+          "not": "Fransız kullanıcı verilerinde en çok 2.0 D4'te raporlanıyor; Volvo EGR/emme manifoldu için servis kampanyaları yürütmüştü, şasi numarasıyla kontrol edilmeli.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-volvo/fiabilite-487-pannes-volvo-xc60.php",
+            "https://minbilkoll.se/guide/volvo-xc60-guide",
+            "https://reidasofficial.lt/apzvalgos/varikliai/volvo-xc60-su-d5-dyzeliu-kokios-brangios-bedos-gresia-pirkejams/",
+            "https://www.volvoforums.org.uk/forum/technical-topics/diesel-engines/311773-2013-xc60-d5-egr-issue"
+          ]
+        },
+        {
+          "id": "dpf-tikanmasi",
+          "baslik": "Dizel partikül filtresi (DPF) tıkanması",
+          "parca": "DPF",
+          "belirtiler": "DPF uyarısı, sık rejenerasyon, yanık kokusu; tekrarlayan rejenerasyon yağın yakıtla incelmesine yol açabilir (yağ seviyesi yükselir).",
+          "km": "120.000-150.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-0-d3",
+            "2-0-d4",
+            "2-4-d5"
+          ],
+          "sanziman": null,
+          "not": "Daha çok kısa mesafe şehir kullanımında görülür. 2010'da ilk DPF'li dizellerde yağ seyrelmesi nedeniyle geri çağırma olmuştu.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-volvo/fiabilite-487-pannes-volvo-xc60.php",
+            "https://minbilkoll.se/guide/volvo-xc60-guide",
+            "https://reidasofficial.lt/apzvalgos/varikliai/volvo-xc60-su-d5-dyzeliu-kokios-brangios-bedos-gresia-pirkejams/"
+          ]
+        },
+        {
+          "id": "triger-kayisi",
+          "baslik": "Triger kayışının erken yıpranması / kopması",
+          "parca": "Triger kayışı, gergi ve su pompası",
+          "belirtiler": "Genellikle belirti vermeden kopar; kopma halinde valf-piston teması ve ağır motor hasarı oluşur. Kayış çevresindeki yağ sızıntıları ömrünü kısaltır.",
+          "km": "140.000-150.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-0-d4",
+            "2-4-d5"
+          ],
+          "sanziman": null,
+          "not": "Resmi aralık 180.000 km / 10 yıl olsa da uzmanlar D5 için 140-150 bin km'de değişimi öneriyor; D4'te kayış su pompasını da çalıştırdığı için set olarak değiştirilmeli.",
+          "kaynaklar": [
+            "https://minbilkoll.se/guide/volvo-xc60-guide",
+            "https://reidasofficial.lt/apzvalgos/varikliai/volvo-xc60-su-d5-dyzeliu-kokios-brangios-bedos-gresia-pirkejams/"
+          ]
+        },
+        {
+          "id": "haldex-pompasi-awd",
+          "baslik": "Haldex AWD pompası arızası",
+          "parca": "Haldex arka diferansiyel kuplajı / pompası",
+          "belirtiler": "Gösterge panelinde dört çeker sistemi arıza uyarısı, AWD'nin devre dışı kalması. Yağdaki kirlilik pompayı tıkayabiliyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": null,
+          "not": "Yalnızca AWD (dört çeker) versiyonlarda; Haldex yağ/filtre bakımının yapılıp yapılmadığı sorulmalı.",
+          "kaynaklar": [
+            "https://minbilkoll.se/guide/volvo-xc60-guide",
+            "https://www.volvoforums.org.uk/forum/technical-topics/xc90-02-15-general/229518-haldex-pump-how-reliable"
+          ]
+        },
+        {
+          "id": "d4-yag-tuketimi",
+          "baslik": "2.0 D4 motorda aşırı yağ tüketimi",
+          "parca": "Piston yağ segmanları",
+          "belirtiler": "Yağ seviyesinin sık sık düşmesi, hız kesme sırasında mavi duman. Aynı motorlu Volvo'larda 10.000 km'de 8 litreye varan tüketim bildirilmiş.",
+          "km": "90.000-120.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-0-d4"
+          ],
+          "sanziman": null,
+          "not": "Forumda sebep olarak eski tip piston segman tasarımı gösteriliyor; ikinci kaynak aynı motoru XC60 dışı modellerde (V70/XC70) anlatıyor, motor kaynaklı arıza olarak alındı.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-volvo/fiabilite-487-pannes-volvo-xc60.php",
+            "https://www.volvoforums.org.uk/forum/technical-topics/s80-06-16-v70-xc70-07-16-general/299872-d4204t5-excessive-oil-burn?p=4157828"
+          ]
+        }
+      ]
+    }
+  ]
+}
