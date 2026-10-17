@@ -1,0 +1,137 @@
+{
+  "marka": "Audi",
+  "markaSlug": "audi",
+  "model": "A3",
+  "modelSlug": "a3",
+  "nesiller": [
+    {
+      "slug": "a3-8v",
+      "ad": "A3 / A3 Sportback (8V)",
+      "yillar": [
+        2012,
+        2020
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-0-tfsi",
+          "ad": "1.0 TFSI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-2-tfsi",
+          "ad": "1.2 TFSI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-4-tfsi",
+          "ad": "1.4 TFSI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-tdi",
+          "ad": "1.6 TDI",
+          "yakit": "dizel"
+        },
+        {
+          "id": "2-0-tdi",
+          "ad": "2.0 TDI",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dq200-s-tronic-debriyaj-mekatronik",
+          "baslik": "S tronic (DQ200) kuru debriyaj ve mekatronik arızası",
+          "parca": "Çift kavramalı şanzıman (debriyaj / mekatronik)",
+          "belirtiler": "Kalkışta titreme ve vuruntu, vites geçişlerinde tereddüt veya sertlik. Yoğun şehir trafiğinde debriyaj erken aşınır.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-0-tfsi",
+            "1-2-tfsi",
+            "1-4-tfsi",
+            "1-6-tdi"
+          ],
+          "sanziman": "7 ileri S tronic (DQ200) kuru kavramalı",
+          "not": "Yazılım ve hidrolik güncellemeleri bazı sorunları azaltmış; düzenli yağ bakımı önerilir.",
+          "kaynaklar": [
+            "https://autoblog.spidersweb.pl/audi-a3-8v-kontra-usterki-przeswietlamy-popularnego-kompakta-klasy-premium",
+            "https://gebrauchtwagenberater.de/audi-a3-8v-probleme/",
+            "https://minbilkoll.se/vanliga-fel/audi/a3/"
+          ]
+        },
+        {
+          "id": "dizel-dpf-egr-tikanmasi",
+          "baslik": "Dizel motorlarda DPF ve EGR tıkanması",
+          "parca": "DPF / EGR valfi",
+          "belirtiler": "Kısa mesafe ve şehir kullanımında partikül filtresi dolar, arıza lambası yanar, performans düşer; EGR ve emme tarafında kurum birikir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-tdi",
+            "2-0-tdi"
+          ],
+          "not": null,
+          "kaynaklar": [
+            "https://gebrauchtwagenberater.de/audi-a3-8v-probleme/",
+            "https://autoblog.spidersweb.pl/audi-a3-8v-kontra-usterki-przeswietlamy-popularnego-kompakta-klasy-premium",
+            "https://minbilkoll.se/vanliga-fel/audi/a3/"
+          ]
+        },
+        {
+          "id": "1-6-tdi-devirdaim-sizintisi",
+          "baslik": "1.6 TDI devirdaim (su pompası) sızıntısı",
+          "parca": "Su pompası",
+          "belirtiler": "Soğutma suyu eksilir, pompa çevresinde sızıntı izi oluşur; ihmal edilirse motor ısınabilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-tdi"
+          ],
+          "not": null,
+          "kaynaklar": [
+            "https://www.autoreview.nl/tweedehands/id/30690/aankooptips-audi-a3-occasion-uitvoeringen-problemen-prijzen",
+            "https://autoblog.spidersweb.pl/audi-a3-8v-kontra-usterki-przeswietlamy-popularnego-kompakta-klasy-premium"
+          ]
+        },
+        {
+          "id": "tfsi-enjektor-sizintisi",
+          "baslik": "1.2 / 1.4 TFSI enjektör sızıntısı",
+          "parca": "Yakıt enjektörleri",
+          "belirtiler": "Soğuk çalıştırmada motor kısa süre üç silindirde çalışıyormuş gibi titrer.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-tfsi",
+            "1-4-tfsi"
+          ],
+          "not": "Tek kaynaklı.",
+          "kaynaklar": [
+            "https://www.autoreview.nl/tweedehands/id/30690/aankooptips-audi-a3-occasion-uitvoeringen-problemen-prijzen"
+          ]
+        },
+        {
+          "id": "1-2-tfsi-eksantrik-faz-ayarlayici",
+          "baslik": "1.2 TFSI eksantrik faz ayarlayıcı (VVT) sorunu",
+          "parca": "Eksantrik mili faz ayarlayıcı",
+          "belirtiler": "Motor ayarı bozulur, arıza lambası ve düzensiz çalışma görülebilir; özellikle 2015 öncesi üretimlerde.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-tfsi"
+          ],
+          "not": "Tek kaynaklı.",
+          "kaynaklar": [
+            "https://autoblog.spidersweb.pl/audi-a3-8v-kontra-usterki-przeswietlamy-popularnego-kompakta-klasy-premium"
+          ]
+        }
+      ]
+    }
+  ]
+}

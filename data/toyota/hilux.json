@@ -1,0 +1,67 @@
+{
+  "marka": "Toyota",
+  "markaSlug": "toyota",
+  "model": "Hilux",
+  "modelSlug": "hilux",
+  "nesiller": [
+    {
+      "slug": "hilux-an120-an130",
+      "ad": "Hilux (AN120/AN130)",
+      "yillar": [
+        2016,
+        2026
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "2-4-d-4d",
+          "ad": "2.4 D-4D",
+          "yakit": "dizel"
+        },
+        {
+          "id": "2-8-d-4d",
+          "ad": "2.8 D-4D",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dpf-tikanma-rejenerasyon",
+          "baslik": "DPF tıkanması ve rejenerasyon sorunu",
+          "parca": "Dizel partikül filtresi (DPF)",
+          "belirtiler": "Güç kaybı, yakıt tüketiminde artış ve egzozdan aşırı beyaz duman görülür. Kısa ve şehir içi kullanımda filtre kendini yakamaz, ağır vakalarda motor koruma moduna girebilir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "En çok 2015-2018 arası 2.8 motorda raporlandı. Toyota 2018 ortasından itibaren manuel rejenerasyon düğmesi ekledi, ECU yazılım güncellemesi ve gerektiğinde DPF değişimi sundu. 2021 kasa yenilemesinde motor kalibrasyonu da değişti.",
+          "kaynaklar": [
+            "https://www.drive.com.au/news/toyota-hilux-dpf-faults-fixed-company-claims-as-it-urges-more-customers-to-come-forward/",
+            "https://www.carsales.com.au/editorial/details/toyota-addresses-dpf-debacle-124604",
+            "https://www.drivencarguide.co.nz/news/toyota-gets-sued-over-diesel-filters-in-hilux-and-prado-models",
+            "https://www.4x4australia.com.au/?p=359621",
+            "https://www.whichcar.com.au/?p=533200",
+            "https://carsguide.com.au/toyota/hilux/problems/diesel"
+          ]
+        },
+        {
+          "id": "toz-emme-maf-koruma-modu",
+          "baslik": "Toz emişi nedeniyle MAF sensörü arızası ve koruma modu",
+          "parca": "Hava akış (MAF) sensörü / emme sistemi",
+          "belirtiler": "İnce toz hava filtresini geçip MAF sensörüne yapışır, sensör yanlış okur ve motor uyarısız şekilde koruma moduna girer. Güç düşer, çekiş ve denge kontrolü devre dışı kalır.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-8-d-4d"
+          ],
+          "not": "Özellikle tozlu yollarda ve şnorkelli araçlarda görüldü. Toyota servis bülteni yayımladı, emme sisteminin yeniden tasarımını açıkladı, geri çağırma yapmadı.",
+          "kaynaklar": [
+            "https://unsealed4x4.com.au/toyota-hilux-might-dust-ingesting-problem/",
+            "https://www.carsales.com.au/editorial/details/toyota-addresses-dpf-debacle-124604"
+          ]
+        }
+      ]
+    }
+  ]
+}

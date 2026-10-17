@@ -1,0 +1,123 @@
+{
+  "marka": "Renault",
+  "markaSlug": "renault",
+  "model": "Kangoo",
+  "modelSlug": "kangoo",
+  "nesiller": [
+    {
+      "slug": "kangoo-x61",
+      "ad": "Kangoo / Kangoo Multix (X61)",
+      "yillar": [
+        2008,
+        2021
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-5-dci",
+          "ad": "1.5 dCi (K9K)",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-2-tce",
+          "ad": "1.2 TCe (H5F)",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-16v",
+          "ad": "1.6 16V",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dci-enjektor",
+          "baslik": "1.5 dCi enjektör arızaları",
+          "parca": "Enjektörler / yüksek basınç yakıt sistemi",
+          "belirtiler": "Motor düzensiz çalışır, tıkırtı ve vuruntu sesi yapar, çekiş düşer, arıza lambası yanar; bazen hiç çalışmaz.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "not": "Özellikle 85 ve 110 bg versiyonlarda daha sık bildirilmiş; kötü yakıt ve kurum birikimi etkili.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-243-pannes-renault-kangoo-2.php",
+            "https://www.caradisiac.com/Maxi-fiche-fiabilite-que-vaut-le-Renault-Kangoo-2-en-occasion-93188.htm",
+            "https://gebrauchtwagenberater.de/renault-kangoo-mk2-probleme/",
+            "https://carwiki.de/renault-kangoo-probleme"
+          ]
+        },
+        {
+          "id": "dci-turbo",
+          "baslik": "1.5 dCi turbo arızası",
+          "parca": "Turbo",
+          "belirtiler": "Güç kaybı, ıslık veya uğultu sesi, egzozdan duman ve limp moduna girme.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "not": "Onarım uzmanlık gerektirir ve masraflıdır.",
+          "kaynaklar": [
+            "https://carwiki.de/renault-kangoo-probleme",
+            "https://gebrauchtwagenberater.de/renault-kangoo-mk2-probleme/",
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-243-pannes-renault-kangoo-2.php"
+          ]
+        },
+        {
+          "id": "dci-egr",
+          "baslik": "EGR valfi kurumlanması",
+          "parca": "EGR valfi",
+          "belirtiler": "Çekiş düşüklüğü, arıza lambası, düzensiz rölanti; valf kurumdan sıkışır.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "kaynaklar": [
+            "https://gebrauchtwagenberater.de/renault-kangoo-mk2-probleme/",
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-243-pannes-renault-kangoo-2.php"
+          ]
+        },
+        {
+          "id": "tce-yag-triger",
+          "baslik": "1.2 TCe yağ tüketimi ve motor hasarı",
+          "parca": "Piston segmanları / zincir / motor",
+          "belirtiler": "Yağ seviyesi hızla düşer, soğuk çalıştırmada zincir sesi gelir; ağır vakalarda motor hasarı oluşur.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-tce"
+          ],
+          "not": "Yağ seviyesini sık kontrol etmek gerekir; kaynaklarda bu motordan kaçınılması öneriliyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-243-pannes-renault-kangoo-2.php",
+            "https://gebrauchtwagenberater.de/renault-kangoo-mk2-probleme/",
+            "https://carwiki.de/renault-kangoo-probleme"
+          ]
+        },
+        {
+          "id": "debriyaj-volan",
+          "baslik": "Debriyaj ve volan aşınması",
+          "parca": "Debriyaj / volan",
+          "belirtiler": "Debriyaj kayması, titreme veya pedal sertliği; vites geçişlerinde zorlanma.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-243-pannes-renault-kangoo-2.php",
+            "https://www.caradisiac.com/Maxi-fiche-fiabilite-que-vaut-le-Renault-Kangoo-2-en-occasion-93188.htm"
+          ]
+        }
+      ]
+    }
+  ]
+}

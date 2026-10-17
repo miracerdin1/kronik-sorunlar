@@ -1,0 +1,89 @@
+{
+  "marka": "Ford",
+  "markaSlug": "ford",
+  "model": "Transit Courier",
+  "modelSlug": "transit-courier",
+  "nesiller": [
+    {
+      "slug": "transit-courier-b460",
+      "ad": "Transit/Tourneo Courier (B460)",
+      "yillar": [
+        2014,
+        2023
+      ],
+      "not": "Tourneo Courier ve Transit Courier aynı platformu paylaşır; 2023 sonrası yeni nesil Courier bu kapsamda değildir.",
+      "motorlar": [
+        {
+          "id": "1-5-tdci",
+          "ad": "1.5 TDCi",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-6-tdci",
+          "ad": "1.6 TDCi",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-0-ecoboost",
+          "ad": "1.0 EcoBoost",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dpf-tikanmasi-yakit-seyrelmesi",
+          "baslik": "DPF tıkanması ve motor yağına yakıt karışması",
+          "parca": "Dizel partikül filtresi (DPF)",
+          "belirtiler": "Gösterge panelinde motor/DPF uyarısı yanar, güç düşer, yağ seviyesi yükselir ve yağda mazot kokusu olur. Kısa mesafe şehir kullanımında sık görülür.",
+          "km": "60.000-150.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-tdci"
+          ],
+          "not": "Şikayetvar'daki Courier DPF kayıtları 2021-2022 model araçlara ait; araclo ve carchecker daha genel değerlendirmedir.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/ford/tourneo-courier/teknik",
+            "https://www.sikayetvar.com/ford/tourneo-courier/motor-arizasi",
+            "https://www.araclo.com/vehicles/ford-tourneo-courier-1.5-tdci/degerlendirmeler/kullanici-sorunlari",
+            "https://www.carchecker.pro/reports/ford_tourneo_courier_mk1_1.5_tdci.html"
+          ]
+        },
+        {
+          "id": "ecoboost-sogutma-suyu-kaybi",
+          "baslik": "1.0 EcoBoost soğutma suyu kaybı ve aşırı ısınma",
+          "parca": "Soğutma sistemi (degas hortumu / silindir kapağı)",
+          "belirtiler": "Genleşme kabındaki su seviyesi sebepsiz düşer, motor ısınma uyarısı verir. İhmal edilirse motor ağır hasar görebilir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-0-ecoboost"
+          ],
+          "not": "Kaynaklar 1.0 EcoBoost motorunu genel olarak (Fiesta/Focus) anlatır; Courier'a özel sayfa değildir. Erken üretimlerde plastik degas hortumu için geri çağırma yapılmıştır.",
+          "kaynaklar": [
+            "https://autoscore.pro/posts/ford-1.0-ecoboost-reliability-wet-belt-issues",
+            "https://www.autopartspro.co.uk/tips-advice/what-are-common-faults-with-the-ford-focus-1-0-ecoboost-5903"
+          ]
+        },
+        {
+          "id": "ecoboost-yagli-triger-kayisi",
+          "baslik": "1.0 EcoBoost yağ banyolu triger kayışı yıpranması",
+          "parca": "Yağ banyolu triger kayışı ve yağ emiş süzgeci",
+          "belirtiler": "Kayıştan kopan kauçuk parçacıklar yağ emişini tıkayabilir; yağ basıncı uyarısı, motor sesi veya ani motor arızası görülebilir. Yanlış yağ ve geciken bakım riski artırır.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-0-ecoboost"
+          ],
+          "not": "Kaynaklar motoru genel olarak anlatır; Courier'a özel değildir. Üretici onaylı yağ kullanımı ve değişim aralığına uyum önemlidir.",
+          "kaynaklar": [
+            "https://autoscore.pro/posts/ford-1.0-ecoboost-reliability-wet-belt-issues",
+            "https://www.autopartspro.co.uk/tips-advice/what-are-common-faults-with-the-ford-focus-1-0-ecoboost-5903"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "marka": "Mercedes-Benz",
+  "markaSlug": "mercedes-benz",
+  "model": "C Serisi",
+  "modelSlug": "c-serisi",
+  "nesiller": [
+    {
+      "slug": "c-serisi-w204",
+      "ad": "C Serisi (W204)",
+      "yillar": [
+        2007,
+        2014
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "c180-kompressor",
+          "ad": "C180 Kompressor 1.8 (M271)",
+          "yakit": "benzin"
+        },
+        {
+          "id": "c180-cgi",
+          "ad": "C180 CGI 1.8 (M271 EVO)",
+          "yakit": "benzin"
+        },
+        {
+          "id": "c200-kompressor",
+          "ad": "C200 Kompressor 1.8 (M271)",
+          "yakit": "benzin"
+        },
+        {
+          "id": "c200-cdi",
+          "ad": "C200 CDI 2.1 (OM651)",
+          "yakit": "dizel"
+        },
+        {
+          "id": "c220-cdi",
+          "ad": "C220 CDI 2.1 (OM651)",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "m271-zincir-uzamasi",
+          "baslik": "Zamanlama zinciri uzaması ve soğuk çalışma sesi",
+          "parca": "Zamanlama zinciri, gergi, kılavuz ray, eksantrik ayarlayıcı",
+          "belirtiler": "Soğuk çalıştırmada birkaç saniye süren metalik çıngırak sesi, P0016/P0017 arıza kodları, güç kaybı ve artan yağ tüketimi görülür. İhmal edilirse zincir atlayıp motora zarar verebilir.",
+          "km": "80.000-150.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "c180-kompressor",
+            "c180-cgi",
+            "c200-kompressor"
+          ],
+          "not": "Kaynaklara göre sorun en çok Kompressor'lu M271'de; EVO CGI'da daha az görülüyor. Onarımda zincir, gergi, ray ve su pompası birlikte değiştiriliyor.",
+          "kaynaklar": [
+            "https://kfz-dietrich.com/blog/mercedes-w204-c-klasse-typische-fehler-xentry/",
+            "https://www.autodoc.co.uk/info/mercedes-w204-problems",
+            "https://europremiumparts.com/en-pl/blogs/mercedes-buying-guides/acheter-une-mercedes-classe-c-w204-en-occasion-notre-guide-fiabilite",
+            "https://forum.donanimhaber.com/m271-evo-1-8cgi-motor-eksantrik-disli-ve-zincir-sesi-problemi--131285263"
+          ]
+        },
+        {
+          "id": "om651-enjektor",
+          "baslik": "OM651 dizel enjektör arızaları",
+          "parca": "Enjektör (piezo)",
+          "belirtiler": "Düzensiz rölanti, çekiş kaybı ve artan geri dönüş yakıtı görülür. Enjektör contası kaçırırsa silindir kapağı da zarar görebilir.",
+          "km": "50.000-90.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "c200-cdi",
+            "c220-cdi"
+          ],
+          "not": "Motor kaynaklı bir sorun; erken seri piezo enjektörlerde daha belirgin, sonraki motorlarda solenoid enjektöre geçilmiş.",
+          "kaynaklar": [
+            "https://kfz-dietrich.com/blog/mercedes-w204-c-klasse-typische-fehler-xentry/",
+            "https://europremiumparts.com/en-pl/blogs/mercedes-buying-guides/acheter-une-mercedes-classe-c-w204-en-occasion-notre-guide-fiabilite",
+            "https://www.auto-swiat.pl/porady/eksploatacja/wszystko-o-silniku-21-cdi-czy-mercedesowi-udal-sie-diesel/tnj93ex",
+            "https://www.autodoc.co.uk/info/mercedes-w204-problems",
+            "https://forums.mbclub.co.uk/threads/c220cdi-vs-c250cdi-w204-long-term-reliability.245037"
+          ]
+        },
+        {
+          "id": "om651-dpf-egr-sehir",
+          "baslik": "DPF tıkanması ve EGR kirlenmesi (şehir içi kullanım)",
+          "parca": "DPF, EGR valfi",
+          "belirtiler": "DPF uyarı lambası, rejenerasyonun tamamlanamaması, güç kaybı ve yakıtın motor yağına karışması görülür. Kısa mesafeli şehir kullanımında belirgin hale gelir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "c200-cdi",
+            "c220-cdi"
+          ],
+          "not": "Motor kaynaklı; uzun yolda düzenli kullanım riski azaltır.",
+          "kaynaklar": [
+            "https://europremiumparts.com/en-pl/blogs/mercedes-buying-guides/acheter-une-mercedes-classe-c-w204-en-occasion-notre-guide-fiabilite",
+            "https://www.auto-swiat.pl/porady/eksploatacja/wszystko-o-silniku-21-cdi-czy-mercedesowi-udal-sie-diesel/tnj93ex",
+            "https://forums.mbclub.co.uk/threads/c220cdi-vs-c250cdi-w204-long-term-reliability.245037"
+          ]
+        },
+        {
+          "id": "om651-devirdaim-sizinti",
+          "baslik": "OM651 su pompası sızıntısı",
+          "parca": "Su pompası",
+          "belirtiler": "Soğutma suyu kaybı, zamanla aşırı ısınma ve servis moduna geçiş görülebilir. Plastik karterde de sızıntı bildiren kullanıcılar var.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "c200-cdi",
+            "c220-cdi"
+          ],
+          "not": "Motor kaynaklı; kaynaklarda kilometre aralığı net verilmiyor.",
+          "kaynaklar": [
+            "https://forums.mbclub.co.uk/threads/c220cdi-vs-c250cdi-w204-long-term-reliability.245037",
+            "https://www.auto-swiat.pl/porady/eksploatacja/wszystko-o-silniku-21-cdi-czy-mercedesowi-udal-sie-diesel/tnj93ex"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "c-serisi-w205",
+      "ad": "C Serisi (W205)",
+      "yillar": [
+        2014,
+        2021
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "c180-m274",
+          "ad": "C180 1.6 (M274)",
+          "yakit": "benzin"
+        },
+        {
+          "id": "c200-m274",
+          "ad": "C200 2.0 (M274)",
+          "yakit": "benzin"
+        },
+        {
+          "id": "c180-d",
+          "ad": "C180 d 1.6",
+          "yakit": "dizel"
+        },
+        {
+          "id": "c200-d",
+          "ad": "C200 d 2.1 (OM651)",
+          "yakit": "dizel"
+        },
+        {
+          "id": "c220-d",
+          "ad": "C220 d 2.1 (OM651)",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "m274-zincir-uzamasi",
+          "baslik": "M274 zamanlama zinciri ve gergi aşınması",
+          "parca": "Zamanlama zinciri, zincir gergisi, eksantrik ayarlayıcı",
+          "belirtiler": "Soğuk çalıştırmada birkaç saniye metalik çıngırak, yük altında eksantrik ayarlayıcıdan tıkırtı, P0016/P0017 kodları, güç kaybı ve artan yağ tüketimi görülür.",
+          "km": "80.000-140.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "c180-m274",
+            "c200-m274"
+          ],
+          "not": "Bir kaynak 100.000 km civarında önleyici değişim öneriyor.",
+          "kaynaklar": [
+            "https://kfz-dietrich.com/blog/mercedes-c-klasse-w205-typische-probleme-xentry/",
+            "https://www.autodoc.co.uk/info/mercedes-c-class-w205-problems",
+            "https://www.autotrader.co.za/cars/news-and-advice/buyers-guide/mercedes-benz-c-class-buyers-guide-(2014-2021)/16289"
+          ]
+        }
+      ]
+    }
+  ]
+}

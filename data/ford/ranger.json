@@ -1,0 +1,180 @@
+{
+  "marka": "Ford",
+  "markaSlug": "ford",
+  "model": "Ranger",
+  "modelSlug": "ranger",
+  "nesiller": [
+    {
+      "slug": "ranger-t6",
+      "ad": "Ranger (T6)",
+      "yillar": [
+        2012,
+        2022
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "2-2-tdci",
+          "ad": "2.2 TDCi",
+          "yakit": "dizel"
+        },
+        {
+          "id": "3-2-tdci",
+          "ad": "3.2 TDCi",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "yag-pompasi-arizasi",
+          "baslik": "Yağ pompası arızası / boşalan pompa",
+          "parca": "Yağ pompası",
+          "belirtiler": "Rölantide veya çalıştırmada düşük yağ basıncı uyarısı, üst motordan tıkırtı. Pompa devreden çıkarsa motor saniyeler içinde ağır hasar görür; yağ değişiminde pompa boşalırsa yeniden yağ basamayabilir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Yağ değişimi sonrası motoru çalıştırmadan önce pompanın yağ bastığından emin olmak gerekir; dişli tahrikli pompa alternatifi kullanılıyor.",
+          "kaynaklar": [
+            "https://www.unsealed4x4.com.au/ford-ranger-3-2l-problems-and-solutions/",
+            "https://fwi.co.uk/machinery/4x4s/tips-for-buying-a-second-hand-pickup-ford-ranger",
+            "https://www.carchecker.pro/reports/ford_ranger_t6_3.2_tdci.html"
+          ]
+        },
+        {
+          "id": "egr-sogutucu-sizdirma",
+          "baslik": "EGR soğutucusu soğutma suyu kaçırması",
+          "parca": "EGR soğutucusu / EGR valfi",
+          "belirtiler": "Görünür sızıntı olmadan soğutma suyu kaybı, ağır yükte veya çekişte egzozdan beyaz buhar ve aşırı ısınma. Su silindire geçerse conta yanması ya da hidrolik kilit riski var.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "3.2 ve 2.2 motorlarda 2.0'a göre daha sık anılıyor.",
+          "kaynaklar": [
+            "https://www.unsealed4x4.com.au/ford-ranger-3-2l-problems-and-solutions/",
+            "https://www.carsguide.com.au/car-advice/ford-ranger-engines-pros-and-cons-of-all-available-options-detailed-92589",
+            "https://www.carchecker.pro/reports/ford_ranger_t6_3.2_tdci.html"
+          ]
+        },
+        {
+          "id": "dpf-tikanmasi",
+          "baslik": "DPF tıkanması",
+          "parca": "Dizel partikül filtresi (DPF)",
+          "belirtiler": "Güç kaybı, yakıt tüketiminde artış, siyah duman, gösterge uyarısı ve limp mod. Kısa mesafe ve şehir içi kullanımda sık görülür.",
+          "km": "25.000-40.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Km aralığı kaynakta 2.2 TDCi için kısa mesafe kullanımıyla verilmiş.",
+          "kaynaklar": [
+            "https://www.autodoc.co.uk/info/problems-with-the-ford-ranger",
+            "https://www.carsguide.com.au/car-advice/ford-ranger-engines-pros-and-cons-of-all-available-options-detailed-92589",
+            "https://www.carchecker.pro/reports/ford_ranger_t6_3.2_tdci.html"
+          ]
+        },
+        {
+          "id": "intercooler-hortumu-catlama",
+          "baslik": "Intercooler hortumunun çatlaması / sökülmesi",
+          "parca": "Intercooler hortumu",
+          "belirtiler": "Ani güç kaybı, siyah duman ve limp moda geçiş; turbo basıncı kaçar.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.autopartspro.co.uk/tips-advice/problems-with-the-ford-ranger-4299",
+            "https://www.unsealed4x4.com.au/ford-ranger-3-2l-problems-and-solutions/",
+            "https://www.carchecker.pro/reports/ford_ranger_t6_3.2_tdci.html"
+          ]
+        },
+        {
+          "id": "6r80-otomatik-sanziman",
+          "baslik": "Otomatik şanzımanda gecikmeli/sert vites ve lead frame arızası",
+          "parca": "6 ileri otomatik şanzıman (6R80) valf gövdesi / lead frame",
+          "belirtiler": "Gecikmeli veya sert vites geçişleri, vuruntu, takılan vites ve zaman zaman limp mod. Isı ve eski yağ başlıca etken; entegre soğutucu sızıntısı da raporlanıyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": "6 ileri otomatik",
+          "not": "Düzenli şanzıman yağı değişimi riski azaltıyor.",
+          "kaynaklar": [
+            "https://www.unsealed4x4.com.au/ford-ranger-3-2l-problems-and-solutions/",
+            "https://www.carchecker.pro/reports/ford_ranger_t6_3.2_tdci.html"
+          ]
+        },
+        {
+          "id": "debriyaj-volan",
+          "baslik": "Debriyaj ve çift kütleli volan aşınması",
+          "parca": "Debriyaj seti / çift kütleli volan",
+          "belirtiler": "Debriyaj pedalında titreme, vites geçişinde zorlanma, kalkışta silkeleme. Ağır çekiş ve yük kullanımında volan debriyajla birlikte yıpranır.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": "6 ileri manuel",
+          "kaynaklar": [
+            "https://www.autopartspro.co.uk/tips-advice/problems-with-the-ford-ranger-4299",
+            "https://www.carsguide.com.au/car-advice/ford-ranger-engines-pros-and-cons-of-all-available-options-detailed-92589"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ranger-2-0-ecoblue",
+      "ad": "Ranger (2.0 EcoBlue, T6.2 ve sonrası)",
+      "yillar": [
+        2019,
+        2026
+      ],
+      "not": "T6.2 yenilemesi ve ardından gelen yeni nesil 2.0 EcoBlue motorlu Ranger birlikte ele alındı; bazı kaynaklar yeni nesle (2023 sonrası) özgü.",
+      "motorlar": [
+        {
+          "id": "2-0-ecoblue",
+          "ad": "2.0 EcoBlue (tek ve çift turbo)",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "islak-triger-kayisi",
+          "baslik": "Yağda çalışan triger kayışının yıpranması",
+          "parca": "Triger / yağ pompası kayışı",
+          "belirtiler": "Yağa mazot karışması, yağ çeken filtrede ve çubukta kauçuk parçacıklar, düşük yağ basıncı uyarısı. Kayış parçaları yağ pompası süzgecini tıkarsa ağır motor hasarı doğar.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-0-ecoblue"
+          ],
+          "not": "Kaynaklar EcoBlue motoru geneli içindir (Transit dahil); kayış değişim aralığı Ford programına göre mutlaka izlenmeli.",
+          "kaynaklar": [
+            "https://www.autobiz.ie/garage/ford-ecoblue-20-timing-belt-issues",
+            "https://www.carchecker.pro/reports/ford_ranger_p703_2.0_ecoblue.html",
+            "https://www.autodoc.co.uk/info/problems-with-the-ford-ranger"
+          ]
+        },
+        {
+          "id": "10-ileri-otomatik",
+          "baslik": "10 ileri otomatik şanzımanda sarsıntı ve pompa dişlisi sorunu",
+          "parca": "10 ileri otomatik şanzıman",
+          "belirtiler": "Düşük hızda kalkışta sarsıntılı veya gecikmeli vites, soğukta daha belirgin; P'den D'ye geçişte gecikme. Pompa dişlisi hatası nedeniyle geri çağırma yapıldı ve sürüş kaybı riski vardı.",
+          "km": "40.000-60.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-0-ecoblue"
+          ],
+          "sanziman": "10 ileri otomatik",
+          "not": "Yazılım güncellemesiyle hafifleyebiliyor; bir kaynak sorunu 2023 ve sonrası modelle ilişkilendiriyor.",
+          "kaynaklar": [
+            "https://www.autodoc.co.uk/info/problems-with-the-ford-ranger",
+            "https://www.carchecker.pro/reports/ford_ranger_p703_2.0_ecoblue.html",
+            "https://www.carsguide.com.au/car-advice/ford-ranger-engines-pros-and-cons-of-all-available-options-detailed-92589"
+          ]
+        }
+      ]
+    }
+  ]
+}
