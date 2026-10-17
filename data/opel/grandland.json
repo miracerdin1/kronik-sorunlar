@@ -1,0 +1,86 @@
+{
+  "marka": "Opel",
+  "markaSlug": "opel",
+  "model": "Grandland",
+  "modelSlug": "grandland",
+  "nesiller": [
+    {
+      "slug": "grandland-1",
+      "ad": "Grandland X / Grandland (1. nesil)",
+      "yillar": [
+        2017,
+        2024
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-2-turbo",
+          "ad": "1.2 Turbo (PureTech) 130 HP",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-5-dizel",
+          "ad": "1.5 BlueHDi 130 HP",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-6-dizel",
+          "ad": "1.6 CDTi 120 HP",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "islak-triger-kayisi-yag",
+          "baslik": "Yağda çalışan triger kayışı ve yağ kaçağı/tüketimi",
+          "parca": "Triger kayışı / yağ pompası",
+          "belirtiler": "Yağ tüketimi veya sızıntısı artar, yağ uyarısı ya da motor arıza lambası yanar. Kayış parçalanırsa kalıntılar yağ pompasını tıkayıp ağır motor hasarına yol açabilir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-turbo"
+          ],
+          "not": "Kayış değişim aralığı üretici tarafından sonradan kısaltılmış; yağ bakımının aksatılmaması önemli.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-opel/fiabilite-620-pannes-opel-grandland-x.php",
+            "https://www.triscan.dk/en/avoid-engine-breakdown-psa-12-puretech-vtithp-engines"
+          ]
+        },
+        {
+          "id": "adblue-nox-sistemi",
+          "baslik": "AdBlue / SCR sistemi arızaları",
+          "parca": "AdBlue enjektörü ve NOx sistemi",
+          "belirtiler": "Emisyon uyarısı, AdBlue arıza mesajı, yüksek AdBlue tüketimi veya motor çalıştırma geri sayımı görülür.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dizel",
+            "1-6-dizel"
+          ],
+          "not": "Bazı araçlarda motor kontrol yazılımı güncellemesi ile giderilen enjektör kaynaklı geri çağırma yapıldı.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-opel/fiabilite-620-pannes-opel-grandland-x.php",
+            "https://www.whatcar.com/vauxhall/grandland/hatchback/used-review/n998/reliability"
+          ]
+        },
+        {
+          "id": "multimedya-donmasi",
+          "baslik": "Multimedya ekranının donması",
+          "parca": "Multimedya sistemi / geri görüş kamerası",
+          "belirtiler": "Ekran donar veya kilitlenir, geri görüş kamerası aralıklı gider.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Çoğu zaman yazılım güncellemesiyle düzelir.",
+          "kaynaklar": [
+            "https://www.whatcar.com/vauxhall/grandland/hatchback/used-review/n998/reliability",
+            "https://www.au7o.io/known-issues/opel-grandland?year=2018"
+          ]
+        }
+      ]
+    }
+  ]
+}

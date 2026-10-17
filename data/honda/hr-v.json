@@ -1,0 +1,10 @@
+{
+"marka":"Honda","markaSlug":"honda","model":"HR-V","modelSlug":"hr-v",
+"nesiller":[{
+"slug":"hr-v-ru","ad":"HR-V (RU)","yillar":[2015,2021],"not":null,
+"motorlar":[{"id":"1-5-i-vtec","ad":"1.5 i-VTEC","yakit":"benzin"}],
+"sorunlar":[
+{"id":"cvt-titreme-kayis","baslik":"CVT şanzıman titremesi ve kayış aşınması","parca":"CVT şanzıman","belirtiler":"Kalkışta titreme, kayma veya vınlama sesi görülür; ağır vakalarda yolda çekiş kesilebilir.","km":null,"ciddiyet":"yuksek","maliyetTl":null,"motorlar":"hepsi","sanziman":"CVT otomatik","not":"Honda yazılım güncellemesi yaptı ve 2016-2020 için CVT garantisini uzattı; düzenli şanzıman yağı değişimi önemli.","kaynaklar":["https://www.samarins.com/reviews/honda-hr-v-2016.html","https://www.rerev.com/articles/honda-hr-v-years-to-avoid/"]},
+{"id":"start-stop-dugmesi","baslik":"Motor start/stop düğmesi arızası","parca":"Start/stop düğmesi (kontak)","belirtiler":"Motoru çalıştırmak veya durdurmak için düğmeye birkaç kez basmak gerekir.","km":null,"ciddiyet":"dusuk","maliyetTl":null,"motorlar":"hepsi","not":"2016-2018 modeller için Honda anahtarsız çalıştırma garantisini uzattı; parça ucuz ve değişimi kolay.","kaynaklar":["https://www.samarins.com/reviews/honda-hr-v-2016.html","https://www.rerev.com/articles/honda-hr-v-years-to-avoid/","https://www.carchecker.pro/reports/honda_hrv_1.5_ivtec.html"]},
+{"id":"boya-soyulmasi","baslik":"Boya ve vernik soyulması","parca":"Kaporta boyası","belirtiler":"Boya kabarır veya soyulur, özellikle tavan ve bagaj kapağı çevresinde; paslanma noktaları görülebilir.","km":null,"ciddiyet":"dusuk","maliyetTl":null,"motorlar":"hepsi","not":"Honda resmi geri çağırma veya ücretsiz onarım açıklamadı; beyaz inci renklerde daha sık anılıyor.","kaynaklar":["https://www.rerev.com/articles/honda-hr-v-years-to-avoid/","https://www.carchecker.pro/reports/honda_hrv_1.5_ivtec.html"]}
+]}]}

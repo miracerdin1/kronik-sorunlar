@@ -1,8 +1,7 @@
 # Kalan modeller (sırayla işlenir, eklenince listeden sil)
 
-Kaynak yetersizliğinden atlananlar (ileride tekrar denenebilir): VW Caddy 5, Renault Koleos II, Kia Stonic, Hyundai Santa Fe TM, Kia Picanto.
+Kaynak yetersizliğinden atlananlar (ileride tekrar denenebilir): VW Caddy 5, Renault Koleos II, Kia Stonic, Hyundai Santa Fe TM, Kia Picanto, Toyota Corolla Cross, Peugeot 408 (2022).
 
-- VW Arteon; Opel Grandland; Peugeot 408 (2022); Ford Mondeo Mk5; Toyota Corolla Cross; Honda HR-V
 - Citroen C-Elysee; Citroen Berlingo; Peugeot Partner/Rifter; Fiat Punto (Grande/Evo); Hyundai ix35; Kia Sorento
 - Kia Niro; Nissan Micra K14; Nissan Navara D23; Opel Crossland; Opel Zafira C; Skoda Karoq
 - Skoda Rapid; Seat Ateca; VW Jetta 6; VW Touran; VW Amarok; VW Transporter T6

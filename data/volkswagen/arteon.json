@@ -1,0 +1,103 @@
+{
+  "marka": "Volkswagen",
+  "markaSlug": "volkswagen",
+  "model": "Arteon",
+  "modelSlug": "arteon",
+  "nesiller": [
+    {
+      "slug": "arteon-3h",
+      "ad": "Arteon (3H)",
+      "yillar": [
+        2017,
+        2024
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-5-tsi",
+          "ad": "1.5 TSI 150 HP",
+          "yakit": "benzin"
+        },
+        {
+          "id": "2-0-tsi",
+          "ad": "2.0 TSI 190/280 HP",
+          "yakit": "benzin"
+        },
+        {
+          "id": "2-0-tdi",
+          "ad": "2.0 TDI 150/190 HP",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dsg-mekatronik",
+          "baslik": "DSG şanzıman mekatronik ve düşük hız sarsıntısı",
+          "parca": "Çift kavramalı DSG şanzıman (mekatronik ünite)",
+          "belirtiler": "Şehir içi düşük hızda sarsıntı ve tereddüt, bazı vitesleri kaybedip emniyet (limp) moduna girme. Bazı araçlarda mekatronik ünite değişimi gerekti.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": "7 ileri DSG otomatik",
+          "not": "Bir kaynak sorunun forumlarda anlatıldığından seyrek olduğunu söylüyor; yazılım ve yağ bakımı ilk adım.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-599-pannes-volkswagen-arteon.php",
+            "https://redriven.com/reviews/volkswagen/arteon/used-volkswagen-arteon-review/"
+          ]
+        },
+        {
+          "id": "su-pompasi-termostat",
+          "baslik": "Su pompası / termostat gövdesi sızıntısı",
+          "parca": "Elektrikli su pompası ve termostat gövdesi",
+          "belirtiler": "Soğutma suyu uyarısı, sıvı eksilmesi ve motor altında sızıntı; sıcaklık yükselmesi.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-0-tsi"
+          ],
+          "sanziman": null,
+          "not": "Parça güncel revizyonla değiştiriliyor; bazı sahipler önlem olarak erken değiştiriyor.",
+          "kaynaklar": [
+            "https://redriven.com/reviews/volkswagen/arteon/used-volkswagen-arteon-review/",
+            "https://rerev.com/years-to-avoid/vehicles/volkswagen-arteon/"
+          ]
+        },
+        {
+          "id": "multimedya-baglanti",
+          "baslik": "Multimedya donma ve telefon bağlantı kopmaları",
+          "parca": "Multimedya sistemi (MIB)",
+          "belirtiler": "Ekran donması, yavaşlık, kablosuz CarPlay/Android Auto ve Bluetooth bağlantısının rastgele kopması. Yeniden başlatma veya yazılım güncellemesi bazen çözüyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": null,
+          "not": null,
+          "kaynaklar": [
+            "https://www.whatcar.com/volkswagen/arteon/hatchback/used-review/n17885/reliability",
+            "https://redriven.com/reviews/volkswagen/arteon/used-volkswagen-arteon-review/",
+            "https://enginepatrol.com/volkswagen-arteon-common-problems/"
+          ]
+        },
+        {
+          "id": "travel-assist-uyari",
+          "baslik": "Travel Assist ve şerit asistanı hataları",
+          "parca": "Sürüş destek sistemi (Travel Assist, radar/kamera)",
+          "belirtiler": "Sistemin sık sık 'kullanılamıyor' uyarısı vermesi; bazı araçlarda direksiyon simidi veya sensör değişimi gerekti. Trafik işareti okuma hataları da bildiriliyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": null,
+          "not": "Daha çok 2021 ve sonrası kasalarda raporlanıyor.",
+          "kaynaklar": [
+            "https://enginepatrol.com/volkswagen-arteon-common-problems/",
+            "https://rerev.com/years-to-avoid/vehicles/volkswagen-arteon/"
+          ]
+        }
+      ]
+    }
+  ]
+}

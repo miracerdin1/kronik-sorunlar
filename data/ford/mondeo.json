@@ -1,0 +1,124 @@
+{
+  "marka": "Ford",
+  "markaSlug": "ford",
+  "model": "Mondeo",
+  "modelSlug": "mondeo",
+  "nesiller": [
+    {
+      "slug": "mondeo-mk5",
+      "ad": "Mondeo (Mk5)",
+      "yillar": [
+        2014,
+        2022
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-5-ecoboost",
+          "ad": "1.5 EcoBoost",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-5-tdci",
+          "ad": "1.5 TDCi",
+          "yakit": "dizel"
+        },
+        {
+          "id": "2-0-tdci",
+          "ad": "2.0 TDCi",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dpf-tikanma-basinc-hortumu",
+          "baslik": "DPF tıkanması ve limp moduna girme",
+          "parca": "Dizel partikül filtresi (DPF) ve basınç sensörü hortumları",
+          "belirtiler": "DPF uyarı ışığı yanar, güç düşer ve araç limp moduna girer. Kısa mesafe kullanımda filtre kendini temizleyemez; filtre çevresindeki basınç hortumları ısıdan sertleşip çatlayarak yanlış okumaya da yol açabilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-tdci",
+            "2-0-tdci"
+          ],
+          "not": "DPF aşırı ısınmasına yönelik yazılım güncellemesi bulunuyor.",
+          "kaynaklar": [
+            "https://www.parkers.co.uk/ford/mondeo/buying-and-selling",
+            "https://www.whocanfixmycar.com/advice/ford-mondeo-common-problems",
+            "https://pmmonline.co.uk/technical/mondeo-dpf-error-codes-whats-cause/",
+            "https://gebrauchtwagenberater.de/ford-mondeo-probleme-krankheiten/"
+          ]
+        },
+        {
+          "id": "egr-valfi-tikanma",
+          "baslik": "EGR valfi tıkanması",
+          "parca": "EGR valfi / EGR soğutucu",
+          "belirtiler": "Motor arıza lambası yanar (P049B gibi yetersiz EGR akışı kodu); özellikle kısa yolculuklarda görülür. Bazı araçlarda EGR soğutucusundan soğutma suyu sızıntısı da olabilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-0-tdci"
+          ],
+          "kaynaklar": [
+            "https://uk.haynes.com/blogs/tips-tutorials/ford-mondeo-mk4-2015-2023-common-problems",
+            "https://www.whocanfixmycar.com/advice/ford-mondeo-common-problems",
+            "https://www.parkers.co.uk/ford/mondeo/buying-and-selling"
+          ]
+        },
+        {
+          "id": "powershift-cift-kavrama",
+          "baslik": "PowerShift çift kavramalı şanzımanda tekleme ve kavrama aşınması",
+          "parca": "6 ileri PowerShift (DCT) şanzıman / kavrama",
+          "belirtiler": "Düşük hızda sarsıntı, kalkışta tereddüt ve kavramaların erken aşınması. Yağ-filtre bakımının geciktirilmesi sorunu artırır.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-0-tdci"
+          ],
+          "sanziman": "6 ileri PowerShift DCT otomatik",
+          "kaynaklar": [
+            "https://www.parkers.co.uk/ford/mondeo/buying-and-selling",
+            "https://gebrauchtwagenberater.de/ford-mondeo-probleme-krankheiten/"
+          ]
+        },
+        {
+          "id": "volan-debriyaj-titresim",
+          "baslik": "Volan ve debriyaj aşınması",
+          "parca": "Çift kütleli volan ve debriyaj",
+          "belirtiler": "Kalkışta titreme, düşük devirde pedal ve kabinde titreşim, aktarma organlarından tıkırtı. Özellikle dizel motorlarda uzun kullanımda ve sık kısa yolculukta görülür.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-tdci",
+            "2-0-tdci"
+          ],
+          "sanziman": "manuel",
+          "kaynaklar": [
+            "https://www.parkers.co.uk/ford/mondeo/buying-and-selling",
+            "https://gebrauchtwagenberater.de/ford-mondeo-probleme-krankheiten/"
+          ]
+        },
+        {
+          "id": "sync-multimedya-donma",
+          "baslik": "SYNC multimedya ekranında donma ve bağlantı sorunları",
+          "parca": "SYNC multimedya sistemi",
+          "belirtiler": "Ekran yavaşlar veya donar; Bluetooth ve telefon bağlantısı kopar. Sorun özellikle SYNC 2 ile gelen erken araçlarda öne çıkıyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "SYNC 3 yaklaşık 2016 ortasında geldi.",
+          "kaynaklar": [
+            "https://www.parkers.co.uk/ford/mondeo/buying-and-selling",
+            "https://gebrauchtwagenberater.de/ford-mondeo-probleme-krankheiten/",
+            "https://www.whocanfixmycar.com/advice/ford-mondeo-common-problems"
+          ]
+        }
+      ]
+    }
+  ]
+}
