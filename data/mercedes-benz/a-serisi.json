@@ -1,0 +1,132 @@
+{
+  "marka": "Mercedes-Benz",
+  "markaSlug": "mercedes-benz",
+  "model": "A Serisi",
+  "modelSlug": "a-serisi",
+  "nesiller": [
+    {
+      "slug": "a-serisi-w176",
+      "ad": "A Serisi (W176)",
+      "yillar": [
+        2012,
+        2018
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-6-m270",
+          "ad": "A 180 / A 200 1.6 turbo (M270)",
+          "yakit": "benzin"
+        },
+        {
+          "id": "2-0-m270",
+          "ad": "A 250 2.0 turbo (M270)",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-5-om607",
+          "ad": "A 180 CDI / A 180 d 1.5 (OM607)",
+          "yakit": "dizel"
+        },
+        {
+          "id": "2-1-om651",
+          "ad": "A 200 CDI / A 200 d / A 220 d 2.1 (OM651)",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "7g-dct-mekatronik-debriyaj",
+          "baslik": "7G-DCT çift kavramalı şanzıman titremesi ve mekatronik arızası",
+          "parca": "7G-DCT şanzıman (mekatronik, kavrama paketi, volan)",
+          "belirtiler": "Düşük hızda ve soğukken vuruntu, titreme, sarsıntılı vites geçişleri; ilerleyen dönemde vites takılmaması, arıza lambası ve güç kaybı görülebilir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": "7 ileri DCT otomatik",
+          "not": "Yağ ve filtre bakımı yapılmayan araçlarda risk artıyor; erken (2014 öncesi) üretimlerde daha sık bildirilmiş.",
+          "kaynaklar": [
+            "https://www.kolesa.ru/article/mercedes-benz-a-class-w176-s-probegom-syurprizy-mekhatronika-i-neozhidannyy-remont-motora",
+            "https://forums.mbclub.co.uk/threads/gearbox-issue.285389",
+            "https://www.fiches-auto.fr/fiabilite-mercedes/fiabilite-372-pannes-mercedes-classe-a.php",
+            "https://www.araclo.com/blog/mercedes-a-180-alinir-mi-w176-ve-w177-kasa-ikinci-el-rehberi-2026",
+            "https://europremiumparts.com/en-nl/blogs/mercedes-buying-guides/mercedes-benz-a-class-w176-reliability-guide-everything-you-need-to-know-before-buying"
+          ]
+        },
+        {
+          "id": "m270-triger-zinciri",
+          "baslik": "M270 motorda triger zinciri ve gergi aşınması",
+          "parca": "Triger zinciri, zincir gergisi, eksantrik faz ayarlayıcı",
+          "belirtiler": "Soğuk çalıştırmada motor bölümünden tıkırtı/çıngırtı gelir; ihmal edilirse zincir sıçrar ve supaplar zarar görebilir.",
+          "km": "80.000-150.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-m270",
+            "2-0-m270"
+          ],
+          "not": "Bazı M270 motorlarda eksantrik mili için geri çağırma yapılmış.",
+          "kaynaklar": [
+            "https://europremiumparts.com/en-nl/blogs/mercedes-buying-guides/mercedes-benz-a-class-w176-reliability-guide-everything-you-need-to-know-before-buying",
+            "https://www.kolesa.ru/article/mercedes-benz-a-class-w176-s-probegom-syurprizy-mekhatronika-i-neozhidannyy-remont-motora",
+            "https://carwiki.de/mercedes-a-klasse-probleme"
+          ]
+        },
+        {
+          "id": "m270-sogutma-termostat",
+          "baslik": "Termostat ve soğutma sistemi arızaları",
+          "parca": "Termostat gövdesi, su boruları, genleşme kabı",
+          "belirtiler": "Soğutma suyu eksilmesi, aşırı ısınma uyarısı, motorun geç ısınması; bazen sensör kaynaklı güç kesintisi.",
+          "km": "100.000-150.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-m270",
+            "2-0-m270"
+          ],
+          "kaynaklar": [
+            "https://europremiumparts.com/en-nl/blogs/mercedes-buying-guides/mercedes-benz-a-class-w176-reliability-guide-everything-you-need-to-know-before-buying",
+            "https://www.kolesa.ru/article/mercedes-benz-a-class-w176-s-probegom-syurprizy-mekhatronika-i-neozhidannyy-remont-motora",
+            "https://kfz-dietrich.com/blog/mercedes-diagnose-a-klasse-w176-typische-probleme/"
+          ]
+        },
+        {
+          "id": "om651-zincir-gergi-yag-kacagi",
+          "baslik": "OM651 dizelde zincir gergisi yağ kaçağı ve zincir aşınması",
+          "parca": "Zincir gergisi contası, triger zinciri, yağ pompası tahriki",
+          "belirtiler": "Yağ eksilmesi ve sık yağ tamamlama ihtiyacı; yüksek kilometrede motordan zincir sesi.",
+          "km": "80.000-150.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-1-om651"
+          ],
+          "not": "2014 model yılı için zincir gergisi sızıntısı nedeniyle geri çağırma yapılmış.",
+          "kaynaklar": [
+            "https://carwiki.de/mercedes-a-klasse-probleme",
+            "https://europremiumparts.com/en-nl/blogs/mercedes-buying-guides/mercedes-benz-a-class-w176-reliability-guide-everything-you-need-to-know-before-buying",
+            "https://www.kolesa.ru/article/mercedes-benz-a-class-w176-s-probegom-syurprizy-mekhatronika-i-neozhidannyy-remont-motora"
+          ]
+        },
+        {
+          "id": "om651-egr-dpf",
+          "baslik": "EGR ve DPF tıkanması (kısa mesafe kullanımında)",
+          "parca": "EGR valfi, dizel partikül filtresi",
+          "belirtiler": "Gaz tepkisinde zayıflama, yakıt tüketiminde artış, arıza lambası; kısa şehir içi yolculuklarda filtre rejenerasyonu tamamlanamaz.",
+          "km": "70.000-120.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-1-om651"
+          ],
+          "kaynaklar": [
+            "https://europremiumparts.com/en-nl/blogs/mercedes-buying-guides/mercedes-benz-a-class-w176-reliability-guide-everything-you-need-to-know-before-buying",
+            "https://kfz-dietrich.com/blog/mercedes-diagnose-a-klasse-w176-typische-probleme/",
+            "https://www.fiches-auto.fr/fiabilite-mercedes/fiabilite-372-pannes-mercedes-classe-a.php"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "marka": "Mazda",
+  "markaSlug": "mazda",
+  "model": "3",
+  "modelSlug": "3",
+  "nesiller": [
+    {
+      "slug": "mazda3-bm",
+      "ad": "3 (BM/BN)",
+      "yillar": [
+        2013,
+        2019
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-5-skyactiv-g",
+          "ad": "1.5 Skyactiv-G",
+          "yakit": "benzin"
+        },
+        {
+          "id": "2-0-skyactiv-g",
+          "ad": "2.0 Skyactiv-G",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-5-skyactiv-d",
+          "ad": "1.5 Skyactiv-D",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "mazda-connect-multimedya-ekrani",
+          "baslik": "Mazda Connect multimedya ekranı donması ve kendi kendine komut vermesi",
+          "parca": "Mazda Connect dokunmatik ekran / multimedya ünitesi",
+          "belirtiler": "Sistem kendiliğinden yeniden başlıyor, donuyor veya dokunmaya yanıt vermiyor; ekran hayalet dokunuşlar yapıyor, tuşlar takılıyor, geri görüş kamerası görüntüsü kesilebiliyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": null,
+          "not": "Bazı pazarlarda garanti kapsamı genişletildi; ünite değişimi garanti dışında pahalı.",
+          "kaynaklar": [
+            "https://www.slashgear.com/2256080/mazda3-common-problems/",
+            "https://www.samarins.com/reviews/mazda3-2018.html",
+            "https://www.carcomplaints.com/news/2024/mazda-connect-infotainment-problems-lawsuit.shtml",
+            "https://www.carcomplaints.com/Mazda/MAZDA3/2015/electrical/electrical_system.shtml"
+          ]
+        },
+        {
+          "id": "on-silecek-bcm-geri-cagirma",
+          "baslik": "Ön silecekler çalışmıyor (ön BCM / yazılım geri çağırması)",
+          "parca": "Ön gövde kontrol modülü (F-BCM) ve silecek sistemi",
+          "belirtiler": "Ön silecekler aniden duruyor veya hiç çalışmıyor; yağmurda görüş tehlikesi oluşuyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": null,
+          "not": "Geri çağırma kapsamında modül değişimi uygulanıyor.",
+          "kaynaklar": [
+            "https://www.samarins.com/reviews/mazda3-2018.html",
+            "https://carwiki.de/mazda-3-probleme"
+          ]
+        },
+        {
+          "id": "dpf-yag-seyrelmesi",
+          "baslik": "DPF tıkanması ve rejenerasyonla yağ seyrelmesi",
+          "parca": "Dizel partikül filtresi (DPF) ve motor yağı",
+          "belirtiler": "Kısa mesafe kullanımda sık rejenerasyon, uyarı lambası, güç kaybı ve yakıt tüketiminde artış; karter yağ seviyesi yakıt karışması nedeniyle yükseliyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-skyactiv-d"
+          ],
+          "sanziman": null,
+          "not": "Şehir içi kısa yolculuklarda risk artıyor; yağ seviyesi ve yağ değişim aralığı düzenli kontrol edilmeli.",
+          "kaynaklar": [
+            "https://carwiki.de/mazda-3-probleme",
+            "https://www.carchecker.pro/reports/mazda_3_bm_1.5_skyactiv_d.html"
+          ]
+        },
+        {
+          "id": "karbon-birikimi-emme-supabi",
+          "baslik": "Emme supaplarında karbon birikimi",
+          "parca": "Emme supapları ve kanalları (direkt enjeksiyon)",
+          "belirtiler": "Rölantide titreme, ateşleme kaçırma, güç kaybı ve yakıt tüketiminde artış.",
+          "km": "50.000-100.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-skyactiv-g",
+            "2-0-skyactiv-g"
+          ],
+          "sanziman": null,
+          "not": "Temizlik ile giderilebiliyor.",
+          "kaynaklar": [
+            "https://www.samarins.com/reviews/mazda3-2018.html",
+            "https://www.araclo.com/vehicles/mazda-3-1.5-skyactive-g/degerlendirmeler/kullanici-sorunlari"
+          ]
+        }
+      ]
+    }
+  ]
+}

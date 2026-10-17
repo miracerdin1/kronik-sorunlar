@@ -1,0 +1,47 @@
+{
+  "marka": "Volkswagen", "markaSlug": "volkswagen", "model": "Caddy", "modelSlug": "caddy",
+  "nesiller": [{
+    "slug": "caddy-4", "ad": "Caddy 4 (SA)", "yillar": [2015, 2020], "not": null,
+    "motorlar": [
+      {"id": "1-6-tdi", "ad": "1.6 TDI", "yakit": "dizel"},
+      {"id": "2-0-tdi", "ad": "2.0 TDI", "yakit": "dizel"},
+      {"id": "1-4-tsi", "ad": "1.4 TSI", "yakit": "benzin"}
+    ],
+    "sorunlar": [
+      {
+        "id": "egr-emme-tikanikligi", "baslik": "EGR valfi ve emme hattı tıkanması", "parca": "EGR valfi / EGR soğutucusu",
+        "belirtiler": "Güç kaybı, düşük devirde tekleme ve motor arıza lambasının yanması. Kısa mesafe ve şehir içi kullanım sorunu artırır.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-6-tdi", "2-0-tdi"],
+        "not": "EGR arızaları Caddy dizel motorlarında genel bir zayıf nokta olarak anılıyor.",
+        "kaynaklar": ["https://minbilkoll.se/vanliga-fel/volkswagen/caddy/", "https://listers.co.uk/reviews/volkswagen/caddy_maxi/212395", "https://kfz-dietrich.com/blog/vw-caddy-typische-probleme-odis-diagnose/"]
+      },
+      {
+        "id": "dpf-tikanmasi", "baslik": "Dizel partikül filtresi (DPF) tıkanması", "parca": "DPF",
+        "belirtiler": "Motor arıza lambası, güç düşüklüğü, yakıt tüketiminde artış ve motor yağı seviyesinin yükselmesi. Rejenerasyon tamamlanmadan sık sık yarım kalır.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-6-tdi", "2-0-tdi"],
+        "not": "Ağırlıklı olarak kısa şehir içi mesafelerde kullanılan araçlarda görülür.",
+        "kaynaklar": ["https://minbilkoll.se/vanliga-fel/volkswagen/caddy/", "https://listers.co.uk/reviews/volkswagen/caddy_maxi/212395", "https://kfz-dietrich.com/blog/vw-caddy-typische-probleme-odis-diagnose/"]
+      },
+      {
+        "id": "dq200-dsg-mekatronik-kavrama", "baslik": "7 ileri kuru kavramalı DSG (DQ200) sarsıntısı", "parca": "DSG mekatronik ünitesi / kavrama",
+        "belirtiler": "Düşük hızda sarsıntı, kalkışta tekleme, vites geçişinde vurma; ağır vakalarda uyarı lambasıyla ilerleyememe.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["1-6-tdi", "1-4-tsi"],
+        "sanziman": "7 ileri DSG (DQ200) otomatik",
+        "not": "2.0 TDI'da genelde manuel ya da ıslak kavramalı DQ250 bulunur; sorun esas olarak DQ200 için anılıyor. Römork çekme ve trafikte sürünme aşınmayı hızlandırır.",
+        "kaynaklar": ["https://minbilkoll.se/vanliga-fel/volkswagen/caddy/", "https://vanreif.de/probleme-caddy-automatikgetriebe/", "https://www.motor-talk.de/forum/kaufhilfe-caddy-4-1-4tsi-dsg-t7159226.html"]
+      },
+      {
+        "id": "cift-kutleli-volan-debriyaj", "baslik": "Çift kütleli volan ve debriyaj yıpranması", "parca": "Çift kütleli volan / debriyaj",
+        "belirtiler": "Rölantide ve debriyaj basarken metalik takırtı, kalkışta titreşim, vites geçirmede zorlanma.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-6-tdi", "2-0-tdi"],
+        "sanziman": "manuel",
+        "not": "Yüksek yük ve römork kullanımı aşınmayı hızlandırır.",
+        "kaynaklar": ["https://minbilkoll.se/vanliga-fel/volkswagen/caddy/", "https://kfz-dietrich.com/blog/vw-caddy-typische-probleme-odis-diagnose/"]
+      }
+    ]
+  }]
+}

@@ -1,0 +1,69 @@
+{
+  "marka": "Skoda", "markaSlug": "skoda", "model": "Kodiaq", "modelSlug": "kodiaq",
+  "nesiller": [{
+    "slug": "kodiaq-ns7", "ad": "Kodiaq (NS7)", "yillar": [2017, 2023], "not": null,
+    "motorlar": [
+      {"id": "1-4-tsi", "ad": "1.4 TSI 150 PS", "yakit": "benzin"},
+      {"id": "1-5-tsi", "ad": "1.5 TSI 150 PS", "yakit": "benzin"},
+      {"id": "2-0-tdi-150", "ad": "2.0 TDI 150 PS", "yakit": "dizel"},
+      {"id": "2-0-tdi-190", "ad": "2.0 TDI 190 PS 4x4", "yakit": "dizel"}
+    ],
+    "sorunlar": [
+      {
+        "id": "dsg-mekatronik-sarsinti", "baslik": "DSG şanzımanda sarsıntı ve mekatronik arızası", "parca": "7 ileri DSG mekatronik ünite",
+        "belirtiler": "Kalkışta ve 1-2 vites geçişinde sarsıntı, vites gecikmesi, gösterge panelinde şanzıman arıza uyarısı ve nadiren limp moda geçiş.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null, "motorlar": "hepsi",
+        "sanziman": "7 ileri DSG (DQ381) otomatik",
+        "not": "Daha çok 2017-2019 araçlarda; yazılım güncellemesi bazı vakalarda çözüm oluyor, 2021 sonrası kasada daha az görülüyor.",
+        "kaynaklar": ["https://www.au7o.io/known-issues/skoda-kodiaq?year=2019", "https://minbilkoll.se/vanliga-fel/skoda/kodiaq-2-0/", "https://www.wheelstreet.lt/straipsniai/skoda-kodiaq-daznos-problemos", "https://www.fiches-auto.fr/fiabilite-skoda/fiabilite-577-pannes-skoda-kodiaq.php"]
+      },
+      {
+        "id": "dsg-dusuk-hiz-titreme-kavrama", "baslik": "DSG düşük hızda titreme ve kavrama aşınması", "parca": "DSG kavrama / şanzıman yağı",
+        "belirtiler": "5-20 km/h aralığında titreme, şehir içi dur-kalkta hızlı kavrama aşınması ve vites geçişlerinde sarsıntı; yağ bakımı atlanmışsa belirginleşir.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null, "motorlar": "hepsi",
+        "sanziman": "7 ileri DSG otomatik",
+        "not": "Üretici bakım aralığına bağlı olarak yaklaşık 60.000 km civarında DSG yağ değişimi önerilir.",
+        "kaynaklar": ["https://minbilkoll.se/vanliga-fel/skoda/kodiaq-2-0/", "https://carwiki.de/skoda-kodiaq-probleme", "https://www.au7o.io/known-issues/skoda-kodiaq?year=2019"]
+      },
+      {
+        "id": "dizel-dpf-adblue-nox", "baslik": "Dizelde DPF tıkanması ve AdBlue / NOx sensörü arızaları", "parca": "DPF, AdBlue sistemi, NOx sensörü",
+        "belirtiler": "Partikül filtresi uyarısı, güç kaybı, yakıt tüketiminde artış ve AdBlue arıza uyarısı; çoğunlukla kısa mesafe kullanımda rejenerasyon tamamlanamadığında görülür.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null, "motorlar": ["2-0-tdi-150", "2-0-tdi-190"],
+        "sanziman": null,
+        "not": "Uzun yolda düzenli sürüş DPF için faydalıdır; NOx sensörleri ve AdBlue pompası/ısıtıcısı nadir de olsa arızalanıyor.",
+        "kaynaklar": ["https://minbilkoll.se/vanliga-fel/skoda/kodiaq-2-0/", "https://www.wheelstreet.lt/straipsniai/skoda-kodiaq-daznos-problemos", "https://www.au7o.io/known-issues/skoda-kodiaq?year=2019", "https://carwiki.de/skoda-kodiaq-probleme"]
+      },
+      {
+        "id": "dizel-egr-emme-kurum", "baslik": "Dizelde EGR ve emme kanalında kurum birikmesi", "parca": "EGR valfi / emme manifoldu",
+        "belirtiler": "Emme kanallarında kurumla daralma, EGR valfinin takılması, güç kaybı ve motor arıza lambası; yüksek km'de enjektör sızıntısı ve turbo yorgunluğu da anılıyor.",
+        "km": "120.000-200.000", "ciddiyet": "orta", "maliyetTl": null, "motorlar": ["2-0-tdi-150", "2-0-tdi-190"],
+        "sanziman": null, "not": null,
+        "kaynaklar": ["https://minbilkoll.se/vanliga-fel/skoda/kodiaq-2-0/", "https://carwiki.de/skoda-kodiaq-probleme"]
+      },
+      {
+        "id": "haldex-4x4-bakim", "baslik": "Haldex 4x4 kavrama ünitesi aşınması", "parca": "Haldex kavrama / pompa",
+        "belirtiler": "Ön tekerleklerin kolay patinaj yapması, 4x4 uyarı lambası ve arka aksa tahrik gelmemesi; Haldex yağ ve filtresinin değiştirilmemesi ana neden.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null, "motorlar": ["2-0-tdi-190"],
+        "sanziman": null,
+        "not": "Haldex yağ bakımı yaklaşık 60.000 km'de yapılmalı.",
+        "kaynaklar": ["https://minbilkoll.se/vanliga-fel/skoda/kodiaq-2-0/", "https://carwiki.de/skoda-kodiaq-probleme", "https://www.wheelstreet.lt/straipsniai/skoda-kodiaq-daznos-problemos"]
+      },
+      {
+        "id": "benzin-su-pompasi-termostat", "baslik": "Su pompası / termostat gövdesinden soğutma suyu kaybı", "parca": "Su pompası ve termostat modülü",
+        "belirtiler": "Gözle görülen sızıntı olmadan soğutma suyu seviyesinin düşmesi, sıcakken tatlımsı koku ve aşırı ısınma riski.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null, "motorlar": ["1-4-tsi", "1-5-tsi"],
+        "sanziman": null,
+        "not": "Kaynaklar benzinli motor ailesi için genel olarak bildiriyor; belirli motor kodu tam netleşmedi.",
+        "kaynaklar": ["https://www.au7o.io/known-issues/skoda-kodiaq?year=2019", "https://minbilkoll.se/vanliga-fel/skoda/kodiaq-2-0/", "https://www.wheelstreet.lt/straipsniai/skoda-kodiaq-daznos-problemos"]
+      },
+      {
+        "id": "multimedya-elektronik", "baslik": "Multimedya ekranı donması ve çeşitli elektronik arızalar", "parca": "MIB2 multimedya ünitesi / elektronik",
+        "belirtiler": "Ekranın donması, yeniden başlaması, Bluetooth eşleşmesinin kopması; navigasyon ve klima kontrol arızaları ile sürüş yardımcılarının devre dışı kalması.",
+        "km": null, "ciddiyet": "dusuk", "maliyetTl": null, "motorlar": "hepsi",
+        "sanziman": null,
+        "not": "Yazılım güncellemesiyle çoğunlukla giderilir; kalıcı arızada ünite değişimi gerekir.",
+        "kaynaklar": ["https://www.au7o.io/known-issues/skoda-kodiaq?year=2019", "https://minbilkoll.se/vanliga-fel/skoda/kodiaq-2-0/", "https://www.whatcar.com/skoda/kodiaq/estate/used-review/n954/reliability", "https://www.fiches-auto.fr/fiabilite-skoda/fiabilite-577-pannes-skoda-kodiaq.php"]
+      }
+    ]
+  }]
+}

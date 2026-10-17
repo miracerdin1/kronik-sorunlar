@@ -1,0 +1,114 @@
+{
+  "marka": "Skoda",
+  "markaSlug": "skoda",
+  "model": "Kamiq",
+  "modelSlug": "kamiq",
+  "nesiller": [
+    {
+      "slug": "kamiq-1",
+      "ad": "Kamiq (1. nesil)",
+      "yillar": [
+        2019,
+        2026
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-0-tsi",
+          "ad": "1.0 TSI (95/110 PS)",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-5-tsi",
+          "ad": "1.5 TSI (150 PS)",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dsg7-mekatronik-sarsintili-vites",
+          "baslik": "7 ileri DSG'de sarsıntılı geçiş ve mekatronik arızası",
+          "parca": "DSG şanzıman / mekatronik ünite",
+          "belirtiler": "Soğukken ve dur-kalk trafikte vites geçişlerinde sarsıntı, düşük hızda titreme, bazen arıza moduna geçiş. Türkiye'de sıfır bir 1.0 Kamiq'te mekatronik ünitenin 150 km'de arızalandığı bildirilmiş.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": "7 ileri DSG otomatik",
+          "not": "Yazılım güncellemesi ve şartnameye uygun yağ/filtre bakımı çoğu zaman yardımcı olur; kalıcı çözüm için mekatronik değişimi gerekebilir.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/en/skoda-us/brand-new-skoda-kamiq-10-transmission-failure-after-150-km-issue",
+            "https://mycaros.com/cars/skoda/kamiq",
+            "https://www.labecaneajules.fr/skoda-kamiq-fiabilite-defauts"
+          ]
+        },
+        {
+          "id": "multimedya-ekran-donma",
+          "baslik": "Multimedya ekranında donma ve yazılım hataları",
+          "parca": "Multimedya / bilgi-eğlence ünitesi",
+          "belirtiler": "Ekran donuyor veya kendiliğinden yeniden başlıyor, Bluetooth ve CarPlay/Android Auto bağlantısı kopuyor, GPS kaybolabiliyor. Çoğu zaman yazılım güncellemesi ya da sıfırlama çözüyor, bazen ünite değişiyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Garanti kapsamında ekranı değiştirilen kullanıcılar olduğu bildirilmiş.",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/skoda-kamiq--141500457-29",
+            "https://www.whatcar.com/skoda/kamiq/hatchback/used-review/n21831",
+            "https://mycaros.com/cars/skoda/kamiq",
+            "https://www.labecaneajules.fr/skoda-kamiq-fiabilite-defauts"
+          ]
+        },
+        {
+          "id": "park-sensoru-yanlis-algilama",
+          "baslik": "Park sensörlerinde yanlış uyarı",
+          "parca": "Park mesafe sensörleri",
+          "belirtiler": "Özellikle arka sensörler yağmurda, nemde veya kirliyken yanlış mesafe uyarısı veriyor; bazı sensörler arızalanıyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Sensör değişimi nispeten ucuz bir işlem olarak anılıyor.",
+          "kaynaklar": [
+            "https://www.whatcar.com/skoda/kamiq/hatchback/used-review/n21831",
+            "https://mycaros.com/cars/skoda/kamiq",
+            "https://www.bargaindigger.ie/blog/skoda-kamiq-review-reliability-common-problems-and-buying-guide-2026"
+          ]
+        },
+        {
+          "id": "1-5-tsi-silindir-kapatma-titresim",
+          "baslik": "1.5 TSI'da silindir kapatma kaynaklı titreşim ve soğukta tekleme hissi",
+          "parca": "ACT silindir devre dışı bırakma sistemi / motor",
+          "belirtiler": "Belirli hızlarda hafif titreşim, soğukken düşük devirde sarsıntılı çalışma; bazı kullanıcılarda yağ tüketiminin arttığı bildirilmiş.",
+          "km": "20.000-60.000",
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-tsi"
+          ],
+          "sanziman": "7 ileri DSG otomatik",
+          "not": null,
+          "kaynaklar": [
+            "https://mycaros.com/cars/skoda/kamiq",
+            "https://www.fiches-auto.fr/essai-skoda/qualites_defauts-687-plus-moins-skoda-kamiq.php",
+            "https://www.labecaneajules.fr/skoda-kamiq-fiabilite-defauts"
+          ]
+        },
+        {
+          "id": "arka-ust-stop-lambasi-catlagi",
+          "baslik": "Arka üst stop lambasında çatlama",
+          "parca": "Arka üst stop lambası",
+          "belirtiler": "Stop lambası gövdesinde çatlak oluşuyor; kullanıcılar bunu Kamiq'in asıl kronik derdi olarak anıyor, lamba içi buğulanma ise kullanım kılavuzunda kusur sayılmıyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Tek kaynaklı; forum kullanıcı bildirimi.",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/skoda-kamiq--141500457-29"
+          ]
+        }
+      ]
+    }
+  ]
+}
