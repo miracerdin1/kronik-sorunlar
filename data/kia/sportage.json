@@ -1,0 +1,183 @@
+{
+  "marka": "Kia",
+  "markaSlug": "kia",
+  "model": "Sportage",
+  "modelSlug": "sportage",
+  "nesiller": [
+    {
+      "slug": "sportage-ql",
+      "ad": "Sportage (QL)",
+      "yillar": [
+        2016,
+        2021
+      ],
+      "not": "2018 sonunda makyajlandı; 1.7 CRDi yerini 1.6 CRDi'ye bıraktı.",
+      "motorlar": [
+        {
+          "id": "1-6-gdi",
+          "ad": "1.6 GDI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-t-gdi",
+          "ad": "1.6 T-GDI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-7-crdi",
+          "ad": "1.7 CRDi",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-6-crdi",
+          "ad": "1.6 CRDi",
+          "yakit": "dizel"
+        },
+        {
+          "id": "2-0-crdi",
+          "ad": "2.0 CRDi",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dct-kavrama-titreme",
+          "baslik": "7 ileri DCT'de kalkışta titreme ve kavrama arızası",
+          "parca": "Çift kavrama seti ve aktüatörler",
+          "belirtiler": "Kalkışta ve düşük hızda sarsıntı, sert ya da gecikmeli vites geçişleri; yoğun trafikte şanzıman sıcaklık uyarısı. Bazı araçlarda kavrama erken km'de değiştirilmek zorunda kalıyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-t-gdi",
+            "1-7-crdi",
+            "1-6-crdi"
+          ],
+          "sanziman": "7 ileri DCT otomatik",
+          "not": "Garanti süresindeki araçlarda kavrama/aktüatör genellikle Kia tarafından değiştiriliyor.",
+          "kaynaklar": [
+            "https://www.caradisiac.com/fiabilite-du-kia-sportage-4-la-maxi-fiche-occasion-de-caradisiac-194333.htm",
+            "https://www.fiches-auto.fr/fiabilite-kia/fiabilite-542-pannes-kia-sportage.php",
+            "https://www.sikayetvar.com/kia/sanziman-yagi-ve-kece-islemleri-icin-odenen-19-bin-liranin-iadesi-ve-ses-sorunu-cozulmedi",
+            "https://forum.donanimhaber.com/kia-sportage-2019-sonrasi-1-6l-dizel-7-ileri-dct-alanlar-ve-alacaklar-alindi--136447356-23"
+          ]
+        },
+        {
+          "id": "manuel-debriyaj-erken-arizasi",
+          "baslik": "1.7 CRDi manuelde debriyajın erken bozulması",
+          "parca": "Debriyaj seti (baskı, disk, yaylar)",
+          "belirtiler": "Kalkışta debriyaj titremesi (judder), kayma ve vites geçirmede zorluk; bazı araçlarda debriyaj yayı kırılıyor ve set tamamen değişiyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-7-crdi"
+          ],
+          "sanziman": "6 ileri manuel",
+          "not": "Daha çok 115 hp versiyonda görülüyor; Kia masrafı yalnızca kısmen karşılayabiliyor.",
+          "kaynaklar": [
+            "https://www.caradisiac.com/fiabilite-du-kia-sportage-4-la-maxi-fiche-occasion-de-caradisiac-194333.htm",
+            "https://www.fiches-auto.fr/fiabilite-kia/fiabilite-542-pannes-kia-sportage.php",
+            "https://www.carbuyer.co.uk/kia/sportage/151880/used-kia-sportage-review-2016-to-2021-mk4/owner-reviews"
+          ]
+        },
+        {
+          "id": "direksiyon-ses-bosluk",
+          "baslik": "Direksiyonda ses, boşluk ve ortalamama",
+          "parca": "Direksiyon kolonu / kremayer (elektrikli direksiyon)",
+          "belirtiler": "Tam kırmaya yakın dönüşlerde ses, direksiyonda boşluk ya da tırtıklı his, aracın düz yolda merkezde durmaması. Bazı araçlarda kolon veya kremayer erken değişiyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": null,
+          "kaynaklar": [
+            "https://www.caradisiac.com/fiabilite-du-kia-sportage-4-la-maxi-fiche-occasion-de-caradisiac-194333.htm",
+            "https://www.fiches-auto.fr/fiabilite-kia/fiabilite-542-pannes-kia-sportage.php",
+            "https://www.carbuyer.co.uk/kia/sportage/151880/used-kia-sportage-review-2016-to-2021-mk4/owner-reviews"
+          ]
+        },
+        {
+          "id": "abs-hecu-kisa-devre",
+          "baslik": "ABS/ESP kontrol ünitesinde kısa devre (yangın riski)",
+          "parca": "ABS/ESP hidrolik kontrol ünitesi (HECU)",
+          "belirtiler": "ABS/ESP uyarı lambaları yanabilir; ünitedeki kısa devre en kötü durumda motor bölmesinde yangına yol açabilir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "2015-2020 üretimi araçlar için geri çağırma yapıldı; şasi numarasıyla işlemin yapılıp yapılmadığı kontrol edilmeli.",
+          "kaynaklar": [
+            "https://www.caradisiac.com/fiabilite-du-kia-sportage-4-la-maxi-fiche-occasion-de-caradisiac-194333.htm",
+            "https://www.fiches-auto.fr/fiabilite-kia/fiabilite-542-pannes-kia-sportage.php",
+            "https://car-recalls.eu/common-problems/kia/Sportage/"
+          ]
+        },
+        {
+          "id": "tandem-vakum-pompasi",
+          "baslik": "Tandem (vakum) pompası süzgecinin tıkanması",
+          "parca": "Tandem vakum pompası",
+          "belirtiler": "Pompadaki süzgeç tıkanınca yağ ve vakum basıncı düşebiliyor; fren desteği azalıp fren mesafesi uzayabiliyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-crdi"
+          ],
+          "not": "Ekim 2018 - Ekim 2020 üretimi 1.6 CRDi araçlar için geri çağırma: süzgeç sökülüyor, gerekirse pompa ve kayış değişiyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-kia/fiabilite-542-pannes-kia-sportage.php",
+            "https://www.oeamtc.at/rueckrufaktionen/kia-ceed-sportage-stonic-probleme-mit-der-tandempumpe-63875399"
+          ]
+        },
+        {
+          "id": "elektronik-el-freni-dugmesi",
+          "baslik": "Elektronik park freni düğmesinin arızalanması",
+          "parca": "Elektronik park freni (EPB) düğmesi",
+          "belirtiler": "El freni düğmesi tepki vermiyor ya da düzensiz çalışıyor; park freni devreye girmiyor veya çözülmüyor, düğme değişimi gerekiyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": null,
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-kia/fiabilite-542-pannes-kia-sportage.php",
+            "https://www.sikayetvar.com/kia/elektronik-park-freni-arizasi-ve-ucretsiz-degisim-reddiyle-kia-sportage-2020-magduriyeti"
+          ]
+        },
+        {
+          "id": "1-7-crdi-enjektor-egr",
+          "baslik": "1.7 CRDi'de enjektör/EGR kaynaklı tekleme ve güç kaybı",
+          "parca": "Enjektörler ve EGR valfi",
+          "belirtiler": "Belirli devirlerde boşluk ve tekleme, güç kaybı, enjektör kaçakları; bazı araçlarda EGR valfi değişiyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-7-crdi"
+          ],
+          "not": null,
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-kia/fiabilite-542-pannes-kia-sportage.php",
+            "https://www.carbuyer.co.uk/kia/sportage/151880/used-kia-sportage-review-2016-to-2021-mk4/owner-reviews"
+          ]
+        },
+        {
+          "id": "boya-kolay-yontulmasi",
+          "baslik": "Boyanın kolay yontulması",
+          "parca": "Dış boya",
+          "belirtiler": "Yoldan sıçrayan taşlarla boyada kolayca çizik ve yontuklar oluşuyor; zamanla boya ve trim yaşlanması dikkat çekiyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": null,
+          "kaynaklar": [
+            "https://www.caradisiac.com/fiabilite-du-kia-sportage-4-la-maxi-fiche-occasion-de-caradisiac-194333.htm",
+            "https://www.fiches-auto.fr/fiabilite-kia/fiabilite-542-pannes-kia-sportage.php"
+          ]
+        }
+      ]
+    }
+  ]
+}

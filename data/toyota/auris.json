@@ -1,0 +1,144 @@
+{
+  "marka": "Toyota",
+  "markaSlug": "toyota",
+  "model": "Auris",
+  "modelSlug": "auris",
+  "nesiller": [
+    {
+      "slug": "auris-2",
+      "ad": "Auris (E180)",
+      "yillar": [
+        2013,
+        2018
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-33-dual-vvt-i",
+          "ad": "1.33 Dual VVT-i",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-valvematic",
+          "ad": "1.6 Valvematic",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-4-d-4d",
+          "ad": "1.4 D-4D",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-8-hybrid",
+          "ad": "1.8 Hybrid",
+          "yakit": "hibrit"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "12v-aku-bosalmasi",
+          "baslik": "12V akünün kendiliğinden boşalması",
+          "parca": "12V akü / dörtlü flaşör düğmesi (CAN-bus)",
+          "belirtiler": "Araç birkaç gün kullanılmadığında akü bitiyor ve araç çalışmıyor ya da hibritte READY konumuna geçmiyor. Hibrit sürümlerde küçük 12V akü uzun beklemelerde çabuk zayıflıyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Aralık 2012 - Şubat 2014 üretimlerde dörtlü flaşör düğmesine hafifçe dokunulması CAN-bus'ı uyanık tutup aküyü tüketebiliyor; Toyota bunu gösterge yazılım güncellemesiyle (teknik servis bülteni) gideriyor. ADAC verilerinde de en sık arıza nedeni marş aküsü.",
+          "kaynaklar": [
+            "https://mag.toyota.co.uk/toyota-auris-owners-12-volt-flat-batteries/comment-page-1/",
+            "https://production.whatcar.com/toyota/auris/hatchback/used-review/n17421/reliability",
+            "https://www.t-online.de/mobilitaet/aktuelles/id_100595112/toyota-auris-ueberzeugt-als-gebrauchtwagen-im-tuev-check.html",
+            "https://www.fiches-auto.fr/fiabilite-toyota/fiabilite-379-pannes-toyota-auris-2.php",
+            "https://minbilkoll.se/vanliga-fel/toyota/auris-hybrid/"
+          ]
+        },
+        {
+          "id": "hibrit-inverter-arizasi",
+          "baslik": "Hibrit inverter (güç modülü) arızası",
+          "parca": "İnverter / akıllı güç modülü (IPM)",
+          "belirtiler": "Sert hızlanmada hibrit sistem kendini kapatıp güç kaybı yaşanabiliyor, 'Hibrit sistemi kontrol edin' uyarısı yanıyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-8-hybrid"
+          ],
+          "not": "Şubat 2014 - Aralık 2018 üretimi Auris Hybrid için geri çağırma var; çözüm hibrit kontrol yazılımı güncellemesi. İsveç kaynağı inverter arızasını Auris'te pratikte nadir görüyor, inverter soğutma sıvısının değiştirilmesini öneriyor.",
+          "kaynaklar": [
+            "https://www.oeamtc.at/rueckrufaktionen/toyota-auris-prius-probleme-mit-der-hybridregelelektronik-47788322/print",
+            "https://www.breakerlink.com/blog/buying-selling/common-problems-with-toyota-auris/",
+            "https://www.fiches-auto.fr/fiabilite-toyota/fiabilite-379-pannes-toyota-auris-2.php"
+          ]
+        },
+        {
+          "id": "hibrit-elektrikli-su-pompasi",
+          "baslik": "Hibritte elektrikli devirdaim pompası sızıntısı",
+          "parca": "Elektrikli su pompası (motor soğutma devresi)",
+          "belirtiler": "Conta bölgesinden soğutma sıvısı sızıyor, sıvı seviyesi düşüyor; P261B arıza kodu ve hararet uyarısı görülebiliyor.",
+          "km": "130.000-200.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-8-hybrid"
+          ],
+          "not": "Pompa değişiminden sonra sistemin havasının iyice alınması gerekiyor.",
+          "kaynaklar": [
+            "https://minbilkoll.se/vanliga-fel/toyota/auris-hybrid/",
+            "https://minbilkoll.se/vanliga-fel/toyota/auris/",
+            "https://www.fiches-auto.fr/fiabilite-toyota/fiabilite-379-pannes-toyota-auris-2.php"
+          ]
+        },
+        {
+          "id": "far-aydinlatma-zayifligi",
+          "baslik": "Kısa far ve arka aydınlatma sorunları",
+          "parca": "Far ve stop lambası grupları",
+          "belirtiler": "Kısa huzmeli farlar zayıf aydınlatıyor ya da ayarı bozuluyor, muayenede aydınlatmadan kusur çıkıyor; bazı araçlarda far ve stop lambalarında nem/su birikiyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "İngiltere'de bazı araçlarda Toyota ücretsiz far iyileştirmesi yaptı.",
+          "kaynaklar": [
+            "https://www.t-online.de/mobilitaet/aktuelles/id_100595112/toyota-auris-ueberzeugt-als-gebrauchtwagen-im-tuev-check.html",
+            "https://gebrauchtwagenberater.de/toyota-auris-probleme-krankheiten-kaufberatung/",
+            "https://toyotaownersclub.com/forums/topic/190411-considering-buying-a-201415-auris-hybrid-common-faults-to-watch-for",
+            "https://www.fiches-auto.fr/fiabilite-toyota/fiabilite-379-pannes-toyota-auris-2.php"
+          ]
+        },
+        {
+          "id": "fren-diski-asinma-pas",
+          "baslik": "Fren disklerinde erken aşınma ve arka disk paslanması",
+          "parca": "Fren diskleri (özellikle arka)",
+          "belirtiler": "Arka disklerin özellikle iç yüzeyi paslanıyor, frenlemede ses ve titreşim oluşuyor; diskler beklenenden erken değişiyor. Rejeneratif frenleme nedeniyle hibritte daha belirgin.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.t-online.de/mobilitaet/aktuelles/id_100595112/toyota-auris-ueberzeugt-als-gebrauchtwagen-im-tuev-check.html",
+            "https://gebrauchtwagenberater.de/toyota-auris-probleme-krankheiten-kaufberatung/",
+            "https://www.fiches-auto.fr/fiabilite-toyota/fiabilite-379-pannes-toyota-auris-2.php"
+          ]
+        },
+        {
+          "id": "dizel-dpf-tikanmasi",
+          "baslik": "1.4 D-4D'de partikül filtresi (DPF) tıkanması",
+          "parca": "Dizel partikül filtresi ve fark basınç sensörü",
+          "belirtiler": "Motor arıza lambası yanıyor (P2463 gibi DPF kısıtlama kodu), çekiş düşebiliyor. Ağırlıklı şehir içi kısa mesafe kullanımda filtre rejenerasyon yapamıyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-4-d-4d"
+          ],
+          "not": "Düzenli otoyol sürüşü filtrenin kendini temizlemesine yardımcı oluyor.",
+          "kaynaklar": [
+            "https://production.whatcar.com/toyota/auris/hatchback/used-review/n17421/reliability",
+            "https://www.toyotaownersclub.com/forums/topic/190085-auris-mk2-14-d4d-p2463-dpf-problem/"
+          ]
+        }
+      ]
+    }
+  ]
+}

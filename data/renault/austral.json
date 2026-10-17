@@ -1,0 +1,172 @@
+{
+  "marka": "Renault",
+  "markaSlug": "renault",
+  "model": "Austral",
+  "modelSlug": "austral",
+  "nesiller": [
+    {
+      "slug": "austral-1",
+      "ad": "Austral (HHN)",
+      "yillar": [
+        2022,
+        2026
+      ],
+      "not": "Türkiye teslimatları Haziran 2023'te başladı; 2025 makyajlı kasa da bu nesle dahildir. Hafif hibrit sürüm CVT (X-Tronic) otomatik, E-Tech sürüm çok modlu hibrit şanzımanla sunulur.",
+      "motorlar": [
+        {
+          "id": "1-3-tce-mild-hybrid",
+          "ad": "1.3 TCe Mild Hybrid 140/160",
+          "yakit": "hibrit"
+        },
+        {
+          "id": "1-2-e-tech-200",
+          "ad": "1.2 E-Tech Full Hybrid 200",
+          "yakit": "hibrit"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "e-tech-hibrit-sanziman-arizasi",
+          "baslik": "E-Tech hibrit şanzıman arızası ve 'P BVA arızalı' uyarısı",
+          "parca": "Çok modlu hibrit şanzıman aktüatörü / hibrit kontrol ünitesi (HEVC)",
+          "belirtiler": "Göstergede şanzıman hasar riski ya da otomatik şanzıman P arızası uyarısı yanar; vites geçmeyebilir, düşük hızda sarsıntı, vuruntu ve güç kaybı görülür, araç kilitlenip yolda kalabilir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-e-tech-200"
+          ],
+          "sanziman": "Çok modlu hibrit otomatik (E-Tech)",
+          "not": "Üretici yazılım güncellemeleri ve aktüatör değişimi uyguladı; Ocak 2024'te 2022-2023 üretimi bir grup araç için aktüatör değişimi kampanyası yapıldı.",
+          "kaynaklar": [
+            "https://www.largus.fr/guide-achat-occasion/renault/austral/avis-fiabilite-renault-austral-i-hhn-30038663.html",
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-708-pannes-renault-austral.php",
+            "https://www.sikayetvar.com/renault/austral-vites",
+            "https://communaute-etech.renault.fr/forum/RENAULT/AUSTRAL-E-TECH-HYBRIDE/FIABILITE-AUSTRAL/5110323/597544"
+          ]
+        },
+        {
+          "id": "mild-hybrid-cvt-sanziman-uyarisi",
+          "baslik": "Hafif hibritte otomatik şanzıman uyarısı ve emniyet moduna geçme",
+          "parca": "CVT otomatik şanzıman / kontrol yazılımı",
+          "belirtiler": "Şanzıman arıza uyarısı yanar, araç vitese geçmeyebilir ya da yolda emniyet moduna girer; servis ziyaretlerinde çoğu zaman kalıcı çözüm bulunamaz.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-3-tce-mild-hybrid"
+          ],
+          "sanziman": "CVT (X-Tronic) otomatik",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-708-pannes-renault-austral.php",
+            "https://www.sikayetvar.com/renault/austral-vites"
+          ]
+        },
+        {
+          "id": "e-tech-buji-tekleme-guc-kaybi",
+          "baslik": "'Enjeksiyonu kontrol edin' uyarısı, tekleme ve güç kaybı",
+          "parca": "Bujiler / ateşleme bobini, motor yazılımı",
+          "belirtiler": "Enjeksiyon uyarısı yanar, motor tekler ve titrer, güç belirgin şekilde düşer; elektrikli sürüş devre dışı kalabilir, bazı araçlar stop edip çekiciyle taşınır.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-e-tech-200"
+          ],
+          "not": "Nisan 2024'te 6 Şubat 2024'e kadar üretilen yaklaşık 21 bin araçta titreşim ve güç kaybı nedeniyle buji değişimi kampanyası yapıldı.",
+          "kaynaklar": [
+            "https://www.largus.fr/guide-achat-occasion/renault/austral/avis-fiabilite-renault-austral-i-hhn-30038663.html",
+            "https://forum.quechoisir.org/post1188866.html",
+            "https://communaute-etech.renault.fr/forum/RENAULT/AUSTRAL-E-TECH-FULL-HYBRID/INJECTION-A-CONTROLER/5137018/597544",
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-708-pannes-renault-austral.php"
+          ]
+        },
+        {
+          "id": "e-tech-elektrikli-su-pompasi",
+          "baslik": "Elektrikli su pompası arızası ('motor hasar riski' uyarısı)",
+          "parca": "Elektrikli su pompası",
+          "belirtiler": "Göstergede 'motor hasar riski' uyarısı belirir; soğutma pompası arızası kaydı (P26CAF5) oluşur.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-e-tech-200"
+          ],
+          "not": "Haziran 2023 sonuna kadar üretilen H5F motorları etkiler; pompa Haziran 2023'te revize edildi, çözüm pompa değişimi.",
+          "kaynaklar": [
+            "https://www.largus.fr/actualite-automobile/renault-austral-et-espace-e-tech-200-des-problemes-avec-le-circuit-de-refroidissement-30035702.html",
+            "https://www.largus.fr/guide-achat-occasion/renault/austral/avis-fiabilite-renault-austral-i-hhn-30038663.html",
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-708-pannes-renault-austral.php"
+          ]
+        },
+        {
+          "id": "e-tech-hava-su-esanjoru-kacagi",
+          "baslik": "Hava/su eşanjörü kaçağı ve soğutma sıvısı eksilmesi",
+          "parca": "Turbo hava/su eşanjörü (düşük sıcaklık soğutma devresi)",
+          "belirtiler": "'Enjeksiyonu kontrol edin' uyarısı yanar ve düşük sıcaklık devresinin genleşme kabındaki soğutma sıvısı seviyesi düşer.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-e-tech-200"
+          ],
+          "not": "2023 sonuna kadar üretilen araçları etkiler; kaçak bulunamazsa eşanjör değiştirilir.",
+          "kaynaklar": [
+            "https://www.largus.fr/actualite-automobile/renault-austral-et-espace-e-tech-200-des-problemes-avec-le-circuit-de-refroidissement-30035702.html",
+            "https://www.largus.fr/guide-achat-occasion/renault/austral/avis-fiabilite-renault-austral-i-hhn-30038663.html",
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-708-pannes-renault-austral.php"
+          ]
+        },
+        {
+          "id": "12v-aku-bosalmasi",
+          "baslik": "12V akünün boşalması ve aracın çalışmaması",
+          "parca": "12V akü / şarj yönetimi yazılımı",
+          "belirtiler": "Araç beklerken 12V akü boşalır, sabah çalışmaz ya da hibrit sistem devreye girmez; takviye ile çalışır ama sorun tekrarlayabilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Hafif hibritte 2023 ortasına kadar kabin kontrol ünitesine, E-Tech'te çekiş aküsü ve enjeksiyon beyinlerine yazılım güncellemesi yapıldı.",
+          "kaynaklar": [
+            "https://www.largus.fr/guide-achat-occasion/renault/austral/avis-fiabilite-renault-austral-i-hhn-30038663.html",
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-708-pannes-renault-austral.php",
+            "https://communaute-etech.renault.fr/forum/RENAULT/AUSTRAL-E-TECH-FULL-HYBRID/AUSTRAL-ETECH-IMPOSSIBLE-DE-DEMARRER--BATTERIE--12V--DECHARGEE/5506295/597544"
+          ]
+        },
+        {
+          "id": "e-tech-turbo-arizasi",
+          "baslik": "Turbo arızası",
+          "parca": "Turbo",
+          "belirtiler": "Ani güç kaybı, uyarı ışıkları ve araçta yolda kalma; turbo değişimi gerekir, bazı vakalarda motor hasarına kadar ilerlemiştir. Parça bekleme süreleri uzun olabilir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-e-tech-200"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-708-pannes-renault-austral.php",
+            "https://communaute-etech.renault.fr/forum/RENAULT/AUSTRAL-E-TECH-FULL-HYBRID/INJECTION-A-CONTROLER/5137018/597544",
+            "https://forum.quechoisir.org/post1188866.html"
+          ]
+        },
+        {
+          "id": "openr-link-multimedya-donmasi",
+          "baslik": "OpenR Link multimedya ekranının donması ve bağlantı hataları",
+          "parca": "OpenR Link multimedya sistemi",
+          "belirtiler": "Ekran siyah/beyaz kalır ya da donar, güncellemeden sonra açılmayabilir; Bluetooth bağlantısında kopma ve takılı kalma gibi hatalar görülür.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Renault, Nisan-Ekim 2024 üretimi araçlar için uzaktan (FOTA) openR link 3.2.0 güncellemesi yayımladı.",
+          "kaynaklar": [
+            "https://www.largus.fr/actualite-automobile/renault-une-mise-a-jour-du-systeme-openr-link-sur-135-000-modeles-30039486.html",
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-708-pannes-renault-austral.php",
+            "https://www.sikayetvar.com/renault/renault-austral-bluetooth-baglanti-hatasi"
+          ]
+        }
+      ]
+    }
+  ]
+}

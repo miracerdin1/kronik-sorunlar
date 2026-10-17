@@ -1,0 +1,184 @@
+{
+  "marka": "Skoda",
+  "markaSlug": "skoda",
+  "model": "Superb",
+  "modelSlug": "superb",
+  "nesiller": [
+    {
+      "slug": "superb-3",
+      "ad": "Superb (B8 / 3V)",
+      "yillar": [
+        2015,
+        2023
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-4-tsi",
+          "ad": "1.4 TSI (125/150 PS ACT)",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-5-tsi",
+          "ad": "1.5 TSI ACT",
+          "yakit": "benzin"
+        },
+        {
+          "id": "2-0-tsi",
+          "ad": "2.0 TSI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-tdi",
+          "ad": "1.6 TDI",
+          "yakit": "dizel"
+        },
+        {
+          "id": "2-0-tdi",
+          "ad": "2.0 TDI",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dsg-vuruntu-debriyaj-asinmasi",
+          "baslik": "DSG şanzımanda vuruntu ve debriyaj aşınması",
+          "parca": "Çift kavramalı DSG şanzıman (debriyaj paketi / mekatronik)",
+          "belirtiler": "Kalkışta ve düşük viteslerde silkeleme, sert ya da takılarak yapılan vites geçişleri; bazı araçlarda üst viteste kayma hissi ve şanzıman uyarı mesajları görülür. Islak kavramalı DQ381'de vuruntunun çoğunlukla 100.000 km civarından sonra ortaya çıktığı belirtiliyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": "6/7 ileri DSG (DQ200, DQ250, DQ381)",
+          "not": "Şanzıman yağının düzenli (yaklaşık 50.000-60.000 km'de bir) değiştirilmesi ve adaptasyon ayarı sorunu çoğu zaman hafifletiyor. Yoğun dur-kalk kullanım ve römork çekme debriyaj aşınmasını hızlandırıyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-skoda/fiabilite-538-pannes-skoda-superb.php",
+            "https://gebrauchtwagenberater.de/skoda-superb-3v-probleme/",
+            "https://kfz-dietrich.com/blog/vw-diagnose-skoda-superb-3-typische-probleme-odis/"
+          ]
+        },
+        {
+          "id": "ea288-su-pompasi",
+          "baslik": "TDI motorlarda su pompası arızası",
+          "parca": "Su pompası (EA288 dizel)",
+          "belirtiler": "Soğutma suyu eksilmesi, hararet göstergesinin yükselmesi ve aşırı ısınma uyarısı. Bazı sahipler pompa arızası yüzünden motorun ısındığını bildiriyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-tdi",
+            "2-0-tdi"
+          ],
+          "not": "Kaynaklardaki bildirimler çoğunlukla 2.0 TDI (150/190 PS) üzerinde; 1.6 TDI de aynı EA288 ailesinden.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-skoda/fiabilite-538-pannes-skoda-superb.php",
+            "https://gebrauchtwagenberater.de/skoda-superb-3v-probleme/"
+          ]
+        },
+        {
+          "id": "cift-kutleli-volan",
+          "baslik": "Çift kütleli volan erken yıpranıyor",
+          "parca": "Çift kütleli volan",
+          "belirtiler": "Motor çalıştırılırken ve kapatılırken tıkırtı/vuruntu sesi, rölantide ve belirli devirlerde (ör. 5-6. viteste 60-80 km/s) artan titreşim.",
+          "km": "120.000-130.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-0-tdi"
+          ],
+          "not": "Yüksek kilometreli (taksi, filo) dizellerde sık; titreşim şanzıman rulmanıyla karıştırılabildiği için arıza tespiti gerekiyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-skoda/fiabilite-538-pannes-skoda-superb.php",
+            "https://gebrauchtwagenberater.de/skoda-superb-3v-probleme/",
+            "https://kfz-dietrich.com/blog/vw-diagnose-skoda-superb-3-typische-probleme-odis/"
+          ]
+        },
+        {
+          "id": "adblue-nox-sensoru",
+          "baslik": "AdBlue / SCR sistemi ve NOx sensörü hataları",
+          "parca": "AdBlue (SCR) sistemi, NOx sensörü",
+          "belirtiler": "Motor arıza lambası veya AdBlue/emisyon uyarısının tekrar tekrar yanması; tipik hata kodları SCR verimi düşük (P20EE) ve katalizör sonrası NOx sensörü (P229F). AdBlue kristalleşmesi de aynı tabloya yol açabiliyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-0-tdi"
+          ],
+          "not": "Şehir içi ağırlıklı kullanımda DPF rejenerasyonunun tamamlanamaması da ayrıca görülebiliyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-skoda/fiabilite-538-pannes-skoda-superb.php",
+            "https://kfz-dietrich.com/blog/vw-diagnose-skoda-superb-3-typische-probleme-odis/"
+          ]
+        },
+        {
+          "id": "1-5-tsi-dusuk-devir-tork",
+          "baslik": "1.5 TSI'da düşük devirde tekleme / çekiş zayıflığı",
+          "parca": "Motor yazılımı (1.5 TSI ACT)",
+          "belirtiler": "Kalkışta ve düşük hızlarda motorun yeterli tork vermemesi, gaza tepkide duraksama; motor soğukken sarsıntılı ilerleme (kanguru etkisi) görülebiliyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-tsi"
+          ],
+          "not": "Ekim 2018 - Haziran 2019 arası üretilen bazı araçlar için yazılım güncellemesiyle giderilen bir geri çağırma var; Alman kaynaklar bunu manuel şanzımanlı araçlarla ilişkilendiriyor.",
+          "kaynaklar": [
+            "https://www.whatcar.com/skoda/superb/hatchback/used-review/n969/advice",
+            "https://gebrauchtwagenberater.de/skoda-superb-3v-probleme/",
+            "https://carwiki.de/skoda-superb-probleme",
+            "https://drive.co.uk/cars/skoda/superb/review/2015?from=hj"
+          ]
+        },
+        {
+          "id": "yay-amortisor",
+          "baslik": "Kırık helezon yay ve yağ kaçıran amortisörler",
+          "parca": "Süspansiyon yayları, amortisörler, aks burçları",
+          "belirtiler": "Tümseklerde vuruntu sesi, aracın bir köşesinin çökmesi, yalpalama. Almanya'daki TÜV muayenelerinde Superb 3'te en sık çıkan kusur bu; arka yayın kırıldığı da bildiriliyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Ağır gövde ve yüksek kilometreli filo kullanımı yıpranmayı hızlandırıyor; TÜV'de 2-3 yaşındaki araçlarda bile ortalamanın üzerinde kusur oranı görülüyor.",
+          "kaynaklar": [
+            "https://www.autobild.de/artikel/skoda-superb-als-gebrauchtwagen-im-tuev-check-schwachstellen-maengel-staerken-28138413.html",
+            "https://gebrauchtwagenberater.de/skoda-superb-3v-probleme/",
+            "https://www.dev.honestjohn.co.uk/owner-reviews/skoda/superb-2015"
+          ]
+        },
+        {
+          "id": "multimedya-navigasyon",
+          "baslik": "Multimedya, navigasyon ve Bluetooth aksaklıkları",
+          "parca": "Multimedya ünitesi (Columbus/Amundsen), navigasyon",
+          "belirtiler": "Ekranın donması, navigasyonun kendiliğinden kapanması, Bluetooth/telefon bağlantısının kopması; uzaktan kumandalı anahtarın ara ara çalışmaması da bildiriliyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Çoğu durumda yazılım güncellemesiyle düzeliyor.",
+          "kaynaklar": [
+            "https://www.whatcar.com/skoda/superb/hatchback/used-review/n969/advice",
+            "https://www.autobild.de/artikel/skoda-superb-als-gebrauchtwagen-im-tuev-check-schwachstellen-maengel-staerken-28138413.html",
+            "https://gebrauchtwagenberater.de/skoda-superb-3v-probleme/",
+            "https://autoscore.pro/en/model/skoda-superb-b8"
+          ]
+        },
+        {
+          "id": "elektrikli-bagaj-kapagi",
+          "baslik": "Elektrikli bagaj kapağı motorunun arızalanması",
+          "parca": "Elektrikli bagaj kapağı tahrik motoru / amortisörleri",
+          "belirtiler": "Bagaj kapağının açılıp kapanırken takılması, yarıda kalması ya da hiç hareket etmemesi; özellikle Combi'de görülüyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Viraj aydınlatmasının (köşe lambası) arızalanması da aynı kaynaklarda küçük kusurlar arasında sayılıyor.",
+          "kaynaklar": [
+            "https://www.autobild.de/artikel/skoda-superb-als-gebrauchtwagen-im-tuev-check-schwachstellen-maengel-staerken-28138413.html",
+            "https://carwiki.de/skoda-superb-probleme",
+            "https://www.fiches-auto.fr/fiabilite-skoda/fiabilite-538-pannes-skoda-superb.php"
+          ]
+        }
+      ]
+    }
+  ]
+}

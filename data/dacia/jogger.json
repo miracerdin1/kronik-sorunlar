@@ -1,0 +1,136 @@
+{
+  "marka": "Dacia",
+  "markaSlug": "dacia",
+  "model": "Jogger",
+  "modelSlug": "jogger",
+  "nesiller": [
+    {
+      "slug": "jogger-1",
+      "ad": "Jogger",
+      "yillar": [
+        2022,
+        2026
+      ],
+      "not": "Sandero 3 ile aynı platform ve motorları paylaşır.",
+      "motorlar": [
+        {
+          "id": "1-0-tce-110",
+          "ad": "1.0 TCe 110",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-0-eco-g-100",
+          "ad": "1.0 ECO-G 100",
+          "yakit": "lpg"
+        },
+        {
+          "id": "hybrid-140",
+          "ad": "1.6 Hybrid 140",
+          "yakit": "hibrit"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "debriyaj-volan-arizasi",
+          "baslik": "Erken debriyaj ve çift kütleli volan arızası",
+          "parca": "Debriyaj seti ve çift kütleli volan",
+          "belirtiler": "Rölantide ve ilk çalıştırmada takırtı/titreşim, yüksek kavrama noktası, kalkışta kaçırma ve yanık kokusu. Birçok sahipte parça değişimi düşük kilometrelerde birkaç kez tekrarlanıyor.",
+          "km": "5.000-60.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": "Yaklaşık 95.000 TL (2026, yetkili serviste garanti dışı volan + debriyaj)",
+          "motorlar": [
+            "1-0-tce-110",
+            "1-0-eco-g-100"
+          ],
+          "sanziman": "6 ileri manuel",
+          "not": "Şikayetlerin büyük kısmı TCe 110'da. Garanti kapsamı tartışmaları yaygın; özellikle 2022 üretimi araçlar etkilenmiş görünüyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-705-pannes-dacia-jogger.php",
+            "https://forum-auto.matmut.fr/forum/DACIA/DACIA-JOGGER/EMBRAYAGE-SUR-DACIA-JOGGER/5556735/594870",
+            "https://www.sikayetvar.com/dacia/kronik-volan-ve-debriyaj-arizasi-nedeniyle-dacia-joggerda-95-bin-tl-iade-ve-geri-cagri-talebi",
+            "https://www.sikayetvar.com/dacia/dacia-garanti-kapsami-disinda-volan-arizasi-icin-165-bin-tl-ucret-talebi",
+            "https://totalrenting.es/problemas/dacia-problemas/dacia-jogger-problemas/",
+            "https://au7o.io/known-issues/dacia-jogger?year=2023"
+          ]
+        },
+        {
+          "id": "vites-gecis-zorlugu",
+          "baslik": "Manuel şanzımanda vites ve geri vites geçiş zorluğu",
+          "parca": "Manuel şanzıman / debriyaj hidroliği",
+          "belirtiler": "Vitesler sert ya da zorla giriyor, geri vites ancak motor kapalıyken takılabiliyor; bazı araçlarda şanzımandan ses geliyor.",
+          "km": "7.000-22.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-0-tce-110",
+            "1-0-eco-g-100"
+          ],
+          "sanziman": "6 ileri manuel",
+          "not": "Dacia bayide motor beyni yeniden programlaması öneriyor; bazı araçlarda debriyaj/volan veya şanzıman değişimi gerekti.",
+          "kaynaklar": [
+            "https://www.largus.fr/guide-achat/Dacia_Jogger.html",
+            "https://forum-auto.matmut.fr/forum/DACIA/JOGGER/VITESSES-BLOQUEES/5513804/594870",
+            "https://forum-auto.matmut.fr/forum/DACIA/DACIA-JOGGER/PROBLEME-EMBRAYAGE---BOITE-A-VITESSES---JOGGER-7PLACES-TCE-110-EXTREME/5026607/594870",
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-705-pannes-dacia-jogger.php",
+            "https://totalrenting.es/problemas/dacia-problemas/dacia-jogger-problemas/"
+          ]
+        },
+        {
+          "id": "hibrit-sanziman-keceden-yag-kacagi",
+          "baslik": "Hibrit şanzımanda keçe kaçağı, aşırı ısınma ve çekiş kaybı",
+          "parca": "E-Tech multimod şanzıman (elektrik motoru mili keçesi) ve elektrik motoru",
+          "belirtiler": "Şanzıman aşırı ısınma uyarısı, vites geçmemesi, yokuşta zorlanma, motor arıza uyarısı ve ani çekiş kaybı; bazı araçlarda elektrik motoru arızasıyla araç yolda kalıyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "hybrid-140"
+          ],
+          "sanziman": "E-Tech multimod otomatik",
+          "not": "Renault grubu 2025'te elektrik motoru içi mil keçesi için geri çağırma başlattı (keçe kontrolü/değişimi + HEVC/HECM yazılım güncellemesi). Şasi numarasıyla kontrol ettirin.",
+          "kaynaklar": [
+            "https://www.largus.fr/guide-achat/Dacia_Jogger.html",
+            "https://motorsactu.com/dacia-jogger-alerte-et-rappel-pour-defauts-potentiellement-fatals/",
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-705-pannes-dacia-jogger.php",
+            "https://au7o.io/known-issues/dacia-jogger?year=2023",
+            "https://www.carchecker.pro/reports/dacia_jogger_hybrid_140.html"
+          ]
+        },
+        {
+          "id": "lpg-sistemi-enjeksiyon-uyarisi",
+          "baslik": "LPG sisteminde enjeksiyon uyarısı ve benzin-LPG geçiş sorunları",
+          "parca": "Fabrika LPG sistemi (enjeksiyon, depo, beyin)",
+          "belirtiler": "\"Enjeksiyonu kontrol ettirin\" / \"LPG sistemini kontrol ettirin\" uyarıları, LPG'ye geçmeme ya da LPG'nin kilitlenmesi, soğukta tekleme ve stop etme.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-0-eco-g-100"
+          ],
+          "not": "Dacia enjeksiyon uyarısı için geri çağırma yaptı; LPG deposu için de ayrı bir geri çağırma kaydı var. Aynı motor Sandero 3 ECO-G'de de benzer şikayetler alıyor.",
+          "kaynaklar": [
+            "https://www.largus.fr/guide-achat/Dacia_Jogger.html",
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-705-pannes-dacia-jogger.php",
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-671-pannes-dacia-sandero-3.php"
+          ]
+        },
+        {
+          "id": "12v-aku-bosalmasi",
+          "baslik": "12V akünün kendiliğinden boşalması",
+          "parca": "12V yardımcı akü",
+          "belirtiler": "Araç birkaç gün/hafta park halinde kaldığında akü boşalıyor, çalıştırmak için takviye gerekiyor; ardından gösterge panelinde çeşitli hata uyarıları çıkabiliyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Hibrit versiyonda sistemin kapalıyken de modülleri beslemesi nedeniyle daha belirgin; uzun beklemelerde akü koruyucu şarj cihazı önerilir.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-705-pannes-dacia-jogger.php",
+            "https://totalrenting.es/problemas/dacia-problemas/dacia-jogger-problemas/",
+            "https://www.carchecker.pro/reports/dacia_jogger_hybrid_140.html"
+          ]
+        }
+      ]
+    }
+  ]
+}

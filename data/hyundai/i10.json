@@ -1,0 +1,146 @@
+{
+  "marka": "Hyundai",
+  "markaSlug": "hyundai",
+  "model": "i10",
+  "modelSlug": "i10",
+  "nesiller": [
+    {
+      "slug": "i10-2",
+      "ad": "i10 (IA)",
+      "yillar": [
+        2013,
+        2019
+      ],
+      "not": "İzmit'te üretilen ikinci nesil i10. Manuel ve 4 ileri tork konvertörlü otomatik seçenekleri var.",
+      "motorlar": [
+        {
+          "id": "1-0-mpi",
+          "ad": "1.0 MPi 66 HP",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-25-mpi",
+          "ad": "1.25 MPi 87 HP",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "elektrikli-direksiyon-ses-sertlesme",
+          "baslik": "Direksiyon kolonundan ses ve sertleşme",
+          "parca": "Elektrikli direksiyon (EPS) kolonu",
+          "belirtiler": "Direksiyon çevrilirken ya da bozuk yolda tıkırtı, boşluk ve titreşim hissedilir. Ses zamanla artar, direksiyon ağırlaşabilir.",
+          "km": "40.000-55.000",
+          "ciddiyet": "orta",
+          "maliyetTl": "33.000-62.700 (2025 şikayetleri, yetkili serviste kolon değişimi)",
+          "motorlar": "hepsi",
+          "not": "Türkiye'de 2014, 2016 ve 2018 model araçlar için aynı şikayet tekrar ediyor. Alman TÜV istatistiklerinde de direksiyon sistemi ortalamanın üstünde kusur veriyor. Garanti bitince ücretli değişim isteniyor.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-i10-direksiyon-arizasi-icin-yuksek-onarim-ucreti-ve-kronik-sorun-endisesi",
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-i10-direksiyon-arizasi-kronik-cikti-garanti-bitince-magdur-edildik",
+            "https://www.autobild.de/artikel/hyundai-i10-schwachstellen-maengel-staerken-28381701.html",
+            "https://www.t-online.de/mobilitaet/aktuelles/id_100675376/hyundai-i10-gebrauchtwagen-city-tauglich-aber-mit-schwaechen.html"
+          ]
+        },
+        {
+          "id": "sert-vites-gecisi-geri-vites",
+          "baslik": "Sert vites geçişleri ve zor giren geri vites",
+          "parca": "Vites kablosu / vites seçici mekanizması",
+          "belirtiler": "Vitesler, özellikle geri vites ve 3. vites, zor ya da cızırtıyla giriyor. Soğukta daha belirgin oluyor. Bazen geri vites debriyaja birkaç kez basmadan girmiyor.",
+          "km": "10.000-65.000",
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": "5 ileri manuel",
+          "not": "Çoğu araçta vites/debriyaj kablosu ayarı sorunu çözüyor.",
+          "kaynaklar": [
+            "https://www.autoexpress.co.uk/hyundai/i10/66480/hatchback/interior",
+            "https://www.carbuyer.co.uk/reviews/hyundai/i10/city-car/124272/review/owner-reviews",
+            "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-459-pannes-hyundai-i10.php",
+            "https://www.justanswer.co.uk/hyundai/ifw6y-2015-i10-gears-getting-stiff.html"
+          ]
+        },
+        {
+          "id": "erken-debriyaj-asinmasi",
+          "baslik": "Erken debriyaj aşınması",
+          "parca": "Debriyaj seti",
+          "belirtiler": "Debriyaj kaçırmaya başlar, yokuşta araç zorlanır. Bazı araçlarda yoğun trafikte debriyaj pedalı sıkışır.",
+          "km": "40.000-80.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": "5 ileri manuel",
+          "not": "AUTO BILD'in uzun süreli test aracında da debriyaj yavaş yavaş kavramayı kaybetti ve değişimi pahalıya geldi.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-459-pannes-hyundai-i10.php",
+            "https://www.autobild.de/artikel/hyundai-i10-schwachstellen-maengel-staerken-28381701.html",
+            "https://www.carbuyer.co.uk/reviews/hyundai/i10/city-car/124272/review/owner-reviews"
+          ]
+        },
+        {
+          "id": "fren-diski-korozyon",
+          "baslik": "Fren disklerinde paslanma ve hızlı aşınma",
+          "parca": "Fren diskleri (özellikle arka)",
+          "belirtiler": "Diskler birkaç yıl içinde paslanıp oyuklanıyor. Muayenede 'fren diski aşırı korozyonlu' notu çıkıyor ve disk değişimi gerekiyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Az kullanılan, şehir içinde gezen araçlarda daha sık görülüyor.",
+          "kaynaklar": [
+            "https://www.autobild.de/artikel/hyundai-i10-schwachstellen-maengel-staerken-28381701.html",
+            "https://www.carbuyer.co.uk/reviews/hyundai/i10/city-car/124272/review/owner-reviews",
+            "https://www.autozine.nl/hyundai/i10-2013-2019/betrouwbaarheid",
+            "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-459-pannes-hyundai-i10.php"
+          ]
+        },
+        {
+          "id": "zayif-el-freni",
+          "baslik": "Zayıf tutan ya da takılan el freni",
+          "parca": "El freni (park freni) mekanizması",
+          "belirtiler": "El freni çekiliyken araç yokuşta kayabilir. Bazı araçlarda el freni indirildikten sonra takılı kalıyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "TÜV muayenesinde bu nesilde park freni ortalamanın altında sonuç veriyor.",
+          "kaynaklar": [
+            "https://www.autobild.de/artikel/hyundai-i10-schwachstellen-maengel-staerken-28381701.html",
+            "https://www.carbuyer.co.uk/reviews/hyundai/i10/city-car/124272/review/owner-reviews"
+          ]
+        },
+        {
+          "id": "yag-kacagi-yag-eksiltme",
+          "baslik": "Yağ kaçağı ve yağ eksiltme",
+          "parca": "Motor contaları / keçeler, piston segmanları",
+          "belirtiler": "Motorun altında yağ izi oluşuyor ve seviye bakımlar arasında düşüyor. İleri vakalarda motor yağ yakıyor ve piston/segman değişimi gerekiyor.",
+          "km": "60.000+",
+          "ciddiyet": "orta",
+          "maliyetTl": "yaklaşık 100.000 TL (2025 şikayeti, yağ yakan 2015 model için piston değişimi)",
+          "motorlar": "hepsi",
+          "not": "Yağ seviyesini düzenli kontrol etmek ve bakım aralıklarına uymak önemli.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-459-pannes-hyundai-i10.php",
+            "https://www.autobild.de/artikel/hyundai-i10-schwachstellen-maengel-staerken-28381701.html",
+            "https://www.adac.de/rund-ums-fahrzeug/auto-kaufen-verkaufen/gebrauchtwagenkauf/gebrauchtwageninfos/hyundai-i10-248/",
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-i10-motor-problemi-ve-magduriyet"
+          ]
+        },
+        {
+          "id": "aku-bitmesi",
+          "baslik": "Akünün erken bitmesi",
+          "parca": "Akü",
+          "belirtiler": "Araç sabah çalışmıyor ya da marş zayıf basıyor. Özellikle kısa mesafede kullanılan araçlarda görülüyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "ADAC yol yardım istatistiğinde en sık arıza nedeni. Zirve 2014 kayıtlı araçlarda: 1.000 araçta 24,1 arıza.",
+          "kaynaklar": [
+            "https://www.adac.de/rund-ums-fahrzeug/auto-kaufen-verkaufen/gebrauchtwagenkauf/gebrauchtwageninfos/hyundai-i10-248/"
+          ]
+        }
+      ]
+    }
+  ]
+}
