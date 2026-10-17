@@ -1,0 +1,74 @@
+{
+  "marka": "Kia",
+  "markaSlug": "kia",
+  "model": "Rio",
+  "modelSlug": "rio",
+  "nesiller": [
+    {
+      "slug": "rio-yb",
+      "ad": "Rio (YB)",
+      "yillar": [
+        2017,
+        2023
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-2-mpi",
+          "ad": "1.2 MPI 84 PS",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-4-mpi",
+          "ad": "1.4 MPI 100 PS",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-0-t-gdi",
+          "ad": "1.0 T-GDI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-4-crdi",
+          "ad": "1.4 CRDi 90 PS",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "debriyaj-titreme-ve-yipranma",
+          "baslik": "Debriyajda titreme ve erken yıpranma",
+          "parca": "Debriyaj seti / debriyaj bilyası",
+          "belirtiler": "Kalkışta birinci vitesde sarsıntı, soğukken debriyajın sorunlu çalışması, vites geçişlerinde sertlik. Bazı sahiplerde debriyaj bilyası birkaç kez değiştirilmesine rağmen sorun tekrarlamış.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-mpi"
+          ],
+          "not": "Kaynaklardaki örnekler çoğunlukla 1.2 motorlu araçlardan; örneklem küçük.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-kia/fiabilite-588-pannes-kia-rio.php",
+            "https://www.carbuyer.co.uk/kia/rio/156082/kia-rio-hatchback-review-2017-2023/owner-reviews",
+            "https://www.carchecker.pro/reports/kia_rio_yb_1.2.html"
+          ]
+        },
+        {
+          "id": "ic-buharlanma-camda-nem",
+          "baslik": "Kabin içinde aşırı buğulanma",
+          "parca": "Cam / havalandırma sistemi",
+          "belirtiler": "Ön camda aşırı buğulanma, kışın camın içeriden buzlanması. Servis bazı araçlarda nedeni bulamamış, bazılarında sorun kısmen giderilmiş.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Kaynaklarda 1.2 benzinli ve 1.4 CRDi dizel araçlarda bildirilmiş; az sayıda sahip yorumuna dayanıyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-kia/fiabilite-588-pannes-kia-rio.php",
+            "https://www.carbuyer.co.uk/kia/rio/156082/kia-rio-hatchback-review-2017-2023/owner-reviews"
+          ]
+        }
+      ]
+    }
+  ]
+}

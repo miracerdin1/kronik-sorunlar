@@ -1,0 +1,121 @@
+{
+  "marka": "Skoda",
+  "markaSlug": "skoda",
+  "model": "Scala",
+  "modelSlug": "scala",
+  "nesiller": [
+    {
+      "slug": "scala-1",
+      "ad": "Scala (1. nesil)",
+      "yillar": [
+        2019,
+        2026
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-0-tsi",
+          "ad": "1.0 TSI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-5-tsi",
+          "ad": "1.5 TSI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-tdi",
+          "ad": "1.6 TDI",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "multimedya-donma-yeniden-baslama",
+          "baslik": "Multimedya ekranı donuyor, kendiliğinden yeniden başlıyor",
+          "parca": "Multimedya / bilgi-eğlence ünitesi",
+          "belirtiler": "Ekran rastgele donar veya kapanıp açılır; CarPlay/Android Auto, navigasyon ve Bluetooth bağlantısı kopabilir. Yazılım güncellemesi bazı araçlarda geçici rahatlama sağlıyor, bazılarında sorun geri dönüyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": null,
+          "not": "Garanti kapsamında yazılım güncellemesi veya ünite değişimi ile ele alınıyor.",
+          "kaynaklar": [
+            "https://www.briskoda.net/forums/topic/496308-infotainment-screen-rebooting-and-freezing/",
+            "https://www.fiches-auto.fr/fiabilite-skoda/fiabilite-711-pannes-skoda-scala.php",
+            "https://www.volksmasterltd.co.uk/skoda-scala-10-most-common-problems/"
+          ]
+        },
+        {
+          "id": "sos-ecall-uyarisi",
+          "baslik": "SOS / acil çağrı (eCall) uyarısı ve kontrol ünitesi arızası",
+          "parca": "Online bağlantı ünitesi (OCU / eCall)",
+          "belirtiler": "Sürüş sırasında SOS veya servise başvurun uyarısı çıkar; çoğu zaman multimedya donmaları ve bağlantı kopmalarıyla birlikte görülür. Güncelleme ya da ünite değişiminden sonra tekrarlayanlar var.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": null,
+          "not": "Bazı üretim yıllarında ilgili yazılım için servis çalışması yapılmış.",
+          "kaynaklar": [
+            "https://www.briskoda.net/forums/topic/510373-infotainment-and-emergency-call-issues/",
+            "https://www.fiches-auto.fr/fiabilite-skoda/fiabilite-711-pannes-skoda-scala.php"
+          ]
+        },
+        {
+          "id": "dsg-yavas-hizda-vurma-mekatronik",
+          "baslik": "7 ileri DSG'de yavaş hızda vurma ve mekatronik arızası",
+          "parca": "7 ileri kuru kavramalı DSG / mekatronik",
+          "belirtiler": "Kalkışta ve park manevralarında tekleme, sarsıntı; bazı araçlarda şanzıman arıza lambası ve mekatronik değişimi. Şikayetvar'da yeni araçta çok erken kilometrede mekatronik arızası bildirilmiş.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-0-tsi",
+            "1-5-tsi"
+          ],
+          "sanziman": "7 ileri DSG otomatik",
+          "not": "Hafif vakalar yazılım güncellemesiyle düzelebiliyor; kavrama aşınması ve mekatronik arızası ayrıca bildiriliyor.",
+          "kaynaklar": [
+            "https://www.volksmasterltd.co.uk/skoda-scala-10-most-common-problems/",
+            "https://www.briskoda.net/forums/topic/537072-reliability-issues-strange-noises-should-i-keep-my-skoda-scala-10-dsg/"
+          ]
+        },
+        {
+          "id": "aku-start-stop",
+          "baslik": "Start-Stop çalışmıyor, akü erken zayıflıyor",
+          "parca": "Akü / Start-Stop sistemi",
+          "belirtiler": "Start-Stop devre dışı kalır, akü şarjı düşer; servis aküyü şarj edip testlerin normal çıktığını söyleyebiliyor ve arıza birkaç hafta içinde tekrarlıyor. Bazı araçlarda akü garanti kapsamında değişse de yeniden bitmiş.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": null,
+          "not": null,
+          "kaynaklar": [
+            "https://www.sikayetvar.com/skoda/skoda-scalada-surekli-start-stop-arizasi-ve-aku-sarji-sorunu",
+            "https://www.volksmasterltd.co.uk/skoda-scala-10-most-common-problems/",
+            "https://www.fiches-auto.fr/fiabilite-skoda/fiabilite-711-pannes-skoda-scala.php"
+          ]
+        },
+        {
+          "id": "suspansiyon-gicirti",
+          "baslik": "Süspansiyondan gıcırtı ve tıkırtı",
+          "parca": "Amortisör / denge çubuğu / burçlar",
+          "belirtiler": "Bozuk zeminde süspansiyon bölgesinden gıcırtı ve tıkırtı gelir; parça değişiminden sonra geçici olarak kesilip geri dönebiliyor.",
+          "km": "90.000-100.000",
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": null,
+          "not": null,
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-skoda/fiabilite-711-pannes-skoda-scala.php",
+            "https://www.volksmasterltd.co.uk/skoda-scala-10-most-common-problems/"
+          ]
+        }
+      ]
+    }
+  ]
+}

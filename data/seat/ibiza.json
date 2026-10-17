@@ -1,0 +1,151 @@
+{
+  "marka": "Seat",
+  "markaSlug": "seat",
+  "model": "Ibiza",
+  "modelSlug": "ibiza",
+  "nesiller": [
+    {
+      "slug": "ibiza-6j",
+      "ad": "Ibiza (6J)",
+      "yillar": [
+        2008,
+        2017
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-2-tsi",
+          "ad": "1.2 TSI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-4-tsi",
+          "ad": "1.4 TSI (FR/Cupra)",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-tdi",
+          "ad": "1.6 TDI",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "zamanlama-zinciri-uzamasi",
+          "baslik": "Triger zinciri uzaması ve tırtıl sesi",
+          "parca": "Triger zinciri ve gergisi",
+          "belirtiler": "Soğuk çalıştırmada başlayan, sonra devirle artan zincir tıkırtısı; motor arıza ışığı ve eksantrik/krank uyumsuzluğu hata kodları. İhmal edilirse supap-piston teması riski var.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-tsi",
+            "1-4-tsi"
+          ],
+          "sanziman": null,
+          "not": "1.2 TSI'de özellikle EA111 motorlu 2009-2014 arası araçlar öne çıkıyor.",
+          "kaynaklar": [
+            "https://www.autocar.co.uk/car-review/seat/ibiza-2008-2017/reliability",
+            "https://whatcar.com/seat/ibiza/hatchback/used-review/n780/advice",
+            "https://www.whocanfixmycar.com/advice/common-problems-with-the-seat-ibiza",
+            "https://kfz-dietrich.com/blog/seat-ibiza-typische-probleme-odis/"
+          ]
+        },
+        {
+          "id": "dsg-dq200-sanziman",
+          "baslik": "7 ileri DSG (DQ200) sarsıntı ve mekatronik arızası",
+          "parca": "DSG şanzıman (mekatronik ve kuru kavrama)",
+          "belirtiler": "Kalkışta sarsıntı, vites geçişlerinde vuruntu, 'şanzımanı kontrol edin' uyarısı ve acil durum moduna geçme. Yağ bakımı aksatılmış araçlarda daha sık görülüyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-tsi",
+            "1-4-tsi"
+          ],
+          "sanziman": "7 ileri DSG (DQ200) otomatik",
+          "not": "Kaynaklar şanzıman yağının yaklaşık 40.000 mil (yaklaşık 64.000 km) aralıkla değiştirilmesini öneriyor.",
+          "kaynaklar": [
+            "https://www.autocar.co.uk/car-review/seat/ibiza-2008-2017/reliability",
+            "https://whatcar.com/seat/ibiza/hatchback/used-review/n780/advice",
+            "https://www.whocanfixmycar.com/advice/common-problems-with-the-seat-ibiza",
+            "https://kfz-dietrich.com/blog/seat-ibiza-typische-probleme-odis/"
+          ]
+        },
+        {
+          "id": "turbo-arizasi",
+          "baslik": "Turbo arızası ve aşırı yağ tüketimi",
+          "parca": "Turbo şarj ünitesi / aktüatör",
+          "belirtiler": "Güç kaybı, mavi duman, yağ sızıntısı, aşırı ısınma, limp moda geçme; 1.4 TSI'de ayrıca yağ tüketimi ve şarj basıncı düşmesi.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-4-tsi",
+            "1-6-tdi"
+          ],
+          "sanziman": null,
+          "not": "Küçük turbolu motorlarda elektronik aktüatör fişine su girmesi de arıza sebebi olarak anılıyor.",
+          "kaynaklar": [
+            "https://www.autocar.co.uk/car-review/seat/ibiza-2008-2017/reliability",
+            "https://whatcar.com/seat/ibiza/hatchback/used-review/n780/advice",
+            "https://kfz-dietrich.com/blog/seat-ibiza-typische-probleme-odis/"
+          ]
+        },
+        {
+          "id": "dpf-egr-tikanmasi",
+          "baslik": "DPF ve EGR valfi tıkanması",
+          "parca": "Dizel partikül filtresi (DPF) / EGR valfi",
+          "belirtiler": "Acil durum moduna geçme, güç kaybı, DPF uyarı lambası; kısa mesafe kullanımda daha sık görülür. EGR ve girdap kapaklarında kurumlanma.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-tdi"
+          ],
+          "sanziman": null,
+          "not": null,
+          "kaynaklar": [
+            "https://www.autocar.co.uk/car-review/seat/ibiza-2008-2017/reliability",
+            "https://whatcar.com/seat/ibiza/hatchback/used-review/n780/advice",
+            "https://kfz-dietrich.com/blog/seat-ibiza-typische-probleme-odis/"
+          ]
+        },
+        {
+          "id": "klima-sorunlari",
+          "baslik": "Klima kompresörü ve kondenser arızası",
+          "parca": "Klima kompresörü / kondenser",
+          "belirtiler": "Soğutmanın zayıflaması veya kaybolması, gaz kaçağı, kompresörden ıslık ya da sürtünme sesi.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": null,
+          "not": null,
+          "kaynaklar": [
+            "https://www.autocar.co.uk/car-review/seat/ibiza-2008-2017/reliability",
+            "https://whatcar.com/seat/ibiza/hatchback/used-review/n780/advice",
+            "https://www.whocanfixmycar.com/advice/common-problems-with-the-seat-ibiza"
+          ]
+        },
+        {
+          "id": "cam-motoru-arizasi",
+          "baslik": "Elektrikli cam motoru arızası",
+          "parca": "Cam motoru ve cam düğmesi",
+          "belirtiler": "Camın açık ya da kapalı konumda takılı kalması, tek taraflı cam çalışmaması.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": null,
+          "not": null,
+          "kaynaklar": [
+            "https://www.autocar.co.uk/car-review/seat/ibiza-2008-2017/reliability",
+            "https://whatcar.com/seat/ibiza/hatchback/used-review/n780/advice",
+            "https://www.whocanfixmycar.com/advice/common-problems-with-the-seat-ibiza"
+          ]
+        }
+      ]
+    }
+  ]
+}

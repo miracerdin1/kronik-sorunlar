@@ -1,0 +1,68 @@
+{
+  "marka": "Peugeot", "markaSlug": "peugeot", "model": "5008", "modelSlug": "5008",
+  "nesiller": [{
+    "slug": "5008-ii", "ad": "5008 (P87)", "yillar": [2017, 2024], "not": null,
+    "motorlar": [
+      {"id": "1-2-puretech-130", "ad": "1.2 PureTech 130", "yakit": "benzin"},
+      {"id": "1-6-bluehdi-120", "ad": "1.6 BlueHDi 120", "yakit": "dizel"},
+      {"id": "1-5-bluehdi-130", "ad": "1.5 BlueHDi 130", "yakit": "dizel"},
+      {"id": "2-0-bluehdi-180", "ad": "2.0 BlueHDi 180", "yakit": "dizel"}
+    ],
+    "sorunlar": [
+      {
+        "id": "eksantrik-zinciri-gurultusu-1-5-bluehdi", "baslik": "Eksantrik (triger) zinciri gürültüsü ve kopması", "parca": "Eksantrik zinciri ve gergisi",
+        "belirtiler": "Özellikle soğuk çalıştırmada zincir tıkırtısı veya şakırdama olur, yağ tüketimi artabilir. Zincir kopması valf ve silindir kapağında ağır hasara yol açabilir.",
+        "km": "50.000-100.000", "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["1-5-bluehdi-130"],
+        "sanziman": null,
+        "not": "Stellantis zinciri 7 mm'den 8 mm'ye çevirdi ve önleyici geri çağırma/kampanya yürütüyor; Türkiye'de kampanya kapsamı ve ücret konusunda yetkili servislerle anlaşmazlık şikayetleri var.",
+        "kaynaklar": [
+          "https://www.sikayetvar.com/peugeot/5008/sorunu",
+          "https://www.sikayetvar.com/peugeot/5008/kronik",
+          "https://www.quechoisir.org/actualite-moteur-diesel-1-5-bluehdi-de-stellantis-la-grogne-monte-n132914/",
+          "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-580-pannes-peugeot-5008-2.php"
+        ]
+      },
+      {
+        "id": "adblue-sistemi-arizasi", "baslik": "AdBlue tankı, pompası ve sensör arızası", "parca": "AdBlue tankı / pompası / NOx sensörü",
+        "belirtiler": "Gösterge panelinde AdBlue ve emisyon uyarısı çıkar, 'xxx km sonra çalışmayacak' mesajı gelir; sonunda araç limp moda girebilir veya çalışmayı reddedebilir. Arıza tank değişiminden sonra tekrarlayabilir.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["1-6-bluehdi-120", "1-5-bluehdi-130", "2-0-bluehdi-180"],
+        "sanziman": null,
+        "not": "Servis fiyatları sayfalarda yıl belirtilmeden verildiği için maliyet yazılmadı.",
+        "kaynaklar": [
+          "https://www.sikayetvar.com/5008/adblue",
+          "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-580-pannes-peugeot-5008-2.php",
+          "https://forum.donanimhaber.com/her-peugeot-adblue-sorununun-yasayacaktir--144473286-15",
+          "https://www.euspares.co.uk/blog/peugeot-5008-common-problems-a-comprehensive-guide-to-troubleshooting-issues/"
+        ]
+      },
+      {
+        "id": "islak-triger-kayisi-puretech", "baslik": "Yağda çalışan triger kayışının dağılması", "parca": "Triger kayışı (yağlı kayış), yağ pompası süzgeci",
+        "belirtiler": "Kayış yağ içinde aşınıp parçalanır, parçacıklar yağ emiş süzgecini ve yağ pompasını tıkayabilir; yağ basıncı uyarısı, aşırı yağ tüketimi ve ağır durumda motor yatakları/motor kilitlenmesi görülür.",
+        "km": "40.000-80.000", "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["1-2-puretech-130"],
+        "sanziman": null,
+        "not": "Stellantis değişim aralığını kısalttı ve bazı pazarlarda tazminat/uzatılmış garanti sunuyor; sonraki motorlarda zincire geçti.",
+        "kaynaklar": [
+          "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-580-pannes-peugeot-5008-2.php",
+          "https://www.parkers.co.uk/car-news/stellantis-wet-belt-compensation/",
+          "https://www.sikayetvar.com/peugeot/peugeot-kronik-sorunlu-12-puretech-motor-magduriyeti",
+          "https://www.euspares.co.uk/blog/peugeot-5008-common-problems-a-comprehensive-guide-to-troubleshooting-issues/"
+        ]
+      },
+      {
+        "id": "multimedya-ekrani-donma-arizasi", "baslik": "Multimedya dokunmatik ekranının donması veya kararması", "parca": "Dokunmatik ekran / multimedya ünitesi",
+        "belirtiler": "Ekran yanıt vermez, kendiliğinden yeniden başlar veya tamamen kararır; kamera ve Bluetooth bağlantısı kesilebilir. Bazı araçlarda radar uyarısı gibi elektronik arızalar da birlikte görülür.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "sanziman": null,
+        "not": null,
+        "kaynaklar": [
+          "https://www.sikayetvar.com/peugeot/5008/sorunu",
+          "https://www.euspares.co.uk/blog/peugeot-5008-common-problems-a-comprehensive-guide-to-troubleshooting-issues/"
+        ]
+      }
+    ]
+  }]
+}

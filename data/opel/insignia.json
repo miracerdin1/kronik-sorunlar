@@ -1,0 +1,21 @@
+{
+"marka":"Opel","markaSlug":"opel","model":"Insignia","modelSlug":"insignia",
+"nesiller":[{
+"slug":"insignia-a","ad":"Insignia (A)","yillar":[2008,2017],"not":null,
+"motorlar":[
+{"id":"1-6","ad":"1.6 (115 HP)","yakit":"benzin"},
+{"id":"1-6-turbo","ad":"1.6 Turbo (180 HP)","yakit":"benzin"},
+{"id":"1-4-turbo","ad":"1.4 Turbo (140 HP)","yakit":"benzin"},
+{"id":"1-8","ad":"1.8 (140 HP)","yakit":"benzin"},
+{"id":"2-0-turbo","ad":"2.0 Turbo (220/250 HP)","yakit":"benzin"},
+{"id":"1-6-cdti","ad":"1.6 CDTI (136 HP)","yakit":"dizel"},
+{"id":"2-0-cdti","ad":"2.0 CDTI (110-163 HP)","yakit":"dizel"}
+],
+"sorunlar":[
+{"id":"dpf-tikanmasi","baslik":"Dizel partikül filtresi (DPF) tıkanması","parca":"DPF","belirtiler":"Sık rejenerasyon, güç kaybı, arıza ve DPF uyarı lambası; kısa mesafe kullanımda belirginleşir.","km":null,"ciddiyet":"yuksek","maliyetTl":null,"motorlar":["2-0-cdti","1-6-cdti"],"not":"Düzenli uzun/otoyol yolculuğu yapılmayan araçlarda daha sık görülür.","kaynaklar":["https://www.whatcar.com/vauxhall/insignia/hatchback/used-review/n688/advice","https://kfz-dietrich.com/blog/opel-insignia-typische-probleme-werkstatt-diagnose/","https://www.wheelstreet.lt/straipsniai/opel-insignia-daznos-problemos","https://www.fiches-auto.fr/fiabilite-opel/fiabilite-270-pannes-opel-insignia.php"]},
+{"id":"egr-valfi","baslik":"EGR valfi karbonlanması / arızası","parca":"EGR valfi","belirtiler":"Güç kaybı, düzensiz rölanti, acil durum (limp) moduna girme; bazı örneklerde EGR soğutucusundan sıvı kaçağı.","km":null,"ciddiyet":"orta","maliyetTl":null,"motorlar":["2-0-cdti"],"not":null,"kaynaklar":["https://www.fiches-auto.fr/fiabilite-opel/fiabilite-270-pannes-opel-insignia.php","https://kfz-dietrich.com/blog/opel-insignia-typische-probleme-werkstatt-diagnose/","https://www.wheelstreet.lt/straipsniai/opel-insignia-daznos-problemos","https://www.rac.co.uk/drive/car-reviews/vauxhall/insignia/insignia-2013-2017/"]},
+{"id":"turbo-hortum-turbo","baslik":"Turbo hortumu ve turbo arızaları","parca":"Turbo / turbo hortumu","belirtiler":"Güç kaybı, ıslık sesi, hortumdan basınç kaçağı, turbo şaft boşluğu ve mavi duman.","km":null,"ciddiyet":"orta","maliyetTl":null,"motorlar":["2-0-cdti"],"not":"Benzinli turbo motorlarda yağ bakımı ihmal edilirse turbo aşınması da görülür.","kaynaklar":["https://www.fiches-auto.fr/fiabilite-opel/fiabilite-270-pannes-opel-insignia.php","https://kfz-dietrich.com/blog/opel-insignia-typische-probleme-werkstatt-diagnose/"]},
+{"id":"volan-debriyaj","baslik":"Çift kütleli volan ve debriyaj aşınması","parca":"Volan / debriyaj","belirtiler":"Kalkışta titreme, rölantide vibrasyon, vites değiştirirken gürültü, debriyajda kayma.","km":"120.000-125.000","ciddiyet":"orta","maliyetTl":null,"motorlar":["2-0-cdti","1-6-cdti"],"sanziman":"manuel","not":null,"kaynaklar":["https://www.whatcar.com/vauxhall/insignia/hatchback/used-review/n688/advice","https://www.wheelstreet.lt/straipsniai/opel-insignia-daznos-problemos","https://www.fiches-auto.fr/fiabilite-opel/fiabilite-270-pannes-opel-insignia.php"]},
+{"id":"sogutma-termostat-govdesi","baslik":"Plastik termostat gövdesi / soğutma suyu kaçakları","parca":"Termostat gövdesi, soğutma hattı","belirtiler":"Soğutma suyu eksilmesi, zemin altında sızıntı, ısınma riski.","km":null,"ciddiyet":"orta","motorlar":"hepsi","maliyetTl":null,"not":null,"kaynaklar":["https://kfz-dietrich.com/blog/opel-insignia-typische-probleme-werkstatt-diagnose/","https://www.fiches-auto.fr/fiabilite-opel/fiabilite-270-pannes-opel-insignia.php"]},
+{"id":"zaman-zinciri-atesleme","baslik":"Zaman zinciri gevşemesi ve ateşleme bobini arızası (benzinli)","parca":"Zaman zinciri / ateşleme bobini","belirtiler":"Soğuk çalıştırmada metalik takırtı, zincir korelasyon hatası, ateşleme aksaması.","km":"100.000+","ciddiyet":"yuksek","maliyetTl":null,"motorlar":["1-4-turbo","1-6","1-6-turbo","1-8","2-0-turbo"],"not":"Zincir sorunu bakımı ihmal edilmiş araçlarda görülür; bobin arızası 1.8 için kaynaklarda tekrar eden bir şikayet.","kaynaklar":["https://kfz-dietrich.com/blog/opel-insignia-typische-probleme-werkstatt-diagnose/","https://www.wheelstreet.lt/straipsniai/opel-insignia-daznos-problemos","https://www.fiches-auto.fr/fiabilite-opel/fiabilite-270-pannes-opel-insignia.php"]}
+]}]}
