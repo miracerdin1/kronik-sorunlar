@@ -1,0 +1,61 @@
+{
+  "marka": "Mini", "markaSlug": "mini", "model": "Cooper", "modelSlug": "cooper",
+  "nesiller": [{
+    "slug": "cooper-f56", "ad": "Cooper (F56)", "yillar": [2014, 2024], "not": null,
+    "motorlar": [
+      {"id": "1-5-b38", "ad": "1.5 Cooper (B38, 136 hp)", "yakit": "benzin"},
+      {"id": "2-0-b48", "ad": "2.0 Cooper S (B48, 192 hp)", "yakit": "benzin"},
+      {"id": "2-0-b48-jcw", "ad": "2.0 John Cooper Works (B48, 231 hp)", "yakit": "benzin"}
+    ],
+    "sorunlar": [
+      {
+        "id": "termostat-yag-filtre-yuvasi-kacagi", "baslik": "Termostat ve yağ filtre yuvasında sızıntı", "parca": "Termostat yuvası / yağ filtre yuvası / soğutma hortumları",
+        "belirtiler": "Soğutma suyu seviyesi yavaş yavaş düşer, motor altında veya yan tarafta sıvı izi görülür; ihmal edilirse motor ısınma uyarısı gelebilir.",
+        "km": "80.000-160.000", "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "not": "Plastik gövdeler yaşlandıkça çatlıyor ya da sızdırıyor; km aralığı B48 motoru için verilmiş genel bir değerdir.",
+        "kaynaklar": [
+          "https://www.motoringfile.com/?p=81717",
+          "https://www.slashgear.com/1848297/bmw-b48-engine-common-problems/",
+          "https://autoscore.pro/engine/b38"
+        ]
+      },
+      {
+        "id": "su-pompasi", "baslik": "Elektrikli su pompası arızası", "parca": "Su pompası",
+        "belirtiler": "Pompadan ıslık veya gürültü gelir, soğutma suyu kaybı ve ısınma riski oluşur.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "kaynaklar": [
+          "https://www.fiches-auto.fr/fiabilite-mini/fiabilite-493-pannes-mini-mini.php",
+          "https://www.slashgear.com/1848297/bmw-b48-engine-common-problems/",
+          "https://autocopilot.fr/modeles/mini-cooper-f56"
+        ]
+      },
+      {
+        "id": "sanziman-arizalari", "baslik": "Otomatik şanzıman sorunları", "parca": "Otomatik şanzıman (Aisin 6 ileri / 7 ileri DCT)",
+        "belirtiler": "Düşük hızda sarsıntı veya tereddüt, çalışırken ıslık/uğultu, bazen vites geçirmeme; bazı örneklerde şanzıman değişimi gerekmiş.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "sanziman": "6 ileri Aisin otomatik / 7 ileri DCT",
+        "not": "Erken DCT'lerdeki sertlik büyük oranda yazılım güncellemeleriyle giderilmiş; güncelleme yapılıp yapılmadığı kontrol edilmeli.",
+        "kaynaklar": [
+          "https://www.fiches-auto.fr/fiabilite-mini/fiabilite-493-pannes-mini-mini.php",
+          "https://www.motoringfile.com/?p=81717",
+          "https://autocopilot.fr/modeles/mini-cooper-f56"
+        ]
+      },
+      {
+        "id": "motor-takozu", "baslik": "Motor takozlarının yorulması", "parca": "Motor takozu",
+        "belirtiler": "Çalıştırma sırasında ve rölantide titreşim, takırtı veya garip sesler.",
+        "km": "90.000-100.000", "ciddiyet": "dusuk", "maliyetTl": null,
+        "motorlar": ["2-0-b48", "2-0-b48-jcw"],
+        "not": "Km değeri JCW için verilmiş; B38 için kaynaklarda net bilgi yok.",
+        "kaynaklar": [
+          "https://www.motoringfile.com/?p=81717",
+          "https://www.fastcar.co.uk/tuning-tech-guides/mini-f56-cooper-cooper-s-buyers-guide/",
+          "https://autocopilot.fr/modeles/mini-cooper-f56"
+        ]
+      }
+    ]
+  }]
+}

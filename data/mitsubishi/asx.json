@@ -1,0 +1,74 @@
+{
+  "marka": "Mitsubishi",
+  "markaSlug": "mitsubishi",
+  "model": "ASX",
+  "modelSlug": "asx",
+  "nesiller": [
+    {
+      "slug": "asx-1",
+      "ad": "ASX (GA)",
+      "yillar": [
+        2010,
+        2023
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-6-mivec",
+          "ad": "1.6 MIVEC",
+          "yakit": "benzin"
+        },
+        {
+          "id": "2-0-mivec",
+          "ad": "2.0 MIVEC",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-8-di-d",
+          "ad": "1.8 DI-D",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dizel-dpf-egr-yag-seyrelmesi",
+          "baslik": "DPF tıkanması, EGR kirlenmesi ve yağın yakıtla seyrelmesi",
+          "parca": "Dizel partikül filtresi / EGR valfi",
+          "belirtiler": "Kısa mesafeli şehir içi kullanımda filtre kendini temizleyemez; arıza lambası yanar, rölanti düzensizleşir, güç düşer. Rejenerasyon sırasında sump'a geçen yakıt yağ seviyesini yükseltip yağı inceltir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-8-di-d"
+          ],
+          "not": "Uzun yolda düzenli rejenerasyon ve yağ seviyesi kontrolü önerilir; 2011-2012 yapımı 1.8 DI-D'lerde piston segmanlarında is birikmesi için yazılım güncellemesi (geri çağırma) yapıldı.",
+          "kaynaklar": [
+            "https://www.carbuyer.co.uk/mitsubishi/asx/owner-reviews",
+            "https://www.drive.com.au/reviews/mitsubishi-asx-used-car-reviewed/",
+            "https://minbilkoll.se/vanliga-fel/mitsubishi/",
+            "https://www.auto-swiat.pl/uzywane/co-warto-kupic/mitsubishi-asx-solidny-po-japonsku/drd6kq2"
+          ]
+        },
+        {
+          "id": "cvt-sanziman-yag-gecikme",
+          "baslik": "CVT şanzımanda gecikme ve yağ bakımsızlığına bağlı aşınma",
+          "parca": "CVT otomatik şanzıman (Jatco JF011E)",
+          "belirtiler": "Duruştan kalkarken tepkisizlik veya gecikme, hızlanırken titreme/kayma hissi. Şanzıman yağı hiç değiştirilmeyen araçlarda sorun belirginleşir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-0-mivec"
+          ],
+          "sanziman": "CVT otomatik",
+          "not": "Düzenli şanzıman yağı değişimi (yaklaşık 60.000 km aralıkla önerilir) ömrü belirgin uzatır; 2015 üretim bir seri için gecikme konusunda geri çağırma yapıldı.",
+          "kaynaklar": [
+            "https://minbilkoll.se/vanliga-fel/mitsubishi/",
+            "https://www.drive.com.au/reviews/mitsubishi-asx-used-car-reviewed/",
+            "https://www.kolesa.ru/article/mitsubishi-asx-s-probegom-neudachnyy-16-i-novyy-variator-kotoryy-khuzhe-starogo"
+          ]
+        }
+      ]
+    }
+  ]
+}

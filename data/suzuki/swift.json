@@ -1,0 +1,43 @@
+{
+  "marka": "Suzuki", "markaSlug": "suzuki", "model": "Swift", "modelSlug": "swift",
+  "nesiller": [{
+    "slug": "swift-4", "ad": "Swift (A2L)", "yillar": [2017, 2024], "not": null,
+    "motorlar": [
+      {"id": "1-2-dualjet", "ad": "1.2 Dualjet", "yakit": "benzin"},
+      {"id": "1-2-dualjet-hybrid", "ad": "1.2 Dualjet Hybrid (SHVS)", "yakit": "hibrit"}
+    ],
+    "sorunlar": [
+      {
+        "id": "multimedya-ses-donma", "baslik": "Multimedya ünitesi sesi kesiliyor / donuyor", "parca": "Multimedya (bilgi-eğlence) ünitesi",
+        "belirtiler": "Radyo ve USB'den ses gelmemesi, ekranın donması veya Bluetooth/navigasyon hataları görülür; sıfırlamak geçici çözüm sağlar ama arıza günler içinde geri dönebilir.",
+        "km": null, "ciddiyet": "dusuk", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "sanziman": null,
+        "not": "Servis bazı durumlarda bunu bilinen bir arıza olarak tanımlamış; yazılım güncellemesi her zaman kalıcı çözüm olmuyor.",
+        "kaynaklar": [
+          "https://www.sikayetvar.com/suzuki/suzuki-swift-ses-problemi",
+          "https://www.largus.fr/guide-achat-occasion/suzuki/swift/avis-fiabilite-suzuki-swift-iv-30038696.html",
+          "https://www.carchecker.pro/reports/suzuki_swift_mk4_1.2_hybrid.html"
+        ]
+      },
+      {
+        "id": "debriyaj-titremesi", "baslik": "Debriyaj titremesi (manuel şanzıman)", "parca": "Debriyaj seti ve volan",
+        "belirtiler": "Kalkışta ve düşük devirde debriyaj pedalından ve kasadan hissedilen titreşim; çözüm volan ve debriyaj kapağının değişimi.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-2-dualjet"],
+        "sanziman": "5 vites manuel",
+        "not": "Kaynağa göre Ocak 2021'e kadar üretilen araçlarda görülüyor.",
+        "kaynaklar": ["https://www.largus.fr/guide-achat-occasion/suzuki/swift/avis-fiabilite-suzuki-swift-iv-30038696.html"]
+      },
+      {
+        "id": "supap-kapagi-yag-sizintisi", "baslik": "Külbütör kapağı contasından yağ sızıntısı", "parca": "Külbütör (supap) kapağı contası",
+        "belirtiler": "Motor üstünde ve çevresinde yağ sızıntısı izi, yağ kokusu; çözüm kapak contasının değiştirilmesi.",
+        "km": null, "ciddiyet": "dusuk", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "sanziman": null,
+        "not": "Kaynağa göre Nisan 2019'a kadar üretilen araçlarda görülüyor.",
+        "kaynaklar": ["https://www.largus.fr/guide-achat-occasion/suzuki/swift/avis-fiabilite-suzuki-swift-iv-30038696.html"]
+      }
+    ]
+  }]
+}

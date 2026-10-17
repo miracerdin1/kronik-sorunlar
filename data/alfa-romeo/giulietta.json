@@ -1,0 +1,88 @@
+{
+  "marka": "Alfa Romeo", "markaSlug": "alfa-romeo", "model": "Giulietta", "modelSlug": "giulietta",
+  "nesiller": [{
+    "slug": "giulietta-940", "ad": "Giulietta (940)", "yillar": [2010, 2020], "not": null,
+    "motorlar": [
+      {"id": "1-4-tb-120", "ad": "1.4 TB 120 HP", "yakit": "benzin"},
+      {"id": "1-4-multiair-170", "ad": "1.4 MultiAir 170 HP", "yakit": "benzin"},
+      {"id": "1-6-jtdm-105", "ad": "1.6 JTDM 105-120 HP", "yakit": "dizel"},
+      {"id": "2-0-jtdm-140", "ad": "2.0 JTDM 140-150 HP", "yakit": "dizel"}
+    ],
+    "sorunlar": [
+      {
+        "id": "multiair-modul-ariza", "baslik": "MultiAir valf modülü arızası", "parca": "MultiAir hidrolik valf kumanda ünitesi",
+        "belirtiler": "Motorun üst kısmından tık tık sesi, düşük devirde tırlama, motor arıza lambası ve bazen 3 silindirde çalışma; stop-start devre dışı kalabilir.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["1-4-multiair-170"],
+        "not": "Yanlış yağ derecesi ve geciken yağ değişimi riski artırır; 2012 sonrası revizyonla azaldığı belirtiliyor.",
+        "kaynaklar": [
+          "https://www.drive.com.au/reviews/alfa-romeo-giulietta-used-car-review/",
+          "https://alfaworkshop.co.uk/alfa_romeo_giulietta_buyers_guide.shtml",
+          "https://autoblog.spidersweb.pl/alfa-romeo-giulietta-awarie-usterki",
+          "https://minbilkoll.se/vanliga-fel/alfa-romeo/",
+          "https://www.fiches-auto.fr/fiabilite-alfa-romeo/fiabilite-289-pannes-alfa-romeo-giulietta.php"
+        ]
+      },
+      {
+        "id": "bagaj-kapagi-kablo-demeti", "baslik": "Bagaj kapağı kablo demeti kopması", "parca": "Bagaj kapağı kablo demeti",
+        "belirtiler": "Arka silecek çalışmaması, radyo anteni yayın kaybı, arka stop lambalarının yanmaması.",
+        "km": null, "ciddiyet": "dusuk", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "not": "Bagaj kapağının sık açılıp kapanması kabloda yıpranmaya yol açar.",
+        "kaynaklar": [
+          "https://alfaworkshop.co.uk/alfa_romeo_giulietta_buyers_guide.shtml",
+          "https://www.carbuyer.co.uk/reviews/alfa-romeo/giulietta/hatchback/owner-reviews",
+          "https://autoblog.spidersweb.pl/alfa-romeo-giulietta-awarie-usterki"
+        ]
+      },
+      {
+        "id": "dizel-egr-sogutucu", "baslik": "EGR valfi ve EGR soğutucu arızaları", "parca": "EGR valfi / EGR soğutucusu",
+        "belirtiler": "Motor arıza lambası, güç kaybı, soğutma suyu kaybı (soğutucudan sızıntı); kısa mesafe kullanımda DPF rejenerasyonu tamamlanamaz.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-6-jtdm-105", "2-0-jtdm-140"],
+        "not": "EGR valfinin plastik gövdesinin çatlaması da bildiriliyor.",
+        "kaynaklar": [
+          "https://www.fiches-auto.fr/fiabilite-alfa-romeo/fiabilite-289-pannes-alfa-romeo-giulietta.php",
+          "https://alfaworkshop.co.uk/alfa_romeo_giulietta_buyers_guide.shtml",
+          "https://autoblog.spidersweb.pl/alfa-romeo-giulietta-awarie-usterki",
+          "https://minbilkoll.se/vanliga-fel/alfa-romeo/"
+        ]
+      },
+      {
+        "id": "tct-sanziman-sorunlari", "baslik": "TCT çift kavramalı şanzıman sorunları", "parca": "TCT şanzıman / kavrama",
+        "belirtiler": "Vites geçişinde tereddüt ve sertlik, sensör hata mesajları; ihmal edilirse pahalı şanzıman onarımı.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["1-4-multiair-170", "2-0-jtdm-140"],
+        "sanziman": "6 ileri TCT çift kavramalı otomatik",
+        "not": "Zayıf akü sensör hatalarını tetikleyebilir; kısa mesafe kullanımda ve geç yağ değişiminde arıza daha sık.",
+        "kaynaklar": [
+          "https://minbilkoll.se/vanliga-fel/alfa-romeo/",
+          "https://autoblog.spidersweb.pl/alfa-romeo-giulietta-awarie-usterki",
+          "https://www.autoscout24.at/informieren/testberichte/alfa-romeo/giulietta/gebrauchtwagentest-alfa-romeo-giulietta-nicht-nur-schoen/",
+          "https://www.fiches-auto.fr/fiabilite-alfa-romeo/fiabilite-289-pannes-alfa-romeo-giulietta.php"
+        ]
+      },
+      {
+        "id": "2-0-jtdm-debriyaj-volan", "baslik": "2.0 JTDM debriyaj ve volan arızası", "parca": "Debriyaj seti / volan",
+        "belirtiler": "Debriyaj kavrama sorunu, titreşim ve gürültü; volan değişimi gerekebilir.",
+        "km": "50.000-100.000", "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["2-0-jtdm-140"],
+        "not": "Tek güçlü kaynakta en sık bildirilen arıza.",
+        "kaynaklar": [
+          "https://www.fiches-auto.fr/fiabilite-alfa-romeo/fiabilite-289-pannes-alfa-romeo-giulietta.php"
+        ]
+      },
+      {
+        "id": "stop-start-aku", "baslik": "Akü zayıflığı ve stop-start devre dışı kalması", "parca": "Akü / stop-start sistemi",
+        "belirtiler": "Stop-start çalışmaması, akü uyarıları; zayıf akü nedeniyle çeşitli sensör ve elektronik hataları.",
+        "km": null, "ciddiyet": "dusuk", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "kaynaklar": [
+          "https://alfaworkshop.co.uk/alfa_romeo_giulietta_buyers_guide.shtml",
+          "https://www.carbuyer.co.uk/reviews/alfa-romeo/giulietta/hatchback/owner-reviews",
+          "https://www.fiches-auto.fr/fiabilite-alfa-romeo/fiabilite-289-pannes-alfa-romeo-giulietta.php"
+        ]
+      }
+    ]
+  }]
+}
