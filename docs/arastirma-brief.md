@@ -37,3 +37,11 @@ Sonucu şu yola JSON olarak yaz: `<scratchpad>/arac/<markaSlug>-<modelSlug>.json
 yakit değerleri: benzin, dizel, lpg, hibrit, elektrik. id'ler küçük harf-tire. JSON'a `guven` alanı YAZMA.
 
 Son mesajında: dosya yolu, kaç sorun, hangileri 2+ farklı alan adlı, ve emin olamadığın noktalar (kısa).
+
+## Ek kurallar (tur 11-15'te öğrenildi)
+- autodoc.co.uk, autopartspro.co.uk, europremiumparts.com ve araclo.com kaynak olarak kullanılmaz.
+- Yalnızca kanonik, herkese açık URL kullan (dev/mirror alan adı yok).
+- Kaynak sayfa tam o sorunu anlatmalı; başka bir şikayetin "ilgili şikayetler" bağlantısı kaynak olmaz.
+- km yalnızca güçlü kaynaktan, km'ye çevrilmiş olarak; bakım aralığı arıza km'si değildir.
+- Tek anekdota ya da yalnızca zayıf kaynağa dayanan maddeleri ve tek seferlik geri çağırmaları ekleme.
+- yillar'ın bitişi hiçbir zaman null olmaz; üretimi süren modelde içinde bulunulan yılı yaz.
