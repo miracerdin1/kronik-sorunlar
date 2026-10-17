@@ -1,0 +1,185 @@
+{
+  "marka": "Seat",
+  "markaSlug": "seat",
+  "model": "Leon",
+  "modelSlug": "leon",
+  "nesiller": [
+    {
+      "slug": "leon-3",
+      "ad": "Leon (5F)",
+      "yillar": [
+        2013,
+        2020
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-2-tsi",
+          "ad": "1.2 TSI 110 PS",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-4-tsi",
+          "ad": "1.4 TSI 125/150 PS",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-0-tsi",
+          "ad": "1.0 TSI 115 PS",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-tdi",
+          "ad": "1.6 TDI 110/115 PS",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dsg-dq200-mekatronik-kavrama",
+          "baslik": "DSG şanzımanda vuruntu ve mekatronik arızası",
+          "parca": "7 ileri DSG (DQ200) mekatronik ünitesi ve kuru kavrama seti",
+          "belirtiler": "Kalkışta silkeleme ve titreme, sert ya da gecikmeli vites geçişleri, göstergede şanzıman uyarısı ('aracı P konumunda bırakın' gibi) ve acil durum moduna geçme; bazı araçlarda tek sayılı viteslerin kaybolması.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": "61.000-63.000 (2024, yetkili servis mekatronik parça teklifi, işçilik hariç)",
+          "motorlar": [
+            "1-2-tsi",
+            "1-4-tsi",
+            "1-0-tsi",
+            "1-6-tdi"
+          ],
+          "sanziman": "7 ileri DSG (DQ200) kuru kavramalı otomatik",
+          "not": "Bazı durumlarda yetkili serviste mekatronik yazılım güncellemesiyle geçici çözüm sağlanıyor; düzenli bakım geçmişi olan araçlarda iyi niyet desteği talep edilebiliyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-seat/fiabilite-364-pannes-seat-leon-3.php",
+            "https://www.sikayetvar.com/seat/seat-leon-mekatronik-arizasi-2",
+            "https://www.sikayetvar.com/seat/seat-leon-dsg-sanziman-aracimin-kronik-arizasi",
+            "https://forum.donanimhaber.com/seat-leon-1-6-tdi-dsg-2013-yorum--144397063",
+            "https://gebrauchtwagenberater.de/seat-leon-probleme-schwachstellen/",
+            "https://kfz-dietrich.com/blog/seat-leon-typische-probleme-odis-diagnose/"
+          ]
+        },
+        {
+          "id": "1-4-tsi-termostat-devirdaim-kacak",
+          "baslik": "1.4 TSI'da termostat gövdesi / devirdaim pompası su kaçağı",
+          "parca": "Plastik termostat (soğutma suyu regülatörü) gövdesi ve devirdaim pompası ünitesi",
+          "belirtiler": "Görünür bir damla olmadan antifriz seviyesi yavaşça düşer, düşük soğutma suyu uyarısı yanar; ünitenin üstünde antifriz izi ve pas lekeleri görülür.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-4-tsi"
+          ],
+          "not": "Isıl gerilmeyle plastik gövdede kılcal çatlaklar oluşuyor; termostat ve pompa tek ünite olarak değiştiriliyor. Kaçak ihmal edilirse silindir kapak contası risk altına girer.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-seat/fiabilite-364-pannes-seat-leon-3.php",
+            "https://kfz-dietrich.com/blog/seat-leon-typische-probleme-odis-diagnose/",
+            "https://www.seatcupra.net/forums/resources/guide-to-replacing-the-thermostat-water-pump-unit-on-the-1-4tsi-czea-engine.101/",
+            "https://club.autodoc.co.uk/forum/topic/seat-leon-years-to-avoid"
+          ]
+        },
+        {
+          "id": "1-2-tsi-eksantrik-ayar-dislisi",
+          "baslik": "1.2 TSI'da eksantrik ayar dişlisi kırılması / triger kopması",
+          "parca": "Eksantrik mili ayarlayıcı (faz değiştirici) dişlisi ve cıvataları",
+          "belirtiler": "Motordan metalik ses, yağ kaçağı; ileri aşamada triger kayışının kopması ve motorun hasar görmesi.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-tsi"
+          ],
+          "not": "Ağırlıklı olarak 2014 sonuna kadar üretilen araçlar etkilendi; Seat 2019'da 2014-2015 model 1.2 TSI Leon'lar için ayarlayıcıyı değiştiren bir geri çağırma başlattı. İkinci el alımda geri çağırmanın yapılıp yapılmadığı kontrol edilmeli.",
+          "kaynaklar": [
+            "https://www.oeamtc.at/rueckrufaktionen/seat-leon-versteller-der-nockenwelle-muss-ersetzt-werden-33764374",
+            "https://gebrauchtwagenberater.de/seat-leon-probleme-schwachstellen/",
+            "https://www.fiches-auto.fr/fiabilite-seat/fiabilite-364-pannes-seat-leon-3.php",
+            "https://carwiki.de/seat-leon-probleme"
+          ]
+        },
+        {
+          "id": "ic-trim-tikirti",
+          "baslik": "Torpido ve kapı panellerinden tıkırtı, gıcırtı",
+          "parca": "Torpido, kapı döşemeleri ve arka bölüm plastik kaplamaları",
+          "belirtiler": "Bozuk yolda ya da soğuk havada torpidodan, kapılardan ve arka taraftan gelen tıkırtı ve gıcırtı sesleri; bazıları yeni araçta birkaç bin km'de başlıyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Fiches-auto kullanıcı yorumlarında en sık anılan şikayet bu (279 yorumda 48).",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-seat/fiabilite-364-pannes-seat-leon-3.php",
+            "https://forum.donanimhaber.com/seat-leon-1-6-tdi-dsg-2013-yorum--144397063",
+            "https://www.carbuyer.co.uk/reviews/seat/leon/hatchback/74105/owner-reviews"
+          ]
+        },
+        {
+          "id": "multimedya-donma",
+          "baslik": "Multimedya ekranının donması ve elektronik aksaklıklar",
+          "parca": "Easy Connect multimedya / navigasyon ünitesi",
+          "belirtiler": "Ekranın açılışta yükleniyor ekranında takılı kalması, donması, kendi kendine kanal değiştirmesi; geri görüş kamerası, radyo ya da navigasyonun kesilmesi.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Özellikle 2016-2018 üretiminde küçük elektronik aksaklıklar raporlanıyor; çoğu yazılım güncellemesi veya sıfırlamayla düzeliyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-seat/fiabilite-364-pannes-seat-leon-3.php",
+            "https://www.whatcar.com/seat/leon/hatchback/used-review/n805/reliability",
+            "https://www.carbuyer.co.uk/reviews/seat/leon/hatchback/74105/owner-reviews",
+            "https://club.autodoc.co.uk/forum/topic/seat-leon-years-to-avoid"
+          ]
+        },
+        {
+          "id": "stop-lambasi-bugulanma",
+          "baslik": "Arka stop lambalarında buğulanma ve çatlama",
+          "parca": "Arka stop lambası grubu ve contası",
+          "belirtiler": "Arka lambaların içinde nem, buğu ya da su birikmesi; lamba camında çatlaklar.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Conta yetersizliğinden kaynaklanıyor; lamba grubu ya da contası değiştiriliyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-seat/fiabilite-364-pannes-seat-leon-3.php",
+            "https://club.autodoc.co.uk/forum/topic/seat-leon-years-to-avoid",
+            "https://carwiki.de/seat-leon-probleme"
+          ]
+        },
+        {
+          "id": "boya-hassasiyeti",
+          "baslik": "Hassas boya, taş izi ve vernik sorunları",
+          "parca": "Kaporta boyası (kaput, tampon, marşpiyel)",
+          "belirtiler": "Kaput, ön tampon ve marşpiyellerde kolayca taş izi ve boya atması; bazı araçlarda vernik kalkması ve solma.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": null,
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-seat/fiabilite-364-pannes-seat-leon-3.php",
+            "https://www.carbuyer.co.uk/reviews/seat/leon/hatchback/74105/owner-reviews"
+          ]
+        },
+        {
+          "id": "1-6-tdi-egr-dpf-turbo",
+          "baslik": "1.6 TDI'da EGR, partikül filtresi ve turbo sorunları",
+          "parca": "EGR valfi/soğutucusu, dizel partikül filtresi (DPF), turbo",
+          "belirtiler": "Güç kaybı, motor arıza lambası, DPF uyarısı ve acil durum modu; turbo geometrisinde takılma. Özellikle kısa mesafe kullanımda belirginleşiyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-tdi"
+          ],
+          "not": "Yüksek km ve sık kısa yol kullanımında artan yıpranma kalemleri; fiches-auto'da 1.6 TDI 105 PS yorumlarında turbo, EGR soğutucusu delinmesi ve DPF arızaları geçiyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-seat/fiabilite-364-pannes-seat-leon-3.php",
+            "https://gebrauchtwagenberater.de/seat-leon-probleme-schwachstellen/"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -159,6 +159,83 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "c-hr-2",
+      "ad": "C-HR (2. nesil)",
+      "yillar": [
+        2023,
+        2026
+      ],
+      "not": "Sakarya'da (TMMT) üretilen ikinci nesil. Yeni bir model olduğu için tekrarlayan sorun verisi henüz sınırlı.",
+      "motorlar": [
+        {
+          "id": "1-8-hybrid",
+          "ad": "1.8 Hybrid",
+          "yakit": "hibrit"
+        },
+        {
+          "id": "2-0-hybrid",
+          "ad": "2.0 Hybrid",
+          "yakit": "hibrit"
+        },
+        {
+          "id": "2-0-phev",
+          "ad": "2.0 Plug-in Hybrid",
+          "yakit": "hibrit"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dijital-gosterge-ekrani-kararmasi",
+          "baslik": "Dijital gösterge ekranının açılmaması",
+          "parca": "12,3 inç dijital gösterge paneli (yazılım)",
+          "belirtiler": "Araç çalıştırıldığında gösterge ekranı siyah kalabiliyor; hız göstergesi ve uyarı lambaları görünmüyor. Önceden belirti vermeden ortaya çıkabiliyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Yazılımın belleğe aşırı veri yazmasından kaynaklanıyor. 25SD-063 kodlu geri çağırma kapsamında (2022-2025 üretimi birçok Toyota modeli, C-HR TMMT dahil) ücretsiz yazılım güncellemesi, gerekirse modül değişimi yapılıyor. Kapsamı şasi numarasıyla yetkili servisten sorgulamak gerekiyor.",
+          "kaynaklar": [
+            "https://www.auto-motor-und-sport.de/verkehr/toyota-rueckruf-der-datenspeicher-des-displays-laeuft-voll/",
+            "https://carsguide.com.au/car-news/is-your-car-affected-nearly-70000-toyotas-recalled",
+            "https://eauto.org.ua/en/vidklychni-kampanii/kampaniia/tdt-132-toyota-camry-c-hr-tmmt-corolla-corolla-cross-gr-yaris-highlander-rav4-rav4-phv-yaris-yaris-cross-lbx-lm-ls500-500h-25sd-063-0007-ci-2025",
+            "https://www.fiches-auto.fr/fiabilite-toyota/fiabilite-734-pannes-toyota-c-hr-ii.php"
+          ]
+        },
+        {
+          "id": "fren-gicirtisi",
+          "baslik": "Frenlerde gıcırtı ve ses",
+          "parca": "Ön fren diskleri ve balataları",
+          "belirtiler": "Düşük kilometrede bile frenlemede sürekli gıcırtı/ötme sesi. Disk ve balata değişimi sonrasında ses bazı araçlarda geri dönüyor; servisler sesi çoğu zaman 'normal' kabul ediyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "İngiltere/İrlanda forumunda Toyota Avrupa'nın sesi 20 inç jantlara bağladığı ve 19 inç janta geçince sesin kesildiği aktarılıyor; bu ikinci el bir iddia. Diğer kaynaklarda jant boyutu belirtilmiyor.",
+          "kaynaklar": [
+            "https://www.toyotaownersclub.com/forums/topic/220284-brake-issues-new-c-hr/",
+            "https://www.deco.proteste.pt/reclamar/todas-as-reclamacoes/new-toyota-c-hr-delivered-with/0965eab1c29a55b8b3",
+            "https://www.sikayetvar.com/toyota/c-hr-2026"
+          ]
+        },
+        {
+          "id": "boya-ve-yuzey-kaplama-kusurlari",
+          "baslik": "Boya kalkması ve yüzey kaplama kusurları",
+          "parca": "Ön tampon, bagaj kapağı ve spoyler boyası; ön konsol yüzeyleri",
+          "belirtiler": "Birkaç aylık araçlarda ön tampon ve bagaj kapağında yıkama sırasında boya kalkması, spoyler boyasında kusur; iç tarafta ön konsol/göğüs yüzeyinde silme sonrası çizik benzeri izler ve solma.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Türkiye'deki kullanıcı şikayetlerinde tekrarlıyor; servislerin bir kısmı garanti dışı (kullanıcı hatası) saydığı bildiriliyor. Bağımsız ikinci bir kaynak bulunamadı.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/onatca/toyota-c-hr-on-tampon-boya-sorunu-garanti-kapsaminda-reddedildi",
+            "https://www.sikayetvar.com/toyota/toyota-c-hr-gogus-bolumundeki-cizik-benzeri-izler-garanti-kapsaminda-incelensin",
+            "https://www.sikayetvar.com/toyota/c-hr-2026"
+          ]
+        }
+      ]
     }
   ]
 }

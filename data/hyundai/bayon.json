@@ -1,0 +1,129 @@
+{
+  "marka": "Hyundai",
+  "markaSlug": "hyundai",
+  "model": "Bayon",
+  "modelSlug": "bayon",
+  "nesiller": [
+    {
+      "slug": "bayon-1",
+      "ad": "Bayon",
+      "yillar": [
+        2021,
+        2026
+      ],
+      "not": "İzmit'te üretilen B-SUV; motor, şanzıman ve platformu i20 (BC3) ile ortak.",
+      "motorlar": [
+        {
+          "id": "1-0-t-gdi",
+          "ad": "1.0 T-GDI 100",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-4-mpi",
+          "ad": "1.4 MPi 100",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-2-mpi",
+          "ad": "1.2 MPi 84",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "yakit-pompasi-carki-geri-cagirma",
+          "baslik": "Yakıt pompası çarkı şişmesi (geri çağırma)",
+          "parca": "Depo içi yakıt pompası",
+          "belirtiler": "Pompanın içindeki çark ısı ve yakıtın etkisiyle şişip gövdeye sürtüyor. Bu durumda yolda güç kaybı, motorun aniden stop etmesi ve bir süre yeniden çalışmaması görülüyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "1 Nisan 2021 ile Aralık 2022 arasında üretilen i20 ve Bayon'lar 51DT07 kodlu kampanya kapsamında. Pompa ve boru grubu yetkili serviste ücretsiz değiştiriliyor. Türkiye'de 2025 yazında gönüllü geri çağırma duyuruldu; bazı bölgelerde parça beklendiği bildiriliyor. Kapsam e-Devlet 'Araçlarım' ya da Hyundai üzerinden şasi numarasıyla sorgulanabilir.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-758-pannes-hyundai-bayon.php",
+            "https://car-recalls.eu/recall/hyundai-bayon-2021-2022-fuel-pump/",
+            "https://infocons.ro/alerta-infocons-protectia-consumatorilor-hyundai-passenger-car/",
+            "https://www.politikam.com/hyundaiden-sok-geri-cagirma-turkiyede-binlerce-arac-servise-gidiyor",
+            "https://shiftdelete.net/?p=1184776",
+            "https://www.sikayetvar.com/hyundai-motor/arac-geri-cagirma"
+          ]
+        },
+        {
+          "id": "dct-kalkista-vuruntu-yavaslama",
+          "baslik": "DCT şanzımanda kalkışta vuruntu, tereddüt ve ani yavaşlama",
+          "parca": "7 ileri kuru kavramalı DCT ve şanzıman beyni (TCU)",
+          "belirtiler": "Dur-kalk trafikte 1-2 arası vuruntu ya da tereddüt hissediliyor, düşük hızda araç fren yapılmış gibi silkeleniyor. Bazı araçlarda vites geçmiyor ve kontak kapatıp açınca düzeliyor; arıza durumunda istenmeyen yavaşlama oluşabiliyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-0-t-gdi"
+          ],
+          "sanziman": "7 ileri DCT otomatik",
+          "not": "28 Mart 2023 ile 15 Ocak 2024 arasında üretilen i20/Bayon'lar için 41DT05 kodlu geri çağırma var; çözüm olarak TCU yazılımı güncelleniyor. Kapsam dışındaki araçlarda da serviste yazılım güncellemesi istenmeli. Belirtilerin bir kısmı aynı şanzımanı kullanan i20 sahiplerinden.",
+          "kaynaklar": [
+            "https://car-recalls.eu/recall/hyundai-bayon-2023-2024-double-clutch-transmission/",
+            "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-758-pannes-hyundai-bayon.php",
+            "https://www.fiches-auto.fr/avis-hyundai/avis-unique-758-112249-hyundai-bayon-10-turbo-48v-t-gdi-100-ch-creative-48v-dct-7-55-000km-2023-17-pouces-reprog-flexfuel.php",
+            "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-699-pannes-hyundai-i20.php",
+            "https://forum.donanimhaber.com/hyundai-i20-1-0-t-gdi-style-plus-kullanim-gecmisim--155282066",
+            "https://www.sikayetvar.com/hyundai-motor/i20/otomatik",
+            "https://www.whatcar.com/hyundai/i20/hatchback/used-review/n25790/reliability"
+          ]
+        },
+        {
+          "id": "aku-erken-bitme-calismama",
+          "baslik": "Akünün erken zayıflaması ve marş sorunu",
+          "parca": "12V akü (48V'li sürümde marş-alternatör sistemi)",
+          "belirtiler": "Araç kısa süre park edildikten sonra çalışmıyor, gösterge panelinde zayıf akü uyarısı çıkıyor ve takviye gerekiyor. Bazı sahipler fabrika çıkışı akünün kapasitesini düşük buluyor; 48V'li Avrupa sürümlerinde voltaj düştüğünde marş-alternatörün aracı çalıştırmadığı bildiriliyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Serviste çoğu zaman akü yalnızca şarj edilip araç iade ediliyor. Sorun tekrarlıyorsa akü değişimi ve kaçak akım kontrolü istenmeli.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-758-pannes-hyundai-bayon.php",
+            "https://www.fiches-auto.fr/avis-hyundai/avis-unique-758-110361-hyundai-bayon-10-turbo-48v-t-gdi-100-ch-business-2023-21000km.php",
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-bayon-2024-modelde-erken-aku-arizasi-ve-garanti-disi-ucret-talebi",
+            "https://www.sikayetvar.com/hyundai-motor/yeni-aracta-surekli-aku-problemi",
+            "https://www.sikayetvar.com/hyundai-motor/sifir-araba-zayif-aku-sorunu-ve-servis-magduriyeti",
+            "https://forum-auto.matmut.fr/forum/HYUNDAI/BAYON/PROBLEME-DE-BATTERIE-48V/5552766/594691"
+          ]
+        },
+        {
+          "id": "arka-lamba-led-cita-su-alma",
+          "baslik": "Arka stop lambası ve LED çıtada su alma/buğulanma",
+          "parca": "Arka stop lambaları ve bagaj kapısındaki LED çıta",
+          "belirtiler": "Yıkama ya da yağmur sonrası arka stop lambalarının ve bagaj üstündeki LED çıtanın içinde nem ve su birikiyor, belirgin buğulanma oluşuyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Bazı servisler parçayı garanti kapsamında değiştirirken bazıları iklim koşullarını ya da çiziği gerekçe gösteriyor. Fiches-auto da arka lambaları bilinen zayıf noktalar arasında sayıyor.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-bayon-arka-cam-led-citasi-su-girisi-ve-kalici-cozum-talebi",
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-aracimda-su-alan-stop-lambalari-sorunu",
+            "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-758-pannes-hyundai-bayon.php"
+          ]
+        },
+        {
+          "id": "kapi-fitili-catlama",
+          "baslik": "Kapı fitillerinde çatlama ve şekil bozulması",
+          "parca": "Kapı lastik fitilleri",
+          "belirtiler": "Kapı fitilleri birkaç yıl içinde çatlıyor, deforme oluyor ya da kopuyor. Bu da rüzgâr sesine ve sızdırmazlık sorununa yol açabiliyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Hyundai fitili sarf malzemesi sayıp iki yıllık trim garantisi dışında tutabiliyor.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-bayon-kapi-fitilleri-garanti-kapsaminda-degismedi",
+            "https://www.sikayetvar.com/hyundai-motor/bayon/yeni-bayon",
+            "https://www.fiches-auto.fr/avis-hyundai/avis-unique-758-111589-hyundai-bayon-10-turbo-48v-t-gdi-100-ch-bva17000-km2022jantes-aluminium-intuitive-.php"
+          ]
+        }
+      ]
+    }
+  ]
+}

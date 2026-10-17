@@ -156,6 +156,141 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "tucson-nx4",
+      "ad": "Tucson (NX4)",
+      "yillar": [
+        2021,
+        2026
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-6-t-gdi-48v",
+          "ad": "1.6 T-GDI 48V hafif hibrit",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-crdi-48v",
+          "ad": "1.6 CRDi 48V hafif hibrit",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-6-t-gdi-hybrid",
+          "ad": "1.6 T-GDI Hybrid",
+          "yakit": "hibrit"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dct-kalkista-titreme-kavrama",
+          "baslik": "DCT şanzımanda kalkışta titreme ve erken kavrama aşınması",
+          "parca": "7 ileri kuru çift kavramalı şanzıman (kavrama seti)",
+          "belirtiler": "Duran yerden kalkışta, rampada ve dur-kalk trafikte belirgin silkeleme ve titreme; vites geçişlerinde vuruntu. Garanti kapsamında kavrama değişse de şikayet birkaç bin km sonra geri dönebiliyor.",
+          "km": "45.000-90.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-crdi-48v",
+            "1-6-t-gdi-48v"
+          ],
+          "sanziman": "7 ileri DCT otomatik",
+          "not": "Şikayetlerin çoğu dizel versiyonlardan geliyor. Servisler çoğu zaman titreme testi ve kavrama aşınma oranına göre garanti kararı veriyor.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-tucson-sanziman-ve-direksiyon-sorunlari",
+            "https://www.sikayetvar.com/hyundai-motor/titreme-sikayetim-goz-ardi-edildi-kavrama-degisimi-garanti-kapsamina-alinmali",
+            "https://www.sikayetvar.com/hyundai-motor/tucson/otomatik-sanziman",
+            "https://forum.donanimhaber.com/hyundai-tucson-dizel-titreme-sorunu--159435529",
+            "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-684-pannes-hyundai-tucson.php"
+          ]
+        },
+        {
+          "id": "dpf-tikanmasi",
+          "baslik": "Dizel partikül filtresinin (DPF) sık tıkanması",
+          "parca": "Dizel partikül filtresi ve rejenerasyon yazılımı",
+          "belirtiler": "Gösterge panelinde sık sık DPF ve motor arıza uyarısı; araç zaman zaman koruma moduna geçip güç kesiyor. Uyarıyı söndürmek için yüksek devirde uzun yol sürüşü gerekiyor, filtre değişiminden sonra bile sorun tekrarlayabiliyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-crdi-48v"
+          ],
+          "not": "Türkiye'de 2023 model araçlar için DPF ile ilgili bir geri çağırma çalışmasından söz eden şikayetler var. Kısa şehir içi kullanımda sorun belirginleşiyor.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/hyundai-motor/tucson/tucson-dizel-partikul-filtresi",
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-tucson-partikul-filtresi-arizasi-surekli-tekrarliyor-ve-ek-maliyet-talep-ediliyor",
+            "https://www.sikayetvar.com/hyundai-motor/hunko-maltepe-servisinde-dpf-geri-cagirmasi-icin-ikame-arac-verilmemesi",
+            "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-684-pannes-hyundai-tucson.php"
+          ]
+        },
+        {
+          "id": "mhsg-gergi-kasnak-motor-hasari",
+          "baslik": "Marş-şarj ünitesi kayış gergisi/kasnağı kaynaklı motor hasarı",
+          "parca": "48V marş-alternatör (MHSG) kayış gergi rulmanı ve yardımcı kasnak",
+          "belirtiler": "Motor önünden gıcırtı ve sürtünme sesleri; ilerleyen durumda gergi veya kasnağın dağılmasıyla ani motor arızası ve büyük motor hasarı.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-crdi-48v"
+          ],
+          "not": "Avrupa'da 2023/2024 döneminde bu parça için üretici geri çağırması yapıldı; aracın kampanyayı alıp almadığı şasi numarasıyla kontrol edilmeli.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-684-pannes-hyundai-tucson.php"
+          ]
+        },
+        {
+          "id": "hibrit-guc-kaybi",
+          "baslik": "Hibrit sistemde ani güç kaybı ve hibrit sistem uyarısı",
+          "parca": "Hibrit sistem kontrol yazılımı / hibrit güç aktarma",
+          "belirtiler": "Seyir halinde ani hızlanma kaybı, silkeleme ve 'hibrit sistemi kontrol edin' uyarısı; motor arıza lambasının yanıp sönmesi. Bazı araçlar servise çekilmek zorunda kalıyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-t-gdi-hybrid"
+          ],
+          "sanziman": "6 ileri otomatik",
+          "not": "ABD'de hızlanma kaybı için Hyundai'nin yazılım güncellemesi (TSB 23-EE-002H) uygulandığı bildiriliyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-684-pannes-hyundai-tucson.php",
+            "https://www.whatcar.com/hyundai/tucson/4x4/used-review/n25050/reliability",
+            "https://www.carcomplaints.com/Hyundai/Tucson/2022/electrical/electrical_system-2.shtml",
+            "https://www.carcomplaints.com/Hyundai/Tucson/2022/engine/engine-2.shtml"
+          ]
+        },
+        {
+          "id": "multimedya-ekran-arizasi",
+          "baslik": "Multimedya ekranının donması ve yeniden başlaması",
+          "parca": "Entegre multimedya/navigasyon ünitesi",
+          "belirtiler": "Ekran sürüş sırasında kapanıyor ya da kendini yeniden başlatıyor; ses, navigasyon ve geri görüş kamerası bir süre devre dışı kalıyor. Yazılım güncellemesi ve ünite değişimine rağmen tekrarlayan vakalar var.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Türkiye'de entegre monitör değişimini içeren bir servis kampanyasından söz ediliyor.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-tucsonda-surekli-multimedya-arizasi-ve-guvenlik-riski",
+            "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-684-pannes-hyundai-tucson.php"
+          ]
+        },
+        {
+          "id": "12v-aku-bosalmasi",
+          "baslik": "12V akünün kendiliğinden boşalması",
+          "parca": "12V akü ve şarj yönetimi",
+          "belirtiler": "Araç birkaç gün ile bir hafta beklediğinde akü bitiyor ve araç çalışmıyor; start-stop devreye girmiyor. Takviye sonrası sorun kısa sürede tekrarlayabiliyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": null,
+          "kaynaklar": [
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-tucsonun-bitmeyen-aku-sorunu",
+            "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-684-pannes-hyundai-tucson.php"
+          ]
+        }
+      ]
     }
   ]
 }

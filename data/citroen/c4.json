@@ -1,0 +1,183 @@
+{
+  "marka": "Citroen",
+  "markaSlug": "citroen",
+  "model": "C4",
+  "modelSlug": "c4",
+  "nesiller": [
+    {
+      "slug": "c4-3",
+      "ad": "C4 (3. nesil) / C4 X",
+      "yillar": [
+        2020,
+        2026
+      ],
+      "not": "C4 X ve elektrikli e-C4 / e-C4 X dahil.",
+      "motorlar": [
+        {
+          "id": "1-2-puretech-130",
+          "ad": "1.2 PureTech 130",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-5-bluehdi-130",
+          "ad": "1.5 BlueHDi 130",
+          "yakit": "dizel"
+        },
+        {
+          "id": "e-c4",
+          "ad": "e-C4 (100 kW / 115 kW)",
+          "yakit": "elektrik"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "puretech-yagli-triger-kayisi",
+          "baslik": "Yağ içinde çalışan triger kayışının erken yıpranması",
+          "parca": "Triger kayışı (yağ banyolu)",
+          "belirtiler": "Kayış beklenenden erken çatlar veya dağılır; kopan parçacıklar yağ süzgecini ve vakum pompasını tıkayarak yağ basıncı uyarısına ve fren desteğinin azalmasına yol açabilir. Kopma ya da atlama motoru ciddi hasara uğratır.",
+          "km": "45.000-66.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-puretech-130"
+          ],
+          "not": "Değişim aralığı 6 yıl / 100.000 km'ye indirildi; Stellantis kayışa bağlı yağ basıncı ve yağ tüketimi arızaları için koşullu olarak 10 yıl / 175.000 km'ye kadar kapsam sunuyor. Haziran 2022 ortasından itibaren yeni nesil kayış kullanılıyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-citroen/fiabilite-683-pannes-citroen-c4.php",
+            "https://forum-auto.matmut.fr/forum/CITROEN/C4-III/FIABILITE-COURROIE/5579612/403101",
+            "https://forum.donanimhaber.com/yeni-citroen-c4-2021-ana-konu--119665534-820",
+            "https://www.actu-automobile.com/2023/03/24/fragilite-du-3-cylindres-1-2-puretech-comment-eviter-la-casse-de-courroie",
+            "https://www.caradisiac.com/faut-il-acheter-une-peugeot-citroen-ds-d-occasion-equipee-du-moteur-1-2-puretech-196274.htm"
+          ]
+        },
+        {
+          "id": "puretech-yag-tuketimi",
+          "baslik": "Aşırı yağ tüketimi",
+          "parca": "Motor (segman / yağlama sistemi)",
+          "belirtiler": "Bakım aralarında motor yağı belirgin şekilde azalır, yağ seviyesi uyarısı yanabilir; düzenli takviye gerekir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-puretech-130"
+          ],
+          "not": "Stellantis'in garanti uzatması aşırı yağ tüketimini de kapsıyor; üreticiye göre 2023 ve sonrası üretilen araçlar etkilenmiyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-citroen/fiabilite-683-pannes-citroen-c4.php",
+            "https://www.caradisiac.com/le-moteur-puretech-profite-d-une-extension-de-garantie-208069.htm",
+            "https://www.largus.fr/actualite-automobile/moteur-1-2-puretech-stellantis-lancera-bientot-une-plate-forme-d-indemnisation-30037499.html"
+          ]
+        },
+        {
+          "id": "bluehdi-eksantrik-zinciri",
+          "baslik": "1.5 BlueHDi eksantrik zincirinin uzaması / kopması",
+          "parca": "Eksantrik (kam) zinciri",
+          "belirtiler": "Motordan cırcır böceğini andıran tıkırtı sesi gelir; ilerlemiş durumda zincir kopabilir, motor aniden stop eder ve supaplar zarar görebilir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-bluehdi-130"
+          ],
+          "not": "31 Ocak 2023'e kadar üretilen C4 / C4 X için geri çağırma: 7 mm zincir güçlendirilmiş 8 mm zincirle değiştiriliyor. Stellantis zincir için koşullu olarak 10 yıla kadar kapsam uzattı.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/articles-auto/rappels-constructeurs/s-3950-rappel-du-15-bluehdi-lie-a-la-chaine-de-distribution.php",
+            "https://www.moneyvox.fr/votre-argent/actualites/104116/peugeot-citroen-fiat-636-000-voitures-rappelees-etes-vous-concernes",
+            "https://www.fleetnews.co.uk/news/stellantis-extends-warranty-for-15-bluehdi-engines",
+            "https://www.fiches-auto.fr/fiabilite-citroen/fiabilite-683-pannes-citroen-c4.php"
+          ]
+        },
+        {
+          "id": "adblue-deposu",
+          "baslik": "AdBlue deposu / SCR sistemi arızası",
+          "parca": "AdBlue deposu ve pompa-sensör ünitesi",
+          "belirtiler": "Yakıt seviyesine aykırı AdBlue uyarıları çıkar, kalan kilometre için geri sayım başlar; araç koruma moduna geçebilir ya da çalışmayabilir. Kalıcı çözüm çoğunlukla deponun komple değişimidir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-bluehdi-130"
+          ],
+          "not": "Fransa'da bir kullanıcı 36.000 km'de depo değişimi için yaklaşık 1.300 € ödediğini bildirmiş. Stellantis bazı ülkelerde depo için ek kapsam sunuyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-citroen/fiabilite-683-pannes-citroen-c4.php",
+            "https://www.aol.com/lifestyle/stellantis-had-expand-coverage-costly-203057010.html",
+            "https://www.largus.fr/actualite-automobile/moteur-1-2-puretech-stellantis-lancera-bientot-une-plate-forme-d-indemnisation-30037499.html"
+          ]
+        },
+        {
+          "id": "eat8-vites-gecisleri",
+          "baslik": "EAT8 şanzımanda sert/düzensiz vites geçişleri ve şanzıman arıza uyarısı",
+          "parca": "EAT8 otomatik şanzıman",
+          "belirtiler": "Özellikle düşük viteslerde (2-3) vuruntulu veya kararsız geçişler, vites atlama ya da karıştırma; ekranda aralıklı 'şanzıman arızası' mesajı görülebilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-puretech-130",
+            "1-5-bluehdi-130"
+          ],
+          "sanziman": "8 ileri EAT8 tork konvertörlü otomatik",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-citroen/fiabilite-683-pannes-citroen-c4.php",
+            "https://forum.donanimhaber.com/yeni-citroen-c4-2021-ana-konu--119665534-820",
+            "https://www.sikayetvar.com/citroen/c4-arizalari"
+          ]
+        },
+        {
+          "id": "ec4-cekis-sistemi-uyarisi",
+          "baslik": "e-C4'te 'elektrikli çekiş sistemi arızası' uyarısı ve ani güç kaybı",
+          "parca": "Elektrikli tahrik sistemi / yüksek gerilim devre izleme yazılımı",
+          "belirtiler": "Sürüş sırasında çekiş sistemi arıza uyarısı yanar, araç sarsılabilir veya güç keser; bazen kapatıp bir süre bekleyince düzelir, bazı araçlarda tekrarlar.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "e-c4"
+          ],
+          "not": "Açık devre algılama sisteminin aşırı hassas olup ani güç kaybına yol açabildiği için ücretsiz giderilen bir geri çağırma yapıldı.",
+          "kaynaklar": [
+            "https://whatcar.com/citroen/c4/hatchback/used-review/n27383/reliability",
+            "https://www.fiches-auto.fr/fiabilite-citroen/fiabilite-683-pannes-citroen-c4.php",
+            "https://www.sikayetvar.com/citroen/citroen-e-c4-modelinde-tekrarlayan-elektronik-ve-guvenlik-arizalari",
+            "https://www.sikayetvar.com/citroen/c4-arizalari"
+          ]
+        },
+        {
+          "id": "ec4-sarj-sistemi",
+          "baslik": "e-C4 dahili şarj ünitesi / şarj soketi arızası",
+          "parca": "Dahili şarj cihazı (OBC) ve şarj soketi",
+          "belirtiler": "Araç AC şarjı kabul etmez veya şarj yarıda kesilir; hızlı şarj sonrası batarya güvenlik moduna geçebilir. Parça tedariki nedeniyle onarım haftalar sürebilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "e-c4"
+          ],
+          "not": null,
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-citroen/fiabilite-683-pannes-citroen-c4.php",
+            "https://whatcar.com/citroen/c4/hatchback/used-review/n27383/reliability"
+          ]
+        },
+        {
+          "id": "elektronik-surus-destek-uyarilari",
+          "baslik": "Tekrarlayan elektronik ve sürüş destek sistemi uyarıları",
+          "parca": "Elektronik / sürüş destek sistemleri (çarpışma önleme, hız sabitleyici, airbag uyarıları)",
+          "belirtiler": "Teslimattan kısa süre sonra çarpışma önleme, hız sabitleyici, fren veya airbag sistemleri için arıza uyarıları çıkar; servis ziyaretlerine rağmen uyarılar geri gelebilir, parça beklemesi uzun sürebilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Çoğunlukla yazılım güncellemesi veya modül değişimiyle çözülmeye çalışılıyor.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/citroen/c4-arizalari",
+            "https://www.sikayetvar.com/citroen/citroen-e-c4-modelinde-tekrarlayan-elektronik-ve-guvenlik-arizalari",
+            "https://whatcar.com/citroen/c4/hatchback/used-review/n27383/reliability",
+            "https://www.fiches-auto.fr/fiabilite-citroen/fiabilite-683-pannes-citroen-c4.php"
+          ]
+        }
+      ]
+    }
+  ]
+}

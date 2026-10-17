@@ -1,0 +1,175 @@
+{
+  "marka": "Renault",
+  "markaSlug": "renault",
+  "model": "Kadjar",
+  "modelSlug": "kadjar",
+  "nesiller": [
+    {
+      "slug": "kadjar-1",
+      "ad": "Kadjar",
+      "yillar": [
+        2015,
+        2022
+      ],
+      "not": "Nissan Qashqai (J11) ile aynı platformu ve motorları paylaşır.",
+      "motorlar": [
+        {
+          "id": "1-5-dci-110",
+          "ad": "1.5 dCi 110",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-5-blue-dci-115",
+          "ad": "1.5 Blue dCi 115",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-2-tce-130",
+          "ad": "1.2 TCe 130",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-3-tce-140",
+          "ad": "1.3 TCe 140",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-3-tce-160",
+          "ad": "1.3 TCe 160",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "tce-yag-tuketimi-motor-arizasi",
+          "baslik": "1.2 TCe'de aşırı yağ tüketimi ve motor hasarı",
+          "parca": "Motor (piston/segman, egzoz supapları)",
+          "belirtiler": "Motor iki bakım arasında belirgin şekilde yağ eksiltir, bazı araçlarda 1.000 km'de 1 litreye kadar çıkar. Silindirlere giren yağ karbon birikimi yapar; güç kaybı, mavi duman, motor uyarı lambası ve ileri aşamada motorun tamamen bozulması görülebilir.",
+          "km": "30.000-60.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-tce-130"
+          ],
+          "not": "Özellikle 2012-2016 arası üretilen H5Ft motorları etkiler. Renault motor beyni güncellemesi yapıyor ve vaka bazında kısmi destek veriyor; yağ seviyesini çubukla düzenli kontrol etmek önerilir.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-516-pannes-renault-kadjar.php",
+            "https://www.quechoisir.org/actualite-moteur-1-2-renault-400-000-voitures-en-danger-n67215/",
+            "https://www.planeterenault.com/forum/kadjar-moteur-1-2-tce-vice-cache-t52164.html",
+            "https://www.bymycar.fr/webzine/?p=54614",
+            "https://www.fiches-auto.fr/articles-auto/fiabilite/s-2187-problemes-en-serie-sur-les-moteurs-12-tce-renault.php"
+          ]
+        },
+        {
+          "id": "tce-triger-zinciri",
+          "baslik": "TCe motorlarda triger zinciri uzaması",
+          "parca": "Triger zinciri, gergi ve kızaklar",
+          "belirtiler": "Özellikle soğuk çalıştırmada motordan zincir şakırtısı gelir; ilerleyen durumda çalıştırma güçlüğü ve yüksek devirde düzensiz çalışma ortaya çıkar. Düşük yağ seviyesi hidrolik gergiyi zayıflattığı için yağ tüketimi sorunuyla birlikte görülebilir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-tce-130",
+            "1-3-tce-140"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-516-pannes-renault-kadjar.php",
+            "https://www.autodoc.co.uk/info/problems-with-the-renault-kadjar",
+            "https://www.fiches-auto.fr/articles-auto/fiabilite/s-2187-problemes-en-serie-sur-les-moteurs-12-tce-renault.php"
+          ]
+        },
+        {
+          "id": "edc-sanziman-vuruntu",
+          "baslik": "EDC şanzımanda kalkışta vuruntu ve titreme",
+          "parca": "EDC çift kavramalı şanzıman (kavrama paketi, mekatronik)",
+          "belirtiler": "Kalkışta ve düşük hızda manevrada sarsıntı, titreme ve gecikmeli tepki olur; yokuşta araç geri kayabilir. Vites geçişleri düzensizleşebilir, bazı araçlarda kavrama paketi değişimi gerekir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": "6/7 ileri EDC çift kavramalı otomatik",
+          "not": "Sorunların bir kısmı yazılım/kalibrasyon kaynaklı; servisteki yazılım güncellemesi ve kavrama adaptasyonu ilk adımdır.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-516-pannes-renault-kadjar.php",
+            "https://classic.honestjohn.co.uk/renault/kadjar/",
+            "https://www.auto-swiat.pl/uzywane/czy-warto-kupic-renault-kadjara-znamy-odpowiedz-bo-przejechalismy-nim-100-tys-km-i/z5d5p48",
+            "https://www.motorcheck.ie/blog/motorcheck-used-car-guide-renault-kadjar/",
+            "https://www.autopartspro.co.uk/tips-advice/problems-with-the-renault-kadjar-4095"
+          ]
+        },
+        {
+          "id": "dci-dpf-egr-tikanmasi",
+          "baslik": "1.5 dCi'de partikül filtresi ve EGR tıkanması",
+          "parca": "DPF, EGR valfi, emme hattı",
+          "belirtiler": "Ağırlıklı kısa şehir içi kullanımda partikül filtresi rejenerasyonu tamamlanamaz; filtre uyarısı, güç kaybı ve acil durum moduna geçiş görülür. EGR ve emmede karbon birikimi sensör arızalarına yol açabilir.",
+          "km": "60.000-90.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci-110",
+            "1-5-blue-dci-115"
+          ],
+          "kaynaklar": [
+            "https://www.autodoc.co.uk/info/problems-with-the-renault-kadjar",
+            "https://www.motorcheck.ie/blog/motorcheck-used-car-guide-renault-kadjar/",
+            "https://www.autopartspro.co.uk/tips-advice/problems-with-the-renault-kadjar-4095",
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-516-pannes-renault-kadjar.php"
+          ]
+        },
+        {
+          "id": "dci-turbo-arizasi",
+          "baslik": "1.5 dCi'de turbo arızası",
+          "parca": "Turbo (yatak, değişken geometri mekanizması)",
+          "belirtiler": "Hızlanmada güç kaybı, ıslık sesi, motor uyarı lambası ve acil durum moduna geçiş görülür. Geciken yağ değişimi ve karbon birikimi turbo yataklarını ve kanatçık mekanizmasını bozabilir.",
+          "km": "40.000-100.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci-110",
+            "1-5-blue-dci-115"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-516-pannes-renault-kadjar.php",
+            "https://www.motorcheck.ie/blog/motorcheck-used-car-guide-renault-kadjar/",
+            "https://www.autopartspro.co.uk/tips-advice/problems-with-the-renault-kadjar-4095"
+          ]
+        },
+        {
+          "id": "r-link-multimedya-bluetooth",
+          "baslik": "R-Link multimedya ve Bluetooth/CarPlay sorunları",
+          "parca": "R-Link 2 multimedya ünitesi",
+          "belirtiler": "Ekran donar ya da kendiliğinden yeniden başlar, navigasyon ve bazı işlevler devre dışı kalır. Telefon (özellikle iPhone) Bluetooth bağlantısı kopar, görüşmelerde karşı taraf duyulmaz; bazı araçlarda ünitenin değişmesi gerekir.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Önce yazılım güncellemesi denenir; çözülmezse ünite değişimi gerekebilir.",
+          "kaynaklar": [
+            "https://whatcar.com/renault/kadjar/hatchback/used-review/n802/reliability",
+            "https://www.cargurus.co.uk/research/Renault-Kadjar-2015-mg30",
+            "https://classic.honestjohn.co.uk/renault/kadjar/",
+            "https://www.motorcheck.ie/blog/motorcheck-used-car-guide-renault-kadjar/",
+            "https://www.sikayetvar.com/mais-ankara/renault-kadjar-r-link-baglanti-hatasi-1",
+            "https://www.sikayetvar.com/renault/kadjar"
+          ]
+        },
+        {
+          "id": "ayna-katlanma-arizasi",
+          "baslik": "Elektrikli yan aynaların katlanmaması",
+          "parca": "Elektrikli katlanır yan ayna motoru",
+          "belirtiler": "Özellikle yağmurlu, nemli ya da soğuk havada aynalar otomatik katlanmaz veya açılmaz; tek ayna takılı kalabilir. Butona birkaç kez basınca düzelebilir, kalıcı durumda ayna mekanizması değişir.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/kadjar",
+            "https://forum-auto.matmut.fr/forum/RENAULT/KADJAR/RETRO-ELECTRIQUE-QUI-NE-SE-RABAT-PAS/4831738/383390",
+            "https://forum-auto.matmut.fr/forum/RENAULT/KADJAR/RETROVISEURS-KADJAR/5183545/383390",
+            "https://www.autodoc.co.uk/info/problems-with-the-renault-kadjar"
+          ]
+        }
+      ]
+    }
+  ]
+}
