@@ -1,0 +1,66 @@
+{
+  "marka": "Mitsubishi",
+  "markaSlug": "mitsubishi",
+  "model": "L200",
+  "modelSlug": "l200",
+  "nesiller": [
+    {
+      "slug": "l200-5",
+      "ad": "L200 (5. nesil, KK/KL)",
+      "yillar": [
+        2015,
+        2024
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "2-4-di-d",
+          "ad": "2.4 DI-D (154/181 PS)",
+          "yakit": "dizel"
+        },
+        {
+          "id": "2-2-di-d",
+          "ad": "2.2 DI-D (150 PS)",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dpf-tikanma-limp-modu",
+          "baslik": "DPF tıkanması ve arıza lambası",
+          "parca": "Dizel partikül filtresi (DPF)",
+          "belirtiler": "DPF ve motor arıza lambaları yanar, araç güç kaybeder veya acil (limp) moda girer. Kısa mesafe kullanımda ve yakıt tüketimi artarken daha sık görülür.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-4-di-d"
+          ],
+          "sanziman": null,
+          "not": "Kullanım tarzına (kısa mesafe) bağlı; bir kullanıcı enjektör sızıntısından şüphelenildiğini bildirmiş.",
+          "kaynaklar": [
+            "https://www.carbuyer.co.uk/reviews/mitsubishi/l200/pickup/149829/owner-reviews",
+            "https://parkers.co.uk/vans/reviews/mitsubishi/l200/2015"
+          ]
+        },
+        {
+          "id": "manuel-vites-3-vites",
+          "baslik": "Manuel şanzımanda 3. vites sorunu",
+          "parca": "Manuel şanzıman",
+          "belirtiler": "3. vites zor girer, bazen yerinden atlar veya tamamen kaybolur.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": "6 ileri manuel",
+          "not": null,
+          "kaynaklar": [
+            "https://parkers.co.uk/vans/reviews/mitsubishi/l200/2015",
+            "https://www.carbuyer.co.uk/reviews/mitsubishi/l200/pickup/149829/owner-reviews",
+            "https://www.rac.co.uk/drive/car-reviews/mitsubishi/l200/l200-2015-2019/"
+          ]
+        }
+      ]
+    }
+  ]
+}

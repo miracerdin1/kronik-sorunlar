@@ -1,0 +1,123 @@
+{
+  "marka": "Mazda",
+  "markaSlug": "mazda",
+  "model": "CX-5",
+  "modelSlug": "cx-5",
+  "nesiller": [
+    {
+      "slug": "cx-5-ke",
+      "ad": "CX-5 (KE)",
+      "yillar": [
+        2012,
+        2017
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "2-0-skyactiv-g",
+          "ad": "2.0 SkyActiv-G",
+          "yakit": "benzin"
+        },
+        {
+          "id": "2-2-skyactiv-d",
+          "ad": "2.2 SkyActiv-D (150/175 HP)",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dizel-yag-seviyesi-yukselmesi",
+          "baslik": "Dizelde motor yağı seviyesinin yükselmesi (yakıtla seyrelme)",
+          "parca": "Motor yağı / DPF yenileme sistemi",
+          "belirtiler": "Yağ çubuğunda seviye zamanla artar ve yağ yakıt kokar. DPF yenilemesi sırasında püskürtülen yakıtın bir kısmı karterde yağa karışır, yağ incelir ve ilgilenilmezse motor aşınır.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-2-skyactiv-d"
+          ],
+          "sanziman": null,
+          "not": "Mazda yazılım güncellemesi ve yeniden kalibre edilmiş yağ çubuğu ile müdahale etti; kısa mesafe kullanımı sorunu artırır. Yağ seviyesini düzenli kontrol edin.",
+          "kaynaklar": [
+            "https://www.thetruthaboutcars.com/2012/12/mazda-asking-australian-diesel-owners-to-monitor-oil-levels/",
+            "https://www.drive.com.au/news/mazda-cx5-used-car-review-20151207-glhxe5/",
+            "https://www.whocanfixmycar.com/advice/common-problems-with-the-mazda-cx-5",
+            "https://mazdas247.com/forum/t/oil-rising-continued.123823413/",
+            "https://draft.carsguide.com.au/mazda/cx-5/problems/2012?page=2"
+          ]
+        },
+        {
+          "id": "dizel-dpf-yenilenme-sorunu",
+          "baslik": "DPF'nin yenilenememesi ve tıkanması",
+          "parca": "Dizel partikül filtresi (DPF)",
+          "belirtiler": "Kısa mesafe ve şehir içi kullanımda filtre kendini temizleyemez; uyarı lambası, güç kaybı, yüksek yakıt tüketimi ve limp moda geçme görülebilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-2-skyactiv-d"
+          ],
+          "sanziman": null,
+          "not": "Yenilemenin başarısı kilometreden çok kullanım profiline bağlı; düzenli uzun yol sürüşü ve DPF uyumlu düşük küllü yağ önerilir.",
+          "kaynaklar": [
+            "https://kfz-dietrich.com/quellen/mazda-cx5-typische-probleme-diagnose/",
+            "https://aa.co.nz/cars/ask-an-expert/faults-reliability-service-and-repair/show/12970",
+            "https://www.drive.com.au/news/mazda-cx5-used-car-review-20151207-glhxe5/"
+          ]
+        },
+        {
+          "id": "dizel-enjektor-sizdirmazligi",
+          "baslik": "Dizel enjektör bağlantısı gevşemesi ve sızıntı",
+          "parca": "Enjektör ve enjektör contaları",
+          "belirtiler": "Enjektör yuvasından is ve yakıt kaçağı olur; yağ kanalları kokslaşabilir, yağ filtre kafesini tıkayıp yağlamayı azaltabilir. Düzensiz çalışma ve motor hasarı riski vardır.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-2-skyactiv-d"
+          ],
+          "sanziman": null,
+          "not": "Yetkili serviste enjektör bağlantı somunlarının sıkılması ve yazılım güncellemesi yapılır; erken üretim araçlarda daha sık görülür.",
+          "kaynaklar": [
+            "https://www.zr.ru/content/articles/916313-mazda-cx-5-2012-2017-vse-neispravnosti/",
+            "https://www.whocanfixmycar.com/advice/common-problems-with-the-mazda-cx-5"
+          ]
+        },
+        {
+          "id": "benzinli-otomatik-sanziman",
+          "baslik": "Benzinli otomatik şanzımanda tepki ve aşınma sorunları",
+          "parca": "6 ileri otomatik şanzıman (FW6A)",
+          "belirtiler": "Geri vitese ve ileri vitese geçerken sarsıntı, 2. - 3. vites geçişinde vuruntu. Erken üretim araçlarda şanzıman değişimi gerekebilmiştir.",
+          "km": "80.000-100.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-0-skyactiv-g"
+          ],
+          "sanziman": "6 ileri otomatik",
+          "not": "Yazılım güncellemesi ve yalnızca orijinal ATF-FZ yağı önerilir. Veriler sınırlı; her araçta görülmez.",
+          "kaynaklar": [
+            "https://www.zr.ru/content/articles/916313-mazda-cx-5-2012-2017-vse-neispravnosti/",
+            "https://www.fiches-auto.fr/fiabilite-mazda/fiabilite-571-pannes-mazda-cx-5.php"
+          ]
+        },
+        {
+          "id": "stop-start-aku",
+          "baslik": "Dur-kalk (i-stop) akü hassasiyeti",
+          "parca": "Akü ve akü sensörü",
+          "belirtiler": "Akü derin boşalmaya karşı hassastır; yanlış tip akü takılırsa veya akü değişiminde sistem kodlanmazsa dur-kalk sistemi ve şarj yönetimi sorun çıkarır.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": null,
+          "not": "Akü değişiminde üretici onaylı tip kullanılmalı ve araç verisi sisteme tanıtılmalıdır.",
+          "kaynaklar": [
+            "https://kfz-dietrich.com/quellen/mazda-cx5-typische-probleme-diagnose/",
+            "https://www.zr.ru/content/articles/916313-mazda-cx-5-2012-2017-vse-neispravnosti/"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "marka": "Dacia", "markaSlug": "dacia", "model": "Spring", "modelSlug": "spring",
+  "nesiller": [{
+    "slug": "spring-1", "ad": "Spring (1. nesil)", "yillar": [2021, 2026], "not": null,
+    "motorlar": [
+      {"id": "electric-45", "ad": "Electric 45", "yakit": "elektrik"},
+      {"id": "electric-65", "ad": "Electric 65", "yakit": "elektrik"}
+    ],
+    "sorunlar": [
+      {
+        "id": "sarj-unitesi-kablo-kilidi", "baslik": "Dahili şarj cihazı ve şarj kablosu kilidi sorunları", "parca": "Dahili şarj cihazı / DC-DC dönüştürücü, şarj soketi kilidi",
+        "belirtiler": "AC şarj birkaç dakika sonra kesilebiliyor, zamanlı şarj başlamıyor, şarj kablosu soketten çıkmıyor. Bazı araçlarda arıza uyarısı çıkıp araç çalışmayabiliyor.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": "hepsi", "sanziman": null,
+        "not": "Birçok vakada yazılım yeniden programlama ile çözülüyor; 2022 üretimi araçlarda şarj ünitesi yazılımı için geri çağırma yapıldı.",
+        "kaynaklar": [
+          "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-673-pannes-dacia-spring.php",
+          "https://www.largus.fr/guide-achat-occasion/dacia/spring/avis-fiabilite-dacia-spring-i-bbg-30039762.html",
+          "https://www.notebookcheck.net/Over-1-700-Dacia-Spring-recalled-due-to-charger-issues.716300.0.html",
+          "https://www.carchecker.pro/reports/dacia_spring_electric.html"
+        ]
+      },
+      {
+        "id": "alt-takim-korozyonu", "baslik": "Alt takım ve akü sandığında paslanma", "parca": "Arka aks takviyeleri, çekiş aküsü traversi ve alt kasası, 14 inç jantlar",
+        "belirtiler": "Arka aks takviye braketlerinde ve çekiş aküsünün traversinde/alt kasasında pas oluşuyor; 14 inç çelik jantlar paslanıp çatlayabiliyor.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": "hepsi", "sanziman": null,
+        "not": "Arka aks takviyeleri Kasım 2022 öncesi, 14 inç jantlar Eylül 2023 öncesi üretimde etkili; akü traversi tüm Spring'leri kapsıyor. Resmi geri çağırma yok, korozyon garantisi var.",
+        "kaynaklar": [
+          "https://www.largus.fr/actualite-automobile/dacia-spring-la-citadine-electrique-rencontre-des-problemes-de-rouille-30039282.html",
+          "https://rouleur-electrique.fr/alerte-rouille-sur-la-dacia-spring-la-voiture-electrique-la-moins-chere-devoile-ses-faiblesses/",
+          "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-673-pannes-dacia-spring.php"
+        ]
+      },
+      {
+        "id": "12v-aku-sorunlari", "baslik": "12V akü boşalması ve akü sızıntısı", "parca": "12V yardımcı akü",
+        "belirtiler": "Araç birkaç gün kullanılmadan kalınca 12V akü boşalıp araç çalışmayabiliyor. Eylül 2023 öncesi araçlarda akü kapağı/kelepçe nedeniyle sızan asit sol ön yan şase kirişini ve şarj cihazı çevresini aşındırabiliyor.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": "hepsi", "sanziman": null,
+        "not": "Akü boşalması bir kaynakta tasarım özelliği olarak anılıyor; sızıntı için üretici onarım sürecini yürütüyor.",
+        "kaynaklar": [
+          "https://www.carchecker.pro/reports/dacia_spring_electric.html",
+          "https://www.largus.fr/guide-achat-occasion/dacia/spring/avis-fiabilite-dacia-spring-i-bbg-30039762.html",
+          "https://www.largus.fr/actualite-automobile/dacia-spring-la-citadine-electrique-rencontre-des-problemes-de-rouille-30039282.html"
+        ]
+      },
+      {
+        "id": "elektronik-multimedya-isitma", "baslik": "Elektronik arızalar: ekran, multimedya ve ısıtma", "parca": "EVC kontrol ünitesi, multimedya ekranı, ısıtma/klima",
+        "belirtiler": "Ekran kararıyor veya donuyor, 'elektrik sistemi arızası' uyarısı çıkıyor, çalıştırmada ısıtma/klima devreye girmeyebiliyor, geri görüş kamerası uyarı veriyor.",
+        "km": null, "ciddiyet": "dusuk", "maliyetTl": null,
+        "motorlar": "hepsi", "sanziman": null,
+        "not": "Çoğu durumda yazılım güncellemesi ile giderilebiliyor.",
+        "kaynaklar": [
+          "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-673-pannes-dacia-spring.php",
+          "https://www.largus.fr/guide-achat-occasion/dacia/spring/avis-fiabilite-dacia-spring-i-bbg-30039762.html",
+          "https://motorsactu.com/dacia-les-defauts-qui-nous-inquietent/?amp=1",
+          "https://www.carchecker.pro/reports/dacia_spring_electric.html"
+        ]
+      },
+      {
+        "id": "suspansiyon-gurultusu", "baslik": "Ön/arka süspansiyon gürültüleri ve erken aşınma", "parca": "Amortisör, alt salıncak, tekerlek rulmanı",
+        "belirtiler": "Rögar ve bozuk zeminde ya da düşük hızda direksiyon çevirirken ön takımdan tıkırtı ve gürültü, arkadan vuruntu sesi geliyor; erken yaşta amortisör ve rulman aşınması görülebiliyor.",
+        "km": null, "ciddiyet": "dusuk", "maliyetTl": null,
+        "motorlar": "hepsi", "sanziman": null,
+        "not": null,
+        "kaynaklar": [
+          "https://www.largus.fr/guide-achat-occasion/dacia/spring/avis-fiabilite-dacia-spring-i-bbg-30039762.html",
+          "https://www.carchecker.pro/reports/dacia_spring_electric.html"
+        ]
+      }
+    ]
+  }]
+}

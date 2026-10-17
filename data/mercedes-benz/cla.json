@@ -1,0 +1,126 @@
+{
+  "marka": "Mercedes-Benz",
+  "markaSlug": "mercedes-benz",
+  "model": "CLA",
+  "modelSlug": "cla",
+  "nesiller": [
+    {
+      "slug": "cla-c117",
+      "ad": "CLA (C117)",
+      "yillar": [
+        2013,
+        2019
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-6-180",
+          "ad": "CLA 180 1.6 turbo",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-200",
+          "ad": "CLA 200 1.6 turbo",
+          "yakit": "benzin"
+        },
+        {
+          "id": "2-0-250",
+          "ad": "CLA 250 2.0 turbo",
+          "yakit": "benzin"
+        },
+        {
+          "id": "2-0-45-amg",
+          "ad": "CLA 45 AMG 2.0 turbo",
+          "yakit": "benzin"
+        },
+        {
+          "id": "200-d",
+          "ad": "CLA 200 CDI / d 2.1",
+          "yakit": "dizel"
+        },
+        {
+          "id": "220-d",
+          "ad": "CLA 220 CDI / d 2.1",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "7g-dct-kavrama-sarsinti",
+          "baslik": "7G-DCT çift kavramalı şanzımanda sarsıntı ve vites geçiş sorunu",
+          "parca": "7G-DCT şanzıman (kavrama / mekatronik)",
+          "belirtiler": "Düşük hızda, trafikte ve yokuş kalkışta çekişte sarsıntı; 1-2 ve 2-3 geçişlerinde gecikme ve tırlama. Kavrama aşınması ve yağ bakımı eksikliği sorunu artırabiliyor.",
+          "km": "60.000-100.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-180",
+            "1-6-200",
+            "2-0-250",
+            "200-d",
+            "220-d"
+          ],
+          "sanziman": "7 ileri 7G-DCT çift kavramalı otomatik",
+          "not": "Bazı araçlarda şanzıman yazılımı (TCU) güncellemesi sorunu hafifletiyor; kalıcı durumda çift kavrama değişimi gerekebilir. Duran araçta R-D-N geçişindeki hafif vuruş normal kabul ediliyor.",
+          "kaynaklar": [
+            "https://rerev.com/years-to-avoid/vehicles/mercedes-benz-cla/",
+            "https://minbilkoll.se/vanliga-fel/mercedes-benz/cla-200/",
+            "https://www.totalrenting.es/fallos-mercedes-cla/",
+            "https://www.fiches-auto.fr/articles-auto/boites-automatiques/s-1034-7g-dct-de-mercedes.php",
+            "https://www.araclo.com/blog/mercedes-benz-cla-200-alim-rehberi-2013-2026-hangi-kasa-hangi-yil-alinir"
+          ]
+        },
+        {
+          "id": "comand-multimedya-donma",
+          "baslik": "COMAND multimedya sisteminde donma ve Bluetooth kopması",
+          "parca": "COMAND Online multimedya ünitesi",
+          "belirtiler": "Ekran donuyor, Bluetooth soğuk havada telefonu kaybediyor, harita ve yazılım eskiyor. Çoğu zaman yazılım güncellemesiyle çözülüyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Yazılım güncellemesi çoğu durumda yeterli; ünite değişimi nadir.",
+          "kaynaklar": [
+            "https://rerev.com/years-to-avoid/vehicles/mercedes-benz-cla/",
+            "https://minbilkoll.se/vanliga-fel/mercedes-benz/cla-200/"
+          ]
+        },
+        {
+          "id": "cam-panoramik-tavan-paneli",
+          "baslik": "Panoramik cam tavan ön panelinin ayrılma riski ve çatlama",
+          "parca": "Panoramik cam tavan paneli",
+          "belirtiler": "Cam tavan ön panelinin yerinden ayrılabileceği için geri çağırma yapıldı; ayrıca panoramik camda çatlama bildirimleri var.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Tavan paneli geri çağırması (2012-2020 üretim) var; VIN ile yetkili servisten sorgulanmalı.",
+          "kaynaklar": [
+            "https://rerev.com/years-to-avoid/vehicles/mercedes-benz-cla/",
+            "https://www.fiches-auto.fr/rappels-mercedes/r-458-rappels-mercedes-cla.php",
+            "https://www.araclo.com/blog/mercedes-benz-cla-200-alim-rehberi-2013-2026-hangi-kasa-hangi-yil-alinir"
+          ]
+        },
+        {
+          "id": "m270-triger-zinciri-gergi",
+          "baslik": "M270 motorda soğuk çalışmada zincir gergisi tıkırtısı",
+          "parca": "Triger zinciri gergisi",
+          "belirtiler": "Soğuk çalıştırmadan sonra birkaç saniye metalik tıkırtı; ihmal edilirse zincir dişli atlatabilir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-180",
+            "1-6-200",
+            "2-0-250"
+          ],
+          "not": "Yalnızca tek ana kaynakta C117 için geçiyor, özellikle 2013-2015 araçlar; M270/M274 forumlarında benzer tıkırtı bildirimleri var.",
+          "kaynaklar": [
+            "https://minbilkoll.se/vanliga-fel/mercedes-benz/cla-200/",
+            "https://forums.mbclub.co.uk/threads/m270-m274-camshaft-faults.295674"
+          ]
+        }
+      ]
+    }
+  ]
+}

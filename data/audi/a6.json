@@ -1,0 +1,160 @@
+{
+  "marka": "Audi",
+  "markaSlug": "audi",
+  "model": "A6",
+  "modelSlug": "a6",
+  "nesiller": [
+    {
+      "slug": "a6-c7",
+      "ad": "A6 (C7 / 4G)",
+      "yillar": [
+        2011,
+        2018
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-8-tfsi",
+          "ad": "1.8 TFSI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "2-0-tfsi",
+          "ad": "2.0 TFSI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "2-8-fsi",
+          "ad": "2.8 FSI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "3-0-tfsi",
+          "ad": "3.0 TFSI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "2-0-tdi",
+          "ad": "2.0 TDI",
+          "yakit": "dizel"
+        },
+        {
+          "id": "3-0-tdi",
+          "ad": "3.0 TDI",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "2-0-tfsi-yag-tuketimi",
+          "baslik": "Aşırı motor yağı tüketimi",
+          "parca": "Piston segmanları",
+          "belirtiler": "Bin km'de yarım litreyi aşan yağ eksilmesi, soğuk çalıştırmada mavimsi duman ve yağ uyarı lambasının erken yanması.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-0-tfsi",
+            "1-8-tfsi"
+          ],
+          "not": "Erken üretim (yaklaşık 2011-2015) EA888 motorlarda görülür; sonraki üretimde büyük ölçüde giderildiği belirtiliyor.",
+          "kaynaklar": [
+            "https://gebrauchtwagenberater.de/audi-a6-c7-probleme/",
+            "https://kfz-dietrich.com/blog/audi-a6-c7-typische-probleme-diagnose-odis/",
+            "https://www.wheelstreet.lt/straipsniai/audi-a6-c7-problemos"
+          ]
+        },
+        {
+          "id": "3-0-tdi-sogutma-sivi-kacagi",
+          "baslik": "Soğutma sistemi ve yağ-su eşanjörü sızıntıları",
+          "parca": "Yağ-su eşanjörü, soğutma hortumları, su pompası, termostat",
+          "belirtiler": "Soğutma suyu eksilmesi, yağ karteri çevresinde yağ izleri, nadiren yağa su veya suya yağ karışması; su pompasında sızıntı.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "3-0-tdi"
+          ],
+          "not": "Su pompası için 2018'de geri çağırma yapıldığı (2011-2016 üretim) belirtiliyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-audi/fiabilite-413-pannes-audi-a6.php",
+            "https://kfz-dietrich.com/blog/audi-a6-c7-typische-probleme-diagnose-odis/",
+            "https://www.wheelstreet.lt/straipsniai/audi-a6-c7-problemos"
+          ]
+        },
+        {
+          "id": "3-0-tdi-enjektor-yuksek-basinc",
+          "baslik": "Enjektör ve yüksek basınçlı yakıt sistemi arızaları",
+          "parca": "Piezo enjektörler, yüksek basınç pompası",
+          "belirtiler": "Düzensiz rölanti, duman, artan yakıt tüketimi; bazı vakalarda enjektör arızası motor hasarına kadar gidiyor.",
+          "km": "150.000-225.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "3-0-tdi"
+          ],
+          "not": null,
+          "kaynaklar": [
+            "https://www.wheelstreet.lt/en/straipsniai/133-audi-a6-gidas",
+            "https://www.fiches-auto.fr/fiabilite-audi/fiabilite-413-pannes-audi-a6.php"
+          ]
+        },
+        {
+          "id": "dizel-dpf-egr-yelken",
+          "baslik": "DPF tıkanması, EGR ve emme yelkenleri kurumlanması",
+          "parca": "Dizel partikül filtresi, EGR valfi, emme kelebekleri",
+          "belirtiler": "Güç kaybı, acil durum (limp) modu, sık rejenerasyon, DPF uyarısı; düşük devirde çekiş kaybı. Kısa mesafe kullanımda belirgin.",
+          "km": "115.000-225.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-0-tdi",
+            "3-0-tdi"
+          ],
+          "not": "Yalnızca dizel motorları ilgilendirir.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-audi/fiabilite-413-pannes-audi-a6.php",
+            "https://kfz-dietrich.com/blog/audi-a6-c7-typische-probleme-diagnose-odis/",
+            "https://www.wheelstreet.lt/straipsniai/audi-a6-c7-problemos"
+          ]
+        },
+        {
+          "id": "adblue-sistemi",
+          "baslik": "AdBlue sistemi arızaları",
+          "parca": "AdBlue pompası, enjektör, NOx sensörü",
+          "belirtiler": "AdBlue uyarısı, geri sayımdan sonra motorun çalışmaması, SCR katalizör hata mesajı.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "3-0-tdi",
+            "2-0-tdi"
+          ],
+          "not": "Euro 6 (yaklaşık 2014 sonrası) araçlarda.",
+          "kaynaklar": [
+            "https://kfz-dietrich.com/blog/audi-a6-c7-typische-probleme-diagnose-odis/",
+            "https://www.fiches-auto.fr/fiabilite-audi/fiabilite-413-pannes-audi-a6.php",
+            "https://www.wheelstreet.lt/straipsniai/audi-a6-c7-problemos"
+          ]
+        },
+        {
+          "id": "hava-suspansiyonu",
+          "baslik": "Hava süspansiyonu körük ve kompresör arızası",
+          "parca": "Hava körükleri, kompresör",
+          "belirtiler": "Araç gece boyunca çöker, kompresör sürekli çalışır, süspansiyon hata lambası, arka aksta tek tarafın düşmesi.",
+          "km": "70.000-100.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Yalnızca hava süspansiyonlu (adaptive air suspension / Allroad) versiyonlarda.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-audi/fiabilite-413-pannes-audi-a6.php",
+            "https://www.wheelstreet.lt/straipsniai/audi-a6-c7-problemos",
+            "https://autoscore.pro/model/audi-a6-c7",
+            "https://kfz-dietrich.com/blog/audi-a6-c7-typische-probleme-diagnose-odis/"
+          ]
+        }
+      ]
+    }
+  ]
+}
