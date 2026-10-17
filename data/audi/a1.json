@@ -1,0 +1,64 @@
+{
+  "marka": "Audi", "markaSlug": "audi", "model": "A1", "modelSlug": "a1",
+  "nesiller": [{
+    "slug": "a1-8x", "ad": "A1 (8X)", "yillar": [2010, 2018], "not": null,
+    "motorlar": [
+      {"id": "1-0-tfsi", "ad": "1.0 TFSI 95 PS", "yakit": "benzin"},
+      {"id": "1-2-tfsi", "ad": "1.2 TFSI 86 PS", "yakit": "benzin"},
+      {"id": "1-4-tfsi-122", "ad": "1.4 TFSI 122 PS", "yakit": "benzin"},
+      {"id": "1-4-tfsi-185", "ad": "1.4 TFSI 185 PS", "yakit": "benzin"},
+      {"id": "1-6-tdi", "ad": "1.6 TDI 90/105 PS", "yakit": "dizel"}
+    ],
+    "sorunlar": [
+      {
+        "id": "zamanlama-zinciri-uzamasi", "baslik": "Triger zinciri uzaması", "parca": "Triger zinciri ve gerdirici",
+        "belirtiler": "Soğuk çalıştırmada zincir tıkırtısı ve vuruntu duyulur; ihmal edilirse zincir diş atlayıp ciddi motor hasarına yol açabilir.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["1-2-tfsi", "1-4-tfsi-122"],
+        "not": "EA111 ailesi; 2015 sonrası EA211 motorlarda zincir yerine triger kayışı kullanıldı.",
+        "kaynaklar": [
+          "https://carwiki.de/audi-a1-probleme",
+          "https://gebrauchtwagenberater.de/audi-a1-probleme-krankheiten/",
+          "https://www.fiches-auto.fr/fiabilite-audi/fiabilite-292-pannes-audi-a1.php"
+        ]
+      },
+      {
+        "id": "yag-tuketimi-185", "baslik": "Aşırı yağ tüketimi", "parca": "Piston segmanları",
+        "belirtiler": "Yağ seviyesi kısa mesafede belirgin düşer, sık yağ tamamlama gerekir; kalıntı birikimi ve motor hasarı görülebilir.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["1-4-tfsi-185"],
+        "not": "2015 makyaj öncesi 1.4 TFSI (twincharger) motorlarda daha yaygın.",
+        "kaynaklar": [
+          "https://www.fiches-auto.fr/fiabilite-audi/fiabilite-292-pannes-audi-a1.php",
+          "https://carwiki.de/audi-a1-probleme",
+          "https://www.classic-audi.co.uk/forum/viewtopic.php?p=394328",
+          "https://gebrauchtwagenberater.de/audi-a1-probleme-krankheiten/"
+        ]
+      },
+      {
+        "id": "s-tronic-sarsinti", "baslik": "S tronic şanzıman sarsıntısı ve debriyaj aşınması", "parca": "7 ileri kuru kavramalı DSG (DQ200) / mekatronik",
+        "belirtiler": "Kalkışta sarsıntı, sert veya gecikmeli vites geçişi; kötü durumda tahrik kaybı.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-4-tfsi-122", "1-0-tfsi"],
+        "sanziman": "7 ileri S tronic otomatik",
+        "not": "Yazılım güncellemesi ve düzenli şanzıman yağı bakımı önerilir; şehir içi yoğun kullanım debriyajı çabuk yıpratır.",
+        "kaynaklar": [
+          "https://carwiki.de/audi-a1-probleme",
+          "https://gebrauchtwagenberater.de/audi-a1-probleme-krankheiten/",
+          "https://www.whocanfixmycar.com/advice/common-problems-with-the-audi-a1",
+          "https://www.fiches-auto.fr/fiabilite-audi/fiabilite-292-pannes-audi-a1.php"
+        ]
+      },
+      {
+        "id": "devirdaim-sogutma-1-6-tdi", "baslik": "Devirdaim (su pompası) arızası", "parca": "Su pompası / soğutma sistemi",
+        "belirtiler": "Soğutma suyu eksilmesi veya sızıntısı, motor ısınma uyarısı.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-6-tdi"],
+        "not": "Tek bağımsız kaynak; fiches-auto 1.6 TDI 90 PS için 40 yorumda 15 su pompası arızası kaydediyor.",
+        "kaynaklar": [
+          "https://www.fiches-auto.fr/fiabilite-audi/fiabilite-292-pannes-audi-a1.php"
+        ]
+      }
+    ]
+  }]
+}

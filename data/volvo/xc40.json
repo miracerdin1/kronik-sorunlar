@@ -1,0 +1,40 @@
+{
+  "marka": "Volvo", "markaSlug": "volvo", "model": "XC40", "modelSlug": "xc40",
+  "nesiller": [{
+    "slug": "xc40-1", "ad": "XC40 (1. nesil)", "yillar": [2017, 2026], "not": null,
+    "motorlar": [
+      {"id": "1-5-t4", "ad": "1.5 T4", "yakit": "benzin"},
+      {"id": "2-0-d3", "ad": "2.0 D3", "yakit": "dizel"},
+      {"id": "b4-mhev", "ad": "B4 hafif hibrit", "yakit": "hibrit"},
+      {"id": "t5-recharge", "ad": "T5 Recharge plug-in hibrit", "yakit": "hibrit"},
+      {"id": "recharge-elektrik", "ad": "Recharge elektrik", "yakit": "elektrik"}
+    ],
+    "sorunlar": [
+      {
+        "id": "multimedya-yazilim-arizalari", "baslik": "Multimedya ekranı donması ve yazılım hataları", "parca": "Multimedya / Sensus sistemi",
+        "belirtiler": "Ekran donuyor ya da kendiliğinden yeniden başlıyor; park sensörü, sinyal ve radyo sesi bir süre kesilebiliyor, telefon bağlantısı kopuyor. Güç düğmesine uzun basarak sistem yeniden başlatılabiliyor.",
+        "km": null, "ciddiyet": "dusuk", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "not": "Çoğunlukla yetkili serviste yazılım güncellemesiyle giderilir.",
+        "kaynaklar": [
+          "https://www.bumper.co/blog/volvo-xc40-reliability",
+          "https://carwiki.de/volvo-xc40-probleme",
+          "https://recharged.com/articles/volvo-xc40-recharge-common-problems-and-fixes/",
+          "https://www.whatcar.com/volvo/xc40-recharge-pure-electric/estate/used-review/n27591/reliability"
+        ]
+      },
+      {
+        "id": "yuksek-voltaj-sistemi-arizasi", "baslik": "Plug-in hibritte yüksek voltaj / şarj modülü arızaları", "parca": "Yüksek voltaj sistemi ve şarj modülü",
+        "belirtiler": "Yüksek voltaj sistemi seyir halinde devre dışı kalabiliyor, araç çalışmayabiliyor ya da güç kaybedebiliyor; şarj modülü değişimi gerektiren arızalar bildiriliyor. Soğukta tekrarlı çalıştırmalarda sigorta atması da anılıyor.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["t5-recharge"],
+        "not": "Hibrit sürümlerde sık anılan bir zayıf nokta; sürücüler için yazılım ve parça kontrolü servis kayıtlarından doğrulanmalı.",
+        "kaynaklar": [
+          "https://carwiki.de/volvo-xc40-probleme",
+          "https://www.fiches-auto.fr/fiabilite-volvo/fiabilite-629-pannes-volvo-xc40.php",
+          "https://www.rerev.com/articles/volvo-xc40-years-to-avoid/"
+        ]
+      }
+    ]
+  }]
+}

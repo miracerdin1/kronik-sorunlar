@@ -1,0 +1,70 @@
+{
+  "marka": "Dacia", "markaSlug": "dacia", "model": "Lodgy", "modelSlug": "lodgy",
+  "nesiller": [{
+    "slug": "lodgy-1", "ad": "Lodgy (I)", "yillar": [2012, 2022], "not": null,
+    "motorlar": [
+      {"id": "1-2-tce-115", "ad": "1.2 TCe 115", "yakit": "benzin"},
+      {"id": "1-6-sce-100", "ad": "1.6 SCe 100", "yakit": "benzin"},
+      {"id": "1-5-dci-90", "ad": "1.5 dCi 90", "yakit": "dizel"},
+      {"id": "1-5-dci-110", "ad": "1.5 dCi 110", "yakit": "dizel"}
+    ],
+    "sorunlar": [
+      {
+        "id": "tce-yag-tuketimi-motor-hasari", "baslik": "1.2 TCe'de aşırı yağ tüketimi ve motor hasarı", "parca": "Motor (segman/yağlama)",
+        "belirtiler": "Yağ seviyesi sık sık düşer, yağ ikaz lambası yanar. İlgilenilmezse yetersiz yağlama yüzünden motor ciddi hasar görebilir.",
+        "km": "60.000-140.000", "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["1-2-tce-115"], "sanziman": null,
+        "not": "Özellikle 2012-2016/2017 üretim araçlarda görülüyor.",
+        "kaynaklar": [
+          "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-350-pannes-dacia-lodgy.php",
+          "https://www.caradisiac.com/Maxi-fiche-fiabilite-que-vaut-le-Dacia-Lodgy-en-occasion-102790.htm",
+          "https://www.motorimagazine.it/dacia-lodgy-usata-guida-alla-scelta-tra-motori-consumi-reali-e-difetti/"
+        ]
+      },
+      {
+        "id": "tce-triger-zinciri", "baslik": "1.2 TCe zincir gerilmesi ve gürültüsü", "parca": "Triger zinciri ve gergisi",
+        "belirtiler": "Soğuk çalıştırmada ve ivmelenmede zincir sesi gelir; bakımsız araçlarda zincir uzayabilir veya gergi kilitlenebilir.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["1-2-tce-115"], "sanziman": null, "not": null,
+        "kaynaklar": [
+          "https://www.caradisiac.com/Maxi-fiche-fiabilite-que-vaut-le-Dacia-Lodgy-en-occasion-102790.htm",
+          "https://www.motorimagazine.it/dacia-lodgy-usata-guida-alla-scelta-tra-motori-consumi-reali-e-difetti/",
+          "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-350-pannes-dacia-lodgy.php"
+        ]
+      },
+      {
+        "id": "dci-110-debriyaj", "baslik": "1.5 dCi 110'da debriyaj titremesi ve erken aşınma", "parca": "Debriyaj",
+        "belirtiler": "Vites küçültürken titreme/sarsıntı olur; debriyaj erken aşınabilir. Çözüm genellikle debriyajı değiştirmektir ve sorun tekrarlayabilir.",
+        "km": "50.000-60.000", "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-5-dci-110"], "sanziman": "6 ileri manuel", "not": null,
+        "kaynaklar": [
+          "https://www.caradisiac.com/Maxi-fiche-fiabilite-que-vaut-le-Dacia-Lodgy-en-occasion-102790.htm",
+          "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-350-pannes-dacia-lodgy.php"
+        ]
+      },
+      {
+        "id": "yakit-pompasi", "baslik": "Yakıt pompası arızaları", "parca": "Yakıt pompası",
+        "belirtiler": "Çekiş kaybı, gaz tepkisinde zayıflama, motorun çalışmaması veya aniden stop etmesi.",
+        "km": "20.000-60.000", "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": "hepsi", "sanziman": null,
+        "not": "Almanca kaynak özellikle 2015-2018 üretim araçları anıyor.",
+        "kaynaklar": [
+          "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-350-pannes-dacia-lodgy.php",
+          "https://carwiki.de/dacia-lodgy-probleme"
+        ]
+      },
+      {
+        "id": "neiman-elektronik-modul", "baslik": "Neiman/kilit modülü ve elektronik arızaları", "parca": "Kontak/Neiman ünitesi, merkezi kilit",
+        "belirtiler": "Araç kilitlendikten sonra yeniden çalışmama, kontağın kilitlenmesi, merkezi kilit ve far kolu arızaları.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": "hepsi", "sanziman": null,
+        "not": "2012 sonuna kadar üretilen araçlar için kabin kontrol ünitesi yazılım geri çağırması yapıldı (Şubat 2013).",
+        "kaynaklar": [
+          "https://www.caradisiac.com/Maxi-fiche-fiabilite-que-vaut-le-Dacia-Lodgy-en-occasion-102790.htm",
+          "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-350-pannes-dacia-lodgy.php",
+          "https://carwiki.de/dacia-lodgy-probleme"
+        ]
+      }
+    ]
+  }]
+}

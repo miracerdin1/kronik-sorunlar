@@ -1,0 +1,141 @@
+{
+  "marka": "Volvo",
+  "markaSlug": "volvo",
+  "model": "V40",
+  "modelSlug": "v40",
+  "nesiller": [
+    {
+      "slug": "v40-2",
+      "ad": "V40 (2. nesil, Cross Country dahil)",
+      "yillar": [
+        2012,
+        2019
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-6-d2",
+          "ad": "1.6 D2",
+          "yakit": "dizel"
+        },
+        {
+          "id": "2-0-d3",
+          "ad": "2.0 D3",
+          "yakit": "dizel"
+        },
+        {
+          "id": "2-0-d4",
+          "ad": "2.0 D4",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-5-t3",
+          "ad": "1.5 T3",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-t4",
+          "ad": "1.6 T4",
+          "yakit": "benzin"
+        },
+        {
+          "id": "2-0-t5",
+          "ad": "2.0 T5",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dpf-egr-tikanmasi",
+          "baslik": "DPF ve EGR'nin kurumla tıkanması",
+          "parca": "Dizel partikül filtresi / EGR valfi ve soğutucusu",
+          "belirtiler": "Motor arıza ışığı, performans düşüklüğü uyarısı ve güç kaybı görülür; filtre rejenerasyonu tamamlanamaz. Kısa mesafe şehir içi kullanımda belirgin olarak artar.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-d2",
+            "2-0-d3",
+            "2-0-d4"
+          ],
+          "sanziman": null,
+          "not": "Uzun yolda düzenli kullanım rejenerasyona yardımcı olur.",
+          "kaynaklar": [
+            "https://minbilkoll.se/vanliga-fel/volvo/v40-d2/",
+            "https://www.fiches-auto.fr/fiabilite-volvo/fiabilite-359-pannes-volvo-v40.php",
+            "https://www.carchecker.pro/reports/volvo_v40_d3.html"
+          ]
+        },
+        {
+          "id": "on-yay-kirilmasi",
+          "baslik": "Ön helezon yayların kırılması",
+          "parca": "Ön helezon yay",
+          "belirtiler": "Tümsek ve çukurlarda tok ses, aracın bir tarafının çökmesi ve yol tutuşta bozulma; yay ucu korozyonla kopabilir. R-Design gibi sportif donanımlarda daha sık anılır.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": null,
+          "not": "Yaylar çift olarak değiştirilmelidir.",
+          "kaynaklar": [
+            "https://minbilkoll.se/vanliga-fel/volvo/v40-d2/",
+            "https://www.carchecker.pro/reports/volvo_v40_d3.html",
+            "https://www.volvoforums.org.uk/forum/technical-topics/v40-xc-12-17-general/320509-coil-spring-corrosion"
+          ]
+        },
+        {
+          "id": "kapi-kilit-motoru",
+          "baslik": "Kapı kilit motorunun arızalanması",
+          "parca": "Kapı kilit aktüatörü",
+          "belirtiler": "Kapı uzaktan kumandayla kilitlenmez ya da açılmaz, özellikle arka kapılarda; kilit zaman zaman takılır.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": null,
+          "not": "What Car? sahip anketinde de kapı kilidi arızaları öne çıkıyor.",
+          "kaynaklar": [
+            "https://www.whatcar.com/volvo/v40/hatchback/used-review/n789/reliability",
+            "https://www.carchecker.pro/reports/volvo_v40_d3.html"
+          ]
+        },
+        {
+          "id": "d2-volan-debriyaj",
+          "baslik": "1.6 D2'de volan ve debriyaj arızası",
+          "parca": "Çift kütleli volan / debriyaj",
+          "belirtiler": "Motor bölgesinden yüksek gürültü, titreme ve debriyaj sorunları; volan bozulunca debriyaj ve şanzıman da hasar görebilir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-d2"
+          ],
+          "sanziman": null,
+          "not": "Fransız tanıklıklarında D2'de volan ve debriyaj arızaları birden çok kez geçiyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-volvo/fiabilite-359-pannes-volvo-v40.php",
+            "https://www.volvoforums.org.uk/forum/technical-topics/v40-xc-12-17-general/259297-v40-dual-mass-flywheel"
+          ]
+        },
+        {
+          "id": "supap-yayi-kirilmasi",
+          "baslik": "Egzoz supap yayının kırılması",
+          "parca": "Egzoz supap yayı",
+          "belirtiler": "Zor çalışma, düzensiz rölanti ve ateşleme kaçırma (P0300 hata kodu).",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-d2",
+            "1-6-t4"
+          ],
+          "sanziman": null,
+          "not": "Haynes yalnızca 1.6 litrelik benzinli ve dizel motorlar için anıyor; tek kaynaklı.",
+          "kaynaklar": [
+            "https://haynes.com/en-gb/tips-tutorials/volvo-v40-mk2-common-problems-2012-2019"
+          ]
+        }
+      ]
+    }
+  ]
+}

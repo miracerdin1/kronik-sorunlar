@@ -1,0 +1,74 @@
+{
+  "marka": "Mercedes-Benz", "markaSlug": "mercedes-benz", "model": "GLC", "modelSlug": "glc",
+  "nesiller": [{
+    "slug": "glc-x253", "ad": "GLC (X253)", "yillar": [2015, 2022], "not": null,
+    "motorlar": [
+      {"id": "220-d", "ad": "220 d (OM651)", "yakit": "dizel"},
+      {"id": "250-d", "ad": "250 d (OM651)", "yakit": "dizel"},
+      {"id": "250", "ad": "250 (M274)", "yakit": "benzin"}
+    ],
+    "sorunlar": [
+      {
+        "id": "adblue-nox-sensoru", "baslik": "AdBlue sistemi ve NOx sensörü arızaları", "parca": "NOx sensörü / AdBlue (SCR) sistemi",
+        "belirtiler": "Motor arıza lambası ve AdBlue uyarısı yanar, geri sayım başlar; zamanında giderilmezse araç yeniden çalışmayabilir. Sensörler ve AdBlue deposu/besleme kısmı pahalı değişir.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["220-d", "250-d"],
+        "not": "Parça temininde gecikme yaşayan sahip bildirimleri var.",
+        "kaynaklar": [
+          "https://www.fiches-auto.fr/fiabilite-mercedes/fiabilite-544-pannes-mercedes-glc.php",
+          "https://minbilkoll.se/vanliga-fel/mercedes-benz/glc/",
+          "https://www.parkers.co.uk/mercedes-benz/glc-class/review/",
+          "https://forums.mbclub.co.uk/threads/glc-nox-sensor-malfunction.292997"
+        ]
+      },
+      {
+        "id": "9g-tronic-vurma", "baslik": "9G-Tronic şanzımanda sarsıntılı ve sert vites geçişleri", "parca": "9G-Tronic (725.0) otomatik şanzıman",
+        "belirtiler": "Düşük hızda ve vites küçültürken vuruntulu geçişler, bazen bir viteste kalma; yer yer elektrik plakası/mekatronik kaynaklı yağ sızıntısı görülür.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": "hepsi", "sanziman": "9 ileri otomatik (9G-Tronic)",
+        "not": "Bazı durumlarda yazılım güncellemesi ve şanzıman yağı değişimi ile iyileşir.",
+        "kaynaklar": [
+          "https://www.fiches-auto.fr/fiabilite-mercedes/fiabilite-544-pannes-mercedes-glc.php",
+          "https://minbilkoll.se/vanliga-fel/mercedes-benz/glc/",
+          "https://kfz-dietrich.com/blog/mercedes-glc-x253-typische-probleme-xentry/"
+        ]
+      },
+      {
+        "id": "airmatic-hava-suspansiyonu", "baslik": "Hava süspansiyonunda kompresör ve körük sorunları", "parca": "Airmatic hava süspansiyon kompresörü / körükler",
+        "belirtiler": "Araç park halinde bir tarafa çöker, yükseklik dengesiz olur, süspansiyon uyarısı yanar, kompresör uzun süre çalışır. Kompresör birkaç kez değiştirilen araçlar var.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "not": "Yalnızca hava süspansiyon opsiyonlu araçlarda.",
+        "kaynaklar": [
+          "https://www.fiches-auto.fr/fiabilite-mercedes/fiabilite-544-pannes-mercedes-glc.php",
+          "https://minbilkoll.se/vanliga-fel/mercedes-benz/glc/",
+          "https://www.parkers.co.uk/mercedes-benz/glc-class/review/",
+          "https://kfz-dietrich.com/blog/mercedes-glc-x253-typische-probleme-xentry/"
+        ]
+      },
+      {
+        "id": "direksiyon-tam-kirmada-zipleme", "baslik": "Tam direksiyonda zıplama/sürtme ve hızlı lastik aşınması", "parca": "4MATIC aktarma sistemi / lastik ve rot ayarı",
+        "belirtiler": "Park manevrası gibi tam kırmada araç yana kayar gibi sekmekte, ses ve titreme yapar; ön lastikler hızlı aşınır.",
+        "km": null, "ciddiyet": "dusuk", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "not": "Daha çok ilk yıllardaki ve sağdan direksiyonlu araçlarda bildirilmiş; lastik ve geometri revizyonları yapıldı.",
+        "kaynaklar": [
+          "https://www.parkers.co.uk/mercedes-benz/glc-class/review/",
+          "https://www.carbuyer.co.uk/mercedes/glc/149755/mercedes-glc-suv-review-2015-2022/owner-reviews",
+          "https://autoscore.pro/model/mercedes-glc-x253"
+        ]
+      },
+      {
+        "id": "m274-triger-zinciri", "baslik": "M274 benzinli motorda zincir uzaması", "parca": "Triger zinciri ve gergisi",
+        "belirtiler": "Soğuk çalıştırmada zincir tıkırtısı, eksantrik/krank kodlarıyla motor arıza lambası, yağ sızıntısı.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["250"],
+        "not": "Uzun yağ değişim aralıklarıyla ilişkilendiriliyor; 2018 başından sonra revize gergi anılıyor.",
+        "kaynaklar": [
+          "https://minbilkoll.se/vanliga-fel/mercedes-benz/glc/",
+          "https://kfz-dietrich.com/blog/mercedes-glc-x253-typische-probleme-xentry/"
+        ]
+      }
+    ]
+  }]
+}
