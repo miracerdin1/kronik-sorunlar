@@ -1,0 +1,62 @@
+{
+  "marka": "Seat", "markaSlug": "seat", "model": "Ateca", "modelSlug": "ateca",
+  "nesiller": [{
+    "slug": "ateca-1", "ad": "Ateca (KH7)", "yillar": [2016, 2026], "not": null,
+    "motorlar": [
+      {"id": "1-0-tsi", "ad": "1.0 TSI 115 HP", "yakit": "benzin"},
+      {"id": "1-4-tsi", "ad": "1.4 TSI 150 HP", "yakit": "benzin"},
+      {"id": "1-5-tsi", "ad": "1.5 TSI 150 HP", "yakit": "benzin"},
+      {"id": "1-6-tdi", "ad": "1.6 TDI 115 HP", "yakit": "dizel"},
+      {"id": "2-0-tdi", "ad": "2.0 TDI 150/190 HP", "yakit": "dizel"}
+    ],
+    "sorunlar": [
+      {
+        "id": "dsg-titreme-mekatronik", "baslik": "DSG şanzıman titremesi ve çift kavrama/mekatronik arızası", "parca": "DSG şanzıman (kavrama, mekatronik)",
+        "belirtiler": "Vites geçişlerinde sarsıntı ve titreme, şanzıman arıza uyarısı, sıcakken koruma moduna girip bazen geri vitesi kaybetme. Bazı araçlarda kavrama/mekatronik değişimi gerekiyor.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": "hepsi", "sanziman": "7 ileri DSG otomatik",
+        "not": "Fransız kullanıcı verilerinde en çok bildirilen arıza kategorisi şanzıman; yağ servisine uyulması önerilir.",
+        "kaynaklar": [
+          "https://www.fiches-auto.fr/fiabilite-seat/fiabilite-557-pannes-seat-ateca.php",
+          "https://forum-auto.matmut.fr/forum/SEAT/ATECA/PROBLEME-DE-DOUBLE-EMBRAYAGE/4929846/468892",
+          "https://kfz-dietrich.com/blog/vw-diagnose-seat-ateca-tarraco-typische-probleme/"
+        ]
+      },
+      {
+        "id": "su-pompasi-sogutma", "baslik": "Su pompası / soğutma sistemi arızası", "parca": "Su pompası ve termostat grubu",
+        "belirtiler": "Soğutma suyu kaybı, motor ısınma uyarısı, sıcaklık göstergesinde dalgalanma. Pompa içindeki valf takılırsa motor aşırı ısınabiliyor.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": "hepsi", "sanziman": null,
+        "not": "Fiches-auto verilerinde şanzımandan sonra en sık bildirilen ikinci arıza; forum tarafı tek tek kullanıcı anlatımı.",
+        "kaynaklar": [
+          "https://www.fiches-auto.fr/fiabilite-seat/fiabilite-557-pannes-seat-ateca.php",
+          "https://www.fiches-auto.fr/avis-seat/avis-unique-557-109535-seat-ateca-20-tdi-150-ch-4x4-dsg7-135000km-2019-finition-style.php",
+          "https://www.seatcupra.net/forums/threads/seat-ateca-1-6l-tdi-dpf-and-coolant-loss.477676/latest"
+        ]
+      },
+      {
+        "id": "1-5-tsi-kanguru-silindir-kapatma", "baslik": "1.5 TSI düşük devirde sarsıntı (kanguru etkisi)", "parca": "Motor yönetimi / silindir kapatma (ACT)",
+        "belirtiler": "Soğukken ve düşük hızda hızlanırken tereddüt, kangurulama ve silindir devreye girip çıkarken titreme.",
+        "km": null, "ciddiyet": "dusuk", "maliyetTl": null,
+        "motorlar": ["1-5-tsi"], "sanziman": null,
+        "not": "Üretici yazılım güncellemesi mevcut; yetkili servise başvurulmalı.",
+        "kaynaklar": [
+          "https://www.parkers.co.uk/seat/ateca/",
+          "https://kfz-dietrich.com/blog/vw-diagnose-seat-ateca-tarraco-typische-probleme/"
+        ]
+      },
+      {
+        "id": "dizel-dpf-adblue", "baslik": "Dizelde DPF tıkanması ve AdBlue/SCR arızaları", "parca": "Dizel partikül filtresi, AdBlue/SCR sistemi",
+        "belirtiler": "Kısa mesafe kullanımda DPF dolması ve uyarı lambası; AdBlue dozaj valfi veya SCR verimlilik hatası ve arıza uyarısı.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-6-tdi", "2-0-tdi"], "sanziman": null,
+        "not": "Uzun yolda yapılan sürüş filtrenin kendini temizlemesine yardımcı olur.",
+        "kaynaklar": [
+          "https://www.fiches-auto.fr/fiabilite-seat/fiabilite-557-pannes-seat-ateca.php",
+          "https://www.parkers.co.uk/seat/ateca/",
+          "https://kfz-dietrich.com/blog/vw-diagnose-seat-ateca-tarraco-typische-probleme/"
+        ]
+      }
+    ]
+  }]
+}

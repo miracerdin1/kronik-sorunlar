@@ -1,0 +1,63 @@
+{
+  "marka": "Volkswagen",
+  "markaSlug": "volkswagen",
+  "model": "Amarok",
+  "modelSlug": "amarok",
+  "nesiller": [
+    {
+      "slug": "amarok-1",
+      "ad": "Amarok (2H)",
+      "yillar": [
+        2010,
+        2022
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "2-0-tdi",
+          "ad": "2.0 TDI / BiTDI",
+          "yakit": "dizel"
+        },
+        {
+          "id": "3-0-v6-tdi",
+          "ad": "3.0 V6 TDI",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "egr-valf-sogutucu",
+          "baslik": "EGR valfi ve soğutucu arızası",
+          "parca": "EGR valfi / EGR soğutucusu",
+          "belirtiler": "Rölantide düzensiz çalışma, motor arıza ışığı ve limp moda girme görülür. Soğutucu delinirse soğutma suyu eksilir veya egzozdan duman çıkar.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "4 silindirli motordaki EGR soğutucusunun V6'ya göre daha kötü yapıldığı belirtiliyor.",
+          "kaynaklar": [
+            "https://www.vanguide.co.uk/guides/volkswagen-amarok-common-problems/",
+            "https://unsealed4x4.com.au/buying-used-vw-amarok-2011-2022-probably-the-most-underrated-dual-cab-on-the-market/",
+            "https://www.fwi.co.uk/machinery/4x4s/tips-for-buying-a-second-hand-pickup-vw-amarok"
+          ]
+        },
+        {
+          "id": "dpf-tikanma",
+          "baslik": "DPF (dizel partikül filtresi) tıkanması",
+          "parca": "Dizel partikül filtresi",
+          "belirtiler": "DPF veya motor arıza ışığı yanar, güç düşer. Kısa mesafe kullanımda filtre kendini yakamaz ve tıkanır; geç kalınırsa temizlik ya da değişim gerekir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Uzun ve tempolu yolculuk filtreyi yakmaya yardımcı olabilir.",
+          "kaynaklar": [
+            "https://www.vanguide.co.uk/guides/volkswagen-amarok-common-problems/",
+            "https://unsealed4x4.com.au/buying-used-vw-amarok-2011-2022-probably-the-most-underrated-dual-cab-on-the-market/",
+            "https://www.fwi.co.uk/machinery/4x4s/tips-for-buying-a-second-hand-pickup-vw-amarok"
+          ]
+        }
+      ]
+    }
+  ]
+}

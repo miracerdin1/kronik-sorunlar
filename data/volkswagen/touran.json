@@ -1,0 +1,109 @@
+{
+  "marka": "Volkswagen",
+  "markaSlug": "volkswagen",
+  "model": "Touran",
+  "modelSlug": "touran",
+  "nesiller": [
+    {
+      "slug": "touran-5t",
+      "ad": "Touran (5T)",
+      "yillar": [
+        2015,
+        2026
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-2-tsi",
+          "ad": "1.2 TSI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-4-tsi",
+          "ad": "1.4 TSI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-tdi",
+          "ad": "1.6 TDI",
+          "yakit": "dizel"
+        },
+        {
+          "id": "2-0-tdi",
+          "ad": "2.0 TDI",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dsg-titreme-debriyaj",
+          "baslik": "DSG şanzımanda sarsıntı ve debriyaj aşınması",
+          "parca": "DSG şanzıman / debriyaj",
+          "belirtiler": "Kalkışta ve düşük hızda sarsıntı, vites geçişlerinin yavaşlaması; yüksek kilometrede debriyaj ve şanzıman arızası yaşanabilir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": "DSG otomatik",
+          "not": "Bir sahip yorumunda şanzıman yaklaşık 60.000 km'de garanti kapsamında değiştirilmiş.",
+          "kaynaklar": [
+            "https://www.whatcar.com/volkswagen/touran/mpv/used-review/n806/advice",
+            "https://carwiki.de/vw-touran-probleme",
+            "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-527-pannes-volkswagen-touran-3.php",
+            "https://www.fiches-auto.fr/avis-volkswagen/avis-unique-527-72950-volkswagen-touran-16-tdi-110-ch-boite-dsg-140000-en-2-ans-annee-modele-2016-jantes-toles-.php"
+          ]
+        },
+        {
+          "id": "dizel-egr-dpf-enjektor",
+          "baslik": "Dizelde EGR, DPF ve enjektör kurumlanması",
+          "parca": "EGR valfi / DPF / enjektörler",
+          "belirtiler": "Motor arıza lambası, güç kaybı, DPF uyarısı; kısa mesafe kullanımda kurum birikimi artar.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-tdi",
+            "2-0-tdi"
+          ],
+          "not": null,
+          "kaynaklar": [
+            "https://gebrauchtwagenberater.de/vw-touran-5t-probleme",
+            "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-527-pannes-volkswagen-touran-3.php"
+          ]
+        },
+        {
+          "id": "adblue-tuketimi-2-0-tdi",
+          "baslik": "AdBlue sistemi sorunları ve yüksek tüketim",
+          "parca": "AdBlue / SCR sistemi",
+          "belirtiler": "Kilometre arttıkça AdBlue tüketimi yükselir, sistem uyarıları görülebilir.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-0-tdi"
+          ],
+          "not": "Kaynaklardan biri tüketimi motor ömrü için tehdit değil, maliyetli ve can sıkıcı olarak değerlendiriyor.",
+          "kaynaklar": [
+            "https://carwiki.de/vw-touran-probleme",
+            "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-527-pannes-volkswagen-touran-3.php"
+          ]
+        },
+        {
+          "id": "aks-rotil-asinmasi",
+          "baslik": "Aks, rotil ve denge çubuğu bağlantı aşınması",
+          "parca": "Ön takım / süspansiyon",
+          "belirtiler": "Bozuk yolda tıkırtı, direksiyonda gevşeklik; muayenede aks ve süspansiyon bulguları.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": null,
+          "kaynaklar": [
+            "https://www.autobild.de/artikel/vw-touran-gebraucht-tuev-report-2026-28264029.html",
+            "https://gebrauchtwagenberater.de/vw-touran-5t-probleme"
+          ]
+        }
+      ]
+    }
+  ]
+}

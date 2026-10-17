@@ -1,0 +1,49 @@
+{
+  "marka": "Skoda", "markaSlug": "skoda", "model": "Rapid", "modelSlug": "rapid",
+  "nesiller": [{
+    "slug": "rapid-nh", "ad": "Rapid (NH)", "yillar": [2012, 2019], "not": null,
+    "motorlar": [
+      {"id": "1-2-tsi", "ad": "1.2 TSI", "yakit": "benzin"},
+      {"id": "1-6-mpi", "ad": "1.6 MPI", "yakit": "benzin"},
+      {"id": "1-6-tdi", "ad": "1.6 TDI", "yakit": "dizel"}
+    ],
+    "sorunlar": [
+      {
+        "id": "triger-zinciri-gevsemesi", "baslik": "Triger zinciri uzaması ve gergi arızası", "parca": "Triger zinciri, zincir gergisi, dişliler",
+        "belirtiler": "Soğuk çalıştırmada birkaç saniyelik zincir tıkırtısı, yük altında zincir sesi; ihmal edilirse zincir atlar ve motor ağır hasar görür.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["1-2-tsi"],
+        "sanziman": null,
+        "not": "Eski nesil EA111 1.2 TSI (yaklaşık 2015'e kadar) için geçerli; sonraki EA211 motorlar kayışlıdır. Uzman, yaklaşık 80.000 km'de önleyici zincir seti değişimi öneriyor.",
+        "kaynaklar": ["https://gebrauchtwagenberater.de/skoda-rapid-probleme/", "https://www.auto.cz/ojeta-skoda-rapid-2012-2018-jednoducha-a-temer-bez-problemu-136572"]
+      },
+      {
+        "id": "dsg-dq200-debriyaj-asinmasi", "baslik": "7 ileri DSG (DQ200) debriyaj aşınması ve silkelenme", "parca": "DSG kuru debriyaj / volan / mekatronik",
+        "belirtiler": "Kalkışta titreme ve silkelenme, vites geçişlerinde vuruntu; şehir içi yoğun kullanımda debriyaj erken aşınır.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["1-2-tsi", "1-6-tdi"],
+        "sanziman": "7 ileri DSG (DQ200) otomatik",
+        "not": "Kaynaklar 50.000-60.000 km'de şanzıman yağı değişimi ve belgeli bakım öneriyor; forumda 80.000 ve 141.000 km'de debriyaj değişimi bildirilmiş (bireysel).",
+        "kaynaklar": ["https://gebrauchtwagenberater.de/skoda-rapid-probleme/", "https://forum.donanimhaber.com/skoda-rapid-sedan--63308993-104"]
+      },
+      {
+        "id": "tdi-egr-dpf-enjektor", "baslik": "1.6 TDI EGR, DPF ve enjektör arızaları", "parca": "EGR valfi, DPF, common-rail enjektör",
+        "belirtiler": "Motor arıza lambası, güç kaybı, acil durum modu; tıkanan EGR veya arızalı enjektör aracı yolda bırakabilir.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-6-tdi"],
+        "sanziman": null,
+        "not": "Emisyon yazılımı güncellemesinden sonra enjektör ve EGR şikayetleri bildirilmiş; forumda 10 yıl/215.000 km'lik bir araçta EGR ve devirdaim pompası değişimi anlatılıyor.",
+        "kaynaklar": ["https://www.auto.cz/ojeta-skoda-rapid-2012-2018-jednoducha-a-temer-bez-problemu-136572", "https://gebrauchtwagenberater.de/skoda-rapid-probleme/", "https://forum.donanimhaber.com/skoda-rapid-sedan--63308993-104"]
+      },
+      {
+        "id": "tsi-enjektor-kurumlanmasi", "baslik": "TSI enjektörlerinde kurumlanma ve zayıf püskürtme", "parca": "Direkt enjeksiyon enjektörleri / emme kanalı",
+        "belirtiler": "Güç kaybı, yakıt tüketiminde artış, düzensiz rölanti; kötü püskürtme en kötü durumda piston tepesine ve motora zarar verebilir.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-2-tsi"],
+        "sanziman": null,
+        "not": "Eski nesil (EA111) TSI motorlarda anılıyor; kaliteli yakıt ve yakıt sistemi temizleyici önleyici olarak öneriliyor.",
+        "kaynaklar": ["https://gebrauchtwagenberater.de/skoda-rapid-probleme/", "https://www.auto.cz/ojeta-skoda-rapid-2012-2018-jednoducha-a-temer-bez-problemu-136572"]
+      }
+    ]
+  }]
+}

@@ -1,0 +1,60 @@
+{
+  "marka": "Volkswagen", "markaSlug": "volkswagen", "model": "Transporter", "modelSlug": "transporter",
+  "nesiller": [{
+    "slug": "transporter-t6", "ad": "Transporter T6 / T6.1", "yillar": [2015, 2024], "not": "Türkiye'de Transporter ve Caravelle adlarıyla satıldı.",
+    "motorlar": [
+      {"id": "2-0-tdi", "ad": "2.0 TDI (90-150 PS)", "yakit": "dizel"},
+      {"id": "2-0-bitdi", "ad": "2.0 BiTDI (180-204 PS)", "yakit": "dizel"}
+    ],
+    "sorunlar": [
+      {
+        "id": "adblue-scr-sistemi", "baslik": "AdBlue / SCR sistemi arızaları", "parca": "AdBlue dozaj valfi, NOx sensörü, AdBlue enjektörü ve hattı",
+        "belirtiler": "AdBlue sistemi hatası uyarısı, yanlış AdBlue menzil göstergesi ve 'motor X km sonra çalışmayacak' geri sayımı. Sistem sızdırabilir veya yanlış alarm verebilir.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "not": "Bazı yanlış alarmlar motor yazılımı güncellemesiyle giderilebiliyor; 2015-2019 araçlarda AdBlue hattının enjektöre tam oturmaması sızıntı yapabiliyor.",
+        "kaynaklar": [
+          "https://kfz-dietrich.com/blog/vw-transporter-t5-t6-typische-probleme-odis/",
+          "https://uk.haynes.com/blogs/news/the-vw-transporter-t6-is-it-reliable-and-how-to-keep-yours-running-forever",
+          "https://www.t6forum.com/threads/survey-of-adblue-issues-suffered-by-t6-forum-members.60863/post-863038",
+          "https://www.hella.com/techworld/ae/bi/vw-transporter-t6-adblue-leakage-scr-system"
+        ]
+      },
+      {
+        "id": "dpf-tikanmasi", "baslik": "Dizel partikül filtresi (DPF) tıkanması", "parca": "DPF",
+        "belirtiler": "Kısa mesafe ve dur-kalk kullanımda rejenerasyon tamamlanamaz; 'partikül filtresi dolu' uyarısı ve güç kaybı görülür.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "kaynaklar": [
+          "https://kfz-dietrich.com/blog/vw-transporter-t5-t6-typische-probleme-odis/",
+          "https://uk.haynes.com/blogs/news/the-vw-transporter-t6-is-it-reliable-and-how-to-keep-yours-running-forever"
+        ]
+      },
+      {
+        "id": "dsg-mekatronik-kavrama", "baslik": "DSG şanzıman sarsıntısı ve mekatronik / kavrama sorunları", "parca": "7 ileri DSG (DQ500) mekatronik ünitesi ve kavrama",
+        "belirtiler": "Kalkışta sarsıntı veya vuruntu, vites geçişlerinde hata, tereddüt ve bazen acil durum (limp) moduna geçiş.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "sanziman": "7 ileri DSG (DQ500) otomatik",
+        "not": "Römork çekme ve dur-kalk kullanım kavrama aşınmasını artırır; eskimiş şanzıman yağı da etkili olabiliyor.",
+        "kaynaklar": [
+          "https://kfz-dietrich.com/blog/vw-transporter-t5-t6-typische-probleme-odis/",
+          "https://uk.haynes.com/blogs/news/the-vw-transporter-t6-is-it-reliable-and-how-to-keep-yours-running-forever",
+          "https://t6forum.com/threads/issues-with-the-dsg.57083"
+        ]
+      },
+      {
+        "id": "sogutma-suyu-kaybi", "baslik": "Görünür sızıntı olmadan soğutma suyu kaybı", "parca": "EGR soğutucusu / termostat yuvası O-ring'i / su pompası",
+        "belirtiler": "Dışarıda iz bırakmadan soğutma suyu seviyesi düşer; EGR soğutucusu sızdırıyorsa egzoz gazı soğutma sistemine karışabilir.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["2-0-tdi", "2-0-bitdi"],
+        "not": "Kaynaklarda neden olarak EGR soğutucusu, termostat yuvası O-ring'i (2015-2019) ve su pompası geçiyor.",
+        "kaynaklar": [
+          "https://kfz-dietrich.com/blog/vw-transporter-t5-t6-typische-probleme-odis/",
+          "https://hella.com/techworld/us/bi/vw-transporter-t6-coolant-loss",
+          "https://www.t6forum.com/threads/losing-4l-coolant-in-10-days-no-leaks-vw-t6-2-0-tdi.61473/latest"
+        ]
+      }
+    ]
+  }]
+}
