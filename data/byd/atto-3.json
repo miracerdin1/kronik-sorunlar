@@ -1,0 +1,44 @@
+{
+  "marka": "BYD", "markaSlug": "byd", "model": "Atto 3", "modelSlug": "atto-3",
+  "nesiller": [{
+    "slug": "atto-3-1", "ad": "Atto 3", "yillar": [2022, 2026], "not": null,
+    "motorlar": [{"id": "60-5-kwh-204-ps", "ad": "60,5 kWh 204 PS elektrik", "yakit": "elektrik"}],
+    "sorunlar": [
+      {
+        "id": "12v-aku-bosalmasi", "baslik": "12V yardımcı akünün boşalması", "parca": "12V yardımcı akü / DC-DC dönüştürücü",
+        "belirtiler": "Araç park halindeyken akü gece boyunca boşalıyor; sabah kontak açılmıyor, ekran kararıyor, çekici veya takviye gerekebiliyor.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "not": "Kaynaklara göre nedenleri erken seri akü kalitesi, düşük şarj gerilimi ve modüllerin uykuya geçmemesi; OTA güncellemeleri iyileştirme sağlıyor.",
+        "kaynaklar": [
+          "https://australiancar.reviews/?p=99003",
+          "https://www.sikayetvar.com/en/byd-auto-us/byd-atto-3-battery-drains-while-parkedno-solution-from-byd",
+          "https://zecar.com/resources/common-byd-atto-3-problems"
+        ]
+      },
+      {
+        "id": "multimedya-ekran-donmasi", "baslik": "Multimedya ekranın donması, yeniden başlaması ve telefon bağlantısı sorunları", "parca": "DiLink multimedya sistemi / yazılım",
+        "belirtiler": "Merkez ekran gecikiyor, kendi kendine yeniden başlıyor veya kararıyor; CarPlay/Android Auto bağlantısı kopuyor.",
+        "km": null, "ciddiyet": "dusuk", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "not": "Çoğunlukla yazılım kaynaklı; OTA güncellemesi veya sistem sıfırlama ile geçici ya da kalıcı çözülüyor.",
+        "kaynaklar": [
+          "https://australiancar.reviews/?p=99003",
+          "https://www.sikayetvar.com/en/byd-auto-us/byd-atto-3-has-serious-software-and-electronic-problems",
+          "https://ev.care/en-ae/guides/byd/byd-atto-3/common-problems"
+        ]
+      },
+      {
+        "id": "sim-uzaktan-erisim-ota", "baslik": "SIM kart / uzaktan erişim ve OTA güncellemelerinin çalışmaması", "parca": "Telematik modülü (SIM) ve uygulama bağlantısı",
+        "belirtiler": "Mobil uygulama ile uzaktan erişim aktif olmuyor, SIM kart veri aktivasyonu görünmüyor, yazılım güncellemeleri araca ulaşmıyor.",
+        "km": null, "ciddiyet": "dusuk", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "not": "Türkiye şikayetlerinde 2023-2025 model sahiplerinde görülüyor; servis çoğunlukla SIM değişimi veya takip gerektiriyor.",
+        "kaynaklar": [
+          "https://www.sikayetvar.com/byd/guncelleme",
+          "https://zecar.com/resources/common-byd-atto-3-problems"
+        ]
+      }
+    ]
+  }]
+}

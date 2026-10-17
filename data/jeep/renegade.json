@@ -1,0 +1,173 @@
+{
+  "marka": "Jeep",
+  "markaSlug": "jeep",
+  "model": "Renegade",
+  "modelSlug": "renegade",
+  "nesiller": [
+    {
+      "slug": "renegade-bu",
+      "ad": "Renegade (BU)",
+      "yillar": [
+        2014,
+        2026
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-4-multiair",
+          "ad": "1.4 MultiAir Turbo",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-3-gse-t4",
+          "ad": "1.3 GSE T4",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-etorq",
+          "ad": "1.6 E-torQ",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-multijet",
+          "ad": "1.6 Multijet",
+          "yakit": "dizel"
+        },
+        {
+          "id": "2-0-multijet",
+          "ad": "2.0 Multijet",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "multiair-turbo-arizasi",
+          "baslik": "1.4 MultiAir turbo arızası",
+          "parca": "Turbo şarj ünitesi",
+          "belirtiler": "Güç kaybı, acil durum (limp) moduna girme, motor arıza lambası. Bazı araçlarda erken yaşta da görülüyor; yağ seyrelmesi de aktarılıyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-4-multiair"
+          ],
+          "sanziman": null,
+          "not": "Yanlış spesifikasyonlu yağ kullanımı MultiAir ünitesinde çamurlaşmaya yol açabiliyor; önerilen 0W-30 yağ önemli.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-jeep/fiabilite-506-pannes-jeep-renegade.php",
+            "https://carwiki.de/jeep-renegade-probleme",
+            "https://carmechanicsmag.co.uk/buying-owning-improving/buying-owning-improving-the-mk1-jeep-renegade/"
+          ]
+        },
+        {
+          "id": "dizel-turbo-limp",
+          "baslik": "Multijet dizel turbo arızası",
+          "parca": "Turbo",
+          "belirtiler": "Tam gazda güç kesilmesi ve limp moduna geçme, düşük performans.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-multijet",
+            "2-0-multijet"
+          ],
+          "sanziman": null,
+          "not": null,
+          "kaynaklar": [
+            "https://carmechanicsmag.co.uk/buying-owning-improving/buying-owning-improving-the-mk1-jeep-renegade/",
+            "https://carwiki.de/jeep-renegade-probleme",
+            "https://www.fiches-auto.fr/fiabilite-jeep/fiabilite-506-pannes-jeep-renegade.php"
+          ]
+        },
+        {
+          "id": "dpf-tikanmasi",
+          "baslik": "DPF (dizel partikül filtresi) tıkanması",
+          "parca": "Dizel partikül filtresi",
+          "belirtiler": "Uyarı lambası, rejenerasyon sorunları; yıllarca kısa şehir içi kullanımda is birikimi.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-multijet",
+            "2-0-multijet"
+          ],
+          "sanziman": null,
+          "not": null,
+          "kaynaklar": [
+            "https://carmechanicsmag.co.uk/buying-owning-improving/buying-owning-improving-the-mk1-jeep-renegade/",
+            "https://carwiki.de/jeep-renegade-probleme"
+          ]
+        },
+        {
+          "id": "debriyaj-volan",
+          "baslik": "Debriyaj ve volan aşınması",
+          "parca": "Debriyaj / çift kütleli volan",
+          "belirtiler": "Debriyajın kayması, titreşim; dizel manuel araçlarda sık bildirilen erken debriyaj değişimi.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-multijet",
+            "2-0-multijet"
+          ],
+          "sanziman": "manuel",
+          "not": "Fransız sahip yorumlarında en çok 1.6 Multijet 120 hp'de görülüyor; örnek sayısı küçük.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-jeep/fiabilite-506-pannes-jeep-renegade.php",
+            "https://carwiki.de/jeep-renegade-probleme"
+          ]
+        },
+        {
+          "id": "9-ileri-otomatik-sert-vites",
+          "baslik": "9 ileri otomatik şanzımanda sert/sarsıntılı geçişler",
+          "parca": "ZF 9 ileri otomatik şanzıman",
+          "belirtiler": "Vites geçişlerinde tekleme ve sarsıntı, düşük hızda vuruntu hissi; ilk model yıllarında boşa (N) atma nedeniyle sensör kablo demeti geri çağırması.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": "9 ileri otomatik (4x4)",
+          "not": "Yazılım güncellemesinin sorunu azalttığı belirtiliyor.",
+          "kaynaklar": [
+            "https://carwiki.de/jeep-renegade-probleme",
+            "https://www.slashgear.com/1726402/jeep-renegade-common-problems-owners",
+            "https://www.jeepproblems.com/models/renegade"
+          ]
+        },
+        {
+          "id": "uconnect-elektronik",
+          "baslik": "Uconnect multimedya ve elektronik arızalar",
+          "parca": "Multimedya / elektronik modüller",
+          "belirtiler": "Yavaş veya donan ekran, Bluetooth/Android Auto sorunları, harita güncelleme zorluğu, hoparlör kablolarından kaynaklı ses kesilmesi, yazılım güncellemesi gerektiren hatalar.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": null,
+          "not": null,
+          "kaynaklar": [
+            "https://carwiki.de/jeep-renegade-probleme",
+            "https://www.slashgear.com/1726402/jeep-renegade-common-problems-owners",
+            "https://carmechanicsmag.co.uk/buying-owning-improving/buying-owning-improving-the-mk1-jeep-renegade/"
+          ]
+        },
+        {
+          "id": "aku-start-stop",
+          "baslik": "Akü zayıflığı ve Start-Stop sorunları",
+          "parca": "Akü / Start-Stop sistemi",
+          "belirtiler": "Akü bitmesi nedeniyle çalışmama, start-stop'un devre dışı kalması; bazen yazılım güncellemesiyle çözülüyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": null,
+          "not": null,
+          "kaynaklar": [
+            "https://carmechanicsmag.co.uk/buying-owning-improving/buying-owning-improving-the-mk1-jeep-renegade/",
+            "https://www.fiches-auto.fr/fiabilite-jeep/fiabilite-506-pannes-jeep-renegade.php"
+          ]
+        }
+      ]
+    }
+  ]
+}

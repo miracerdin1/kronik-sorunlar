@@ -1,0 +1,130 @@
+{
+  "marka": "Tesla",
+  "markaSlug": "tesla",
+  "model": "Model Y",
+  "modelSlug": "model-y",
+  "nesiller": [
+    {
+      "slug": "model-y-1",
+      "ad": "Model Y (Juniper öncesi)",
+      "yillar": [
+        2020,
+        2024
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "arka-itis",
+          "ad": "Arka Çekiş (RWD)",
+          "yakit": "elektrik"
+        },
+        {
+          "id": "long-range-awd",
+          "ad": "Long Range AWD",
+          "yakit": "elektrik"
+        },
+        {
+          "id": "performance",
+          "ad": "Performance",
+          "yakit": "elektrik"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "kaporta-bosluk-boya",
+          "baslik": "Panel boşlukları ve boya kalitesi",
+          "parca": "Kaporta / boya / bagaj kapağı",
+          "belirtiler": "Bagaj kapağı ve panellerde hizasızlık, eşit olmayan boşluklar, boya kusurları ve sızdırmazlık sorunları görülür; en çok erken üretim araçlarda bildirilmiştir.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Çoğu durumda garanti kapsamında düzeltilir.",
+          "kaynaklar": [
+            "https://enginepatrol.com/tesla-model-y-common-problems/",
+            "https://www.thedrive.com/news/34144/the-tesla-model-y-is-already-a-quality-nightmare-report",
+            "https://rerev.com/articles/tesla-model-y-years-to-avoid/"
+          ]
+        },
+        {
+          "id": "hayalet-fren",
+          "baslik": "Hayalet frenleme",
+          "parca": "Sürüş destek sistemi (kamera tabanlı)",
+          "belirtiler": "Otopilot veya adaptif hız sabitleyici açıkken ortada engel yokken araç ani yavaşlar veya sert fren yapar; radarın kaldırıldığı 2021 sonrası şikayetler artmıştır.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "NHTSA 2021-2022 modeller için soruşturma yürütmüştür; yazılım güncellemeleriyle hafifletilmeye çalışılır.",
+          "kaynaklar": [
+            "https://enginepatrol.com/tesla-model-y-common-problems/",
+            "https://www.bgr.com/2114911/common-problems-tesla-model-y-since-release",
+            "https://rerev.com/articles/tesla-model-y-years-to-avoid/"
+          ]
+        },
+        {
+          "id": "suspansiyon-kol-burc",
+          "baslik": "Süspansiyon kolu, rotil ve burç aşınması",
+          "parca": "Üst salıncak rotili / yan bağlantı burçları",
+          "belirtiler": "Sert sürüş, virajda veya tümseklerde gıcırdama ve takırtı; rotil ve burçlar erken aşınabilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "2020-2021 modellerde ayrıca ön süspansiyon cıvataları için geri çağırma yapılmıştır.",
+          "kaynaklar": [
+            "https://www.bgr.com/2114911/common-problems-tesla-model-y-since-release",
+            "https://enginepatrol.com/tesla-model-y-common-problems/",
+            "https://rerev.com/articles/tesla-model-y-years-to-avoid/"
+          ]
+        },
+        {
+          "id": "isi-pompasi-klima",
+          "baslik": "Isı pompası ve klima valfi arızaları",
+          "parca": "Isı pompası / Octovalve / EXV valfi",
+          "belirtiler": "Soğutucu akışkan evaporatörde takılı kalabilir, kompresör devre dışı kalır; kışın cam buğusu çözme ve ısıtma zayıflar.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "2021-2022 üretimde yazılım güncellemesi ve geri çağırma uygulanmıştır; donanım arızası çok soğukta yine görülebilir.",
+          "kaynaklar": [
+            "https://www.bgr.com/2114911/common-problems-tesla-model-y-since-release",
+            "https://rerev.com/articles/tesla-model-y-years-to-avoid/"
+          ]
+        },
+        {
+          "id": "ekran-yeniden-baslama",
+          "baslik": "Dokunmatik ekranın donması veya yeniden başlaması",
+          "parca": "Multimedya ekranı (MCU)",
+          "belirtiler": "Ekran sürüş sırasında kararır veya yeniden başlar; hız göstergesi, silecek ve buğu çözme kontrolleri geçici olarak kaybolur. Bluetooth kopmaları ve gecikmeler de bildirilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Çoğu zaman yazılım güncellemesiyle düzelir.",
+          "kaynaklar": [
+            "https://enginepatrol.com/tesla-model-y-common-problems/",
+            "https://rerev.com/articles/tesla-model-y-years-to-avoid/",
+            "https://www.bgr.com/2114911/common-problems-tesla-model-y-since-release"
+          ]
+        },
+        {
+          "id": "12v-aku",
+          "baslik": "12 voltluk akü arızası",
+          "parca": "12 V yardımcı akü",
+          "belirtiler": "Akü boşalınca araç açılmaz, çalışmaz ve çekici gerekebilir; düşük 12 V durumunda elektronik kapı kolları da sorun çıkarabilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "En çok 2021 model için anılır.",
+          "kaynaklar": [
+            "https://www.bgr.com/2114911/common-problems-tesla-model-y-since-release",
+            "https://rerev.com/articles/tesla-model-y-years-to-avoid/"
+          ]
+        }
+      ]
+    }
+  ]
+}

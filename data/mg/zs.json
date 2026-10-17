@@ -1,0 +1,66 @@
+{
+  "marka": "MG", "markaSlug": "mg", "model": "ZS", "modelSlug": "zs",
+  "nesiller": [{
+    "slug": "zs-1", "ad": "ZS (1. nesil, ZS EV dahil)", "yillar": [2017, 2024], "not": null,
+    "motorlar": [
+      {"id": "1-5-vti", "ad": "1.5 VTi-Tech 106 HP", "yakit": "benzin"},
+      {"id": "1-0-t-gdi", "ad": "1.0 T-GDI 111 HP", "yakit": "benzin"},
+      {"id": "zs-ev", "ad": "ZS EV (elektrik)", "yakit": "elektrik"}
+    ],
+    "sorunlar": [
+      {
+        "id": "multimedya-ekran-donmasi", "baslik": "Multimedya ekranının donması ve kapanması", "parca": "Multimedya / bilgi-eğlence ünitesi",
+        "belirtiler": "Ekran takılır, kendiliğinden kapanıp birkaç dakika sonra açılır; Bluetooth ve CarPlay bağlantısı kopar, bazen kamera ve radyo tuşları kaybolur.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null, "motorlar": "hepsi", "sanziman": null,
+        "not": "Çoğunlukla yazılım güncellemesi veya ünite değişimiyle çözülüyor.",
+        "kaynaklar": [
+          "https://www.sikayetvar.com/mg-turkiye/mg-zs-ekran-dondu",
+          "https://www.sikayetvar.com/mg-turkiye/yeni-alinan-aracta-surekli-multimedya-ve-guvenlik-sorunlari",
+          "https://www.whocanfixmycar.com/advice/common-problems-with-the-mg-zs",
+          "https://www.whatcar.com/mg-motor-uk/zs-ev/hatchback/used-review/n22835/advice",
+          "https://www.fiches-auto.fr/fiabilite-mg/fiabilite-732-pannes-mg-zs.php"
+        ]
+      },
+      {
+        "id": "ev-sarj-unitesi", "baslik": "ZS EV şarj sorunları", "parca": "Dahili şarj cihazı / şarj kapağı",
+        "belirtiler": "Araç şarj almaz veya hızlı şarja geçmez, şarj kapağı takılır; ağır durumda araç çalışmayabilir.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null, "motorlar": ["zs-ev"], "sanziman": null,
+        "not": "Bayi kontrolü ve yazılım/kontrol ünitesi güncellemesi gerekebilir.",
+        "kaynaklar": [
+          "https://www.whocanfixmycar.com/advice/common-problems-with-the-mg-zs",
+          "https://www.fiches-auto.fr/fiabilite-mg/fiabilite-732-pannes-mg-zs.php"
+        ]
+      },
+      {
+        "id": "ev-12v-aku", "baslik": "ZS EV 12V yardımcı akünün aniden bitmesi", "parca": "12V akü",
+        "belirtiler": "Kapı veya bagaj açılınca düşük akü uyarısı çıkar; bazen hiç uyarı vermeden akü boşalır ve araç çalışmaz.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null, "motorlar": ["zs-ev"], "sanziman": null,
+        "not": "Garanti süresi civarında veya sonrasında bildiriliyor; değişim basit.",
+        "kaynaklar": [
+          "https://www.mgevs.com/threads/mg-zs-ev-12v-battery.19742/page-2",
+          "https://www.fiches-auto.fr/fiabilite-mg/fiabilite-732-pannes-mg-zs.php"
+        ]
+      },
+      {
+        "id": "lastik-basinc-sensoru", "baslik": "Lastik basınç sensörü (TPMS) uyarıları", "parca": "TPMS sensörleri",
+        "belirtiler": "Basınçlar doğru olduğu halde uyarı lambası yanar, rastgele TPMS arıza mesajı çıkar, sensörler bir kopup bir geri gelir.",
+        "km": null, "ciddiyet": "dusuk", "maliyetTl": null, "motorlar": "hepsi", "sanziman": null,
+        "not": "Sıfırlama ile geçebilir, olmazsa sensör değişimi gerekir.",
+        "kaynaklar": [
+          "https://www.whocanfixmycar.com/advice/common-problems-with-the-mg-zs",
+          "https://www.fiches-auto.fr/fiabilite-mg/fiabilite-732-pannes-mg-zs.php"
+        ]
+      },
+      {
+        "id": "on-takim-sesleri", "baslik": "Ön süspansiyondan ses ve çabuk aşınma", "parca": "Ön süspansiyon (burç, rotil, amortisör)",
+        "belirtiler": "Ön taraftan sürtme, tıkırtı veya gıcırtı sesi gelir; lastikler düzensiz aşınır.",
+        "km": null, "ciddiyet": "dusuk", "maliyetTl": null, "motorlar": "hepsi", "sanziman": null,
+        "not": null,
+        "kaynaklar": [
+          "https://www.whocanfixmycar.com/advice/common-problems-with-the-mg-zs",
+          "https://www.fiches-auto.fr/fiabilite-mg/fiabilite-732-pannes-mg-zs.php"
+        ]
+      }
+    ]
+  }]
+}

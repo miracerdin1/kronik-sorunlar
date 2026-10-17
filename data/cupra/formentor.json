@@ -1,0 +1,75 @@
+{
+  "marka": "Cupra", "markaSlug": "cupra", "model": "Formentor", "modelSlug": "formentor",
+  "nesiller": [{
+    "slug": "formentor-1", "ad": "Formentor (KM)", "yillar": [2020, 2026], "not": null,
+    "motorlar": [
+      {"id": "1-5-etsi", "ad": "1.5 eTSI 150 PS DSG", "yakit": "benzin"},
+      {"id": "2-0-tsi", "ad": "2.0 TSI 245/310 PS 4Drive DSG", "yakit": "benzin"},
+      {"id": "1-4-e-hybrid", "ad": "1.4 TSI e-Hybrid 204/245 PS", "yakit": "hibrit"}
+    ],
+    "sorunlar": [
+      {
+        "id": "multimedya-donma", "baslik": "Multimedya ekranı donuyor, kararıyor veya yeniden başlıyor", "parca": "Bilgi-eğlence sistemi (yazılım)",
+        "belirtiler": "Dokunmatik ekran takılır, kısa süre kararır ya da kendiliğinden resetlenir; yazılım güncellemesinden sonra bile tekrarlayabilir.",
+        "km": null, "ciddiyet": "dusuk", "maliyetTl": null, "motorlar": "hepsi",
+        "not": "Yetkili serviste güncel yazılım yüklenmesi genellikle işe yarar.",
+        "kaynaklar": [
+          "https://www.whatcar.com/cupra/formentor/estate/used-review/n25335/reliability",
+          "https://www.seatcupra.net/forums/resources/cupra-formentor-buyers-guide.115/updates",
+          "https://au7o.io/known-issues/cupra-formentor"
+        ]
+      },
+      {
+        "id": "dsg-sarsinti-hata", "baslik": "DSG şanzımanda düşük hızda sarsıntı ve hata mesajları", "parca": "DSG çift kavramalı şanzıman",
+        "belirtiler": "Düşük hızda tereddüt ve sarsıntılı geçişler; bazı araçlarda şanzıman arıza uyarısı ve acil moda geçme görülebilir.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null, "motorlar": "hepsi",
+        "sanziman": "6/7 ileri DSG otomatik",
+        "not": "What Car uzun dönem testindeki e-Hybrid'de şanzıman hata mesajı ve aracın hareketsiz kalması bildirilmiş.",
+        "kaynaklar": [
+          "https://www.seatcupra.net/forums/resources/cupra-formentor-buyers-guide.115/updates",
+          "https://www.whatcar.com/cupra/formentor/estate/used-review/n25335/reliability",
+          "https://au7o.io/known-issues/cupra-formentor"
+        ]
+      },
+      {
+        "id": "elektrik-uyari-surucu-destek", "baslik": "Elektronik arızalar, şerit takip/SOS ve park sensörü uyarıları", "parca": "Elektronik modüller ve sürücü destek sistemleri",
+        "belirtiler": "Gösterge panelinde şerit takip, acil çağrı (SOS), park sensörü veya çarpışma önleme arıza uyarıları çıkar; sistemler geçici devre dışı kalır.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null, "motorlar": "hepsi",
+        "not": "Bir kısmı yazılım güncellemesiyle giderilmiş; Türkiye'de Şikayetvar'da yeni araçlarda tekrarlayan elektrik arıza şikayetleri var.",
+        "kaynaklar": [
+          "https://www.whatcar.com/cupra/formentor/estate/used-review/n25335/reliability",
+          "https://www.sikayetvar.com/cupra/araba",
+          "https://au7o.io/known-issues/cupra-formentor"
+        ]
+      },
+      {
+        "id": "12v-aku-bosalma", "baslik": "Akü kısa mesafe veya uzun park sonrası boşalıyor", "parca": "12V akü / elektrik beslemesi",
+        "belirtiler": "Araç birkaç gün park edildikten ya da kısa yolculuklardan sonra çalışmıyor, aküsü boşalmış oluyor.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null, "motorlar": "hepsi",
+        "not": "e-Hybrid'de bagajdaki 12V akünün park halinde boşaldığı bildirilmiş; akıllı şarj cihazı ve yazılım kontrolü önerilir.",
+        "kaynaklar": [
+          "https://www.seatcupra.net/forums/resources/cupra-formentor-buyers-guide.115/updates",
+          "https://au7o.io/known-issues/cupra-formentor"
+        ]
+      },
+      {
+        "id": "sarj-kapagi-ehybrid", "baslik": "e-Hybrid şarj kapağı/soketi arızaları", "parca": "Şarj portu kapağı aktüatörü",
+        "belirtiler": "Şarj kapağı açılmıyor veya kilitlenmiyor, soğukta pim donuyor; bazı araçlarda şarj başlamıyor.",
+        "km": null, "ciddiyet": "dusuk", "maliyetTl": null, "motorlar": ["1-4-e-hybrid"],
+        "kaynaklar": [
+          "https://www.whatcar.com/cupra/formentor/estate/used-review/n25335/reliability",
+          "https://au7o.io/known-issues/cupra-formentor"
+        ]
+      },
+      {
+        "id": "ic-trim-gicirti", "baslik": "Kapı ve torpido çevresinde gıcırtı/titreşim sesleri", "parca": "İç trim, kapı döşemesi",
+        "belirtiler": "Torpido ve kapı döşemelerinden bozuk yolda gıcırtı ve takırtı sesi gelir; bazı araçlarda kapı trim sesi cam mekanizması işleminden sonra da sürmüştür.",
+        "km": null, "ciddiyet": "dusuk", "maliyetTl": null, "motorlar": "hepsi",
+        "kaynaklar": [
+          "https://www.seatcupra.net/forums/resources/cupra-formentor-buyers-guide.115/updates",
+          "https://www.sikayetvar.com/cupra/araba"
+        ]
+      }
+    ]
+  }]
+}
