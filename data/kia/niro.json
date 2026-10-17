@@ -1,0 +1,123 @@
+{
+  "marka": "Kia",
+  "markaSlug": "kia",
+  "model": "Niro",
+  "modelSlug": "niro",
+  "nesiller": [
+    {
+      "slug": "niro-de",
+      "ad": "Niro (DE)",
+      "yillar": [
+        2016,
+        2022
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-6-gdi-hybrid",
+          "ad": "1.6 GDI Hybrid",
+          "yakit": "hibrit"
+        },
+        {
+          "id": "e-niro-64-kwh",
+          "ad": "e-Niro 64 kWh (204 PS)",
+          "yakit": "elektrik"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dct-kavrama-titreme",
+          "baslik": "Çift kavramalı şanzımanda düşük hızda titreme ve sarsıntı",
+          "parca": "6 ileri DCT şanzıman (kavrama / kavrama aktüatörü)",
+          "belirtiler": "Şehir içi düşük hızda ve kalkışta sarsıntı, titreme veya sürtme hissi, gaz tepkisinde gecikme. Bazı araçlarda hibrit sistem uyarısı da yanar.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-gdi-hybrid"
+          ],
+          "sanziman": "6 ileri DCT otomatik",
+          "not": "Bazı vakalarda yazılım güncellemesi işe yarıyor; kavrama değişimi garanti dışında pahalı.",
+          "kaynaklar": [
+            "https://minbilkoll.se/vanliga-fel/kia/niro-hybrid/",
+            "https://enginepatrol.com/kia-niro-common-problems/",
+            "https://www.carcomplaints.com/Kia/Niro/2018/engine/engine.shtml"
+          ]
+        },
+        {
+          "id": "egzoz-isi-esanjoru-sogutma-suyu-kaybi",
+          "baslik": "Egzoz ısı geri kazanım eşanjöründen soğutma suyu kaybı",
+          "parca": "Egzoz ısı geri kazanım (EHRS) eşanjörü",
+          "belirtiler": "Soğutma suyu seviyesi düşer, egzozdan beyaz duman çıkabilir, kalorifer zayıflar, motor arıza ışığı yanar ve aşırı ısınma görülebilir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-gdi-hybrid"
+          ],
+          "sanziman": null,
+          "not": "Daha çok 2017-2019 üretimlerde bildiriliyor.",
+          "kaynaklar": [
+            "https://enginepatrol.com/kia-niro-common-problems/",
+            "https://www.carcomplaints.com/Kia/Niro/2018/engine/engine.shtml",
+            "https://www.fiches-auto.fr/fiabilite-kia/fiabilite-565-pannes-kia-niro.php"
+          ]
+        },
+        {
+          "id": "12v-aku-bosalmasi",
+          "baslik": "12 V yardımcı akünün erken boşalması",
+          "parca": "12 V akü",
+          "belirtiler": "Araç kilit açıldığında uyanmaz veya hazır moduna geçmez, ekran kararır, bekleme sonrası çalışmama ve elektrik uyarıları görülür.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": null,
+          "not": "Hibritte lityum iyon 12 V modül pahalı olabiliyor; e-Niro'da kısa mesafe ve akü yaşı belirleyici.",
+          "kaynaklar": [
+            "https://enginepatrol.com/kia-niro-common-problems/",
+            "https://minbilkoll.se/vanliga-fel/kia/niro-hybrid/",
+            "https://recharged.com/articles/2020-kia-niro-ev-problems-and-fixes",
+            "https://minbilkoll.se/vanliga-fel/kia/e-niro-64/"
+          ]
+        },
+        {
+          "id": "dis-kapi-kolu-kopmasi",
+          "baslik": "Dış kapı kolunun kırılması veya sökülmesi",
+          "parca": "Dış kapı kolu",
+          "belirtiler": "Kol kapağı kırılır, kol gevşer ve tıkırdar, sonunda kapıdan ayrılıp çalışmaz hale gelir; anahtarsız giriş düğmesi düşebilir.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": null,
+          "not": "En çok 2017-2018 üretimlerde görülüyor.",
+          "kaynaklar": [
+            "https://enginepatrol.com/kia-niro-common-problems/",
+            "https://www.carcomplaints.com/Kia/Niro/",
+            "https://rerev.com/years-to-avoid/vehicles/kia-niro/"
+          ]
+        },
+        {
+          "id": "e-niro-sarj-sorunlari",
+          "baslik": "e-Niro'da şarj cihazı ve AC şarj portu arızaları",
+          "parca": "Dahili şarj cihazı / AC şarj portu",
+          "belirtiler": "Şarj hiç başlamaz veya yarıda kesilir, soket takılı kalır, hata koduyla şarj durur.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "e-niro-64-kwh"
+          ],
+          "sanziman": null,
+          "not": "Fransız veride 204 PS e-Niro'da en sık bildirilen arıza grubu şarj cihazı; bazı şarj sorunları ayar veya istasyon kaynaklı.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-kia/fiabilite-565-pannes-kia-niro.php",
+            "https://minbilkoll.se/vanliga-fel/kia/e-niro-64/",
+            "https://recharged.com/articles/2020-kia-niro-ev-problems-and-fixes"
+          ]
+        }
+      ]
+    }
+  ]
+}

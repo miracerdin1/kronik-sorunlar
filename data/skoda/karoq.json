@@ -1,0 +1,114 @@
+{
+  "marka": "Škoda",
+  "markaSlug": "skoda",
+  "model": "Karoq",
+  "modelSlug": "karoq",
+  "nesiller": [
+    {
+      "slug": "karoq-1",
+      "ad": "Karoq (NU)",
+      "yillar": [
+        2017,
+        2026
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-0-tsi",
+          "ad": "1.0 TSI 110 PS",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-5-tsi",
+          "ad": "1.5 TSI 150 PS",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-tdi",
+          "ad": "1.6 TDI 115 PS",
+          "yakit": "dizel"
+        },
+        {
+          "id": "2-0-tdi-150",
+          "ad": "2.0 TDI 150 PS",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dsg-kalkista-sarsinti",
+          "baslik": "7 ileri DSG'de kalkışta sarsıntı ve vites arama",
+          "parca": "DSG (DQ200 kuru kavrama) şanzıman / mekatronik",
+          "belirtiler": "Soğukken ve dur-kalkta kalkış anında sarsıntı, vites arama, kasisli veya kaygan zeminde sert düşürme. Bazı sahiplerde kavrama arızası da görülmüş.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-0-tsi",
+            "1-5-tsi",
+            "1-6-tdi"
+          ],
+          "sanziman": "7 ileri DSG (kuru kavrama)",
+          "not": "Bir kısmı çift kavramalı yapının doğal davranışı sayılıyor; belirgin sert vuruntu, gecikme veya uyarı lambasında servis gerekir.",
+          "kaynaklar": [
+            "https://www.karoqforum.de/threads/dsg-probleme.2213/",
+            "https://carwiki.de/?p=48057",
+            "https://automobilsalon-bellemann.de/news/skoda-karoq-probleme-schwachstellen-tuev/",
+            "https://gebrauchtwagenberater.de/skoda-karoq-probleme-kaufberatung/",
+            "https://www.fiches-auto.fr/fiabilite-skoda/fiabilite-621-pannes-skoda-karoq.php"
+          ]
+        },
+        {
+          "id": "1-5-tsi-manuel-birinci-vites-sarsinti",
+          "baslik": "1.5 TSI manuelde düşük hızda ve birinci viteste sarsıntı",
+          "parca": "Motor yazılımı / manuel şanzıman",
+          "belirtiler": "Soğuk çalıştırma sonrası birinci viteste ve çok düşük hızda sarsılma, rölantide dengesizlik; bazı araçlarda vites yükünde tıkırtı.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-tsi"
+          ],
+          "sanziman": "6 ileri manuel",
+          "not": "Yazılım güncellemesiyle büyük ölçüde azaldığı bildiriliyor.",
+          "kaynaklar": [
+            "https://gebrauchtwagenberater.de/skoda-karoq-probleme-kaufberatung/",
+            "https://www.fiches-auto.fr/fiabilite-skoda/fiabilite-621-pannes-skoda-karoq.php"
+          ]
+        },
+        {
+          "id": "surucu-destek-sensor-arizalari",
+          "baslik": "Sürücü destek sistemlerinde (radar, kamera, ACC) arızalar",
+          "parca": "Ön radar / kamera / yardımcı sensörler",
+          "belirtiler": "Adaptif hız sabitleyici ve şerit takip uyarıları, kör nokta ve park sensörü hata mesajları; sensör kirlenmesi, yazılım eskimesi veya cam değişiminden sonra kamera kalibrasyonu yapılmaması nedeniyle devre dışı kalma.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Çoğu durumda sensör temizliği, yazılım güncellemesi veya yeniden kalibrasyonla çözülüyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-skoda/fiabilite-621-pannes-skoda-karoq.php",
+            "https://automobilsalon-bellemann.de/news/skoda-karoq-probleme-schwachstellen-tuev/"
+          ]
+        },
+        {
+          "id": "haldex-4x4-yag-pompa",
+          "baslik": "4x4 Haldex kavramasında yağ çamuru ve devre dışı kalma",
+          "parca": "Haldex arka diferansiyel kavraması ve ön şarj pompası",
+          "belirtiler": "Arka tekerleklere tahrik gitmemesi, kalkışta ön tekerleklerin patinaj yapması. Haldex yağı değiştirilmezse pompa çamurdan etkileniyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-0-tdi-150"
+          ],
+          "not": "Satın alındıktan sonra Haldex yağı ve filtresinin değiştirilmesi öneriliyor; üretici bakım planında genelde yer vermiyor.",
+          "kaynaklar": [
+            "https://gebrauchtwagenberater.de/skoda-karoq-probleme-kaufberatung/",
+            "https://what-breaks.com/skoda/karoq-nu/"
+          ]
+        }
+      ]
+    }
+  ]
+}

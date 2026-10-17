@@ -1,0 +1,77 @@
+{
+  "marka": "Nissan",
+  "markaSlug": "nissan",
+  "model": "Navara",
+  "modelSlug": "navara",
+  "nesiller": [
+    {
+      "slug": "navara-d23",
+      "ad": "Navara (D23 / NP300)",
+      "yillar": [
+        2014,
+        2021
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "2-3-dci-160",
+          "ad": "2.3 dCi 160 HP",
+          "yakit": "dizel"
+        },
+        {
+          "id": "2-3-dci-190",
+          "ad": "2.3 dCi 190 HP (çift turbo)",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "arka-suspansiyon-coken",
+          "baslik": "Arka helezon yaylı süspansiyon yük altında çöküyor",
+          "parca": "Arka helezon yay ve amortisörler",
+          "belirtiler": "Yüklü ya da çekme yapılırken arka kısım belirgin şekilde çöker, yaylar dibe vurur, arka taraf kontrolsüz ve salınımlı hissedilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Nissan 2016 sonrası (Series II) sert yay ve ek amortisör/rebound damper ile kısmen iyileştirme yaptı; sorun tamamen bitmedi.",
+          "kaynaklar": [
+            "https://www.4x4australia.com.au/news/nissan-navara-to-address-suspension-issues",
+            "https://unsealed4x4.com.au/can-nissan-rescue-navara-mkii/",
+            "https://australiancar.reviews/?p=47563"
+          ]
+        },
+        {
+          "id": "turbo-arizasi-sizinti",
+          "baslik": "Turbo arızası ve turbo bağlantı hortumundan sızıntı",
+          "parca": "Turbo ve turbo hortum/yağ borusu",
+          "belirtiler": "Güç kaybı, ivmelenmede düzensizlik, sıcak motora yağ damlayıp duman yapması; bazı araçlarda turbonun değiştirilmesi gerekiyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.thestalkingdirectory.co.uk/threads/nissan-navara-reliability.276136/post-2850691",
+            "https://carbuyer.co.uk/nissan/navara/owner-reviews",
+            "https://www.productreview.com.au/listings/nissan-navara-d23-st-x-4x2-dual-cab-pick-up-at"
+          ]
+        },
+        {
+          "id": "dpf-tikanma-rejenerasyon",
+          "baslik": "DPF tıkanması ve rejenerasyon sorunları",
+          "parca": "Dizel partikül filtresi (DPF) ve sensörleri",
+          "belirtiler": "DPF uyarı lambası erken yanar, sönüp tekrar yanabilir; araç güç kısıtlama (limp) moduna girebilir, sık rejenerasyon nedeniyle servis ziyareti gerekir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://carwiki.de/nissan-navara-probleme",
+            "https://www.thestalkingdirectory.co.uk/threads/nissan-navara-reliability.276136/post-2850691",
+            "https://carbuyer.co.uk/nissan/navara/owner-reviews"
+          ]
+        }
+      ]
+    }
+  ]
+}

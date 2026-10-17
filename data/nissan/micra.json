@@ -1,0 +1,51 @@
+{
+  "marka": "Nissan", "markaSlug": "nissan", "model": "Micra", "modelSlug": "micra",
+  "nesiller": [{
+    "slug": "micra-k14", "ad": "Micra (K14)", "yillar": [2017, 2023], "not": null,
+    "motorlar": [
+      {"id": "0-9-ig-t", "ad": "0.9 IG-T", "yakit": "benzin"},
+      {"id": "1-0-ig-t", "ad": "1.0 IG-T", "yakit": "benzin"},
+      {"id": "1-5-dci", "ad": "1.5 dCi", "yakit": "dizel"}
+    ],
+    "sorunlar": [
+      {
+        "id": "dpf-tikanma-yag-seyrelmesi", "baslik": "DPF tıkanması ve yağın yakıtla seyrelmesi", "parca": "Dizel partikül filtresi (DPF)",
+        "belirtiler": "Ağırlıklı şehir içi kullanımda filtre kurumla tıkanır. Yenileme (rejenerasyon) yarıda kesilirse yakıt motor yağına karışır, yağ seviyesi zamanla yükselir ve motora zarar verebilir.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["1-5-dci"],
+        "not": "Yenileme sırasında motoru kapatmamak ve ara sıra uzun yolda sürmek riski azaltır; yağ seviyesini kontrol ettirin.",
+        "kaynaklar": [
+          "https://www.rac.co.uk/drive/car-reviews/nissan/micra/micra-2017-2023/",
+          "https://whatcar.com/nissan/micra/hatchback/used-review/n950/advice",
+          "https://www.whocanfixmycar.com/advice/common-problems-with-the-nissan-micra"
+        ]
+      },
+      {
+        "id": "on-takim-salincak-burcu-yay-amortisor", "baslik": "Ön süspansiyon burçları, yay kırılması ve amortisör sızıntısı", "parca": "Ön salıncak burçları, yaylar, amortisörler",
+        "belirtiler": "Tümsek ve çukurlarda tok ses ve gıcırtı, direksiyonda boşluk; muayenede süspansiyon kusuru. Yay kırılması ve amortisör yağı sızdırması yeni kasada bilinen zayıf nokta.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "not": "TÜV verilerine göre kusurlar yaklaşık 4-5 yaştan itibaren belirgin artıyor.",
+        "kaynaklar": [
+          "https://www.autobild.de/artikel/nissan-micra-tuev-report-2026-28365155.html",
+          "https://www.autobild.de/artikel/nissan-micra-schwachstellen-maengel-staerken-28365155.html",
+          "https://gebrauchtwagenberater.de/nissan-micra-probleme",
+          "https://carwiki.de/nissan-micra-probleme"
+        ]
+      },
+      {
+        "id": "erken-yag-sizintisi", "baslik": "Erken yaşta yağ sızıntısı", "parca": "Motor/aktarma organı contaları",
+        "belirtiler": "Motor altında yağ damlaması ve yağ seviyesinde düşme; contalar ortalamadan erken sızdırmaya başlar.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "not": null,
+        "kaynaklar": [
+          "https://www.autobild.de/artikel/nissan-micra-tuev-report-2026-28365155.html",
+          "https://www.autobild.de/artikel/nissan-micra-schwachstellen-maengel-staerken-28365155.html",
+          "https://gebrauchtwagenberater.de/nissan-micra-probleme",
+          "https://carwiki.de/nissan-micra-probleme"
+        ]
+      }
+    ]
+  }]
+}

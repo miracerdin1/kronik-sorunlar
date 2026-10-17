@@ -1,0 +1,43 @@
+{
+  "marka": "Opel", "markaSlug": "opel", "model": "Crossland", "modelSlug": "crossland",
+  "nesiller": [{
+    "slug": "crossland-1", "ad": "Crossland X / Crossland (P17)", "yillar": [2017, 2024], "not": "2020-2021 makyajıyla adı Crossland oldu.",
+    "motorlar": [
+      {"id": "1-2-turbo-110", "ad": "1.2 Turbo 110 PS (PureTech)", "yakit": "benzin"},
+      {"id": "1-2-turbo-130", "ad": "1.2 Turbo 130 PS (PureTech)", "yakit": "benzin"},
+      {"id": "1-5-dizel", "ad": "1.5 BlueHDi", "yakit": "dizel"},
+      {"id": "1-6-dizel", "ad": "1.6 BlueHDi", "yakit": "dizel"}
+    ],
+    "sorunlar": [
+      {
+        "id": "islak-triger-kayisi", "baslik": "Yağda çalışan triger kayışının dağılması", "parca": "Triger (zaman) kayışı / yağ emme süzgeci",
+        "belirtiler": "Kayış yağda zamanla aşınıp parçalanır, parçacıklar yağ süzgecini tıkar. Soğuk çalıştırmada gürültü, yağ basıncı uyarı ışığı, güç kaybı ve ağır motor hasarı görülebilir.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["1-2-turbo-110", "1-2-turbo-130"],
+        "not": "Düzenli ve doğru yağ ile bakım kritik; kayışın durumu periyodik kontrol edilmeli.",
+        "kaynaklar": ["https://www.fiches-auto.fr/fiabilite-opel/fiabilite-619-pannes-opel-crossland-x.php", "https://www.whocanfixmycar.com/advice/vauxhall-crossland-common-problems", "https://carwiki.de/opel-crossland-x-probleme"]
+      },
+      {
+        "id": "yag-tuketimi-sizinti", "baslik": "Aşırı yağ tüketimi ve yağ sızıntısı", "parca": "Motor (yağ yakma / sızdırmazlık)",
+        "belirtiler": "Bakımlar arasında sık yağ eksilmesi, yağ seviyesi uyarısı; yanan yağ bujileri, sensörleri ve katalitik konvertörü kirletebilir.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-2-turbo-110", "1-2-turbo-130"],
+        "kaynaklar": ["https://www.fiches-auto.fr/fiabilite-opel/fiabilite-619-pannes-opel-crossland-x.php", "https://www.whocanfixmycar.com/advice/vauxhall-crossland-common-problems", "https://carwiki.de/opel-crossland-x-probleme"]
+      },
+      {
+        "id": "otomatik-sanziman-sarsinti", "baslik": "Otomatik şanzımanda sarsıntılı / gecikmeli vites geçişi", "parca": "Otomatik şanzıman",
+        "belirtiler": "Düşük hızda tekleme, sert veya geç vites geçişleri; bazı sürücülerde geri vites sorunu ya da yüksek vitese geçmeme.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": "hepsi", "sanziman": "6 ileri otomatik (EAT6)",
+        "kaynaklar": ["https://www.fiches-auto.fr/fiabilite-opel/fiabilite-619-pannes-opel-crossland-x.php", "https://www.whocanfixmycar.com/advice/vauxhall-crossland-common-problems", "https://carwiki.de/opel-crossland-x-probleme"]
+      },
+      {
+        "id": "el-freni-dugmesi", "baslik": "El freni kolundaki serbest bırakma düğmesi arızası", "parca": "Elle çalışan park freni kolu",
+        "belirtiler": "Kol üzerindeki düğme kırılır veya takılır, park freni tutmayabilir ya da bırakmayabilir. Çözüm genellikle kolun komple değişimidir ve orta konsolun sökülmesini gerektirir.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "kaynaklar": ["https://www.whocanfixmycar.com/advice/vauxhall-crossland-common-problems", "https://uk.haynes.com/blogs/tips-tutorials/vauxhall-crossland-common-problems-2017-present"]
+      }
+    ]
+  }]
+}

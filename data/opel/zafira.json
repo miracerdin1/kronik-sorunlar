@@ -1,0 +1,50 @@
+{
+  "marka": "Opel", "markaSlug": "opel", "model": "Zafira", "modelSlug": "zafira",
+  "nesiller": [{
+    "slug": "zafira-c", "ad": "Zafira Tourer (C)", "yillar": [2011, 2019], "not": null,
+    "motorlar": [
+      {"id": "1-4-turbo", "ad": "1.4 Turbo (120/140 PS)", "yakit": "benzin"},
+      {"id": "1-6-cdti", "ad": "1.6 CDTI", "yakit": "dizel"},
+      {"id": "2-0-cdti", "ad": "2.0 CDTI", "yakit": "dizel"}
+    ],
+    "sorunlar": [
+      {
+        "id": "1-4-turbo-zincir-uzamasi", "baslik": "1.4 Turbo triger zinciri uzaması", "parca": "Triger zinciri",
+        "belirtiler": "Soğuk çalıştırmada ve yük değişimlerinde zincir tıkırtısı, eksantrik mili konum arıza kodu. Gözden kaçarsa zincir atlayıp ciddi motor hasarına yol açabilir.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["1-4-turbo"], "sanziman": null,
+        "not": "Yağ kalitesi ve bakım aralığı zincir ömrü için belirleyici; tıkırtı varsa ölçüm yapılmalı.",
+        "kaynaklar": ["https://gebrauchtwagenberater.de/opel-zafira-c-probleme", "https://carwiki.de/opel-a14net-motor", "https://kfz-dietrich.com/blog/opel-1-4-turbo-a14net-b14-kuehlmittelverlust-turbo-diagnose/"]
+      },
+      {
+        "id": "1-4-turbo-sogutma-suyu-kaybi", "baslik": "1.4 Turbo soğutma suyu kaybı / su pompası", "parca": "Su pompası, termostat gövdesi, genleşme kabı",
+        "belirtiler": "Görünür damla olmadan antifriz eksilmesi, pompa çevresinde beyaz/pembe kalıntı. Uzun süre eksik antifrizle kullanım silindir kapağına zarar verebilir.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-4-turbo"], "sanziman": null, "not": null,
+        "kaynaklar": ["https://kfz-dietrich.com/blog/opel-1-4-turbo-a14net-b14-kuehlmittelverlust-turbo-diagnose/", "https://carwiki.de/opel-a14net-motor"]
+      },
+      {
+        "id": "1-6-cdti-zincir", "baslik": "1.6 CDTI triger zinciri zayıflığı", "parca": "Triger zinciri ve gerdirici",
+        "belirtiler": "Soğuk çalıştırmada veya araç uzun süre durduktan sonra zincir tıkırtısı; ihmal edilirse motor hasarı.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["1-6-cdti"], "sanziman": null, "not": null,
+        "kaynaklar": ["https://gebrauchtwagenberater.de/opel-zafira-c-probleme", "https://www.au7o.io/known-issues/opel-zafira?year=2016"]
+      },
+      {
+        "id": "dizel-dpf-tikanmasi", "baslik": "Dizel partikül filtresi (DPF) tıkanması", "parca": "DPF",
+        "belirtiler": "Kısa mesafe kullanımda filtre sık tıkanır; arıza lambası, güç kaybı. Dizeller kısa şehir içi kullanıma uygun değil.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-6-cdti", "2-0-cdti"], "sanziman": null, "not": null,
+        "kaynaklar": ["https://carwiki.de/opel-zafira-probleme", "https://gebrauchtwagenberater.de/opel-zafira-c-probleme"]
+      },
+      {
+        "id": "debriyaj-ve-volan", "baslik": "Debriyaj ömrü kısa / çift kütleli volan", "parca": "Debriyaj, çift kütleli volan (ZMS)",
+        "belirtiler": "Manuel şanzımanda erken debriyaj aşınması; dizellerde yüksek km'de volan kaynaklı titreşim ve gürültü.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": "hepsi", "sanziman": "manuel",
+        "not": "ADAC arıza nedenleri arasında debriyaj anılıyor.",
+        "kaynaklar": ["https://gebrauchtwagenberater.de/opel-zafira-c-probleme", "https://carwiki.de/opel-zafira-probleme"]
+      }
+    ]
+  }]
+}
