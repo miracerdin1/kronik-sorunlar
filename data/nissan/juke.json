@@ -1,0 +1,173 @@
+{
+  "marka": "Nissan",
+  "markaSlug": "nissan",
+  "model": "Juke",
+  "modelSlug": "juke",
+  "nesiller": [
+    {
+      "slug": "juke-1",
+      "ad": "Juke (F15)",
+      "yillar": [
+        2010,
+        2019
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-6",
+          "ad": "1.6 (HR16DE, 117 PS)",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-5-dci",
+          "ad": "1.5 dCi (K9K, 110 PS)",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-6-dig-t",
+          "ad": "1.6 DIG-T (MR16DDT, 190 PS)",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "cvt-sanziman-arizasi",
+          "baslik": "Xtronic CVT şanzıman arızası",
+          "parca": "CVT şanzıman",
+          "belirtiler": "Kalkışta ve orta hızlarda titreme, uğultu ya da ıslık sesi, P'den D'ye geçişte gecikme ve zaman zaman acil durum (limp) moduna geçme. Çoğu durumda tamir yerine şanzımanın komple değişmesi gerekiyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6",
+            "1-6-dig-t"
+          ],
+          "sanziman": "Xtronic CVT otomatik",
+          "not": "Üretici 'ömürlük yağ' dese de bağımsız servisler yaklaşık 50.000 km'de bir CVT yağının değiştirilmesini öneriyor. Düşük kilometrelerde arıza bildiren sahipler de var.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-nissan/fiabilite-312-pannes-nissan-juke.php",
+            "https://whatcar.com/nissan/juke/hatchback/used-review/n785/advice",
+            "https://www.cargurus.co.uk/research/Nissan-Juke-2010-mg26",
+            "https://www.dev.honestjohn.co.uk/askhj/answer/115067/the-automatic-gearbox-in-our-nissan-juke-has-failed-after-just-17-000-miles---is-this-a-common",
+            "https://www.drive.com.au/reviews/nissan-juke-used-car-review/",
+            "https://www.whocanfixmycar.com/advice/common-problems-with-the-nissan-juke"
+          ]
+        },
+        {
+          "id": "dci-enjektor-arizasi",
+          "baslik": "1.5 dCi enjektör arızaları",
+          "parca": "Dizel enjektörler",
+          "belirtiler": "Motor düşük devirde silkeleniyor, güç kaybı ve düzensiz rölanti oluyor. Bazı araçlarda enjektörün birkaç kez değişmesi gerekiyor. Enjektör contası kaçırırsa motor yağına mazot karışabiliyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "not": "Juke için fiches-auto'da 1.5 dCi'de en sık bildirilen arıza enjektörler. Delphi enjektörler yakıt kalitesine duyarlı.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-nissan/fiabilite-312-pannes-nissan-juke.php",
+            "https://www.fiches-auto.fr/avis-nissan/avis-unique-312-38090-nissan-juke-15-dci-110-ch-38000-km-2011-fap-k9k-acenta-teckna.php",
+            "https://dailydriven.ro/tr/renault-15-dci-motor-hakkinda-2470",
+            "https://www.autopartspro.co.uk/tips-advice/common-nissan-1-5-dci-engine-problems-causes-and-solutions-explained-10473"
+          ]
+        },
+        {
+          "id": "turbo-arizasi",
+          "baslik": "Turbo arızası (yağ beslemesi)",
+          "parca": "Turboşarj",
+          "belirtiler": "Güç kaybı, turbodan ıslık ya da uğultu sesi, egzozdan mavi duman. Tıkanan yağ besleme hattı turbonun yağsız kalmasına yol açabiliyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci",
+            "1-6-dig-t"
+          ],
+          "not": "Yağ değişimlerini aksatmamak riski azaltıyor.",
+          "kaynaklar": [
+            "https://whatcar.com/nissan/juke/hatchback/used-review/n785/advice",
+            "https://www.whocanfixmycar.com/advice/common-problems-with-the-nissan-juke",
+            "https://parkers.co.uk/nissan/juke/suv-2010/used-review",
+            "https://www.fiches-auto.fr/fiabilite-nissan/fiabilite-312-pannes-nissan-juke.php",
+            "https://rerev.com/years-to-avoid/vehicles/nissan-juke/"
+          ]
+        },
+        {
+          "id": "dig-t-triger-zinciri",
+          "baslik": "1.6 DIG-T triger zinciri uzaması",
+          "parca": "Triger zinciri ve gergisi",
+          "belirtiler": "Soğuk çalıştırmada motordan tıkırtı ya da şaklama sesi geliyor ve motor arıza lambası yanıyor. Müdahale edilmezse motor ciddi hasar görebiliyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-dig-t"
+          ],
+          "not": "Bu sorun ABD'deki 1.6 turbolu Juke'larda geri çağırmaya konu oldu. Avrupa'da benzer bir çağrı yapılmadı.",
+          "kaynaklar": [
+            "https://parkers.co.uk/nissan/juke/suv-2010/used-review",
+            "https://www.cargurus.co.uk/research/Nissan-Juke-2010-mg26",
+            "https://www.drive.com.au/reviews/nissan-juke-used-car-review/",
+            "https://rerev.com/years-to-avoid/vehicles/nissan-juke/"
+          ]
+        },
+        {
+          "id": "dpf-egr-tikanmasi",
+          "baslik": "DPF ve EGR tıkanması",
+          "parca": "Partikül filtresi (DPF) ve EGR valfi",
+          "belirtiler": "Ağırlıklı olarak şehir içinde kullanılan araçlarda performans düşüyor, uyarı lambası yanıyor ve motor düzensiz çalışıyor. Filtre kendini temizleyemediği için tıkanıyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "not": "Kısa mesafede kullanılacak bir araç için benzinli versiyon öneriliyor.",
+          "kaynaklar": [
+            "https://whatcar.com/nissan/juke/hatchback/used-review/n785/advice",
+            "https://parkers.co.uk/nissan/juke/suv-2010/used-review",
+            "https://www.fiches-auto.fr/fiabilite-nissan/fiabilite-312-pannes-nissan-juke.php",
+            "https://www.autopartspro.co.uk/tips-advice/common-nissan-1-5-dci-engine-problems-causes-and-solutions-explained-10473"
+          ]
+        },
+        {
+          "id": "erken-debriyaj-asinmasi",
+          "baslik": "Erken debriyaj aşınması",
+          "parca": "Debriyaj seti ve debriyaj merkezi",
+          "belirtiler": "Kalkışta titreme, debriyajın kaçırması, kavrama noktasının yükselmesi ve vites geçişinde zorlanma. Debriyaj merkezi arızalanırsa pedal yapışıyor ya da dibe gidiyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6",
+            "1-5-dci"
+          ],
+          "sanziman": "Manuel",
+          "kaynaklar": [
+            "https://whatcar.com/nissan/juke/hatchback/used-review/n785/advice",
+            "https://www.cargurus.co.uk/research/Nissan-Juke-2010-mg26",
+            "https://www.whocanfixmycar.com/advice/common-problems-with-the-nissan-juke",
+            "https://parkers.co.uk/nissan/juke/suv-2010/used-review"
+          ]
+        },
+        {
+          "id": "aku-bosalmasi-calistirma",
+          "baslik": "Akü boşalması ve anahtarsız çalıştırma sorunları",
+          "parca": "Akü, elektrik sistemi, start butonu",
+          "belirtiler": "Araç birkaç gün durunca akü boşalıyor. Start butonuna defalarca basıldığı hâlde motor çalışmayabiliyor; nedeni fren pedalı müşiri ya da anahtar pili olabiliyor. Ayrıca rastgele uyarı lambaları yanabiliyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.cargurus.co.uk/research/Nissan-Juke-2010-mg26",
+            "https://rerev.com/years-to-avoid/vehicles/nissan-juke/",
+            "https://whatcar.com/nissan/juke/hatchback/used-review/n785/advice",
+            "https://www.fiches-auto.fr/fiabilite-nissan/fiabilite-312-pannes-nissan-juke.php"
+          ]
+        }
+      ]
+    }
+  ]
+}

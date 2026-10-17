@@ -1,0 +1,168 @@
+{
+  "marka": "Kia",
+  "markaSlug": "kia",
+  "model": "Ceed",
+  "modelSlug": "ceed",
+  "nesiller": [
+    {
+      "slug": "ceed-3",
+      "ad": "Ceed (CD)",
+      "yillar": [
+        2018,
+        2026
+      ],
+      "not": "Hatchback ve Sportswagon (SW) dahil üçüncü nesil.",
+      "motorlar": [
+        {
+          "id": "1-0-t-gdi",
+          "ad": "1.0 T-GDI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-4-mpi",
+          "ad": "1.4 MPi",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-5-mpi",
+          "ad": "1.5 MPi",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-4-t-gdi",
+          "ad": "1.4 T-GDI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-5-t-gdi",
+          "ad": "1.5 T-GDI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-crdi",
+          "ad": "1.6 CRDi",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dct-kalkis-sarsinti-debriyaj-asinmasi",
+          "baslik": "DCT şanzımanda kalkışta sarsıntı ve debriyaj aşınması",
+          "parca": "7 ileri çift kavramalı şanzıman (kuru kavrama)",
+          "belirtiler": "Düşük hızda ve dur-kalk trafikte kalkışta tereddüt, silkeleme ya da takılarak vites geçişi; durup kalkarken vuruntu sesi. Yoğun şehir kullanımında kavrama paketi erken yıpranabiliyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-0-t-gdi",
+            "1-4-t-gdi",
+            "1-5-t-gdi",
+            "1-6-crdi"
+          ],
+          "sanziman": "7 ileri DCT otomatik",
+          "not": "Auto Bild, kavrama paketlerinin yaklaşık 130.000 km'den sonra daha sık değiştiğini belirtiyor. Servisler bazı vuruntu seslerini DCT için normal kabul edebiliyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-kia/fiabilite-640-pannes-kia-ceed-iii.php",
+            "https://www.autobild.de/artikel/kia-ceed-cd-gebrauchtwagen-test-28545895.html",
+            "https://gebrauchtwagenberater.de/kia-ceed-schwachstellen-probleme-kaufberatung/",
+            "https://www.sikayetvar.com/en/kia-us/kia-ceed-2019-14-t-gdi-140-dct-knocking-sound-at-the-start-and-stop"
+          ]
+        },
+        {
+          "id": "tandem-pompa-fren-destegi",
+          "baslik": "Tandem (vakum) pompa süzgeci nedeniyle fren desteği kaybı",
+          "parca": "Tandem pompa / vakum pompası",
+          "belirtiler": "Pompa içindeki süzgeç filtrenin tıkanması fren servosuna yeterli vakum gitmemesine yol açabiliyor; fren pedalı sertleşir ve fren desteği azalır.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-crdi"
+          ],
+          "not": "Üretici geri çağırması: Ekim 2018 - Ekim 2020 arası üretilen 1.6 CRDi araçlarda süzgeç sökülüyor, gerekirse pompa ve tahrik kayışı değiştiriliyor. Aracın geri çağırma kapsamında olup olmadığı yetkili serviste şasi numarasıyla kontrol edilmeli.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-kia/fiabilite-640-pannes-kia-ceed-iii.php",
+            "https://whatcar.com/kia/ceed/estate/used-review/n26760/reliability",
+            "https://www.oeamtc.at/rueckrufaktionen/kia-ceed-sportage-stonic-probleme-mit-der-tandempumpe-63875399",
+            "https://gebrauchtwagenberater.de/kia-ceed-schwachstellen-probleme-kaufberatung/"
+          ]
+        },
+        {
+          "id": "aku-start-stop",
+          "baslik": "Zayıflayan akü ve çalışmayan start-stop",
+          "parca": "Akü / start-stop (ISG) sistemi",
+          "belirtiler": "Start-stop sistemi devreye girmiyor ya da düzensiz çalışıyor; akü kapasitesi düştüğünde marş güçlüğü ve çalışmama görülebiliyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Start-stop arızasının sık nedeni yorgun akü; önce akü testi yaptırılmalı.",
+          "kaynaklar": [
+            "https://www.autobild.de/artikel/kia-ceed-cd-gebrauchtwagen-test-28545895.html",
+            "https://www.fiches-auto.fr/fiabilite-kia/fiabilite-640-pannes-kia-ceed-iii.php",
+            "https://whatcar.com/kia/ceed/estate/used-review/n26760/reliability"
+          ]
+        },
+        {
+          "id": "fren-diski-erken-asinma",
+          "baslik": "Fren disklerinin erken aşınması",
+          "parca": "Fren diskleri ve balatalar",
+          "belirtiler": "Fren disklerinde erken aşınma ve paslanma; frenlemede titreme veya ses. Muayenelerde disk kusuru ortalamadan sık çıkıyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.autobild.de/artikel/kia-ceed-cd-gebrauchtwagen-test-28545895.html",
+            "https://www.autobild.de/artikel/kia-ceed-gebraucht-tuev-report-2026-28259965.html",
+            "https://gebrauchtwagenberater.de/kia-ceed-schwachstellen-probleme-kaufberatung/",
+            "https://www.fiches-auto.fr/fiabilite-kia/fiabilite-640-pannes-kia-ceed-iii.php"
+          ]
+        },
+        {
+          "id": "elektrikli-el-freni-auto-hold",
+          "baslik": "Elektrikli el freni ve Auto Hold aksaklıkları",
+          "parca": "Elektrikli park freni (EPB) / Auto Hold",
+          "belirtiler": "Auto Hold özelliği zaman zaman devreden çıkıyor ya da düzgün tutmuyor; elektrikli park freni bazen çözülmüyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Yalnızca elektrikli park freni bulunan donanımlarda geçerli.",
+          "kaynaklar": [
+            "https://www.autobild.de/artikel/kia-ceed-cd-gebrauchtwagen-test-28545895.html",
+            "https://gebrauchtwagenberater.de/kia-ceed-schwachstellen-probleme-kaufberatung/"
+          ]
+        },
+        {
+          "id": "multimedya-telefon-baglantisi",
+          "baslik": "Multimedya ekranı ve telefon bağlantısı kopmaları",
+          "parca": "Multimedya sistemi (Bluetooth / Android Auto / Apple CarPlay)",
+          "belirtiler": "Telefon bağlantısı sürüş sırasında sık sık kopuyor; ekran sıcak havada kararabiliyor ya da donabiliyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Çoğunlukla yazılım güncellemesiyle giderilmeye çalışılıyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-kia/fiabilite-640-pannes-kia-ceed-iii.php",
+            "https://whatcar.com/kia/ceed/estate/used-review/n26760/reliability"
+          ]
+        },
+        {
+          "id": "yakit-kapagi",
+          "baslik": "Yakıt depo kapağının düzgün kapanmaması",
+          "parca": "Yakıt depo kapağı mekanizması",
+          "belirtiler": "Yakıt kapağı mıknatısı yetersiz kaldığı için kapak tam kapanmıyor ya da açık kalıyor; parça garanti kapsamında değiştirilebiliyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-kia/fiabilite-640-pannes-kia-ceed-iii.php"
+          ]
+        }
+      ]
+    }
+  ]
+}

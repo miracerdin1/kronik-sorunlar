@@ -180,6 +180,121 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "astra-l",
+      "ad": "Astra (L)",
+      "yillar": [
+        2022,
+        2026
+      ],
+      "not": "Peugeot 308 III ile aynı platform ve motor/şanzıman ailesini paylaşır; motor kaynaklı arızalarda 308 III verileri de dikkate alındı.",
+      "motorlar": [
+        {
+          "id": "1-2-turbo-130",
+          "ad": "1.2 Turbo 130 (PureTech)",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-5-dizel-130",
+          "ad": "1.5 Dizel 130",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "yagli-triger-kayisi-asinmasi",
+          "baslik": "Yağ içinde çalışan triger kayışının erken aşınması",
+          "parca": "Triger kayışı / yağ pompası süzgeci",
+          "belirtiler": "Kayıştan kopan parçalar yağ devresini tıkayabiliyor; gösterge panelinde 'motor yağ basıncı düşük' ve 'motoru durdurun' uyarıları çıkabiliyor, fren desteğinde azalma ya da kayış kopmasına bağlı motor hasarı görülebiliyor.",
+          "km": "50.000-70.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-turbo-130"
+          ],
+          "sanziman": "8 ileri tork konvertörlü otomatik (EAT8)",
+          "not": "Stellantis yağlı kayışlı 1.2 PureTech motorlar için düzenli bakım şartıyla 10 yıl / 175.000 km'ye kadar uzatılmış kapsam sunuyor. Kayış durumu her bakımda kontrol ettirilmeli.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/opel/erken-triger-kayisi-arizasi-ve-garanti-ihmaline-karsi-ihtar",
+            "https://www.autodoc.co.uk/info/problems-with-the-opel-astra-l",
+            "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-695-pannes-peugeot-308.php",
+            "https://forum.donanimhaber.com/308-1-2-gt-veya-astra-1-2t-gs--159866498"
+          ]
+        },
+        {
+          "id": "1-2-puretech-yag-eksiltme",
+          "baslik": "1.2 benzinli motorda yağ eksiltme",
+          "parca": "Motor (segmanlar / silindir yüzeyleri)",
+          "belirtiler": "Bakım aralığında motor yağı belirgin şekilde azalıyor, yağ seviyesi uyarısı yanıyor; bazı araçlarda rölantide düzensiz çalışma eşlik ediyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-turbo-130"
+          ],
+          "not": "Üreticiye göre bozulan triger kayışı kalıntılarının yağlamayı aksatması yağ tüketiminin erken belirtilerinden biri; yağ seviyesini sık kontrol etmek önerilir.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-695-pannes-peugeot-308.php",
+            "https://www.caroom.fr/blog/stellantis-propose-une-extension-de-garantie-pour-le-problematique-moteur-1-2-puretech-25285.html"
+          ]
+        },
+        {
+          "id": "1-5-dizel-eksantrik-zinciri",
+          "baslik": "1.5 dizelde eksantrik zincirinin uzaması / kopması",
+          "parca": "Eksantrik (kam mili) zinciri",
+          "belirtiler": "Özellikle soğuk çalıştırmada zincir sesi ve tıkırtı duyuluyor; ilerleyen durumda zincir kopup motor aniden stop edebiliyor ve ağır motor hasarı oluşabiliyor.",
+          "km": "100.000-150.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dizel-130"
+          ],
+          "not": "Stellantis, 2017-2023 arası üretilen 1.5 BlueHDi motorlar için 7 mm zinciri güçlendirilmiş 8 mm zincirle değiştiren geri çağırma başlattı ve motor garantisini 10 yıl / 240.000 km'ye uzattı. Ayrıca 2025 sonu-2026 başı üretimlerde devirdaim kasnağıyla ilgili ayrı bir geri çağırma var.",
+          "kaynaklar": [
+            "https://www.autodoc.co.uk/info/problems-with-the-opel-astra-l",
+            "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-695-pannes-peugeot-308.php",
+            "https://www.fiches-auto.fr/articles-auto/rappels-constructeurs/s-3950-rappel-du-15-bluehdi-lie-a-la-chaine-de-distribution.php",
+            "https://latele.ch/articles/stellantis-rappelle-636-000-voitures-avec-des-moteurs-1-5-bluehdi",
+            "https://www.fiches-auto.fr/fiabilite-opel/fiabilite-704-pannes-opel-astra.php"
+          ]
+        },
+        {
+          "id": "adblue-depo-pompa-arizasi",
+          "baslik": "AdBlue deposu / pompası arızası",
+          "parca": "AdBlue (SCR) deposu, pompası ve enjektörü",
+          "belirtiler": "AdBlue sistem arızası ve motor arıza lambası yanıyor; uyarıya göre belirli km sonra motorun yeniden çalışmayacağı bildirilebiliyor. Kristalleşme pompa, seviye sensörü ve enjektörü bozabiliyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dizel-130"
+          ],
+          "not": "Stellantis bazı pazarlarda yaş ve km'ye bağlı kademeli parça katkısı uyguluyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-695-pannes-peugeot-308.php",
+            "https://j2rauto.com/rechange/stellantis-ce-qui-cloche-avec-les-reservoirs-adblue-defaillants"
+          ]
+        },
+        {
+          "id": "multimedya-ekran-yazilim-hatalari",
+          "baslik": "Multimedya ve dijital ekranlarda donma / kararma",
+          "parca": "Multimedya ünitesi ve yazılımı",
+          "belirtiler": "Ekran açılışta görüntü vermiyor ya da sürüş sırasında kararıyor, donuyor; Apple CarPlay/Android Auto bağlantısı kopuyor. Bazı araçlarda aynı anda merkezi kilit de çalışmıyor.",
+          "km": "10.000-30.000",
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Çoğunlukla yetkili serviste yazılım güncellemesiyle düzeliyor; tekrarlayan durumlarda ünite değişimi gerekebiliyor.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/opel/multimedya-ekrani-ve-kilit-sisteminde-tekrarlayan-ariza-icin-ucretsiz-yazilim-guncellemesi-talebi",
+            "https://www.sikayetvar.com/opel/multimedya-ekrani-acilmiyor-kilitler-calismiyor",
+            "https://www.autodoc.co.uk/info/problems-with-the-opel-astra-l",
+            "https://www.topgear.com/long-term-car-reviews/vauxhall/astra/report-5",
+            "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-695-pannes-peugeot-308.php"
+          ]
+        }
+      ]
     }
   ]
 }

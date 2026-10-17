@@ -37,6 +37,170 @@
           "not": "Stellantis Nisan 2024'te bu motorlar için 10 yıl / 180.000 km uzatılmış garanti açıkladı (yetkili serviste düzenli bakım şartıyla). Yalnızca üretici onaylı yağ kullanılmalı."
         }
       ]
+    },
+    {
+      "slug": "2008-2",
+      "ad": "2008 (P24, 2. nesil)",
+      "yillar": [
+        2020,
+        2026
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-2-puretech-100",
+          "ad": "1.2 PureTech 100",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-2-puretech-130",
+          "ad": "1.2 PureTech 130 EAT8",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-5-bluehdi-110",
+          "ad": "1.5 BlueHDi 110",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-5-bluehdi-130",
+          "ad": "1.5 BlueHDi 130",
+          "yakit": "dizel"
+        },
+        {
+          "id": "e-2008",
+          "ad": "e-2008 (elektrik)",
+          "yakit": "elektrik"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "puretech-yagli-triger-kayisi",
+          "baslik": "Yağ içinde çalışan triger kayışının erken yıpranması",
+          "parca": "Triger kayışı (yağ banyolu) ve yağlama sistemi",
+          "belirtiler": "Kayışta çatlak, kesik veya şişme görülür; kopan kayış parçacıkları yağ devresini tıkayarak yağ eksiltme, motor arıza lambası ve güç kaybına yol açabilir. İhmal edilirse motor hasarı ortaya çıkabilir.",
+          "km": "45.000-90.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-puretech-100",
+            "1-2-puretech-130"
+          ],
+          "not": "Stellantis eski nesil 1.2 PureTech motorlar için şartlı (yetkili serviste zamanında bakım) 10 yıl / 180.000 km uzatılmış garanti duyurdu; 2023 sonrası 3. nesil motorda zincire geçildi. Türkiye'de servislerin kayış değişimini garanti kapsamında yapmadığına dair şikayetler var.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-651-pannes-peugeot-2008-2.php",
+            "https://www.sikayetvar.com/peugeot/triger-kayisi-garanti-kapsaminda-degistirilmedi-ve-musteri-guvenligi-riske-atildi",
+            "https://www.sikayetvar.com/peugeot/garanti-kapsaminda-triger-seti-degisimi-yetkili-servis-tarafindan-reddedildi",
+            "https://www.turkiyegazetesi.com.tr/t-otomobil/arac-almadan-once-gercegini-ogrenin-12-puretech-motor-triger-sorunu-nedir-yeni-model-1762948",
+            "https://forum.donanimhaber.com/peugeot-2008-triger-kayisi-hakkinda--161406917"
+          ]
+        },
+        {
+          "id": "bluehdi-eksantrik-zinciri",
+          "baslik": "1.5 BlueHDi 7 mm eksantrik zincirinin uzaması / kopması",
+          "parca": "Eksantrik (zamanlama) zinciri",
+          "belirtiler": "Motordan alışılmadık zincir sesi ve titreşim gelir; ileri aşamada zincir çalıştırma ya da sürüş sırasında kopabilir, güç kaybı ve ağır motor hasarı oluşur.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-bluehdi-110",
+            "1-5-bluehdi-130"
+          ],
+          "not": "Yağdaki is birikiminin zinciri aşındırması nedeniyle 2017-Ocak 2023 üretimi 1.5 BlueHDi motorlar için geri çağırma (MXL) var: yazılım güncellemesi, ses analizi ile kontrol, gerekirse 8 mm zincirle ücretsiz değişim ve uzatılmış kapsam.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-651-pannes-peugeot-2008-2.php",
+            "https://car-recalls.eu/recall/peugeot-2008-2017-2023-bluehdi-failure/",
+            "https://www.peugeot.co.uk/owners/Peugeot-1-5-blue-hdi-key-information.html",
+            "https://en.ara.cat/cars/stellantis-faces-the-risk-of-another-fiasco-with-the-1-5-bluehdi-diesel-engine_1_5435759.html"
+          ]
+        },
+        {
+          "id": "adblue-depo-enjektor-arizasi",
+          "baslik": "AdBlue deposu ve üre enjektörü arızası",
+          "parca": "AdBlue (SCR) deposu, seviye sensörü ve üre enjektörü",
+          "belirtiler": "AdBlue uyarısı ve belirli kilometre sonra motorun çalışmayacağı mesajı çıkar, bazen motor arıza lambası ve beyaz duman eşlik eder. Çoğunlukla depo (entegre sensör/pompa) ya da tıkanan enjektör değişir.",
+          "km": "45.000-100.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-bluehdi-110",
+            "1-5-bluehdi-130"
+          ],
+          "not": "Ekim 2019-Eylül 2020 üretimi araçlarda enjektörün tıkanabilmesi nedeniyle geri çağırma (KEK) yapıldı.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-651-pannes-peugeot-2008-2.php",
+            "https://forum-auto.matmut.fr/forum/PEUGEOT/2008-II/TEMOIN-ADBLUE-PEUGEOT-2008-BLUEHDI/5603667/474172",
+            "https://car-recalls.eu/recall/peugeot-2008-2020-adblue-injector/amp/"
+          ]
+        },
+        {
+          "id": "direksiyon-kutusu-kolon",
+          "baslik": "Direksiyon kutusu / kolonunda boşluk ve sertleşme",
+          "parca": "Elektrikli direksiyon kutusu ve direksiyon kolonu",
+          "belirtiler": "Direksiyonda boşluk, takılma veya sertlik hissedilir, düşük hızda tıkırtı olabilir. Bazı araçlarda kolon ya da kutu değişimi gerekti.",
+          "km": "11.500-23.500",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-651-pannes-peugeot-2008-2.php",
+            "https://www.sikayetvar.com/peugeot/peugeot-2020-model-2008-direksiyon-kutusu-arizasi",
+            "https://www.autopartspro.co.uk/tips-advice/common-problems-with-the-peugeot-e-2008-what-you-need-to-know-8560"
+          ]
+        },
+        {
+          "id": "multimedya-ekran-donma",
+          "baslik": "Multimedya ekranının donması veya kararması",
+          "parca": "Dokunmatik multimedya ekranı / i-Cockpit yazılımı",
+          "belirtiler": "Ekran sürüş sırasında kararır ya da donar (ses çalmaya devam edebilir), klima gibi ekrandan yönetilen işlevler kullanılamaz; sıcak ve soğuk havada sıklaşır. Yazılım güncellemeleri çoğu zaman kalıcı çözüm olmaz.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/peugeot/peugeot-2008-elektronik-ekran-arizasi-ve-garanti-kapsaminda-cozum-talebi",
+            "https://www.sikayetvar.com/peugeot/peugeot-2008-multimedya-ekrani-surekli-kararma-sorunu-ve-garanti-kapsaminda-degisim-talebi",
+            "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-651-pannes-peugeot-2008-2.php",
+            "https://www.autopartspro.co.uk/tips-advice/common-problems-with-the-peugeot-e-2008-what-you-need-to-know-8560"
+          ]
+        },
+        {
+          "id": "e2008-tahrik-sistemi-arizasi",
+          "baslik": "e-2008'de \"elektrik tahrik sistemi arızası\" uyarısı ve güç kesilmesi",
+          "parca": "Yüksek voltaj tahrik sistemi / kontrol üniteleri yazılımı",
+          "belirtiler": "Ekranda tahrik sistemi veya batarya hata mesajları belirir, araç yolda çekişini kaybedip durabilir. Servisler çoğunlukla yazılım sıfırlama/güncelleme yapar, arıza tekrarlayabilir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "e-2008"
+          ],
+          "not": "Temmuz 2019-Eylül 2020 üretimi elektrikli araçlarda yüksek voltaj devresindeki hatalı arıza algılamasının çekişi kesmesi nedeniyle geri çağırma yapıldı.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/peugeot/peugeot-e2008-elektrik-tahrik-sistemindeki-ariza-ve-ikame-arac-ihmaline-sikayet",
+            "https://www.sikayetvar.com/peugeot/peugeot-e-2008-uzerindeki-tekrarlayan-elektrik-tahrik-sistemi-arizasi-ve-kalici-cozum-istegi",
+            "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-651-pannes-peugeot-2008-2.php"
+          ]
+        },
+        {
+          "id": "e2008-dahili-sarj-cihazi",
+          "baslik": "e-2008 dahili şarj cihazı (OBC) arızası",
+          "parca": "Dahili şarj cihazı (on-board charger)",
+          "belirtiler": "Araç AC şarjı kabul etmez ya da şarj iletişim hatası verir; servis teşhisinde dahili şarj cihazının değişmesi gerekir, parça tedariki uzun sürebilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "e-2008"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-651-pannes-peugeot-2008-2.php",
+            "https://fdm.dk/nyheder/nyt-om-trafik-og-biler/pludselig-ville-elbilen-ikke-lade",
+            "https://www.sikayetvar.com/peugeot/peugeot-e-2008-uzerindeki-tekrarlayan-elektrik-tahrik-sistemi-arizasi-ve-kalici-cozum-istegi"
+          ]
+        }
+      ]
     }
   ]
 }

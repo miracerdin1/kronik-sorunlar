@@ -2,10 +2,10 @@ import type { Guven } from "./tipler";
 
 /**
  * Kendi başına doğrulama sayılmayan kaynaklar: içeriği büyük ölçüde otomatik
- * üretilmiş ya da başka sitelerden derlenmiş siteler. Bunlar ikinci bir bağımsız
+ * üretilmiş, başka sitelerden derlenmiş ya da genel parça satıcısı yazısı olan siteler. Bunlar ikinci bir bağımsız
  * kaynağı destekleyebilir ama tek başlarına bir sorunu "doğrulandı" yapamaz.
  */
-export const ZAYIF_KAYNAKLAR = ["araclo.com", "carchecker.pro", "au7o.io", "carverif.fr", "bilgiyerim.com.tr", "parcabizden.com"];
+export const ZAYIF_KAYNAKLAR = ["araclo.com", "carchecker.pro", "au7o.io", "carverif.fr", "bilgiyerim.com.tr", "parcabizden.com", "autodoc.co.uk", "autopartspro.co.uk"];
 
 /**
  * Verisini açıkça başka bir siteden aktaran kaynaklar. Bağımsız sayılmazlar:

@@ -84,6 +84,160 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "golf-8",
+      "ad": "Golf 8 (Mk8)",
+      "yillar": [
+        2020,
+        2026
+      ],
+      "not": "Türkiye'de 1.0 TSI (manuel), 1.0 eTSI ve 1.5 eTSI (48V yarı hibrit, 7 ileri DSG) satıldı.",
+      "motorlar": [
+        {
+          "id": "1-0-tsi",
+          "ad": "1.0 TSI 110 PS",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-0-etsi",
+          "ad": "1.0 eTSI 110 PS",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-5-etsi",
+          "ad": "1.5 eTSI 150 PS",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "48v-alternator-ariza",
+          "baslik": "48V marş-şarj ünitesi (alternatör) arızası",
+          "parca": "48V kayış tahrikli marş jeneratörü (BSG) / alternatör",
+          "belirtiler": "Göstergede 48V ve 12V elektrik sistemi uyarıları çıkar, start-stop devre dışı kalır; ilerleyen durumda araç yolda tamamen durup çekiciyle servise gidebilir veya hiç çalışmayabilir.",
+          "km": "40.000-80.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": "100.000-150.000",
+          "motorlar": [
+            "1-0-etsi",
+            "1-5-etsi"
+          ],
+          "not": "Aynı 48V yarı hibrit sistemi kullanan Octavia, Leon ve A3 gibi grup modellerinde de görülüyor. Garanti dışı değişim fiyatı 2025-2026 Türk kaynaklarına göre yaklaşık 100-150 bin TL.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/volkswagen/garanti-disi-alternator-arizasi-ve-130-bin-tl-ucret-talebi",
+            "https://www.webtekno.com/vag-grubu-alternator-sorunu-otomobiller-h219546.html",
+            "https://andcetin.com/e-tsie-tec-engines-48v-alternator-problem-56",
+            "https://forum.donanimhaber.com/dsg-etsi-alternator-sorunu--161956122",
+            "https://kfz-dietrich.com/blog/vw-golf-8-typische-probleme-odis-diagnose/"
+          ]
+        },
+        {
+          "id": "mib3-multimedya-yazilim",
+          "baslik": "Multimedya (MIB3) ekranı donma ve yeniden başlama",
+          "parca": "Bilgi-eğlence sistemi / dokunmatik ekran yazılımı",
+          "belirtiler": "Orta ekran kararır, sürüş sırasında kendini yeniden başlatır, ayarlar ve profiller silinir; geri görüş kamerası görüntüsü siyah ya da donuk kalabilir, sesli komut ve navigasyon güvenilmez çalışır.",
+          "km": "5.000-10.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Özellikle 2020-2021 erken üretimde yaygın; VW servis kampanyası ve çok sayıda yazılım güncellemesi yayınladı, 2022'den itibaren yeni donanım/yazılım geldi.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-670-pannes-volkswagen-golf-viii.php",
+            "https://www.motor1.com/news/465863/vw-golf-8-new-recall/",
+            "https://www.autodoc.co.uk/info/problems-vw-golf-8",
+            "https://carwiki.de/vw-golf-8-probleme",
+            "https://www.donanimhaber.com/volkswagen-golf-un-multimedya-sistemine-kapsamli-guncelleme--142726"
+          ]
+        },
+        {
+          "id": "ecall-acil-cagri-hatasi",
+          "baslik": "eCall acil çağrı sistemi arızası (SOS uyarısı)",
+          "parca": "Acil çağrı modülü / çevrimiçi bağlantı ünitesi (OCU)",
+          "belirtiler": "Göstergede SOS / acil çağrı sistemi arızalı uyarısı yanar, bağlantılı servisler devre dışı kalır; bazı araçlarda kontak açılınca çağrı kendiliğinden başlar.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "2020'de yazılım hatası nedeniyle teslimatlar durduruldu; Kasım 2019 - Mayıs 2020 üretimi araçlar için yazılım güncellemesi (geri çağırma) yapıldı. Sonraki yıllarda da modül değişimi gerektiren arızalar bildiriliyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-670-pannes-volkswagen-golf-viii.php",
+            "https://winfuture.de/news,115878.html",
+            "https://carwiki.de/vw-golf-8-probleme",
+            "https://drive.co.uk/?p=125230"
+          ]
+        },
+        {
+          "id": "dsg-dq200-vuruntu",
+          "baslik": "7 ileri DSG'de kalkışta vuruntu ve şanzıman hatası",
+          "parca": "Kuru kavramalı 7 ileri DSG (DQ200), kavrama ve mekatronik",
+          "belirtiler": "Kalkışta ve yürüme hızında silkeleme, düzensiz vites geçişleri; bazı araçlarda şanzıman/vites kolu arıza mesajı çıkıp araç acil durum moduna geçer.",
+          "km": "20.000-45.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-0-etsi",
+            "1-5-etsi"
+          ],
+          "sanziman": "7 ileri DSG (DQ200, kuru kavrama)",
+          "not": "Sorun kısmen yazılım/kavrama adaptasyonu ile giderilebiliyor; şikayetvar'da 2021 model 1.0 eTSI'lerde vites kolu arıza mesajı ve şanzıman hatası bildirimleri var.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-670-pannes-volkswagen-golf-viii.php",
+            "https://www.autodoc.co.uk/info/problems-vw-golf-8",
+            "https://carwiki.de/vw-golf-8-probleme",
+            "https://www.sikayetvar.com/volkswagen/golf-hybrid/golf-8-etsi"
+          ]
+        },
+        {
+          "id": "surus-destek-sistemleri-hata",
+          "baslik": "Sürüş destek sistemleri (Travel Assist, şerit takip) devre dışı uyarısı",
+          "parca": "Ön kamera / radar, direksiyon el algılama sensörü",
+          "belirtiler": "Travel Assist, Front Assist veya şerit takip 'kullanılamıyor' uyarısı verir; şerit asistanı gereksiz direksiyon müdahalesi yapabilir, hız sabitleyici yanlış okunan tabelalara göre fren yapabilir.",
+          "km": "10.000-25.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Nedenleri arasında kirli/arızalı ön kamera, direksiyondaki el algılama sensörü ve yazılım var; çoğunlukla yazılım güncellemesi veya parça değişimiyle çözülüyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-670-pannes-volkswagen-golf-viii.php",
+            "https://www.autodoc.co.uk/info/problems-vw-golf-8",
+            "https://carwiki.de/vw-golf-8-probleme"
+          ]
+        },
+        {
+          "id": "12v-aku-bosalmasi",
+          "baslik": "12V akünün kendiliğinden boşalması",
+          "parca": "12V akü / uyku moduna geçmeyen kontrol üniteleri",
+          "belirtiler": "Araç birkaç gün beklediğinde akü zayıflar ya da biter; iç aydınlatmanın açık kalması veya bir beyinin uykuya geçmemesi nedeniyle tekrarlayan akü değişimleri yaşanır.",
+          "km": "5.000-10.000",
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-670-pannes-volkswagen-golf-viii.php",
+            "https://www.autodoc.co.uk/info/problems-vw-golf-8",
+            "https://carwiki.de/vw-golf-8-probleme"
+          ]
+        },
+        {
+          "id": "1-5-etsi-dusuk-devir-sarsinti",
+          "baslik": "1.5 eTSI'de düşük devirde sarsıntı ve tekleme",
+          "parca": "Motor yönetim yazılımı / silindir devre dışı bırakma (ACT)",
+          "belirtiler": "Özellikle soğuk motorda, düşük yükte ve sabit hızda sarsıntı, tekleme; iki silindir moduna geçişte titreşim hissedilir.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-etsi"
+          ],
+          "not": "Erken üretimde görülüyor; yayınlanan motor yazılımı güncellemeleriyle büyük ölçüde gideriliyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-670-pannes-volkswagen-golf-viii.php",
+            "https://kfz-dietrich.com/blog/vw-golf-8-typische-probleme-odis-diagnose/",
+            "https://carwiki.de/vw-golf-8-probleme"
+          ]
+        }
+      ]
     }
   ]
 }

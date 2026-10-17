@@ -37,6 +37,117 @@
           "not": "Temizlik ve adaptasyon ayarıyla çözülüyor."
         }
       ]
+    },
+    {
+      "slug": "i20-3",
+      "ad": "i20 (BC3)",
+      "yillar": [
+        2020,
+        2026
+      ],
+      "not": "Üçüncü nesil, İzmit'te üretiliyor; 2023'te makyaj aldı.",
+      "motorlar": [
+        {
+          "id": "1-0-t-gdi",
+          "ad": "1.0 T-GDI 100",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-4-mpi",
+          "ad": "1.4 MPi 100",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-2-mpi",
+          "ad": "1.2 MPi 84",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "yakit-pompasi-carki-geri-cagirma",
+          "baslik": "Yakıt pompası çarkı şişmesi (geri çağırma)",
+          "parca": "Depo içi yakıt pompası",
+          "belirtiler": "Pompa çarkı zamanla şişip gövdeye sürtebiliyor. Bu durumda seyir halinde güç kaybı ya da motorun aniden stop etmesi görülüyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Nisan 2021 ile Aralık 2022/Ocak 2023 arasında üretilen araçlar 51DT07 kodlu kampanya kapsamında. Pompa ve boru grubu yetkili serviste ücretsiz değiştiriliyor; e-Devlet veya Hyundai üzerinden şasi numarasıyla kontrol edilebilir.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-699-pannes-hyundai-i20.php",
+            "https://infocons.ro/alerta-infocons-protectia-consumatorilor-hyundai-passenger-car/",
+            "https://www.sikayetvar.com/hyundai-motor/i20/otomatik"
+          ]
+        },
+        {
+          "id": "dct-kalkista-vuruntu-vites-atmama",
+          "baslik": "DCT şanzımanda kalkışta vuruntu ve vites sorunu",
+          "parca": "7 ileri kuru kavramalı DCT ve şanzıman beyni",
+          "belirtiler": "Düşük hızda ve dur-kalk trafikte 1-2 arası vuruntu ya da sarsıntı oluyor, geri viteste tepme hissediliyor. Bazı araçlarda vites geçmiyor veya şanzımandan uğultu geliyor; kontak kapatıp açınca geçebiliyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-0-t-gdi"
+          ],
+          "sanziman": "7 ileri DCT otomatik",
+          "not": "Mart 2023 ile Ocak 2024 arasında üretilen araçlarda şanzıman/kontrol ünitesi için geri çağırma (41DT05) yapıldı ve yazılım güncellemesi uygulanıyor. Diğer araçlarda da TCU yazılım güncellemesi istenmeli.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-699-pannes-hyundai-i20.php",
+            "https://www.fiches-auto.fr/avis-hyundai/avis-unique-699-103450-hyundai-i20-10-turbo-48v-t-gdi-100-ch-boite-auto-27500km-2021finition-n-line-michel-vaillant.php",
+            "https://www.whatcar.com/hyundai/i20/hatchback/used-review/n25790/reliability",
+            "https://forum.donanimhaber.com/hyundai-i20-1-0-t-gdi-style-plus-kullanim-gecmisim--155282066",
+            "https://www.sikayetvar.com/hyundai-motor/i20/otomatik"
+          ]
+        },
+        {
+          "id": "multimedya-donma-baglanti-kopmasi",
+          "baslik": "Multimedya donması ve kablosuz bağlantı kopmaları",
+          "parca": "Multimedya ünitesi (Android Auto / Apple CarPlay)",
+          "belirtiler": "Ekran ya da radyo donabiliyor, kablosuz Android Auto/CarPlay bağlantısı sebepsiz kopuyor. Uyarı lambalarının durup dururken yanması da bildiriliyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Çoğunlukla yazılım güncellemesi ya da sistem sıfırlamayla çözülüyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-699-pannes-hyundai-i20.php",
+            "https://www.fiches-auto.fr/avis-hyundai/avis-unique-699-101144-hyundai-i20-10-t-t-gdi-48v-100-ch-i20-nline-michel-vaillant-dct7-5000kms.php",
+            "https://www.whatcar.com/hyundai/i20/hatchback/used-review/n25790/reliability",
+            "https://eksisozluk.com/entry/166541063"
+          ]
+        },
+        {
+          "id": "ic-trim-tikirti-sesleri",
+          "baslik": "Kapı, cam tavan ve plastiklerden tıkırtı",
+          "parca": "İç trim plastikleri, kapı panelleri, cam tavan",
+          "belirtiler": "Bozuk ya da parke taşı yollarda kapılardan (özellikle arka kapılardan), cam tavandan ve sert plastiklerden tıkırtı ve gıcırtı geliyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Serviste keçe ve ses yalıtımı uygulanarak azaltılmaya çalışılıyor; bazı araçlarda tekrar ediyor.",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/hyundai-i20-1-0-t-gdi-style-plus-kullanim-gecmisim--155282066",
+            "https://eksisozluk.com/entry/166541063"
+          ]
+        },
+        {
+          "id": "arka-capraz-trafik-radari-yazilim",
+          "baslik": "Arka çapraz trafik uyarısı devre dışı kalabiliyor (geri çağırma)",
+          "parca": "Arka radar sensörü yazılımı",
+          "belirtiler": "Yazılımdaki bir mantık hatası yüzünden geri çıkarken yandan gelen araç veya yaya algılanmayabiliyor ve uyarı verilmiyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Makyajlı kasada Ağustos 2023 ile Ağustos 2024 arasında üretilen araçları kapsıyor. Yetkili serviste yaklaşık 30 dakikalık radar yazılım güncellemesiyle düzeltiliyor.",
+          "kaynaklar": [
+            "https://www.oeamtc.at/rueckrufaktionen/hyundai-i20-bayon-hinterer-querverkehrswarner-kann-ausfallen-80735031"
+          ]
+        }
+      ]
     }
   ]
 }
