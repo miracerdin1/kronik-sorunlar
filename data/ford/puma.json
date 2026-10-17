@@ -1,0 +1,136 @@
+{
+  "marka": "Ford",
+  "markaSlug": "ford",
+  "model": "Puma",
+  "modelSlug": "puma",
+  "nesiller": [
+    {
+      "slug": "puma-2",
+      "ad": "Puma (2. nesil)",
+      "yillar": [
+        2020,
+        2026
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-0-ecoboost-125",
+          "ad": "1.0 EcoBoost 125",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-0-ecoboost-125-mhev",
+          "ad": "1.0 EcoBoost 125 mHEV (hafif hibrit)",
+          "yakit": "hibrit"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "12v-aku-bosalmasi",
+          "baslik": "12V akünün sık sık boşalması",
+          "parca": "12V akü / şarj yönetimi",
+          "belirtiler": "Araç bir süre beklediğinde marş basmıyor, takviye gerekiyor; start-stop devre dışı kalıyor. Serviste akü sağlam çıkıp yalnızca şarj edilerek iade edilen ve sorunu tekrarlayan araçlar bildiriliyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Özellikle ilk mHEV araçlarda yaygın; Ford akü tedarikçisini değiştirdi ve yazılım güncellemesi yayınladı. Türkiye'de 2024 model araçlarda da şikayet var.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-ford/fiabilite-663-pannes-ford-puma.php",
+            "https://www.autoreview.nl/tweedehands/aankooptips/id/37988/ford-puma-2020-nu-problemen-aandachtspunten-betrouwbaarheid",
+            "https://www.sikayetvar.com/ford/ford-pumada-surekli-tekrarlayan-aku-sorunu-ve-guven-kaybi",
+            "https://www.sikayetvar.com/atilgan-otomotiv/yeni-2024-ford-pumada-12v-aku-arizasi-ve-hafta-sonu-servis-eksikligi",
+            "https://club.autodoc.de/forum/topic/ford-puma-hybrid-mhev-erfahrungen-und-bekannte-probleme"
+          ]
+        },
+        {
+          "id": "mhev-aku-baglanti-geri-cagirma",
+          "baslik": "48V hibrit akü bağlantılarının gevşemesi (geri çağırma)",
+          "parca": "48V hafif hibrit akü bağlantı terminalleri",
+          "belirtiler": "Bağlantıların gevşemesiyle hibrit destek işlevi kesilebiliyor, uyarı ışıkları yanıyor; aşırı ısınma ve yangın riski var.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-0-ecoboost-125-mhev"
+          ],
+          "not": "Kasım 2019 - Kasım 2020 arası üretilen bazı araçlar için geri çağırma; bayide ücretsiz kontrol ve sıkma yapılıyor. Şasi numarasıyla sorgulanmalı.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-ford/fiabilite-663-pannes-ford-puma.php",
+            "https://car-recalls.eu/common-problems/ford/puma/",
+            "https://whatcar.com/ford/puma/hatchback/used-review/n22465/advice",
+            "https://www.bumper.co/blog/ford-puma-reliability-guide",
+            "https://club.autodoc.de/forum/topic/ford-puma-hybrid-mhev-erfahrungen-und-bekannte-probleme"
+          ]
+        },
+        {
+          "id": "dct-kalkis-sarsintisi",
+          "baslik": "Powershift DCT'de kalkışta sarsıntı ve takılma",
+          "parca": "7 ileri kuru çift kavramalı şanzıman",
+          "belirtiler": "Duruştan kalkışta, özellikle soğukken ve şehir içi düşük hızda vuruntulu/tereddütlü kavrama; nadiren vites kolunun tepki vermemesi ve aracın kapatılıp açılana kadar kilitlenmesi.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": "7 ileri Powershift DCT otomatik",
+          "not": "Ford bayisinde yapılan yazılım güncellemesinin davranışı iyileştirdiği bildiriliyor; ikinci elde güncellemenin yapılıp yapılmadığı sorulmalı.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-ford/fiabilite-663-pannes-ford-puma.php",
+            "https://club.autodoc.de/forum/topic/ford-puma-hybrid-mhev-erfahrungen-und-bekannte-probleme",
+            "https://club.autodoc.de/forum/topic/ford-puma-mit-automatik-wie-ist-die-7-gang-dct-variante-im-vergleich-zum-handschalter",
+            "https://whatcar.com/ford/puma/hatchback/used-review/n22465/advice"
+          ]
+        },
+        {
+          "id": "yakit-hatti-surtunme-geri-cagirma",
+          "baslik": "Yakıt hattının braket ile sürtünüp kaçak yapması (geri çağırma)",
+          "parca": "Motor bölmesindeki yakıt hattı",
+          "belirtiler": "Yakıt hattı yakınındaki brakete sürtünerek aşınıyor; benzin kokusu, yakıt kaçağı, motorun stop etmesi ve sıcak parçalara temasla yangın riski.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Kasım 2021 - Eylül 2024 arası üretilen araçlar için 2025 geri çağırması; ücretsiz onarım. Şasi numarasıyla sorgulanmalı.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-ford/fiabilite-663-pannes-ford-puma.php",
+            "https://car-recalls.eu/common-problems/ford/puma/",
+            "https://www.cars.co.za/motoring-news/ford-puma-2023-2025-buyers-guide/338773/"
+          ]
+        },
+        {
+          "id": "yag-separatoru-yag-kacagi",
+          "baslik": "Yağ separatörü kaynaklı motor yağı kaçağı (geri çağırma)",
+          "parca": "Karter havalandırma yağ separatörü",
+          "belirtiler": "Montaj öncesi hasarlı separatör nedeniyle motordan yağ sızıyor; araç altında yağ lekesi, sıcak parçalara yağ temasıyla yanık kokusu ve yangın riski.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "2019-2022 arası üretilen araçlar için geri çağırma; separatör kontrol edilip gerekirse ücretsiz değiştiriliyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-ford/fiabilite-663-pannes-ford-puma.php",
+            "https://car-recalls.eu/common-problems/ford/puma/",
+            "https://whatcar.com/ford/puma/hatchback/used-review/n22465/advice",
+            "https://www.bumper.co/blog/ford-puma-reliability-guide"
+          ]
+        },
+        {
+          "id": "yag-pompasi-yagli-kayis",
+          "baslik": "Yağ pompası yağlı kayışı ve gergisinin aşınması",
+          "parca": "Yağ pompası tahrik kayışı (yağ banyolu) ve gergisi",
+          "belirtiler": "Kayış veya gergi bozulduğunda yağ basıncı düşebiliyor, yağ basıncı uyarısı yanıyor; ihmal edilirse motor hasarı riski. Eksantrik tahriki zincirli olsa da yağ pompası hâlâ yağ banyolu kayışla dönüyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Fiesta/Focus'taki yağlı triger kayışı kadar yaygın bir arıza değil; risk düzenli ve doğru şartnameli yağ ile yapılan bakımla azalıyor. İkinci elde tam bakım geçmişi aranmalı.",
+          "kaynaklar": [
+            "https://www.autoreview.nl/tweedehands/aankooptips/id/37988/ford-puma-2020-nu-problemen-aandachtspunten-betrouwbaarheid",
+            "https://www.bumper.co/blog/ford-puma-reliability-guide",
+            "https://forum.donanimhaber.com/puma-1-0-ecoboost-motor-nasildir--162006907"
+          ]
+        }
+      ]
+    }
+  ]
+}

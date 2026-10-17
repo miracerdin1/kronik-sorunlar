@@ -1,0 +1,156 @@
+{
+  "marka": "Dacia",
+  "markaSlug": "dacia",
+  "model": "Logan",
+  "modelSlug": "logan",
+  "nesiller": [
+    {
+      "slug": "logan-2",
+      "ad": "Logan / Logan MCV (2. nesil)",
+      "yillar": [
+        2013,
+        2020
+      ],
+      "not": "Motorlar Sandero 2 ile ortaktır; motor kaynaklı arızalarda aynı motorlu Sandero kaynakları da kullanıldı.",
+      "motorlar": [
+        {
+          "id": "0-9-tce",
+          "ad": "0.9 TCe 90",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-2-16v",
+          "ad": "1.2 16V 75",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-5-dci",
+          "ad": "1.5 dCi 90",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "zincir-uzamasi-0-9-tce",
+          "baslik": "Triger zincirinin uzaması / gergi arızası",
+          "parca": "Triger zinciri ve gergisi",
+          "belirtiler": "Soğuk çalıştırmanın ilk saniyelerinde zincir şakırtısı, rölantide düzensizlik ve kam/krank senkron hata kodları görülür. İhmal edilirse zincir atlayarak motorun ağır hasar görmesine yol açabilir.",
+          "km": "80.000-150.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "0-9-tce"
+          ],
+          "not": "Renault, belirti görüldüğünde tüm zincir setinin (gerekirse zincir kapağının) değiştirilmesini öneren teknik not yayımladı; düzenli yağ değişimi kritik.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-367-pannes-dacia-logan-2.php",
+            "https://lautomobiliste.fr/19/04/2025/des-pannes-en-cascade-ce-defaut-moteur-fait-trembler-les-conducteurs-de-dacia-et-renault/",
+            "https://kfz-dietrich.com/blog/dacia-sandero-typische-probleme-renault/",
+            "https://blog.piecesetpneus.com/?p=155937"
+          ]
+        },
+        {
+          "id": "su-kutusu-termostat-sizintisi",
+          "baslik": "Su çıkış kutusu / termostat yuvasından antifriz kaçağı",
+          "parca": "Plastik su çıkış kutusu ve termostat yuvası contası",
+          "belirtiler": "Motor suyu sürekli eksilir, motor bölmesinde antifriz izi görülür; fark edilmezse hararet ve motor hasarı riski doğar.",
+          "km": "35.000-80.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "0-9-tce"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-367-pannes-dacia-logan-2.php",
+            "https://www.fiches-auto.fr/avis-dacia/avis-unique-366-81875-dacia-sandero-2-09-tce-90-ch-2014-.php",
+            "https://blog.piecesetpneus.com/?p=155937",
+            "https://www.carchecker.pro/reports/dacia_logan_mcv_0.9_tce.html"
+          ]
+        },
+        {
+          "id": "easy-r-sanziman-sarsinti",
+          "baslik": "Easy-R yarı otomatik şanzımanda sarsıntı ve debriyaj aktüatörü arızası",
+          "parca": "Easy-R şanzıman aktüatörü, debriyaj ve volan",
+          "belirtiler": "Özellikle soğukken kalkışta titreme (broutage), sarsıntılı vites geçişleri, uyarı ışığı ve boşta kalma hatası; bazı araçlarda debriyaj ve volan tekrar tekrar değiştirildiği, yazılım güncellemesinin kalıcı çözüm olmadığı bildiriliyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "0-9-tce"
+          ],
+          "sanziman": "5 ileri Easy-R otomatikleştirilmiş manuel",
+          "not": "Aktüatör değişiminden sonra debriyaj öğrenme/ayarı yapılmalı.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/avis-dacia/avis-unique-367-91836-dacia-logan-2-09-tce-90-ch-mcv-blackline-boite-easyr-de-2017-25000kms.php",
+            "https://kfz-dietrich.com/blog/dacia-sandero-typische-probleme-renault/",
+            "https://www.carchecker.pro/reports/dacia_logan_mcv_0.9_tce.html"
+          ]
+        },
+        {
+          "id": "debriyaj-volan-titreme",
+          "baslik": "Erken debriyaj ve volan aşınması, kalkışta titreme",
+          "parca": "Debriyaj seti ve volan",
+          "belirtiler": "Soğukken 1. ve 2. viteste kalkışta titreme ve silkeleme; bazı araçlarda düşük kilometrede debriyaj ve volan değişimi gerekiyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": "5 ileri manuel",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-367-pannes-dacia-logan-2.php",
+            "https://www.carbuyer.co.uk/dacia/logan-mcv/owner-reviews",
+            "https://www.carchecker.pro/reports/dacia_logan_mcv_0.9_tce.html"
+          ]
+        },
+        {
+          "id": "egr-dpf-sensor-1-5-dci",
+          "baslik": "EGR kurumlanması ve egzoz/basınç sensörü arızaları",
+          "parca": "EGR valfi, DPF fark basınç sensörü, egzoz sensörleri",
+          "belirtiler": "Arıza lambası, çekiş düşüklüğü ve acil durum moduna geçme; özellikle kısa mesafe şehir içi kullanımda EGR ve partikül filtresi tıkanır, sensörler arıza verir.",
+          "km": "95.000-120.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-367-pannes-dacia-logan-2.php",
+            "https://kfz-dietrich.com/blog/dacia-sandero-typische-probleme-renault/",
+            "https://blog.piecesetpneus.com/?p=155937"
+          ]
+        },
+        {
+          "id": "ince-boya-tas-izi",
+          "baslik": "İnce ve yumuşak boya, kolay taş izi",
+          "parca": "Kaporta boyası",
+          "belirtiler": "Boya kolayca çizilir ve taş izi alır; kapı altlarında astara kadar aşınma görülür, ilerleyen yaşlarda kapı altı ve marşpiyellerde paslanma riski artar.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-367-pannes-dacia-logan-2.php",
+            "https://www.carbuyer.co.uk/dacia/logan-mcv/owner-reviews"
+          ]
+        },
+        {
+          "id": "yakit-hatti-surtunme-geri-cagirma",
+          "baslik": "Motor bölmesinde yakıt hattının sürtünüp delinmesi (geri çağırma)",
+          "parca": "Yakıt borusu",
+          "belirtiler": "Yanlış konumlanan yakıt hattı sürtünerek delinebilir; motor bölmesinde yakıt kokusu veya sızıntı, yangın riski.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-5-dci"
+          ],
+          "not": "Şubat 2013 - Haziran 2015 üretimi araçlar için geri çağırma; koruyucu klips veya yeni boru takılıyor. Şasi numarasıyla yetkili serviste sorgulanmalı.",
+          "kaynaklar": [
+            "https://www.whatcar.com/dacia/logan/estate/used-review/n24257/reliability",
+            "https://www.fiches-auto.fr/rappels-dacia/r-367-rappels-dacia-logan-2.php"
+          ]
+        }
+      ]
+    }
+  ]
+}

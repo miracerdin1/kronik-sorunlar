@@ -1,0 +1,102 @@
+{
+  "marka": "Hyundai",
+  "markaSlug": "hyundai",
+  "model": "Elantra",
+  "modelSlug": "elantra",
+  "nesiller": [
+    {
+      "slug": "elantra-ad",
+      "ad": "Elantra (AD)",
+      "yillar": [
+        2016,
+        2020
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-6-mpi",
+          "ad": "1.6 MPi (D-CVVT)",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-crdi",
+          "ad": "1.6 CRDi",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "kapi-disaridan-acilmiyor",
+          "baslik": "Kapılar dışarıdan açılmıyor",
+          "parca": "Kapı kilit mekanizması / kapı kolu bağlantısı",
+          "belirtiler": "Kilit açık olduğu hâlde bir ya da birkaç kapı dış kolla açılmıyor; bazı araçlarda içeriden de açılmıyor ya da kolun defalarca çekilmesi gerekiyor. Çoğunlukla ön yolcu ve arka kapılarda görülüyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "ABD'de kapı mandalı için servis bülteni ve uzatılmış garanti yayımlandığı kullanıcı şikayetlerinde belirtiliyor; Türkiye'de garanti dışı araçlarda ücretli onarım yapılıyor.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-elentra-kronik-kapi-disaridan-acilmama-sorunu",
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-elantra-16-d-cvvt-kronik-kapi-sorunu",
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-assan-sag-on-ve-sol-on-kapi-acilmiyor",
+            "https://www.carcomplaints.com/Hyundai/Elantra/2017/accessories-exterior/latches_locks_linkages-doors-latch.shtml",
+            "https://www.carcomplaints.com/Hyundai/Elantra/2017/body_paint/structure-body-door_.shtml",
+            "https://www.carproblemzoo.com/hyundai/elantra/2017/body-problems.php",
+            "https://www.araclo.com/blog/hyundai-elantra-1.6-d-cvvt-incelemesi-sorunlar-yorumlar-ve-alim-rehberi"
+          ]
+        },
+        {
+          "id": "multimedya-ekrani-acilmiyor",
+          "baslik": "Multimedya ekranı kapanıp açılmıyor",
+          "parca": "Multimedya / ekranlı ses ünitesi",
+          "belirtiler": "Multimedya ekranı aniden kararıyor ve bir daha açılmıyor, yalnızca kısa süreli ışık yanıp sönüyor; sigorta sağlam çıkıyor. Ekrana bağlı geri görüş kamerası da kullanılamaz hâle geliyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Şikayetler ağırlıkla 2016 model araçlarda; bazı kullanıcılar yetkili serviste yedek ünite bulunamadığını, dışarıda tamir edilen ünitenin yeniden arızalandığını belirtiyor.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-elantra-2016-multimedya-sorunu",
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-elantra-multimedya-acilmiyor",
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-assan-elantra-multimedia-acilmiyor",
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-elentra-multimedya-sorunu",
+            "https://www.araclo.com/blog/hyundai-elantra-1.6-d-cvvt-incelemesi-sorunlar-yorumlar-ve-alim-rehberi"
+          ]
+        },
+        {
+          "id": "beyaz-boya-kalkmasi",
+          "baslik": "Beyaz boyada kabarma ve soyulma",
+          "parca": "Kaporta boyası / vernik",
+          "belirtiler": "Özellikle beyaz ve inci beyazı araçlarda kaput, çamurluk ve tavanda boya ile vernik kabarıp tabaka hâlinde kalkıyor; durum kötü havalarda hızla ilerliyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Hyundai Kuzey Amerika'da 2017-2018 Elantra (AD) dahil birçok modelde boya için uzatılmış garanti verdi; şikayetlerin çoğu Kuzey Amerika kaynaklı.",
+          "kaynaklar": [
+            "https://www.collisionrepairmag.com/news/article/15750492/hyundai-motor-america-paint-problems-hyundai-extends-warranty-on-seven-models-amid-peeling-reports",
+            "https://www.carcomplaints.com/Hyundai/Elantra/2017/body_paint/structure-body-7.shtml",
+            "https://www.carcomplaints.com/Hyundai/Elantra/2017/",
+            "https://www.carchecker.pro/reports/hyundai_elantra_ad_1.6_mpi.html"
+          ]
+        },
+        {
+          "id": "direksiyon-kolonu-rulman-sesi",
+          "baslik": "Elektrikli direksiyon kolonundan ses",
+          "parca": "C-MDPS sonsuz dişli (worm shaft) rulmanı",
+          "belirtiler": "Motor çalışırken direksiyon sağa sola çevrildiğinde kolon içinden, direksiyon motoru civarından tıkırtı ya da rulman sesi geliyor. Direksiyonun çalışmasını etkilemiyor ama zamanla belirginleşiyor.",
+          "km": "50.000-100.000",
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Hyundai, 2017-2020 Elantra (AD) için sonsuz dişli rulmanının ya da tertibatının değiştirildiği servis bültenleri (20-ST-003H, 22-ST-005H) yayımladı.",
+          "kaynaklar": [
+            "https://static.nhtsa.gov/odi/tsbs/2020/MC-10179246-0001.pdf",
+            "https://static.nhtsa.gov/odi/tsbs/2022/MC-10211680-0001.pdf",
+            "https://www.carchecker.pro/reports/hyundai_elantra_ad_1.6_mpi.html"
+          ]
+        }
+      ]
+    }
+  ]
+}

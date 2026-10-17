@@ -1,0 +1,184 @@
+{
+  "marka": "Fiat",
+  "markaSlug": "fiat",
+  "model": "500",
+  "modelSlug": "500",
+  "nesiller": [
+    {
+      "slug": "500-312",
+      "ad": "500 (312)",
+      "yillar": [
+        2008,
+        2020
+      ],
+      "not": "2015 makyajlı kasa dahildir. 500L, 500X ve elektrikli 500e farklı araçlardır ve bu listeye girmez.",
+      "motorlar": [
+        {
+          "id": "1-2-fire",
+          "ad": "1.2 8V Fire 69 HP",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-4-16v",
+          "ad": "1.4 16V 100 HP",
+          "yakit": "benzin"
+        },
+        {
+          "id": "0-9-twinair",
+          "ad": "0.9 TwinAir 85 HP",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-3-multijet",
+          "ad": "1.3 MultiJet",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dualogic-robot-arizasi",
+          "baslik": "Dualogic robotize şanzıman arızası",
+          "parca": "Dualogic hidrolik ünite / aktüatör ve debriyaj",
+          "belirtiler": "Seyir hâlindeyken uyarı sesiyle vites boşa (N) düşer, bazı vitesler ya da geri vites takılmaz. Kalkışta ve 1'den 2'ye geçişte silkeleme, sarsıntılı geçişler görülür.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": "5 ileri Dualogic robotize",
+          "not": "Yüksek kilometreli araçlarda daha sık görülür; tam şanzıman/robot değişimi pahalıdır. Kalibrasyon ya da selenoid/hidrolik ünite onarımı bazen yeterli olur.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-188-pannes-fiat-500.php",
+            "https://www.whocanfixmycar.com/advice/fiat-500-common-problems",
+            "https://www.cargurus.co.uk/research/Fiat-500-2008-mg14",
+            "https://www.fiatforum.com/threads/gear-suddenly-goes-into-neutral-n.511167/latest",
+            "https://forum.donanimhaber.com/fiat-500c-nasil-bilirsiniz--103804451"
+          ]
+        },
+        {
+          "id": "elektrikli-direksiyon-arizasi",
+          "baslik": "Elektrikli direksiyon desteğinin kesilmesi",
+          "parca": "Elektrikli direksiyon (EPS) kolonu / tork sensörü",
+          "belirtiler": "Direksiyon aniden ağırlaşır, göstergede direksiyon sistemini kontrol ettirin uyarısı çıkar. Başta aralıklı olan sorun zamanla kalıcı hâle gelebilir; soğuk havada daha sık görülür.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Zayıf akü veya kötü şasi topraklaması da aynı belirtiyi verebilir; kolon değişiminden önce bunlar kontrol edilmeli.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-188-pannes-fiat-500.php",
+            "https://www.whocanfixmycar.com/advice/fiat-500-common-problems",
+            "https://www.ecutesting.com/common-faults/fiat/fiat-500-power-steering-fault/",
+            "https://www.fiatforum.com/threads/fiat-500-get-power-steering-checked-message.481134"
+          ]
+        },
+        {
+          "id": "atesleme-bobini-arizasi",
+          "baslik": "Ateşleme bobini arızası ve tekleme",
+          "parca": "Ateşleme bobinleri ve bujiler",
+          "belirtiler": "Motor tekler, rölanti düzensizleşir, çekiş düşer ve motor arıza lambası yanar.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-fire",
+            "1-4-16v",
+            "0-9-twinair"
+          ],
+          "not": "TwinAir'de özellikle 2013 öncesi üretimde sık görüldüğü belirtiliyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-188-pannes-fiat-500.php",
+            "https://www.fiatforum.com/threads/500-common-problems.457368/post-4320942",
+            "https://www.alvolante.it/da_sapere/auto-usate/fiat-500-usata-pregi-e-difetti-406863?page=1"
+          ]
+        },
+        {
+          "id": "on-salincak-burc-asinmasi",
+          "baslik": "Ön salıncak burçlarının erken aşınması ve ön takımdan vuruntu",
+          "parca": "Ön salıncak burçları / rotil ve amortisör takozları",
+          "belirtiler": "Bozuk yolda ve tümseklerde ön tekerlerden metalik takırtı ve vuruntu sesi gelir, ön takımda boşluk hissedilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "2015'e kadarki üretimde yaygın olduğu belirtiliyor; çözüm genellikle salıncakların değişimi.",
+          "kaynaklar": [
+            "https://www.alvolante.it/da_sapere/auto-usate/fiat-500-usata-pregi-e-difetti-406863?page=1",
+            "https://www.fiatforum.com/threads/500-common-problems.457368/post-4320942",
+            "https://www.whocanfixmycar.com/advice/fiat-500-common-problems"
+          ]
+        },
+        {
+          "id": "dpf-tikanmasi-yag-incelmesi",
+          "baslik": "Partikül filtresi (DPF) tıkanması ve yağa yakıt karışması",
+          "parca": "Dizel partikül filtresi (DPF)",
+          "belirtiler": "Kısa şehir içi kullanımda rejenerasyon tamamlanamaz; DPF uyarısı yanar, güç düşer. Tekrarlanan rejenerasyonlar motor yağını mazotla inceltir ve yağ seviyesi yükselir; ihmal edilirse motor hasar görebilir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-3-multijet"
+          ],
+          "not": "Motor beyni yazılım güncellemesiyle iyileştirildiği belirtiliyor. Düzenli uzun yol ve sık yağ kontrolü önerilir.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-188-pannes-fiat-500.php",
+            "https://www.cargurus.co.uk/research/Fiat-500-2008-mg14",
+            "https://www.alvolante.it/da_sapere/auto-usate/fiat-500-usata-pregi-e-difetti-406863?page=1",
+            "https://www.breakerlink.com/blog/cars/fiat-500-common-problems/"
+          ]
+        },
+        {
+          "id": "cift-kutleli-volan-arizasi",
+          "baslik": "Çift kütleli volan ve debriyajın erken yıpranması",
+          "parca": "Çift kütleli volan ve debriyaj seti",
+          "belirtiler": "Rölantide ve kalkışta titreşim, debriyajdan takırtı sesi, debriyajın erken kaçırması. Bazı araçlarda 50.000 km'den önce değişim gerekebilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "0-9-twinair",
+            "1-3-multijet"
+          ],
+          "not": "İki silindirli TwinAir'in titreşimi volanı zorlar; arıza ilerlerse şanzıman muhafazasına da zarar verebilir.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-188-pannes-fiat-500.php",
+            "https://www.fiatforum.com/threads/500-common-problems.457368/post-4320942",
+            "https://www.alvolante.it/da_sapere/auto-usate/fiat-500-usata-pregi-e-difetti-406863?page=1"
+          ]
+        },
+        {
+          "id": "bagaj-kapagi-kablo-demeti",
+          "baslik": "Bagaj kapağı kablo demetinin kopması",
+          "parca": "Bagaj kapağı kablo demeti",
+          "belirtiler": "Bagaj açma düğmesi, stop/plaka lambaları ya da arka silecek çalışmaz; kablolardaki kısa devre aküyü boşaltabilir.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.cargurus.co.uk/research/Fiat-500-2008-mg14",
+            "https://www.fiatforum.com/threads/500-common-problems.457368/post-4320942",
+            "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-188-pannes-fiat-500.php",
+            "https://www.alvolante.it/da_sapere/auto-usate/fiat-500-usata-pregi-e-difetti-406863?page=1"
+          ]
+        },
+        {
+          "id": "termostat-yuvasi-genlesme-kabi-kacagi",
+          "baslik": "Termostat yuvası ve genleşme kabından antifriz kaçağı",
+          "parca": "Plastik termostat yuvası, genleşme kabı, devirdaim",
+          "belirtiler": "Antifriz seviyesi düşer, motor bölmesinde antifriz izi veya kokusu olur, hararet göstergesi yükselir. Termostat yuvasındaki plastik kalorifer çıkışı kırılırsa motor ısınıp hasar görebilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-fire",
+            "0-9-twinair"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-188-pannes-fiat-500.php",
+            "https://www.fiatforum.com/threads/500-common-problems.457368/post-4320942"
+          ]
+        }
+      ]
+    }
+  ]
+}

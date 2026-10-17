@@ -1,0 +1,216 @@
+{
+  "marka": "BMW",
+  "markaSlug": "bmw",
+  "model": "3 Serisi",
+  "modelSlug": "3-serisi",
+  "nesiller": [
+    {
+      "slug": "f30",
+      "ad": "3 Serisi (F30)",
+      "yillar": [
+        2012,
+        2019
+      ],
+      "not": "Türkiye'de ağırlıklı olarak ZF 8 ileri otomatik (8HP) ile satıldı. 2015 makyajıyla (LCI) N13 benzinlinin yerini B38/B48, N47 dizelin yerini B47 aldı.",
+      "motorlar": [
+        {
+          "id": "316i-n13",
+          "ad": "316i 1.6 Turbo (N13)",
+          "yakit": "benzin"
+        },
+        {
+          "id": "320i-ed-n13",
+          "ad": "320i ED 1.6 Turbo (N13)",
+          "yakit": "benzin"
+        },
+        {
+          "id": "318i-b38",
+          "ad": "316i/318i 1.5 Turbo (B38)",
+          "yakit": "benzin"
+        },
+        {
+          "id": "320i-b48",
+          "ad": "320i 2.0 Turbo (B48)",
+          "yakit": "benzin"
+        },
+        {
+          "id": "316d-n47",
+          "ad": "316d 2.0 (N47)",
+          "yakit": "dizel"
+        },
+        {
+          "id": "320d-n47",
+          "ad": "320d 2.0 (N47)",
+          "yakit": "dizel"
+        },
+        {
+          "id": "316d-b47",
+          "ad": "316d 2.0 (B47)",
+          "yakit": "dizel"
+        },
+        {
+          "id": "320d-b47",
+          "ad": "320d 2.0 (B47)",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "n47-triger-zinciri-uzamasi",
+          "baslik": "N47 dizelde triger zinciri uzaması",
+          "parca": "Triger zinciri ve gergisi",
+          "belirtiler": "Soğuk çalıştırmada ilk saniyelerde motorun arka tarafından metalik tıkırtı veya şıngırtı gelir, motor ısındıkça azalır. İhmal edilirse zincir atlayabilir ya da kopabilir ve motor ağır hasar görür.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "316d-n47",
+            "320d-n47"
+          ],
+          "not": "Zincir motorun şanzıman tarafında olduğu için değişim işçiliği yüksektir. 2014-2015'ten itibaren gelen B47 motorda sorun büyük ölçüde giderildi. Alman kaynakları sorunun sıklıkla 100.000 km civarında başladığını belirtiyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-bmw/fiabilite-348-pannes-bmw-serie-3.php",
+            "https://www.whatcar.com/bmw/3-series/saloon/used-review/n801/reliability",
+            "https://gebrauchtwagenberater.de/bmw-3er-f30-f31-probleme/",
+            "https://www.fahrzeugschein.de/blog/artikel/bmw-3er-gebrauchtwagen-check",
+            "https://www.webtekno.com/bmw-f30-kronik-sorunlari-hangi-motoru-almak-daha-mantikli-h217596.html",
+            "https://kfz-dietrich.com/blog/bmw-f30-320d-haeufige-probleme/"
+          ]
+        },
+        {
+          "id": "dizel-egr-tikanmasi",
+          "baslik": "Dizellerde EGR valfi kurumlanması ve arızası",
+          "parca": "EGR valfi / EGR soğutucusu",
+          "belirtiler": "Özellikle kısa şehir içi kullanımda kurum birikir; çekiş düşer, tekleme ve sarsıntı olur, motor arıza lambası yanar ve araç emniyet moduna geçebilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "316d-n47",
+            "320d-n47",
+            "316d-b47",
+            "320d-b47"
+          ],
+          "not": "Hem N47 hem B47'de görülür; B47 için 150.000 km civarı sık anılır. Ayrıca 2015-2016 üretimi dört silindirli dizellerde EGR modülü kaynaklı yangın riski nedeniyle geri çağırma yapıldı; şasi numarasıyla kontrol ettirin.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-bmw/fiabilite-348-pannes-bmw-serie-3.php",
+            "https://kfz-dietrich.com/blog/bmw-f30-320d-haeufige-probleme/",
+            "https://www.fahrzeugschein.de/blog/artikel/bmw-3er-gebrauchtwagen-check",
+            "https://gebrauchtwagenberater.de/bmw-3er-f30-f31-probleme/"
+          ]
+        },
+        {
+          "id": "n13-triger-zinciri",
+          "baslik": "N13 benzinlide triger zinciri sesi ve uzaması",
+          "parca": "Triger zinciri, gergi ve plastik kızaklar",
+          "belirtiler": "Soğuk çalıştırmada zincir sesi duyulur. Zincir uzadıkça plastik kızaklar kırılabilir ve motor ciddi hasar görebilir. Yağ değişim aralığı uzatılan araçlarda risk artar.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "316i-n13",
+            "320i-ed-n13"
+          ],
+          "not": "Makyajlı kasada gelen B38/B48 motorlarda zincir sistemi iyileştirildi.",
+          "kaynaklar": [
+            "https://gebrauchtwagenberater.de/bmw-3er-f30-f31-probleme/",
+            "https://www.webtekno.com/bmw-f30-kronik-sorunlari-hangi-motoru-almak-daha-mantikli-h217596.html",
+            "https://europremiumparts.com/blogs/bmw-buying-guides/used-bmw-3-series-f30-reliability-guide-which-models-to-avoid"
+          ]
+        },
+        {
+          "id": "n13-yag-eksiltme",
+          "baslik": "N13 benzinlide yağ eksiltme",
+          "parca": "Motor (PCV/karter havalandırma, supap lastikleri, segmanlar)",
+          "belirtiler": "Görünür sızıntı olmadan yağ seviyesi düşer, gösterge \"1 litre yağ ekleyin\" uyarısı verir; ileri vakalarda egzozdan mavi duman görülür.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "316i-n13",
+            "320i-ed-n13"
+          ],
+          "not": "Kaynaklar sorunun 100.000 km'den önce de başlayabileceğini belirtiyor. Nedeni PCV valfi veya supap lastiği olabildiği gibi ağır vakalarda segman/silindir işçiliği gerekebilir.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-bmw/fiabilite-348-pannes-bmw-serie-3.php",
+            "https://gebrauchtwagenberater.de/bmw-3er-f30-f31-probleme/",
+            "https://www.webtekno.com/bmw-f30-kronik-sorunlari-hangi-motoru-almak-daha-mantikli-h217596.html",
+            "https://europremiumparts.com/blogs/bmw-buying-guides/used-bmw-3-series-f30-reliability-guide-which-models-to-avoid",
+            "https://www.sikayetvar.com/bmw/n13"
+          ]
+        },
+        {
+          "id": "n13-sogutma-sizintisi",
+          "baslik": "N13'te soğutma sıvısı kaçağı ve genleşme kabı/termostat sorunları",
+          "parca": "Genleşme kabı, termostat, soğutma hortumları",
+          "belirtiler": "Soğutma sıvısı zamanla eksilir, genleşme kabından tıslama gelebilir, yüksek hızda hararet uyarısı çıkar. Termostat arızası fark edilmezse conta hasarına ve yağ yakmaya kadar gidebilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "316i-n13",
+            "320i-ed-n13"
+          ],
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-bmw/fiabilite-348-pannes-bmw-serie-3.php",
+            "https://europremiumparts.com/blogs/bmw-buying-guides/used-bmw-3-series-f30-reliability-guide-which-models-to-avoid",
+            "https://www.sikayetvar.com/bmw/n13"
+          ]
+        },
+        {
+          "id": "b48-sogutma-hortumu-sizintisi",
+          "baslik": "B48'de soğutma hortumu / yağ filtresi yuvası kaçağı",
+          "parca": "Radyatör üst hortumu, yağ filtresi yuvası",
+          "belirtiler": "Soğutma sıvısı seviyesi yavaş yavaş düşer, motor bölmesinde sıvı izi görülür; yağ filtresi yuvası çatladığında yağ veya soğutma sıvısı kaçağı oluşur.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": [
+            "320i-b48"
+          ],
+          "not": "Daha çok 2017 model yılına kadar olan B48'lerde anılır. Hortum ucuzdur; yağ filtresi yuvası ise emme manifoldu sökülerek değiştirildiği için işçiliği daha yüksektir.",
+          "kaynaklar": [
+            "https://gebrauchtwagenberater.de/bmw-3er-f30-f31-probleme/",
+            "https://europremiumparts.com/blogs/bmw-buying-guides/used-bmw-3-series-f30-reliability-guide-which-models-to-avoid",
+            "https://www.slashgear.com/1848297/bmw-b48-engine-common-problems/"
+          ]
+        },
+        {
+          "id": "direksiyon-kutusu-vuruntu",
+          "baslik": "Elektrikli direksiyon kutusunda vuruntu sesi",
+          "parca": "Direksiyon kutusu (EPS) baskı pabucu / burç",
+          "belirtiler": "Direksiyon çevrilirken bozuk yolda, çukurda veya kasiste önden tok bir vuruntu gelir; direksiyonda boşluk hissi oluşabilir.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "BMW, aşınan plastik baskı parçası için güçlendirilmiş tamir kiti çıkardı; ZF direksiyonlu araçlarda tüm kutu yerine kit değişimi yeterli olabiliyor. 2012 başı üretimlerde direksiyon kontrol modülü için ayrıca geri çağırma var.",
+          "kaynaklar": [
+            "https://www.team-bhp.com/forum/technical-stuff/228277-2000-rupee-fix-bmw-3-series-steering-knock-problem-f30-post4909930.html",
+            "https://m.carcomplaints.com/BMW/328/2013/steering/steering.shtml",
+            "https://www.araclo.com/blog/bmw-3-serisi-f30-satin-alma-rehberi-motor-secenekleri-kronik-sorunlar-ve-bakim-maliyetleri-2026"
+          ]
+        },
+        {
+          "id": "yag-cubugu-kirilmasi",
+          "baslik": "Plastik yağ çubuğunun kırılması",
+          "parca": "Yağ seviye çubuğu",
+          "belirtiler": "Yağ kontrolü sırasında çubuğun plastik ucu kırılır ve parça karterin içine düşebilir; karterin açılması gerekebilir.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": [
+            "316i-n13",
+            "320i-ed-n13",
+            "320i-b48"
+          ],
+          "not": "Türkiye'de F30 benzinliler için çok sayıda şikayet var; bayiler çoğu durumda yeni çubuğu ücretsiz takmış. Kırılan parça kartere düştüyse çıkarılmadan araç çalıştırılmamalı.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/bmw/f30-yag",
+            "https://www.sikayetvar.com/bmw/n13"
+          ]
+        }
+      ]
+    }
+  ]
+}

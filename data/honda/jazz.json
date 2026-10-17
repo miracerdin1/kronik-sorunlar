@@ -1,0 +1,89 @@
+{
+  "marka": "Honda",
+  "markaSlug": "honda",
+  "model": "Jazz",
+  "modelSlug": "jazz",
+  "nesiller": [
+    {
+      "slug": "jazz-3",
+      "ad": "Jazz (GK)",
+      "yillar": [
+        2015,
+        2020
+      ],
+      "not": "Bu nesil sınıfının en güvenilir modelleri arasında gösteriliyor; kronik mekanik arıza raporu çok az. Listelenenlerin bir kısmı üretici geri çağırmasıdır.",
+      "motorlar": [
+        {
+          "id": "1-3-i-vtec",
+          "ad": "1.3 i-VTEC 102 HP",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "yakit-pompasi-geri-cagirma",
+          "baslik": "Yakıt pompası pervanesi şişmesi (geri çağırma)",
+          "parca": "Yakıt pompası modülü (Denso pervane)",
+          "belirtiler": "Düşük yoğunluklu üretilen pompa pervanesi zamanla şişip pompayı kilitleyebiliyor; motor çalışmayabiliyor ya da seyir halindeyken stop edebiliyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Yaklaşık 2017-2020 üretimini kapsayan üretici geri çağırması; pompa ücretsiz değiştiriliyor. İkinci elde şasi numarasıyla yetkili serviste yapılıp yapılmadığı sorgulanmalı.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-honda/fiabilite-558-pannes-honda-jazz-3.php",
+            "https://www.check-vehicle-recalls.service.gov.uk/recall-type/vehicle/make/HONDA%20MOTOR%20CO/model/JAZZ/year/2017/recalls",
+            "https://carsguide.com.au/car-news/recall-more-20000-honda-jazz-city-civic-accord-hr-v-cr-v-and-nsx-cars-and-suvs-have-faulty"
+          ]
+        },
+        {
+          "id": "lastik-basinc-uyarisi-hatali",
+          "baslik": "Lastik basınç uyarısının boş yere yanması",
+          "parca": "Lastik basınç izleme sistemi (TPMS)",
+          "belirtiler": "Lastiklerde gerçek bir basınç kaybı yokken, özellikle uzun otoyol yolculuklarında ya da sıcak havada basınç uyarı lambası sık sık yanıyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Sistem lastikler arasındaki küçük farklara çok duyarlı; soğukken dört lastiği eşit basınca ayarlayıp sistemi yeniden kalibre etmek çoğu zaman sorunu gideriyor.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-honda/fiabilite-558-pannes-honda-jazz-3.php",
+            "https://www.caradisiac.com/honda-jazz-3-la-fiche-fiabilite-express-de-caradisiac-200420.htm",
+            "https://www.dev.honestjohn.co.uk/news/honest-johns-motoring-agony-column/2018-08/honest-johns-motoring-agony-column-11-08-2018-part-2"
+          ]
+        },
+        {
+          "id": "multimedya-ekrani-donma",
+          "baslik": "Multimedya/navigasyon ekranının donması veya arızalanması",
+          "parca": "Dokunmatik multimedya ünitesi (Honda Connect)",
+          "belirtiler": "Ekran dokunmaya tepki vermiyor, açılış uyarı ekranında takılı kalıyor, yavaşlıyor ya da navigasyon konumu yanlış gösteriyor; bazı araçlarda ünite tamamen değişti.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Ağırlıkla 2015-2017 üretimlerde görülüyor; çoğu durumda yazılım güncellemesiyle düzeliyor, garanti dışında ünite değişimi pahalı.",
+          "kaynaklar": [
+            "https://www.carchecker.pro/reports/honda_jazz_gk.html",
+            "https://www.truedelta.com/2015-Honda-Jazz/problem-histories-318",
+            "https://www.fleetnews.co.uk/cars/reviews/our-fleet-honda-jazz-13-i-vtec-ex-navi-car-review-august-2016"
+          ]
+        },
+        {
+          "id": "arka-orta-emniyet-kemeri-geri-cagirma",
+          "baslik": "Arka orta emniyet kemeri sarıcısının kilitlenmemesi (geri çağırma)",
+          "parca": "Arka orta emniyet kemeri sarıcısı",
+          "belirtiler": "Sürücünün fark edebileceği bir belirti yok; çarpışma anında arka orta kemer kilitlenmeyip yolcuyu tutmayabiliyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "2020 yılının ilk yarısında üretilen bir parti için Temmuz 2020'de geri çağırma yapıldı; kilit mekanizması değiştiriliyor.",
+          "kaynaklar": [
+            "https://www.caradisiac.com/honda-jazz-3-la-fiche-fiabilite-express-de-caradisiac-200420.htm",
+            "https://www.fiches-auto.fr/fiabilite-honda/fiabilite-558-pannes-honda-jazz-3.php"
+          ]
+        }
+      ]
+    }
+  ]
+}
