@@ -1,0 +1,107 @@
+{
+  "marka": "Mercedes-Benz",
+  "markaSlug": "mercedes-benz",
+  "model": "GLA",
+  "modelSlug": "gla",
+  "nesiller": [
+    {
+      "slug": "gla-x156",
+      "ad": "GLA (X156)",
+      "yillar": [
+        2014,
+        2019
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-6-benzin",
+          "ad": "1.6 Turbo (GLA 180 / 200)",
+          "yakit": "benzin"
+        },
+        {
+          "id": "2-0-benzin",
+          "ad": "2.0 Turbo (GLA 250 4MATIC)",
+          "yakit": "benzin"
+        },
+        {
+          "id": "2-1-dizel",
+          "ad": "2.1 CDI (GLA 200 d / 220 d)",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "7g-dct-titreme-vurma",
+          "baslik": "7G-DCT şanzımanda titreme ve sert vites geçişi",
+          "parca": "7G-DCT çift kavrama ve mekatronik ünite",
+          "belirtiler": "Yerinden kalkışta titreme, düşük hızda 1-2 ve 2-3 vites geçişlerinde vurma, rampada kalkışta isteksizlik; ağır vakada kavrama kayması ve arıza lambası.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": "7 ileri DCT otomatik",
+          "not": "Yazılım güncellemesi ve düzenli şanzıman yağı değişimi erken belirtileri hafifletebilir. 2014-2016 arası kasalarda yağın mekatronik ünite bağlantısına sızması da aynı belirtileri yapabiliyor.",
+          "kaynaklar": [
+            "https://carwiki.de/?p=73227",
+            "https://www.rerev.com/years-to-avoid/vehicles/mercedes-benz-gla/",
+            "https://www.fiches-auto.fr/articles-auto/boites-automatiques/s-1034-7g-dct-de-mercedes.php",
+            "https://minbilkoll.se/vanliga-fel/mercedes-benz/gla-200/",
+            "https://www.carchecker.pro/reports/mercedes_gla_200_cdi_x156.html"
+          ]
+        },
+        {
+          "id": "zamanlama-zinciri",
+          "baslik": "Zamanlama zinciri ve gergisinde aşınma, yağ sızıntısı",
+          "parca": "Zamanlama zinciri / zincir gergisi",
+          "belirtiler": "Soğuk çalıştırmada zincir tıkırtısı, yüksek kilometrede zincir gevşemesi; erken üretim dizellerde gergi contasından yağ sızıntısı.",
+          "km": "100.000-150.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-1-dizel"
+          ],
+          "not": "Erken üretim OM651 dizellerde gergi conta geri çağırması yapıldı. Değişim erişimin zor olması nedeniyle pahalı.",
+          "kaynaklar": [
+            "https://australiancar.reviews/?p=47414",
+            "https://www.carchecker.pro/reports/mercedes_gla_200_cdi_x156.html"
+          ]
+        },
+        {
+          "id": "turbo-yag-hatti",
+          "baslik": "Turbo yağ besleme hattı kirlenmesi ve turbo ıslığı",
+          "parca": "Turbo şarj ve yağ besleme/dönüş hattı",
+          "belirtiler": "Soğuk çalıştırmadan sonra 20-40 saniye süren ıslık sesi; ağır vakada turbo yatak boşluğu ve turbo değişimi.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-benzin",
+            "2-0-benzin"
+          ],
+          "not": "Kısa mesafe kullanım yağ dönüş hattının tıkanmasını kolaylaştırıyor. 2015 model yılı için üretici servis kampanyası açıldı.",
+          "kaynaklar": [
+            "https://australiancar.reviews/?p=47345",
+            "https://minbilkoll.se/vanliga-fel/mercedes-benz/gla-200/"
+          ]
+        },
+        {
+          "id": "elektrikli-su-pompasi",
+          "baslik": "Elektrikli su pompası arızası",
+          "parca": "Elektrikli su pompası",
+          "belirtiler": "Motor sıcaklığı uyarısı, ani aşırı ısınma ve motor arıza lambası.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-0-benzin"
+          ],
+          "not": "Pompa ucuz olsa da arıza fark edilmezse motora zarar verebilir. Listers incelemesinde aynı nesilden bir su pompası arızası da geçiyor.",
+          "kaynaklar": [
+            "https://www.rerev.com/years-to-avoid/vehicles/mercedes-benz-gla/",
+            "https://listers.co.uk/reviews/mercedes-benz/gla/212163"
+          ]
+        }
+      ]
+    }
+  ]
+}

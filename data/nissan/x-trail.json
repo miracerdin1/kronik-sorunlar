@@ -1,0 +1,95 @@
+{
+  "marka": "Nissan", "markaSlug": "nissan", "model": "X-Trail", "modelSlug": "x-trail",
+  "nesiller": [{
+    "slug": "x-trail-t32", "ad": "X-Trail (T32)", "yillar": [2014, 2021], "not": null,
+    "motorlar": [
+      {"id": "1-6-dci", "ad": "1.6 dCi", "yakit": "dizel"},
+      {"id": "1-6-dig-t", "ad": "1.6 DIG-T", "yakit": "benzin"}
+    ],
+    "sorunlar": [
+      {
+        "id": "dpf-tikanmasi", "baslik": "DPF (dizel partikül filtresi) tıkanması", "parca": "DPF",
+        "belirtiler": "Gösterge panelinde uyarı lambası yanar, motor güç kısıtlamasına girer. Özellikle şehir içi ve kısa mesafe kullanımda sık görülür; filtre temizliği veya zorla rejenerasyon gerekebilir.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-6-dci"], "sanziman": null,
+        "not": "Uzun ve yüksek devirli yolculuk filtreyi bazen temizler; kalıcı çözüm için profesyonel temizlik önerilir.",
+        "kaynaklar": [
+          "https://www.cargurus.co.uk/research/Nissan-X-Trail-2014-mg28",
+          "https://www.autocar.co.uk/car-review/nissan/x-trail-2014-2021/reliability",
+          "https://www.carbuyer.co.uk/nissan/x-trail/141810/nissan-x-trail-suv-review-2013-2021/owner-reviews",
+          "https://www.wheelstreet.lt/straipsniai/nissan-x-trail-daznos-problemos"
+        ]
+      },
+      {
+        "id": "xtronic-cvt", "baslik": "Xtronic CVT şanzıman tereddüt ve titreme", "parca": "Xtronic CVT şanzıman",
+        "belirtiler": "Duraktan kalkışta titreme, kayış kayması hissi, ıslık veya uğultu, ısınmada güç kaybı ve acil durum moduna geçiş görülebilir. Yağ bakımı ihmal edilirse ömrü kısalır.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": "hepsi", "sanziman": "Xtronic CVT otomatik",
+        "not": "Yaklaşık 60.000 km aralıkla CVT yağı değişimi öneriliyor; bazı tereddütler yazılım güncellemesiyle giderilmiş.",
+        "kaynaklar": [
+          "https://www.wheelstreet.lt/straipsniai/nissan-x-trail-daznos-problemos",
+          "https://www.autocar.co.uk/car-review/nissan/x-trail-2014-2021/reliability",
+          "https://www.cargurus.co.uk/research/Nissan-X-Trail-2014-mg28"
+        ]
+      },
+      {
+        "id": "triger-zinciri-gevsemesi", "baslik": "Triger zinciri uzaması ve gürültüsü", "parca": "Triger zinciri",
+        "belirtiler": "Soğuk çalıştırmada veya rölantide tıkırtı, güç kaybı, düzensiz rölanti ve arıza kodları; kapak çevresinde yağ sızıntısı görülebilir.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["1-6-dci"], "sanziman": null,
+        "not": "Autocar yaklaşık 100.000 mil (160.000 km) civarında değişimi öneriyor.",
+        "kaynaklar": [
+          "https://www.autocar.co.uk/car-review/nissan/x-trail-2014-2021/reliability",
+          "https://www.wheelstreet.lt/straipsniai/nissan-x-trail-daznos-problemos"
+        ]
+      },
+      {
+        "id": "klima-kontrol-unitesi", "baslik": "Klima kontrol ünitesi arızası", "parca": "Klima kontrol ünitesi",
+        "belirtiler": "Klima uyarısız şekilde çalışmayı bırakır veya aralıklı soğutur; iç hava/dış hava konumu rastgele değişebilir. Arıza kodu B24A1 görülebilir.",
+        "km": null, "ciddiyet": "dusuk", "maliyetTl": null,
+        "motorlar": "hepsi", "sanziman": null,
+        "not": "Önce ünitenin besleme ve toprak bağlantıları kontrol edilmeli.",
+        "kaynaklar": [
+          "https://au.haynes.com/blogs/tips-tutorials/nissan-x-trail-mk3-common-problems-2014-2021",
+          "https://www.autocar.co.uk/car-review/nissan/x-trail-2014-2021/reliability",
+          "https://www.carchecker.pro/reports/nissan_xtrail_t32_1.6_digt.html"
+        ]
+      },
+      {
+        "id": "abs-esp-uyari-toprak-kablosu", "baslik": "ABS ve ESP uyarı lambalarının birlikte yanması", "parca": "Sol motor takozu toprak kablosu",
+        "belirtiler": "ABS, ESP ve çekiş kontrol lambaları aynı anda yanar. Sistemlerin kendisi arızalı değildir; genellikle sol motor takozundaki toprak kablosunun temassızlığından kaynaklanır.",
+        "km": null, "ciddiyet": "dusuk", "maliyetTl": null,
+        "motorlar": "hepsi", "sanziman": null,
+        "not": "Kablo sıkılır, gevşek değilse yenilenir.",
+        "kaynaklar": [
+          "https://au.haynes.com/blogs/tips-tutorials/nissan-x-trail-mk3-common-problems-2014-2021",
+          "https://www.carchecker.pro/reports/nissan_xtrail_t32_1.6_digt.html"
+        ]
+      },
+      {
+        "id": "multimedya-donmasi", "baslik": "Multimedya ekranı donması ve elektronik aksaklıklar", "parca": "Multimedya / NissanConnect",
+        "belirtiler": "Ekran donar, geç açılır veya yeniden başlar; navigasyon yolculuk ortasında sıfırlanabilir. Park kamerasında da elektrik kaynaklı aksaklıklar bildirilmiş.",
+        "km": null, "ciddiyet": "dusuk", "maliyetTl": null,
+        "motorlar": "hepsi", "sanziman": null,
+        "not": null,
+        "kaynaklar": [
+          "https://www.carbuyer.co.uk/nissan/x-trail/141810/nissan-x-trail-suv-review-2013-2021/owner-reviews",
+          "https://www.autocar.co.uk/car-review/nissan/x-trail-2014-2021/reliability",
+          "https://www.cargurus.co.uk/research/Nissan-X-Trail-2014-mg28",
+          "https://www.wheelstreet.lt/straipsniai/nissan-x-trail-daznos-problemos"
+        ]
+      },
+      {
+        "id": "cam-tavan-su-sizintisi", "baslik": "Cam tavan tahliye tıkanması ve su sızıntısı", "parca": "Cam tavan sızdırmazlık ve tahliye kanalları",
+        "belirtiler": "Tahliye kanalları tıkanınca su kabine girer; tavan döşemesinde lekeler, halıda nem ve küf kokusu oluşur.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": "hepsi", "sanziman": null,
+        "not": "Tahliye kanallarının periyodik temizliği önerilir.",
+        "kaynaklar": [
+          "https://www.autocar.co.uk/car-review/nissan/x-trail-2014-2021/reliability",
+          "https://www.wheelstreet.lt/straipsniai/nissan-x-trail-daznos-problemos"
+        ]
+      }
+    ]
+  }]
+}

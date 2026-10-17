@@ -1,0 +1,127 @@
+{
+  "marka": "Toyota",
+  "markaSlug": "toyota",
+  "model": "Land Cruiser Prado",
+  "modelSlug": "land-cruiser-prado",
+  "nesiller": [
+    {
+      "slug": "prado-j150",
+      "ad": "Land Cruiser Prado (J150)",
+      "yillar": [
+        2009,
+        2023
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "3-0-d-4d",
+          "ad": "3.0 D-4D (1KD-FTV)",
+          "yakit": "dizel"
+        },
+        {
+          "id": "2-8-d-4d",
+          "ad": "2.8 D-4D (1GD-FTV)",
+          "yakit": "dizel"
+        },
+        {
+          "id": "2-7-vvt-i",
+          "ad": "2.7 VVT-i (2TR-FE)",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "1kd-piston-catlagi",
+          "baslik": "3.0 dizelde piston çatlaması",
+          "parca": "Piston",
+          "belirtiler": "Şiddetli vuruntu sesi, siyah egzoz dumanı, güç kaybı, motorun üç silindire düşmesi ve karter basıncının artması görülür.",
+          "km": "100.000-150.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "3-0-d-4d"
+          ],
+          "not": "Euro 4 dönemi (2009-2014) motorlarında görülür; Toyota servis bülteni yayımladı, geri çağırma yapmadı. 2014 başından itibaren piston ve enjektör revize edildi. Chip tuning ve uzun süreli ağır yük riski artırır.",
+          "kaynaklar": [
+            "https://www.australiancar.reviews/?p=47886",
+            "https://carsguide.com.au/toyota/landcruiser-prado/problems",
+            "https://unsealed4x4.com.au/toyota-prado-150-problems/"
+          ]
+        },
+        {
+          "id": "1kd-enjektor-arizasi",
+          "baslik": "3.0 dizelde enjektör arızası",
+          "parca": "Common-rail enjektörleri",
+          "belirtiler": "Özellikle soğukken vuruntu, yüksek yakıt tüketimi, düzensiz rölanti ve yük altında düzensiz çalışma.",
+          "km": "100.000-140.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "3-0-d-4d"
+          ],
+          "not": "Toyota yaklaşık 100.000 km'de enjektör kontrolü/değişimi öneriyor; zayıf enjektör rondelaları ve piston hasarıyla ilişkilendiriliyor.",
+          "kaynaklar": [
+            "https://www.australiancar.reviews/?p=47886",
+            "https://unsealed4x4.com.au/toyota-prado-150-problems/",
+            "https://willysworkshop.com.au/toyota-prado-tuning/"
+          ]
+        },
+        {
+          "id": "2-8-dpf-tikanmasi",
+          "baslik": "2.8 dizelde DPF tıkanması",
+          "parca": "Dizel partikül filtresi (DPF)",
+          "belirtiler": "Arıza lambası, fazla egzoz dumanı, yakıt tüketiminde artış, güç kaybı ve limp moda geçiş. Kısa şehir içi sürüşlerde daha sık görülür.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-8-d-4d"
+          ],
+          "not": "2015-2018 araçlarda belirgin; Toyota 2017'de yazılımla daha uzun ve sıcak rejenerasyon uyguladı, sonraki üretimlerde büyük oranda azaldı. Tıkanmış filtre rejenere olmazsa değişir.",
+          "kaynaklar": [
+            "https://www.australiancar.reviews/?p=47886",
+            "https://unsealed4x4.com.au/toyota-prado-150-problems/",
+            "https://www.westsideauto.com.au/news/toyota-landcruiser-prado-150-series-a-buyers-guide",
+            "https://www.jdmbuysell.com/learn/toyota/land-cruiser-prado/j150/"
+          ]
+        },
+        {
+          "id": "2-8-toz-limp-mod",
+          "baslik": "2.8 dizelde toz kaynaklı limp mod",
+          "parca": "Hava debimetresi (MAF) / hava filtre kutusu",
+          "belirtiler": "İnce toz hava filtresini geçip debimetreyi etkiler; ani güç kaybı, limp mod ve çekiş/denge kontrolünün devre dışı kalması.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-8-d-4d"
+          ],
+          "not": "Toyota 2017 bülteninde tozlu ortamda hava filtresini sık değiştirmeyi ve debimetreyi basınçlı havayla temizlemeyi öneriyor.",
+          "kaynaklar": [
+            "https://www.australiancar.reviews/?p=47886",
+            "https://unsealed4x4.com.au/toyota-prado-150-problems/"
+          ]
+        },
+        {
+          "id": "dizel-egr-kurumlanmasi",
+          "baslik": "Dizellerde EGR ve emme kanalında kurumlanma",
+          "parca": "EGR valfi / EGR soğutucusu",
+          "belirtiler": "Hava akışı kısıtlanır; performans ve yakıt ekonomisi düşer, siyah duman ve arıza lambası görülebilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "3-0-d-4d",
+            "2-8-d-4d"
+          ],
+          "not": "Kaynaklar EGR/emme temizliğini yaklaşık 50.000-100.000 km aralığında öneriyor; kısa mesafe kullanımı birikimi artırır.",
+          "kaynaklar": [
+            "https://www.westsideauto.com.au/news/toyota-landcruiser-prado-150-series-a-buyers-guide",
+            "https://unsealed4x4.com.au/toyota-prado-150-problems/",
+            "https://carsguide.com.au/toyota/landcruiser-prado/problems"
+          ]
+        }
+      ]
+    }
+  ]
+}

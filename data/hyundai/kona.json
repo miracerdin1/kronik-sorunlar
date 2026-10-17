@@ -1,0 +1,40 @@
+{
+  "marka": "Hyundai", "markaSlug": "hyundai", "model": "Kona", "modelSlug": "kona",
+  "nesiller": [{
+    "slug": "kona-os", "ad": "Kona (OS)", "yillar": [2017, 2023], "not": null,
+    "motorlar": [
+      {"id": "1-0-t-gdi", "ad": "1.0 T-GDI", "yakit": "benzin"},
+      {"id": "1-6-t-gdi", "ad": "1.6 T-GDI", "yakit": "benzin"},
+      {"id": "1-6-crdi", "ad": "1.6 CRDi", "yakit": "dizel"},
+      {"id": "elektrik", "ad": "Kona Electric", "yakit": "elektrik"}
+    ],
+    "sorunlar": [
+      {
+        "id": "dct-cekis-titreme", "baslik": "Çift kavramalı şanzımanda kalkışta çekme ve titreme", "parca": "7 ileri DCT şanzıman / kavrama",
+        "belirtiler": "Dururken kalkışta tereddüt, çekme ve titreme hissedilir; trafikte aşırı ısınma uyarısı gelebilir. Bazı araçlarda servis ziyaretlerine rağmen sorun tam geçmez.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-6-t-gdi", "1-6-crdi"],
+        "sanziman": "7 ileri DCT otomatik",
+        "not": "Resmi geri çağırma yok; bazı yetkili servisler durumu normal karşılayabiliyor. Şanzıman yağı bakımı ihmal edilmemeli.",
+        "kaynaklar": [
+          "https://faultfile.co.uk/cars/hyundai-kona",
+          "https://motorillustrated.com/hyundai-kona-2018-2023-problems-reliability/194299/",
+          "https://www.sikayetvar.com/hyundai-motor/kona/ariza",
+          "https://forum.donanimhaber.com/hyundai-kona-2018-1-6-t-gdi-4x4-alinir-mi--161567204"
+        ]
+      },
+      {
+        "id": "dpf-tikanmasi-dizel", "baslik": "Dizelde DPF uyarısı ve tıkanma", "parca": "Dizel partikül filtresi (DPF) / EGR",
+        "belirtiler": "Zorla rejenerasyon sonrası bile DPF uyarı lambası tekrar yanar; kısa mesafe kullanımda sık görülür. Güç kısıtlaması ve yakıt tüketiminde artış olabilir.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-6-crdi"],
+        "not": "Şikayetlerde garanti kapsamı tartışmaları sık geçiyor; ağırlıklı şehir içi kullanımda risk artıyor.",
+        "kaynaklar": [
+          "https://faultfile.co.uk/cars/hyundai-kona",
+          "https://www.sikayetvar.com/hyundai-motor/kona/kona-dizel",
+          "https://www.sikayetvar.com/hyundai-motor/kona/ariza"
+        ]
+      }
+    ]
+  }]
+}
