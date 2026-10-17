@@ -1,0 +1,156 @@
+{
+  "marka": "BMW",
+  "markaSlug": "bmw",
+  "model": "1 Serisi",
+  "modelSlug": "1-serisi",
+  "nesiller": [
+    {
+      "slug": "1-serisi-f20",
+      "ad": "1 Serisi (F20)",
+      "yillar": [
+        2011,
+        2019
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "116i",
+          "ad": "116i (N13)",
+          "yakit": "benzin"
+        },
+        {
+          "id": "118i",
+          "ad": "118i (N13)",
+          "yakit": "benzin"
+        },
+        {
+          "id": "116d",
+          "ad": "116d",
+          "yakit": "dizel"
+        },
+        {
+          "id": "118d",
+          "ad": "118d",
+          "yakit": "dizel"
+        },
+        {
+          "id": "120d",
+          "ad": "120d",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "zamanlama-zinciri-gevsemesi",
+          "baslik": "Triger zinciri uzaması ve gürültüsü",
+          "parca": "Triger zinciri ve gergisi",
+          "belirtiler": "Soğuk çalıştırmada motorun arkasından metalik zincir sesi gelir, arıza lambası yanabilir, ihmal edilirse zincir atlayıp motor ağır hasar görebilir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "116i",
+            "118i",
+            "116d",
+            "118d",
+            "120d"
+          ],
+          "sanziman": null,
+          "not": "Özellikle erken N47 dizeller ve N13 benzinli motorlarda anılıyor; fiches-auto verilerinde en çok 116i 136 hp motorda görülüyor.",
+          "kaynaklar": [
+            "https://www.whatcar.com/bmw/1-series/hatchback/used-review/n798/reliability",
+            "https://www.fiches-auto.fr/fiabilite-bmw/fiabilite-340-pannes-bmw-serie-1.php",
+            "https://www.whocanfixmycar.com/advice/bmw-1-series-common-problems",
+            "https://www.clickmechanic.com/blog/common-problems-with-bmw-1-series/"
+          ]
+        },
+        {
+          "id": "egr-valfi-tikanmasi",
+          "baslik": "EGR valfi ve emme sisteminde tıkanma/kaçak",
+          "parca": "EGR valfi, emme manifoldu",
+          "belirtiler": "Güç kaybı, düzensiz rölanti, arıza lambası ve kısa mesafe kullanımda DPF rejenerasyon sorunları görülebilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "116d",
+            "118d",
+            "120d"
+          ],
+          "sanziman": null,
+          "not": "Bazı EGR ile ilgili geri çağırmalar olduğu için işlemlerin yapılıp yapılmadığı kontrol edilmeli.",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-bmw/fiabilite-340-pannes-bmw-serie-1.php",
+            "https://www.whatcar.com/bmw/1-series/hatchback/used-review/n798/reliability",
+            "https://www.clickmechanic.com/blog/common-problems-with-bmw-1-series/"
+          ]
+        },
+        {
+          "id": "arka-stop-led-sonmesi",
+          "baslik": "Arka stop LED'lerinde sönükleşme",
+          "parca": "Arka stop lambası (LED)",
+          "belirtiler": "Arka stop lambalarından biri diğerine göre zamanla sönük yanar veya tamamen söner; gece görüş ve güvenlik riski oluşturur.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": null,
+          "not": "Şikayetvar'da özellikle 2012-2014 üretim araçlarda yoğun; birçok olayda yetkili serviste ücretsiz parça değişimi yapılmış.",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/bmw/f20-arka-stop",
+            "https://forum.donanimhaber.com/bmw-f20-kronik-sorunlari--149134695"
+          ]
+        },
+        {
+          "id": "on-cam-alti-plastik-bozulmasi",
+          "baslik": "Ön cam altı plastik (ızgara) bozulması",
+          "parca": "Ön cam altı panjur/ızgara plastiği",
+          "belirtiler": "Ön cam dibindeki plastik yumuşayıp yapış yapış olur, elle bastırınca şekil bozulur; bazı araçlarda garanti içinde değiştirilmiş.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": null,
+          "not": "Tüm üretimlerde değil, bazı partilerde görüldüğü belirtiliyor.",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/bmw-f20-kronik-sorunlari--149134695"
+          ]
+        },
+        {
+          "id": "motor-bolmesi-su-tahliyesi-elektrik",
+          "baslik": "Tıkanan su tahliye kanalları ve elektrik arızaları",
+          "parca": "Motor bölmesi su tahliye kanalları",
+          "belirtiler": "Yaprak ve çöp tahliye kanallarını tıkar, su birikir; elektrik arızaları ve bagaj/koltuk altına su sızması görülebilir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": null,
+          "not": "Kanalları yılda birkaç kez temizlemek sorunu önler.",
+          "kaynaklar": [
+            "https://www.whocanfixmycar.com/advice/bmw-1-series-common-problems",
+            "https://www.carbuyer.co.uk/reviews/bmw/series-1/hatchback/53873/reliability",
+            "https://gaga.ba/en/najcesci-kvarovi/bmw-f20-118d"
+          ]
+        },
+        {
+          "id": "suspansiyon-tikirdamasi",
+          "baslik": "Süspansiyondan vuruntu/tıkırtı",
+          "parca": "Arka amortisör ve burçlar",
+          "belirtiler": "Bozuk yollarda arkadan vuruntu ve tıkırtı sesi gelir; çoğunlukla aşınmış arka amortisör veya burçlar sebebidir.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": null,
+          "not": null,
+          "kaynaklar": [
+            "https://www.whocanfixmycar.com/advice/bmw-1-series-common-problems",
+            "https://www.carbuyer.co.uk/reviews/bmw/series-1/hatchback/53873/reliability",
+            "https://www.whatcar.com/bmw/1-series/hatchback/used-review/n798/reliability"
+          ]
+        }
+      ]
+    }
+  ]
+}

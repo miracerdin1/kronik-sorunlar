@@ -1,0 +1,85 @@
+{
+  "marka": "Ford", "markaSlug": "ford", "model": "Transit Connect", "modelSlug": "transit-connect",
+  "nesiller": [{
+    "slug": "transit-connect-2", "ad": "Transit Connect / Tourneo Connect (2. nesil)", "yillar": [2013, 2022], "not": null,
+    "motorlar": [
+      {"id": "1-0-ecoboost", "ad": "1.0 EcoBoost", "yakit": "benzin"},
+      {"id": "1-5-tdci", "ad": "1.5 TDCi / EcoBlue", "yakit": "dizel"},
+      {"id": "1-6-tdci", "ad": "1.6 TDCi", "yakit": "dizel"}
+    ],
+    "sorunlar": [
+      {
+        "id": "dpf-tikanmasi", "baslik": "Dizel partikül filtresi (DPF) tıkanması", "parca": "DPF",
+        "belirtiler": "DPF uyarı lambası yanar, güç kaybı ve acil durum (limp) modu görülür; kısa mesafe ve şehir içi kullanımda rejenerasyon tamamlanamaz.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-5-tdci", "1-6-tdci"],
+        "not": "Almanca kaynak 1.6 TDCi'de bu sorunun 120.000 km civarında bile başlayabildiğini belirtiyor.",
+        "kaynaklar": [
+          "https://gebrauchtwagenberater.de/ford-tourneo-connect-mk2-probleme/",
+          "https://www.rac.co.uk/drive/car-reviews/ford/tourneo-connect/tourneo-connect-2012-2021/",
+          "https://motorloom.co.uk/blog/make/ford/ford-tourneo-connect.html",
+          "https://www.carchecker.pro/reports/ford_transit_connect_mk2_1.5_tdci.html"
+        ]
+      },
+      {
+        "id": "egr-valfi-kirlenmesi", "baslik": "EGR valfi kurumlanması", "parca": "EGR valfi",
+        "belirtiler": "Rölantide düzensizlik, gaz verirken tereddüt ve motor arıza lambası.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-5-tdci", "1-6-tdci"],
+        "not": null,
+        "kaynaklar": [
+          "https://gebrauchtwagenberater.de/ford-tourneo-connect-mk2-probleme/",
+          "https://motorloom.co.uk/blog/make/ford/ford-tourneo-connect.html",
+          "https://www.carchecker.pro/reports/ford_transit_connect_mk2_1.5_tdci.html"
+        ]
+      },
+      {
+        "id": "turbo-arizasi", "baslik": "Turbo arızası ve yağ besleme borusu tıkanması", "parca": "Turbo",
+        "belirtiler": "Artan turbo ıslığı, mavi-gri duman, güç kaybı ve motor arıza lambası.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["1-5-tdci", "1-6-tdci"],
+        "not": "Zayıf kaynak yalnızca 1.6 TDCi için yağ besleme borusunun 100.000-120.000 km'de önlem olarak değiştirilmesini öneriyor.",
+        "kaynaklar": [
+          "https://gebrauchtwagenberater.de/ford-tourneo-connect-mk2-probleme/",
+          "https://www.carchecker.pro/reports/ford_tourneo_connect_mk2_1.6_tdci.html"
+        ]
+      },
+      {
+        "id": "volan-debriyaj", "baslik": "Çift kütleli volan (DMF) ve debriyaj aşınması", "parca": "Volan / debriyaj",
+        "belirtiler": "Rölantide metalik çıngırtı (debriyaja basınca kesilir), pedalda titreşim ve vites geçişinde zorlanma.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-5-tdci", "1-6-tdci"],
+        "sanziman": "manuel",
+        "not": "Ticari, dur-kalk yoğun kullanımda daha erken bozulduğu belirtiliyor.",
+        "kaynaklar": [
+          "https://gebrauchtwagenberater.de/ford-tourneo-connect-mk2-probleme/",
+          "https://www.carchecker.pro/reports/ford_transit_connect_mk2_1.5_tdci.html"
+        ]
+      },
+      {
+        "id": "islak-triger-kayisi", "baslik": "Yağ içinde çalışan triger kayışı (ıslak kayış) riski", "parca": "Triger kayışı",
+        "belirtiler": "Kayış yanlış yağ veya geciken bakımla dağılırsa parçacıklar yağ kanallarını tıkar ve ani motor hasarına yol açabilir; belirgin bir ön uyarı olmayabilir.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["1-0-ecoboost"],
+        "not": "Üretici önerisi yağ ve bakım aralıklarına sıkı uymak; geçmişi belirsiz araçtan kaçınılması öneriliyor.",
+        "kaynaklar": [
+          "https://gebrauchtwagenberater.de/ford-tourneo-connect-mk2-probleme/",
+          "https://isitagoodcar.com/problems/ford/tourneo-connect"
+        ]
+      },
+      {
+        "id": "surgulu-kapi-mandali", "baslik": "Sürgülü kapı mandalı ve makara aşınması", "parca": "Sürgülü kapı mandalı / makara",
+        "belirtiler": "Kapı zor açılır, tam kilitlenmez veya kapı açık uyarısı verir; mandal yayı kırılırsa kapı kapanmaz.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "not": "ABD'de aynı kasa için mandalla ilgili geri çağırmalar yapıldı.",
+        "kaynaklar": [
+          "https://isitagoodcar.com/problems/ford/tourneo-connect",
+          "https://motorloom.co.uk/blog/make/ford/ford-tourneo-connect.html",
+          "https://www.carcomplaints.com/Ford/Transit_Connect/2015/accessories-exterior/latches_locks_linkages.shtml",
+          "https://fordtransitconnectforum.com/topic/3112-driver-side-sliding-door-fail-2014-lwb/"
+        ]
+      }
+    ]
+  }]
+}

@@ -1,0 +1,63 @@
+{
+  "marka": "Ford", "markaSlug": "ford", "model": "C-Max", "modelSlug": "c-max",
+  "nesiller": [{
+    "slug": "c-max-2", "ad": "C-Max (2. nesil)", "yillar": [2010, 2019], "not": "Grand C-Max dahil.",
+    "motorlar": [
+      {"id": "1-6-tdci", "ad": "1.6 TDCi", "yakit": "dizel"},
+      {"id": "1-5-tdci", "ad": "1.5 TDCi", "yakit": "dizel"},
+      {"id": "2-0-tdci", "ad": "2.0 TDCi", "yakit": "dizel"},
+      {"id": "1-0-ecoboost", "ad": "1.0 EcoBoost", "yakit": "benzin"},
+      {"id": "1-5-ecoboost", "ad": "1.5 EcoBoost", "yakit": "benzin"},
+      {"id": "1-6-ecoboost", "ad": "1.6 EcoBoost", "yakit": "benzin"},
+      {"id": "1-6-ti-vct", "ad": "1.6 Ti-VCT", "yakit": "benzin"}
+    ],
+    "sorunlar": [
+      {
+        "id": "dizel-enjektor-arizasi", "baslik": "1.6 TDCi enjektör arızaları", "parca": "Common-rail enjektörler",
+        "belirtiler": "Motor sarsılarak çalışır, güç kaybı yaşanır ve arıza lambası yanabilir. Enjektörler erken yaşta tutukluk yapar veya bozulur.",
+        "km": "58.000-120.000", "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-6-tdci"],
+        "kaynaklar": [
+          "https://www.fiches-auto.fr/fiabilite-ford/fiabilite-318-pannes-ford-c-max.php",
+          "https://www.caradisiac.com/que-vaut-le-ford-c-max-2-en-occasion-la-fiche-fiabilite-express-de-caradisiac-222571.htm",
+          "https://autocar.co.uk/node/964"
+        ]
+      },
+      {
+        "id": "ecoboost-sogutma-sizintisi", "baslik": "EcoBoost motorlarda soğutma suyu hortumu ve aşırı ısınma", "parca": "Soğutma suyu hortumları / devridaim",
+        "belirtiler": "Soğutma suyu seviyesi düşer, motor aşırı ısınabilir; ağır vakalarda silindir kapağı çatlaması ve yağ sızıntısı görülür.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["1-0-ecoboost", "1-6-ecoboost"],
+        "not": "Ford bazı üretim dönemleri için hortum ve sensör düzeltmeleri yaptı; kontrol için yetkili servise başvurulmalı.",
+        "kaynaklar": [
+          "https://www.caradisiac.com/que-vaut-le-ford-c-max-2-en-occasion-la-fiche-fiabilite-express-de-caradisiac-222571.htm",
+          "https://autocar.co.uk/node/964",
+          "https://www.expressandstar.com/news/motors/2018/10/01/ford-to-pay-for-repairs-of-ecoboost-engine-fault",
+          "https://www.fiches-auto.fr/fiabilite-ford/fiabilite-318-pannes-ford-c-max.php"
+        ]
+      },
+      {
+        "id": "yagda-calisan-triger-kayisi", "baslik": "1.0 EcoBoost yağda çalışan triger kayışının dağılması", "parca": "Yağ banyosunda çalışan triger kayışı / yağ pompası emiş süzgeci",
+        "belirtiler": "Kayıştan kopan parçacıklar yağ pompası süzgecini tıkar, yağ basıncı düşer; düşük yağ basıncı uyarısı sonrası motor güç kaybeder veya kilitlenebilir.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["1-0-ecoboost"],
+        "not": "Ford kayış değişim aralığını kısalttı; bakım aralığına uyulması önemli.",
+        "kaynaklar": [
+          "https://www.caradisiac.com/que-vaut-le-ford-c-max-2-en-occasion-la-fiche-fiabilite-express-de-caradisiac-222571.htm",
+          "https://www.autoevolution.com/news/ford-10l-ecoboost-wet-timing-belt-investigation-deepens-due-to-the-risk-of-sudden-engine-failure-273757.html"
+        ]
+      },
+      {
+        "id": "debriyaj-ve-volan", "baslik": "Manuel şanzımanda erken debriyaj ve volan aşınması", "parca": "Debriyaj seti / çift kütleli volan",
+        "belirtiler": "Kalkışta titreme, debriyajın kavramaması veya pedal hissinde değişiklik; volan arızasında vites geçişlerinde gürültü ve sarsıntı.",
+        "km": "65.000-108.000", "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "sanziman": "manuel",
+        "kaynaklar": [
+          "https://www.fiches-auto.fr/fiabilite-ford/fiabilite-318-pannes-ford-c-max.php",
+          "https://autocar.co.uk/node/964"
+        ]
+      }
+    ]
+  }]
+}

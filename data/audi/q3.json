@@ -1,0 +1,62 @@
+{
+  "marka": "Audi", "markaSlug": "audi", "model": "Q3", "modelSlug": "q3",
+  "nesiller": [{
+    "slug": "q3-8u", "ad": "Q3 (8U)", "yillar": [2011, 2018], "not": null,
+    "motorlar": [
+      {"id": "1-4-tfsi", "ad": "1.4 TFSI", "yakit": "benzin"},
+      {"id": "2-0-tfsi", "ad": "2.0 TFSI", "yakit": "benzin"},
+      {"id": "2-0-tdi", "ad": "2.0 TDI", "yakit": "dizel"}
+    ],
+    "sorunlar": [
+      {
+        "id": "tfsi-triger-zinciri-gerdirici", "baslik": "2.0 TFSI triger zinciri gergisi ve uzaması", "parca": "Triger zinciri / zincir gergisi",
+        "belirtiler": "Soğuk çalıştırmada birkaç saniye süren metalik tıkırtı, kam/krank zamanlama hata kodları (P0016, P0017), düzensiz rölanti. Önlenmezse motor hasarına gider.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["2-0-tfsi"],
+        "not": "Özellikle ilk yıllarda (2011-2015) görülen EA888 kaynaklı bir zayıf nokta olarak anılıyor.",
+        "kaynaklar": ["https://kfz-dietrich.com/blog/vw-diagnose-audi-q3-8u-f3-typische-probleme/", "https://kicktyres.com/inspections/audi/q3", "https://www.wheelstreet.lt/ru/straipsniai/ar-verta-pirkti-audi-q3", "https://rerev.com/articles/audi-q3-years-to-avoid/"]
+      },
+      {
+        "id": "tfsi-yag-tuketimi", "baslik": "2.0 TFSI aşırı yağ tüketimi", "parca": "Piston segmanları / karter havalandırma",
+        "belirtiler": "Sık yağ ekleme ihtiyacı, sert gazda mavi duman, yağ uyarı lambası. Bazı kullanıcılar karter basıncı uyarısı bildiriyor.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["2-0-tfsi"],
+        "not": null,
+        "kaynaklar": ["https://kfz-dietrich.com/blog/vw-diagnose-audi-q3-8u-f3-typische-probleme/", "https://kicktyres.com/inspections/audi/q3", "https://www.wheelstreet.lt/ru/straipsniai/ar-verta-pirkti-audi-q3", "https://www.fiches-auto.fr/fiabilite-audi/fiabilite-342-pannes-audi-q3.php"]
+      },
+      {
+        "id": "s-tronic-sanziman", "baslik": "S tronic çift kavramalı şanzıman sarsıntısı ve mekatronik arızası", "parca": "S tronic şanzıman / mekatronik / kavrama",
+        "belirtiler": "Soğukta ve düşük hızda kalkışta tekleme-sarsıntı, sert 1-2 ve 2-3 geçişleri, şanzıman uyarı lambası. Yağ bakımı ihmal edilirse mekatronik ve kavrama aşınır.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "sanziman": "S tronic çift kavramalı otomatik",
+        "not": "Yağ/filtre değişimi aralığına uyulması önerilir.",
+        "kaynaklar": ["https://carwiki.de/audi-q3-probleme", "https://www.wheelstreet.lt/ru/straipsniai/ar-verta-pirkti-audi-q3", "https://kicktyres.com/inspections/audi/q3"]
+      },
+      {
+        "id": "haldex-yagi-kavrama", "baslik": "Haldex (quattro) kavrama yağı çamurlaşması ve arka aks gecikmesi", "parca": "Haldex arka aks kavraması / pompa",
+        "belirtiler": "Arka aksın geç devreye girmesi, çekişte kayıp, pompa motoru aşırı yüklenmesi ve kontrol ünitesinde hata kaydı. Yağ-filtre bakımı unutulunca ortaya çıkıyor.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "not": "Yalnızca quattro donanımlı araçlarda geçerli.",
+        "kaynaklar": ["https://kfz-dietrich.com/blog/vw-diagnose-audi-q3-8u-f3-typische-probleme/", "https://www.wheelstreet.lt/ru/straipsniai/ar-verta-pirkti-audi-q3", "https://tuteorica.com/blog/blog-noticias/5-problemas-principales-de-los-audi-q3-usados-de-primera-generacion/", "https://kicktyres.com/inspections/audi/q3"]
+      },
+      {
+        "id": "tfsi-su-pompasi-termostat", "baslik": "TFSI su pompası ve termostat kaçağı / arızası", "parca": "Su pompası / termostat gövdesi",
+        "belirtiler": "Soğutma suyu kaybı, ısınma sorunu, termostat takılırsa aşırı ısınma riski; plastik çarklı pompa aşınır.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-4-tfsi", "2-0-tfsi"],
+        "not": null,
+        "kaynaklar": ["https://tuteorica.com/blog/blog-noticias/5-problemas-principales-de-los-audi-q3-usados-de-primera-generacion/", "https://www.wheelstreet.lt/ru/straipsniai/ar-verta-pirkti-audi-q3", "https://kicktyres.com/inspections/audi/q3"]
+      },
+      {
+        "id": "tdi-dpf-egr", "baslik": "2.0 TDI DPF tıkanması ve EGR kirlenmesi", "parca": "Dizel partikül filtresi / EGR valfi",
+        "belirtiler": "DPF uyarı lambası, güç kaybı (acil durum modu), kısa mesafe kullanımda rejenerasyonun tamamlanmaması; EGR kirlenmesinde düzensiz rölanti ve siyah duman.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["2-0-tdi"],
+        "not": "Ağırlıklı şehir içi kısa mesafe kullanımda daha sık görülür.",
+        "kaynaklar": ["https://kfz-dietrich.com/blog/vw-diagnose-audi-q3-8u-f3-typische-probleme/", "https://www.wheelstreet.lt/ru/straipsniai/ar-verta-pirkti-audi-q3", "https://kicktyres.com/inspections/audi/q3"]
+      }
+    ]
+  }]
+}

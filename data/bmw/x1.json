@@ -1,0 +1,67 @@
+{
+  "marka": "BMW", "markaSlug": "bmw", "model": "X1", "modelSlug": "x1",
+  "nesiller": [{
+    "slug": "x1-f48", "ad": "X1 (F48)", "yillar": [2015, 2022], "not": null,
+    "motorlar": [
+      {"id": "1-5-18i", "ad": "sDrive18i 1.5", "yakit": "benzin"},
+      {"id": "2-0-20i", "ad": "sDrive20i / xDrive20i 2.0", "yakit": "benzin"},
+      {"id": "1-5-16d", "ad": "sDrive16d 1.5", "yakit": "dizel"},
+      {"id": "2-0-18d", "ad": "sDrive18d 2.0", "yakit": "dizel"},
+      {"id": "2-0-20d", "ad": "xDrive20d 2.0", "yakit": "dizel"}
+    ],
+    "sorunlar": [
+      {
+        "id": "egr-valfi-arizasi", "baslik": "EGR valfi arızası", "parca": "EGR valfi / EGR soğutucusu",
+        "belirtiler": "Motor arıza lambası, güç kaybı ve düzensiz rölanti; soğutucu sızdırıyorsa sebepsiz soğutma suyu eksilmesi görülür.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-5-16d", "2-0-18d", "2-0-20d"],
+        "sanziman": null,
+        "not": "Fransız kullanıcı verilerinde en sık geçen arıza; EGR soğutucusu için geri çağırma yapıldı.",
+        "kaynaklar": ["https://www.fiches-auto.fr/fiabilite-bmw/fiabilite-535-pannes-bmw-x1.php", "https://www.caradisiac.com/maxi-fiche-fiabilite-bmw-x1-f48-216379.htm"]
+      },
+      {
+        "id": "otomatik-sanziman-arizasi", "baslik": "Otomatik şanzıman arızaları", "parca": "Otomatik şanzıman",
+        "belirtiler": "Vites geçişlerinde vuruntu veya tereddüt, arıza uyarısı; ağır durumda şanzımanın komple değişmesi gerekebilir.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["2-0-18d", "2-0-20d"],
+        "sanziman": "8 ileri otomatik",
+        "not": "Sayfalardaki örnek sayısı küçük; dizel motorlarda raporlanmış.",
+        "kaynaklar": ["https://www.fiches-auto.fr/fiabilite-bmw/fiabilite-535-pannes-bmw-x1.php", "https://www.caradisiac.com/maxi-fiche-fiabilite-bmw-x1-f48-216379.htm"]
+      },
+      {
+        "id": "xdrive-arka-diferansiyel", "baslik": "xDrive arka diferansiyel gürültüsü", "parca": "Arka diferansiyel / aktarma organı",
+        "belirtiler": "Arkadan gıcırtı ve gürültü, dönüşlerde şasi titreşimi; yağ değişimi çözmezse parça değişimi gerekebilir.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "sanziman": null,
+        "not": "Yalnızca xDrive (dört çeker) versiyonlar; diferansiyel ve transfer yağının düzenli değişimi öneriliyor.",
+        "kaynaklar": ["https://www.caradisiac.com/maxi-fiche-fiabilite-bmw-x1-f48-216379.htm", "https://www.bmwblog.com/?p=504255", "https://www.fiches-auto.fr/fiabilite-bmw/fiabilite-535-pannes-bmw-x1.php"]
+      },
+      {
+        "id": "on-takim-sesleri", "baslik": "Ön takımdan gelen tıkırtı ve vuruntu sesleri", "parca": "Alt salıncak / burç / amortisör takozu",
+        "belirtiler": "Bozuk zeminde ve tümseklerde ön taraftan tıkırtı, vuruntu veya gıcırtı.",
+        "km": null, "ciddiyet": "dusuk", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "sanziman": null, "not": null,
+        "kaynaklar": ["https://www.caradisiac.com/maxi-fiche-fiabilite-bmw-x1-f48-216379.htm", "https://wapcar.my/news/used-f48-bmw-x1--premium-suv-for-hrv-money-whats-the-catch-57388", "https://parkers.co.uk/bmw/x1/suv-2015/used-review"]
+      },
+      {
+        "id": "multimedya-idrive-hatalari", "baslik": "Multimedya / iDrive ekran hataları", "parca": "iDrive multimedya ünitesi",
+        "belirtiler": "Ekran kararması, donma, gecikme; navigasyon ve Bluetooth hataları. Genellikle yeniden yazılımla düzelir.",
+        "km": null, "ciddiyet": "dusuk", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "sanziman": null, "not": null,
+        "kaynaklar": ["https://www.caradisiac.com/maxi-fiche-fiabilite-bmw-x1-f48-216379.htm", "https://parkers.co.uk/bmw/x1/suv-2015/used-review", "https://www.whatcar.com/bmw/x1/estate/used-review/n812/reliability", "https://www.whocanfixmycar.com/advice/common-problems-with-the-bmw-x1"]
+      },
+      {
+        "id": "dizel-dpf-tikanmasi", "baslik": "Dizel partikül filtresi (DPF) tıkanması", "parca": "DPF",
+        "belirtiler": "Kısa mesafe kullanımda filtre rejenerasyonu tamamlanamaz; emisyon uyarısı ve güç kaybı oluşur.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-5-16d", "2-0-18d", "2-0-20d"],
+        "sanziman": null,
+        "not": "Şehir içi kısa yolculuk kullanımında risk artıyor.",
+        "kaynaklar": ["https://www.whatcar.com/bmw/x1/estate/used-review/n812/reliability", "https://www.whocanfixmycar.com/advice/common-problems-with-the-bmw-x1"]
+      }
+    ]
+  }]
+}

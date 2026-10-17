@@ -1,0 +1,60 @@
+{
+  "marka": "Ford", "markaSlug": "ford", "model": "EcoSport", "modelSlug": "ecosport",
+  "nesiller": [{
+    "slug": "ecosport-2", "ad": "EcoSport (2. nesil)", "yillar": [2013, 2022], "not": null,
+    "motorlar": [
+      {"id": "1-0-ecoboost", "ad": "1.0 EcoBoost", "yakit": "benzin"},
+      {"id": "1-5-ti-vct", "ad": "1.5 Ti-VCT", "yakit": "benzin"},
+      {"id": "1-5-tdci", "ad": "1.5 TDCi", "yakit": "dizel"}
+    ],
+    "sorunlar": [
+      {
+        "id": "yag-pompasi-kayisi-yag-basinci", "baslik": "Yağ pompası kayışı ve yağ basıncı kaybı", "parca": "Yağ pompası tahrik kayışı / gergi",
+        "belirtiler": "Yağ basıncı uyarı lambası yanar, motor aniden ciddi hasar görebilir. Kayış parçalanıp yağ pikabını tıkayabilir, frenin vakum pompası da etkilenebilir.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["1-0-ecoboost"],
+        "not": "ABD'de 2017-2022 EcoSport için gergi kaynaklı geri çağırma yapıldı; kayış/gergi bakım kitiyle birlikte erken değiştirilmesi öneriliyor.",
+        "kaynaklar": [
+          "https://www.thedrive.com/news/fords-self-clogging-1-0-liter-ecoboost-engine-is-finally-getting-recalled",
+          "https://samarins.com/reviews/ford-ecosport.html",
+          "https://www.fiches-auto.fr/fiabilite-ford/fiabilite-512-pannes-ford-ecosport.php"
+        ]
+      },
+      {
+        "id": "islak-triger-kayisi", "baslik": "Yağ içinde çalışan (ıslak) triger kayışının parçalanması", "parca": "Triger kayışı",
+        "belirtiler": "Kayış yağ içinde zamanla aşınıp parçalanabilir, kırıntılar motoru tıkar. Uyarı vermeden pahalı motor hasarına yol açabilir; üretici aralığı uzun olsa da uzmanlar daha erken değişim önerir.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["1-0-ecoboost"],
+        "not": null,
+        "kaynaklar": [
+          "https://www.parkers.co.uk/ford/ecosport",
+          "https://samarins.com/reviews/ford-ecosport.html"
+        ]
+      },
+      {
+        "id": "sogutma-sivisi-kacagi-asiri-isinma", "baslik": "Soğutma sıvısı kaçağı ve aşırı ısınma", "parca": "Soğutma hortumları / soğutma sistemi",
+        "belirtiler": "Soğutma sıvısı seviyesi düşer, motor ısınır; ihmal edilirse motor veya turbo hasarı oluşabilir.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["1-0-ecoboost"],
+        "not": "İlk 1.0 EcoBoost motorlarda naylon soğutma borularının zayıflığı bilinen bir nokta; arabam.com yazısı genel EcoBoost ailesi içindir.",
+        "kaynaklar": [
+          "https://www.parkers.co.uk/ford/ecosport",
+          "https://www.fiches-auto.fr/fiabilite-ford/fiabilite-512-pannes-ford-ecosport.php",
+          "https://www.arabam.com/otomobil-terimleri-sozlugu/ecoboost"
+        ]
+      },
+      {
+        "id": "powershift-sanziman", "baslik": "PowerShift çift kavramalı şanzıman sorunları", "parca": "Kuru kavrama DCT şanzıman",
+        "belirtiler": "Düşük hızda sarsıntı, kalkışta tereddüt, vites geçişlerinde gecikme ve titreme; kavrama veya kontrol ünitesi arızası görülebilir.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["1-5-ti-vct"],
+        "sanziman": "6 ileri PowerShift (kuru kavrama DCT)",
+        "not": "Ford, 2018 makyajında bu şanzımanı klasik torklu otomatikle değiştirdi; erken otomatik araçlarda bakım geçmişi önemli.",
+        "kaynaklar": [
+          "https://www.parkers.co.uk/ford/ecosport",
+          "https://classic.honestjohn.co.uk/ford/ecosport/"
+        ]
+      }
+    ]
+  }]
+}
