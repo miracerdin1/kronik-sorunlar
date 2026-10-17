@@ -1,0 +1,39 @@
+{
+  "marka": "Seat", "markaSlug": "seat", "model": "Arona", "modelSlug": "arona",
+  "nesiller": [{
+    "slug": "arona-1", "ad": "Arona (1. nesil)", "yillar": [2017, 2026], "not": null,
+    "motorlar": [
+      {"id": "1-0-tsi-95", "ad": "1.0 TSI 95 HP", "yakit": "benzin"},
+      {"id": "1-0-tsi-115", "ad": "1.0 TSI 115 HP", "yakit": "benzin"},
+      {"id": "1-5-tsi-150", "ad": "1.5 TSI 150 HP", "yakit": "benzin"}
+    ],
+    "sorunlar": [
+      {
+        "id": "multimedya-ekran-usb-baglanti", "baslik": "Multimedya ekranı donması / telefon bağlantı kopması", "parca": "Multimedya ünitesi ve USB bağlantısı",
+        "belirtiler": "Ekran sürüş sırasında kısa süre kararabilir, açılışta takılı kalabilir; Android Auto bağlantısı kopabilir veya yavaş kurulabilir. Çoğu zaman yazılım güncellemesi veya kablo değişimi sorunu giderir.",
+        "km": null, "ciddiyet": "dusuk", "maliyetTl": null,
+        "motorlar": "hepsi",
+        "sanziman": null,
+        "not": "Çoğu durumda sıfırlama, yazılım güncellemesi veya yeni USB kablosu yeterli olur.",
+        "kaynaklar": [
+          "https://www.whocanfixmycar.com/advice/common-problems-with-the-seat-arona",
+          "https://forum-auto.matmut.fr/forum/SEAT/ARONA/ECRAN-QUI-BUGG/5516016/543607",
+          "https://www.fiches-auto.fr/avis-seat/avis-628-seat-arona.php"
+        ]
+      },
+      {
+        "id": "dsg-sanziman-tepki", "baslik": "DSG şanzıman tereddüdü ve bakım ihmali riski", "parca": "DSG çift kavramalı şanzıman",
+        "belirtiler": "Kalkışta ve düşük hızda tereddüt, gecikmeli tepki görülebilir. Şanzıman yağı bakımı atlanan araçlarda sorun riski artar; kullanıcı yorumlarında şanzıman en çok anılan arıza kategorisidir.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-0-tsi-115", "1-5-tsi-150"],
+        "sanziman": "7 ileri DSG otomatik",
+        "not": "fiches-auto şanzıman başlığı manuel şanzımanları da kapsıyor; DSG'ye özgü sayı ayrıştırılamadı.",
+        "kaynaklar": [
+          "https://www.whocanfixmycar.com/advice/common-problems-with-the-seat-arona",
+          "https://autoexpress.co.uk/seat/arona/engines",
+          "https://www.fiches-auto.fr/fiabilite-seat/fiabilite-628-pannes-seat-arona.php"
+        ]
+      }
+    ]
+  }]
+}

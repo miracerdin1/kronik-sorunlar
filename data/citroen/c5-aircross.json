@@ -1,0 +1,49 @@
+{
+  "marka": "Citroen", "markaSlug": "citroen", "model": "C5 Aircross", "modelSlug": "c5-aircross",
+  "nesiller": [{
+    "slug": "c5-aircross-1", "ad": "C5 Aircross (1. nesil)", "yillar": [2018, 2026], "not": null,
+    "motorlar": [
+      {"id": "1-2-puretech-130", "ad": "1.2 PureTech 130", "yakit": "benzin"},
+      {"id": "1-5-bluehdi-130", "ad": "1.5 BlueHDi 130", "yakit": "dizel"}
+    ],
+    "sorunlar": [
+      {
+        "id": "adblue-scr-arizasi", "baslik": "AdBlue / SCR sistemi arızaları", "parca": "AdBlue deposu, NOx sensörü, SCR sistemi",
+        "belirtiler": "Torpidoda emisyon veya AdBlue arıza uyarısı çıkar, bazen belirli bir mesafe sonra araç yeniden çalışmaz. Sorun tekrarlayabilir; tank veya sensör değişimi gerekebilir.",
+        "km": null, "ciddiyet": "orta", "maliyetTl": null,
+        "motorlar": ["1-5-bluehdi-130"],
+        "not": "Fransız ve Belçikalı sahip şikayetlerine dayanıyor; bazı sahipler hiç sorun yaşamadığını belirtiyor.",
+        "kaynaklar": [
+          "https://www.fiches-auto.fr/fiabilite-citroen/fiabilite-630-pannes-citroen-c5-aircross.php",
+          "https://forum-auto.matmut.fr/forum/CITROEN/C5-AIRCROSS/PROBLEME-ADBLUE/5592910/555139",
+          "https://www.test-achats.be/plainte/plaintes-publiques/garantie-vice-cach-C3-A9/359e7adb5bc215ee3f"
+        ]
+      },
+      {
+        "id": "bluehdi-triger-zinciri", "baslik": "1.5 BlueHDi eksantrik (triger) zinciri uzaması ve kopması", "parca": "Eksantrik zinciri ve gergisi",
+        "belirtiler": "Zincirin uzaması veya kopması motor arızasına yol açabilir; ağır motor hasarı ve yüksek onarım bedeli ortaya çıkabilir.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["1-5-bluehdi-130"],
+        "not": "Stellantis, 2018 - Şubat 2023 arası üretilen 1.5 BlueHDi motorlar için zincir kaynaklı arızalarda garanti kapsamını genişletti; şartlar ülkeye göre değişir. Türkiye için yetkili servisten teyit edin.",
+        "kaynaklar": [
+          "https://www.fiches-auto.fr/fiabilite-citroen/fiabilite-630-pannes-citroen-c5-aircross.php",
+          "https://www.largus.fr/actualite-automobile/casse-chaine-1-5-bluehdi-pas-de-plate-forme-d-indemnisation-pour-le-moment-30038450.html",
+          "https://www.fleetnews.co.uk/news/stellantis-extends-warranty-for-15-bluehdi-engines",
+          "https://www.test-achats.be/plainte/plaintes-publiques/garantie-vice-cach-C3-A9/359e7adb5bc215ee3f"
+        ]
+      },
+      {
+        "id": "puretech-islak-triger-kayisi", "baslik": "1.2 PureTech islak triger kayışı bozulması ve yağ tüketimi", "parca": "Yağda çalışan triger kayışı",
+        "belirtiler": "Kayış zamanla aşınıp yağ pompası pick-up filtresini tıkayabilir; yağ basıncı düşer, yağ tüketimi artar ve en kötü durumda motor hasar görür.",
+        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
+        "motorlar": ["1-2-puretech-130"],
+        "not": "Stellantis kayış kaynaklı yağ tüketimi ve düşük yağ basıncı için garanti süresini uzattı; 2022 ortasından itibaren yeni nesil kayış kullanılıyor. Doğru yağ ve bakım aralığı önemli.",
+        "kaynaklar": [
+          "https://www.fiches-auto.fr/fiabilite-citroen/fiabilite-630-pannes-citroen-c5-aircross.php",
+          "https://www.caradisiac.com/le-moteur-puretech-profite-d-une-extension-de-garantie-208069.htm",
+          "https://www.autoexpress.co.uk/citroen/c5-aircross/reliability"
+        ]
+      }
+    ]
+  }]
+}
