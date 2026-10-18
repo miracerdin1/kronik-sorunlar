@@ -19,6 +19,7 @@ export const metadata: Metadata = {
   description:
     "Marka, model, yıl ve yakıt tipini seçin; o araca özgü kronik sorunları belirtileri, görüldüğü km ve kaynaklarıyla görün.",
   alternates: { canonical: "/" },
+  verification: { google: "fA3u2wMTqAB-3PEIpYnofXHvhlXVei3S1y_j_ulyKP4" },
   openGraph: { siteName: SITE_ADI, locale: "tr_TR", type: "website", url: "/" },
 };
 
