@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import SorunListesi from "@/components/SorunListesi";
+import JsonLd from "@/components/JsonLd";
+import { kirintiVerisi, sayfaMeta } from "@/lib/seo";
 import { modelBul, tumModeller } from "@/lib/veri";
 
 // Yalnızca veride olan araçların sayfaları üretilir; diğer adresler 404 döner.
@@ -23,13 +25,14 @@ export async function generateMetadata({ params }: PageProps<"/[marka]/[model]/[
   if (!sonuc) return {};
   const { m, n } = sonuc;
   const motorlar = n.motorlar.map((x) => x.ad).join(", ");
-  return {
-    title: `${m.marka} ${n.ad} ${n.yillar[0]}–${n.yillar[1]} kronik sorunları`,
-    description: `${m.marka} ${n.ad} (${motorlar}) kronik sorunları: ${n.sorunlar
+  return sayfaMeta({
+    baslik: `${m.marka} ${n.ad} ${n.yillar[0]}–${n.yillar[1]} kronik sorunları`,
+    aciklama: `${m.marka} ${n.ad} (${motorlar}) kronik sorunları: ${n.sorunlar
       .slice(0, 3)
-      .map((s) => s.baslik.toLowerCase())
+      .map((s) => s.baslik.toLocaleLowerCase("tr"))
       .join(", ")} ve daha fazlası.`,
-  };
+    yol: `/${m.markaSlug}/${m.modelSlug}/${n.slug}/`,
+  });
 }
 
 export default async function NesilSayfasi({ params }: PageProps<"/[marka]/[model]/[nesil]">) {
@@ -39,6 +42,13 @@ export default async function NesilSayfasi({ params }: PageProps<"/[marka]/[mode
 
   return (
     <div>
+      <JsonLd
+        veri={kirintiVerisi([
+          { ad: m.marka, yol: `/${m.markaSlug}/` },
+          { ad: m.model, yol: `/${m.markaSlug}/${m.modelSlug}/` },
+          { ad: n.ad, yol: `/${m.markaSlug}/${m.modelSlug}/${n.slug}/` },
+        ])}
+      />
       <nav className="text-sm text-zinc-500 dark:text-zinc-400">
         <Link href={`/${m.markaSlug}`} className="hover:underline">
           {m.marka}

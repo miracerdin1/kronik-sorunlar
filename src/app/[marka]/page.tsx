@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import JsonLd from "@/components/JsonLd";
+import { kirintiVerisi, sayfaMeta } from "@/lib/seo";
 import { markaModelleri, tumModeller } from "@/lib/veri";
 
 // Yalnızca veride olan araçların sayfaları üretilir; diğer adresler 404 döner.
@@ -12,8 +14,13 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps<"/[marka]">): Promise<Metadata> {
   const { marka } = await params;
-  const ad = markaModelleri(marka)[0]?.marka;
-  return { title: `${ad} kronik sorunları`, description: `${ad} modellerinin kronik sorunları, kasa ve motor bazında.` };
+  const modeller = markaModelleri(marka);
+  const ad = modeller[0]?.marka;
+  return sayfaMeta({
+    baslik: `${ad} kronik sorunları`,
+    aciklama: `${ad} ${modeller.map((m) => m.model).join(", ")} kronik sorunları: kasa ve motor bazında bilinen arızalar, belirtiler ve kaynaklar.`,
+    yol: `/${marka}/`,
+  });
 }
 
 export default async function MarkaSayfasi({ params }: PageProps<"/[marka]">) {
@@ -23,6 +30,7 @@ export default async function MarkaSayfasi({ params }: PageProps<"/[marka]">) {
 
   return (
     <div>
+      <JsonLd veri={kirintiVerisi([{ ad: modeller[0].marka, yol: `/${marka}/` }])} />
       <h1 className="text-3xl font-bold">{modeller[0].marka} kronik sorunları</h1>
       <ul className="mt-6 grid gap-3">
         {modeller.map((m) => (

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import AracArama from "@/components/AracArama";
 import AracSecici from "@/components/AracSecici";
 import { katalog, tumModeller } from "@/lib/veri";
 
@@ -24,25 +24,20 @@ export default function Home() {
 
       <section>
         <h2 className="text-xl font-semibold">Kayıtlı modeller</h2>
-        <ul className="mt-3 grid gap-2 sm:grid-cols-2">
-          {modeller.flatMap((m) =>
-            m.nesiller.map((n) => (
-              <li key={`${m.modelSlug}-${n.slug}`}>
-                <Link
-                  href={`/${m.markaSlug}/${m.modelSlug}/${n.slug}`}
-                  className="block rounded-lg border border-zinc-200 bg-white px-4 py-3 hover:border-red-600 dark:border-zinc-800 dark:bg-zinc-900"
-                >
-                  <span className="font-medium">
-                    {m.marka} {n.ad}
-                  </span>
-                  <span className="block text-sm text-zinc-500 dark:text-zinc-400">
-                    {n.yillar[0]}–{n.yillar[1]} · {n.sorunlar.length} sorun
-                  </span>
-                </Link>
-              </li>
-            )),
-          )}
-        </ul>
+        <div className="mt-3">
+          <AracArama
+            kayitlar={modeller.flatMap((m) =>
+              m.nesiller.map((n) => ({
+                href: `/${m.markaSlug}/${m.modelSlug}/${n.slug}`,
+                marka: m.marka,
+                model: m.model,
+                ad: n.ad,
+                yillar: n.yillar,
+                sorunlar: n.sorunlar.map((s) => s.baslik),
+              })),
+            )}
+          />
+        </div>
       </section>
     </div>
   );

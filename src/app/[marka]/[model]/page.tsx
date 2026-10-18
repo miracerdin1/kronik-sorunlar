@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import JsonLd from "@/components/JsonLd";
+import { kirintiVerisi, sayfaMeta } from "@/lib/seo";
 import { modelBul, tumModeller } from "@/lib/veri";
 import { yakitAdi } from "@/lib/tipler";
 
@@ -15,10 +17,11 @@ export async function generateMetadata({ params }: PageProps<"/[marka]/[model]">
   const { marka, model } = await params;
   const m = modelBul(marka, model);
   if (!m) return {};
-  return {
-    title: `${m.marka} ${m.model} kronik sorunları`,
-    description: `${m.marka} ${m.model} kasalarına ve motorlarına göre kronik sorunlar, belirtiler ve kaynaklar.`,
-  };
+  return sayfaMeta({
+    baslik: `${m.marka} ${m.model} kronik sorunları`,
+    aciklama: `${m.marka} ${m.model} kronik sorunları (${m.nesiller.map((n) => `${n.ad} ${n.yillar[0]}–${n.yillar[1]}`).join(", ")}): kasa ve motora göre arızalar, belirtiler ve kaynaklar.`,
+    yol: `/${m.markaSlug}/${m.modelSlug}/`,
+  });
 }
 
 export default async function ModelSayfasi({ params }: PageProps<"/[marka]/[model]">) {
@@ -28,6 +31,12 @@ export default async function ModelSayfasi({ params }: PageProps<"/[marka]/[mode
 
   return (
     <div>
+      <JsonLd
+        veri={kirintiVerisi([
+          { ad: m.marka, yol: `/${m.markaSlug}/` },
+          { ad: m.model, yol: `/${m.markaSlug}/${m.modelSlug}/` },
+        ])}
+      />
       <nav className="text-sm text-zinc-500 dark:text-zinc-400">
         <Link href={`/${m.markaSlug}`} className="hover:underline">
           {m.marka}

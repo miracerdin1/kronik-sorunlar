@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Geist } from "next/font/google";
 import { SITE_URL } from "@/lib/site";
+import { SITE_ADI } from "@/lib/seo";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -17,6 +18,8 @@ export const metadata: Metadata = {
   },
   description:
     "Marka, model, yıl ve yakıt tipini seçin; o araca özgü kronik sorunları belirtileri, görüldüğü km ve kaynaklarıyla görün.",
+  alternates: { canonical: "/" },
+  openGraph: { siteName: SITE_ADI, locale: "tr_TR", type: "website", url: "/" },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
