@@ -1,0 +1,173 @@
+{
+  "marka": "Kia",
+  "markaSlug": "kia",
+  "model": "Picanto",
+  "modelSlug": "picanto",
+  "nesiller": [
+    {
+      "slug": "picanto-ta",
+      "ad": "Picanto (TA)",
+      "yillar": [
+        2011,
+        2017
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-0-mpi",
+          "ad": "1.0 MPI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-2-mpi",
+          "ad": "1.2 MPI",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "fren-el-freni-sorunlari",
+          "baslik": "Fren sistemi ve el freni kusurları",
+          "parca": "Fren / el freni",
+          "belirtiler": "Muayenede el freni, fren hortumları ve disklerde kusur çıkıyor; el freni teli paslanıp tam bırakmayabiliyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://carwiki.de/kia-picanto-probleme",
+            "https://www.autobild.de/artikel/kia-picanto-tuev-report-2026-28308189.html",
+            "https://www.autoplenum.de/auto/tests/stadtfloh-mit-garantie-gebrauchtwagen-check-kia-picanto-typ-ta-id45762"
+          ],
+          "not": "Erken üretimde (2012 başına kadar) arka kaliper/el freni teli korozyonu için geri çağırma yapılmıştı."
+        },
+        {
+          "id": "on-takim-rot-basi-asinmasi",
+          "baslik": "Rot başı ve direksiyon mafsalı aşınması",
+          "parca": "Direksiyon mafsalları",
+          "belirtiler": "Birkaç yıl sonra direksiyonda boşluk ve takırtı; 8-9 yaşlı araçlarda muayenede sık kusur.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://carwiki.de/kia-picanto-probleme",
+            "https://gebrauchtwagenberater.de/kia-picanto-probleme-schwachstellen/",
+            "https://www.autobild.de/artikel/kia-picanto-tuev-report-2026-28308189.html"
+          ]
+        },
+        {
+          "id": "far-ve-aydinlatma-arizalari",
+          "baslik": "Yakın far, arka lamba arızaları ve farlarda buğulanma",
+          "parca": "Farlar / aydınlatma",
+          "belirtiler": "Yakın far sık sönüyor, arka lamba bozulabiliyor, farların içi buğulanıp görüş azalıyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://carwiki.de/kia-picanto-probleme",
+            "https://gebrauchtwagenberater.de/kia-picanto-probleme-schwachstellen/",
+            "https://www.autobild.de/artikel/kia-picanto-tuev-report-2026-28308189.html"
+          ]
+        },
+        {
+          "id": "egzoz-paslanmasi-emisyon",
+          "baslik": "Egzozun paslanması ve emisyon ölçümü kalması",
+          "parca": "Egzoz sistemi",
+          "belirtiler": "Egzoz sistemi paslanıp deliniyor; eski araçlar egzoz emisyon muayenesinde sık kalıyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://carwiki.de/kia-picanto-probleme",
+            "https://gebrauchtwagenberater.de/kia-picanto-probleme-schwachstellen/",
+            "https://www.autobild.de/artikel/kia-picanto-tuev-report-2026-28308189.html",
+            "https://www.autoplenum.de/auto/tests/stadtfloh-mit-garantie-gebrauchtwagen-check-kia-picanto-typ-ta-id45762"
+          ]
+        },
+        {
+          "id": "aku-ve-buji-ariza",
+          "baslik": "Akü ve buji kaynaklı yolda kalma",
+          "parca": "Akü / buji",
+          "belirtiler": "ADAC arıza istatistiğinde en sık yolda bırakma nedenleri akü ve bujidir (2012-2014 üretim).",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://carwiki.de/kia-picanto-probleme",
+            "https://gebrauchtwagenberater.de/kia-picanto-probleme-schwachstellen/"
+          ]
+        },
+        {
+          "id": "klima-zayif",
+          "baslik": "Klima soğutma performansı yetersiz",
+          "parca": "Klima",
+          "belirtiler": "Sürücüler klimanın yeterince soğutmadığını bildiriyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://carwiki.de/kia-picanto-probleme",
+            "https://gebrauchtwagenberater.de/kia-picanto-probleme-schwachstellen/"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "picanto-ja",
+      "ad": "Picanto (JA)",
+      "yillar": [
+        2017,
+        2026
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-0-mpi",
+          "ad": "1.0 MPI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-2-mpi",
+          "ad": "1.2 MPI",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "aku-bosalmasi-ja",
+          "baslik": "Akünün kolay boşalması",
+          "parca": "Akü",
+          "belirtiler": "Soğukta marş zayıflıyor, bir gece bekleyince veya kısa mesafe kullanımda araç çalışmayabiliyor; fabrika aküsünün kapasitesi düşük bulunuyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/kia-ve-picanto-rezaleti--157915472",
+            "https://www.fiches-auto.fr/fiabilite-kia/fiabilite-639-pannes-kia-picanto.php"
+          ],
+          "not": "Kaynakların biri forum şikayeti; bir diğeri Fransa sahip yorumları (1.2 motor)."
+        },
+        {
+          "id": "yakin-far-ayari-ja",
+          "baslik": "Yakın far hataları",
+          "parca": "Farlar",
+          "belirtiler": "Muayenede yakın far ayarı ve ön aydınlatma kusurları öne çıkıyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://gebrauchtwagenberater.de/kia-picanto-probleme-schwachstellen/",
+            "https://www.autobild.de/artikel/kia-picanto-tuev-report-2026-28308189.html"
+          ]
+        }
+      ]
+    }
+  ]
+}
