@@ -132,7 +132,14 @@
           "kaynaklar": [
             "https://forum.donanimhaber.com/hyundai-accent-blue-ana-konu--35029650-130",
             "https://eksisozluk.com/hyundai-accent-blue--2705476?p=3"
-          ]
+          ],
+          "cozum": {
+            "metin": "Servisler şikayeti test sürüşünde doğruladıktan sonra arka amortisörleri (bazı araçlarda helezon yaylarla birlikte) garanti kapsamında revize edilmiş parçalarla değiştirdi. Sahipler değişimden sonra aracın biraz sertleştiğini, yaylanmanın geçtiğini ve virajlarda arkanın savrulmadığını yazıyor. 2012'de parça için 1-2 ay beklendiği aktarılıyor.",
+            "kaynaklar": [
+              "https://forum.donanimhaber.com/hyundai-accent-blue-ana-konu--35029650-130",
+              "https://eksisozluk.com/hyundai-accent-blue--2705476?p=3"
+            ]
+          }
         },
         {
           "id": "katalizor-dagilmasi-silindir-cizilmesi",
@@ -150,7 +157,15 @@
             "https://www.kolesa.ru/article/hyundai-solaris-l-s-probegom-detskie-bolezni-avtomata-i-zadiry-v-tsilindrah",
             "https://www.zr.ru/content/articles/927323-solaris-iz-parka-zr-3-kosyaka/",
             "https://auto.yuga.ru/articles/609.html"
-          ]
+          ],
+          "cozum": {
+            "metin": "Katalizör ufalanmaya başladığında zamanında değiştirilirse piston grubu 300.000 km'nin üzerine çıkabiliyor. Silindirler çizilmişse büyük ölçü piston olmadığı için bloğa ince cidarlı dökme demir gömlek takılıyor; gömlekler honlanıp yeni piston ve segmanlar takılıyor. Yerine takılan ucuz ara parçalar (Rusya'da Fortluft) hem zor takılıyor hem de yaklaşık 100.000 km dayanıyor.",
+            "onlem": "Soğukta motoru birkaç dakika ısıtıp ısınana kadar yüklenmeyin, yağı en geç 7.500 km'de değiştirin ve ön lambda sondasını söküp endoskopla katalizör peteğini ara ara kontrol ettirin.",
+            "kaynaklar": [
+              "https://www.kolesa.ru/article/hyundai-solaris-l-s-probegom-detskie-bolezni-avtomata-i-zadiry-v-tsilindrah",
+              "https://www.zr.ru/content/articles/928517-dvigateli-hyundai-i-kia-6-tip/"
+            ]
+          }
         }
       ]
     }

@@ -62,7 +62,16 @@
             "https://www.sikayetvar.com/hyundai-motor/tucson/otomatik-sanziman",
             "https://www.sikayetvar.com/hyundai-motor/tucson/tucson-kalkista-titreme",
             "https://www.carchecker.pro/de/reports/hyundai_tucson_tl_1.7_crdi.html"
-          ]
+          ],
+          "cozum": {
+            "metin": "Hyundai, 2016-2017 1.6 T-GDI 7DCT araçlarda kalkışta gecikmeli kavrama ve düşük hızda tereddüt için ECM ve TCU yazılımını güncelleyen bir geri çağırma/servis kampanyası yaptı (ABD'de Recall 149 / TSB 17-01-024, Kanada'da TCU yeniden programlama). Dizel (1.7 ve 1.6 CRDi) DCT'lerde sahipler, titreme sürerse kavrama setinin (bazen volanla birlikte) değiştirilip şanzıman yazılımının güncellendiğini bildiriyor; yüksek kilometrede kavramanın yeniden değiştiği vakalar da var.",
+            "kaynaklar": [
+              "https://static.nhtsa.gov/odi/rcl/2016/RCRIT-16V628-9893.pdf",
+              "https://static.nhtsa.gov/odi/tsbs/2017/MC-10110927-9999.pdf",
+              "https://www.guideautoweb.com/en/recalls/2016436",
+              "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-528-pannes-hyundai-tucson.php"
+            ]
+          }
         },
         {
           "id": "manuel-debriyaj-volan-titreme",
@@ -82,7 +91,15 @@
             "https://www.dev.honestjohn.co.uk/askhj/answer/87657/my-year-old-hyundai-tucson-is-suffering-from-clutch-issues---do-i-have-any-recourse-against-hyundai-",
             "https://www.carbuyer.co.uk/hyundai/tucson/149354/hyundai-tucson-suv-review-2015-2020/owner-reviews",
             "https://www.carchecker.pro/de/reports/hyundai_tucson_tl_1.7_crdi.html"
-          ]
+          ],
+          "cozum": {
+            "metin": "Servislerin uyguladığı çözüm debriyaj seti ile çift kütleli volanın birlikte (çoğunlukla garanti kapsamında) değiştirilmesi; ancak kalıcı bir revize parça yok ve 2016 model bir 1.7 CRDi'de titreme değişimden yaklaşık 4.500 km sonra geri döndü. Kaynaklar sorunu, 1.250 devirden itibaren gelen yüksek torkun debriyaj ve volanı zorlamasına bağlıyor; bazı araçlarda titreme yalnızca soğukken görülüp motor ısınınca kayboluyor.",
+            "kaynaklar": [
+              "https://www.honestjohn.co.uk/askhj/answer/87657/my-year-old-hyundai-tucson-is-suffering-from-clutch-issues---do-i-have-any-recourse-against-hyundai-",
+              "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-528-pannes-hyundai-tucson.php",
+              "https://www.carbuyer.co.uk/hyundai/tucson/149354/hyundai-tucson-suv-review-2015-2020/owner-reviews"
+            ]
+          }
         },
         {
           "id": "abs-modulu-yangin-riski",
@@ -98,7 +115,15 @@
             "https://www.whichcar.com.au/news/hyundai-tucson-abs-module-fire-recall",
             "https://www.auto123.com/en/news/hyundai-canada-recall-tucson-abs/67747",
             "https://www.carchecker.pro/de/reports/hyundai_tucson_tl_2.0_crdi.html"
-          ]
+          ],
+          "cozum": {
+            "metin": "Üretici geri çağırmasında ABS/HECU modülünün elektrik devresine ücretsiz sigorta kiti (Avustralya'da röle kiti) takılıyor; 2019-2021 araçlarda ve HECU parça numarası gerektiriyorsa ABS/ESC yazılımı da güncelleniyor. İşlem yapılana kadar aracın kapalı garaj yerine açık alanda, yapılardan uzağa park edilmesi öneriliyor.",
+            "kaynaklar": [
+              "https://static.nhtsa.gov/odi/rcl/2020/RCMN-20V543-9976.pdf",
+              "https://thebrakereport.com/hyundai-tucson-recall-grows-to-652024/",
+              "https://www.whichcar.com.au/news/hyundai-tucson-abs-module-fire-recall"
+            ]
+          }
         },
         {
           "id": "benzinli-yag-tuketimi",
@@ -153,7 +178,14 @@
           "kaynaklar": [
             "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-528-pannes-hyundai-tucson.php",
             "https://www.carbuyer.co.uk/hyundai/tucson/149354/hyundai-tucson-suv-review-2015-2020/owner-reviews"
-          ]
+          ],
+          "cozum": {
+            "metin": "Soğukta çalışmama ve düzensiz rölantide servis arızalı enjektörleri ve kızdırma bujilerini değiştiriyor (garantide üretici onayıyla). Sahipler, değişimden sonra başka bir enjektörün yeniden arızalandığını bildiriyor; bu yüzden tek parça değil, tüm enjektör ve bujilerin kontrol ettirilmesi gerekiyor.",
+            "kaynaklar": [
+              "https://www.carbuyer.co.uk/hyundai/tucson/149354/hyundai-tucson-suv-review-2015-2020/owner-reviews",
+              "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-528-pannes-hyundai-tucson.php"
+            ]
+          }
         }
       ]
     },
@@ -203,7 +235,15 @@
             "https://www.sikayetvar.com/hyundai-motor/tucson/otomatik-sanziman",
             "https://forum.donanimhaber.com/hyundai-tucson-dizel-titreme-sorunu--159435529",
             "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-684-pannes-hyundai-tucson.php"
-          ]
+          ],
+          "cozum": {
+            "metin": "Yetkili servis titreme ve kavrama aşınma testi yapıyor; kavrama ömrü düşük çıkarsa çözüm çift kavrama setinin değişimi. Sahiplerin anlatımına göre yalnızca yazılım güncellemesi titremeyi gidermedi, kavrama değişimi ise kalkış titremesini çözdü. Değişimden sonra sabit hızda süren titremenin sol aks değişimiyle giderildiği bir vaka da var.",
+            "kaynaklar": [
+              "https://forum.donanimhaber.com/hyundai-tucson-dizel-titreme-sorunu--159435529",
+              "https://forum.donanimhaber.com/hyundai-tucson-dizel-titreme-sorunu--159435529-2",
+              "https://www.sikayetvar.com/hyundai-motor/titreme-sikayetim-goz-ardi-edildi-kavrama-degisimi-garanti-kapsamina-alinmali"
+            ]
+          }
         },
         {
           "id": "dpf-tikanmasi",
@@ -222,7 +262,15 @@
             "https://www.sikayetvar.com/hyundai-motor/hyundai-tucson-partikul-filtresi-arizasi-surekli-tekrarliyor-ve-ek-maliyet-talep-ediliyor",
             "https://www.sikayetvar.com/hyundai-motor/hunko-maltepe-servisinde-dpf-geri-cagirmasi-icin-ikame-arac-verilmemesi",
             "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-684-pannes-hyundai-tucson.php"
-          ]
+          ],
+          "cozum": {
+            "metin": "Hyundai kullanım kılavuzuna göre DPF lambası yandığında araç 60 km/s üzerinde ya da 2. vites veya üstünde 1.250-2.500 devirde yaklaşık 25 dakika sürülürse rejenerasyon tamamlanıp lamba sönüyor. Lamba yanıp sönmeye devam ederse servisin zorla rejenerasyon yapması gerekiyor. Kalıcı bir çözüm görünmüyor: sahipler filtre değiştirildikten sonra da arızanın tekrarladığını ve birkaç ayda bir rejenerasyon gerektiğini bildiriyor.",
+            "onlem": "Ağırlıklı kısa mesafe kullanımda, kılavuzdaki koşullarda düzenli olarak 25 dakikalık sürüş yapın; lamba yanıp sönerken uzun süre sürmeyin, aksi halde DPF zarar görebilir.",
+            "kaynaklar": [
+              "https://ownersmanual.hyundai.com/full_webhelp/NX4/2025/en_GN/id9f0217514da.html",
+              "https://www.sikayetvar.com/hyundai-motor/tucson/tucson-dizel-partikul-filtresi"
+            ]
+          }
         },
         {
           "id": "mhsg-gergi-kasnak-motor-hasari",
