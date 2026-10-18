@@ -1,0 +1,84 @@
+{
+  "marka": "Mitsubishi",
+  "markaSlug": "mitsubishi",
+  "model": "Space Star",
+  "modelSlug": "space-star",
+  "nesiller": [
+    {
+      "slug": "space-star-a0",
+      "ad": "Space Star (A0)",
+      "yillar": [
+        2013,
+        2024
+      ],
+      "not": "Dünya pazarında Mirage adıyla satılır.",
+      "motorlar": [
+        {
+          "id": "1-2-mivec",
+          "ad": "1.2 MIVEC",
+          "yakit": "benzin"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "cvt-gecikme-titreme",
+          "baslik": "CVT şanzımanda gecikme, uğultu ve titreme",
+          "parca": "CVT otomatik şanzıman",
+          "belirtiler": "Kalkışta ve gaz verirken geç tepki, hızla artan uğultu, düşük hızda veya otoyolda titreme/kayma hissi görülür. Yağ değişimi ihmal edilirse sorun büyür.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": "CVT otomatik",
+          "not": "Üreticinin önerdiği aralıkta CVT yağı değiştirmek riski azaltır.",
+          "kaynaklar": [
+            "https://carwiki.de/?p=76772",
+            "https://rerev.com/years-to-avoid/vehicles/mitsubishi-mirage/"
+          ]
+        },
+        {
+          "id": "erken-fren-asinmasi",
+          "baslik": "Fren balata ve disklerinin erken aşınması",
+          "parca": "Fren balata/disk",
+          "belirtiler": "Balata ve disklerin beklenenden erken bitmesi, fren sırasında titreme veya fren gücünde düşüş. Özellikle ilk yıllarda (2014-2015) sık bildirilmiş.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Şikayetler ağırlıklı olarak ABD pazarındaki Mirage için; sonraki yıllarda azalmış.",
+          "kaynaklar": [
+            "https://www.carcomplaints.com/Mitsubishi/Mirage/",
+            "https://rerev.com/years-to-avoid/vehicles/mitsubishi-mirage/",
+            "https://carwiki.de/?p=76772"
+          ]
+        },
+        {
+          "id": "zayif-isitma",
+          "baslik": "Kabin ısıtmasının zayıf kalması",
+          "parca": "Isıtma sistemi / kalorifer radyatörü",
+          "belirtiler": "Soğuk havada kabinin geç ısınması, yetersiz sıcak hava ya da yalnızca bir taraftan ısı gelmesi.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://carwiki.de/?p=76772"
+          ]
+        },
+        {
+          "id": "korozyon-alt-takim-kampana",
+          "baslik": "Alt takım ve arka kampana korozyonu",
+          "parca": "Alt şasi, ön alt takım, arka fren kampanası",
+          "belirtiler": "Alt gövdede ve arka fren kampanalarında paslanma; tuzlu yol kullanılan bölgelerde ön alt takım ve radyatör taşıyıcısında daha belirgin.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://carwiki.de/?p=76772"
+          ]
+        }
+      ]
+    }
+  ]
+}

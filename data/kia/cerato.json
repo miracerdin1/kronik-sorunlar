@@ -1,0 +1,90 @@
+{
+  "marka": "Kia",
+  "markaSlug": "kia",
+  "model": "Cerato",
+  "modelSlug": "cerato",
+  "nesiller": [
+    {
+      "slug": "cerato-yd",
+      "ad": "Cerato (YD)",
+      "yillar": [
+        2013,
+        2018
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-6-mpi",
+          "ad": "1.6 MPI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-crdi",
+          "ad": "1.6 CRDi",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "katalizor-dagilmasi",
+          "baslik": "Katalizör dağılması ve silindir çizilmesi riski",
+          "parca": "Katalizör",
+          "belirtiler": "Güç kaybı, egzozdan ses ve kontrol lambası görülebilir. Katalizör parçaları motora çekilirse silindir yüzeylerinde çizilme oluşabilir.",
+          "km": "60.000-120.000",
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-mpi"
+          ],
+          "not": "Kaynaklardan biri bunun her araçta görülmediğini, okuyucu yorumlarında abartıldığını belirtiyor.",
+          "kaynaklar": [
+            "https://www.kolesa.ru/article/5-prichin-pokupat-i-ne-pokupat-kia-cerato-lll-yd",
+            "https://www.zr.ru/content/articles/923408-kia-cerato-2013-2020/"
+          ]
+        },
+        {
+          "id": "arka-yaylar-yumusak",
+          "baslik": "Arka yaylar fazla yumuşak, yük altında çöküyor",
+          "parca": "Arka yaylar / amortisör",
+          "belirtiler": "Yüksek hızda yalpalama, virajda gövde yatması ve yüklüyken arkanın belirgin çökmesi. Sürücüler genelde daha sert yay taktırıyor.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.kolesa.ru/article/5-prichin-pokupat-i-ne-pokupat-kia-cerato-lll-yd",
+            "https://www.zr.ru/content/articles/923408-kia-cerato-2013-2020/"
+          ]
+        },
+        {
+          "id": "zayif-boya",
+          "baslik": "İnce boya, taşlanma ve pas başlangıcı",
+          "parca": "Boya / kaporta",
+          "belirtiler": "Boya ince ve kalitesi değişken; taş çarpmalarında dökülüyor, sonrasında bu noktalarda pas başlayabiliyor. Teker kemeri yalıtımı da zayıf.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.kolesa.ru/article/5-prichin-pokupat-i-ne-pokupat-kia-cerato-lll-yd",
+            "https://www.zr.ru/content/articles/923408-kia-cerato-2013-2020/"
+          ]
+        },
+        {
+          "id": "rulman-ve-denge-kolu",
+          "baslik": "Teker rulmanı ve denge çubuğu bağlantıları ömrü kısa",
+          "parca": "Teker rulmanı / z rot ve denge çubuğu askı çubuğu",
+          "belirtiler": "Takırtı, tekerlekten uğultu ve düzensiz yol seslerinde bu parçalar ilk bakılacak yerler.",
+          "km": null,
+          "ciddiyet": "dusuk",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "kaynaklar": [
+            "https://www.kolesa.ru/article/5-prichin-pokupat-i-ne-pokupat-kia-cerato-lll-yd",
+            "https://www.zr.ru/content/articles/923408-kia-cerato-2013-2020/"
+          ]
+        }
+      ]
+    }
+  ]
+}

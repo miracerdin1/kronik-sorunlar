@@ -1,0 +1,101 @@
+{
+  "marka": "Hyundai",
+  "markaSlug": "hyundai",
+  "model": "i40",
+  "modelSlug": "i40",
+  "nesiller": [
+    {
+      "slug": "i40-vf",
+      "ad": "i40 (VF)",
+      "yillar": [
+        2011,
+        2019
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-6-gdi",
+          "ad": "1.6 GDI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-7-crdi",
+          "ad": "1.7 CRDi",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dpf-egr-tikanmasi",
+          "baslik": "DPF ve EGR valfi tıkanması",
+          "parca": "Dizel partikül filtresi / EGR valfi",
+          "belirtiler": "Rejenerasyon tamamlanamaz, motor arıza ışığı yanar, rölantide düzensizlik, güç ve yakıt tüketimi kaybı olur. Kısa şehir içi kullanımda belirginleşir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-7-crdi"
+          ],
+          "sanziman": null,
+          "not": "Sık kısa mesafe kullanımda yaygın; arada uzun yol sürüşü ve yakıt sistemi temizleyici önerilir.",
+          "kaynaklar": [
+            "https://gebrauchtwagenberater.de/hyundai-i40-probleme/",
+            "https://www.carsguide.com.au/hyundai/i40/problems"
+          ]
+        },
+        {
+          "id": "erken-donem-sogutma-sivisi-kaybi",
+          "baslik": "Erken üretimde soğutma suyu kaybı (blok çatlağı şüphesi)",
+          "parca": "Motor bloğu / genleşme tankı",
+          "belirtiler": "Soğutma suyu seviyesi sürekli düşer. Bazı araçlarda garanti kapsamında motor değişimi yapılmıştır.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-7-crdi"
+          ],
+          "sanziman": null,
+          "not": "Sorun 2011-2013 arası araçlarda bildirilmiş, 2013 sonunda giderildiği belirtiliyor; ikinci elde genleşme tankı seviyesi kontrol edilmeli.",
+          "kaynaklar": [
+            "https://gebrauchtwagenberater.de/hyundai-i40-probleme/"
+          ]
+        },
+        {
+          "id": "debriyaj-volan-asinmasi",
+          "baslik": "Debriyaj ve çift kütleli volan aşınması",
+          "parca": "Debriyaj seti / çift kütleli volan",
+          "belirtiler": "Vites geçişlerinde sertlik ve gıcırtı, debriyajın geç tutması, kalkışta titreme. Bazı sahipler görece erken km'de debriyajı birden fazla değiştirmiştir.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-7-crdi"
+          ],
+          "sanziman": "manuel",
+          "not": null,
+          "kaynaklar": [
+            "https://www.carbuyer.co.uk/hyundai/i40/owner-reviews",
+            "https://gebrauchtwagenberater.de/hyundai-i40-probleme/"
+          ]
+        },
+        {
+          "id": "dct-debriyaj-titremesi",
+          "baslik": "7 ileri DCT debriyaj paketi aşınması",
+          "parca": "Çift kavramalı şanzıman",
+          "belirtiler": "Kalkışta titreme, sert veya düzensiz vites geçişleri, vites takılmaması; yoğun trafikte aşırı ısınma.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-7-crdi"
+          ],
+          "sanziman": "7 ileri DCT otomatik",
+          "not": "Yalnızca DCT'li dizel versiyonlar; benzinli otomatikler klasik 6 ileri tork konvertörlüdür.",
+          "kaynaklar": [
+            "https://www.carsguide.com.au/hyundai/i40/problems"
+          ]
+        }
+      ]
+    }
+  ]
+}

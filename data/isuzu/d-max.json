@@ -1,0 +1,62 @@
+{
+  "marka": "Isuzu",
+  "markaSlug": "isuzu",
+  "model": "D-Max",
+  "modelSlug": "d-max",
+  "nesiller": [
+    {
+      "slug": "d-max-2",
+      "ad": "D-Max (2. nesil)",
+      "yillar": [
+        2012,
+        2020
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "2-5-ddi",
+          "ad": "2.5 Ddi",
+          "yakit": "dizel"
+        },
+        {
+          "id": "1-9-ddi",
+          "ad": "1.9 Ddi",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "dpf-rejenerasyon-yag-seyrelmesi",
+          "baslik": "DPF tıkanması ve rejenerasyonda yağın dizelle seyrelmesi",
+          "parca": "Dizel partikül filtresi (DPF)",
+          "belirtiler": "Kısa şehir içi yolculuklarda DPF uyarı ışığı yanar, rejenerasyon sık tekrarlanır ve yağ seviyesi yavaş yavaş yükselir (yağın içine yakıt karışır).",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Düzenli uzun yol sürüşü ve yağ seviyesi kontrolü önerilir; üretici sonradan iyileştirme yapmış.",
+          "kaynaklar": [
+            "https://fwi.co.uk/machinery/4x4s/tips-for-buying-a-second-hand-pickup-isuzu-d-max",
+            "https://minbilkoll.se/vanliga-fel/isuzu/"
+          ]
+        },
+        {
+          "id": "turbo-yatak-arizasi",
+          "baslik": "Turbo (büyük kademe) yatak arızası",
+          "parca": "Turbo şarj cihazı",
+          "belirtiler": "Çift turbolu 2.5 motorda büyük turbonun yatağı aşınabilir; güç düşüşü, ıslık sesi ve duman görülür. Kullanılmış turbo bulmak zordur.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "2-5-ddi"
+          ],
+          "not": null,
+          "kaynaklar": [
+            "https://fwi.co.uk/machinery/4x4s/tips-for-buying-a-second-hand-pickup-isuzu-d-max"
+          ]
+        }
+      ]
+    }
+  ]
+}
