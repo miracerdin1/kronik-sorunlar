@@ -70,7 +70,17 @@
             "https://www.turkiyegazetesi.com.tr/t-otomobil/arac-almadan-once-gercegini-ogrenin-12-puretech-motor-triger-sorunu-nedir-yeni-model-1762948",
             "https://forum.quechoisir.org/post1111186.html",
             "https://autocopilot.fr/modeles/peugeot-208"
-          ]
+          ],
+          "cozum": {
+            "metin": "Üretici kayış değişim aralığını 100.000 km veya 6 yıla indirdi. Bakımlarda kayış genişliği yağ doldurma ağzından özel mastarla ölçülüyor, sınır dışındaysa kayış yenisiyle değişiyor ve karter indirilip yağ pompası süzgeci kontrol ediliyor. Süzgeç az tıkalıysa temizleniyor, tamamen tıkalıysa yağ pompası değişiyor. Turbolu motorda ayrıca vakum pompası yenileniyor ve motor beyni yeniden programlanıyor. Değişimde en son nesil kayış takılmalı, eski referanslar yağa daha çok parçacık bırakıyor.",
+            "onlem": "Yağ yılda bir veya en geç 10.000 km'de filtresiyle, üretici onaylı yağla değiştirilmeli; az kullanılan, şehir içi araçlarda yıllık değişim kayışı korumanın tek yolu.",
+            "kaynaklar": [
+              "https://ntn-snr.com/sites/default/files/2023-03/TECHinfo%201.2%20PureTech%20Atmo_en_rev.pdf",
+              "https://www.ntn-snr.com/sites/default/files/2023-03/TECHinfo%201.2%20PureTech%20Turbo_EN_rev.pdf",
+              "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-essence/s-4060-comment-fiabiliser-un-12-puretech-.php",
+              "https://forum.donanimhaber.com/1-2-puretech-sorunlu-mu-cidden--158999384"
+            ]
+          }
         },
         {
           "id": "1-2-puretech-yag-tuketimi-segman",
@@ -90,7 +100,16 @@
             "https://www.autocar.co.uk/car-review/peugeot/208-2012-2019/reliability",
             "https://www.whocanfixmycar.com/advice/common-problems-with-the-peugeot-208",
             "https://forum.quechoisir.org/post1111186.html"
-          ]
+          ],
+          "cozum": {
+            "metin": "Stellantis, Euro 6.2 öncesi turbolu 1.2 PureTech'lerde (Nisan 2014-Temmuz 2018 üretimi) aşırı yağ tüketiminin nedenini segman sorunu, Euro 6.2 ve sonrasında ise yağ ayırıcı (karter havalandırma) olarak kabul edip onarımı koşullu kapsama aldı. Kalıcı onarım segman ve piston değişimi. Silindirler ovalleşmişse yalnız segman yetmiyor: silindirler +0,5 mm onarım ölçüsüne honlanıp uyumlu piston ve segman takılıyor, gerekirse karter havalandırması da kontrol ediliyor.",
+            "onlem": "Yağ değişimi en geç 10.000 km veya yılda bir yapılmalı, şehir içi kısa mesafe kullanımında aralık kısaltılmalı.",
+            "kaynaklar": [
+              "https://www.peugeot.co.uk/content/dam/peugeot/uk/b2c/owners/customer-care/2025-02-11_PureTech-Terms-and-Conditions_UK_Aug-2025.pdf",
+              "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-essence/s-4060-comment-fiabiliser-un-12-puretech-.php",
+              "https://www.whocanfixmycar.com/advice/common-problems-with-the-peugeot-208"
+            ]
+          }
         },
         {
           "id": "etg5-robotize-sanziman",
@@ -127,7 +146,15 @@
             "https://whatcar.com/peugeot/208/hatchback/used-review/n884/advice",
             "https://www.whocanfixmycar.com/advice/common-problems-with-the-peugeot-208",
             "https://www.araclo.com/vehicles/peugeot-208-1.2-vti/degerlendirmeler/kullanici-sorunlari"
-          ]
+          ],
+          "cozum": {
+            "metin": "Önce yazılım güncellemesi deneniyor. Bir 2013 model 208 sahibi SMEG yazılımını USB bellekle 3.15.B.R1 sürümünden 3.21.A.R sürümüne yükselttiğinde donma kesildi; akü bağlantısını sökmek ise sorunu yalnızca bir günlüğüne gidermişti. Güncelleme sonrası her yolculukta çökmeye devam ederse ünite onarılıyor ya da değiştiriliyor.",
+            "kaynaklar": [
+              "https://www.forum-peugeot.com/Forum/threads/r%C3%A9solu-smeg-et-%C3%A9cran-noir.9548/latest",
+              "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-347-pannes-peugeot-208.php",
+              "https://www.whocanfixmycar.com/advice/common-problems-with-the-peugeot-208"
+            ]
+          }
         },
         {
           "id": "1-6-hdi-enjektor-contasi-turbo",
@@ -146,7 +173,17 @@
             "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-347-pannes-peugeot-208.php",
             "https://autocopilot.fr/modeles/peugeot-208",
             "https://www.araclo.com/vehicles/peugeot-208-1.6-hdi/degerlendirmeler/kullanici-sorunlari"
-          ]
+          ],
+          "cozum": {
+            "metin": "Kaçak yapan enjektörlerin conta ve bakır pulları yenileniyor, sıkma torkları da kontrol ediliyor. Turbo dağılmışsa yalnız turbo değiştirmek yetmiyor: turbo yağ besleme ve dönüş boruları yenileniyor, karter indirilip yağ pompası süzgeci değişiyor ve vakum pompası süzgeci temizleniyor. Motor yıkama ürünüyle en az iki kez yağ değiştirilerek kurumdan arındırılıyor.",
+            "onlem": "Turbo değişiminden sonra 20-30 dk çalıştırıp yağ ve filtre değiştirilmeli, ilk ay sonunda tekrarlanmalı; enjektör sıkılığı her yağ değişiminde kontrol edilmeli.",
+            "kaynaklar": [
+              "https://pmmonline.co.uk/technical/tackling-turbo-trouble-psa-1-6-hdi-engine/",
+              "https://pmmonline.co.uk/technical/turbo-replacement-1-6-hdi-engine/",
+              "https://www.forum-peugeot.com/Forum/threads/changement-turbo-1-6-hdi.50657/latest",
+              "https://forum.quechoisir.org/casse-turbo-307-1-6-hdi-t737-90.html"
+            ]
+          }
         },
         {
           "id": "dizel-dpf-egr-tikanmasi",
@@ -185,7 +222,16 @@
             "https://www.autocar.co.uk/car-review/peugeot/208-2012-2019/reliability",
             "https://www.sikayetvar.com/peugeot/peugeot-208-otomatik-cekisten-dusuyor",
             "https://www.araclo.com/vehicles/peugeot-208-1.2-vti/degerlendirmeler/kullanici-sorunlari"
-          ]
+          ],
+          "cozum": {
+            "metin": "Teklemede arızalı ateşleme bobini ve bujiler değiştiriliyor; sahipler aynı anda birden fazla bobinin (bir araçta üç) yenilendiğini bildiriyor. Revize bobin bilinmiyor; parça değişse de tekrarlayabiliyor.",
+            "onlem": "Bujiler yaklaşık 20.000 km'de bir değiştirilmeli.",
+            "kaynaklar": [
+              "https://www.autocar.co.uk/car-review/peugeot/208-2012-2019/reliability",
+              "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-347-pannes-peugeot-208.php",
+              "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-essence/s-4060-comment-fiabiliser-un-12-puretech-.php"
+            ]
+          }
         },
         {
           "id": "arka-silecek-fiskiyesi-bagaja-su",
@@ -200,7 +246,14 @@
           "kaynaklar": [
             "https://www.autocar.co.uk/car-review/peugeot/208-2012-2019/reliability",
             "https://www.whocanfixmycar.com/advice/common-problems-with-the-peugeot-208"
-          ]
+          ],
+          "cozum": {
+            "metin": "Arka cam fıskiyesi ve ona giden ince hortum yenileniyor. Sahipler arka yıkama hortumunun 16 ay ile 60.000 km arasında kesilip kaçırdığını bildiriyor; fıskiyenin değişmesi çoğu durumda sızıntıyı kesiyor.",
+            "kaynaklar": [
+              "https://www.whocanfixmycar.com/advice/common-problems-with-the-peugeot-208",
+              "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-347-pannes-peugeot-208.php"
+            ]
+          }
         }
       ]
     }

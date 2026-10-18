@@ -33,7 +33,16 @@
           "kaynaklar": [
             "https://www.arabam.com/blog/?p=168996",
             "https://www.araclo.com/blog/fiat-linea-1.3-multijet-ikinci-el-alim-rehberi-sorunlar-kontroller-ve-bakim-onerileri-2026"
-          ]
+          ],
+          "cozum": {
+            "metin": "Islık ve çekiş kaybında önce basınç hattı kontrol edilir: Linea 1.3 MJD sahiplerinde 3.000 d/d üstünde tıslama ve güç kaybının sebebi turbo ile intercooler arasındaki sızdıran kauçuk hortumlardı; hortumlar yenilenince araç normale döndü, aynı motorlu Panda'da ise hortum birleşimlerine ilave yüksek torklu kelepçe takmak sesi kesti. Hortum sağlamsa değişken kanatlı turbonun vakum aktüatörü ve hattı kontrol edilir; kanatlar karbondan sıkışmışsa ya da turbo valfi açıp kapamıyorsa turbo revizyon kitiyle yenilenir veya değiştirilir (bir sahip revizyonlu turbonun orijinal kadar çekmediğini belirtmiş).",
+            "kaynaklar": [
+              "https://www.team-bhp.com/forum/technical-stuff/119059-temporary-power-loss-linea-mjd-2.html",
+              "https://www.team-bhp.com/forum/technical-stuff/110771-fiat-linea-1-3-mjd-ep-acceleration-issue-3.html",
+              "https://www.fiatforum.com/threads/multijet-boost-leak.474429/",
+              "https://www.fiatforum.com/threads/1-3-multijet-90-turbo-issue.473657"
+            ]
+          }
         },
         {
           "id": "yag-sogutucusu",
@@ -48,7 +57,15 @@
           ],
           "kaynaklar": [
             "https://www.arabam.com/blog/?p=168996"
-          ]
+          ],
+          "cozum": {
+            "metin": "Antifriz kabında yağ görüldüğünde conta yerine önce yağ filtresi/soğutucu gövdesine bakılır; bu motorda kalıcı çözüm yağ soğutucusu grubunun komple yenisiyle değiştirilmesi, ardından motor, radyatör ve su hatlarının yıkanıp taze antifriz doldurulmasıdır. Yağlı kalan antifriz kabı da sökülüp temizlenmezse yağ izleri sonradan tekrar görünebilir.",
+            "kaynaklar": [
+              "https://www.team-bhp.com/forum/technical-stuff/54128-fiat-palio-mjd-known-problems-20.html",
+              "https://theautomotiveindia.com/forums/threads/multijet-engine-problems-solutions.21826/page-3",
+              "https://www.arabam.com/blog/?p=168996"
+            ]
+          }
         },
         {
           "id": "dualogic",
@@ -64,7 +81,15 @@
           "kaynaklar": [
             "https://www.araclo.com/blog/fiat-linea-1.3-multijet-ikinci-el-alim-rehberi-sorunlar-kontroller-ve-bakim-onerileri-2026"
           ],
-          "sanziman": "Dualogic otomatik"
+          "sanziman": "Dualogic otomatik",
+          "cozum": {
+            "metin": "Tek bir kalıcı çözüm yok; arıza teşhise göre giderilir: hidrolik yağ seviyesi ve kaçak kontrol edilip yağ tamamen tam sentetik merkezi hidrolik yağıyla (ATF değil) yenilenir, basınç tutmayan akümülatör (sökülüp tartılarak ya da iç lastiği kontrol edilerek test edilir) değiştirilir, yanıp sönen vites göstergesi ve geciken geçişlerde vites konum sensörü ve soketi yenilenir. Debriyaj, pompa veya aktüatör onarımından sonra MultiECUScan/servis cihazıyla debriyaj temas noktası öğretimi (kalibrasyon) yapılmazsa sarsıntı sürer.",
+            "onlem": "Hidrolik yağı en geç 20.000 km'de bir tamamen değiştirilmeli ve sistem düzenli aralıklarla yeniden kalibre edilmeli.",
+            "kaynaklar": [
+              "https://www.fiatforum.com/threads/dualogic-troubleshooting-guide.439619/",
+              "https://www.service4service.co.uk/car-repairs/gearboxes/fiat-gearboxes"
+            ]
+          }
         },
         {
           "id": "egr",
@@ -79,7 +104,16 @@
           ],
           "kaynaklar": [
             "https://www.araclo.com/blog/fiat-linea-1.3-multijet-ikinci-el-alim-rehberi-sorunlar-kontroller-ve-bakim-onerileri-2026"
-          ]
+          ],
+          "cozum": {
+            "metin": "1.3 Multijet'te EGR valfi sökülüp karbon temizleyiciyle temizlenip contaları yenilenebilir, ancak sahipler ve ustalar temizliğin geçici olduğunu, valf zor erişildiği ve bobini de arızalanabildiği için kalıcı çözümün valfin yenisi ya da revizyonlusuyla değiştirilmesi olduğunu belirtiyor; iki kez temizlenip arızası geçmeyen bir araçta sorun solenoid bobinindeydi ve yeni valfle düzeldi.",
+            "onlem": "Haftada bir 20-30 saniyelik sert hızlanma ve ara sıra yüksek devirde canlı sürüş EGR'deki isin birikmesini azaltır.",
+            "kaynaklar": [
+              "https://www.fiatforum.com/threads/cleaning-egr-valve.289837",
+              "https://www.fiatforum.com/threads/multijet-egr.229808/",
+              "https://www.team-bhp.com/forum/technical-stuff/23328-egr-system-whats-purpose-when-does-egr-valve-open-close-4.html"
+            ]
+          }
         }
       ]
     }

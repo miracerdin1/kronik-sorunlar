@@ -44,7 +44,16 @@
             "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-553-pannes-peugeot-3008-2.php",
             "https://www.turkiyegazetesi.com.tr/t-otomobil/arac-almadan-once-gercegini-ogrenin-12-puretech-motor-triger-sorunu-nedir-yeni-model-1762948"
           ],
-          "not": "Stellantis eski nesil 1.2 PureTech için 10 yıl / 180.000 km uzatılmış garanti açıkladı (yetkili serviste düzenli bakım şartıyla)."
+          "not": "Stellantis eski nesil 1.2 PureTech için 10 yıl / 180.000 km uzatılmış garanti açıkladı (yetkili serviste düzenli bakım şartıyla).",
+          "cozum": {
+            "metin": "Üretici kayış değişim aralığını 100.000 km / 6 yıla indirdi; serviste kayış genişliği mastarla üç noktadan ölçülüyor ve sınırı geçmişse vakum pompasıyla birlikte tüm triger seti yenileniyor. Kayış dökülmüşse karter indirilip yağ süzgeci temizleniyor (tamamen tıkalıysa yağ pompası değişiyor), yağ pompası ve VVT solenoidleri ile turbo yağlama borusunun cıvatası yenileniyor; her durumda motor beyni güncellenerek yağ basıncı uyarısının daha erken yanması sağlanıyor.",
+            "onlem": "Yalnızca PSA B71 2312 onaylı 0W-30/0W-20 yağ kullanın; kısa mesafe ve şehir içi ağırlıklı (yılda ~15.000 km altı) kullanımda yağı her yıl değiştirin.",
+            "kaynaklar": [
+              "https://www.ntn-snr.com/sites/default/files/2023-03/TECHinfo%201.2%20PureTech%20Turbo.pdf",
+              "https://www.completecar.ie/askusanything/question/18081/Do-all-Peugeot-PureTech-engines-have-wet-belt-issues",
+              "https://www.forum-peugeot.com/Forum/threads/entretenir-au-mieux-son-puretech-130-afin-d%C3%A9viter-les-soucis.125304/"
+            ]
+          }
         },
         {
           "id": "eksantrik-zinciri",
@@ -61,7 +70,16 @@
             "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-553-pannes-peugeot-3008-2.php",
             "https://www.blackcircles.com/news/peugeot-3008-common-faults"
           ],
-          "not": "Üretici bu sorun için geri çağırma başlattı (R/2025/246)."
+          "not": "Üretici bu sorun için geri çağırma başlattı (R/2025/246).",
+          "cozum": {
+            "metin": "Ekim 2017 - Ocak 2023 arası üretilen 1.5 BlueHDi'li araçlar geri çağırma kapsamında: tüm araçlara yağ basıncını artıran yazılım güncellemesi yapılıyor, servis motor sesini analiz eden özel bir uygulamayla zinciri kontrol ediyor ve sorun görülürse zincir 8 mm'lik revize zincirle değiştiriliyor. Sorun yoksa yağ, daha yüksek viskoziteli ve aşınma önleyici katkılı FPW9.55535/03 normuna uygun yağla yenileniyor; is birikimli yağ aşınmanın ana nedeni olarak gösteriliyor.",
+            "onlem": "Bakım ışığı yanınca yağı üreticinin onayladığı normda yağla değiştirin; 10 yıl / 240.000 km genişletilmiş kapsam için bakım faturalarını saklayın.",
+            "kaynaklar": [
+              "https://www.peugeot.co.uk/owners/Peugeot-1-5-blue-hdi-key-information.html",
+              "https://moparinsiders.com/stellantis-recalls-nearly-1-million-diesel-vehicles-over-engine-timing-issue/",
+              "https://www.timeslive.co.za/motoring/news/2025-07-04-stellantis-recalls-diesel-cars-over-camshaft-chain-issue/"
+            ]
+          }
         },
         {
           "id": "adblue",
@@ -78,7 +96,16 @@
           "kaynaklar": [
             "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-553-pannes-peugeot-3008-2.php",
             "https://www.blackcircles.com/news/peugeot-3008-common-faults"
-          ]
+          ],
+          "cozum": {
+            "metin": "AdBlue pompası ve seviye modülü depoya entegre olduğu için serviste genellikle depo komple değiştiriliyor; bazı durumlarda yazılım güncellemesi ya da hata silme/sıfırlama yetiyor, bazı sahipler yalnızca depo elektroniğini tamir ettirmiş. Kalıcılığı garanti değil: komple sistemi değiştirdiği halde arızanın geri döndüğünü bildiren 1.6 BlueHDi sahipleri var; enjektör ağzında kristalleşme ve zayıf akü de aynı uyarıyı tetikleyebiliyor, bu yüzden depo değiştirilmeden önce bunlar kontrol edilmeli.",
+            "kaynaklar": [
+              "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-553-pannes-peugeot-3008-2.php",
+              "https://www.forum-peugeot.com/Forum/threads/reservoir-adblue-ur%C3%A9e-hs-pompe-%C3%A0-changer-defaut-anti-pollution-demarrage-impossible-1100-kms.118145/",
+              "https://www.elektroda.com/rtvforum/topic3502977-150.html",
+              "https://www.whocanfixmycar.com/advice/peugeot-3008-common-problems"
+            ]
+          }
         },
         {
           "id": "eat-sarsinti",

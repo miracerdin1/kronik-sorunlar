@@ -17,7 +17,7 @@ sahiplerin ve servislerin uyguladığı kalıcı çözümü araştırıp yazmak.
   Kaynak, o sorunun bu kasa/motor (ya da aynı motor/şanzıman) için çözümünü gerçekten anlatmalı.
 - Amaç her çözüm için en az 2 FARKLI ve BAĞIMSIZ alan adı. Zayıf kaynaklar tek başına yetmez: araclo.com, carchecker.pro, au7o.io,
   carverif.fr, bilgiyerim.com.tr, parcabizden.com, autodoc.co.uk, autopartspro.co.uk, europremiumparts.com, kfz-dietrich.com (YZ destekli atölye blogu),
-  wheelstreet.lt (bayi pazarlama yazısı), reidasofficial.lt (şablon yazı). Aktaran siteler asıl siteyle aynı
+  wheelstreet.lt (bayi pazarlama yazısı), reidasofficial.lt (şablon yazı), service4service.co.uk (atölye pazarlama sayfası). Aktaran siteler asıl siteyle aynı
   sayılır (carverif → fiches-auto, bilgiyerim/parcabizden → şikayetvar). reddit.com ve youtube.com geçerli alan adıdır.
 - Çözüm somut olmalı: hangi parça değişiyor / revize parça numarası / yazılım güncellemesi / hangi bakım önlemi. "Servise götürün" çözüm değildir.
   Revize parça varsa söyle; kalıcı çözüm yoksa bunu açıkça yaz (ör. "parça yenisiyle değişse de tekrarlıyor").

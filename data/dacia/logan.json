@@ -47,7 +47,16 @@
             "https://lautomobiliste.fr/19/04/2025/des-pannes-en-cascade-ce-defaut-moteur-fait-trembler-les-conducteurs-de-dacia-et-renault/",
             "https://kfz-dietrich.com/blog/dacia-sandero-typische-probleme-renault/",
             "https://blog.piecesetpneus.com/?p=155937"
-          ]
+          ],
+          "cozum": {
+            "metin": "Zincir kapağı açılarak zincir, gergi ve plastik kızaklardan oluşan triger zinciri setinin tamamı değiştirilir; soğuk çalıştırmadaki şakırtının kaynağı çoğu zaman çatlayan plastik zincir kızağıdır ve set değişince ses kesilir. Şakırtı başlar başlamaz yapılmazsa zincir atlayıp supap-piston teması yaşanabilir.",
+            "onlem": "Yağ ve filtreyi üreticinin 30.000 km'lik aralığı yerine 10.000-15.000 km'de bir değiştirin; zinciri 100.000 km civarında kontrol ettirip 150.000 km dolaylarında önleyici olarak yenileyin.",
+            "kaynaklar": [
+              "https://hedgehoginventions.wordpress.com/2022/11/08/rattling-noise-on-our-2012-renault-clio-iv-what-caused-it/",
+              "https://www.drivisual.tv/en/news/renault-0-9-tce-h4bt-engine-review",
+              "https://motoranimal.com/renault-0-9-tce-engine-problems-and-durability/"
+            ]
+          }
         },
         {
           "id": "su-kutusu-termostat-sizintisi",
@@ -65,7 +74,16 @@
             "https://www.fiches-auto.fr/avis-dacia/avis-unique-366-81875-dacia-sandero-2-09-tce-90-ch-2014-.php",
             "https://blog.piecesetpneus.com/?p=155937",
             "https://www.carchecker.pro/reports/dacia_logan_mcv_0.9_tce.html"
-          ]
+          ],
+          "cozum": {
+            "metin": "Alüminyum gövdeye oturan bakalit/plastik su çıkış kutusu ısıyla deforme olup sızdırdığından kutu (termostat contasıyla birlikte) yenisiyle değiştirilir; sahipler bu işçilik dahil yaklaşık 200-380 € ödediğini bildiriyor. Parça yenisiyle değişse de aynı plastik yapıda olduğu için ilerde tekrarlayabilir.",
+            "onlem": "Motor soğukken antifriz seviyesini düzenli (iki haftada bir) kontrol edin, soğutma suyunu iki yılda bir yenileyin ve soğutma sistemine dokunulduğunda havasını alın.",
+            "kaynaklar": [
+              "https://www.fiches-auto.fr/avis-dacia/avis-unique-366-81875-dacia-sandero-2-09-tce-90-ch-2014-.php",
+              "https://www.drivisual.tv/en/news/renault-0-9-tce-h4bt-engine-review",
+              "https://blog.piecesetpneus.com/?p=165113"
+            ]
+          }
         },
         {
           "id": "easy-r-sanziman-sarsinti",
@@ -84,7 +102,14 @@
             "https://www.fiches-auto.fr/avis-dacia/avis-unique-367-91836-dacia-logan-2-09-tce-90-ch-mcv-blackline-boite-easyr-de-2017-25000kms.php",
             "https://kfz-dietrich.com/blog/dacia-sandero-typische-probleme-renault/",
             "https://www.carchecker.pro/reports/dacia_logan_mcv_0.9_tce.html"
-          ]
+          ],
+          "cozum": {
+            "metin": "Bilinen kalıcı bir çözüm yok: serviste debriyaj seti ve volan değiştirilip şanzıman/motor yazılımı yeniden yükleniyor, ancak sahipler soğukta kalkış titremesinin birkaç gün ile birkaç on bin km içinde geri döndüğünü ve işlemin defalarca tekrarlandığını bildiriyor. Garanti dışında debriyaj sarf parça sayıldığı için masraf sahibine kalabiliyor.",
+            "kaynaklar": [
+              "https://www.fiches-auto.fr/avis-dacia/avis-unique-367-91836-dacia-logan-2-09-tce-90-ch-mcv-blackline-boite-easyr-de-2017-25000kms.php",
+              "https://communaute.dacia.fr/forum/DACIA/DACIA-LOGAN-MCV/BOITE-EASY-R--PROBLEMES-A-REPETITION--QUE-FAIRE-/3976474/80999"
+            ]
+          }
         },
         {
           "id": "debriyaj-volan-titreme",
@@ -117,7 +142,15 @@
             "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-367-pannes-dacia-logan-2.php",
             "https://kfz-dietrich.com/blog/dacia-sandero-typische-probleme-renault/",
             "https://blog.piecesetpneus.com/?p=155937"
-          ]
+          ],
+          "cozum": {
+            "metin": "K9K 1.5 dCi'de 80-100 km/s ile sınırlanan acil durum modunun sık nedeni DPF fark basınç sensörü veya hortumlarıdır: arıza tespit cihazıyla sürüşte sensör değerleri okunur, hortumlar çatlaksa yenilenir, sensör hatalıysa değişir ve hata hafızası silinir. Kurumlanan EGR valfi temizlenir ya da değiştirilir (yaklaşık 150-300 €), rejenerasyonla açılmayan DPF ise temizletilir veya yenilenir.",
+            "onlem": "Kısa şehir içi kullanımda filtre yanabilsin diye düzenli olarak 20-30 dakikalık sabit hızlı otoyol sürüşleri yapın.",
+            "kaynaklar": [
+              "https://www.hella.com/techworld/fr/bi/pdf/dacia-dokker-a-coups-moteur/dacia-dokker-a-coups-moteur.pdf",
+              "https://blog.piecesetpneus.com/?p=155937"
+            ]
+          }
         },
         {
           "id": "ince-boya-tas-izi",
@@ -148,7 +181,15 @@
           "kaynaklar": [
             "https://www.whatcar.com/dacia/logan/estate/used-review/n24257/reliability",
             "https://www.fiches-auto.fr/rappels-dacia/r-367-rappels-dacia-logan-2.php"
-          ]
+          ],
+          "cozum": {
+            "metin": "Şubat 2013 - Haziran 2015 arası üretilen Logan MCV ve Sandero 2'lerde far kablosu ve klima hortumuna sürtünen yakıt borusu için geri çağırma (Temmuz 2018) kapsamında yetkili serviste boruya koruyucu klips takılıyor veya boru yenisiyle değiştiriliyor; işlem ücretsiz.",
+            "kaynaklar": [
+              "https://www.whatcar.com/dacia/logan/estate/used-review/n24257/reliability",
+              "https://www.fiches-auto.fr/rappels-dacia/r-367-rappels-dacia-logan-2.php",
+              "https://www.thejournal.ie/dacia-recall-ireland-4134234-Jul2018/"
+            ]
+          }
         }
       ]
     }
