@@ -1,0 +1,84 @@
+{
+  "marka": "Mercedes-Benz",
+  "markaSlug": "mercedes-benz",
+  "model": "Vito",
+  "modelSlug": "vito",
+  "nesiller": [
+    {
+      "slug": "vito-w447",
+      "ad": "Vito (W447)",
+      "yillar": [
+        2014,
+        2026
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-6-cdi",
+          "ad": "1.6 CDI 109/111 (OM622)",
+          "yakit": "dizel"
+        },
+        {
+          "id": "2-1-cdi",
+          "ad": "2.1 CDI 114/116/119 (OM651)",
+          "yakit": "dizel"
+        },
+        {
+          "id": "2-0-cdi",
+          "ad": "2.0 CDI 110-119 (OM654)",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "adblue-nox-sensoru",
+          "baslik": "AdBlue sistemi ve NOx sensörü arızaları",
+          "parca": "AdBlue (SCR) dozaj modülü / NOx sensörü",
+          "belirtiler": "AdBlue uyarısı, ardından güç sınırlaması (acil durum modu); sorun sürerse motor çalışmayı reddedebiliyor. Uyarı mesajı geri sayımla çıkabiliyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "not": "Kaynaklar arasında dozaj valfi kristalleşmesi, tank ısıtıcısı ve sensör arızaları sayılıyor; en çok OM651 ve OM654 için anlatılıyor.",
+          "kaynaklar": [
+            "https://kfz-dietrich.com/blog/mercedes-vito-w447-typische-probleme-xentry/",
+            "https://minbilkoll.se/vanliga-fel/mercedes-benz/vito/",
+            "https://www.transporter-motorspezialist.de/mercedes-vito-bekannte-schwachstellen/"
+          ]
+        },
+        {
+          "id": "egr-dpf-kurum-tikanmasi",
+          "baslik": "EGR, emme kelebekleri ve DPF'de kurum birikmesi",
+          "parca": "EGR valfi / emme-swirl kelebekleri / DPF",
+          "belirtiler": "Kısa mesafe kullanımda tekrarlayan güç kaybı ve acil durum modu, düzensiz rölanti, yüksek yakıt tüketimi, motor arıza lambası; DPF rejenerasyonu tamamlanamıyor.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-cdi",
+            "2-1-cdi"
+          ],
+          "kaynaklar": [
+            "https://kfz-dietrich.com/blog/mercedes-vito-w447-typische-probleme-xentry/",
+            "https://minbilkoll.se/vanliga-fel/mercedes-benz/vito/"
+          ]
+        },
+        {
+          "id": "7g-tronic-sanziman-kontrol-plakasi",
+          "baslik": "7G-Tronic şanzımanda sarsıntı ve acil durum programı",
+          "parca": "722.9 şanzıman iletken plaka / kontrol ünitesi bağlantısı",
+          "belirtiler": "Sert veya sarsıntılı vites geçişleri, boşa düşme, gecikmeli geçiş ve acil durum programına girme; şanzıman arıza kodu.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": "hepsi",
+          "sanziman": "7G-Tronic (722.9) otomatik",
+          "not": "İkinci kaynak tek bir kullanıcı raporu: konektörün yeniden takılmasıyla düzelmiş. Erken W447'lerde anlatılıyor.",
+          "kaynaklar": [
+            "https://minbilkoll.se/vanliga-fel/mercedes-benz/vito/"
+          ]
+        }
+      ]
+    }
+  ]
+}

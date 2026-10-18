@@ -1,0 +1,50 @@
+{
+  "marka": "Toyota",
+  "markaSlug": "toyota",
+  "model": "Proace City",
+  "modelSlug": "proace-city",
+  "nesiller": [
+    {
+      "slug": "proace-city-k9",
+      "ad": "Proace City (K9)",
+      "yillar": [2019, 2026],
+      "not": "Citroen Berlingo / Peugeot Rifter ile aynı platformu ve motorları paylaşır.",
+      "motorlar": [
+        {"id": "1-5-d-4d-100", "ad": "1.5 D-4D 100 HP", "yakit": "dizel"},
+        {"id": "1-5-d-4d-130", "ad": "1.5 D-4D 130 HP", "yakit": "dizel"}
+      ],
+      "sorunlar": [
+        {
+          "id": "zamanlama-zinciri",
+          "baslik": "1.5 dizelde eksantrik zinciri aşınması ve kopma riski",
+          "parca": "Eksantrik (zamanlama) zinciri",
+          "belirtiler": "Soğukta metalik tıkırtı ve zincirde erken uzama görülebiliyor; zincir kopması motorun komple değişmesini gerektirebiliyor. Stellantis 2017-2023 üretimi motorlar için uzatılmış garanti kapsamı açıkladı, 2023 sonrası motorda daha kalın zincir kullanılıyor.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": ["1-5-d-4d-100", "1-5-d-4d-130"],
+          "not": "Uzatılmış garanti ve zincir kalınlığı bilgisi Stellantis kaynaklıdır; Toyota Türkiye'deki kapsam ayrıca doğrulanmalı.",
+          "kaynaklar": [
+            "https://en.ara.cat/cars/stellantis-faces-the-risk-of-another-fiasco-with-the-1-5-bluehdi-diesel-engine_1_5435759.html",
+            "https://am-online.com/news/bluehdi-engine-timing-chain-issues-lead-stellantis-to-extend-warranty"
+          ]
+        },
+        {
+          "id": "adblue-sistemi-arizasi",
+          "baslik": "AdBlue sistemi uyarıları ve enjektör/depo arızası",
+          "parca": "AdBlue enjektörü / deposu",
+          "belirtiler": "Motor arıza lambası ve AdBlue uyarısı yanıyor, geri sayım sonrası servise gitmek gerekiyor; uyarı silinse de tekrarlıyor. Arıza genellikle AdBlue enjektörü veya deposundan çıkıyor.",
+          "km": "70.000-90.000",
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": ["1-5-d-4d-100", "1-5-d-4d-130"],
+          "kaynaklar": [
+            "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/serbatoio-adblue-toyota-proace/0dbbcd3c776c93a816",
+            "https://www.sikayetvar.com/en/toyota-us/i-faced-ongoing-adblue-issue-with-my-2021-toyota-proace-city-since-day-one",
+            "https://www.fiches-auto.fr/essai-citroen/moteur-essai-653-4-citroen-berlingo-3-_-1l5-bluehdi-_-130.php"
+          ]
+        }
+      ]
+    }
+  ]
+}
