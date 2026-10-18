@@ -43,7 +43,16 @@
           "kaynaklar": [
             "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-247-pannes-volkswagen-polo-v.php",
             "https://www.autopartspro.co.uk/tips-advice/vw-polo-common-problems-issues-malfunctions-and-reliability-4211"
-          ]
+          ],
+          "cozum": {
+            "metin": "Sorun Ekim 2011 öncesi üretilen 1.2 TSI (CBZA/CBZB/CBZC) motorlarda yaygın. VW bu tarihten sonra daha geniş zincir, yeni kızaklar, büyütülmüş gergi ve diş profili değiştirilmiş dişlilerden oluşan güçlendirilmiş bir set kullanmaya başladı. Kalıcı çözüm yalnızca gergiyi değil, zincir, kızaklar, gergi ve dişlilerle birlikte bu revize setin tamamını takmak; revize set eski motorlara da uyuyor. Sahiplerin anlattığına göre yalnızca gergi değişince ses sürüyor, tam set takılınca kesiliyor. Bazı araçlarda bu iş VW tarafından ücretsiz yapıldı.",
+            "onlem": "Soğuk çalıştırmada zincir sesi duyulursa beklemeden zincir gerginliğini kontrol ettirin; zincir diş atlarsa supaplar pistona çarpabilir.",
+            "kaynaklar": [
+              "https://cdn.partsfinder.bilsteingroup.com/pf-document/PROTIPS174460_I.PDF",
+              "https://www.seatcupra.net/forums/goto/post?id=4642921",
+              "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-247-pannes-volkswagen-polo-v.php"
+            ]
+          }
         },
         {
           "id": "devirdaim",
@@ -75,7 +84,17 @@
             "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-247-pannes-volkswagen-polo-v.php",
             "https://www.autopartspro.co.uk/tips-advice/vw-polo-common-problems-issues-malfunctions-and-reliability-4211"
           ],
-          "sanziman": "DSG otomatik"
+          "sanziman": "DSG otomatik",
+          "cozum": {
+            "metin": "7 ileri kuru kavramalı DSG'de (DQ200), Haziran 2008 – Eylül 2011/2012 arası üretilen Polo'larda mekatronik kontrol ünitesindeki elektronik arıza çekiş kesilmesine yol açabiliyordu. Avustralya ve Yeni Zelanda'da geri çağırma yapıldı; VW mekatronik üniteyi ücretsiz değiştirdi ve şanzıman yazılımını güncelledi. Kalkışta silkeleme ve emniyet moduna geçmenin sık bir nedeni de mekatronikteki basınç akümülatörünün çatlayıp basınç kaçırması; uzman servisler tüm üniteyi değiştirmek yerine mekatroniği söküp güçlendirilmiş akümülatör seti takıyor ya da üniteyi revize ediyor. Silkeleme uzun süre devam ettiyse aşınmış kuru kavrama paketlerinin de kontrol edilip gerekirse değiştirilmesi gerekiyor.",
+            "onlem": "Silkeleme ya da basınç arıza kodları (P189C, P17BF gibi) görüldüğünde araç bu hâlde kullanılmamalı, yoksa kuru kavramalar erken aşınır.",
+            "kaynaklar": [
+              "https://goauto.com.au/news/volkswagen/volkswagen-issues-dsg-recall/2013-06-12/19577.html",
+              "https://www.autocar.co.uk/node/50655",
+              "https://mech-tronic.com/vw-polo-juddering-when-pulling-away-the-common-dsg-fault-explained/",
+              "https://www.ecutesting.com/common-faults/volkswagen/volkswagen-golf-audi-a3-dsg-7-gearbox-problem/"
+            ]
+          }
         },
         {
           "id": "1-2-tsi-yag",

@@ -162,7 +162,17 @@
           ],
           "kaynaklar": [
             "https://www.fiches-auto.fr/fiabilite-opel/fiabilite-536-pannes-opel-astra-5.php"
-          ]
+          ],
+          "cozum": {
+            "metin": "1.6 CDTI'de soğuk çalıştırmadaki zincir sesi, bekleyen araçta gergideki yağın karter boşalmasından kaynaklanıyor. Kalıcı çözüm olarak gergi ile blok arasına yağ haznesi oluşturan ek conta (febi 181945) takılıyor; aşınma varsa zincir, gergi ve kızaklar set halinde (gerekirse dişlilerle) değiştirilip yeni yağ ve filtre konuluyor. Zincir şanzıman tarafında olduğundan değişim motor-şanzıman ayrılarak yapılıyor ve pahalı.",
+            "onlem": "Bakımları aksatmadan dexos2 onaylı kaliteli yağ kullanmak zincir sesini geciktiriyor.",
+            "kaynaklar": [
+              "https://www.techtips.ie/febi/opelvauxhaul-timing-chain-tensioner-gasket.pdf",
+              "https://www.autobiz.ie/all/febi-solves-opel-engine-rattle-issue",
+              "https://www.chevyequinoxforum.com/threads/2019-equinox-diesel-rattle.6078/latest",
+              "https://forum.donanimhaber.com/astra-k-1-6-ctdi-model-sorunlari--159820282"
+            ]
+          }
         },
         {
           "id": "debriyaj",
@@ -220,7 +230,17 @@
             "https://www.autodoc.co.uk/info/problems-with-the-opel-astra-l",
             "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-695-pannes-peugeot-308.php",
             "https://forum.donanimhaber.com/308-1-2-gt-veya-astra-1-2t-gs--159866498"
-          ]
+          ],
+          "cozum": {
+            "metin": "Stellantis yağlı kayışın değişim aralığını 10 yıl/180.000 km'den 6 yıl/100.000 km'ye indirdi; kayış genişliği yağ doldurma ağzından özel mastarla ölçülüyor, şişme ya da sırtında çatlak varsa kayış güncel nesil (yağa dayanıklı) yenisiyle değiştiriliyor ve kalıntılarla tıkanabilen yağ süzgeci/yağlama devresi kontrol ediliyor. Önceki nesil kayışlı 1.0/1.2 motorlarda erken kayış aşınması onarımları bakım şartıyla 10 yıl/180.000 km'ye kadar Opel tarafından karşılanıyor.",
+            "onlem": "Yağı en geç yılda bir ya da 20.000 km'de, yalnızca üreticinin onayladığı yağla değiştirmek ve seviyeyi düzenli kontrol etmek; katkı maddesi kullanmamak.",
+            "kaynaklar": [
+              "https://www.journaldugeek.com/2026/09/07/moteur-puretech-18-euros-cest-peut-etre-tout-ce-quil-faut-pour-sauver-votre-voiture/",
+              "https://autoservicepraxis.de/downloadfile/3659976/90007_2025_29_04_I_016-017_n22_Opel_Zahnriemen_98785_print.pdf",
+              "https://business.citroen.be/content/opel/worldwide/master/en/index/maintenance-services/warranties-care/extended-warranty-for-puretech.html",
+              "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-essence/s-4060-comment-fiabiliser-un-12-puretech-.php"
+            ]
+          }
         },
         {
           "id": "1-2-puretech-yag-eksiltme",
@@ -237,7 +257,16 @@
           "kaynaklar": [
             "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-695-pannes-peugeot-308.php",
             "https://www.caroom.fr/blog/stellantis-propose-une-extension-de-garantie-pour-le-problematique-moteur-1-2-puretech-25285.html"
-          ]
+          ],
+          "cozum": {
+            "metin": "Önce yağ tüketimi ölçülüyor (Stellantis için sınır 1.000 km'de 0,3 L). Aşırı tüketimde kalıcı onarım; silindir ölçülerini kontrol edip bloğu +0,5 mm tamir ölçüsüne honlamak, uygun piston-segman takmak, gerekirse supapları değiştirip alıştırmak ve karter havalandırmasını kontrol etmek. Yağ tüketimi kaynaklı onarımlar da kayışlı önceki nesil motorlarda 10 yıl/180.000 km'ye kadar Opel kapsamında; 3. nesil motorlarda segmanlar iyileştirildi.",
+            "onlem": "Yağ ve filtreyi 10.000 km'de ya da yılda bir değiştirmek, bujileri yaklaşık 20.000 km'de yenilemek ve yağ seviyesini ayda bir kontrol etmek.",
+            "kaynaklar": [
+              "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-essence/s-4060-comment-fiabiliser-un-12-puretech-.php",
+              "https://www.aramisauto.com/guide-pratique/moteurs-puretech/les-garanties-stellantis-concernant-les-moteurs-puretech/",
+              "https://business.citroen.be/content/opel/worldwide/master/en/index/maintenance-services/warranties-care/extended-warranty-for-puretech.html"
+            ]
+          }
         },
         {
           "id": "1-5-dizel-eksantrik-zinciri",
@@ -257,7 +286,15 @@
             "https://www.fiches-auto.fr/articles-auto/rappels-constructeurs/s-3950-rappel-du-15-bluehdi-lie-a-la-chaine-de-distribution.php",
             "https://latele.ch/articles/stellantis-rappelle-636-000-voitures-avec-des-moteurs-1-5-bluehdi",
             "https://www.fiches-auto.fr/fiabilite-opel/fiabilite-704-pannes-opel-astra.php"
-          ]
+          ],
+          "cozum": {
+            "metin": "Geri çağırma kapsamında tüm araçlara yazılım güncellemesi yapılıyor ve motor sesi teşhis uygulamasıyla zincir kontrol ediliyor; sorun varsa 7 mm zincir ücretsiz olarak güçlendirilmiş 8 mm zincirle değiştiriliyor, yoksa yağ yeni FPW9.55535/03 normlu (daha yüksek viskoziteli, aşınma önleyici katkılı) yağla değiştiriliyor. Ekim 2017-Ocak 2023 üretimi araçlarda (Astra L 2021-2023 dahil) bakımları yapılmış olmak şartıyla 10 yıl/240.000 km parça ve işçilik garantisi var.",
+            "onlem": "Bakım uyarısı çıktığında yağı zamanında FPW9.55535/03 normlu yağla değiştirmek.",
+            "kaynaklar": [
+              "https://www.vauxhall.co.uk/maintenance-services/warranties-care/1-5-blue-hdi-diesel-engine-key-information.html",
+              "https://www.fiches-auto.fr/articles-auto/rappels-constructeurs/s-3950-rappel-du-15-bluehdi-lie-a-la-chaine-de-distribution.php"
+            ]
+          }
         },
         {
           "id": "adblue-depo-pompa-arizasi",

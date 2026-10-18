@@ -21,6 +21,9 @@ sahiplerin ve servislerin uyguladığı kalıcı çözümü araştırıp yazmak.
   sayılır (carverif → fiches-auto, bilgiyerim/parcabizden → şikayetvar). reddit.com ve youtube.com geçerli alan adıdır.
 - Çözüm somut olmalı: hangi parça değişiyor / revize parça numarası / yazılım güncellemesi / hangi bakım önlemi. "Servise götürün" çözüm değildir.
   Revize parça varsa söyle; kalıcı çözüm yoksa bunu açıkça yaz (ör. "parça yenisiyle değişse de tekrarlıyor").
+- Sahiplerin kendi uyguladığı pratik çözümler de geçerlidir, kaynakta somut anlatılıyorsa yaz: ör. DPF uyarısında belirli viteste/devirde
+  belirli süre sürerek kendiliğinden rejenerasyon ("4. viteste 90-100 km/s ile 15-20 dk"), EGR temizliği, sıfırlama/adaptasyon adımları.
+  Vites, hız, devir ve süreyi kaynakta geçtiği gibi ver.
 - `onlem`: tekrarlamaması için bakım/kullanım önerisi (ör. yağ değişim aralığını kısaltmak). Kaynakta geçmiyorsa yazma.
 - Genel tavsiye yazısı ("vites telini ayarlatın" gibi modele özgü olmayan) ve yalnızca zayıf kaynağa dayanan çözüm yazılmaz.
 - Kaynak başka modelden olabilir ama AYNI motor/şanzıman olmalı ve o neslin yıllarına uymalı (ör. 2009'da kapanan bir sorunun düzeltmesi 2013 sonrası kasaya yazılmaz).

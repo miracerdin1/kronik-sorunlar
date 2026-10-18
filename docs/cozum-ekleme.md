@@ -12,9 +12,12 @@ ile hesaplanır, JSON'a `guven` yazılmaz.
 Commit yazarı miracerdin1; Co-Authored-By veya Claude satırı ekleme. Facebook grupları giriş istediği için çoğunlukla okunamıyor.
 
 ## Tamamlananlar
-Egea, Clio, Megane, Corolla, Focus, Passat (tur 1).
+Egea, Clio, Megane, Corolla, Focus, Passat (tur 1). Golf, Polo, Astra, Corsa, i20, Duster, Egea DPF (tur 2).
 
 ## Sıradakiler
-Kalan modeller `data/` altındaki sırayla; popüler olanlar önce: Golf, Polo, Jetta, Tiguan, Astra, Corsa, i20, Accent, Elantra, Tucson,
-Duster, Sandero, Logan, 208, 301, 2008, 3008, Linea, Doblo, C-Elysee, Civic, Kuga, Fiesta, Octavia, Superb, Leon, Ibiza, Qashqai,
+Kalan modeller `data/` altındaki sırayla; popüler olanlar önce: Jetta, Tiguan, Accent, Elantra, Tucson,
+Sandero, Logan, 208, 301, 2008, 3008, Linea, Doblo, C-Elysee, Civic, Kuga, Fiesta, Octavia, Superb, Leon, Ibiza, Qashqai,
 Juke, Sportage, Ceed, Rio, ve diğerleri.
+
+Not: dev./stage1-/wp-json gibi kanonik olmayan adresleri ayıkla. Sahiplerin sürüşle uyguladığı pratik çözümler (ör. DPF için belirli
+viteste/devirde sürüş) Miraç'ın isteğiyle kapsamda.
