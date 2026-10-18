@@ -2,6 +2,7 @@
 
 import { useSyncExternalStore } from "react";
 import { alanAdi } from "@/lib/dogrulama";
+import { SorunBildir, useDeneyimler, YasadimDugmesi } from "@/components/Katki";
 import { ciddiyetAdi, yakitAdi, type Ciddiyet, type Nesil, type Sorun } from "@/lib/tipler";
 
 const ciddiyetSirasi: Record<Ciddiyet, number> = { yuksek: 0, orta: 1, dusuk: 2 };
@@ -39,7 +40,7 @@ function DogrulandiIsareti() {
   );
 }
 
-function SorunKarti({ sorun, motorAdlari }: { sorun: Sorun; motorAdlari: string }) {
+function SorunKarti({ sorun, motorAdlari, yasadim }: { sorun: Sorun; motorAdlari: string; yasadim: React.ReactNode }) {
   return (
     <li className="rounded-xl border border-zinc-200 bg-white p-4 dark:border-zinc-800 dark:bg-zinc-900">
       <div className="flex flex-wrap items-start justify-between gap-2">
@@ -86,6 +87,7 @@ function SorunKarti({ sorun, motorAdlari }: { sorun: Sorun; motorAdlari: string 
           </span>
         ))}
       </p>
+      {yasadim}
     </li>
   );
 }
@@ -128,7 +130,8 @@ function Secenek({ secili, koyu, onClick, children }: { secili: boolean; koyu?: 
   );
 }
 
-export default function SorunListesi({ nesil }: { nesil: Nesil }) {
+export default function SorunListesi({ nesil, aracAnahtari }: { nesil: Nesil; aracAnahtari: string }) {
+  const deneyim = useDeneyimler(aracAnahtari);
   const arama = useSyncExternalStore(
     abone,
     () => window.location.search,
@@ -194,11 +197,23 @@ export default function SorunListesi({ nesil }: { nesil: Nesil }) {
           </p>
           <ul className="mt-3 grid gap-4">
             {sorunlar.map((s) => (
-              <SorunKarti key={s.id} sorun={s} motorAdlari={motorAdi(s)} />
+              <SorunKarti
+                key={s.id}
+                sorun={s}
+                motorAdlari={motorAdi(s)}
+                yasadim={
+                  <YasadimDugmesi
+                    sayi={deneyim.sayilar[`${aracAnahtari}/${s.id}`] ?? 0}
+                    isaretli={deneyim.benim.has(`${aracAnahtari}/${s.id}`)}
+                    onClick={() => deneyim.degistir(`${aracAnahtari}/${s.id}`)}
+                  />
+                }
+              />
             ))}
           </ul>
         </>
       )}
+      <SorunBildir aracAnahtari={aracAnahtari} motorlar={nesil.motorlar} />
     </section>
   );
 }

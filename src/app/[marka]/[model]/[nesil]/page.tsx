@@ -70,7 +70,7 @@ export default async function NesilSayfasi({ params }: PageProps<"/[marka]/[mode
         </p>
       )}
       <div className="mt-6">
-        <SorunListesi nesil={n} />
+        <SorunListesi nesil={n} aracAnahtari={`${m.markaSlug}/${m.modelSlug}/${n.slug}`} />
       </div>
     </div>
   );
