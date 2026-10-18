@@ -33,7 +33,14 @@
           "kaynaklar": [
             "https://www.araclo.com/blog/toyota-corolla-1.4-d-4d-ikinci-el-alim-rehberi-sorunlar-yakit-tuketimi-ve-bakim-maliyetleri-2026"
           ],
-          "sanziman": "MultiMode otomatik"
+          "sanziman": "MultiMode otomatik",
+          "cozum": {
+            "metin": "Debriyaj aşınmışsa set değiştiriliyor, ancak değişimden sonra MMT beyninin sıfırlanması, debriyaj başlangıç ayarı ve sistem öğrenme/vites konumu kalibrasyonunun mutlaka yapılması gerekiyor; bu yapılmazsa kaçırma, sert ya da gecikmeli kavrama sürüyor. Vites düşürme, boşa atma gibi arızalarda asıl suçlu çoğunlukla debriyaj/vites aktüatörü oluyor ve aktüatör revize edilip ya da yenisiyle değiştirilerek çözülüyor; kalibrasyon sonrası hâlâ sarsıntı varsa konum kalibrasyonu tekrarlanıyor.",
+            "kaynaklar": [
+              "https://www.techtips.ie/Blue-Print/toyota-multi-mode-transmission-mmt-clutch-replacement.pdf",
+              "https://ecutesting.com/common-faults/toyota/toyota-mmt-clutch-actuator-fault"
+            ]
+          }
         },
         {
           "id": "enjektor-ve-dpf-sorunlari",
@@ -49,7 +56,15 @@
           "kaynaklar": [
             "https://www.araclo.com/blog/toyota-corolla-1.4-d-4d-ikinci-el-alim-rehberi-sorunlar-yakit-tuketimi-ve-bakim-maliyetleri-2026",
             "https://www.webtekno.com/toyota-corolla-nin-en-sorunsuz-motoru-hangisi-h217608.html"
-          ]
+          ],
+          "cozum": {
+            "metin": "Arızalı enjektör yenisi ya da revizyonlusuyla değiştiriliyor. DPF tıkanmasında serviste Techstream ile zorlanmış rejenerasyon yapılıyor; rejenerasyon kurumu yakıp külü bıraktığı için kül yükü yüksekse filtre sökülüp profesyonel olarak temizleniyor ya da değiştiriliyor.",
+            "onlem": "Rejenerasyon sırasında motoru kapatmayın, düzenli uzun yol yapın ve önerilen yağ sınıfı ile değişim aralığına uyun.",
+            "kaynaklar": [
+              "https://toyotaownersclub.com/forums/topic/176534-check-dpf-and-forced-regeneration",
+              "https://toyotaownersclub.com/forums/topic/148240-auris-14d-owners-dpf-issues"
+            ]
+          }
         },
         {
           "id": "turbo-arizasi",
@@ -110,7 +125,15 @@
             "https://www.sikayetvar.com/toyota/toyota-corolla-aku-sorunu-11",
             "https://forum.donanimhaber.com/2019-toyota-corolla-sedan--135859281-345",
             "https://whocanfixmycar.com/advice/common-problems-with-the-toyota-corolla"
-          ]
+          ],
+          "cozum": {
+            "metin": "Kalıcı bir yazılım/parça revizyonu yok; sahiplerin uyguladığı çözüm orijinal 45 Ah aküyü aynı ölçüde daha yüksek kapasiteli (52-55 Ah) bir aküyle değiştirmek, yetkili servis de Toyota markalı 52 Ah akü takabiliyor. Bazı kullanıcılar ise şarj sisteminin orijinal kapasiteye göre tasarlandığını belirterek orijinal özellikte akü önermektedir.",
+            "onlem": "Araç uzun süre bekleyecekse akıllı akü bakım şarj cihazı kullanın, kısa yol ağırlıklı kullanımda düzenli olarak uzun sürüş yapın ve acil durum için lityum takviye cihazı bulundurun.",
+            "kaynaklar": [
+              "https://forum.donanimhaber.com/2019-toyota-corolla-sedan--135859281-345",
+              "https://toyotaownersclub.com/forums/topic/206339-toyota-corolla-18-hybrid-2020-flat-battery-problem-replacement-of"
+            ]
+          }
         },
         {
           "id": "multimedya-ekran-carplay",
@@ -126,7 +149,14 @@
             "https://www.sikayetvar.com/toyota/corolla-ekran",
             "https://www.sikayetvar.com/toyota/yazilim-guncelleme",
             "https://www.fiches-auto.fr/fiabilite-toyota/fiabilite-644-pannes-toyota-corolla.php"
-          ]
+          ],
+          "cozum": {
+            "metin": "İlk adım yetkili serviste multimedya yazılımının (firmware) güncellenmesi; CarPlay/Android Auto bağlantı sorunlarının bir kısmı bununla düzeliyor. Yazılım yetmediğinde ya da güncelleme sırasında ünite bozulduğunda garanti kapsamında multimedya ünitesi komple değiştiriliyor; güncelleme sonrası radyo ve navigasyon ayarlarının sıfırlanması normal.",
+            "kaynaklar": [
+              "https://www.sikayetvar.com/toyota/yazilim-guncelleme",
+              "https://toyotaownersclub.com/forums/topic/197927-infotainment-system-update-woes"
+            ]
+          }
         },
         {
           "id": "on-kapi-cami-tikirti",
@@ -142,7 +172,15 @@
             "https://www.sikayetvar.com/toyota/cam-tikirtisi-ve-yetersiz-servis-magduriyetim-giderilsin",
             "https://www.sikayetvar.com/toyota/corolla-flame",
             "https://www.toyotaownersclub.com/forums/topic/198897-squeaky-windows-corolla-2020/"
-          ]
+          ],
+          "cozum": {
+            "metin": "Önerilen çözüm, cam indirilip dikey cam kanallarına (cama bulaştırmadan) silikon sprey sıkmak ve camı birkaç kez inip kaldırmak; kirli kanalların temizlenmesi de öneriliyor. Ses camla ray arasındaki boşluktan geliyorsa kapı döşemesinin sökülmesi gerekiyor; serviste yapılan izolasyon işleminin sesi gidermediği ve kalıcı bir fabrika çözümü olmadığı bildiriliyor.",
+            "onlem": "Fitillere zarar verdiği için yağ bazlı ürün yerine silikon sprey kullanın.",
+            "kaynaklar": [
+              "https://www.toyotaownersclub.com/forums/topic/198897-squeaky-windows-corolla-2020/",
+              "https://www.sikayetvar.com/toyota/cam-tikirtisi-ve-yetersiz-servis-magduriyetim-giderilsin"
+            ]
+          }
         },
         {
           "id": "ic-trim-gicirti",
@@ -159,7 +197,14 @@
             "https://forum.donanimhaber.com/2021-toyota-corolla-1-5-izlenimlerim--149519119",
             "https://toyotaownersclub.com/forums/topic/189240-corolla-2019-18-hybrid-crickety-rattle",
             "https://www.fiches-auto.fr/fiabilite-toyota/fiabilite-644-pannes-toyota-corolla.php"
-          ]
+          ],
+          "cozum": {
+            "metin": "Kalıcı bir fabrika çözümü yok; yetkili servisin tavan lambası ve direk kaplaması kaynaklı sesler için 'kronik, çözümü yok' dediği bildiriliyor. Sürücü tarafı B direği yakınındaki çıtırtıda yerinden çıkmış kapı fitilinin yerine bastırılması sesi tamamen kesti; ön yolcu emniyet kemeri tokasının direk kaplamasına temas edip etmediği de kontrol edilmeli.",
+            "kaynaklar": [
+              "https://toyotaownersclub.com/forums/topic/189240-corolla-2019-18-hybrid-crickety-rattle",
+              "https://www.sikayetvar.com/toyota/toyota-corolla-15-vision-arac-ici-ses"
+            ]
+          }
         },
         {
           "id": "klima-kompresoru",

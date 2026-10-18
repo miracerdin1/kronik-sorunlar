@@ -5,7 +5,7 @@ import type { Guven } from "./tipler";
  * üretilmiş, başka sitelerden derlenmiş ya da genel parça satıcısı yazısı olan siteler. Bunlar ikinci bir bağımsız
  * kaynağı destekleyebilir ama tek başlarına bir sorunu "doğrulandı" yapamaz.
  */
-export const ZAYIF_KAYNAKLAR = ["araclo.com", "carchecker.pro", "au7o.io", "carverif.fr", "bilgiyerim.com.tr", "parcabizden.com", "autodoc.co.uk", "autopartspro.co.uk"];
+export const ZAYIF_KAYNAKLAR = ["araclo.com", "carchecker.pro", "au7o.io", "carverif.fr", "bilgiyerim.com.tr", "parcabizden.com", "autodoc.co.uk", "autopartspro.co.uk", "europremiumparts.com", "kfz-dietrich.com", "wheelstreet.lt", "reidasofficial.lt"];
 
 /**
  * Verisini açıkça başka bir siteden aktaran kaynaklar. Bağımsız sayılmazlar:
@@ -27,7 +27,7 @@ export function zayifMi(url: string): boolean {
   return ZAYIF_KAYNAKLAR.some((z) => alan === z || alan.endsWith(`.${z}`));
 }
 
-/** En az iki farklı siteden, en az biri güçlü kaynaktan gelen sorun doğrulanmış sayılır. */
+/** En az iki farklı siteden, en az biri güçlü kaynaktan gelen sorun (ya da çözüm) doğrulanmış sayılır. */
 export function guvenHesapla(kaynaklar: string[]): Guven {
   const alanlar = new Set(kaynaklar.map((k) => AKTARAN_KAYNAKLAR[alanAdi(k)] ?? alanAdi(k)));
   const gucluVar = kaynaklar.some((k) => !zayifMi(k));

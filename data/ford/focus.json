@@ -34,7 +34,16 @@
             "https://www.carchecker.pro/reports/ford_focus_mk3_1.6_tdci.html",
             "https://www.araclo.com/blog/ford-focus-1.6-tdci-kronik-sorunlari-ve-ikinci-el-alim-rehberi-2026"
           ],
-          "not": "Enjektör sızdırmazlık kurumu turbo yağ besleme süzgecini tıkıyor; turbo değişiminde yağ hattı ve süzgeç de değişmeli."
+          "not": "Enjektör sızdırmazlık kurumu turbo yağ besleme süzgecini tıkıyor; turbo değişiminde yağ hattı ve süzgeç de değişmeli.",
+          "cozum": {
+            "metin": "Arıza çoğunlukla turbonun kendisinden değil, yağ besleme borusunun bloğa bağlandığı banjo cıvatasındaki küçük süzgecin kurum/çamurla tıkanmasından kaynaklanıyor. Kalıcı onarımda turbo ile birlikte yağ besleme ve dönüş boruları, banjo cıvatası ve pulları yenileniyor; karter indirilip yağ pompası emiş süzgeci temizleniyor, motor iki kez yıkamalı yağ/filtre değişimiyle temizleniyor ve vakum pompası emiş süzgeci kontrol ediliyor. Bu önlemler alınmadan takılan yeni turbo birkaç bin km içinde yeniden bozulabiliyor.",
+            "onlem": "Düşük küllü (low SAPS) 5W-30 yağ kullanıp yağı 10.000-13.000 km'de (6-8 bin mil) bir değiştirmek ve enjektörlerden kompresyon kaçağını erken gidermek gerekiyor.",
+            "kaynaklar": [
+              "https://www.frenchcarforum.co.uk/forum/viewtopic.php?p=453481",
+              "https://pmmonline.co.uk/technical/turbo-replacement-1-6-hdi-engine/",
+              "https://www.berlingoforum.com/thread-7123.html"
+            ]
+          }
         },
         {
           "id": "enjektor-kecesi-kacagi-ve-enjektor-arizasi",
@@ -51,7 +60,16 @@
             "https://www.carchecker.pro/reports/ford_focus_mk3_1.6_tdci.html",
             "https://www.araclo.com/blog/ford-focus-1.6-tdci-kronik-sorunlari-ve-ikinci-el-alim-rehberi-2026",
             "https://www.fiches-auto.fr/fiabilite-ford/fiabilite-326-pannes-ford-focus-3.php"
-          ]
+          ],
+          "cozum": {
+            "metin": "Enjektör yuvasından kompresyon kaçağında enjektörler sökülüp alt sızdırmazlık (bakır) pulları yenileniyor, yuvalar temizlenip/frezelenip enjektörler yeni bağlantı saplaması ve somunuyla (tek kullanımlık) doğru torkla bağlanıyor; üstteki mazot sızıntısında ise geri dönüş borularının küçük O-ringleri değişiyor. Kaçak uzun süre devam ettiyse yağa kurum karıştığından karter indirilip emiş süzgeci temizleniyor ve yağ/filtre değişiyor.",
+            "onlem": "Her bakımda enjektörlerin çevresinde (özellikle 3 numara) kurum izi ve bağlantı cıvatalarının sıkılığı kontrol edilmeli.",
+            "kaynaklar": [
+              "https://www.elektroda.com/rtvforum/topic3420912.html",
+              "https://www.frenchcarforum.co.uk/forum/viewtopic.php?p=429497",
+              "https://pmmonline.co.uk/technical/turbo-replacement-1-6-hdi-engine/"
+            ]
+          }
         },
         {
           "id": "dpf-tikanmasi",
@@ -68,7 +86,16 @@
             "https://www.carchecker.pro/reports/ford_focus_mk3_1.6_tdci.html",
             "https://www.araclo.com/blog/ford-focus-1.6-tdci-kronik-sorunlari-ve-ikinci-el-alim-rehberi-2026",
             "https://www.fiches-auto.fr/fiabilite-ford/fiabilite-326-pannes-ford-focus-3.php"
-          ]
+          ],
+          "cozum": {
+            "metin": "Revize bir parça yok; önce diyagnostik cihazla (Ford IDS/FORScan) zorunlu (statik) rejenerasyon yapılıyor. Rejenerasyon tamamlanamıyorsa DPF söküp yıkanarak temizleniyor ya da değiştiriliyor ve ardından öğrenilmiş DPF değerleri sıfırlanıyor; fark basınç sensörü ve hortumları ile egzozdaki yakıt buharlaştırıcı (vaporiser) kontrol edilip tıkalıysa yenileniyor.",
+            "onlem": "Ağırlıklı kısa şehir içi kullanımda rejenerasyon tamamlanamadığından düzenli olarak uzun yol/yüksek devirli sürüş yapılmalı.",
+            "kaynaklar": [
+              "https://forum.forscan.org/viewtopic.php?p=1117",
+              "https://forum.forscan.org/viewtopic.php?p=69673",
+              "https://picoauto.com/support/viewtopic.php?p=81051"
+            ]
+          }
         },
         {
           "id": "cift-kutleli-volan-ve-debriyaj",

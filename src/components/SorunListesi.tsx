@@ -3,7 +3,7 @@
 import { useSyncExternalStore } from "react";
 import { alanAdi } from "@/lib/dogrulama";
 import { SorunBildir, useDeneyimler, YasadimDugmesi } from "@/components/Katki";
-import { ciddiyetAdi, yakitAdi, type Ciddiyet, type Nesil, type Sorun } from "@/lib/tipler";
+import { ciddiyetAdi, yakitAdi, type Ciddiyet, type Cozum, type Nesil, type Sorun } from "@/lib/tipler";
 
 const ciddiyetSirasi: Record<Ciddiyet, number> = { yuksek: 0, orta: 1, dusuk: 2 };
 
@@ -13,7 +13,7 @@ const ciddiyetRozeti: Record<Ciddiyet, string> = {
   dusuk: "bg-zinc-100 text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300",
 };
 
-function DogrulandiIsareti() {
+function DogrulandiIsareti({ aciklama = "en az iki bağımsız kaynakta geçiyor" }: { aciklama?: string }) {
   return (
     <span className="group relative inline-flex align-middle">
       <span
@@ -34,9 +34,49 @@ function DogrulandiIsareti() {
         role="tooltip"
         className="pointer-events-none absolute bottom-full left-1/2 z-10 mb-2 w-max max-w-56 -translate-x-1/2 rounded-md bg-zinc-900 px-2.5 py-1.5 text-xs font-normal text-white opacity-0 shadow-lg transition-opacity group-hover:opacity-100 group-focus-within:opacity-100 dark:bg-zinc-100 dark:text-zinc-900"
       >
-        Doğrulandı: en az iki bağımsız kaynakta geçiyor
+        Doğrulandı: {aciklama}
       </span>
     </span>
+  );
+}
+
+function KaynakListesi({ kaynaklar }: { kaynaklar: string[] }) {
+  return (
+    <p className="mt-3 text-sm">
+      <span className="text-zinc-500 dark:text-zinc-400">Kaynaklar: </span>
+      {kaynaklar.map((k, i) => (
+        <span key={k}>
+          {i > 0 && ", "}
+          <a href={k} target="_blank" rel="noopener noreferrer nofollow" className="text-red-700 underline dark:text-red-400">
+            {alanAdi(k)}
+          </a>
+        </span>
+      ))}
+    </p>
+  );
+}
+
+function CozumKutusu({ cozum }: { cozum: Cozum }) {
+  return (
+    <div className="mt-4 rounded-lg border border-emerald-200 bg-emerald-50 p-3 dark:border-emerald-900 dark:bg-emerald-950/40">
+      <h4 className="font-semibold text-emerald-900 dark:text-emerald-300">
+        Çözüm
+        {cozum.guven === "dogrulandi" && (
+          <>
+            {" "}
+            <DogrulandiIsareti aciklama="bu çözüm en az iki bağımsız kaynakta geçiyor" />
+          </>
+        )}
+      </h4>
+      <p className="mt-1">{cozum.metin}</p>
+      {cozum.onlem && (
+        <p className="mt-2">
+          <span className="font-medium">Önlem: </span>
+          {cozum.onlem}
+        </p>
+      )}
+      <KaynakListesi kaynaklar={cozum.kaynaklar} />
+    </div>
   );
 }
 
@@ -76,17 +116,8 @@ function SorunKarti({ sorun, motorAdlari, yasadim }: { sorun: Sorun; motorAdlari
           <dd className="inline">{sorun.maliyetTl ? `${sorun.maliyetTl} TL` : "Henüz veri yok"}</dd>
         </div>
       </dl>
-      <p className="mt-3 text-sm">
-        <span className="text-zinc-500 dark:text-zinc-400">Kaynaklar: </span>
-        {sorun.kaynaklar.map((k, i) => (
-          <span key={k}>
-            {i > 0 && ", "}
-            <a href={k} target="_blank" rel="noopener noreferrer nofollow" className="text-red-700 underline dark:text-red-400">
-              {alanAdi(k)}
-            </a>
-          </span>
-        ))}
-      </p>
+      <KaynakListesi kaynaklar={sorun.kaynaklar} />
+      {sorun.cozum && <CozumKutusu cozum={sorun.cozum} />}
       {yasadim}
     </li>
   );

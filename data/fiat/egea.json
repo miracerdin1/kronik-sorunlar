@@ -133,7 +133,15 @@
             "https://forum.donanimhaber.com/fiat-egea-yag-yakma-sorunu-hk--136202450",
             "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-546-pannes-fiat-tipo.php"
           ],
-          "not": "Kullanıcılar ~1.000 km'de 100 ml tüketim bildiriyor; kaliteli yağ ve kısa değişim aralığı (7.000-8.000 km) öneriliyor."
+          "not": "Kullanıcılar ~1.000 km'de 100 ml tüketim bildiriyor; kaliteli yağ ve kısa değişim aralığı (7.000-8.000 km) öneriliyor.",
+          "cozum": {
+            "metin": "Bu motorda kalıcı bir onarım ya da revize parça bildirilmiyor. Sahipler ve Fransız kullanıcı raporları sorunun çoğunlukla takviye yağla idare edildiğini, Fiat'ın da belli bir tüketimi normal saydığını aktarıyor. Bazı sahipler fabrika dolumu yerine kaliteli marka yağa geçince eksilmenin belirgin azaldığını söylüyor.",
+            "onlem": "Yağ seviyesini her 1.000 km'de ya da en az ayda bir çubukla kontrol edin ve kaliteli marka yağ kullanın.",
+            "kaynaklar": [
+              "https://forum.donanimhaber.com/fiat-egea-yag-yakma-sorunu-hk--136202450",
+              "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-546-pannes-fiat-tipo.php"
+            ]
+          }
         },
         {
           "id": "fire-bobin",
@@ -178,7 +186,13 @@
           "motorlar": "hepsi",
           "kaynaklar": [
             "https://www.araclo.com/blog/fiat-egea-1.4-fire-sorunlari-bakim-ve-satin-alma-rehberi-2026"
-          ]
+          ],
+          "cozum": {
+            "metin": "Bir Tipo sahibine göre su, stop lambalarının altındaki arka havalandırma menfezlerinden ve lamba kenarlarından girip stepne yuvasına iniyor. Sahip stopları ve tamponu söküp menfezleri, stop üstündeki plastik kapağı ve lamba kenarlarını içeriden oto silikonuyla yalıtarak sızıntıyı giderdiğini anlatıyor.",
+            "kaynaklar": [
+              "https://www.fiatforum.com/threads/water-in-spare-wheel-well.506510/latest"
+            ]
+          }
         }
       ]
     }
