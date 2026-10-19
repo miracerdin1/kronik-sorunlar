@@ -43,7 +43,13 @@
             "https://www.carcomplaints.com/Hyundai/Elantra/2017/body_paint/structure-body-door_.shtml",
             "https://www.carproblemzoo.com/hyundai/elantra/2017/body-problems.php",
             "https://www.araclo.com/blog/hyundai-elantra-1.6-d-cvvt-incelemesi-sorunlar-yorumlar-ve-alim-rehberi"
-          ]
+          ],
+          "cozum": {
+            "metin": "Arızanın kaynağı kapı kilit mandalı (latch). Hyundai'nin 21-BD-006H bülteni, Kasım 2015 - Aralık 2016 arasında üretilen Elantra AD'lerde arızalı kapının kilit tertibatının revize parçayla (parça numarasına \"FFF\" eki gelen yeni mandal, ör. sol ön 81310-F2030FFF) değiştirilmesini öngörüyor. ABD'de bu parça için garanti 10 yıl/sınırsız km'ye uzatıldı;",
+            "kaynaklar": [
+              "https://static.nhtsa.gov/odi/tsbs/2021/MC-10196574-0001.pdf"
+            ]
+          }
         },
         {
           "id": "multimedya-ekrani-acilmiyor",
@@ -78,7 +84,14 @@
             "https://www.carcomplaints.com/Hyundai/Elantra/2017/body_paint/structure-body-7.shtml",
             "https://www.carcomplaints.com/Hyundai/Elantra/2017/",
             "https://www.carchecker.pro/reports/hyundai_elantra_ad_1.6_mpi.html"
-          ]
+          ],
+          "cozum": {
+            "metin": "Kalıcı bir üretim düzeltmesi açıklanmadı; çözüm kabaran/soyulan panellerin (kaput, çamurluk, tavan, kapılar, bagaj) boyacıda yeniden boyanması, renk uyumu için gerekirse komşu panellerin de geçilmesi. Hyundai ABD 25-BD-004H bülteniyle 2017-2018 Elantra'nın Quartz White Pearl renginde fabrika boyası garantisini 10 yıl/sınırsız km'ye uzattı; bülten ABD üretimi ADa kasayı kapsıyor, Türkiye'deki Kore üretimi AD araçlar bu kampanyaya dahil değil.",
+            "kaynaklar": [
+              "https://static.nhtsa.gov/odi/tsbs/2025/MC-11018888-0001.pdf",
+              "https://www.repairerdrivennews.com/2025/07/11/hyundai-extends-paint-warranty-on-seven-models-following-customer-complaints-investigation/"
+            ]
+          }
         },
         {
           "id": "direksiyon-kolonu-rulman-sesi",
@@ -94,7 +107,15 @@
             "https://static.nhtsa.gov/odi/tsbs/2020/MC-10179246-0001.pdf",
             "https://static.nhtsa.gov/odi/tsbs/2022/MC-10211680-0001.pdf",
             "https://www.carchecker.pro/reports/hyundai_elantra_ad_1.6_mpi.html"
-          ]
+          ],
+          "cozum": {
+            "metin": "Tüm kolon değiştirilmeden onarılabiliyor: ilk bülten (20-ST-003H) C-MDPS sonsuz dişli (worm shaft) tertibatının yenisiyle (Elantra AD için 56351-F2AAA veya 56351-G3AAA) değiştirilip ardından GDS ile ASP kalibrasyonu ve EPS tip tanıtımı yapılmasını öngörüyor. Sonraki bülten (22-ST-005H) yalnızca küçük rulman setinin (56359-L1AAAFFF: rulman, kayar sönümleyici ve kapak) özel aparatla değiştirilmesine geçti; işçilik yaklaşık 0,6 saat.",
+            "kaynaklar": [
+              "https://static.nhtsa.gov/odi/tsbs/2020/MC-10179246-0001.pdf",
+              "https://static.nhtsa.gov/odi/tsbs/2022/MC-10211680-0001.pdf",
+              "https://www.carcomplaints.com/Hyundai/Elantra/2017/tsbs/index.shtml"
+            ]
+          }
         }
       ]
     }

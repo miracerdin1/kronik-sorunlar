@@ -57,7 +57,14 @@
             "https://www.timeslive.co.za/motoring/news/2025-07-04-stellantis-recalls-diesel-cars-over-camshaft-chain-issue/",
             "https://www.sikayetvar.com/peugeot/peugeot-301-zincir-sesinde-geri-cagirma-kapsami-ihlali-ve-yetkili-servis-sorunu",
             "https://www.sikayetvar.com/peugeot/peugeot-301-kam-mili-hatasi-geri-cagirmasina-ragmen-cozulmedi"
-          ]
+          ],
+          "cozum": {
+            "metin": "Ekim 2017-Ocak 2023 arasında üretilen 1.5 BlueHDi'li araçlar (301 dahil) geri çağırma kapsamında. Serviste uygulama aracıyla motor sesi analiz edilerek zincir kontrol ediliyor, yazılım güncelleniyor ve gerekirse yağ değiştiriliyor. Kusurlu bulunan 7 mm zincir, güçlendirilmiş 8 mm zincirle değiştiriliyor. Stellantis bu onarım için belirli şartlarla 10 yıl/240.000 km'ye kadar parça ve işçiliği karşılıyor.",
+            "kaynaklar": [
+              "https://www.fiches-auto.fr/articles-auto/rappels-constructeurs/s-3950-rappel-du-15-bluehdi-lie-a-la-chaine-de-distribution.php",
+              "https://www.timeslive.co.za/motoring/news/2025-07-04-stellantis-recalls-diesel-cars-over-camshaft-chain-issue/"
+            ]
+          }
         },
         {
           "id": "adblue-sistemi-arizasi",
@@ -77,7 +84,14 @@
             "https://www.fiches-auto.fr/articles-auto/chiffres-fiabilite-diesel/s-2526-fiabilite-15-bluehdi.php",
             "https://www.araclo.com/vehicles/peugeot-301-1.6-bluehdi/degerlendirmeler/kullanici-sorunlari",
             "https://www.sifiraracal.com/peugeot-modelleri/301-yorumlari"
-          ]
+          ],
+          "cozum": {
+            "metin": "BlueHDi'lerde arızanın çoğu, pompası içine gömülü AdBlue deposundan kaynaklanıyor: kristalleşen üre pompayı, seviye sensörünü ve havalandırmayı tıkıyor, sızıntı da depo üzerindeki elektronik modülü paslandırıyor. Pompa ayrı satılmadığı için depo komple değişiyor. Bayiler çoğu zaman enjektörü de aynı anda değiştiriyor; deponun uzman atölyede onarılması daha ucuz bir seçenek. Fransa'da Stellantis depo parçasını 5 yıl/150.000 km'ye kadar tamamen, 7 yıl/210.000 km'ye kadar kısmen karşılıyor; bu payın Türkiye'de geçerli olup olmadığı kaynaklarda yok.",
+            "kaynaklar": [
+              "https://j2rauto.com/rechange/stellantis-ce-qui-cloche-avec-les-reservoirs-adblue-defaillants",
+              "https://www.fiches-auto.fr/articles-auto/fiabilite/s-2618-adblue-problemes-en-pagaille-.php"
+            ]
+          }
         },
         {
           "id": "dpf-tikanmasi",
@@ -96,7 +110,16 @@
             "https://www.otomoto.pl/news/peugeot-301-prosty-i-tani",
             "https://www.araclo.com/vehicles/peugeot-301-1.6-bluehdi/degerlendirmeler/kullanici-sorunlari",
             "https://www.sikayetvar.com/peugeot/peugeot-301-motor-ariza-lambasi"
-          ]
+          ],
+          "cozum": {
+            "metin": "PSA dizellerinin DPF'si yakıta karıştırılan katkı sıvısıyla (Eolys) rejenerasyon yapıyor. Katkı haznesi boşalınca hem arıza kodu (ör. P15B3) çıkıyor hem rejenerasyon zorlaşıyor. Çözüm: katkı sıvısını doldurup sayacı diagnostik cihazla sıfırlamak (gerekirse ECU yazılımını güncellemek), ardından servis cihazıyla zorunlu rejenerasyon yaptırmak. Filtre yine de tıkalıysa söküp makinede temizletmek ya da yenisini takmak gerekiyor.",
+            "onlem": "Kısa mesafe kullanılan araçta ayda bir otoyolda en az 3.000 devirde 10-20 dakika sürün; boş hazneyle pompa zarar görebileceği için katkı sayacını sıvı eklemeden sıfırlatmayın.",
+            "kaynaklar": [
+              "https://www.largus.fr/actualite-automobile/filtre-a-particules-le-pot-de-la-discorde-526371_p_2.html",
+              "https://frenchcarforum.co.uk/forum/viewtopic.php?p=830512",
+              "https://www.forum-peugeot.com/Forum/threads/alerte-messahe-automatique-fap-colmatage.139275/"
+            ]
+          }
         },
         {
           "id": "egr-valfi-kurum-arizasi",
@@ -114,7 +137,16 @@
             "https://www.araclo.com/vehicles/peugeot-301-1.6-bluehdi/degerlendirmeler/kullanici-sorunlari",
             "https://www.arabam.com/blog/?p=115128",
             "https://autocopilot.fr/motorisations/1-6-hdi"
-          ]
+          ],
+          "cozum": {
+            "metin": "1.6 HDi'de kurumla tıkanan EGR valfi bazen elle temizlik ya da dekarbonizasyonla kurtarılabiliyor. Kurtarılamıyorsa aktüatörü entegre yeni valf takılıyor. Sahip deneyimlerine göre valf değişse bile şikâyet bazen yalnızca azalıyor. Arıza lambası enjektörü gösterse de asıl suçlu EGR olabileceği için enjektör işine geçmeden tam teşhis yaptırılmalı. Valf delinip silindire su giriyorsa motor hemen çalıştırılmamalı; aksi halde blok çatlayabilir.",
+            "onlem": "Şehir içi ve karışık kullanımda yaklaşık 80.000 km'de EGR ve DPF için önleyici dekarbonizasyon yaptırın.",
+            "kaynaklar": [
+              "https://www.fiches-auto.fr/articles-auto/fiabilite/s-530-vanne-egr-vos-signalements.php",
+              "https://autocopilot.fr/motorisations/1-6-hdi",
+              "https://www.arabam.com/blog/?p=115128"
+            ]
+          }
         },
         {
           "id": "1-2-puretech-yagli-triger-kayisi",
@@ -132,7 +164,16 @@
             "https://www.otomoto.pl/news/peugeot-301-prosty-i-tani",
             "https://www.fiches-auto.fr/articles-auto/essai-moteur/1l2-puretech-82-ch.php",
             "https://www.araclo.com/vehicles/peugeot-301-1.2-puretech/degerlendirmeler/kullanici-sorunlari"
-          ]
+          ],
+          "cozum": {
+            "metin": "Atmosferik 1.2 PureTech'te kayış değişim aralığı 100.000 km veya 6 yıla düşürüldü. Her bakımda kayış genişliği yağ dolum ağzından mastarla 3 noktada ölçülüyor. Ölçü dışıysa karter sökülüp yağ pompası süzgecine bakılıyor: kısmen tıkalıysa temizlenip yağ pompası solenoidi değiştiriliyor, tamamen tıkalıysa yağ pompası yenileniyor. Haziran 2022'den itibaren yeni nesil kayış takılıyor. Stellantis eski nesil motorlar için belirli şartlarla uzatılmış garanti veriyor: Fransa'da 10 yıl/175.000 km, Türkiye'de 10 yıl/180.000 km.",
+            "onlem": "Yalnızca üreticinin onayladığı yağı kullanın; kısa şehir içi kullanılan, az km yapan araçlarda yağı yılda bir değiştirin.",
+            "kaynaklar": [
+              "https://www.ntn-snr.com/sites/default/files/2023-03/TECHinfo%201.2%20PureTech%20Atmo.pdf",
+              "https://www.caradisiac.com/le-moteur-puretech-profite-d-une-extension-de-garantie-208069.htm",
+              "https://www.turkiyegazetesi.com.tr/t-otomobil/arac-almadan-once-gercegini-ogrenin-12-puretech-motor-triger-sorunu-nedir-yeni-model-1762948"
+            ]
+          }
         },
         {
           "id": "boya-atmasi-paslanma",

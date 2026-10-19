@@ -51,7 +51,16 @@
             "https://www.sikayetvar.com/dacia/sandero",
             "https://carverif.fr/blogs/fiabilite-voitures/dacia-sandero-ii-0-9-tce-90-fiabilite-performance",
             "https://www.araclo.com/blog/dacia-sandero-sandero-stepway-satin-alma-rehberi-bakim-kronik-sorunlar-ve-fiyatlar-2026"
-          ]
+          ],
+          "cozum": {
+            "metin": "Kalıcı bir çözüm yok: servisler önce şanzıman yazılımını güncelliyor, ardından baskı balata-volan veya debriyaj setini değiştiriyor; sahiplerin anlattığı vakalarda titreme yazılım güncellemesinden sonra da, parça değişiminden 3-50 bin km sonra da geri geliyor. Parça değişimi işe yaramazsa servisler bir sonraki adım olarak şanzıman beynini değiştirmeyi öneriyor.",
+            "kaynaklar": [
+              "https://www.sikayetvar.com/dacia/dacia-sanderoda-kronik-titreme-ve-baski-balata-sorunu-musteri-hizmetlerinden-yetersiz-destek",
+              "https://www.sikayetvar.com/dacia/dacia-stepway-sanderoda-kronik-kavrama-problemi",
+              "https://forum.donanimhaber.com/2016-model-sandero-stepway-titreme-sorunu--131114784",
+              "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-366-pannes-dacia-sandero-2.php"
+            ]
+          }
         },
         {
           "id": "tce-su-kutusu-kacagi",
@@ -71,7 +80,17 @@
             "https://carverif.fr/blogs/fiabilite-voitures/dacia-sandero-ii-0-9-tce-90-fiabilite-performance",
             "https://blog.piecesetpneus.com/?p=164729",
             "https://www.carchecker.pro/reports/dacia_sandero_mk2_0.9_tce.html"
-          ]
+          ],
+          "cozum": {
+            "metin": "Sızıntı ısıyla deforme olan plastik su çıkış kutusundan geliyorsa kutu yenisiyle değiştiriliyor (sahiplerin bildirdiği tutar 200-380 € civarı, yaklaşık 1,7-4 saat işçilik). Kaçak genelde akü tablasının yanındaki kutu çevresinde, daha seyrek olarak emme manifoldunun altında aranıyor.",
+            "onlem": "Uyarı lambası yanmadan seviye düşebildiği için yedek depodaki antifriz seviyesi düzenli kontrol edilmeli; ihmal edilen kaçak conta yakmaya kadar gidebiliyor.",
+            "kaynaklar": [
+              "https://www.fiches-auto.fr/avis-dacia/avis-unique-366-81875-dacia-sandero-2-09-tce-90-ch-2014-.php",
+              "https://www.fiches-auto.fr/avis-renault/avis-unique-446-83116-renault-captur-09-tce-90-ch-83000km-2014.php",
+              "https://www.fiches-auto.fr/avis-renault/avis-unique-357-92852-renault-clio-4-09-tce-90-ch-boite-manuelle-71-000-km-annee-2015.php",
+              "https://www.planeterenault.com/forum/clio-iv-probleme-liquide-de-refroidissement-t52322.html?amp=1"
+            ]
+          }
         },
         {
           "id": "tce-triger-zinciri-uzamasi",
@@ -126,7 +145,15 @@
             "https://www.whatcar.com/dacia/sandero/hatchback/used-review/n852/reliability",
             "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-366-pannes-dacia-sandero-2.php",
             "https://carverif.fr/pages/modele-occasion/dacia-sandero-ii-2012-2020"
-          ]
+          ],
+          "cozum": {
+            "metin": "DPF uyarısı yandığında aracı ana yolda ya da otoyolda yaklaşık 3000 devirde 20-25 dakika kesintisiz sürmek rejenerasyonu çoğu zaman tamamlıyor. Uyarı sönmüyorsa serviste arıza cihazıyla zorla rejenerasyon yaptırılıyor ve ardından yağ değiştiriliyor; filtre çok doluysa söküp temizletmek değiştirmekten ucuza geliyor. Rejenerasyonu engelleyebildiği için kızdırma bujileri de kontrol edilmeli.",
+            "onlem": "Sürekli kısa şehir içi kullanımdan kaçınılmalı; araç birkaç ayda bir, şehir içi ve otoyolda yaklaşık 20 dakika daha yüksek devirde sürülmeli.",
+            "kaynaklar": [
+              "https://dailydriven.ro/en/dpf-warning-light-on-in-dacia-sandero-what-to-check-1552604",
+              "https://www.planeterenault.com/forum/scenic-iii-comment-fonctionne-la-regeneration-du-fap-sur-un-1-5-dci-t53754.html?amp=1"
+            ]
+          }
         },
         {
           "id": "dci-kontak-kilidi-geri-cagirma",
@@ -144,7 +171,15 @@
             "https://www.fiches-auto.fr/rappels-dacia/r-366-rappels-dacia-sandero-2.php",
             "https://car-recalls.eu/recall/dacia-sandero-2017-key-ignition/",
             "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-366-pannes-dacia-sandero-2.php"
-          ]
+          ],
+          "cozum": {
+            "metin": "Arızalı kontak anahtarı (switch) yenisiyle değiştiriliyor; marş motoru, dişlisi ve kablo tesisatı hasar için kontrol edilip gerekiyorsa onarılıyor. Eylül 2017 - Ekim 2018 arası üretilen 1.5 dCi araçlar geri çağırma kapsamında olduğu için bu işlemin şasi numarasıyla yetkili serviste ücretsiz yaptırılıp yaptırılmadığı sorgulanmalı.",
+            "kaynaklar": [
+              "https://www.hella.com/techworld/ae/bi/dacia-sandero-ignition-switch-stuck/",
+              "https://car-recalls.eu/recall/dacia-sandero-2017-key-ignition/",
+              "https://www.fiches-auto.fr/rappels-dacia/r-366-rappels-dacia-sandero-2.php"
+            ]
+          }
         },
         {
           "id": "rolanti-dalgalanmasi",

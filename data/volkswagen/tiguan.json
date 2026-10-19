@@ -40,7 +40,14 @@
           "kaynaklar": [
             "https://gebrauchtwagenberater.de/vw-tiguan-i-5n-schwachstellen-kaufberatung/",
             "https://autoblog.spidersweb.pl/vw-tiguan-5n-silniki-skrzynie-biegow"
-          ]
+          ],
+          "cozum": {
+            "metin": "Kalıcı çözüm zincir, gergi ve kızakların (gerekirse dişliler ve yağ pompası zinciriyle birlikte) komple set halinde değiştirilmesidir; VW bu iş için zincir, gergi ve kızakları farklı parçalarla değiştiren revize bir set sunmuştur. Motor koduna ve servis güncellemelerine uygun güncel set seçilmeli, montajda eksantrik ve krank kilitleme aparatlarıyla zamanlama yapılmalıdır.",
+            "kaynaklar": [
+              "https://www.uk-mkivs.net/threads/1-4tsi-timing-chain-and-tensioner.620777",
+              "https://pmmonline.co.uk/technical/ways-to-fix-timing-chain-rattle/"
+            ]
+          }
         },
         {
           "id": "dsg-sanziman-arizalari",
@@ -73,7 +80,15 @@
           "kaynaklar": [
             "https://gebrauchtwagenberater.de/vw-tiguan-i-5n-schwachstellen-kaufberatung/",
             "https://autoblog.spidersweb.pl/vw-tiguan-5n-silniki-skrzynie-biegow"
-          ]
+          ],
+          "cozum": {
+            "metin": "DPF uyarısı yandığında 2.0 TDI CR motorda kendiliğinden rejenerasyon için 4. veya 5. viteste (otomatikte Tiptronic/manuel modda) 60 km/s üzerinde, 2000-2500 d/dk ile yaklaşık 10-15 dakika kesintisiz sürmek gerekir; rejenerasyon sırasında motoru kapatmak veya rölantide beklemek işlemi yarıda keser. Uyarı sönmezse is yükü yaklaşık 40 g altındayken teşhis cihazıyla servis (duran araçta) rejenerasyonu yapılabilir; 45 g üzerinde yangın riski nedeniyle filtre değişmelidir.",
+            "onlem": "Sık kısa mesafe kullanımdan kaçının, uyarı yanıkken uzun süre sürmeyin ve rejenerasyonlar yağı yakıtla incelttiği için yağ seviyesini/değişimini takip edin.",
+            "kaynaklar": [
+              "https://wiki.ross-tech.com/index.php/Diesel_Particle_Filter_Emergency_Regeneration",
+              "https://www.seatcupra.net/forums/resources/dpf-info-in-depth-information-about-dpf-maintenance.79/updates"
+            ]
+          }
         },
         {
           "id": "haldex-4motion",
@@ -87,7 +102,15 @@
           "not": "Haldex yağı ve filtresinin düzenli değişmesi önerilir (Gen 4 kavramada filtre var).",
           "kaynaklar": [
             "https://gebrauchtwagenberater.de/vw-tiguan-i-5n-schwachstellen-kaufberatung/"
-          ]
+          ],
+          "cozum": {
+            "metin": "Gen 4 Haldex'te pompa arızasının ana nedeni filtrenin ve pompa giriş süzgecinin tortuyla tıkanmasıdır; çözüm pompanın yenisiyle değiştirilmesi ve aynı anda filtrenin değişip süzgecin temizlenmesi, ardından yağın yenilenmesidir. Filtre değiştirilmeden takılan yeni pompa kısa sürede (bir Tiguan sahibinde 3,5 yılda 3 pompa) yeniden bozulabilir.",
+            "onlem": "Haldex yağını filtre ve süzgeç temizliğiyle birlikte düzenli (ör. 3 yılda bir) değiştirin; standart VW bakımı filtreyi atlayabildiği için ayrıca isteyin.",
+            "kaynaklar": [
+              "https://t6forum.com/threads/t5-1-4motion-haldex-pump-replacement.35016",
+              "https://clubtogether.caravanclub.co.uk/discussion/comment/515488"
+            ]
+          }
         }
       ]
     },
@@ -133,7 +156,16 @@
           "kaynaklar": [
             "https://ecutesting.com/common-faults/volkswagen/dq381-mechatronic-causing-tiguan-dsg-gearbox-problems",
             "https://www.autodoc.co.uk/info/vw-tiguan-problems"
-          ]
+          ],
+          "cozum": {
+            "metin": "P1735/P1736 kodları mekatronik içindeki debriyaj konum sensör modülünün arızasından kaynaklanır; bayinin önerdiği komple mekatronik veya şanzıman değişimi yerine arızalı sensör modülü/bağlantılar onarılarak ya da mekatronik revizyondan geçirilerek (yeniden kodlama gerektirmeden) sorun çözülebilir. Onarım sonrası şanzıman 60-70°C'ye ısıtılıp temel ayar ve debriyaj adaptasyonu yapılmalı, gerekirse en güncel şanzıman yazılımı yüklenmelidir.",
+            "onlem": "Şanzıman yağının seviyesi ve durumu kontrol edilip kirli/eksik yağ yenilenmelidir.",
+            "kaynaklar": [
+              "https://www.ecutesting.com/common-faults/volkswagen/dq381-mechatronic-causing-tiguan-dsg-gearbox-problems/",
+              "https://absstuurapparaten.nl/en/pages/solution-dq381-dq500-dsg-7-error-codes-p173500-and-p173600",
+              "https://mech-tronic.com/lost-reverse-or-stuck-in-gear-the-ultimate-guide-to-vw-tiguan-mechatronic-faults/"
+            ]
+          }
         },
         {
           "id": "cam-tavan-su-sizintisi",
@@ -148,7 +180,14 @@
           "kaynaklar": [
             "https://www.autodoc.co.uk/info/vw-tiguan-problems",
             "https://www.carbuyer.co.uk/volkswagen/tiguan/152117/volkswagen-tiguan-review-2016-2024/owner-reviews"
-          ]
+          ],
+          "cozum": {
+            "metin": "Sızıntının nedeni ön cam tavan tahliye (drenaj) hortumlarının nemli kir/tortuyla tıkanmasıdır; VW 2018-2019 Tiguan için 60E5 servis kampanyasıyla ön drenajların kontrol edilip temizlenmesini ve modifiye edilmesini öngörmüştür (parça gerektirmez).",
+            "kaynaklar": [
+              "https://static.nhtsa.gov/odi/tsbs/2019/MC-10169132-0001.pdf",
+              "https://www.carcomplaints.com/Volkswagen/Tiguan/2018/tsb/tsb-dealer-60e5.shtml"
+            ]
+          }
         }
       ]
     }

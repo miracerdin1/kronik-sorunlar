@@ -11,6 +11,8 @@ const kok = path.join(import.meta.dirname, "..", "data");
 const hatalar: string[] = [];
 let toplam = 0;
 let dogrulanan = 0;
+let cozumlu = 0;
+let dogrulananCozum = 0;
 const bekleyenler: string[] = [];
 
 for (const marka of fs.readdirSync(kok)) {
@@ -33,6 +35,17 @@ for (const marka of fs.readdirSync(kok)) {
         sorunIdleri.add(s.id);
         if (!CIDDIYETLER.includes(s.ciddiyet)) hatalar.push(`${ad}: bilinmeyen ciddiyet`);
         if (s.motorlar !== "hepsi") for (const id of s.motorlar) if (!motorIdleri.has(id)) hatalar.push(`${ad}: tanımsız motor ${id}`);
+        if (s.cozum) {
+          cozumlu++;
+          if (!s.cozum.metin?.trim()) hatalar.push(`${ad}: çözüm metni boş`);
+          if (!s.cozum.kaynaklar?.length) hatalar.push(`${ad}: çözüm kaynağı yok`);
+          else
+            try {
+              if (guvenHesapla(s.cozum.kaynaklar) === "dogrulandi") dogrulananCozum++;
+            } catch {
+              hatalar.push(`${ad}: geçersiz çözüm kaynak adresi`);
+            }
+        }
         if (!s.kaynaklar?.length) {
           hatalar.push(`${ad}: kaynak yok`);
           continue;
@@ -49,6 +62,7 @@ for (const marka of fs.readdirSync(kok)) {
 }
 
 console.log(`${toplam} sorun, ${dogrulanan} doğrulandı, ${bekleyenler.length} tek kaynak.`);
+console.log(`${cozumlu} sorunun çözümü var, ${dogrulananCozum} çözüm doğrulandı.`);
 if (process.argv.includes("--bekleyenler")) for (const b of bekleyenler) console.log(`  - ${b}`);
 if (hatalar.length) {
   console.error(`\n${hatalar.length} hata:\n` + hatalar.map((h) => `  ✗ ${h}`).join("\n"));

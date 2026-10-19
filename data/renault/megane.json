@@ -51,7 +51,16 @@
             "https://www.largus.fr/guide-achat-occasion/renault/megane/avis-fiabilite-renault-megane-iii-b95-30038973.html",
             "https://www.planeterenault.com/forum/megane-iii-panne-grave-sur-boite-edc-t46449.html",
             "https://www.araclo.com/vehicles/renault-megane-1.5-dci/degerlendirmeler/kullanici-sorunlari"
-          ]
+          ],
+          "cozum": {
+            "metin": "İlk adım servisteki şanzıman yazılımı güncellemesi (reprogramlama); ancak \"vites kutusunu kontrol ettiriniz\" arızası sürerse kablo ve aktüatör kontrolünden sonra genellikle şanzıman kontrol ünitesi (beyin) değiştiriliyor ve sahipler bunun sorunu çözdüğünü bildiriyor. Kavrama kaçırma vakalarında giriş mili keçesi, gerekirse kavrama seti yenileniyor. Arıza kodunu sadece silmek işe yaramıyor; beyin değişiminden sonra arızanın geri döndüğü vakalar da var.",
+            "kaynaklar": [
+              "https://www.planeterenault.com/forum/megane-iii-probleme-boite-de-vitesse-edc-6-t56896.html",
+              "https://www.planeterenault.com/forum/megane-iii-panne-grave-sur-boite-edc-t46449.html",
+              "https://www.largus.fr/guide-achat-occasion/renault/megane/avis-fiabilite-renault-megane-iii-b95-30038973.html",
+              "https://www.sikayetvar.com/renault/megane/vites-kutusu"
+            ]
+          }
         },
         {
           "id": "tce-yag-tuketimi-motor-arizasi",
@@ -69,7 +78,17 @@
             "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-212-pannes-renault-megane-3.php",
             "https://www.largus.fr/guide-achat-occasion/renault/megane/avis-fiabilite-renault-megane-iii-b95-30038973.html",
             "https://mymotorlist.com/engines/renault/h5ft/"
-          ]
+          ],
+          "cozum": {
+            "metin": "Renault önce emme manifoldu basıncını düzelten motor beyni yazılım güncellemesi yapıyor. Kompresyon testinde hasar çıkarsa piston segmanları, alt motor (piston, biyel, segman) ya da motor komple değişiyor. Renault bakım geçmişi düzgün araçlarda masrafın bir kısmını vaka bazında üstlenebiliyor, ancak yalnızca yazılımla sorunun çözülmediği de bildiriliyor.",
+            "onlem": "Yağ seviyesini en az 3.000 km'de bir çubukla kontrol edin, yağı yılda bir ya da en geç 20.000 km'de değiştirip faturaları saklayın; tüketim 1.000 km'de 0,5 litreyi geçerse durumu servise kayıt altına aldırın.",
+            "kaynaklar": [
+              "https://www.quechoisir.org/actualite-moteur-1-2-renault-400-000-voitures-en-danger-n67215/",
+              "https://www.largus.fr/guide-achat-occasion/renault/megane/avis-fiabilite-renault-megane-iii-b95-30038973.html",
+              "https://www.actu-automobile.com/2023/03/31/fragilite-du-moteur-1-2-tce-renault-dacia-comment-eviter-la-casse",
+              "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-212-pannes-renault-megane-3.php"
+            ]
+          }
         },
         {
           "id": "tce-triger-zinciri-uzamasi",
@@ -86,7 +105,15 @@
             "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-212-pannes-renault-megane-3.php",
             "https://mymotorlist.com/engines/renault/h5ft/",
             "https://www.largus.fr/guide-achat-occasion/renault/megane/avis-fiabilite-renault-megane-iii-b95-30038973.html"
-          ]
+          ],
+          "cozum": {
+            "metin": "Uzamış zincir, gergi ve kızak takımıyla birlikte değiştirilip motor beyni yeniden programlanıyor. Zincir gergisi yağ basıncıyla çalıştığı için çoğu vaka yağ tüketimi sorunuyla bağlantılı; yağ eksikliği giderilmezse zincir değişiminden sonra da ses geri dönebiliyor.",
+            "onlem": "Zincirin yağ basıncı düşüklüğünden zarar görmemesi için yağ seviyesini düzenli olarak çubukla kontrol edin.",
+            "kaynaklar": [
+              "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-212-pannes-renault-megane-3.php",
+              "https://www.quechoisir.org/actualite-moteur-1-2-renault-400-000-voitures-en-danger-n67215/"
+            ]
+          }
         },
         {
           "id": "dci-kol-yatagi-yag-pompasi",
@@ -105,7 +132,15 @@
             "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-212-pannes-renault-megane-3.php",
             "https://mymotorlist.com/engines/renault/k9k/",
             "https://www.araclo.com/vehicles/renault-megane-1.5-dci/degerlendirmeler/kullanici-sorunlari"
-          ]
+          ],
+          "cozum": {
+            "metin": "Yağ basıncı uyarısı ve ses görüldüğünde yağ filtresi ile yağ pompası değiştiriliyor. Kol yatağı vuruntusu başladıysa kol yatakları yenileniyor; geç kalınırsa motor değişimi gerekiyor. Belirti olmadan da önleyici kol yatağı değişimi yaptıranlar var ve bu iş motor değişiminden çok daha ucuza geliyor.",
+            "onlem": "Motor yağını en geç 15.000 km'de, ağır kullanımda daha sık değiştirin.",
+            "kaynaklar": [
+              "https://www.largus.fr/guide-achat-occasion/renault/megane/avis-fiabilite-renault-megane-iii-b95-30038973.html",
+              "https://www.planeterenault.com/forum/tous-modeles-coussinets-de-bielles-t47140.html"
+            ]
+          }
         },
         {
           "id": "dci-enjektor-arizasi",
@@ -123,7 +158,14 @@
             "https://www.largus.fr/guide-achat-occasion/renault/megane/avis-fiabilite-renault-megane-iii-b95-30038973.html",
             "https://www.planeterenault.com/forum/megane-iii-a-coups-injection-sur-megane-3-1-5-dci-110-t56386.html?amp=1",
             "https://www.araclo.com/blog/renault-megane-1.5-dci-kronik-sorunlari-ve-bakim-rehberi"
-          ]
+          ],
+          "cozum": {
+            "metin": "Arızalı enjektörler diyagnostikteki düzeltme değerlerine göre tespit edilip orijinal parçayla değiştiriliyor ve kodlama/öğretme işlemi yapılıyor. Soğukken vuruntu çoğunlukla yüksek basınç enjektör borularından kaynaklanıyor ve bu borular yenileniyor. Benzer belirtiler EGR valfinden de gelebildiği için enjektör değişiminden önce EGR'nin de kontrol edilmesi gerekiyor.",
+            "kaynaklar": [
+              "https://www.largus.fr/guide-achat-occasion/renault/megane/avis-fiabilite-renault-megane-iii-b95-30038973.html",
+              "https://www.planeterenault.com/forum/megane-iii-a-coups-injection-sur-megane-3-1-5-dci-110-t56386.html?amp=1"
+            ]
+          }
         },
         {
           "id": "dci-dpf-egr-tikanmasi",
@@ -142,7 +184,16 @@
             "https://www.carbuyer.co.uk/tips-and-advice/155160/used-renault-megane-buying-guide-2008-2016-mk3",
             "https://www.whocanfixmycar.com/advice/common-problems-with-the-renault-megane",
             "https://www.planeterenault.com/forum/megane-iii-a-coups-injection-sur-megane-3-1-5-dci-110-t56386.html?amp=1"
-          ]
+          ],
+          "cozum": {
+            "metin": "Erken fark edilen DPF tıkanması serviste zorlanmış rejenerasyonla ya da DPF temizliğiyle gideriliyor; ilerlemiş vakalarda filtre değişiyor. Kirlenen EGR valfi önce temizleniyor, rölanti ve tekleme düzelmezse değiştiriliyor. Bir sahip EGR değişiminden sonra rölanti ve teklemenin kalktığını bildiriyor.",
+            "onlem": "Düzenli olarak 20 dakika kadar yolda yüksek hızla gidin, \"FAP rejenerasyonu\" uyarısı yanarken motoru kapatmayın ve düşük kül içerikli RN0720 onaylı yağ kullanın.",
+            "kaynaklar": [
+              "https://www.whocanfixmycar.com/advice/common-problems-with-the-renault-megane",
+              "https://www.planeterenault.com/forum/tous-modeles-filtre-a-particule-fap-entretien-specifique-t19754-80.html?amp=1",
+              "https://www.planeterenault.com/forum/megane-iii-a-coups-injection-sur-megane-3-1-5-dci-110-t56386.html?amp=1"
+            ]
+          }
         },
         {
           "id": "debriyaj-volan-asinmasi",
@@ -175,7 +226,16 @@
             "https://www.sikayetvar.com/renault/2012-megane",
             "https://www.planeterenault.com/forum/megane-iii-probleme-infiltration-eau-coffre-de-rangement-sol-megane-iii-t50072.html?amp=1",
             "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-212-pannes-renault-megane-3.php"
-          ]
+          ],
+          "cozum": {
+            "metin": "En sık neden, ön cam altındaki torpido ızgarasının tahliye klapelerinin toprak ve yaprakla tıkanması. Çamurluk davlumbazı sökülüp klapeler temizleniyor ya da değiştiriliyor, Renault da tahliye hortumlarını revize ederek çözüyor. Tahliyeler temiz olduğu halde su geliyorsa kapı içindeki su yalıtım folyosu yenileniyor.",
+            "onlem": "Ön cam altındaki ızgara ve tahliye kanallarını yaprak ve topraktan düzenli olarak temizleyin.",
+            "kaynaklar": [
+              "https://www.largus.fr/guide-achat-occasion/renault/megane/avis-fiabilite-renault-megane-iii-b95-30038973.html",
+              "https://www.planeterenault.com/forum/megane-iii-megane-l-eau-de-pluie-coule-sur-mes-pieds-a-grande-eau-regle-t47044.html?amp=1",
+              "https://www.planeterenault.com/forum/megane-iii-infiltration-d-eau-regle-t40564.html?amp=1"
+            ]
+          }
         }
       ]
     },
@@ -217,7 +277,13 @@
             "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-537-pannes-renault-megane-4.php"
           ],
           "sanziman": "EDC otomatik",
-          "not": "Çözüm olarak kavrama seti, şanzıman yağı ve yazılım güncellemesi uygulanıyor; garanti başvurularında itiraz yaşandığı bildiriliyor."
+          "not": "Çözüm olarak kavrama seti, şanzıman yağı ve yazılım güncellemesi uygulanıyor; garanti başvurularında itiraz yaşandığı bildiriliyor.",
+          "cozum": {
+            "metin": "Yetkili servislerin uyguladığı çözüm kavrama setinin değiştirilmesi; garantideki araçlarda yapılıyor, servisler revize parçadan söz ediyor. Ancak kavrama değişiminden sonra sesin ve titremenin geri döndüğü vakalar da var, garanti dışı araçlara ise yüksek kavrama ya da şanzıman değişim teklifleri veriliyor. Kalıcı bir çözüm henüz doğrulanmadı.",
+            "kaynaklar": [
+              "https://www.sikayetvar.com/renault/megane/megane-4-kavrama"
+            ]
+          }
         },
         {
           "id": "dpf-tikanmasi",

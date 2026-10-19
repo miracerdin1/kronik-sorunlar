@@ -81,7 +81,15 @@
           "kaynaklar": [
             "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi",
             "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-274-pannes-dacia-duster.php"
-          ]
+          ],
+          "cozum": {
+            "metin": "Dacia'nın kullanım kılavuzuna göre partikül filtresi uyarısı yandığında trafik koşullarına uygun şekilde sürmeye devam edip devri mümkünse 2.000 d/dk'nın altına düşürmemek gerekiyor; uyarı yaklaşık 10-20 dakika içinde sönmeli, araç durursa ya da devir düşerse işlem tekrarlanabilir. Sürüşle temizlenmeyen hafif tıkanmalarda servis tipi DPF temizliği, ağır durumlarda filtre değişimi uygulanıyor.",
+            "onlem": "Kılavuzun önerisiyle her 200 km'de bir en az 20 dakikalık ana yol/otoyol sürüşü yapın; ağırlıklı kısa soğuk mesafe kullanımından kaçının.",
+            "kaynaklar": [
+              "https://www.user-manual.dacia.com/ko/node/1311",
+              "https://www.whocanfixmycar.com/advice/common-problems-with-the-dacia-duster"
+            ]
+          }
         },
         {
           "id": "direksiyon-kutusu",
@@ -124,7 +132,15 @@
             "https://www.largus.fr/actualite-automobile/dacia-corrige-la-jauge-a-carburant-du-duster-5440381.html"
           ],
           "km": null,
-          "maliyetTl": null
+          "maliyetTl": null,
+          "cozum": {
+            "metin": "Dacia, 14 Mart 2014'e kadar Pitesti'de üretilen 4x4 Duster'larda yanlış yakıt seviyesi okumasının uygunsuz seviye eğrisinden kaynaklandığını kabul etti ve gösterge panelini ücretsiz olarak yeniden programladı (yaklaşık 15 dakika, Ağustos 2014'ten itibaren servis kampanyası). Bazı 1.5 dCi 110 sahiplerinde ise yakıt seviye ünitesi garanti kapsamında değiştirildi.",
+            "onlem": "Seviyeyi düz zeminde, kontak kapatıp kısa süre bekledikten sonra okuyun; eğimde gösterge yanılabilir.",
+            "kaynaklar": [
+              "https://www.largus.fr/actualite-automobile/dacia-corrige-la-jauge-a-carburant-du-duster-5440381.html",
+              "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-274-pannes-dacia-duster.php"
+            ]
+          }
         }
       ]
     },
@@ -205,7 +221,15 @@
           "kaynaklar": [
             "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi",
             "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-614-pannes-dacia-duster-2.php"
-          ]
+          ],
+          "cozum": {
+            "metin": "Dacia'nın kullanım kılavuzuna göre partikül filtresi uyarısı yandığında trafik koşullarına uygun şekilde sürmeye devam edip devri mümkünse 2.000 d/dk'nın altına düşürmemek gerekiyor; uyarı yaklaşık 10-20 dakika içinde sönmeli, araç durursa ya da devir düşerse işlem tekrarlanabilir. Sürüşle temizlenmeyen hafif tıkanmalarda servis tipi DPF temizliği, ağır durumlarda filtre değişimi uygulanıyor.",
+            "onlem": "Kılavuzun önerisiyle her 200 km'de bir en az 20 dakikalık ana yol/otoyol sürüşü yapın; ağırlıklı kısa soğuk mesafe kullanımından kaçının.",
+            "kaynaklar": [
+              "https://www.user-manual.dacia.com/ko/node/1311",
+              "https://www.whocanfixmycar.com/advice/common-problems-with-the-dacia-duster"
+            ]
+          }
         },
         {
           "id": "adblue-nox",
@@ -221,7 +245,15 @@
           "kaynaklar": [
             "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi",
             "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-614-pannes-dacia-duster-2.php"
-          ]
+          ],
+          "cozum": {
+            "metin": "1.5 Blue dCi'de (2018 sonrası K9K) AdBlue'nun algılanmaması ve araç bloke uyarısının nedeni üre pompasındaki bir conta; çözüm pompanın değişimi ve Renault-Dacia bu onarımı 5 yaşından küçük ve 200.000 km altındaki araçlarda %100 karşılıyor (geri çağırma değil, sahibin başvurması gerekiyor). AdBlue eklense de uyarı sönmeyen bir Duster'da ise bayi elektronik modülü yeniden programlayarak sorunu giderdi.",
+            "kaynaklar": [
+              "https://www.planeterenault.com/1-gamme/40-technologie/1597-actualite-automobile/11605-quelle-prise-charge-pour-problemes-dadblue-moteurs-diesel-/amp/",
+              "https://www.planeterenault.com/forum/duster-probleme-de-reservoir-d-adblue-t56413.html?amp=1",
+              "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-614-pannes-dacia-duster-2.php"
+            ]
+          }
         },
         {
           "id": "edc-titreme",
@@ -267,7 +299,15 @@
             "https://www.largus.fr/actualite-automobile/renault-dacia-1-5-blue-dci-le-probleme-de-surconsommation-d-huile-solutionne-30023258.html"
           ],
           "not": "Yetkili servis yazılım güncellemesi, bazı durumlarda motor değişimi uyguladı.",
-          "maliyetTl": null
+          "maliyetTl": null,
+          "cozum": {
+            "metin": "Motor durduğunda hava klapesinin kapanmasıyla oluşan vakum emme tarafına yağ çekiyor. Renault-Dacia, Dacia'da 1 Ocak 2019 - 31 Temmuz 2021 arasında üretilen 1.5 Blue dCi'ler için özel teknik işlem uyguluyor: enjeksiyon beyni yeniden programlanıyor ve ardından yağ tüketimi ölçülüyor (parça değişmiyor, yaklaşık 1,5 saat); tüketimi süren bazı araçlarda motor değiştirildi.",
+            "onlem": "Bakımlar arasında yağ seviyesini düzenli kontrol edin; hızlı düşüş varsa vakit kaybetmeden yetkili servise başvurun.",
+            "kaynaklar": [
+              "https://www.largus.fr/actualite-automobile/renault-dacia-1-5-blue-dci-le-probleme-de-surconsommation-d-huile-solutionne-30023258.html",
+              "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-614-pannes-dacia-duster-2.php"
+            ]
+          }
         }
       ]
     }

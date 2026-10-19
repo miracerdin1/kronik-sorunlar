@@ -66,7 +66,15 @@
             "https://www.ecutesting.com/common-faults/vauxhall/corsa-12-easytronic-clutchgearbox-actuator/",
             "https://forum.donanimhaber.com/opel-corsa-2006-1-3-silverline-otomatik--141510266",
             "https://www.arabam.com/blog/?p=84643"
-          ]
+          ],
+          "cozum": {
+            "metin": "P1607 gibi aktüatör kodlarında kalıcı çözüm, debriyaj/vites aktüatörünün revize edilmesi (arızalı iç parçaların daha dayanıklılarıyla değişimi) veya yenisinin takılması; revize edilen ünite kodlama gerektirmeden takılıp hava alınarak kullanılıyor, sıfır üretici ünitesi ise kodlama istiyor. Yalnızca P1734/P1735 (öğrenme tamamlanmadı) kodları varsa debriyaj öğretme işlemi yeterli; 'F' uyarısında önce akünün kontrol edilmesi öneriliyor.",
+            "kaynaklar": [
+              "https://www.ecutesting.com/common-faults/vauxhall/corsa-12-easytronic-clutchgearbox-actuator/",
+              "https://absstuurapparaten.nl/en/pages/easytronic-opel-transmissie-problemen-revisie-en-mogelijke-oorzaken",
+              "https://forum.donanimhaber.com/opel-corsa-2006-1-3-silverline-otomatik--141510266"
+            ]
+          }
         },
         {
           "id": "elektrikli-direksiyon-kolonu",
@@ -82,7 +90,16 @@
             "https://ecutesting.com/common-faults/vauxhall/corsa-d-electric-power-steering-column",
             "https://www.autopartspro.co.uk/tips-advice/problems-with-the-opel-corsa-d-4171",
             "https://www.opelim.net/goto/post?id=2683915"
-          ]
+          ],
+          "cozum": {
+            "metin": "Arıza (C0545 tork sensörü, C0460 açı sensörü kodları) direksiyon kolonundaki EPS motor/tork sensörü ünitesinden kaynaklanıyor; çözüm kolonun değiştirilmesi (değişimli/revizyonlu ünite) ya da tork sensörü dahil aşınan parçaların yenilendiği revizyon. Yalnızca Tech2 ile kalibrasyon sorunu çözmemiş, çalışan bir kolonla değişim ise kalibrasyon gerektirmeden düzeltmiş.",
+            "kaynaklar": [
+              "https://ecutesting.com/common-faults/vauxhall/corsa-d-electric-power-steering-column",
+              "https://www.catmag.co.uk/news/inside-line-vauxhall-corsa-ces",
+              "https://www.elektroda.com/rtvforum/topic3445376.html",
+              "https://www.opelim.net/goto/post?id=2683915"
+            ]
+          }
         },
         {
           "id": "cdti-egr-enjektor",
@@ -100,7 +117,14 @@
             "https://www.fiches-auto.fr/fiabilite-opel/fiabilite-126-pannes-opel-corsa-4.php",
             "https://mymotorlist.com/engines/opel/z13dth/",
             "https://mymotorlist.com/engines/opel/z13dtj/"
-          ]
+          ],
+          "cozum": {
+            "metin": "Silindir kapağından tıslama, duman ve yakıt kokusu enjektör sızdırmazlığının bozulduğunu gösteriyor: enjektörler sökülüp temizleniyor, yuvası fırçalanıyor (gerekirse yuva frezeleniyor), yeni sızdırmazlık pulu/O-ring takılıp enjektör 22 Nm ile sıkılıyor; Opel belirli motor numaralarından sonra revize enjektör bağlantı braketleri kullanmış. EGR tıkanmasında yalnızca temizlik her zaman yetmiyor, kalıcı bir çözüm kaynaklarda net değil.",
+            "kaynaklar": [
+              "https://hella.com/techworld/us/bi/Opel-Corsa-C-D-smoke-coming-from-the-cylinder-head-8965",
+              "https://www.fiatforum.com/threads/1-3-multijet-leaky-injector-seal.476129"
+            ]
+          }
         },
         {
           "id": "termostat-sogutma-kacagi",
@@ -135,7 +159,14 @@
           "kaynaklar": [
             "https://www.autopartspro.co.uk/tips-advice/problems-with-the-opel-corsa-d-4171",
             "https://www.fiches-auto.fr/fiabilite-opel/fiabilite-126-pannes-opel-corsa-4.php"
-          ]
+          ],
+          "cozum": {
+            "metin": "Tekleme ve güç kaybı arızalı ateşleme bobini (kaset) ile bujilerin birlikte yenilenmesiyle gideriliyor. Uygun olmayan ya da aşınmış bujiler yeni bobini de kısa sürede bozabildiği için doğru tip buji kullanılmalı; LPG'li araçlarda gaz sisteminin ayarı da kontrol edilmeli.",
+            "kaynaklar": [
+              "https://www.fiches-auto.fr/fiabilite-opel/fiabilite-126-pannes-opel-corsa-4.php",
+              "https://www.elektroda.com/rtvforum/topic3425790.html"
+            ]
+          }
         },
         {
           "id": "benzinli-yag-kacagi",
@@ -154,7 +185,15 @@
             "https://www.fiches-auto.fr/fiabilite-opel/fiabilite-126-pannes-opel-corsa-4.php",
             "https://mymotorlist.com/engines/opel/z12xep/",
             "https://mymotorlist.com/engines/opel/z14xep/"
-          ]
+          ],
+          "cozum": {
+            "metin": "Motorun üst sol tarafındaki yağ kaçağının en sık kaynağı yağ basınç müşiri; müşir (24 mm anahtarla) yenisiyle değiştirilip soket ve çevresi temizleniyor, ardından yağ seviyesi tamamlanıyor. Kaçak ihmal edilirse yağ kablo demetine geçip sensörlere zarar verebiliyor.",
+            "kaynaklar": [
+              "https://www.bentasker.co.uk/posts/documentation/vehicles/709-vauxhall-corsa-d-oil-pressure-switch-replacement.html",
+              "https://www.autobiz.ie/all/opel-corsa---an-easily-fixed-oil-leak",
+              "https://mymotorlist.com/engines/opel/z12xep/"
+            ]
+          }
         }
       ]
     },
@@ -188,7 +227,16 @@
             "https://www.araclo.com/blog/opel-corsa-1.2-t-sorunlari-bakim-ve-satin-alma-rehberi-2026",
             "https://www.turkiyegazetesi.com.tr/t-otomobil/arac-almadan-once-gercegini-ogrenin-12-puretech-motor-triger-sorunu-nedir-yeni-model-1762948"
           ],
-          "not": "Stellantis eski nesil 1.2 PureTech için 10 yıl / 180.000 km uzatılmış garanti verdi; 2023 sonrası yeni nesilde zincire geçildi."
+          "not": "Stellantis eski nesil 1.2 PureTech için 10 yıl / 180.000 km uzatılmış garanti verdi; 2023 sonrası yeni nesilde zincire geçildi.",
+          "cozum": {
+            "metin": "Stellantis kayış değişim aralığını 100.000 km / 6 yıla indirdi; her bakımda kayış yağ dolum ağzından özel mastarla genişliği ölçülerek kontrol ediliyor, sınır dışıysa karter açılıp yağ pompası süzgeci temizleniyor (tamamen tıkalıysa pompa değişiyor). Kayış değişiminde en son nesil kayış, vakum pompası ve komple zamanlama seti takılıp motor beyni güncelleniyor; eski nesil motorlarda 10 yıl / 175.000 km'ye kadar uzatılmış garanti var, 2024 sonrası yeni nesilde zincire geçildi.",
+            "onlem": "Kısa mesafe/şehir içi kullanımda (yılda 15.000 km altı) yağ her yıl, genel olarak en geç 10.000 km'de filtreyle birlikte değiştirilmeli.",
+            "kaynaklar": [
+              "https://www.ntn-snr.com/sites/default/files/2023-03/TECHinfo%201.2%20PureTech%20Turbo_EN_rev.pdf",
+              "https://www.clubalfa.it/en/new-1-2-puretech-heres-what-has-changed-in-the-new-generation-of-the-stellantis-engine-9961",
+              "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-essence/s-4060-comment-fiabiliser-un-12-puretech-.php"
+            ]
+          }
         },
         {
           "id": "yag-tuketimi",
@@ -203,7 +251,14 @@
           ],
           "kaynaklar": [
             "https://www.araclo.com/blog/opel-corsa-1.2-t-sorunlari-bakim-ve-satin-alma-rehberi-2026"
-          ]
+          ],
+          "cozum": {
+            "metin": "Yağ eksiltmenin ana nedeni segmanların aşınması ve silindir ovalleşmesi; kalıcı onarım silindirlerin ölçülüp tamir ölçüsüne (genellikle +0,5 mm) honlanması ve uygun piston-segman takılması, ağır vakada supapların da yenilenmesi. Aşırı yağ tüketimi onarımları eski nesil 1.2 PureTech için Stellantis'in 10 yıl / 175.000 km'lik uzatılmış garanti kapsamında.",
+            "onlem": "Kısa mesafe kullanımda yağ değişim aralığı kısaltılmalı ve onarımda karter havalandırma (reniflard) sistemi de kontrol edilmeli.",
+            "kaynaklar": [
+              "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-essence/s-4060-comment-fiabiliser-un-12-puretech-.php"
+            ]
+          }
         },
         {
           "id": "eat8-hata",

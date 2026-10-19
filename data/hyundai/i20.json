@@ -78,7 +78,14 @@
             "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-699-pannes-hyundai-i20.php",
             "https://infocons.ro/alerta-infocons-protectia-consumatorilor-hyundai-passenger-car/",
             "https://www.sikayetvar.com/hyundai-motor/i20/otomatik"
-          ]
+          ],
+          "cozum": {
+            "metin": "51DT07 kodlu geri çağırma kapsamında (i20/Bayon için 1 Nisan 2021 ile 3 Aralık 2022, i20 N için 4 Ocak 2023'e kadar üretilenler) depo içindeki yakıt pompası ve ona bağlı küçük boru yetkili serviste ücretsiz yenisiyle değiştiriliyor. İşlem yaklaşık 1 saat sürüyor. Kapsam şasi numarasıyla kontrol edilmeli, çünkü bu tarih aralığındaki her araç dahil değil.",
+            "kaynaklar": [
+              "https://lavozdeibiza.com/sociedad/podria-tu-hyundai-pararse-en-plena-marcha-18-000-unidades-en-espana-estan-en-revision/",
+              "https://car-recalls.eu/recall/hyundai-bayon-2021-2022-fuel-pump/"
+            ]
+          }
         },
         {
           "id": "dct-kalkista-vuruntu-vites-atmama",
@@ -99,7 +106,15 @@
             "https://www.whatcar.com/hyundai/i20/hatchback/used-review/n25790/reliability",
             "https://forum.donanimhaber.com/hyundai-i20-1-0-t-gdi-style-plus-kullanim-gecmisim--155282066",
             "https://www.sikayetvar.com/hyundai-motor/i20/otomatik"
-          ]
+          ],
+          "cozum": {
+            "metin": "28 Mart 2023 ile 15 Ocak 2024 arasında üretilen DCT'li araçlarda geri çağırma (41DT05) kapsamında şanzıman kontrol ünitesinin (TCU) yazılımı güncelleniyor; işlem serviste yaklaşık 30 dakika sürüyor. Bu güncelleme, aracı yürüyemez hale getirebilen TCU arızasını gideriyor. Kapsam dışındaki araçlarda düşük hızdaki vuruntu için kaynaklarda doğrulanmış kalıcı bir parça değişimi yok.",
+            "kaynaklar": [
+              "https://www.oeamtc.at/rueckrufaktionen/hyundai-i20-kona-fehlfunktion-des-getriebesteuergeraetes-72146364",
+              "https://www.whatcar.com/hyundai/i20/hatchback/used-review/n25790/reliability",
+              "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-699-pannes-hyundai-i20.php"
+            ]
+          }
         },
         {
           "id": "multimedya-donma-baglanti-kopmasi",
@@ -116,7 +131,15 @@
             "https://www.fiches-auto.fr/avis-hyundai/avis-unique-699-101144-hyundai-i20-10-t-t-gdi-48v-100-ch-i20-nline-michel-vaillant-dct7-5000kms.php",
             "https://www.whatcar.com/hyundai/i20/hatchback/used-review/n25790/reliability",
             "https://eksisozluk.com/entry/166541063"
-          ]
+          ],
+          "cozum": {
+            "metin": "Ekran ve radyo donmalarının çoğu, yetkili serviste yapılan multimedya yazılım güncellemesi ya da sistem sıfırlamasıyla gideriliyor. Kablosuz Android Auto kopmaları sürüyorsa bağlantılar ve multimedya ünitesi kontrol ettirilmeli. Bir sahip, telefonunu Android'den iPhone'a geçirince kopmaların tamamen bittiğini yazıyor.",
+            "kaynaklar": [
+              "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-699-pannes-hyundai-i20.php",
+              "https://www.whatcar.com/hyundai/i20/hatchback/used-review/n25790/reliability",
+              "https://eksisozluk.com/entry/166541063"
+            ]
+          }
         },
         {
           "id": "ic-trim-tikirti-sesleri",
@@ -145,7 +168,14 @@
           "not": "Makyajlı kasada Ağustos 2023 ile Ağustos 2024 arasında üretilen araçları kapsıyor. Yetkili serviste yaklaşık 30 dakikalık radar yazılım güncellemesiyle düzeltiliyor.",
           "kaynaklar": [
             "https://www.oeamtc.at/rueckrufaktionen/hyundai-i20-bayon-hinterer-querverkehrswarner-kann-ausfallen-80735031"
-          ]
+          ],
+          "cozum": {
+            "metin": "9 Ağustos 2023 ile 16 Ağustos 2024 arasında üretilen makyajlı i20 ve Bayon'larda arka radar sensörünün yazılımı yetkili serviste güncelleniyor. İşlem en fazla 30 dakika sürüyor ve arka çapraz trafik uyarısının devre dışı kalmasına yol açan mantık hatasını gideriyor.",
+            "kaynaklar": [
+              "https://www.oeamtc.at/rueckrufaktionen/hyundai-i20-bayon-hinterer-querverkehrswarner-kann-ausfallen-80735031",
+              "https://www.alvolante.it/problemi/hyundai-i20-richiamo-il-radar-posteriore"
+            ]
+          }
         }
       ]
     }

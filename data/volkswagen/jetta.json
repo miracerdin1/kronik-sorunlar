@@ -1,38 +1,119 @@
 {
-  "marka": "Volkswagen", "markaSlug": "volkswagen", "model": "Jetta", "modelSlug": "jetta",
-  "nesiller": [{
-    "slug": "jetta-6", "ad": "Jetta 6 (1B)", "yillar": [2011, 2018], "not": null,
-    "motorlar": [
-      {"id": "1-2-tsi", "ad": "1.2 TSI", "yakit": "benzin"},
-      {"id": "1-4-tsi", "ad": "1.4 TSI", "yakit": "benzin"},
-      {"id": "1-6-tdi", "ad": "1.6 TDI", "yakit": "dizel"},
-      {"id": "2-0-tdi", "ad": "2.0 TDI", "yakit": "dizel"}
-    ],
-    "sorunlar": [
-      {
-        "id": "triger-zinciri-uzamasi", "baslik": "Triger zinciri uzaması", "parca": "Triger zinciri ve gergisi",
-        "belirtiler": "Soğuk çalıştırmada motor bölümünden tırtıl/çıngırak benzeri metalik ses gelir. Zincir zamanında değişmezse atlama ve ciddi motor hasarı riski vardır.",
-        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
-        "motorlar": ["1-2-tsi", "1-4-tsi"],
-        "not": "EA111 TSI motorlarında bilinen bir sorun; Almanya'da VW zincir arızalarında kısmi iyi niyet desteği sağlamıştı.",
-        "kaynaklar": ["https://www.autobild.de/artikel/vw-steuerketten-kulanz-2892135.html", "https://carwiki.de/vw-jetta-probleme"]
-      },
-      {
-        "id": "dsg-7-ileri-mekatronik-debriyaj", "baslik": "7 ileri DSG şanzımanda sarsıntı, debriyaj aşınması ve mekatronik arızası", "parca": "DSG (DQ200) mekatronik ünitesi ve kuru debriyaj",
-        "belirtiler": "Kalkışta ve düşük hızda sarsıntı, hatalı vites geçişleri, debriyajda erken aşınma ve zayıf ivmelenme görülür. Bazı araçlarda yazılım güncellemesi işe yarar, bazılarında mekatronik değişimi gerekir.",
-        "km": null, "ciddiyet": "yuksek", "maliyetTl": null,
-        "motorlar": ["1-2-tsi", "1-4-tsi", "1-6-tdi"],
-        "sanziman": "7 ileri DSG (kuru debriyaj) otomatik",
-        "not": "Şanzıman tipini sasi numarasından doğrulayın; 2.0 TDI'da farklı (ıslak debriyajlı) DSG kullanılır.",
-        "kaynaklar": ["https://carwiki.de/vw-jetta-probleme", "https://www.truedelta.com/Volkswagen-Jetta/transmission-problems-280", "https://carwiki.de/vw-DSG-probleme/"]
-      },
-      {
-        "id": "tdi-turbo-arizasi", "baslik": "TDI motorlarda turbo arızası", "parca": "Turbo kompresör",
-        "belirtiler": "Motor arıza lambası yanar ve belirgin güç kaybı olur; geç yağ değişimi ve kullanım alışkanlıkları ömrü kısaltır.",
-        "km": null, "ciddiyet": "orta", "maliyetTl": null,
-        "motorlar": ["1-6-tdi", "2-0-tdi"],
-        "kaynaklar": ["https://carwiki.de/vw-jetta-probleme"]
-      }
-    ]
-  }]
+  "marka": "Volkswagen",
+  "markaSlug": "volkswagen",
+  "model": "Jetta",
+  "modelSlug": "jetta",
+  "nesiller": [
+    {
+      "slug": "jetta-6",
+      "ad": "Jetta 6 (1B)",
+      "yillar": [
+        2011,
+        2018
+      ],
+      "not": null,
+      "motorlar": [
+        {
+          "id": "1-2-tsi",
+          "ad": "1.2 TSI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-4-tsi",
+          "ad": "1.4 TSI",
+          "yakit": "benzin"
+        },
+        {
+          "id": "1-6-tdi",
+          "ad": "1.6 TDI",
+          "yakit": "dizel"
+        },
+        {
+          "id": "2-0-tdi",
+          "ad": "2.0 TDI",
+          "yakit": "dizel"
+        }
+      ],
+      "sorunlar": [
+        {
+          "id": "triger-zinciri-uzamasi",
+          "baslik": "Triger zinciri uzaması",
+          "parca": "Triger zinciri ve gergisi",
+          "belirtiler": "Soğuk çalıştırmada motor bölümünden tırtıl/çıngırak benzeri metalik ses gelir. Zincir zamanında değişmezse atlama ve ciddi motor hasarı riski vardır.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-tsi",
+            "1-4-tsi"
+          ],
+          "not": "EA111 TSI motorlarında bilinen bir sorun; Almanya'da VW zincir arızalarında kısmi iyi niyet desteği sağlamıştı.",
+          "kaynaklar": [
+            "https://www.autobild.de/artikel/vw-steuerketten-kulanz-2892135.html",
+            "https://carwiki.de/vw-jetta-probleme"
+          ],
+          "cozum": {
+            "metin": "1.2 ve 1.4 TSI (EA111) motorlarında yalnız gergiyi değiştirmek yetmez; zincir, kızaklar, gergi ve eksantrik dişlileri (cıvata ve burçlarıyla) komple set olarak değiştirilir, gerekirse yağ pompası zinciri ve gergisi de yenilenir. Bu motorun 20'den fazla motor kodu olduğu için set, motor koduna ve VW'nin güncel servis bültenlerine göre doğru parça numarasıyla seçilmeli ve özel ayar aparatlarıyla takılmalıdır.",
+            "onlem": "Zincir değişimi sırasında devirdaim pompası, ön kapak contası, O-ringler ve krank keçeleri de yenilenmelidir.",
+            "kaynaklar": [
+              "https://pmmonline.co.uk/technical/ways-to-fix-timing-chain-rattle/"
+            ]
+          }
+        },
+        {
+          "id": "dsg-7-ileri-mekatronik-debriyaj",
+          "baslik": "7 ileri DSG şanzımanda sarsıntı, debriyaj aşınması ve mekatronik arızası",
+          "parca": "DSG (DQ200) mekatronik ünitesi ve kuru debriyaj",
+          "belirtiler": "Kalkışta ve düşük hızda sarsıntı, hatalı vites geçişleri, debriyajda erken aşınma ve zayıf ivmelenme görülür. Bazı araçlarda yazılım güncellemesi işe yarar, bazılarında mekatronik değişimi gerekir.",
+          "km": null,
+          "ciddiyet": "yuksek",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-2-tsi",
+            "1-4-tsi",
+            "1-6-tdi"
+          ],
+          "sanziman": "7 ileri DSG (kuru debriyaj) otomatik",
+          "not": "Şanzıman tipini sasi numarasından doğrulayın; 2.0 TDI'da farklı (ıslak debriyajlı) DSG kullanılır.",
+          "kaynaklar": [
+            "https://carwiki.de/vw-jetta-probleme",
+            "https://www.truedelta.com/Volkswagen-Jetta/transmission-problems-280",
+            "https://carwiki.de/vw-DSG-probleme/"
+          ],
+          "cozum": {
+            "metin": "VW, Haziran 2008 - Eylül 2011/2012 arası üretilen 7 ileri DSG'li (DQ200) Jetta dahil modellerde mekatronik kontrol ünitesindeki elektronik arıza için geri çağırma yaptı; mekatronik ünitesi ücretsiz değiştirilip şanzıman yazılımı son sürüme güncellendi. Sonraki arızalarda en sık neden mekatronik gövdesinde akümülatör bölgesinin çatlaması (rölantide basıncın 40 bar'a düşmesiyle anlaşılır) ve kontrol kartındaki lehim hatalarıdır; çözüm revize gövde/akümülatör ya da ünite değişimi, aşınmış kuru debriyajda ise ayar şimleriyle debriyaj seti değişimi ve çift kütleli volan kontrolüdür.",
+            "onlem": "Kuru debriyaj ömrü yaklaşık 80.000 km olup şehir içi yoğun kullanımda kısalır; servislerde şanzımanın en güncel yazılımda olduğu kontrol ettirilmelidir.",
+            "kaynaklar": [
+              "https://goauto.com.au/amp/19577/volkswagen-issues-dsg-recall.html",
+              "https://www.justcars.com.au/news-and-reviews/volkswagen-issue-recall-on-dsg-equipped-cars/11808",
+              "https://gearsmagazine.com/magazine/dq200-they-just-keep-coming/"
+            ]
+          }
+        },
+        {
+          "id": "tdi-turbo-arizasi",
+          "baslik": "TDI motorlarda turbo arızası",
+          "parca": "Turbo kompresör",
+          "belirtiler": "Motor arıza lambası yanar ve belirgin güç kaybı olur; geç yağ değişimi ve kullanım alışkanlıkları ömrü kısaltır.",
+          "km": null,
+          "ciddiyet": "orta",
+          "maliyetTl": null,
+          "motorlar": [
+            "1-6-tdi",
+            "2-0-tdi"
+          ],
+          "kaynaklar": [
+            "https://carwiki.de/vw-jetta-probleme"
+          ],
+          "cozum": {
+            "metin": "2.0 TDI (CJAA) için VW servis bülteni 2026771'e göre güç kaybı/P0299-P2563 arızalarında turbo çoğu zaman sağlamdır: önce vakum hortumları, turbo-intercooler arası plastik basınç borusu ve intercooler hortum contaları kontrol edilir; vakum diyaframı 600 mbar'ı tutmazsa yalnızca diyafram ve konum sensörü (G581) tamir seti 03L 198 716 A takılır, turbo sadece saplama/somun kırık veya gövde dönmüşse değişir. Sahipler de kanatçık kolunu sıkıştıran arızalı N75 valfi, debimetre (MAF) ve aktüatör değişimiyle turbo değiştirmeden sorunu çözüyor.",
+            "kaynaklar": [
+              "https://static.nhtsa.gov/odi/tsbs/2015/MC-10121244-9999.pdf",
+              "https://www.idparts.com/limp-mode-fix-kit-cbeacjaa-p-5340.html"
+            ]
+          }
+        }
+      ]
+    }
+  ]
 }

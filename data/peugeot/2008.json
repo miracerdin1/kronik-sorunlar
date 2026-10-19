@@ -34,7 +34,16 @@
             "https://www.turkiyegazetesi.com.tr/t-otomobil/arac-almadan-once-gercegini-ogrenin-12-puretech-motor-triger-sorunu-nedir-yeni-model-1762948",
             "https://eksisozluk.com/1-2-puretech--6399271"
           ],
-          "not": "Stellantis Nisan 2024'te bu motorlar için 10 yıl / 180.000 km uzatılmış garanti açıkladı (yetkili serviste düzenli bakım şartıyla). Yalnızca üretici onaylı yağ kullanılmalı."
+          "not": "Stellantis Nisan 2024'te bu motorlar için 10 yıl / 180.000 km uzatılmış garanti açıkladı (yetkili serviste düzenli bakım şartıyla). Yalnızca üretici onaylı yağ kullanılmalı.",
+          "cozum": {
+            "metin": "Üretici kayış değişim aralığını 100.000 km / 6 yıla indirdi ve her bakımda kayış genişliğinin yağ doldurma ağzından özel mastarla ölçülmesini şart koştu. Kayış şişmiş ya da çatlaksa yalnızca kayış değil yağ pompası süzgeci, vakum pompası (kayışla birlikte değişir), VVT solenoidleri ve turbo yağ besleme rakor cıvatası temizlenip/değiştirilir ve motor beyni yazılımı güncellenir; yağlama devresi temizlenmeden yalnızca kayış takılırsa arıza tekrarlar. Yan sanayide güçlendirilmiş kayışlı komple setler de var.",
+            "onlem": "Yılda 15.000 km'nin altında, ağırlıklı şehir içi kullanılan araçlarda yağ seyrelmesine karşı motor yağı en geç yılda bir ve yalnızca üretici normuna uygun yağla değiştirilmeli.",
+            "kaynaklar": [
+              "https://www.ntn-snr.com/sites/default/files/2023-03/TECHinfo%201.2%20PureTech%20Turbo_EN_rev.pdf",
+              "https://pmmonline.co.uk/?p=32484",
+              "https://www.gatestechzone.com/en/news/2026-05-belt-in-oil-kits"
+            ]
+          }
         }
       ]
     },
@@ -93,7 +102,17 @@
             "https://www.sikayetvar.com/peugeot/garanti-kapsaminda-triger-seti-degisimi-yetkili-servis-tarafindan-reddedildi",
             "https://www.turkiyegazetesi.com.tr/t-otomobil/arac-almadan-once-gercegini-ogrenin-12-puretech-motor-triger-sorunu-nedir-yeni-model-1762948",
             "https://forum.donanimhaber.com/peugeot-2008-triger-kayisi-hakkinda--161406917"
-          ]
+          ],
+          "cozum": {
+            "metin": "Değişim aralığı 100.000 km / 6 yıla düşürüldü; her bakımda kayış genişliği yağ doldurma ağzından mastarla ölçülür, sınır dışıysa karter indirilip yağ pompası süzgeci kontrol edilir. Değişimde vakum pompası da yenilenir, yağ pompası süzgeci, VVT solenoidleri ve turbo yağ besleme rakor cıvatası temizlenir/değişir ve motor beyni yazılımı güncellenir; sahipler 2022 ortasından itibaren daha kalın/güçlendirilmiş kayış takıldığını bildiriyor. Yağlama devresi temizlenmeden yalnızca kayış değişirse sorun tekrarlar.",
+            "onlem": "Az ve kısa mesafe kullanılan araçlarda yağ yılda bir, üretici normuna uygun yağla değiştirilmeli; kayış yağ altında sağlam görünebildiği için ölçümle kontrol ettirilmeli.",
+            "kaynaklar": [
+              "https://www.ntn-snr.com/sites/default/files/2023-03/TECHinfo%201.2%20PureTech%20Turbo_EN_rev.pdf",
+              "https://pmmonline.co.uk/?p=32484",
+              "https://www.gatestechzone.com/en/news/2026-05-belt-in-oil-kits",
+              "https://www.forum-peugeot.com/Forum/threads/308-pure-tech-1-2-130-ch-courroie-de-distribution.133742/post-2732162"
+            ]
+          }
         },
         {
           "id": "bluehdi-eksantrik-zinciri",
@@ -113,7 +132,15 @@
             "https://car-recalls.eu/recall/peugeot-2008-2017-2023-bluehdi-failure/",
             "https://www.peugeot.co.uk/owners/Peugeot-1-5-blue-hdi-key-information.html",
             "https://en.ara.cat/cars/stellantis-faces-the-risk-of-another-fiasco-with-the-1-5-bluehdi-diesel-engine_1_5435759.html"
-          ]
+          ],
+          "cozum": {
+            "metin": "Geri çağırmada önce motor beyni yazılımı güncellenir (yağ basıncını artırır, yağ kalitesi düşünce bakım uyarısı verir), ardından motor sesi özel uygulamayla akustik olarak analiz edilir; sorun bulunursa 7 mm zincir ücretsiz olarak 2023 sonrası motorlarda kullanılan 8 mm zincirle değiştirilir. Sorun yoksa yağ daha yüksek viskoziteli, aşınma önleyici katkılı yeni FPW9.55535/03 normlu yağla değiştirilir; zincir arızası için kapsam ilk tescilden itibaren 10 yıl / 240.000 km'ye uzatıldı.",
+            "onlem": "Bakım uyarısı gelince geciktirmeden ve yalnızca onaylı normdaki yağla yağ değiştirilmeli; is birikmiş yağ zincir aşınmasını hızlandırıyor.",
+            "kaynaklar": [
+              "https://www.peugeot.co.uk/owners/Peugeot-1-5-blue-hdi-key-information.html",
+              "https://en.ara.cat/cars/stellantis-faces-the-risk-of-another-fiasco-with-the-1-5-bluehdi-diesel-engine_1_5435759.html"
+            ]
+          }
         },
         {
           "id": "adblue-depo-enjektor-arizasi",
@@ -132,7 +159,15 @@
             "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-651-pannes-peugeot-2008-2.php",
             "https://forum-auto.matmut.fr/forum/PEUGEOT/2008-II/TEMOIN-ADBLUE-PEUGEOT-2008-BLUEHDI/5603667/474172",
             "https://car-recalls.eu/recall/peugeot-2008-2020-adblue-injector/amp/"
-          ]
+          ],
+          "cozum": {
+            "metin": "Tıkanan üre enjektörü genellikle tek başına (parça yaklaşık 70 €) değiştirilip yeni kelepçeyle takılıyor ve AdBlue devresi yeniden basınçlandırılıyor; sahipler bunun ardından uyarının geri gelmediğini bildiriyor. Pompa, ısıtıcı ve sensörlerin entegre olduğu depo arızasında depo komple değişiyor; revize parça bildirilmedi, bazı sahipler depoyu boşaltıp yeniledikten sonra teşhis cihazıyla (Diagbox) pompa/depo ünitesini yeniden tanıtıyor.",
+            "onlem": "Her AdBlue dolumunda kristalleşme önleyici katkı kullanılmalı ve depo taşırılmamalı (aşırı dolum seviye sensörü arızasına yol açabiliyor).",
+            "kaynaklar": [
+              "https://forum-auto.matmut.fr/forum/PEUGEOT/2008-II/TEMOIN-ADBLUE-PEUGEOT-2008-BLUEHDI/5603667/474172",
+              "https://www.frenchcarforum.co.uk/forum/viewtopic.php?p=863862"
+            ]
+          }
         },
         {
           "id": "direksiyon-kutusu-kolon",
@@ -181,7 +216,15 @@
             "https://www.sikayetvar.com/peugeot/peugeot-e2008-elektrik-tahrik-sistemindeki-ariza-ve-ikame-arac-ihmaline-sikayet",
             "https://www.sikayetvar.com/peugeot/peugeot-e-2008-uzerindeki-tekrarlayan-elektrik-tahrik-sistemi-arizasi-ve-kalici-cozum-istegi",
             "https://www.fiches-auto.fr/fiabilite-peugeot/fiabilite-651-pannes-peugeot-2008-2.php"
-          ]
+          ],
+          "cozum": {
+            "metin": "2022 üretimi e-2008'lerde arızanın nedeni yüksek voltaj batarya kontrol ünitesi (BMU) yazılımının hücre gerilimini/sıcaklığını yanlış okuyup koruma amaçlı çekişi kesmesi; geri çağırmada bu ünitenin yazılımı serviste kontrol edilip güncelleniyor. Diğer üretim dönemlerinde güncellemeye rağmen tekrarlayan arızalar için kalıcı bir çözüm bildirilmedi.",
+            "kaynaklar": [
+              "https://www.electrive.com/2023/03/01/stellantis-toyota-launch-recall-due-to-battery-issues",
+              "https://www.mlit.go.jp/en/jidosha/content/001611041.pdf",
+              "https://www.vehiclerecalls.gov.au/recalls/rec-006323"
+            ]
+          }
         },
         {
           "id": "e2008-dahili-sarj-cihazi",

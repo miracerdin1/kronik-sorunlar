@@ -18,7 +18,10 @@ export function tumModeller(): Model[] {
     for (const dosya of fs.readdirSync(klasor)) {
       if (!dosya.endsWith(".json")) continue;
       const model: Model = JSON.parse(fs.readFileSync(path.join(klasor, dosya), "utf8"));
-      for (const n of model.nesiller) for (const s of n.sorunlar) s.guven = guvenHesapla(s.kaynaklar);
+      for (const n of model.nesiller) for (const s of n.sorunlar) {
+        s.guven = guvenHesapla(s.kaynaklar);
+        if (s.cozum) s.cozum.guven = guvenHesapla(s.cozum.kaynaklar);
+      }
       modeller.push(model);
     }
   }

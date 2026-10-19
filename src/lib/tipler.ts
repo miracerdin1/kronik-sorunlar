@@ -8,6 +8,16 @@ export interface Motor {
   yakit: Yakit;
 }
 
+export interface Cozum {
+  /** Kalıcı çözüm ya da onarım yolu (revize parça, yazılım güncellemesi vb.). */
+  metin: string;
+  /** Tekrarlamaması için bakım/kullanım önerisi. */
+  onlem?: string;
+  /** Kaynaklardan otomatik hesaplanır, JSON'a yazılmaz. */
+  guven: Guven;
+  kaynaklar: string[];
+}
+
 export interface Sorun {
   id: string;
   baslik: string;
@@ -24,6 +34,8 @@ export interface Sorun {
   /** Kaynaklardan otomatik hesaplanır, JSON'a yazılmaz. */
   guven: Guven;
   kaynaklar: string[];
+  /** Sahiplerin ve servislerin uyguladığı çözüm; bulunamadıysa yok. */
+  cozum?: Cozum;
 }
 
 export interface Nesil {

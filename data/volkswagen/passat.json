@@ -38,7 +38,16 @@
             "https://www.autodoc.co.uk/info/problems-vw-passat-b8",
             "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-507-pannes-volkswagen-passat.php"
           ],
-          "sanziman": "DSG otomatik"
+          "sanziman": "DSG otomatik",
+          "cozum": {
+            "metin": "Erken evrede (hafif kalkış titremesi) şanzıman beyni yazılım güncellemesi ve kavrama adaptasyonu yetebiliyor; aşınma ilerlemişse kuru çift kavrama seti değiştiriliyor. Basınç kaybı/vites kaybı gibi mekatronik arızalarında ünite komple değişiyor ya da arızalı hidrolik parçaları yenilenerek onarılıyor; her iki işlemden sonra ODIS ile temel ayar/adaptasyon yapılmazsa vites sertliği ve hızlı kavrama aşınması sürüyor. Bazı sahipler kavramayı birden fazla kez değiştirmek zorunda kaldığı için kesin kalıcı çözüm yok.",
+            "onlem": "Ömür boyu denmesine rağmen DQ200 yağını 60.000-150.000 km arasında değiştirtmek ve dur-kalk trafikte aracı kavramayla tutmamak öneriliyor.",
+            "kaynaklar": [
+              "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-507-pannes-volkswagen-passat.php",
+              "https://www.wheelstreet.lt/en/straipsniai/136-volkswagen-passat-gidas",
+              "https://kfz-dietrich.com/blog/vw-diagnose-passat-b8-tdi-typische-fehler/"
+            ]
+          }
         },
         {
           "id": "cift-kutleli-volan",
@@ -86,7 +95,16 @@
           "kaynaklar": [
             "https://www.araclo.com/blog/volkswagen-passat-1.6-tdi-sorunlari-bakim-ve-satin-alma-rehberi-2026",
             "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-507-pannes-volkswagen-passat.php"
-          ]
+          ],
+          "cozum": {
+            "metin": "Fark basıncı ve kurum/kül değerleri okunup kritikse servis bilgisayarıyla zorlamalı rejenerasyon yapılıyor; kül yükü fazlaysa filtre sökülüp temizleniyor. Kaçıran enjektör filtreyi hızla doldurduğu için varsa önce enjektör sorunu gideriliyor; yarım kalan rejenerasyonlar yağa yakıt karıştırdığından yağ da değiştirilmeli.",
+            "onlem": "10 km altı kısa yolları azaltıp düzenli olarak 20-30 dakikalık otoyol sürüşüyle filtrenin kendiliğinden rejenere olmasına izin vermek.",
+            "kaynaklar": [
+              "https://kfz-dietrich.com/blog/vw-passat-b8-typische-probleme-diagnose-odis/",
+              "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-507-pannes-volkswagen-passat.php",
+              "https://www.wheelstreet.lt/en/straipsniai/136-volkswagen-passat-gidas"
+            ]
+          }
         },
         {
           "id": "front-assist",
@@ -100,7 +118,14 @@
           "kaynaklar": [
             "https://www.autodoc.co.uk/info/problems-vw-passat-b8",
             "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-507-pannes-volkswagen-passat.php"
-          ]
+          ],
+          "cozum": {
+            "metin": "Tampon sökme-takma, hafif çarpma ya da ön düzen işinden sonra kayan radar sensörünün ayarı kontrol ediliyor; ayar vidalarıyla hizalanıp diyagnoz cihazında (ODIS/VCDS) radar kalibrasyonu ve hizalama sıfırlaması yapılıyor. Şerit takip kamerası varsa onun da kalibrasyonu gerekiyor.",
+            "kaynaklar": [
+              "https://kfz-dietrich.com/blog/vw-passat-b8-steuergeraete-diagnose/",
+              "https://www.vag-coding.net/vw/golf-7-5g/golf-7-5g-correction-of-acc-radar-misalignment-fault-c1103/"
+            ]
+          }
         },
         {
           "id": "multimedya",
@@ -114,7 +139,15 @@
           "kaynaklar": [
             "https://www.autodoc.co.uk/info/problems-vw-passat-b8",
             "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-507-pannes-volkswagen-passat.php"
-          ]
+          ],
+          "cozum": {
+            "metin": "Önce ünitenin yazılım sürümü fabrika sürümüyle karşılaştırılıp güncelleniyor; donma, kendiliğinden yeniden başlama ve Bluetooth kopmaları çoğu zaman bununla gideriliyor. Donanım arızalıysa ünite (garantide yenisi, sonrasında revizyonlu ünite) değiştiriliyor; 2017 sonrası MIB2 nesli belirgin şekilde daha kararlı.",
+            "kaynaklar": [
+              "https://kfz-dietrich.com/blog/vw-passat-b8-typische-probleme-diagnose-odis/",
+              "https://www.vag-coding.net/tutorials-information/mst2-mhi2-mib2-software-update/",
+              "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-507-pannes-volkswagen-passat.php"
+            ]
+          }
         }
       ]
     }

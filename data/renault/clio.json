@@ -53,7 +53,16 @@
             "https://www.auto.cz/articleonlyid/ojety-renault-clio-iii-kdyz-odmitate-fabii-90748?chapter=2",
             "https://gebrauchtwagenberater.de/renault-clio-probleme/",
             "https://dailydriven.ro/it/informazioni-sul-motore-15-dci-di-renault-1538432"
-          ]
+          ],
+          "cozum": {
+            "metin": "Revize bir parça ya da üretici kampanyası yok; vuruntu başladıysa motor açılıp kol yatakları yenileniyor, hasar ilerlediyse motor değişiyor. Risk görülen araçlarda bazı ustalar yatakları triger ve yağ değişimiyle aynı anda önleyici olarak yeniliyor.",
+            "onlem": "Yağı en geç 10.000-15.000 km'de, doğru viskozitede kaliteli yağla değiştirin.",
+            "kaynaklar": [
+              "https://www.planeterenault.com/forum/post930116.html",
+              "https://www.planeterenault.com/forum/tous-modeles-coussinets-de-bielles-t47140.html",
+              "https://dailydriven.ro/it/informazioni-sul-motore-15-dci-di-renault-1538432"
+            ]
+          }
         },
         {
           "id": "dci-delphi-pompa-enjektor",
@@ -73,7 +82,14 @@
             "https://www.auto.cz/articleonlyid/ojety-renault-clio-iii-kdyz-odmitate-fabii-90748?chapter=2",
             "https://gebrauchtwagenberater.de/renault-clio-probleme/",
             "https://au7o.io/known-issues/renault-clio?year=2008"
-          ]
+          ],
+          "cozum": {
+            "metin": "Pompa talaş döktüyse yalnızca pompayı değiştirmek yetmiyor: yüksek basınç pompası, rail, dört enjektör, yakıt filtresi ve alçak/yüksek basınç boruları birlikte yenileniyor, depo temizleniyor ya da değişiyor; iş sırasında triger kayışı da yenileniyor. Parça parça yapılan onarımda kalan talaş yeni parçaları yeniden bozabiliyor.",
+            "kaynaklar": [
+              "https://www.planeterenault.com/forum/clio-iii-limaille-dans-le-circuit-injection-t45307.html?amp=1",
+              "https://www.fiches-auto.fr/avis-renault/avis-unique-106-13241-renault-clio-3-15-dci-85-ch-85000-kms-2007-dynamique.php"
+            ]
+          }
         },
         {
           "id": "atesleme-bobini-arizasi",
@@ -94,7 +110,15 @@
             "https://www.auto.cz/articleonlyid/ojety-renault-clio-iii-kdyz-odmitate-fabii-90748?chapter=2",
             "https://gebrauchtwagenberater.de/renault-clio-probleme/",
             "https://www.araclo.com/forum/threads/renault-clio-3-1.4-16v-k4j-bobin-arizasinin-nedenleri-ve-dikkat-edilmesi-gerekenler"
-          ]
+          ],
+          "cozum": {
+            "metin": "Arızalı bobin yenisiyle değiştiriliyor; diğerleri de kısa sürede bozulduğu için ustalar dört bobinin birlikte, kaliteli yedek parçayla ve bujilerle beraber değişmesini öneriyor. Ucuz bobinle tek tek değişimde arıza tekrarlayabiliyor.",
+            "kaynaklar": [
+              "https://cliosport.net/threads/engine-troubles-on-my-1-6-16v-clio-dynamique.318779/",
+              "https://www.fiches-auto.fr/avis-renault/avis-unique-106-76461-renault-clio-3-16-110-ch-clio-16l-16v-initiale.php",
+              "https://gebrauchtwagenberater.de/renault-clio-probleme/"
+            ]
+          }
         },
         {
           "id": "eksantrik-faz-kasnagi",
@@ -111,7 +135,15 @@
           "kaynaklar": [
             "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-106-pannes-renault-clio-3.php",
             "https://www.auto.cz/articleonlyid/ojety-renault-clio-iii-kdyz-odmitate-fabii-90748?chapter=2"
-          ]
+          ],
+          "cozum": {
+            "metin": "Soğuk çalıştırmadaki takırtının kaynağı faz değiştirici kasnağın iç arızası; kasnak yenisiyle değiştiriliyor (ör. febi 36415). Kasnak triger kayışının üzerinde olduğundan aynı işlemde triger seti ve devirdaim de yenileniyor.",
+            "kaynaklar": [
+              "https://cdn.partsfinder.bilsteingroup.com/pf-document/PROTIPS36444_GB.PDF",
+              "https://www.planeterenault.com/forum/megane-ii-tres-gros-claquement-1-6-16v-115cv-regle-t32943.html?amp=1",
+              "https://www.planeterenault.com/forum/clio-iii-poulie-dephaseur-sur-clio-3-1-6-16v-t45874.html?amp=1"
+            ]
+          }
         },
         {
           "id": "elektrikli-direksiyon-kolonu",
@@ -128,7 +160,15 @@
             "https://www.largus.fr/actualite-automobile/defaillance-de-la-direction-sur-les-clio-iii-et-modus-3008370.html",
             "https://www.auto.cz/articleonlyid/ojety-renault-clio-iii-kdyz-odmitate-fabii-90748?chapter=2",
             "https://forum.donanimhaber.com/clio-3-hb-direksiyon-ve-araba-calimiyo-lutfen-yardim--30902727"
-          ]
+          ],
+          "cozum": {
+            "metin": "Arıza, elektrikli direksiyon ünitesindeki iki elektronik bileşenin korozyonundan kaynaklanıyor; Renault'nun çözümü direksiyon kolonunu beyniyle birlikte komple değiştirmek. 1 Temmuz 2008 - 31 Ocak 2009 üretimi araçlar için Kasım 2011'de özel teknik kampanya (OTS) açıldı; kontrolde arıza doğrulanırsa kolon değişiyor, katkı oranı aracın yaşına, km'sine ve bakım geçmişine göre belirleniyor.",
+            "onlem": "Ön cam altındaki su tahliye kanallarının tıkanmamasına dikkat edin; kabine su girişi kolon çevresinde paslanmaya yol açabiliyor.",
+            "kaynaklar": [
+              "https://www.largus.fr/actualite-automobile/defaillance-de-la-direction-sur-les-clio-iii-et-modus-3008370.html",
+              "https://www.planeterenault.com/forum/clio-iii-cause-du-probleme-de-defaillance-de-la-direction-t45347.html?amp=1"
+            ]
+          }
         },
         {
           "id": "cam-krikosu",
@@ -142,7 +182,14 @@
           "kaynaklar": [
             "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-106-pannes-renault-clio-3.php",
             "https://www.whocanfixmycar.com/advice/common-problems-with-the-renault-clio"
-          ]
+          ],
+          "cozum": {
+            "metin": "Ses yapan ya da yavaşlayan camda kriko mekanizması ve bağlantı noktaları kontrol edilip gerekirse sıkılıyor, aşınmışsa kriko değiştiriliyor. Motor doğrudan beslendiğinde çalışıyorsa sorun mekanik değil; bu durumda arızalı cam düğmesi değiştirilerek çözülüyor, kapı soketi ve şaseler de kontrol ediliyor.",
+            "kaynaklar": [
+              "https://www.whocanfixmycar.com/advice/common-problems-with-the-renault-clio",
+              "https://www.planeterenault.com/forum/clio-iii-probleme-leve-vitre-electrique-passager-avant-clio-3-t50399.html?amp=1"
+            ]
+          }
         },
         {
           "id": "on-takim-amortisor-takozu",
@@ -158,7 +205,15 @@
             "https://www.whocanfixmycar.com/advice/common-problems-with-the-renault-clio",
             "https://www.auto.cz/articleonlyid/ojety-renault-clio-iii-kdyz-odmitate-fabii-90748?chapter=2",
             "https://gebrauchtwagenberater.de/renault-clio-probleme/"
-          ]
+          ],
+          "cozum": {
+            "metin": "Direksiyon çevrilirken gelen tıkırtı ve ağırlaşmanın en yaygın nedeni ön amortisör üst takozlarının (rulmanlı kupaların) aşınması; takozlar çift olarak değiştiriliyor. Lastiklerde düzensiz aşınma varsa rot ayarı, rotil boşluğu ve amortisörler de kontrol ediliyor.",
+            "kaynaklar": [
+              "https://www.whocanfixmycar.com/advice/common-problems-with-the-renault-clio",
+              "https://www.planeterenault.com/forum/clio-iii-bruit-de-direction-braquage-vers-la-droite-t25732.html?amp=1",
+              "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-106-pannes-renault-clio-3.php"
+            ]
+          }
         }
       ]
     },
@@ -203,7 +258,15 @@
             "https://www.araclo.com/blog/renault-clio-1.5-dci-incelemesi-kronik-sorunlar-yakit-tuketimi-ve-yorumlar",
             "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-357-pannes-renault-clio-4.php"
           ],
-          "sanziman": "EDC otomatik"
+          "sanziman": "EDC otomatik",
+          "cozum": {
+            "metin": "Servisler önce şanzıman beynine yazılım güncellemesi/kavrama adaptasyonu uyguluyor; bu çoğu zaman geçici rahatlama sağlıyor ve sarsıntı zamanla geri dönebiliyor. Zayıf akü de EDC hatalarını tetiklediğinden önce akü kontrol edilip gerekirse değiştiriliyor; kalıcı sorun sürerse kavrama seti, beyin ya da şanzıman değişimine gidiliyor.",
+            "kaynaklar": [
+              "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-357-pannes-renault-clio-4.php",
+              "https://forum.donanimhaber.com/renault-edc-kalkis-teklemesi--103615936",
+              "https://cliosport.net/threads/clio-edc-gearblx-problems.836881/"
+            ]
+          }
         },
         {
           "id": "enjektor-arizasi",
@@ -261,7 +324,14 @@
           "kaynaklar": [
             "https://www.araclo.com/blog/renault-clio-1.5-dci-incelemesi-kronik-sorunlar-yakit-tuketimi-ve-yorumlar",
             "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-357-pannes-renault-clio-4.php"
-          ]
+          ],
+          "cozum": {
+            "metin": "Renault 2014'te Clio IV dahil modellerde radyo/R-Link beynini yeniden programlayan (yazılım güncellemesi) kampanyalar yaptı; güncellemeye rağmen düzelmeyen bazı ünite garanti kapsamında komple değiştirildi. Anlık donmalarda sigortayı çıkarıp takarak sistemi sıfırlamak geçici çözüm oluyor.",
+            "kaynaklar": [
+              "https://www.largus.fr/actualite-automobile/renault-r-link-vers-la-fin-des-bugs-5284379.html",
+              "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-357-pannes-renault-clio-4.php"
+            ]
+          }
         },
         {
           "id": "h5ft-yag-tuketimi",
@@ -278,7 +348,15 @@
             "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-357-pannes-renault-clio-4.php",
             "https://www.quechoisir.org/actualite-moteur-1-2-renault-400-000-voitures-en-danger-n67215/"
           ],
-          "not": "Etkilenen H5Ft motorlar 1 Ekim 2012 – 20 Temmuz 2016 arasında üretildi. Üretici çözüm olarak yazılım güncellemesi, segman/motor bloğu ya da motor değişimi uyguladı."
+          "not": "Etkilenen H5Ft motorlar 1 Ekim 2012 – 20 Temmuz 2016 arasında üretildi. Üretici çözüm olarak yazılım güncellemesi, segman/motor bloğu ya da motor değişimi uyguladı.",
+          "cozum": {
+            "metin": "İlk adım, emme manifoldu basıncını düzelten motor beyni yazılım güncellemesi (gaz kelebeği açısını değiştiren kalibrasyon); yağ tüketimi 1.000 km'de 1 litreyi aşmaya devam ederse hasara göre segmanlar, piston-biyel grubu ya da komple motor değişiyor, bazı araçlarda zincir gergisi de yenileniyor. Renault bunu toplu geri çağırma yerine vaka bazında, bakım geçmişine bakarak karşılıyor.",
+            "onlem": "Bakımları plana uygun yaptırıp tüm faturaları saklayın; Renault katkısı için bu şart koşuluyor.",
+            "kaynaklar": [
+              "https://www.quechoisir.org/actualite-moteur-1-2-renault-400-000-voitures-en-danger-n67215/",
+              "https://www.planeterenault.com/forum/megane-iii-conso-huile-pour-le-moteur-h5f-1-2tce-130-type-bz16-t47353.html?amp=1"
+            ]
+          }
         },
         {
           "id": "0-9-termostat",

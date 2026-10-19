@@ -35,7 +35,15 @@
             "https://www.araclo.com/blog/volkswagen-golf-1.6-tdi-alinir-mi-kronik-sorunlar-ve-kullanici-yorumlari-2026",
             "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-358-pannes-volkswagen-golf-vii.php"
           ],
-          "sanziman": "DSG otomatik"
+          "sanziman": "DSG otomatik",
+          "cozum": {
+            "metin": "Erken aşamadaki kalkış sarsıntısında şanzıman yazılımının güncellenmesi ve kavrama adaptasyonunun VW teşhis cihazıyla sıfırlanması yardımcı olur; aşınma yazılımın telafi edebileceğinden fazlaysa çift kavrama seti değiştirilir. Basınç kaybı kodlarıyla (P189C, P1895 vb.) gelen mekatronik arızasında ünite ya komple değişir ya da yeniden üretilir; yeniden üretim yapan atölyeler sık bozulan iç parçaları daha dayanıklı revize parçalarla değiştiriyor, çünkü aynı tip yeni ünite de aynı şekilde bozulabiliyor.",
+            "onlem": "Dur-kalk trafikte sürekli yarım kavramayla sürünmekten kaçınmak ve ağırlıklı olarak akıcı yolda kullanmak kavrama ve mekatronik ömrünü uzatır.",
+            "kaynaklar": [
+              "https://www.ecutesting.com/common-faults/volkswagen/volkswagen-golf-audi-a3-dsg-7-gearbox-problem/",
+              "https://andcetin.com/dsg-problems-and-cars-without-dq200-transmission-39/"
+            ]
+          }
         },
         {
           "id": "egr-ve-dpf-tikanmasi",
@@ -51,7 +59,15 @@
           "kaynaklar": [
             "https://www.araclo.com/blog/volkswagen-golf-1.6-tdi-alinir-mi-kronik-sorunlar-ve-kullanici-yorumlari-2026",
             "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-358-pannes-volkswagen-golf-vii.php"
-          ]
+          ],
+          "cozum": {
+            "metin": "DPF lambası yandığında Volkswagen'in önerdiği yöntem: depo en az yarı doluyken durmadan 60 km/s üzerinde, yaklaşık 2.500-3.000 d/dk'da 25-30 dakika sürmek ve lamba söndükten sonra 10 dakika daha devam etmek; lamba sönmezse serviste zorlanmış rejenerasyon ya da DPF temizliği gerekir.",
+            "onlem": "Motor kısa şehir içi kullanımda tıkanmaya yatkın; aracı düzenli olarak yolda/otoyolda 60 km/s üzerinde yüksek devirde kullanmak DPF'nin kendiliğinden yanmasını sağlar.",
+            "kaynaklar": [
+              "https://www.volkswagen.com.au/en/owners-service/service-repairs-parts/diesel-particulate-filter.html",
+              "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-358-pannes-volkswagen-golf-vii.php"
+            ]
+          }
         },
         {
           "id": "kalorifer-ve-fan-motoru-arizasi",
@@ -67,7 +83,15 @@
           "kaynaklar": [
             "https://www.autodoc.co.uk/info/vw-golf-mk7-common-problems-faults-malfunctions-and-reliability",
             "https://hella.com/techworld/za/bi/vw-golf-7-interior-blower-failure"
-          ]
+          ],
+          "cozum": {
+            "metin": "Önce sigorta kontrol edilip klima/ısıtma beyninin arıza hafızası okunur: B10BE07 (mekanik hata) fan motorunu, B10BE31 (besleme/sinyal hatası) elektronik fan kontrol ünitesini (rezistans/regülatör) işaret eder ve ilgili parça değiştirilir. Klima kontrol ünitesi için yazılım güncellemesi olup olmadığı da kontrol edilmelidir, çünkü B10BE kodu ünite yazılımıyla da ilişkilendiriliyor.",
+            "kaynaklar": [
+              "https://hella.com/techworld/uk/bi/pdf/vw-golf-7-interior-blower-failure/vw-golf-7-interior-blower-failure.pdf",
+              "https://hella.com/techworld/za/bi/vw-golf-7-interior-blower-failure",
+              "https://uk.haynes.com/de/blogs/tips-tutorials/volkswagen-golf-mk7-common-problems"
+            ]
+          }
         },
         {
           "id": "yag-basinc-musiri-arizasi",
@@ -149,7 +173,16 @@
             "https://www.autodoc.co.uk/info/problems-vw-golf-8",
             "https://carwiki.de/vw-golf-8-probleme",
             "https://www.donanimhaber.com/volkswagen-golf-un-multimedya-sistemine-kapsamli-guncelleme--142726"
-          ]
+          ],
+          "cozum": {
+            "metin": "Temmuz 2020 sonundan önce teslim edilen yaklaşık 56.000 Golf 8 için VW, gönüllü servis kampanyasıyla (yaklaşık 1 gün) multimedya yazılımını güncelledi; Temmuz 2020 sonrası araçlar yeni sürümle fabrikadan çıktı. 2022 üretiminden itibaren daha güçlü yeni işlemcili (SoC) donanım geldi; eski araçlar donanımı alamıyor ama sistem yükünü azaltan optimize yazılımı serviste alabiliyor. Bazı sahipler güncellemelerden (ör. 1896 sürümü) sonra da sorunların sürdüğünü bildiriyor.",
+            "kaynaklar": [
+              "https://www.autohaus.de/nachrichten/serviceaktion-software-update-fuer-56-000-vw-golf-8-2830410.html",
+              "https://www.motor1.com/news/555179/2022-vw-golf-infotainment-upgrade/",
+              "https://www.donanimhaber.com/volkswagen-golf-un-multimedya-sistemine-kapsamli-guncelleme--142726",
+              "https://carwiki.de/vw-golf-8-probleme"
+            ]
+          }
         },
         {
           "id": "ecall-acil-cagri-hatasi",
@@ -166,7 +199,15 @@
             "https://winfuture.de/news,115878.html",
             "https://carwiki.de/vw-golf-8-probleme",
             "https://drive.co.uk/?p=125230"
-          ]
+          ],
+          "cozum": {
+            "metin": "Arızanın kaynağı çevrimiçi bağlantı ünitesinin (OCU3) verileri güvenilir aktaramayan yazılımıydı; VW bu ünite için yazılım güncellemesi geliştirdi ve 18 Kasım 2019 - 11 Mayıs 2020 arası üretilen araçlar geri çağırma kapsamında serviste güncellendi, sonraki üretime fabrikadan yüklendi. Güncellemeden sonra da uyarı veren araçlarda arıza garanti kapsamında giderilebiliyor.",
+            "kaynaklar": [
+              "https://www.carmag.co.za/news/volkswagen-restarts-golf-8-deliveries-after-fixing-software-glitch/",
+              "https://winfuture.de/news,115878.html",
+              "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-670-pannes-volkswagen-golf-viii.php"
+            ]
+          }
         },
         {
           "id": "dsg-dq200-vuruntu",
@@ -187,7 +228,13 @@
             "https://www.autodoc.co.uk/info/problems-vw-golf-8",
             "https://carwiki.de/vw-golf-8-probleme",
             "https://www.sikayetvar.com/volkswagen/golf-hybrid/golf-8-etsi"
-          ]
+          ],
+          "cozum": {
+            "metin": "Kalkış silkelemesi erken aşamada şanzıman yazılımı güncellemesi ve kavrama adaptasyonunun sıfırlanmasıyla azalabiliyor; aşınma ilerlemişse kuru çift kavrama seti değiştiriliyor (1.5 eTSI'de 74.000 km'de kavrama değişimi bildirilmiş). Hidrolik basınç düzensizliğinden kaynaklanan sert geçişlerde mekatronik onarılır ya da değiştirilir.",
+            "kaynaklar": [
+              "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-670-pannes-volkswagen-golf-viii.php"
+            ]
+          }
         },
         {
           "id": "surus-destek-sistemleri-hata",
@@ -203,7 +250,16 @@
             "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-670-pannes-volkswagen-golf-viii.php",
             "https://www.autodoc.co.uk/info/problems-vw-golf-8",
             "https://carwiki.de/vw-golf-8-probleme"
-          ]
+          ],
+          "cozum": {
+            "metin": "'Travel Assist şu anda kullanılamıyor' / 'Emergency Assist sınırlı' uyarısında arıza kayıtları okunur: neden direksiyondaki el algılama sensör matının donanım arızası ve J1158 dokunma algılama ünitesinin yazılım hatasıysa VW bülteni (TB 2070207) gereği direksiyon simidi komple değiştirilir. Ön kamera kaynaklı arızalarda önce kamera camının temizliği kontrol edilir; arızalı kamera değiştirilir, bazı vakalar yazılım güncellemesiyle çözülüyor.",
+            "kaynaklar": [
+              "https://static.nhtsa.gov/odi/tsbs/2024/MC-10253546-0001.pdf",
+              "https://static.nhtsa.gov/odi/tsbs/2023/MC-10236097-0001.pdf",
+              "https://carwiki.de/vw-golf-8-probleme",
+              "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-670-pannes-volkswagen-golf-viii.php"
+            ]
+          }
         },
         {
           "id": "12v-aku-bosalmasi",
@@ -236,7 +292,14 @@
             "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-670-pannes-volkswagen-golf-viii.php",
             "https://kfz-dietrich.com/blog/vw-golf-8-typische-probleme-odis-diagnose/",
             "https://carwiki.de/vw-golf-8-probleme"
-          ]
+          ],
+          "cozum": {
+            "metin": "VW, 1.5 TSI ailesindeki ısınma sırasındaki tekleme/sarsıntı (kangurulama) için Şubat 2020'den itibaren motor beyni yazılım güncellemesi yayınladı; güncelleme serviste yapılıyor ve sahiplere göre sorunu büyük ölçüde gideriyor ama tamamen değil. Sıcak motorda da sürerse bujiler, bobinler, emme sensörleri ve yakıt basıncı kontrol edilmeli.",
+            "kaynaklar": [
+              "https://www.seatcupra.net/forums/goto/post?id=5083860",
+              "https://www.fiches-auto.fr/fiabilite-volkswagen/fiabilite-670-pannes-volkswagen-golf-viii.php"
+            ]
+          }
         }
       ]
     }
