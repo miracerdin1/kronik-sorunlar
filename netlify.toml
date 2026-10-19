@@ -4,3 +4,6 @@
 
 [build.environment]
   NODE_VERSION = "22"
+  # Supabase (kullanıcı katkısı). İkisi de tarayıcıya giden herkese açık değerlerdir; gizli anahtar buraya yazılmaz.
+  NEXT_PUBLIC_SUPABASE_URL = "https://acibxcifowivdharomip.supabase.co"
+  NEXT_PUBLIC_SUPABASE_ANON_KEY = "sb_publishable_wDhRerm3vCUvKwya0DD-4Q_bfMI-mgz"
