@@ -32,6 +32,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <Link href="/" className="text-lg font-bold">
               Kronik<span className="text-red-600">Sorunlar</span>
             </Link>
+            <nav className="text-sm font-medium">
+              {/* Ayrı bir uygulama; kendi adresinde açılır. */}
+              <a href="https://yol-haritasi.netlify.app/" className="rounded-lg px-3 py-2 hover:bg-zinc-100 dark:hover:bg-zinc-800">
+                Yol Haritası
+              </a>
+            </nav>
           </div>
         </header>
         <main className="mx-auto w-full max-w-4xl flex-1 px-4 py-8">{children}</main>
